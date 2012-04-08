@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='pt'>
   <head>
-    <title>{{ page.title }}</title>
+    <title>{{ page.html_title }}</title>
     <meta charset='utf-8' />
     <meta content='' name='keywords' />
     <meta content='' name='description' />
@@ -9,6 +9,8 @@
     <meta content='©2012 BielSystems' name='copyright' />
     <meta content='index,follow' name='robots' />
     <link href='/favicon.ico' rel='shortcut icon' type='image/x-icon' />
+    <link href='/stylesheets/reset.css' media='all' rel='stylesheet' type='text/css' />
+    <link href='/stylesheets/global.css' media='all' rel='stylesheet' type='text/css' />
     <!--[if lt IE 9]>
       <script src='http://html5shim.googlecode.com/svn/trunk/html5.js'></script>
     <![endif]-->
@@ -25,6 +27,19 @@
     </script>
   </head>
   <body>
-    {{ content }}
+    <div id='wrap'>
+      <header>
+        <div id='logo'><a href='/'>
+          BielSystems - Desenvolvimento de Aplicativos Web
+        </a></div>
+        <h1>
+          {{ page.title }}
+        </h1>
+      </header>
+      <section>
+        {{ content }}
+      </section>
+      <footer></footer>
+    </div>
   </body>
 </html>

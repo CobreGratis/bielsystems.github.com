@@ -1,0 +1,31 @@
+/* RESET STYLES */
+
+html, body, div, h1, h2, h3, ul, ol, li, form, fieldset, select, input, textarea, p {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	background: transparent;
+}
+
+a, ins { text-decoration: none; }
+
+del { text-decoration: line-through; }
+
+hr { display: none; }
+
+ul, ol { list-style: none; }
+
+img, fieldset { border: none; }
+
+h1, h2, h3 { font-weight: normal; }
+
+em { font-style: italic; }
+
+strong { font-weight: bold; }
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header, nav, aside, section, footer { display: block; }
