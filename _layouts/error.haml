@@ -10,5 +10,7 @@
     %link{:rel => "shortcut icon", :href => "/favicon.ico", :type => "image/x-icon" }
     %link{:rel => "stylesheet", :href => "/stylesheets/error.css", :type => "text/css", :media => "screen" }
     %title {{ page.title }}
+    /[if lt IE 9]
+      %script{:src => "http://html5shim.googlecode.com/svn/trunk/html5.js"}
   %body
     == {{ content }}
