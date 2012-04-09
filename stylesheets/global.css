@@ -56,7 +56,8 @@ section {
 
 footer {
   padding: 20px 0 40px;
-  background: transparent url("/images/line-break.png") repeat-x top left; }
+  border-top: 1px solid #999999;
+  background: transparent url("/images/footer-bg.png") repeat-x top left; }
   footer #footer-content {
     color: #999999;
     width: 940px;
