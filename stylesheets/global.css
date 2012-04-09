@@ -69,12 +69,14 @@ footer {
       font-weight: bold;
       color: #696969; }
     footer #footer-content #copyright {
-      margin: 1em 0 0 0; }
+      margin: 1em 0 0 0;
+      text-align: center; }
     footer #footer-content nav ul#links li {
       padding: 0 0 4px; }
       footer #footer-content nav ul#links li a {
         color: #1253a5; }
       footer #footer-content nav ul#links li a:hover {
+        color: #1253a5;
         border-bottom: 1px solid #999999; }
     footer #footer-content nav p {
       font-size: 0.8em;
