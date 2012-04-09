@@ -22,11 +22,11 @@ header
     color: #404040
     font-size: 28px
     line-height: 24px
-    margin-bottom: 32px
+    amargin-bottom: 32px
 
 section
   width: 783px
-  margin: 0 auto
+  margin: 60px auto
   ul
     list-style: none
     margin-top: 20px
@@ -41,3 +41,46 @@ section
     border: none
     margin-bottom: 10px
     -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,.3)
+
+
+.column-quarter
+  width: 220px
+  margin-right: 20px
+  float: left
+
+.column-quarter + .column-quarter + .column-quarter + .column-quarter
+  margin-right: 0
+
+.column-half
+  width: 460px
+  float: left
+  
+
+footer
+  padding: 20px 0 40px
+  background: transparent url("/images/line-break.png") repeat-x top left
+
+  #footer-content
+    color: #999
+    width: 940px
+    margin: 0 auto
+    padding: 0 10px
+    font-size: .9em
+    h1
+      margin-bottom: .4em
+      font-weight: bold
+      color: #696969
+    #copyright
+      margin: 1em 0 0 0
+      text-align:center
+    nav
+      ul#links
+        li
+          padding: 0 0 4px
+          a
+            color: #1253A5
+          a:hover
+            border-bottom: 1px solid #999
+      p
+        font-size: 0.8em
+        line-height: 1.8em
