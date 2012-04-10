@@ -1,0 +1,14 @@
+%head
+  %title {{ page.html_title }}
+  %meta{:charset => "utf-8"}
+  %meta{:name => "keywords", :content => "" }
+  %meta{:name => "description", :content => "" }
+  %meta{:name => "author", :content => "BielSystems - http://bielsystems.com.br" }
+  %meta{:name => "copyright", :content => "©#{Date.today.year} BielSystems" }
+  %meta{:name => "robots", :content => "index,follow" }
+  %link{:rel => "shortcut icon", :href => "/favicon.ico", :type => "image/x-icon" }
+  %link{:rel => "stylesheet", :href => "/stylesheets/reset.css", :type => "text/css", :media => "all" }
+  %link{:rel => "stylesheet", :href => "/stylesheets/global.css", :type => "text/css", :media => "all" }
+  /[if lt IE 9]
+    %script{:src => "http://html5shim.googlecode.com/svn/trunk/html5.js"}
+  {% include google_analytics.ext %}
