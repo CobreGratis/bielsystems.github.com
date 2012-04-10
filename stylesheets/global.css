@@ -50,6 +50,8 @@ section {
     line-height: 1.5em;
     font-weight: 300;
     margin: 0 0 1em; }
+  section ol {
+    margin: 1em 0; }
   section li {
     font-size: 20px;
     line-height: 1.5em;
