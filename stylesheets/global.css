@@ -5,7 +5,11 @@ a {
   color: #1253a5; }
 
 a:hover {
-  color: #1253a5; }
+  color: #1253a5;
+  border-bottom: 1px solid #1253a5; }
+
+a.noborder {
+  border-bottom: none; }
 
 header {
   width: 940px;
@@ -34,10 +38,6 @@ section {
   margin: 20px auto; }
   section article {
     margin: 4em 0; }
-    section article a:hover {
-      border-bottom: 1px solid #999999; }
-    section article a.noborder {
-      border-bottom: none; }
   section article.quotes {
     margin: 4em 0;
     text-align: center;
