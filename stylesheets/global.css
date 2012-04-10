@@ -27,16 +27,20 @@ header {
     font-weight: bold;
     color: #404040;
     font-size: 28px;
-    line-height: 24px;
-    amargin-bottom: 32px; }
+    line-height: 24px; }
 
 section {
   width: 783px;
   margin: 20px auto; }
-  section article a:hover {
-    border-bottom: 1px solid #999999; }
-  section article a.noborder {
-    border-bottom: none; }
+  section article {
+    margin: 4em 0; }
+    section article a:hover {
+      border-bottom: 1px solid #999999; }
+    section article a.noborder {
+      border-bottom: none; }
+  section h2 {
+    font-weight: 500;
+    font-size: 22px; }
   section p {
     font-size: 20px;
     line-height: 1.5em;
