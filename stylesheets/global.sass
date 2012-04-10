@@ -1,6 +1,11 @@
 body
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
 
+a
+  color: #1253A5
+a:hover
+  color: #1253A5
+
 header
   width: 940px
   margin: 0 auto
@@ -26,17 +31,31 @@ header
 
 section
   width: 783px
-  margin: 60px auto
-  ul
+  margin: 20px auto
+  article
+    a:hover
+      border-bottom: 1px solid #999
+    a.noborder
+      border-bottom: none
+  p
+    font-size: 20px
+    line-height: 1.5em
+    font-weight: 300
+    margin: 0 0 1em
+  li
+    font-size: 20px
+    line-height: 1.5em
+    font-weight: 300  
+  ul#products
     list-style: none
     margin-top: 20px
     overflow: hidden
-  li
-    font-size: 20px
-    float: left
-    width: 360px
-  li:nth-child(odd)
-    margin-right: 60px
+    li
+      font-size: 20px
+      float: left
+      width: 360px
+    li:nth-child(odd)
+      margin-right: 60px
   img
     border: none
     margin-bottom: 10px
@@ -78,11 +97,6 @@ footer
       ul#links
         li
           padding: 0 0 4px
-          a
-            color: #1253A5
-          a:hover
-            color: #1253A5
-            border-bottom: 1px solid #999
       p
         font-size: 0.8em
         line-height: 1.8em
