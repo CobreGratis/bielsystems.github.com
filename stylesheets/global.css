@@ -58,10 +58,10 @@ section {
     font-weight: 300; }
   section ul#products {
     list-style: none;
-    margin-top: 20px;
+    margin: 40px 0;
     overflow: hidden; }
     section ul#products li {
-      font-size: 20px;
+      font-size: 16px;
       float: left;
       width: 360px; }
     section ul#products li:nth-child(odd) {
@@ -121,7 +121,7 @@ footer {
       font-weight: bold;
       color: #696969; }
     footer #footer-content #copyright {
-      margin: 1em 0 0 0;
+      margin: 2em 0 0 0;
       text-align: center; }
     footer #footer-content nav ul#links li {
       padding: 0 0 4px; }
