@@ -121,7 +121,7 @@ footer {
   width: 100%;
   position: absolute;
   bottom: 0;
-  padding: 20px 0 40px;
+  padding: 20px 0 20px;
   border-top: 1px solid #999999;
   background: transparent url("/images/footer-bg.png"); }
   footer #footer-content {
