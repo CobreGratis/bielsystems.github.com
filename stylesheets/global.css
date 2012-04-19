@@ -125,6 +125,8 @@ footer {
       text-align: center; }
     footer #footer-content nav ul#links li {
       padding: 0 0 4px; }
+      footer #footer-content nav ul#links li a {
+        color: white; }
     footer #footer-content nav p {
       font-size: 0.8em;
       line-height: 1.8em;
