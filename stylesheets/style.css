@@ -20,115 +20,112 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-family:arial;
 }
 
-/**PATTERN**/
-
-p{
-color:#ccc;
-font-family:arial;
+body {
+  background-image:url(../images/bg-bottom.png);
 }
 
-a{
-color:#999;
-font-family:arial;
+/**PATTERN**/
+p {
+  color:#ccc;
+  font-family:arial;
+}
+
+a {
+  color:#999;
+  font-family:arial;
 }
 
 h1 a {
-display:block;
-width:282px; height:430px;
-margin:0 auto;
-background-image:url(../images/logo.png);
-background-repeat:no-repeat;
-background-position:center;
-padding:60px 0;
+  display:block;
+  width:282px; height:430px;
+  margin:0 auto;
+  background-image:url(../images/logo.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  padding:60px 0;
 }
 
 
-h2{
-color:#d92727;
-text-transform: uppercase;
-font-size:21px;
-font-family:arial;
+h2 {
+  color:#d92727;
+  text-transform: uppercase;
+  font-size:21px;
+  font-family:arial;
 }
 
 /**HEADER**/
-
-
-header#header-container{
-background-image:url(../images/bg-top.png);
+header {
+  background-image:url(../images/bg-top.png);
 }
 
-div#header{
-width:960px;
-margin:0 auto;
+div#header {
+  width:960px;
+  margin:0 auto;
 }
 
 
-h1 a span{
-display:none;
+h1 a span {
+  display:none;
 }
 
 /**CONTENT**/
-
-section#content-container{
-background-image:url(../images/bg-bottom.png);
-padding-bottom:30px;
+section {
+  background:url("../images/pinball.png") no-repeat center;
+  padding-bottom:30px;
 }
 
-div#content{
-width:1278px;
-margin:0 auto;
-background-image:url(../images/pinball.png);
-height:825px;
-background-repeat:no-repeat;
-background-position: 0px 0px;
-position:relative;
+div#content {
+  width:960px;
+  margin:0 auto;
+  height:825px;
+  background-repeat:no-repeat;
+  background-position: 0px 0px;
+  position:relative;
 }
 
-article#content-inner{
-padding:135px 0 0 0;
-width:300px;
-margin: auto;
+article {
+  padding:135px 0 0 0;
+  width:300px;
+  margin: auto;
 }
 
-a.block{
-display:block;
-width:65px;
-height:80px;
-position:absolute;
+a.block {
+  display:block;
+  width:65px;
+  height:80px;
+  position:absolute;
 }
 
 
-a.block span{
-display:none;
+a.block span {
+  display:none;
 }
 
-a.videos{
-left:355px;
-top:300px;
+a.videos {
+  left:195px;
+  top:320px;
 }
 
-a.twitter{
-left:395px;
-top:400px;
+a.twitter {
+  left:235px;
+  top:410px;
 }
 
-a.imprensa{
-right:345px;
-top:300px;
+a.imprensa {
+  right:185px;
+  top:320px;
 }
 
-a.email{
-right:385px;
-top:400px;
+a.email {
+  right:225px;
+  top:410px
 }
 
 
 /**Footer**/
-
-
-footer{
-text-align:center;
-background-color:#111;
-padding:10px 0;
+footer {
+  text-align:center;
+  background-color:#111;
+  padding:10px 0;
 }
 

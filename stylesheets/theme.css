@@ -22,10 +22,10 @@ html {
 	background-color:transparent;
 }
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
-	background:transpa;
- border:1px solid Background color 'transpa' is not a hex color value.#;
- border-bottom:1px solid Background color 'transpa' is not a hex color value.#;
- border-right:1px solid Background color 'transpa' is not a hex color value.#;
+  background:transpa;
+  border:1px solid Background color 'transpa' is not a hex color value.#;
+  border-bottom:1px solid Background color 'transpa' is not a hex color value.#;
+  border-right:1px solid Background color 'transpa' is not a hex color value.#;
 }
 .safari .wufoo select.select {
 	font-size:100% !important;
