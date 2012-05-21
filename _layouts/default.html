@@ -2,18 +2,22 @@
 <html lang='pt'>
   {% include head.html %}
   <body>
-    <div id="header-container">
+    <header id="header-container">
       <div id="header">
       	<h1><a href="index.html"><span>HE:labs</span></a></h1>
-      </div>    
-    </div>
-    <div id="content-container">
+      </div>
+    </header>    
+    <section id="content-container">
       <div id="content">
+        <a class="block videos" href="http://www.videolog.tv/busca.php?q=startup+dev&amp;sa=buscar"><span>VIDEOS</span></a>
+        <a class="block twitter" href="http://twitter.com/#!/helabshq"><span>TWITTER</span></a>
+        <a class="block imprensa" href="http://imprensa.helabs.com.br/"><span>IMPRENSA</span></a>
+        <a class="block email" href="mailto:contato@helabs.com.br"><span>EMAIL</span></a>
         {{ content }}
       </div>
-    </div>
-    <div id="footer">
+    </section>
+    <footer>
       <p>HE:labs 2012. All Rights reserved</p>
-    </div>
+    </footer>
   </body>
 </html>
