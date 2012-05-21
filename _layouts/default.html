@@ -1,57 +1,19 @@
 <!DOCTYPE html>
 <html lang='pt'>
   {% include head.html %}
-  <body>
-    <div id='wrap'>
-      <header>
-        <div id='logo'><a class='noborder' href='/'>
-          Helabs - Desenvolvimento de software para internet
-        </a></div>
-        <h1>
-          {{ page.title }}
-        </h1>
-      </header>
-      <section>
-        {{ content }}
-      </section>
-      <footer>
-        <div id='footer-content'>
-          <nav class='column-quarter'>
-            <h1></h1>
-            <ul id='links'>
-              <!--li>
-                <a href='http://imprensa.helabs.com.br/'>Releases</a>
-              </li-->
-            </ul>
-          </nav>
-          <nav class='column-quarter'>
-            <h1></h1>
-            <ul id='links'>
-            </ul>
-          </nav>
-          <nav class='column-quarter'>
-            <h1></h1>
-            <ul id='links'>
-            </ul>
-          </nav>
-          <nav class='column-quarter'>
-            <h1></h1>
-            <img src="/images/map.png">
-            <p>
-              Helabs Tecnologia da Informação Ltda.
-              <br />
-              Av. Presidente Vargas, 633, sala 1716
-              <br />
-              Centro - Rio de Janeiro - RJ - Brasil
-              <br />
-              CEP: 20071-004
-              <br />
-              Telefone: 21 2507-5307
-            </p>
-          </nav>
-          <div style='clear: both;'></div>
-        </div>
-      </footer>
-    </div>
-  </body>
+<body>
+<div id="header-container">
+<div id="header">
+	<h1><a href="index.html"><span>HE:labs</span></a></h1>
+</div>    
+</div>
+<div id="content-container">
+  <div id="content">
+    {{ content }}
+  </div>
+</div>
+<div id="footer">
+<p>HE:labs 2012. All Rights reserved</p>
+</div>
+</body>
 </html>
