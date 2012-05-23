@@ -24,6 +24,13 @@ body {
   background-image:url(../images/bg-bottom.png);
 }
 
+#fork-me {
+  border: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 /**PATTERN**/
 p {
   color:#ccc;
