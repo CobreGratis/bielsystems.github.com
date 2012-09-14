@@ -290,7 +290,10 @@ footer {
 	bottom: 15px;
 	width: 960px;
 }
+footer a,
+footer a:hover,
 footer p {
+  margin: 0.2em;
 	color: #fff;
 	text-align: center;
 	font-weight: bold;
