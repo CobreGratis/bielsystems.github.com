@@ -22,7 +22,6 @@ h1 a {
 	display: block;
 	width: 217px;
 	height: 115px;
-	background-color: red;
 	background-image: url(/images/logo.jpg);
 	float: left;
 }
@@ -168,10 +167,31 @@ box-shadow:  0px 2px 30px 2px rgba(0, 0, 0, 0.2);
 	font-weight: bold;
 }
 #home h2 span {
-	background-color: #b80606;
+	background-color: #000;
 	line-height: 90px;
 	padding: 5px 20px;
 	opacity: 0.8;
+}
+
+#home a{
+	float: left;
+	text-align: center;
+	opacity: 0.8;
+	margin: 20px 10px;
+}
+
+#home a:hover{
+	opacity: 0.9;
+}
+
+#home ul li  {
+	list-style: none;
+
+}
+
+#home ul{
+	width: 300px;
+	margin:0px auto;
 }
 
 /*====================*/
