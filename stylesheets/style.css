@@ -83,9 +83,17 @@ a.digitalbusinessdev{
 	background-repeat: no-repeat;
 }
 
-a.desenvolvimentocontinuado{
-	background-image: url(/images/service-desenvolvimento-continuado.png);
-	background-repeat: no-repeat;
+.desenvolvimentocontinuado{
+  display: block;
+  width:302px;
+  height:116px;
+  float:left;
+  margin-right:25px;
+  color: #444;
+  text-decoration: none;
+  background-image: url(/images/service-desenvolvimento-continuado.png);
+  background-repeat: no-repeat;
+  text-indent: -9999px;
 }
 
 a.service span{
