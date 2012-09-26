@@ -83,6 +83,20 @@ a.digitalbusinessdev{
 	background-repeat: no-repeat;
 }
 
+.desenvolvimentomobile{
+  display: block;
+  width:302px;
+  height:116px;
+  float:left;
+  margin-right:25px;
+  color: #444;
+  text-decoration: none;
+  background-image: url(/images/service-desenvolvimento-mobile.png);
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+
+}
+
 .desenvolvimentocontinuado{
   display: block;
   width:302px;
