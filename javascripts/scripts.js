@@ -5,5 +5,11 @@ $(document).ready(function(){
     duration: 1000,
     axis: 'y'
   });
+
+  $(window).scroll(function(){
+    var posX = $(window).scrollTop() - ($(window).scrollTop() * 40/100) + "px";
+    $("#home").css({backgroundPosition: "50% " + posX });
   });
+
+});
   
