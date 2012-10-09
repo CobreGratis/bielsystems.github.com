@@ -1,51 +1,6 @@
 <!DOCTYPE html>
 <html lang='pt'>
-<head>
-  <title>HE:labs - Desenvolvimento de Software para Internet.</title>
-  <meta charset='utf-8' />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="keywords" content="he:labs, helabs, web software development, web, desenvolvimento, web, sistemas, saas, cloud, programação, ruby, startup, aplicativos, aplicações, software, sistemas, rails, lean" />
-  <meta name="description" content="HE:labs é uma empresa pioneira em desenvolvimento de sistemas web, aplicativos web, SaaS e Cloud Computing." />
-  <meta name="author" content="HE:labs - http://helabs.com.br" />
-  <meta property="og:title" content="HE:labs - Desenvolvimento de Software para Internet."/>
-  <meta property="og:site_name" content="helabs.com.br"/>
-  <meta property="og:image" content="http://helabs.com.br/images/logo_sq.jpg"/>
-  <meta property="og:description" content="HE:labs é uma empresa pioneira em desenvolvimento de sistemas web, aplicativos web, SaaS e Cloud Computing." />
-
-
-  <meta content='©2012 HE:labs' name='copyright' />
-  <meta name="robots" content="index,follow" />
-  <link rel="icon" type="image/png" href="/favicon.png">
-  <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="screen" />
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-  <script src="/javascripts/jquery.scrollTo.js"></script>
-  <script src="/javascripts/jquery.localScroll.js"></script>
-  <script src="/javascripts/scripts.js"></script>
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-16326763-1']);
-    _gaq.push(['_setDomainName', 'helabs.com.br']);
-    _gaq.push(['_trackPageview']);
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-  <script type="text/javascript">
-    var __lc = {};
-    __lc.license = 1517582;
-    __lc.skill = 2;
-
-    (function() {
-      var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
-      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
-    })();
-  </script>
-</head>
-<body>
+  {% include head.html %}<body>
   <header>
     <div class="containner">
     	<h1><a class="back-to-home" href="#home"><span>HE:labs</span></a></h1>
@@ -61,5 +16,6 @@
     </div>
   </header>
   {{ content }}
+  {% include footer.html %}
 </body>
 </html>
