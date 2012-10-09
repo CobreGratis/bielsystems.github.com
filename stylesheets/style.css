@@ -413,6 +413,7 @@ a.product span{
 	padding: 15px;
 	font-size: 18px;
 	font-weight: bold;
+  margin-bottom:10px;
 }
 #faleconosco textarea {
 	background-color: black;
@@ -447,6 +448,174 @@ footer p {
 	font-size: 11px;
 	text-decoration: none;
 }
+
+#cover{
+  margin-top:115px;
+	height:275px;
+	background-image: url(/images/workshop-startup-dev-bg.jpg);
+	}
+
+#cover h2{
+  display:block;
+  width:960px;
+  height:275px;
+	background-image: url(/images/workshop-startup-dev-logo.png);
+	background-repeat: no-repeat;
+  margin:0 auto;
+}
+
+#cover h2 span{
+	display:none;
+}
+
+#workshop ul li{
+	list-style:none;
+  padding-left:20px;
+  background-image: url(/images/bullet.jpg);
+  background-repeat:no-repeat;
+  background-position:left center;
+ 	font-size: 13px;
+	color: #888;
+}
+
+#workshop ul {
+margin-bottom:20px;
+}
+
+#workshop h2 {
+	color: #444444;
+  font-size:22px;
+  padding-top:40px;
+  
+}
+
+#workshop h3 {
+font-weight:300;
+text-transform:none;
+font-size:23px;
+padding-top:10px;
+line-height:20px;
+  margin-bottom:25px;
+}
+
+#workshop h4 {
+  font-weight:700;
+  margin: 30px 0 10px 0;
+}
+
+#workshop #left{
+  width:560px;
+  float:left;
+}
+
+#workshop #left p{
+margin-bottom:15px;
+}
+
+#workshop #right{
+	width:360px;
+	float:right;
+}
+
+.price{
+	font-size:40px;
+	font-weight: 900;
+  color:#222;
+}
+
+#workshop #right h3{
+	text-transform:uppercase;
+  margin:15px 0 10px 0; 
+}
+
+
+.subscribe-workshop{
+	background-color: #b80606;
+  padding: 20px;
+  display:block;
+  text-align:center;
+  width:270px;
+  border-radius: 6px;
+  text-decoration:none;
+  text-transform:uppercase;
+  color:#fff;
+  margin-top: 15px;
+}
+
+.subscribe-workshop:hover{
+opacity:0.9;
+}
+
+#badge{
+  width:360px;
+}
+.chopp{
+	background-image: url(/images/badge-chopp-garantido.png);
+ 	background-repeat: no-repeat;
+  background-position:left;
+  height:192px;
+  width:231px;
+  margin:0 auto;
+}
+
+#mailing-helabs{
+background-image: url(/images/mailing-bg.png);
+  width:550px;
+  height:167px;
+}
+
+#mailing-helabs h2{
+font-size:18px;
+  padding-top:55px;
+}
+
+#mailing-helabs input[type="text"]{
+margin:26px 0 0 10px;
+  width:425px;
+  border:none;
+  font-size:14px;
+}
+
+#mailing-helabs input[type="submit"]{
+background-color:#b80606;
+  padding:8px;
+  border:0px;
+  border-radius:6px;
+  color:#fff;
+  font-size:12px;
+  text-transform:uppercase;
+  font-weight:700;
+}
+
+#mailing-helabs input[type="submit"]:hover{
+  opacity:0.9;
+}
+
+#mailing-helabs a{
+  display:block;
+	margin:12px 0 0 10px;
+  font-size:13px;
+  color:#333;
+  
+}
+
+#mailing-helabs a span{
+	color: #b80606;
+  text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
