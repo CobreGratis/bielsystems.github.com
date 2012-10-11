@@ -592,6 +592,10 @@ font-size:18px;
   padding-top:55px;
 }
 
+#mailing-helabs a{
+width:300px;
+}
+
 #mailing-helabs input[type="text"], #mailing-helabs input[type="email"]{
 margin:26px 0 0 10px;
   width:425px;
@@ -626,6 +630,8 @@ background-color:#b80606;
 	color: #b80606;
   text-decoration:none;
 }
+
+
 
 
 
