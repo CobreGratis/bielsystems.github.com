@@ -15,7 +15,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 /*====================*/
-/*=== Patterns ===*/
+/*===== Patterns =====*/
 /*====================*/
 
 h1 a {
@@ -130,7 +130,7 @@ div.service img {
 }
 
 /*====================*/
-/*=== Header ===*/
+/*====== Header ======*/
 /*====================*/
 
 header {
@@ -147,7 +147,7 @@ box-shadow:  0px 2px 30px 2px rgba(0, 0, 0, 0.2);
 }
 
 /*====================*/
-/*=== Nav ===*/
+/*======== Nav =======*/
 /*====================*/
 
 #menu {
@@ -217,7 +217,7 @@ box-shadow:  0px 2px 30px 2px rgba(0, 0, 0, 0.2);
 }
 
 /*====================*/
-/*=== Fazemos ===*/
+/*===== Fazemos ======*/
 /*====================*/
 #fazemos {
 	background-image: url(/images/bg-fazemos.jpg);
@@ -227,7 +227,7 @@ box-shadow:  0px 2px 30px 2px rgba(0, 0, 0, 0.2);
 }
 
 /*====================*/
-/*=== Time ===*/
+/*======= Time =======*/
 /*====================*/
 
 #time .sub {
@@ -319,7 +319,7 @@ box-shadow:  0px 2px 30px 2px rgba(0, 0, 0, 0.2);
 }
 
 /*====================*/
-/*=== Produtos ===*/
+/*===== Produtos =====*/
 /*====================*/
 #products {
 	background-image: url(/images/bg-fazemos.jpg);
@@ -434,7 +434,7 @@ a.product span{
 }
 
 /*====================*/
-/*=== Footer ===*/
+/*====== Footer ======*/
 /*====================*/
 
 footer {
@@ -472,31 +472,59 @@ footer p.copyright{
   margin-top:40px;
 }
 
-#cover{
-  margin-top:115px;
-	height:275px;
-	background-image: url(/images/workshop-startup-dev-bg.jpg);
-	}
 
-#cover h2{
-  display:block;
-  width:960px;
-  height:275px;
-	background-image: url(/images/workshop-startup-dev-logo.png);
-	background-repeat: no-repeat;
-  margin:0 auto;
+/*=====================*/
+/*== Workshop Covers ==*/
+/*=====================*/
+
+
+#cover{
+ 	margin-top:115px;
+	height:275px;
 }
 
 #cover h2 span{
 	display:none;
 }
 
+.cover-workshop-startup-dev{
+	background-image: url(/images/workshop-startup-dev-bg.jpg);
+}
+.cover-rails-for-zombies-2{
+	background-image: url(/images/workshop-rails-for-zombies-2-bg.jpeg);
+	background-position:top center;
+}
+
+.cover-workshop-startup-dev h2{
+	display:block;
+	width:960px;
+	height:275px;
+	background-image: url(/images/workshop-startup-dev-logo.png);
+	background-repeat: no-repeat;
+	margin:0 auto;
+}
+
+.cover-rails-for-zombies-2 h2{
+	display:block;
+	width:960px;
+	height:250px;
+	background-image: url(/images/workshop-rails-for-zombies-2-codeschool.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin:0 auto;
+}
+
+
+/*=====================*/
+/*=== Workshop Page ===*/
+/*=====================*/
+
 #workshop ul li{
 	list-style:none;
-  padding-left:20px;
-  background-image: url(/images/bullet.jpg);
-  background-repeat:no-repeat;
-  background-position:left center;
+  	padding-left:20px;
+ 	background-image: url(/images/bullet.jpg);
+ 	background-repeat:no-repeat;
+  	background-position:left center;
  	font-size: 13px;
 	color: #888;
 }
@@ -572,6 +600,14 @@ opacity:0.9;
 #badge{
   width:360px;
 }
+
+#badge ul li{
+	display:inline;
+	list-style:none;
+	padding: 0;
+	background: none;
+}
+
 .chopp{
 	background-image: url(/images/badge-chopp-garantido.png);
  	background-repeat: no-repeat;
@@ -580,6 +616,10 @@ opacity:0.9;
   width:231px;
   margin:0 auto;
 }
+
+/*=====================*/
+/*== Mailing He:labs ==*/
+/*=====================*/
 
 #mailing-helabs{
 background-image: url(/images/mailing-bg.png);
