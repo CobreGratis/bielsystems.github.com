@@ -129,6 +129,8 @@ div.service img {
 	margin: 0 auto;
 }
 
+input:focus{outline:none;}
+
 /*====================*/
 /*====== Header ======*/
 /*====================*/
