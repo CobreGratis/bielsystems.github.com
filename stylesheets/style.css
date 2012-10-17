@@ -483,7 +483,6 @@ footer p.copyright{
 
 
 #cover{
- 	margin-top:115px;
 	height:275px;
 }
 
@@ -522,6 +521,10 @@ footer p.copyright{
 /*=====================*/
 /*=== Workshop Page ===*/
 /*=====================*/
+
+#workshop{
+	padding-top:115px;
+}
 
 #workshop ul li{
 	list-style:none;
@@ -676,7 +679,7 @@ background-color:#b80606;
 }
 
 #instructors{
-margin:50px 0 0 0;
+margin:130px 0 0 0;
 }
 
 h3.teaser-zombies{
@@ -691,8 +694,9 @@ width:800px;
 div.teaser-zombies{
 	margin:0px auto; 
 	text-align:center; 
-  background-image: url(/images/teaser-zombies.jpg);
-  padding: 90px 0;
+  background-image: url(/images/teaser-zombies-bg.jpg);
+  background-repeat: no-repeat;
+  padding: 170px 0 130px 0;
 }
 
 div.teaser-zombies p{
@@ -771,6 +775,8 @@ div.zombie-mauro{
 float:right;
   margin-top:110px;
 }
+
+
 
 
 
