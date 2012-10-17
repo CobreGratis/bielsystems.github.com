@@ -18,6 +18,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /*===== Patterns =====*/
 /*====================*/
 
+
 h1 a {
 	display: block;
 	width: 217px;
@@ -48,6 +49,7 @@ p {
 	font-size: 13px;
 	color: #888;
 }
+
 div.service {
 	width: 960px;
 	height:116px;
@@ -600,7 +602,7 @@ opacity:0.9;
 }
 
 #badge{
-  width:360px;
+  width:361px;
 }
 
 #badge ul li{
@@ -673,25 +675,102 @@ background-color:#b80606;
   text-decoration:none;
 }
 
+#instructors{
+margin:50px 0 0 0;
+}
+
+h3.teaser-zombies{
+width:800px;
+  text-align:center;
+  margin:0 auto;
+  font-size:30px;
+  margin-bottom:30px;
+  font-weight:300;
+}
+
+div.teaser-zombies{
+	margin:0px auto; 
+	text-align:center; 
+  background-image: url(/images/teaser-zombies.jpg);
+  padding: 90px 0;
+}
+
+div.teaser-zombies p{
+font-size:18px;
+  color:#000;
+  margin-bottom:30px;
+  background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  padding:10px;
+  width:700px;
+  margin: 0 auto;
+}
 
 
+.subscribe-workshop-big{
+	background-color: #b80606;
+  padding: 20px;
+  display:block;
+  text-align:center;
+  width:470px;
+  border-radius: 8px;
+  text-decoration:none;
+  text-transform:uppercase;
+  color:#fff;
+  margin:0 auto;
+  margin-top: 15px;
+  font-size: 25px;
 
+  
+}
 
+.subscribe-workshop-big:hover{
+opacity:0.9;
+}
 
+.instructors-rails-for-zombies-2{
+background-image: url(/images/instructors-bg-full.jpg);
+}
 
+div.zombies{
+background-image: url(/images/zombies.jpg);
+  height: 688px;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+div.zombies h2{
+	color: #fff;
+  font-size:22px;
+  padding-top:70px;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
 
+div.zombies h3{
+	color: #fff;
+  font-size:60px;
+  font-weight:300;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 0;
+}
+div.zombies p{
+font-size:16px;
+  color:#fff;
+  margin-top:10px;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
 
+}
 
+div.zombie-rodrigo{
+  width:520px;
+  float:left;
+}
 
-
-
-
-
-
-
-
-
-
+div.zombie-mauro{
+  width:530px;
+float:right;
+  margin-top:110px;
+}
 
 
 
