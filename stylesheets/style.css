@@ -776,19 +776,126 @@ float:right;
   margin-top:110px;
 }
 
+/*=====================*/
+/*=== Mailing Page ===*/
+/*=====================*/
+
+.cover-mailing-page{
+	background-image: url(/images/mailing-cover-bg.jpg);
+	background-position: bottom center;
+  padding-top:120px;
+}
+
+.cover-mailing-page h2{
+  padding:0px;
+  margin:0px;
+color:#b80606;
+font-size:30px;
+text-transform:none;
+width:600px;
+line-height:30px;
+  margin-bottom:35px;
+}
+
+#mailing-page{
+padding-bottom:50px;
+}
+
+#mailing-page h3{
+font-size:28px;
+  margin:40px 0;
+}
+
+#mailing-page ul li{
+list-style:none;
+  width:960px;
+  display:block;
+  /**background-color:rgba(0, 0, 0, 0.1);**/
+  padding-top:20px;
+  padding-bottom:8px;
+  border-bottom:1px solid #f5f5f5;
+}
+
+#mailing-page ul li:hover{
+background-color:#fbfbfb;
+}
+
+#mailing-page ul li:last-child{
+  border-bottom:none;
+}
+
+#mailing-page ul li img{
+float:left;
+  margin-right:30px;
+}
+
+#mailing-page ul li span{
+font-size:23px;
+  font-weight:300;
+  color:#888;
+}
+
+#mailing-page ul li h4{
+font-size:23px;
+  font-weight:400;
+  color:#b80606;
+  margin-bottom:20px;
+}
+
+#mailing-page ul li p{
+font-size:16px;
+}
 
 
 
+.mailing-form{
+  padding-top:55px;
+margin-left:250px;
+  /**background-color:rgba(0, 0, 0, 0.1);**/
+}
 
+.mailing-form p{
+margin-top:15px;
+}
 
+.mailing-form p a{
+font-size:11px;
+  color:#666;
+}
 
+.mailing-form img{
+float:right;
+  margin: 11px 60px 0 0;
+}
 
+.cover-mailing-page div.containner{
+  height:275px;
+  background-image: url(/images/mailing-page-containner-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.cover-mailing-page div.containner input[type="text"], .cover-mailing-page div.containner input[type="email"]{
+margin:0px 0 0 10px;
+  width:531px;
+  border:none;
+  font-size:14px;
+}
 
+.cover-mailing-page div.containner input[type="submit"]{
+background-color:#b80606;
+  padding:8px;
+  border:0px;
+  border-radius:6px;
+  color:#fff;
+  font-size:12px;
+  text-transform:uppercase;
+  font-weight:700;
+}
 
-
-
-
+.cover-mailing-page div.containner input[type="submit"]:hover{
+  opacity:0.9;
+}
 
 
 
