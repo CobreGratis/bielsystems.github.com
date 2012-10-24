@@ -41,6 +41,9 @@ header.landingpage h1 a span {
   display: none;
 }
 
+a, a:active, a:visited{
+  color: #b80606;
+}
 
 #single-page h2 {
   font-size: 72px;
