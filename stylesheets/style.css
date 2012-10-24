@@ -897,5 +897,81 @@ background-color:#b80606;
   opacity:0.9;
 }
 
+/*=====================*/
+/*== Opensource Page ==*/
+/*=====================*/
+
+.cover-open-source{
+background-color:#9d1b1f;
+}
+
+.cover-open-source h2{
+	display:block;
+	width:960px;
+	height:275px;
+	background-image: url(/images/helabs-open-source-top.png);
+	background-repeat: no-repeat;
+	margin:0 auto;
+  margin-top:120px;
+}
+
+#open-source{
+padding-bottom:70px;
+}
+
+#open-source h3{
+font-size:28px;
+  margin:40px 0;
+}
+
+#open-source ul li{
+list-style:none;
+  width:320px;
+  display:block;
+  /**background-color:rgba(0, 0, 0, 0.1);**/
+  padding-top:20px;
+  padding-bottom:8px;
+  float:left;
+}
+
+#open-source ul li span, span{
+font-size:23px;
+  font-weight:300;
+  color:#888;
+}
+
+#open-source ul li a h4,a h4{
+font-size:23px;
+  font-weight:400;
+  color:#b80606;
+  margin-bottom:5px;
+}
+
+#open-source a img:hover{
+opacity:0.9;
+}
+
+#open-source a{
+text-decoration:none;
+  border:0;
+    color:#b80606;
+}
+
+#open-source a:hover{
+text-decoration:underline;
+  border:0;
+}
+
+#open-source ul li p, p{
+font-size:16px;
+}
+
+#open-source hr{
+  margin-top:50px;
+  border:0;
+border-top:1px solid #efefef;
+}
+
+
 
 
