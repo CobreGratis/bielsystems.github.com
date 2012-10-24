@@ -11,7 +11,5 @@ $(document).ready(function(){
     $("#home").css({backgroundPosition: "50% " + posX });
   });
 
-  $(".someClass").tipTip({maxWidth: "32%", defaultPosition: "bottom", activation: "click"});
-
 });
 

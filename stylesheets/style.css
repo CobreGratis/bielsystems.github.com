@@ -567,7 +567,7 @@ line-height:20px;
 }
 
 #workshop #left p{
-margin-bottom:15px;
+  margin-bottom:15px;
 }
 
 #workshop #right{
@@ -601,7 +601,7 @@ margin-bottom:15px;
 }
 
 .subscribe-workshop:hover{
-opacity:0.9;
+  opacity:0.9;
 }
 
 #badge{
@@ -629,7 +629,7 @@ opacity:0.9;
 /*=====================*/
 
 #mailing-helabs{
-background-image: url(/images/mailing-bg.png);
+  background-image: url(/images/mailing-bg.png);
   width:550px;
   height:167px;
 }
@@ -637,10 +637,6 @@ background-image: url(/images/mailing-bg.png);
 #mailing-helabs h2{
 font-size:18px;
   padding-top:55px;
-}
-
-#mailing-helabs a{
-width:300px;
 }
 
 #mailing-helabs input[type="text"], #mailing-helabs input[type="email"]{
@@ -663,17 +659,17 @@ background-color:#b80606;
 
 #mailing-helabs input[type="submit"]:hover{
   opacity:0.9;
+  cursor: pointer;
 }
-
-#mailing-helabs a{
-  display:block;
+#mailing-helabs p {
 	margin:12px 0 0 10px;
   font-size:13px;
+}
+#mailing-helabs a {
   color:#333;
-  
 }
 
-#mailing-helabs a span{
+#mailing-helabs p span{
 	color: #b80606;
   text-decoration:none;
 }
