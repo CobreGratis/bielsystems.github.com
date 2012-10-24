@@ -934,7 +934,7 @@ list-style:none;
   float:left;
 }
 
-#open-source ul li span, span{
+#open-source ul li span,#open-source span{
 font-size:23px;
   font-weight:300;
   color:#888;
