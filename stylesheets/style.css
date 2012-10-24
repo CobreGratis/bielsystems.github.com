@@ -586,12 +586,12 @@ footer p.copyright{
   margin: 30px 0 10px 0;
 }
 
-#workshop #left{
+#workshop .left{
   width:560px;
   float:left;
 }
 
-#workshop #left p{
+#workshop .left p{
   margin-bottom:15px;
 }
 
