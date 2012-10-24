@@ -743,7 +743,7 @@ div.teaser-zombies p{
 }
 
 
-.subscribe-workshop-big{
+a.subscribe-workshop-big{
   background-color: #b80606;
   padding: 20px;
   display:block;
@@ -760,7 +760,7 @@ div.teaser-zombies p{
 
 }
 
-.subscribe-workshop-big:hover{
+a.subscribe-workshop-big:hover{
   opacity:0.9;
 }
 
