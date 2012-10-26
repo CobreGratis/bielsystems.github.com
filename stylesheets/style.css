@@ -204,7 +204,7 @@ height:115px;
   color: #555;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
 }
 #menu ul li a:hover {
   color: #b80606;
@@ -1055,3 +1055,18 @@ margin-left:20px;
   border:0;
 border-top:1px solid #efefef;	
 }
+
+
+#depoimento {
+  padding-bottom: 180px;
+  background-image: url(/images/bg-time.png);
+  background-repeat:no-repeat;
+  background-position:top center;
+  background-color:#efefef;
+}
+
+.video{
+margin-top:30px;
+
+}
+
