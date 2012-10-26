@@ -323,7 +323,7 @@ height:115px;
 #time ul li.peri{ background-image: url(/images/time-periad.jpg);}
 #time ul li.reginato{ background-image: url(/images/time-reginato.jpg);}
 #time ul li.cinthia{ background-image: url(/images/time-cinthia.jpg);}
-
+#time ul li.voce{ background-image: url(/images/time-voce.jpg);}
 
 
 #time ul li:hover {
@@ -348,6 +348,15 @@ height:115px;
   font-size: 13px;
   display: block;
   text-transform: none;
+}
+
+#time ul li span a {
+  text-decoration: none;
+  width: 100px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  text-transform:uppercase;
+  font-weight: 500;
 }
 
 #time ul li div a {
