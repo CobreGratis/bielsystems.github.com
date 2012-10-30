@@ -481,7 +481,7 @@ a.product span{
   height: 100px;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  font-weight: bold;	
+  font-weight: bold;  
 }
 
 /*====================*/
@@ -589,6 +589,7 @@ footer p.copyright{
   color: #444444;
   font-size:22px;
   padding-top:40px;
+  text-transform: uppercase;
 
 }
 
@@ -606,16 +607,16 @@ footer p.copyright{
   margin: 30px 0 10px 0;
 }
 
-#workshop .left{
+.left{
   width:560px;
   float:left;
 }
 
-#workshop .left p{
+.left p{
   margin-bottom:15px;
 }
 
-#workshop .right{
+.right{
   width:360px;
   float:right;
 }
@@ -626,7 +627,7 @@ footer p.copyright{
   color:#222;
 }
 
-#workshop .right h3{
+.right h3{
   text-transform:uppercase;
   margin:15px 0 10px 0; 
 }
@@ -1025,12 +1026,12 @@ padding-bottom:70px;
 }
 
 #privacidade h2{
-	text-transform: uppercase;
-	font-size: 32px;
-	font-weight: bold;
-	color: #222;
-	padding-top: 50px;
-	margin-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  color: #222;
+  padding-top: 50px;
+  margin-bottom: 40px;
 
 }
 
@@ -1062,7 +1063,7 @@ margin-left:20px;
 #privacidade hr{
   margin-bottom:30px;
   border:0;
-border-top:1px solid #efefef;	
+border-top:1px solid #efefef; 
 }
 
 
@@ -1078,4 +1079,103 @@ border-top:1px solid #efefef;
 margin-top:30px;
 
 }
+
+#jobs h2{
+  color: #444444;
+  font-size:22px;
+  padding-top:40px;
+  text-transform:uppercase;
+}
+
+#jobs .right h2{
+margin-bottom: 10px;
+}
+
+
+#jobs .left h3{
+  font-weight:300;
+  text-transform:none;
+  font-size:23px;
+  padding-top:10px;
+  line-height:20px;
+  margin-bottom:25px;
+}
+
+#jobs .right h3{
+  font-weight:300;
+  font-size:23px;
+  padding-top:10px;
+  line-height:20px;
+  margin-bottom:25px;
+  text-transform: uppercase;
+}
+
+#jobs p{
+font-weight: 300;
+}
+
+#jobs .right p{
+padding: 8px 0;
+border-top: 1px solid #efefef;
+}
+
+#jobs form{
+margin-top: 15px;
+
+}
+
+#jobs input[type="text"]{
+height:35px;
+  width:152px;
+  padding:0 10px;
+  border:1px solid #ccc;
+  margin-right: 10px;
+  border-radius:6px;
+
+}
+
+#jobs textarea{
+height:100px;
+  width:526px;
+  padding:10px;
+  border:1px solid #ccc;
+  font-family: lucida grande;
+  font-size:11px;
+  margin-top:10px;
+  border-radius:6px;
+}
+#jobs input[type="submit"]{
+  background-color:#b80606;
+  padding:8px;
+  border:0px;
+  border-radius:6px;
+  color:#fff;
+  font-size:12px;
+  text-transform:uppercase;
+  font-weight:700;
+  float: right;
+  margin-right:12px;
+}
+
+#jobs input[type="submit"]:hover{
+  opacity:0.9;
+  cursor: pointer;
+}
+
+textarea:focus{outline:none;}
+
+.cover-jobs{
+  background-color: #b80606;
+  padding-top:50px;
+}
+
+#jobs div.cover-jobs h2{
+color:#fff;
+width: 960px;
+margin: 0 auto;
+  font-size:160px;
+  font-weight:900;
+}
+
+
 
