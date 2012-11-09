@@ -1700,45 +1700,156 @@ margin: 0 auto;
 /*=====================*/
 
 
-@media all and (max-width: 1024px) {
+/* Tablets */
+
+@media (max-width: 768px) {
+  
   #menu {
     display: none;
   }
-}
-
-@media all and (max-width: 768px) {
+  
   .containner {
     margin: 0 auto;
-    width: 720px;
+    width: 768px;
   }
 
   #single-page #home h2{
     font-size: 60px;
-    margin-top: -20px;
+    margin-top: -40px;
   }
 
   #single-page #home h3{
-    font-size: 20px;
+    font-size: 24px;
   }
-}
-
-
-@media all and (max-width: 768px) {
+  
+  header.default h1 a {
+    margin: 0 auto;
+    float: none;
+  }
 
   div#single-page section#home ul.services {
     margin: 0 auto;
-    width:600px
+    width:660px;
+    margin-left: 20px;
   }
 
   div#single-page section#home ul.services li {
     background-color: #FFFFFF;
     display: block;
     float: left;
-    padding: 19px 19px 60px;
+    padding: 20px 30px 30px 30px;
     width: 100%;
     margin-bottom: 10px;
   }
+  
+  div#single-page section#home ul.services li p {
+    font-size: 16px;
+  }
+
+  #process h2 {
+    font-size: 60px;
+    margin-top: -40px;
+  }
+
+  #process p.sub {
+    font-size: 24px;
+  }
+
+  #process ul li {
+    display: block;
+    float: left;
+    margin-right: 1px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  #process li img {
+    float: left;
+    margin-right: 30px;
+    width: 180px;
+  }
+  #process li h3   {
+    text-align: left;
+    margin-top:20px;
+  }
+  #process li p {
+    text-align: left;
+    font-size: 16px;
+    width: 90%
+  }
+
+  .diferenciado {
+    float:left;
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+
+  #process .diferenciado p  {
+    font-size: 16px;
+  }
+
+  #process .diferenciado h3 {
+    text-align: center;
+  }
+
+  #process .diferenciado a.white-button {
+    display: none;
+  }
+  #process img.teste {
+    display: none;
+  }
+
+  #cliente {
+    background-image: none;
+  }
+
+  #cliente h2 {
+    font-size: 60px;
+    padding-top: 50px;
+  }
+
+  #cliente p.sub {
+    font-size: 24px;
+  }
+
+  #cliente iframe {
+    width: 90%;
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
