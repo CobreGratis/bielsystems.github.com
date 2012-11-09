@@ -529,12 +529,96 @@ background-color:#fff;
   padding:30px 50px
 }
 
+.project h3{
+font-size:24px;
+  color:#b30000;
+  font-family:'lato';
+  font-weight:300;
+  margin-bottom:0;
+}
+
+.project h4{
+font-size:18px;
+  color:#666;
+  font-family:'lato';
+  font-weight:300;
+  margin-bottom:0;
+  text-transform: uppercase;
+  margin:15px 0;
+}
+
+.project ul{
+  margin:10px 0 20px 0;
+}
+
+.project ul li{
+list-style:none;
+  background-color:#efefef;
+  display:inline;
+  font-size:14px;
+    border-radius: 6px;
+  padding:3px 10px;
+  color:#666;
+  margin-right:5px;
+}
+
+.project a{
+    font-family:'lato';
+  font-weight:300;
+color:#666;
+  font-style:italic;
+}
+
+.project iframe{
+  margin:30px 0;
+}
+
+.slider-screenshots{
+float:right;
+  margin:20px 0 30px 25px;
+}
+
 #projects p.sub {
 font-family: 'lato';
   font-weight:300;
 font-size:36px;
 color:#6d7171;
 text-align: center;
+}
+
+.more-projects{
+background-color:green;
+  text-align:center;
+  margin-top:60px;
+}
+
+.more-projects ul li h3{
+color:#fff;
+font-size:22px;
+  text-align:center;
+  font-weight:300;
+}
+
+.more-projects ul{
+}
+
+.more-projects ul li{
+  width:250px;
+  float:left;
+  list-style:none;
+  margin-right:105px;
+}
+
+.more-projects ul li:last-child{
+margin-right:0;
+}
+
+.more-projects ul li p{
+font-size:14px;
+}
+
+.more-projects a.red-button{
+margin-top:50px;
 }
 
 
@@ -1586,6 +1670,12 @@ margin: 0 auto;
   font-weight: 400;
   src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
 }
+
+
+
+
+
+
 
 
 
