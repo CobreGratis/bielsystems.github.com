@@ -1680,3 +1680,83 @@ margin: 0 auto;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====================*/
+/*== Media Queries ==*/
+/*=====================*/
+
+
+@media all and (max-width: 1024px) {
+  #menu {
+    display: none;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .containner {
+    margin: 0 auto;
+    width: 720px;
+  }
+
+  #single-page #home h2{
+    font-size: 60px;
+    margin-top: -20px;
+  }
+
+  #single-page #home h3{
+    font-size: 20px;
+  }
+}
+
+
+@media all and (max-width: 768px) {
+
+  div#single-page section#home ul.services {
+    margin: 0 auto;
+    width:600px
+  }
+
+  div#single-page section#home ul.services li {
+    background-color: #FFFFFF;
+    display: block;
+    float: left;
+    padding: 19px 19px 60px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
