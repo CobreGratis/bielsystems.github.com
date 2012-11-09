@@ -311,6 +311,25 @@ div#single-page section#home ul.services li{
   margin-right:1px;
 }
 
+
+.home-button{
+position:relative;
+}
+
+.home-button a.red-button{
+  position:absolute;
+  margin-top:-45px;
+  left:230px;
+
+}
+
+.home-button a.red-button:hover{
+  position:absolute;
+  margin-top:-40px;
+  left:315px;
+
+}
+
 a.red-button{
 background: url(/images/red-button.png) center no-repeat;
 width:437px;
@@ -325,7 +344,7 @@ width:437px;
   text-align:left;
   display:block;
   margin:0 auto;
-  margin-top:0px;
+  z-indez:9999;
   font-weight:900;
 }
 
@@ -524,9 +543,14 @@ margin-top:5px;
   line-height: 80px;
 }
 
+#projects .containner{
+}
+
 .project{
 background-color:#fff;
-  padding:30px 50px
+  padding:30px 50px;
+      width:800px;
+  margin:0 auto;
 }
 
 .project h3{
@@ -586,10 +610,10 @@ color:#6d7171;
 text-align: center;
 }
 
-.more-projects{
-background-color:green;
+div.more-projects{
   text-align:center;
-  margin-top:60px;
+  margin:70px 0;
+  padding-bottom:270px;
 }
 
 .more-projects ul li h3{
@@ -599,22 +623,19 @@ font-size:22px;
   font-weight:300;
 }
 
-.more-projects ul{
-}
-
 .more-projects ul li{
-  width:250px;
+  width:270px;
   float:left;
   list-style:none;
-  margin-right:105px;
+  margin:0 25px;
 }
 
-.more-projects ul li:last-child{
+/*.more-projects ul li:last-child{
 margin-right:0;
-}
+}*/
 
 .more-projects ul li p{
-font-size:14px;
+font-size:13px;
 }
 
 .more-projects a.red-button{
@@ -679,6 +700,7 @@ margin-top:50px;
 #time ul li.peri{ background-image: url(/images/time-periad.jpg);}
 #time ul li.reginato{ background-image: url(/images/time-reginato.jpg);}
 #time ul li.cinthia{ background-image: url(/images/time-cinthia.jpg);}
+#time ul li.pedrinho{ background-image: url(/images/time-pedrinho.jpg);}
 #time ul li.voce{ background-image: url(/images/time-voce.jpg);}
 
 
@@ -1820,54 +1842,5 @@ margin: 0 auto;
     width: 90%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
