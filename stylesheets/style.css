@@ -14,6 +14,30 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-family: 'Lato', sans-serif;
 }
 
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('/fonts/Roboto-Light-webfont.eot');
+    src: url('/fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('/fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('/fonts/Roboto-Light-webfont.svg#RobotoLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('/fonts/Roboto-Thin-webfont.eot');
+    src: url('/fonts/Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Roboto-Thin-webfont.woff') format('woff'),
+         url('/fonts/Roboto-Thin-webfont.ttf') format('truetype'),
+         url('/fonts/Roboto-Thin-webfont.svg#RobotoThin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*====================*/
 /*===== Patterns =====*/
 /*====================*/
@@ -217,54 +241,302 @@ height:115px;
 
 #home {
   background: url(/images/bg-home.jpg) center 120px;
-  height: 830px;
-  padding-top: 160px;
+  height: 760px;
+  padding-top: 190px;
   background-repeat: no-repeat;
 }
-#home h2 {
-  font-size: 58px;
+#single-page #home h2 {
+  font-size: 82px;
   text-align: center;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
-}
-#home h2 span {
-  background-color: #000;
-  line-height: 90px;
-  padding: 5px 20px;
-  opacity: 0.8;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  padding-top:0px;
+  line-height: 80px;
 }
 
-#home a{
+#single-page #home h3 {
+font-family: 'lato';
+  font-weight:300;
+font-size:38px;
+color:#6d7171;
+text-align: center;
+text-shadow: 0px 1px 0px rgba(256, 256, 256, 0.6);
+
+}
+
+#home ul.icons a{
   float: left;
   text-align: center;
   opacity: 0.8;
   margin: 20px 10px;
 }
 
-#home a:hover{
+#home ul.icons a:hover{
   opacity: 0.9;
 }
 
-#home ul li  {
+#home ul.icons li{
   list-style: none;
 
 }
 
-#home ul{
-  width: 320px;
+#home ul.icons{
+  width: 365px;
   margin: 0px auto;
 }
 
-/*====================*/
-/*===== Fazemos ======*/
-/*====================*/
-#fazemos {
-  background-image: url(/images/bg-fazemos.jpg);
-  background-repeat: no-repeat;
-  background-color: #efefef;
-  height: 890px;
+#single-page #home ul li h3 {
+font-family: 'lato';
+  font-weight:300;
+font-size:24px;
+color:#b30000;
+text-align:center;
+  padding-top:0px;
 }
+
+#single-page #home ul li p {
+  text-align:center;
+font-family: 'lato';
+  font-size:14px;
+}
+
+div#single-page section#home ul.services li{
+  background-color:#fff;
+  display:block;
+  width:280px;
+  float:left;
+  padding:19px 19px 60px 19px;
+  margin-right:1px;
+}
+
+a.red-button{
+background: url(/images/red-button.png) center no-repeat;
+width:437px;
+  height:60px;
+  color:#fff;
+  text-decoration:none;
+  font-family: 'lato';
+  font-size:22px;
+  text-transform:uppercase;
+  padding-top:35px;
+  padding-left:70px;
+  text-align:left;
+  display:block;
+  margin:0 auto;
+  margin-top:0px;
+  font-weight:900;
+}
+
+a.red-button:hover{
+background: url(/images/red-button.png) center no-repeat;
+width:437px;
+  height:60px;
+  color:#fff;
+  text-decoration:none;
+  font-family: 'lato';
+  font-size:22px;
+  text-transform:uppercase;
+  padding-top:35px;
+  padding-left:70px;
+  text-align:left;
+  display:block;
+  margin:0 auto;
+  margin-top:0px;
+  font-weight:900;
+  opacity:0.9;
+}
+
+a.white-button{
+background: url(/images/white-button.png) center no-repeat;
+width:437px;
+  height:60px;
+  color:#b30000;
+  text-decoration:none;
+  font-family: 'lato';
+  font-size:22px;
+  text-transform:uppercase;
+  padding-top:35px;
+  padding-left:70px;
+  text-align:left;
+  display:block;
+  margin:0 auto;
+  margin-top:0px;
+  font-weight:900;
+}
+
+a.white-button:hover{
+  opacity:0.9;
+}
+
+/*====================*/
+/*== Nosso Processo ==*/
+/*====================*/
+#process{
+background-color:#d92727;
+    background-image: url(/images/bg-process.jpg);
+  background-repeat:repeat;
+}
+
+#process h2{
+  font-size: 82px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  line-height: 80px;
+}
+
+#process p.sub {
+font-family: 'lato';
+  font-weight:300;
+font-size:36px;
+color:#800404;
+text-align: center;
+}
+
+#process li{
+  display:block;
+  width:280px;
+  text-align:center;
+  float:left;
+  padding:19px 19px 60px 19px;
+    margin-right:1px;
+
+}
+
+#process h3{
+text-align:center;
+  font-size:22px;
+  font-weight:300;
+color:#fff;
+}
+
+#process li p{
+color:#fff;
+  font-size:14px;
+}
+
+#process p{
+color:#fff;
+  font-size:14px;
+}
+
+.diferenciado{
+width:500px;
+float:right;
+  padding-bottom:100px;
+}
+
+#process .diferenciado h3{
+font-size:36px;
+  text-align:left;
+}
+
+#process .diferenciado p{
+margin-top:30px;
+}
+
+#process .diferenciado a.white-button{
+background: url(/images/white-button.png) center no-repeat;
+width:410px;
+  height:60px;
+  color:#b30000;
+  text-decoration:none;
+  font-family: 'lato';
+  font-size:22px;
+  text-transform:uppercase;
+  padding-top:35px;
+  padding-left:30px;
+  text-align:left;
+  display:block;
+  margin-left:1px;
+  margin-top:30px;
+  font-weight:900;
+}
+
+
+/*====================*/
+/*===== Clientes =====*/
+/*====================*/
+
+#cliente{
+    background-image: url(/images/bg-cliente.jpg);
+  background-repeat:no-repeat;
+  background-position: center 360px;
+  padding-bottom:100px;
+}
+
+#cliente h3{
+text-align:center;
+  font-size:22px;
+  font-weight:300;
+color:#fff;
+}
+
+#cliente iframe{
+border:10px solid #fff;
+  box-shadow: 0px 0px 10px rgba(0, 10, 0, 0.5);
+}
+
+#cliente h2{
+  font-size: 82px;
+  text-align: center;
+  color: #d92727;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  line-height: 80px;
+}
+
+#cliente p.sub {
+font-family: 'lato';
+  font-weight:300;
+font-size:36px;
+color:#6d7171;
+text-align: center;
+}
+
+#cliente a.red-button{
+margin-top:5px;
+}
+
+/*====================*/
+/*===== Projects =====*/
+/*====================*/
+
+#projects{
+  background-color:#1c1c1c;
+    background-image: url(/images/bg-projects.jpg);
+  background-repeat:no-repeat;
+  padding-bottom:100px;
+}
+
+#projects h2{
+  font-size: 82px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  line-height: 80px;
+}
+
+.project{
+background-color:#fff;
+  padding:30px 50px
+}
+
+#projects p.sub {
+font-family: 'lato';
+  font-weight:300;
+font-size:36px;
+color:#6d7171;
+text-align: center;
+}
+
 
 /*====================*/
 /*======= Time =======*/
@@ -1076,8 +1348,7 @@ border-top:1px solid #efefef;
 }
 
 .video{
-margin-top:30px;
-
+margin-top:0px;
 }
 
 #jobs h2{
@@ -1176,6 +1447,146 @@ margin: 0 auto;
   font-size:160px;
   font-weight:900;
 }
+
+/* TipTip CSS - Version 1.2 */
+
+#tiptip_holder {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+#tiptip_holder.tip_top {
+  padding-bottom: 5px;
+}
+
+#tiptip_holder.tip_bottom {
+  padding-top: 5px;
+}
+
+#tiptip_holder.tip_right {
+  padding-left: 5px;
+}
+
+#tiptip_holder.tip_left {
+  padding-right: 5px;
+}
+
+#tiptip_content {
+  font-size: 11px;
+  color: #fff;
+  text-shadow: 0 0 2px #000;
+  padding: 4px 8px;
+  border: 1px solid rgba(255,255,255,0.25);
+  background-color: rgb(25,25,25);
+  background-color: rgba(25,25,25,0.92);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000));
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  box-shadow: 0 0 3px #555;
+  -webkit-box-shadow: 0 0 3px #555;
+  -moz-box-shadow: 0 0 3px #555;
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+  position: absolute;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 6px;
+  height: 0;
+  width: 0;
+}
+
+#tiptip_holder.tip_top #tiptip_arrow {
+  border-top-color: #fff;
+  border-top-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow {
+  border-bottom-color: #fff;
+  border-bottom-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow {
+  border-right-color: #fff;
+  border-right-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow {
+  border-left-color: #fff;
+  border-left-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+  margin-top: -7px;
+  margin-left: -6px;
+  border-top-color: rgb(25,25,25);
+  border-top-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+  margin-top: -5px;
+  margin-left: -6px;
+  border-bottom-color: rgb(25,25,25);
+  border-bottom-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+  margin-top: -6px;
+  margin-left: -5px;
+  border-right-color: rgb(25,25,25);
+  border-right-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+  margin-top: -6px;
+  margin-left: -7px;
+  border-left-color: rgb(25,25,25);
+  border-left-color: rgba(25,25,25,0.92);
+}
+
+/* Webkit Hacks  */
+@media screen and (-webkit-min-device-pixel-ratio:0) {  
+  #tiptip_content {
+    padding: 4px 8px 5px 8px;
+    background-color: rgba(45,45,45,0.88);
+  }
+  #tiptip_holder.tip_bottom #tiptip_arrow_inner { 
+    border-bottom-color: rgba(45,45,45,0.88);
+  }
+  #tiptip_holder.tip_top #tiptip_arrow_inner { 
+    border-top-color: rgba(20,20,20,0.92);
+  }
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/Kom15zUm24dIPfIRiNogNuvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
 
 
 
