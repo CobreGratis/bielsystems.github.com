@@ -1702,7 +1702,7 @@ margin: 0 auto;
 
 /* Tablets */
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   
   #menu {
     display: none;
