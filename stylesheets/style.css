@@ -646,7 +646,8 @@ margin-top:5px;
 
 #projects{
   background-image: url(/images/bg-projects.jpg);
-  background-repeat:repeat;
+  background-color: #1c1c1c;
+  background-repeat:no-repeat;
   padding-bottom:100px;
   margin: 0 auto;
   width: 100%;
