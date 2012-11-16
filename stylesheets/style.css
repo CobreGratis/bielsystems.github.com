@@ -812,7 +812,13 @@ div.zombie-rodrigo{
   float:left;
 }
 
-div.zombie-mauro{
+div.zombie-eduardo{
+  width:540px;
+  float:left;
+}
+
+div.zombie-mauro,
+div.zombie-anezio {
   width:530px;
   float:right;
   margin-top:110px;
