@@ -1,17 +1,19 @@
-$(document).ready(function(){
-  $("a[rel^='external']").each(function() { $(this).attr("target","_blank"); });
+// $(document).ready(function(){
+//   $("a[rel^='external']").each(function() { $(this).attr("target","_blank"); });
 
-  $('nav, header, #right, #single-page').localScroll({
-    duration: 1000,
-    axis: 'y'
-  });
+//   $('nav, header, #right, #single-page').localScroll({
+//     duration: 1000,
+//     axis: 'y'
+//   });
 
-  $(window).scroll(function(){
-    var posX = $(window).scrollTop() - ($(window).scrollTop() * 40/100) + "px";
-    $("#home").css({backgroundPosition: "50% " + posX });
-  });
+//   $(window).scroll(function(){
+//     var posX = $(window).scrollTop() - ($(window).scrollTop() * 40/100) + "px";
+//     $("#home").css({backgroundPosition: "50% " + posX });
+//   });
 
-});
+// });
+
+
 
 /**
  * Parallax Scrolling Tutorial
@@ -47,9 +49,10 @@ $(document).ready(function(){
  });  
 
 }); 
-/* 
- * Create HTML5 elements for IE's sake
- */
 
-document.createElement("article");
-document.createElement("section");
+
+
+
+
+
+
