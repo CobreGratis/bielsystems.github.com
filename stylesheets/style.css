@@ -403,6 +403,7 @@ a.white-button:hover{
 
 #process{
   background-color:#d92727;
+  background-image: url(/images/bg-process.jpg);
   background-repeat:repeat;
   padding-bottom:50px;
 }
