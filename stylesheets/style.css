@@ -1882,12 +1882,105 @@ margin: 0 auto;
 }
 
 
+/*=====================*/
+/*======= Cloud =======*/
+/*=====================*/
+
+#cloud .cover-cloud{
+  background-color:#9d1b1f;
+  background-image: url(/images/cloud-bg.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  height:457px;
+}
+
+.cover-cloud h2{
+  display:block;
+  width:960px;
+  height:340px;
+  background-image: url(/images/cloud-top.png);
+  background-repeat: no-repeat;
+  background-position:0px 50px;
+  margin:0 auto;
+  margin-top:55px;
+
+}
+.cover-cloud h2 span{
+  display:none;
+}
+
+#cloud{
+  padding-bottom:70px;
+  background-color:#efefef;
+}
+
+#cloud h3{
+  font-size:28px;
+  margin:40px 0;
+}
+
+#cloud ul.services li h3 {
+font-family: 'lato';
+  font-weight:300;
+font-size:24px;
+color:#00d0f5;
+text-align:center;
+  padding-top:0px;
+  margin:0;
+  margin-bottom:10px;
+}
+
+#cloud ul.services li p {
+  margin:0;
+  text-align:center;
+font-family: 'lato';
+  font-size:14px;
+}
+
+#cloud ul.services li a {
+color:#00d0f5;
+}
 
 
+#cloud ul.services li{
+  background-color:#fff;
+  display:block;
+  width:280px;
+  float:left;
+  padding:19px 19px 60px 19px;
+  margin-right:1px;
+}
 
+.slider-cloud ul li{
+list-style:none;
+ width:810px;
+  margin: 0 auto;
+  padding:0;
+}
 
+.slider-cloud ul li p{
+line-height:18px;
+}
 
+#cloud .slider-cloud ul li h3{
+font-family: 'lato';
+font-weight:300;
+font-size:33px;
+line-height:30px;
+color:#00d0f5;
+padding-top:0px;
+margin:25px 0 10px 0;
+  padding-left:75px;
+  background-image: url(/images/step-01.png);
+  background-position: 0 7px;
+  background-repeat: no-repeat;
+}
 
+.slider-cloud ul li div{
+width:520px;
+  float:right;
+    padding:0;
+}
 
 
 
@@ -2358,5 +2451,11 @@ margin:0;
     width: 80%;
   }
 }
+
+
+
+
+
+
 
 
