@@ -1,0 +1,309 @@
+/*=====================*/
+/*== Mobile ==*/
+/*=====================*/
+
+
+@media only screen and (max-width : 480px)   {
+
+  #menu {
+    display: none;
+  }
+
+  .containner {
+    margin: 0 auto;
+    width: 400px;
+  }
+
+  #single-page #home h2{
+    font-size: 36px;
+    margin-top: -40px;
+    letter-spacing: 0px;
+  }
+
+  #home ul.icons {
+    display: none;
+  }
+
+  header.default h1 a {
+    margin: 0 auto;
+    float: none;
+  }
+
+  div#single-page section#home ul.services {
+    margin: 0 auto;
+    width:360px;
+    margin-left: 0px;
+  }
+
+  div#single-page section#home ul.services li {
+    background-color: #FFFFFF;
+    display: block;
+    float: left;
+    padding: 20px 30px 30px 30px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  div#single-page section#home ul.services li p {
+    font-size: 16px;
+  }
+
+  .services a.red-button {
+    display: none;
+  }
+
+  #process h2 {
+    font-size: 40px;
+    margin-top: -40px;
+  }
+
+  #process p.sub {
+    font-size: 20px;
+  }
+
+  #process ul li {
+    display: block;
+    float: left;
+    margin-right: 1px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  #process li img {
+    float: none;
+    margin-right: 30px;
+    width: 180px;
+  }
+  #process li h3   {
+    text-align: center;
+    margin-top:20px;
+  }
+  #process li p {
+    text-align: center;
+    font-size: 16px;
+    width: 90%
+  }
+
+  .diferenciado {
+    float:left;
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+
+  #process .diferenciado p  {
+    font-size: 16px;
+  }
+
+  #process .diferenciado h3 {
+    text-align: center;
+  }
+
+  #process .diferenciado a.white-button {
+    display: none;
+  }
+  #process img.teste {
+    display: none;
+  }
+
+  #cliente {
+    background-image: none;
+  }
+
+  #cliente h2 {
+    font-size: 40px;
+    padding-top: 50px;
+  }
+
+  #cliente p.sub {
+    font-size: 20px;
+  }
+
+  #cliente iframe {
+    width: 360px;
+    height: 200px
+  }
+
+  #projects h2 {
+    font-size: 40px;
+
+  }
+
+  #projects p.sub {
+    font-size: 20px;
+  }
+
+  .project iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .slider-screenshots img {
+    width: 350px;
+  }
+
+  .slider-screenshots img {
+    width: 350px;
+  }
+
+  .slider-screenshots {
+    float: right;
+    margin: 20px 0 30px 25px;
+  }
+
+  #faleconosco p.pre {
+    font-size: 18px;
+  }
+
+  #faleconosco h2 {
+    font-size: 60px;
+    margin-top: 10px;
+  }
+
+  #faleconosco p.sub {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  #faleconosco form {
+    width: 80%;
+  }
+
+  #faleconosco input[type="text"] {
+    width: 80%;
+  }
+
+  #faleconosco textarea {
+    width: 80%;
+  }
+
+
+#time ul {
+  margin-top: 20px;
+
+}
+
+#time ul li{
+  list-style: none;
+  display: block;
+  width: 180px;
+  height: 60px;
+  background-color: #000;
+  float: left;
+  text-align: center;
+  color: #b80606;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 100px;
+  border:1px solid #fff;
+  text-indent:-500px;
+  overflow:hidden;
+  }
+
+  #time ul li:hover {
+    list-style: none;
+    display: block;
+    width: 180px;
+    height: 60px;
+    background-color: #000;
+    float: left;
+    text-align: center;
+    color: #b80606;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 100px;
+    text-indent:0px;
+    background-image: none;
+  }
+
+  #time ul li span {
+    color: #fff;
+    font-size: 13px;
+    display: block;
+    text-transform: none;
+    margin-top: -70px
+  }
+
+  #time ul li span a {
+    text-decoration: none;
+    width: 100px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    text-transform:uppercase;
+    font-weight: 500;
+  }
+
+  #time ul li div a {
+    text-decoration: none;
+  }
+
+  #time ul li div a:hover {
+    opacity: .7;
+  }
+
+
+
+  .project{
+    background-color:#fff;
+    padding:30px 50px;
+    width:300px;
+    margin:0 auto;
+  }
+
+  .project h3{
+  font-size:24px;
+    color:#b30000;
+    font-family:'lato';
+    font-weight:300;
+    margin-bottom:0;
+  }
+
+  .project h4{
+  font-size:18px;
+    color:#666;
+    font-family:'lato';
+    font-weight:300;
+    margin-bottom:0;
+    text-transform: uppercase;
+    margin:15px 0;
+  }
+
+  .project ul{
+    margin:10px 0 20px 0;
+  }
+
+  .project ul li{
+  list-style:none;
+    background-color:#efefef;
+    display:inline;
+    font-size:14px;
+      border-radius: 6px;
+    padding:3px 10px;
+    color:#666;
+    margin-right:5px;
+  }
+
+  .project a{
+      font-family:'lato';
+    font-weight:300;
+  color:#666;
+    font-style:italic;
+  }
+
+  .project iframe{
+    margin:30px 0;
+  }
+  a.red-button {
+    display: none;
+  }
+
+  #faleconosco form {
+    display: none;
+  }
+
+}

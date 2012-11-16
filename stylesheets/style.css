@@ -241,8 +241,7 @@ height:115px;
 /*====================*/
 
 #home {
-
-  background: url(/images/bg-home.jpg) center 120px;
+  background: url(/images/bg-home-2.jpg) center 120px;
   height: 760px;
   padding-top: 190px;
   background-repeat: no-repeat;
@@ -404,7 +403,6 @@ a.white-button:hover{
 
 #process{
   background-color:#d92727;
-  background-image: url(/images/bg-process.jpg);
   background-repeat:repeat;
   padding-bottom:50px;
 }
@@ -433,8 +431,7 @@ text-align: center;
   text-align:center;
   float:left;
   padding:19px 19px 60px 19px;
-    margin-right:1px;
-
+  margin-right:1px;
 }
 
 #process h3{
@@ -470,8 +467,8 @@ margin-top:30px;
 }
 
 #process .diferenciado a.white-button{
-background: url(/images/white-button.png) center no-repeat;
-width:410px;
+  background: url(/images/white-button.png) center no-repeat;
+  width:410px;
   height:60px;
   color:#b30000;
   text-decoration:none;
@@ -493,21 +490,21 @@ width:410px;
 /*====================*/
 
 #cliente{
-    background-image: url(/images/bg-cliente.jpg);
+  background-image: url(/images/bg-cliente.jpg);
   background-repeat:no-repeat;
   background-position: center 360px;
   padding-bottom:100px;
 }
 
 #cliente h3{
-text-align:center;
+  text-align:center;
   font-size:22px;
   font-weight:300;
-color:#fff;
+  color:#fff;
 }
 
 #cliente iframe{
-border:10px solid #fff;
+  border:10px solid #fff;
   box-shadow: 0px 0px 10px rgba(0, 10, 0, 0.5);
 }
 
@@ -521,11 +518,11 @@ border:10px solid #fff;
 }
 
 #cliente p.sub {
-font-family: 'lato';
+  font-family: 'lato';
   font-weight:300;
-font-size:36px;
-color:#6d7171;
-text-align: center;
+  font-size:36px;
+  color:#6d7171;
+  text-align: center;
 }
 
 #cliente a.red-button{
@@ -538,7 +535,7 @@ margin-top:5px;
 
 #projects{
   background-color:#1c1c1c;
-    background-image: url(/images/bg-projects.jpg);
+  background-image: url(/images/bg-projects.jpg);
   background-repeat:no-repeat;
   padding-bottom:100px;
 }
@@ -553,18 +550,16 @@ margin-top:5px;
   line-height: 80px;
 }
 
-#projects .containner{
-}
 
 .project{
-background-color:#fff;
+  background-color:#fff;
   padding:30px 50px;
-      width:800px;
+  width:800px;
   margin:0 auto;
 }
 
 .project h3{
-font-size:24px;
+  font-size:24px;
   color:#b30000;
   font-family:'lato';
   font-weight:300;
@@ -572,7 +567,7 @@ font-size:24px;
 }
 
 .project h4{
-font-size:18px;
+  font-size:18px;
   color:#666;
   font-family:'lato';
   font-weight:300;
@@ -586,20 +581,20 @@ font-size:18px;
 }
 
 .project ul li{
-list-style:none;
+  list-style:none;
   background-color:#efefef;
   display:inline;
   font-size:14px;
-    border-radius: 6px;
+  border-radius: 6px;
   padding:3px 10px;
   color:#666;
   margin-right:5px;
 }
 
 .project a{
-    font-family:'lato';
+  font-family:'lato';
   font-weight:300;
-color:#666;
+  color:#666;
   font-style:italic;
 }
 
@@ -608,16 +603,16 @@ color:#666;
 }
 
 .slider-screenshots{
-float:right;
+  float:right;
   margin:20px 0 30px 25px;
 }
 
 #projects p.sub {
-font-family: 'lato';
+  font-family: 'lato';
   font-weight:300;
-font-size:36px;
-color:#6d7171;
-text-align: center;
+  font-size:36px;
+  color:#6d7171;
+  text-align: center;
 }
 
 div.more-projects{
@@ -627,8 +622,8 @@ div.more-projects{
 }
 
 .more-projects ul li h3{
-color:#fff;
-font-size:22px;
+  color:#fff;
+  font-size:22px;
   text-align:center;
   font-weight:300;
 }
@@ -654,16 +649,6 @@ margin-top:50px;
 
 
 
-
-/*#projects.container {
-  height: 458px;
-  position: absolute;
-  text-align: center;
-  top: 150px;
-  width: 100%;
-}
-*/
-
 /*====================*/
 /*======= Time =======*/
 /*====================*/
@@ -678,11 +663,11 @@ margin-top:50px;
 }
 
 #time p.sub {
-font-family: 'lato';
+  font-family: 'lato';
   font-weight:300;
-font-size:21px;
-color:#6d7171;
-text-align: center;
+  font-size:21px;
+  color:#6d7171;
+  text-align: center;
 }
 
 
@@ -693,6 +678,7 @@ text-align: center;
   background-position:top center;
   background-color:#efefef;
 }
+
 #time ul {
   margin-top: 20px;
 }
@@ -782,17 +768,12 @@ text-align: center;
 margin-top:40px;
 }
 
-#time.container  {
-  height: 458px;
-  position: absolute;
-  text-align: center;
-  top: 150px;
-  width: 100%;
-}
+
 
 /*====================*/
 /*===== Produtos =====*/
 /*====================*/
+
 #products {
   background-image: url(/images/bg-fazemos.jpg);
   background-repeat: no-repeat;
@@ -1947,18 +1928,6 @@ background-image: url(/images/cloud-slider-nav-active.png);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*=====================*/
 /*== Media Queries ==*/
 /*=====================*/
@@ -2229,339 +2198,5 @@ margin:0;
     background-color: rgb(205,44,36);
     color: rgb(240,240,240);
 }
-
-
-
-
-/* Mobile */
-
-@media only screen and (max-width : 480px)   {
-  
-  body {
-    width: 100%;
-  }
-
-
-  #menu {
-    display: none;
-  }
-  
-  .containner {
-    margin: 0 auto;
-    width: 400px;
-  }
-
-  #single-page #home h2{
-    font-size: 36px;
-    margin-top: -40px;
-    letter-spacing: 0px;
-  }
-
-  #single-page #home h3{
-    
-  }
-  
-
-
-
-  #home ul.icons {
-    display: none;
-  }
-
-  header.default h1 a {
-    margin: 0 auto;
-    float: none;
-  }
-
-  div#single-page section#home ul.services {
-    margin: 0 auto;
-    width:360px;
-    margin-left: 0px;
-  }
-
-  div#single-page section#home ul.services li {
-    background-color: #FFFFFF;
-    display: block;
-    float: left;
-    padding: 20px 30px 30px 30px;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  
-  div#single-page section#home ul.services li p {
-    font-size: 16px;
-  }
-
-  .services a.red-button {
-    display: none;
-  }
-
-  #process h2 {
-    font-size: 40px;
-    margin-top: -40px;
-  }
-
-  #process p.sub {
-    font-size: 20px;
-  }
-
-  #process ul li {
-    display: block;
-    float: left;
-    margin-right: 1px;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    margin-top: 0px;
-  }
-
-  #process li img {
-    float: none;
-    margin-right: 30px;
-    width: 180px;
-  }
-  #process li h3   {
-    text-align: center;
-    margin-top:20px;
-  }
-  #process li p {
-    text-align: center;
-    font-size: 16px;
-    width: 90%
-  }
-
-  .diferenciado {
-    float:left;
-    width: 90%;
-    margin: 0 auto;
-    margin-left: 30px;
-    margin-top: 40px;
-  }
-
-  #process .diferenciado p  {
-    font-size: 16px;
-  }
-
-  #process .diferenciado h3 {
-    text-align: center;
-  }
-
-  #process .diferenciado a.white-button {
-    display: none;
-  }
-  #process img.teste {
-    display: none;
-  }
-
-  #cliente {
-    background-image: none;
-  }
-
-  #cliente h2 {
-    font-size: 40px;
-    padding-top: 50px;
-  }
-
-  #cliente p.sub {
-    font-size: 20px;
-  }
-
-  #cliente iframe {
-    width: 360px;
-    height: 200px
-  }
-
-  #projects h2 {
-    font-size: 40px;
-
-  }
-
-  #projects p.sub {
-    font-size: 20px;
-  }
-
-  .project iframe {
-    width: 100%;
-    height: 300px;
-  }
-
-  .slider-screenshots img {
-    width: 350px;
-  }
-
-  .slider-screenshots img {
-    width: 350px;
-  }
-
-  .slider-screenshots {
-    float: right;
-    margin: 20px 0 30px 25px;
-  }
-
-  #faleconosco p.pre {
-    font-size: 18px;
-  }
-
-  #faleconosco h2 {
-    font-size: 60px;
-    margin-top: 10px;
-  }
-
-  #faleconosco p.sub {
-    font-size: 16px;
-    margin-top: 20px;
-  }
-
-  #faleconosco form {
-    width: 80%;
-  }
-
-  #faleconosco input[type="text"] {
-    width: 80%;
-  }
-
-  #faleconosco textarea {
-    width: 80%;
-  }
-
-
-#time ul {
-  margin-top: 20px;
-
-}
-
-#time ul li{
-  list-style: none;
-  display: block;
-  width: 180px;
-  height: 60px;
-  background-color: #000;
-  float: left;
-  text-align: center;
-  color: #b80606;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: bold;
-  padding-top: 100px;
-  border:1px solid #fff;
-  text-indent:-500px;
-  overflow:hidden;
-  }
-
-  #time ul li:hover {
-    list-style: none;
-    display: block;
-    width: 180px;
-    height: 60px;
-    background-color: #000;
-    float: left;
-    text-align: center;
-    color: #b80606;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding-top: 100px;
-    text-indent:0px;
-    background-image: none;
-  }
-
-  #time ul li span {
-    color: #fff;
-    font-size: 13px;
-    display: block;
-    text-transform: none;
-    margin-top: -70px
-  }
-
-  #time ul li span a {
-    text-decoration: none;
-    width: 100px;
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-    text-transform:uppercase;
-    font-weight: 500;
-  }
-
-  #time ul li div a {
-    text-decoration: none;
-  }
-
-  #time ul li div a:hover {
-    opacity: .7;
-  }
-
-
-
-  .project{
-    background-color:#fff;
-    padding:30px 50px;
-    width:300px;
-    margin:0 auto;
-  }
-
-  .project h3{
-  font-size:24px;
-    color:#b30000;
-    font-family:'lato';
-    font-weight:300;
-    margin-bottom:0;
-  }
-
-  .project h4{
-  font-size:18px;
-    color:#666;
-    font-family:'lato';
-    font-weight:300;
-    margin-bottom:0;
-    text-transform: uppercase;
-    margin:15px 0;
-  }
-
-  .project ul{
-    margin:10px 0 20px 0;
-  }
-
-  .project ul li{
-  list-style:none;
-    background-color:#efefef;
-    display:inline;
-    font-size:14px;
-      border-radius: 6px;
-    padding:3px 10px;
-    color:#666;
-    margin-right:5px;
-  }
-
-  .project a{
-      font-family:'lato';
-    font-weight:300;
-  color:#666;
-    font-style:italic;
-  }
-
-  .project iframe{
-    margin:30px 0;
-  }
-  a.red-button {
-    display: none;
-  }
-
-  #faleconosco form {
-    display: none;
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
