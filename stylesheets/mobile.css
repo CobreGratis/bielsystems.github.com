@@ -20,6 +20,14 @@
     letter-spacing: 0px;
   }
 
+
+  #home {
+  background: #c2c2c2;
+  height: 760px;
+  padding-top: 190px;
+  background-repeat: no-repeat;
+}
+
   #home ul.icons {
     display: none;
   }
