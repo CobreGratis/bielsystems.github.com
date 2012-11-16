@@ -177,13 +177,6 @@ div.service img {
 input:focus{outline:none;}
 
 
-
-
-body {
-  width: 100%;
-}
-
-
 /*====================*/
 /*====== Header ======*/
 /*====================*/
@@ -248,11 +241,13 @@ height:115px;
 /*====================*/
 
 #home {
+
   background: url(/images/bg-home.jpg) center 120px;
   height: 760px;
   padding-top: 190px;
   background-repeat: no-repeat;
 }
+
 #single-page #home h2 {
   font-size: 82px;
   text-align: center;
@@ -265,13 +260,12 @@ height:115px;
 }
 
 #single-page #home h3 {
-font-family: 'lato';
+  font-family: 'lato';
   font-weight:300;
-font-size:38px;
-color:#6d7171;
-text-align: center;
-text-shadow: 0px 1px 0px rgba(256, 256, 256, 0.6);
-
+  font-size:38px;
+  color:#6d7171;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(256, 256, 256, 0.6);
 }
 
 #home ul.icons a{
@@ -287,7 +281,6 @@ text-shadow: 0px 1px 0px rgba(256, 256, 256, 0.6);
 
 #home ul.icons li{
   list-style: none;
-
 }
 
 #home ul.icons{
@@ -296,17 +289,17 @@ text-shadow: 0px 1px 0px rgba(256, 256, 256, 0.6);
 }
 
 #single-page #home ul li h3 {
-font-family: 'lato';
+  font-family: 'lato';
   font-weight:300;
-font-size:24px;
-color:#b30000;
-text-align:center;
+  font-size:24px;
+  color:#b30000;
+  text-align:center;
   padding-top:0px;
 }
 
 #single-page #home ul li p {
   text-align:center;
-font-family: 'lato';
+  font-family: 'lato';
   font-size:14px;
 }
 
@@ -321,26 +314,34 @@ div#single-page section#home ul.services li{
 
 
 .home-button{
-position:relative;
+  position:relative;
 }
 
 .home-button a.red-button{
   position:absolute;
   margin-top:-45px;
   left:230px;
-
 }
 
 .home-button a.red-button:hover{
   position:absolute;
   margin-top:-45px;
   left:230px;
-
 }
 
+
+#home ul.services {
+  margin-top: 50px;
+}
+
+#home ul.icons {
+  margin-top: 30px;
+}
+
+
 a.red-button{
-background: url(/images/red-button.png) center no-repeat;
-width:437px;
+  background: url(/images/red-button.png) center no-repeat;
+  width:437px;
   height:60px;
   color:#fff;
   text-decoration:none;
@@ -357,8 +358,8 @@ width:437px;
 }
 
 a.red-button:hover{
-background: url(/images/red-button.png) center no-repeat;
-width:437px;
+  background: url(/images/red-button.png) center no-repeat;
+  width:437px;
   height:60px;
   color:#fff;
   text-decoration:none;
@@ -376,8 +377,8 @@ width:437px;
 }
 
 a.white-button{
-background: url(/images/white-button.png) center no-repeat;
-width:437px;
+  background: url(/images/white-button.png) center no-repeat;
+  width:437px;
   height:60px;
   color:#b30000;
   text-decoration:none;
@@ -400,9 +401,10 @@ a.white-button:hover{
 /*====================*/
 /*== Nosso Processo ==*/
 /*====================*/
+
 #process{
-background-color:#d92727;
-    background-image: url(/images/bg-process.jpg);
+  background-color:#d92727;
+  background-image: url(/images/bg-process.jpg);
   background-repeat:repeat;
   padding-bottom:50px;
 }
