@@ -316,7 +316,11 @@ div#single-page section#home ul.services li{
   position:relative;
 }
 
-.home-button a.red-button{
+#cloud .home-button a.red-button {
+  font-size: 19px;
+}
+
+.home-button a.red-button {
   position:absolute;
   margin-top:-45px;
   left:230px;
