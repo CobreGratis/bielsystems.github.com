@@ -1268,6 +1268,11 @@ div.zombies{
   height: 361px;
 }
 
+.instructors-rails-for-zombies-2.pr div.zombies{
+  background-image: url(/images/zombies-pr.jpg);
+}
+
+
 div.zombies h2{
   color: #fff;
   font-size:22px;
