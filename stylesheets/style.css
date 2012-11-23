@@ -962,6 +962,18 @@ footer p.copyright{
   background-position:top center;
 }
 
+.cover-rails-for-zombies-2.rj {
+  background-image: url(/images/workshop-bg-rj.jpg);
+}
+
+.cover-rails-for-zombies-2.sp {
+  background-image: url(/images/workshop-bg-sp.jpg);
+}
+
+.cover-rails-for-zombies-2.pr {
+  background-image: url(/images/workshop-bg-pr.jpg);
+}
+
 .cover-workshop-startup-dev h2{
   display:block;
   width:960px;
