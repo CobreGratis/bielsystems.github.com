@@ -1001,7 +1001,8 @@ footer p.copyright{
 #workshop #rails-for-zombie-one {
   border-radius: 8px;
   margin-top: 40px;
-  background: url(/images/workshops/rails-for-zombie/box-rfz.jpg);
+  margin-bottom: 40px;
+  background: url(/images/workshops/rails-for-zombie/box-rfz-2.jpg);
   padding: 0 10px 10px;
 }
 
@@ -2337,4 +2338,12 @@ margin:0;
 
 .addthis_toolbox {
   margin: 20px 0;
+}
+
+
+
+
+p.advice {
+  color: #C18619;
+  margin-bottom: 30px;
 }
