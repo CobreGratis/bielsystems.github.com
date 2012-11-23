@@ -236,6 +236,12 @@ height:115px;
   text-decoration: underline;
 }
 
+#menu ul li span a{
+  color: #B80606;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 12px;
+}
 /*====================*/
 /*=== Home ===*/
 /*====================*/
