@@ -1838,15 +1838,10 @@ margin: 0 auto;
   background-color:#efefef;
 }
 
-#cloud h3{
-  font-size:28px;
-  margin:40px 0;
-}
-
 #cloud ul.services li h3 {
 font-family: 'lato';
   font-weight:300;
-font-size:24px;
+font-size:22px;
 color:#00d0f5;
 text-align:center;
   padding-top:0px;
