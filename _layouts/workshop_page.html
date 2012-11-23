@@ -32,9 +32,12 @@
         <p>11 e 13 de Dezembro (Terça e Quinta)</p>
         <a class="subscribe-workshop" href="{{ page.buy_url }}">inscreva-se nesse workshop!</a>
         <h3>Onde vai ser?</h3>
-        <p>Local a Confirmar</p>
-        </br>
-        <!--iframe width="350" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Rua+Miguel+Couto,+35,+Grupo+603+Centro,+Rio+de+Janeiro,+RJ+-+BeesOffice&amp;sll=-22.066781,-42.923704&amp;sspn=4.509498,8.453979&amp;t=m&amp;ie=UTF8&amp;hq=Grupo+603+Centro,+Rio+de+Janeiro,+RJ+-+BeesOffice&amp;hnear=R.+Miguel+Couto,+35+-+Centro,+Rio+de+Janeiro,+20070-030&amp;ll=-22.902746,-43.179125&amp;spn=0.006295,0.006295&amp;output=embed"></iframe ><br /-->
+        <p>{{ page.address }}</p>
+        {% if page.map_url %}
+          <br />
+          <iframe width="350" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{ page.map_url }}"></iframe>
+          <br />
+        {% endif %}
         <h3>FORMATO</h3>
         <ul>
           <li>Carga Horária: 8 horas</li>
