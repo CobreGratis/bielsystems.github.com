@@ -793,7 +793,7 @@ margin-top:40px;
 }
 
 div.product{
-  width:304px; 
+  width:304px;
   float:left;
   margin-right: 15px;
 }
@@ -896,7 +896,7 @@ a.product span{
   height: 100px;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
-  font-weight: bold;  
+  font-weight: bold;
 }
 
 /*====================*/
@@ -998,6 +998,44 @@ footer p.copyright{
 /*=== Workshop Page ===*/
 /*=====================*/
 
+#workshop #rails-for-zombie-one {
+  border-radius: 8px;
+  margin-top: 40px;
+  background: url(/images/workshops/rails-for-zombie/box-rfz.jpg);
+  padding: 0 10px 10px;
+}
+
+#workshop #rails-for-zombie-one h2 {
+  background: url(/images/workshops/rails-for-zombie/police-line.png);
+  color: #fff;
+  padding-top: 0;
+  font: bold 18px BebasNeueRegular, "Arial Narrow",Impact,Arial,sans-serif;
+  height: 44px;
+  text-align: center;
+  line-height:44px;
+  margin: 0 -10px 25px;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.75);
+}
+
+#workshop #rails-for-zombie-one a {
+  border-color: #352214;
+  box-shadow: none;
+  display: block;
+  background-color: #CF895A;
+  background-image: -moz-linear-gradient(center top , #CF895A, #BC7646);
+  border-radius: 6px 6px 6px 6px;
+  color: #492813;
+  cursor: pointer;
+  padding: 20px 30px 12px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 300px;
+  margin: 0 auto;
+  font: 19px "OpenSansCondensedBold",Helvetica,Arial,sans-serif;
+}
+
 #workshop ul li{
   list-style:none;
   padding-left:20px;
@@ -1056,7 +1094,7 @@ footer p.copyright{
 
 .right h3{
   text-transform:uppercase;
-  margin:15px 0 10px 0; 
+  margin:15px 0 10px 0;
 }
 
 
@@ -1161,8 +1199,8 @@ h3.teaser-zombies{
 }
 
 div.teaser-zombies{
-  margin:0px auto; 
-  text-align:center; 
+  margin:0px auto;
+  text-align:center;
   background-image: url(/images/teaser-zombies-bg.jpg);
   background-repeat: no-repeat;
   padding: 170px 0 130px 0;
@@ -1182,8 +1220,8 @@ div.teaser-zombies p{
 
 
 div.teaser-zombies-choose{
-  margin:0px auto; 
-  text-align:center; 
+  margin:0px auto;
+  text-align:center;
   background-image: url(/images/teaser-zombies-bg.jpg);
   background-repeat: no-repeat;
   padding: 60px 0 250px 0;
@@ -1568,7 +1606,7 @@ margin-left:20px;
 #privacidade hr{
   margin-bottom:30px;
   border:0;
-border-top:1px solid #efefef; 
+border-top:1px solid #efefef;
 }
 
 
@@ -1782,15 +1820,15 @@ margin: 0 auto;
 }
 
 /* Webkit Hacks  */
-@media screen and (-webkit-min-device-pixel-ratio:0) {  
+@media screen and (-webkit-min-device-pixel-ratio:0) {
   #tiptip_content {
     padding: 4px 8px 5px 8px;
     background-color: rgba(45,45,45,0.88);
   }
-  #tiptip_holder.tip_bottom #tiptip_arrow_inner { 
+  #tiptip_holder.tip_bottom #tiptip_arrow_inner {
     border-bottom-color: rgba(45,45,45,0.88);
   }
-  #tiptip_holder.tip_top #tiptip_arrow_inner { 
+  #tiptip_holder.tip_top #tiptip_arrow_inner {
     border-top-color: rgba(20,20,20,0.92);
   }
 }
@@ -1905,7 +1943,7 @@ list-style:none;
 float: left;
   margin-right:50px;
 margin-left:70px;
-  
+
 }
 
 .slider-cloud ul.step-list li p{
@@ -2033,14 +2071,14 @@ background-image: url(/images/cloud-slider-nav-active.png);
 /* Tablets */
 
 @media (max-width: 800px) {
-  
 
- 
+
+
 
   #menu {
     display: none;
   }
-  
+
   .containner {
     margin: 0 auto;
     width: 768px;
@@ -2054,7 +2092,7 @@ background-image: url(/images/cloud-slider-nav-active.png);
   #single-page #home h3{
     font-size: 24px;
   }
-  
+
   header.default h1 a {
     margin: 0 auto;
     float: none;
@@ -2074,7 +2112,7 @@ background-image: url(/images/cloud-slider-nav-active.png);
     width: 100%;
     margin-bottom: 10px;
   }
-  
+
   div#single-page section#home ul.services li p {
     font-size: 16px;
   }
