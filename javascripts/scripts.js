@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $("a[rel^='external']").each(function() { $(this).attr("target","_blank"); });
 
-  $('nav, header, #right, #single-page').localScroll({
+  $('nav, .advice, header, #right, #single-page').localScroll({
     duration: 1000,
     axis: 'y'
   });
