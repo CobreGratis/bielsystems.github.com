@@ -1148,7 +1148,7 @@ a.subscribe-workshop:hover{
 }
 
 #instructors{
-  margin:130px 0 0 0;
+  margin:80px 0 0 0;
 }
 
 h3.teaser-zombies{
@@ -1247,9 +1247,13 @@ a.subscribe-workshop-big:hover{
   opacity:0.9;
 }
 
+
+
 .instructors-rails-for-zombies-2{
   background-image: url(/images/instructors-bg-full.jpg);
 }
+
+
 
 div.zombies{
   background-image: url(/images/zombies.jpg);
@@ -1257,6 +1261,13 @@ div.zombies{
   background-repeat:no-repeat;
   background-position:center;
 }
+
+
+.instructors-rails-for-zombies-2.sp div.zombies{
+  background-image: url(/images/zombies-sp.jpg);
+  height: 361px;
+}
+
 div.zombies h2{
   color: #fff;
   font-size:22px;
