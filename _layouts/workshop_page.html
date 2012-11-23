@@ -70,18 +70,19 @@
   <div id="instructors-info"></div>
     <section id="instructors" class="instructors-rails-for-zombies-2" >
       <div class="zombies">
-      <div class="containner">
-
-      <div class="zombie-{{ page.instructor_1_slug }}">
-        <h2>Sobre o Professor</h2>
-        <h3>{{ page.instructor_1_name }}</h3>
-        {{ page.instructor_1_info }}
-      </div>
-      <div class="zombie-{{ page.instructor_2_slug }}">
-        <h3>{{ page.instructor_2_name }}</h3>
-        {{ page.instructor_2_info }}
-      </div>
-      </div>
+        <div class="containner">
+          <div class="zombie-{{ page.instructor_1_slug }}">
+            <h2>Sobre o Professor</h2>
+            <h3>{{ page.instructor_1_name }}</h3>
+            {{ page.instructor_1_info }}
+          </div>
+          {% if page.instructor_2_slug %}
+            <div class="zombie-{{ page.instructor_2_slug }}">
+              <h3>{{ page.instructor_2_name }}</h3>
+              {{ page.instructor_2_info }}
+            </div>
+          {% endif %}
+        </div>
       </div>
     </section>
 
