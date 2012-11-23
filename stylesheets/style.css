@@ -1253,6 +1253,10 @@ a.subscribe-workshop-big:hover{
   background-image: url(/images/instructors-bg-full.jpg);
 }
 
+.instructors-rails-for-zombies-2.pr{
+  background-image: url(/images/instructors-bg-full-pr.jpg);
+}
+
 
 
 div.zombies{
@@ -1270,6 +1274,7 @@ div.zombies{
 
 .instructors-rails-for-zombies-2.pr div.zombies{
   background-image: url(/images/zombies-pr.jpg);
+  height: 682px;
 }
 
 
@@ -1311,6 +1316,11 @@ div.zombie-anezio {
   width:530px;
   float:right;
   margin-top:110px;
+}
+
+
+div.zombie-anezio {
+  margin-top:60px;
 }
 
 /*=====================*/
