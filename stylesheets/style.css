@@ -1168,6 +1168,54 @@ div.teaser-zombies p{
 }
 
 
+
+div.teaser-zombies-choose{
+  margin:0px auto; 
+  text-align:center; 
+  background-image: url(/images/teaser-zombies-bg.jpg);
+  background-repeat: no-repeat;
+  padding: 60px 0 250px 0;
+}
+h3.teaser-zombies-choose{
+  text-align:center;
+  margin:0 auto;
+  font-size:26px;
+  line-height: 40px;
+  margin-bottom:30px;
+  font-weight:300;
+}
+.buttons-choose {
+  height: 200px;
+  margin-left: 40px;
+}
+a.subscribe-workshop-big-choose {
+  background-color: #b80606;
+  padding: 20px;
+  display:block;
+  text-align:center;
+  width:26%;
+  border-radius: 8px;
+  text-decoration:none;
+  text-transform:uppercase;
+  color:#fff;
+  margin:0 auto;
+  margin-top: 15px;
+  font-size: 20px;
+  float: left;
+  margin-right: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 a.subscribe-workshop-big{
   background-color: #b80606;
   padding: 20px;
@@ -1181,8 +1229,6 @@ a.subscribe-workshop-big{
   margin:0 auto;
   margin-top: 15px;
   font-size: 25px;
-
-
 }
 
 a.subscribe-workshop-big:hover{
