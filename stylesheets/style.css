@@ -2335,15 +2335,12 @@ margin:0;
     color: rgb(240,240,240);
 }
 
-
-.addthis_toolbox {
-  margin: 20px 0;
-}
-
-
-
-
 p.advice {
   color: #C18619;
   margin-bottom: 30px;
+}
+
+.addthis_toolbox {
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
