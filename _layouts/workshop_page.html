@@ -32,10 +32,12 @@
         <p>11 e 13 de Dezembro (Terça e Quinta)</p>
         <a class="subscribe-workshop" href="{{ page.buy_url }}">inscreva-se nesse workshop!</a>
         <h3>Onde vai ser?</h3>
-        <p>{{ page.address }}</p>
+        <p>{{ page.street }}</p>
+        <p>{{ page.city }}</p>
         {% if page.map_url %}
           <br />
           <iframe width="350" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="{{ page.map_url }}"></iframe>
+          <small><a href="{{ page.map_url }}" title="{{ page.street }} - {{ page.city }}">Exibir mapa ampliado</a></small>
           <br />
         {% endif %}
         <h3>FORMATO</h3>
