@@ -39,7 +39,7 @@ $(document).ready(function(){
 
     $("#next").click(function(e){
       e.preventDefault();
-      if(i <= 3) {
+      if(i <= 2) {
         i++;
         console.log("menor");
         $slider.animate({
@@ -64,7 +64,7 @@ $(document).ready(function(){
         i--;
       } else if (i <= 1) {
         $slider.animate({
-          left: "-="+ 930 * 3 +"px"
+          left: "-="+ 930 * 2 +"px"
         }, 1000);
         i = 5;
       }
