@@ -2345,3 +2345,11 @@ p.advice {
   margin-bottom: 20px;
   margin-top: 10px;
 }
+
+.politica-cancelamento {
+  padding: 50px 0 100px;
+}
+
+.politica-cancelamento li {
+  margin: 0 0 15px;
+}
