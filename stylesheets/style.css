@@ -1100,6 +1100,19 @@ footer p.copyright{
   margin:15px 0 10px 0;
 }
 
+.subscription-closed {
+  background-color: #b80606;
+  padding: 20px;
+  display:block;
+  text-align:center;
+  width:270px;
+  border-radius: 6px;
+  text-decoration:none;
+  text-transform:uppercase;
+  color:#fff;
+  margin-top: 15px;
+}
+
 
 a.subscribe-workshop{
   background-color: #b80606;
