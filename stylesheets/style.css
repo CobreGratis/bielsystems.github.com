@@ -2086,7 +2086,7 @@ background-image: url(/images/cloud-slider-nav-active.png);
 
 /* Tablets */
 
-/*@media (max-width: 800px) {
+@media (max-width: 800px) {
 
 
 
@@ -2247,7 +2247,7 @@ background-image: url(/images/cloud-slider-nav-active.png);
     width: 80%;
   }
 
-}*/
+}
 
 #menu > ul > li {
     position: relative;
