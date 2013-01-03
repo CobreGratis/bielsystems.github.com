@@ -11,6 +11,19 @@
   border:5px solid #fff;
 }
 
+div#single-page section#home ul.services li {
+  min-height:300px;
+}
+
+div#single-page section#home ul.services li h3 {
+  height:55px;
+}
+
+footer li, footer h3 {
+  width:100%;
+  text-align:center;
+}
+
 
 @media only screen and (max-width : 686px)   {
 
@@ -40,8 +53,8 @@
     background: linear-gradient(to bottom,  #727272 0%,#000000 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#727272', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
 
-    height: 760px;
     padding-top: 190px;
+    padding-bottom: 190px;
     background-repeat: no-repeat;
   }
 
@@ -70,18 +83,13 @@
   }
 
   div#single-page section#home ul.services {
-    margin: 0 auto;
-    width:340px;
-    margin-left: 0px;
+
   }
 
   div#single-page section#home ul.services li {
-    background-color: #FFFFFF;
-    display: block;
-    float: left;
-    padding: 20px 30px 30px 30px;
-    width: 100%;
-    margin-bottom: 10px;
+    width:92%;
+    padding:3%;
+    background-color:#ccc !important;
   }
 
   div#single-page section#home ul.services li p {
@@ -218,11 +226,13 @@
   }
 
   #faleconosco form {
-    width: 80%;
+    width: 90%;
+    background:#000;
   }
 
   #faleconosco input[type="text"] {
-    width: 80%;
+    width: 82%;
+    padding:5%;
   }
 
   #faleconosco textarea {
@@ -230,23 +240,10 @@
   }
 
 
-  #time h2 {
-    font-size: 40px;
-    padding-top: 40px;
-  }
-
-  #time ul {
-    margin-top: 20px;
-    margin-left: 20px;
-  }
-
-  #time ul li{
+  #time ul li {
     list-style: none;
     display: block;
-    width: 180px;
-    height: 60px;
-    background-color: #000;
-    float: left;
+    width: 50px; height:50px;
     text-align: center;
     color: #b80606;
     font-size: 18px;
@@ -254,53 +251,11 @@
     font-weight: bold;
     padding-top: 100px;
     border:1px solid #fff;
-    text-indent:-500px;
+    text-indent:0;
     overflow:hidden;
+    float:left;
   }
-
-  #time ul li:hover {
-    list-style: none;
-    display: block;
-    width: 180px;
-    height: 60px;
-    background-color: #000;
-    float: left;
-    text-align: center;
-    color: #b80606;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding-top: 100px;
-    text-indent:0px;
-    background-image: none;
-  }
-
-  #time ul li span {
-    color: #fff;
-    font-size: 13px;
-    display: block;
-    text-transform: none;
-    margin-top: -70px
-  }
-
-  #time ul li span a {
-    text-decoration: none;
-    width: 100px;
-    font-size: 16px;
-    font-family: 'Lato', sans-serif;
-    text-transform:uppercase;
-    font-weight: 500;
-  }
-
-  #time ul li div a {
-    text-decoration: none;
-  }
-
-  #time ul li div a:hover {
-    opacity: .7;
-  }
-
-
+  
 
   .project{
     background-color:#fff;
@@ -357,7 +312,7 @@
   }
 
   #faleconosco form {
-    display: none;
+
   }
 
 }

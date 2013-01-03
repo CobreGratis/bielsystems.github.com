@@ -318,15 +318,18 @@ height:115px;
   font-size:14px;
 }
 
-div#single-page section#home ul.services li{
+#single-page section#home ul.services li{
+  width:27.1%;
   background-color:#fff;
+  margin-left:1px;  
   display:block;
-  width:280px;
+  padding:3%;
   float:left;
-  padding:19px 19px 60px 19px;
-  margin-right:1px;
 }
 
+#single-page section#home ul.services li:first-child {
+  margin-left:0 !important;
+}
 
 .home-button{
   position:relative;
@@ -870,7 +873,7 @@ a.product span{
 #faleconosco {
   width:100%;
   background-position: center;
-  background-image: url("/images/bg-contato.jpg");
+  background: #bd0011 url("/images/bg-contato.jpg") bottom no-repeat;
   padding-top: 150px;
   padding-bottom:400px;
   position: relative;
@@ -938,6 +941,7 @@ a.product span{
   font-weight: bold;
 }
 
+
 /*====================*/
 /*====== Footer ======*/
 /*====================*/
@@ -948,36 +952,37 @@ footer {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
   padding:30px 0 0 0;
+  font-size:14px;
   float:left;
 }	
-footer a,
-footer a:hover,
-footer a:visited,
-footer a:active,
-footer p {
-  margin: 0.2em;
-  color: #fff;
-  text-align: left;
-  font-weight: bold;
-  font-size: 11px;
-  text-decoration: none;
+
+footer a {
+  text-decoration:none;
+  color:#ebcacd;
 }
 
-footer h3{
+footer a:hover {
   color:#fff;
 }
 
-footer ul{
+footer li {
+  line-height:22px;
   float:left;
-  list-style:none;
-  margin-left:25px;
+}
+
+footer h3 {
+  width:100%;
+  color:#fff;
 }
 
 footer p.copyright{
+  width:100%;
   background-color: rgba(0, 0, 0, 0.4);
   text-align:center;
-  padding: 10px; 0 10px 0;
-  margin-top:40px;
+  padding: 15px 0 15px 0;
+  color:#fff;
+  margin-top:50px;
+  float:left;
 }
 
 
@@ -1963,15 +1968,6 @@ font-family: 'lato';
 color:#00d0f5;
 }
 
-
-#cloud ul.services li{
-  background-color:#fff;
-  display:block;
-  width:280px;
-  float:left;
-  padding:19px 19px 60px 19px;
-  margin-right:1px;
-}
 .slider-cloud{
   width:960px;
   overflow:hidden;

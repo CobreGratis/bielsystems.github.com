@@ -6,3 +6,20 @@
   width:940px; height:467px;
   border:10px solid #fff;
 }
+
+div#single-page section#home ul.services li {
+  min-height:180px;
+}
+
+#time ul {
+  margin-top: 20px;
+}
+
+footer li {
+  width:35%;
+  text-align:left;
+}
+
+footer h3 {
+  text-align:left;
+}
