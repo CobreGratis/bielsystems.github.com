@@ -178,7 +178,6 @@ div.service img {
   color: #222;
 }
 .containner {
-  width: 960px;
   margin: 0 auto;
 }
 
@@ -259,6 +258,9 @@ height:115px;
   height: 760px;
   padding-top: 190px;
   background-repeat: no-repeat;
+}
+
+#single-page {
 }
 
 #single-page #home h2 {
