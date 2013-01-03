@@ -19,6 +19,10 @@ div#single-page section#home ul.services li h3 {
   height:55px;
 }
 
+.inpho {
+  width:70%;
+}
+
 footer li, footer h3 {
   width:100%;
   text-align:center;

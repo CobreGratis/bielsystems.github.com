@@ -7,8 +7,8 @@
   border:10px solid #fff;
 }
 
-div#single-page section#home ul.services li {
-  min-height:180px;
+.services li {
+  min-height:200px;
 }
 
 #time ul {
