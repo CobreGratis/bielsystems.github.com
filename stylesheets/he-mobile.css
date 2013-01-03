@@ -82,22 +82,15 @@ footer li, footer h3 {
     float: none;
   }
 
-  div#single-page section#home ul.services {
-
-  }
-
-  div#single-page section#home ul.services li {
+  #single-page section#home ul.services li {
     width:92%;
-    padding:3%;
-    background-color:#ccc !important;
+    padding:30px 3% 30px 3%;
+    min-height:auto !important;
+    margin-top:1px;
   }
-
-  div#single-page section#home ul.services li p {
-    font-size: 18px;
-  }
-
-  .services a.red-button {
-    display: none;
+  
+  #single-page section#home ul.services li:first-child {
+    margin-top:0;
   }
 
   #process h2 {
