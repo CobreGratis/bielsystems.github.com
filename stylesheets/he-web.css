@@ -2,6 +2,7 @@
   width: 960px;
 }
 
-.video{
-width:960px; height:477px;
+#cliente iframe{
+  width:940px; height:467px;
+  border:10px solid #fff;
 }

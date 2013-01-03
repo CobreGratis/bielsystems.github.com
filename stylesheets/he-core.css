@@ -537,9 +537,9 @@ font-size:36px;
   color:#fff;
 }
 
-#cliente iframe{
-  border:10px solid #fff;
+#cliente iframe {
   box-shadow: 0px 0px 10px rgba(0, 10, 0, 0.5);
+  margin-top:0px;
 }
 
 #cliente h2{
@@ -1670,10 +1670,6 @@ border-top:1px solid #efefef;
   background-repeat:no-repeat;
   background-position:top center;
   background-color:#efefef;
-}
-
-.video{
-margin-top:0px;
 }
 
 #jobs h2{
