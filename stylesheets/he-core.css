@@ -1,14 +1,22 @@
-/*/*====================*/
-/*=== Reset Styles ===*/
-/*====================*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
+@charset "utf-8";
+
+body, h1, h2, h3, h4,
+form, fieldset, input, label, p,
+em, strong, a, img, ul, li {
+	padding:0; margin:0; border:0;
+	vertical-align:baseline;
+	font-style:normal;
+}
+
+header, footer, aside, nav, article, section {display:block}
+
+html {font-size: 62.5%}
+
+p {margin:20px 0 0 0}
+label {cursor:pointer}
+img {border:none}
+
+body {
   font-family: inherit;
   vertical-align: baseline;
   font-family: 'Lato', sans-serif;
