@@ -110,6 +110,10 @@ footer li, footer h3 {
     float:left;
   }
   
+  #home .home-button {
+    display:none;
+  }
+  
   .services li {
     width:90%;
     padding:25px 5% 30px 5%;
