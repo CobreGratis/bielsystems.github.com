@@ -6,6 +6,7 @@ em, strong, a, img, ul, li {
 	padding:0; margin:0; border:0;
 	vertical-align:baseline;
 	font-style:normal;
+  list-style-type:none;
 }
 
 header, footer, aside, nav, article, section {display:block}
@@ -255,27 +256,24 @@ height:115px;
 /*====================*/
 
 #home {
-  background: url(/images/bg-home-2.jpg) center 120px;
-  height: 830px;
+  background: url(/images/bg-home-2.jpg) center 120px no-repeat;
   padding-top: 190px;
-  background-repeat: no-repeat;
 }
 
 #single-page {
 }
 
-#single-page #home h2 {
-  font-size: 82px;
+#home h2 {
+
   text-align: center;
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
   padding-top:0px;
-  line-height: 80px;
 }
 
-#single-page #home h3 {
+#home h3 {
   font-family: 'lato';
   font-weight:300;
   font-size:38px;
@@ -342,13 +340,11 @@ height:115px;
 .home-button a.red-button {
   position:absolute;
   margin-top:-45px;
-  left:230px;
 }
 
 .home-button a.red-button:hover{
   position:absolute;
   margin-top:-45px;
-  left:230px;
 }
 
 
@@ -376,7 +372,6 @@ a.red-button{
   display:block;
   margin:0 auto;
   z-indez:9999;
-  font-weight:900;
 }
 
 a.red-button:hover{
@@ -394,7 +389,6 @@ a.red-button:hover{
   display:block;
   margin:0 auto;
   margin-top:0px;
-  font-weight:900;
   opacity:0.9;
 }
 

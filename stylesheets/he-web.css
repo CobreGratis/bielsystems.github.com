@@ -2,6 +2,33 @@
   width: 960px;
 }
 
+#home {
+  height: 830px;
+}
+
+#home h2 {
+  padding-top:0px;
+  line-height: 80px;
+  font-size: 82px;
+}
+
+#home h3 {
+  font-family: 'lato';
+  font-weight:300;
+  font-size:38px;
+  color:#6d7171;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(256, 256, 256, 0.6);
+}
+
+.home-button a.red-button {
+  left:223px;
+}
+
+.home-button a.red-button:hover{
+  left:223px;
+}
+
 #cliente iframe{
   width:940px; height:467px;
   border:10px solid #fff;
