@@ -38,6 +38,22 @@
   min-height:200px;
 }
 
+.ourprocess {
+  margin-top:65px;
+}
+
+.diferenciado {
+  width:500px;
+  margin-top:40px;
+  float:right;
+}
+
+.diferenciado p {
+  margin-top:30px;
+  line-height:22px;
+  font-size:15px;
+}
+
 #time ul {
   margin-top: 20px;
 }

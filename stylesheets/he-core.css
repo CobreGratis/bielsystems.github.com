@@ -438,20 +438,19 @@ a.white-button:hover{
 }
 
 #process p.sub {
-font-family: 'lato';
+  font-family: 'lato';
   font-weight:300;
-font-size:36px;
-color:#800404;
-text-align: center;
+  font-size:36px;
+  color:#800404;
+  text-align: center;
 }
 
-#process li{
+#process li {
+  width:27.3%;
   display:block;
-  width:280px;
   text-align:center;
+  margin:0 3% 0 3%;
   float:left;
-  padding:19px 19px 60px 19px;
-  margin-right:1px;
 }
 
 #process h3{
@@ -461,34 +460,21 @@ text-align: center;
   color:#fff;
 }
 
-#process li p{
-color:#fff;
+#process li p {
   font-size:14px;
-}
-
-#process p{
-  color:#fff;
-  font-size:14px;
-}
-
-.ourprocess {
-  
 }
 
 .diferenciado {
-  width:500px;
-  float:right;
+    color:#fff;
 }
 
-#process .diferenciado h3{
-font-size:36px;
+#process .diferenciado h3 {
+  font-size:36px;
   text-align:left;
 }
 
-#process .diferenciado p{
+.diferenciado p {
   margin-top:30px;
-  line-height:22px;
-  font-size:15px;
 }
 
 #process .diferenciado a.white-button{

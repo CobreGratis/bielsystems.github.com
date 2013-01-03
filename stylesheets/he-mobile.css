@@ -24,8 +24,35 @@
   min-height:270px;
 }
 
-.inpho {
-  width:70%;
+#process li img {
+  width:90%;
+}
+
+#process h3 {
+  font-size:15px;
+}
+
+.ourprocess {
+  margin:60px 0 50px 150px;
+}
+
+.diferenciado {
+  width:80%;
+  padding:0 10% 0 10%;
+  text-align:center;
+  float:left;
+}
+
+.diferenciado h3 {
+  width:100%;
+  margin: 0 0 20px 0;
+  text-align:center !important;
+  float:left;
+}
+
+.diferenciado p {
+  line-height:30px;
+  font-size:17px;
 }
 
 #cliente iframe {
@@ -102,54 +129,6 @@ footer li, footer h3 {
   header.default h1 a {
     margin: 0 auto;
     float: none;
-  }
-
-  #process p.sub {
-    font-size: 20px;
-    color: #5d0101;
-  }
-
-  #process ul {
-    margin-top: -40px;
-    width: 100%;
-  }
-
-  #process ul li {
-    display: block;
-    float: left;
-    margin-right: 1px;
-    padding: 10px;
-    text-align: center;
-    margin-top: 0px;
-  }
-
-  #process li img {
-    float: none;
-    width: 180px;
-  }
-
-  #process li h3   {
-    text-align: center;
-    font-size: 28px;
-  }
-
-  #process li p {
-    text-align: center;
-    font-size: 22px;
-  }
-
-  .diferenciado {
-    display: none;
-    float:left;
-    width: 90%;
-    margin: 0 auto;
-    margin-left: 30px;
-    margin-top: 40px;
-  }
-
-  
-  #process img.teste {
-    display: none;
   }
 
   #cliente {
