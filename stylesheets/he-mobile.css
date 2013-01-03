@@ -28,11 +28,16 @@
   width:90%;
 }
 
+#process {
+  padding-bottom:70px;
+}
+
 #process h3 {
   font-size:15px;
 }
 
 .ourprocess {
+  max-height:392px; max-height:393px;
   margin:60px 0 50px 150px;
 }
 
@@ -53,6 +58,10 @@
 .diferenciado p {
   line-height:30px;
   font-size:17px;
+}
+
+.diferenciado a.white-button {
+  margin:30px auto;
 }
 
 #cliente iframe {
@@ -122,6 +131,10 @@ footer li, footer h3 {
     margin-left:1px !important;
   }
   
+  .ourprocess {
+    margin-left:0;
+  }
+  
   #home ul.icons {
     display: none;
   }
@@ -170,7 +183,7 @@ footer li, footer h3 {
 
   .project p {
     font-size: 18px;
-}
+  }
 
   .slider-screenshots img {
     width: 350px;
@@ -183,101 +196,6 @@ footer li, footer h3 {
   .slider-screenshots {
     float: right;
     margin: 20px 0 30px 25px;
-  }
-
-  #projects div.more-projects {
-    display: none;
-  }
-
-  #faleconosco p.pre {
-    font-size: 18px;
-  }
-
-  #faleconosco h2 {
-    font-size: 60px;
-    margin-top: 10px;
-  }
-
-  #faleconosco p.sub {
-    font-size: 16px;
-    margin-top: 20px;
-  }
-
-  #faleconosco form {
-    width: 90%;
-  }
-
-  #faleconosco input[type="text"] {
-    width: 82%;
-    padding:5%;
-  }
-
-  #faleconosco textarea {
-    width: 80%;
-  }
-
-
-  #time ul li {
-
-  }
-  
-
-  .project{
-    background-color:#fff;
-    padding:30px 20px;
-    width:350px;
-    margin:0 auto;
-  }
-
-  .project h3{
-  font-size:24px;
-    color:#b30000;
-    font-family:'lato';
-    font-weight:300;
-    margin-bottom:0;
-  }
-
-  .project h4{
-  font-size:18px;
-    color:#666;
-    font-family:'lato';
-    font-weight:300;
-    margin-bottom:0;
-    text-transform: uppercase;
-    margin:15px 0;
-  }
-
-  .project ul{
-    margin:10px 0 20px 0;
-  }
-
-  .project ul li{
-  list-style:none;
-    background-color:#efefef;
-    display:inline;
-    font-size:14px;
-      border-radius: 6px;
-    padding:3px 10px;
-    color:#666;
-    margin-right:5px;
-  }
-
-  .project a{
-      font-family:'lato';
-    font-weight:300;
-  color:#666;
-    font-style:italic;
-  }
-
-  .project iframe{
-    margin:30px 0;
-  }
-  a.red-button {
-    display: none;
-  }
-
-  #faleconosco form {
-
   }
 
 }

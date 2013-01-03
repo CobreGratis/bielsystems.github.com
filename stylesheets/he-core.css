@@ -477,7 +477,7 @@ a.white-button:hover{
   margin-top:30px;
 }
 
-#process .diferenciado a.white-button{
+.diferenciado a.white-button {
   background: url(/images/white-button.png) center no-repeat;
   width:410px;
   height:60px;
@@ -490,8 +490,6 @@ a.white-button:hover{
   padding-left:30px;
   text-align:left;
   display:block;
-  margin-left:1px;
-  margin-top:30px;
   font-weight:900;
 }
 
