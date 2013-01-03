@@ -412,10 +412,12 @@ a.white-button:hover{
 /*====================*/
 
 #process{
+  width:100%;
   background-color:#d92727;
   background-image: url(/images/bg-process.jpg);
   background-repeat:repeat;
-  padding-bottom:50px;
+  padding-bottom:100px;
+  float:left;
 }
 
 #process h2{
@@ -458,14 +460,21 @@ color:#fff;
 }
 
 #process p{
-color:#fff;
+  color:#fff;
   font-size:14px;
 }
 
-.diferenciado{
-width:500px;
-float:right;
-  padding-bottom:100px;
+.inpho {
+
+}
+
+.ourprocess {
+  
+}
+
+.diferenciado {
+  width:500px;
+  float:right;
 }
 
 #process .diferenciado h3{
@@ -474,7 +483,9 @@ font-size:36px;
 }
 
 #process .diferenciado p{
-margin-top:30px;
+  margin-top:30px;
+  line-height:22px;
+  font-size:15px;
 }
 
 #process .diferenciado a.white-button{
@@ -501,10 +512,12 @@ margin-top:30px;
 /*====================*/
 
 #cliente{
+  width:100%;
   background-image: url(/images/bg-cliente.jpg);
   background-repeat:no-repeat;
   background-position: center 360px;
   padding-bottom:100px;
+  float:left;
 }
 
 #cliente h3{
@@ -545,10 +558,12 @@ margin-top:5px;
 /*====================*/
 
 #projects{
+  width:100%;
   background-color:#1c1c1c;
   background-image: url(/images/bg-projects.jpg);
   background-repeat:no-repeat;
   padding-bottom:100px;
+  float:left;
 }
 
 #projects h2{
@@ -664,6 +679,11 @@ margin-top:50px;
 /*======= Time =======*/
 /*====================*/
 
+#time {
+  width:100%;
+  float:left;
+}
+
 #time h2{
   font-size: 82px;
   text-align: center;
@@ -716,7 +736,6 @@ margin-top:50px;
 #time ul li.aluisio{ background-image: url(/images/time-aluisio.jpg);}
 #time ul li.rodrigo{ background-image: url(/images/time-rodrigo.jpg);}
 #time ul li.mauro{ background-image: url(/images/time-mauro.jpg);}
-#time ul li.beni{ background-image: url(/images/time-beni.jpg);}
 #time ul li.cayo{ background-image: url(/images/time-cayo.jpg);}
 #time ul li.ramon{ background-image: url(/images/time-ramon.jpg);}
 #time ul li.sylva{ background-image: url(/images/time-sylvestre.jpg);}
@@ -733,6 +752,7 @@ margin-top:50px;
 #time ul li.pedrinho{ background-image: url(/images/time-pedrinho.jpg);}
 #time ul li.cytryn{ background-image: url(/images/time-cytryn.jpg);}
 #time ul li.fiuza{ background-image: url(/images/time-fiuza.jpg);}
+#time ul li.mikael {background-image: url(/images/time-mikael.jpg);}
 #time ul li.voce{ background-image: url(/images/time-voce.jpg);}
 
 
@@ -792,6 +812,8 @@ margin-top:40px;
   background-repeat: no-repeat;
   background-color: #efefef;
   height: 890px;
+  width:100%;
+  float:left;
 }
 
 div.product{
@@ -829,21 +851,26 @@ a.product span{
 .estoujogando{
   background-image: url(/images/product-estou-jogando.jpg);
 }
+
+
 /*====================*/
 /*=== Fale Conosco ===*/
 /*====================*/
+
+#faleconosco {
+  width:100%;
+  background-position: center;
+  background-image: url("/images/bg-contato.jpg");
+  padding-top: 150px;
+  padding-bottom:400px;
+  position: relative;
+  float:left;
+}
 
 #faleconosco h2 {
   padding-top: 0px;
   text-transform:uppercase;
   font-weight:700;
-}
-#faleconosco {
-  background-position: center;
-  background-image: url(/images/bg-contato.jpg);
-  padding-top: 150px;
-  height: 1135px;
-  position: relative;
 }
 #faleconosco h2 {
   color: #fff;
@@ -892,7 +919,7 @@ a.product span{
   opacity: 0.6;
   border: none;
   color: white;
-  width: 830px;
+  width: 827px;
   margin: 30px 0 30px 30px;
   padding: 15px;
   height: 100px;
@@ -911,7 +938,8 @@ footer {
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
   padding:30px 0 0 0;
-}
+  float:left;
+}	
 footer a,
 footer a:hover,
 footer a:visited,
@@ -2074,181 +2102,6 @@ background-image: url(/images/cloud-slider-nav-active.png);
 
 
 
-
-
-
-
-
-/*=====================*/
-/*== Media Queries ==*/
-/*=====================*/
-
-
-/* Tablets */
-
-@media (max-width: 800px) {
-
-
-
-
-  #menu {
-    display: none;
-  }
-
-  .containner {
-    margin: 0 auto;
-    width: 768px;
-  }
-
-  #single-page #home h2{
-    font-size: 60px;
-    margin-top: -40px;
-  }
-
-  #single-page #home h3{
-    font-size: 24px;
-  }
-
-  header.default h1 a {
-    margin: 0 auto;
-    float: none;
-  }
-
-  div#single-page section#home ul.services {
-    margin: 0 auto;
-    width:660px;
-    margin-left: 20px;
-  }
-
-  div#single-page section#home ul.services li {
-    background-color: #FFFFFF;
-    display: block;
-    float: left;
-    padding: 20px 30px 30px 30px;
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-  div#single-page section#home ul.services li p {
-    font-size: 16px;
-  }
-
-  #process h2 {
-    font-size: 60px;
-    margin-top: -40px;
-  }
-
-  #process p.sub {
-    font-size: 24px;
-  }
-
-  #process ul li {
-    display: block;
-    float: left;
-    margin-right: 1px;
-    padding: 10px;
-    text-align: center;
-    width: 100%;
-    margin-top: 0px;
-  }
-
-  #process li img {
-    float: left;
-    margin-right: 30px;
-    width: 180px;
-  }
-  #process li h3   {
-    text-align: left;
-    margin-top:20px;
-  }
-  #process li p {
-    text-align: left;
-    font-size: 16px;
-    width: 90%
-  }
-
-  .diferenciado {
-    float:left;
-    width: 90%;
-    margin: 0 auto;
-    margin-left: 30px;
-    margin-top: 40px;
-  }
-
-  #process .diferenciado p  {
-    font-size: 16px;
-  }
-
-  #process .diferenciado h3 {
-    text-align: center;
-  }
-
-  #process .diferenciado a.white-button {
-    display: none;
-  }
-  #process img.teste {
-    display: none;
-  }
-
-  #cliente {
-    background-image: none;
-  }
-
-  #cliente h2 {
-    font-size: 60px;
-    padding-top: 50px;
-  }
-
-  #cliente p.sub {
-    font-size: 24px;
-  }
-
-  #cliente iframe {
-    width: 90%;
-  }
-
-  #projects {
-
-  }
-
-  #projects h2 {
-    font-size: 60px;
-
-  }
-
-  #projects p.sub {
-    font-size: 24px;
-  }
-
-  #faleconosco p.pre {
-    font-size: 18px;
-  }
-
-  #faleconosco h2 {
-    font-size: 60px;
-    margin-top: 10px;
-
-  }
-
-  #faleconosco p.sub {
-    font-size: 16px;
-    margin-top: 20px;
-  }
-
-  #faleconosco form {
-    width: 80%;
-  }
-
-  #faleconosco input[type="text"] {
-    width: 80%;
-  }
-
-  #faleconosco textarea {
-    width: 80%;
-  }
-
-}
-
 #menu > ul > li {
     position: relative;
 }
@@ -2366,4 +2219,120 @@ p.advice {
 
 .termos-participacao li {
   margin: 0 0 15px;
+}
+
+
+
+/* TipTip CSS - Version 1.2 */
+
+#tiptip_holder {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+
+#tiptip_holder.tip_top {
+	padding-bottom: 5px;
+}
+
+#tiptip_holder.tip_bottom {
+	padding-top: 5px;
+}
+
+#tiptip_holder.tip_right {
+	padding-left: 5px;
+}
+
+#tiptip_holder.tip_left {
+	padding-right: 5px;
+}
+
+#tiptip_content {
+	font-size: 11px;
+	color: #fff;
+	text-shadow: 0 0 2px #000;
+	padding: 4px 8px;
+	border: 1px solid rgba(255,255,255,0.25);
+	background-color: rgb(25,25,25);
+	background-color: rgba(25,25,25,0.92);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000));
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 0 0 3px #555;
+	-webkit-box-shadow: 0 0 3px #555;
+	-moz-box-shadow: 0 0 3px #555;
+}
+
+#tiptip_arrow, #tiptip_arrow_inner {
+	position: absolute;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	height: 0;
+	width: 0;
+}
+
+#tiptip_holder.tip_top #tiptip_arrow {
+	border-top-color: #fff;
+	border-top-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow {
+	border-bottom-color: #fff;
+	border-bottom-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow {
+	border-right-color: #fff;
+	border-right-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow {
+	border-left-color: #fff;
+	border-left-color: rgba(255,255,255,0.35);
+}
+
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+	margin-top: -7px;
+	margin-left: -6px;
+	border-top-color: rgb(25,25,25);
+	border-top-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+	margin-top: -5px;
+	margin-left: -6px;
+	border-bottom-color: rgb(25,25,25);
+	border-bottom-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -5px;
+	border-right-color: rgb(25,25,25);
+	border-right-color: rgba(25,25,25,0.92);
+}
+
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+	margin-top: -6px;
+	margin-left: -7px;
+	border-left-color: rgb(25,25,25);
+	border-left-color: rgba(25,25,25,0.92);
+}
+
+/* Webkit Hacks  */
+@media screen and (-webkit-min-device-pixel-ratio:0) {	
+	#tiptip_content {
+		padding: 4px 8px 5px 8px;
+		background-color: rgba(45,45,45,0.88);
+	}
+	#tiptip_holder.tip_bottom #tiptip_arrow_inner { 
+		border-bottom-color: rgba(45,45,45,0.88);
+	}
+	#tiptip_holder.tip_top #tiptip_arrow_inner { 
+		border-top-color: rgba(20,20,20,0.92);
+	}
 }

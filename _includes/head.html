@@ -1,44 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
-  <title>{{ page.title }} - HE:labs</title>
-  <meta charset='utf-8' />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="keywords" content="he:labs, helabs, web software development, web, desenvolvimento, web, sistemas, saas, cloud, programação, ruby, startup, aplicativos, aplicações, software, sistemas, rails, lean" />
-  <meta name="description" content="{{ page.description }}" />
-  <meta name="author" content="HE:labs - http://helabs.com.br" />
-  <meta property="og:title" content="{{ page.title }} - HE:labs"/>
-  <meta property="og:site_name" content="helabs.com.br"/>
-  <meta property="og:image" content="http://helabs.com.br/images/logo_sq.jpg"/>
-  <meta property="og:description" content="{{ page.description }}" />
+	
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+  	<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet" type="text/css" />
+	
+    <title>{{ page.title }} &mdash; HE:labs</title>
 
-<!--   <meta name="viewport" content="width=device-width,maximum-scale=1.0" /> -->
-  <meta content='©2012 HE:labs' name='copyright' />
-  <meta name="robots" content="index,follow" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	
+    <meta name="copyright" content="© 2013 HE:labs" />
+  	<meta name="author" content="HE:labs - http://helabs.com.br" />
 
-  <meta name="HandheldFriendly" content="true" />
-  <meta name="viewport" content="width=480, user-scalable=no" />
+    <meta name="robots" content="index, follow" />
+	<meta content="he:labs, helabs, web software development, web, desenvolvimento, web, sistemas, saas, cloud, programação, ruby, startup, aplicativos, aplicações, software, sistemas, rails, lean" name="keywords" />
+	<meta content="{{ page.description }}" name="description" />
 
-  <link rel="icon" type="image/png" href="/favicon.png">
-  <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="/stylesheets/mobile.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="/stylesheets/tipTip.css" type="text/css" media="screen" />
-  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
-  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-  <script src="/javascripts/jquery.scrollTo.js"></script>
-  <script src="/javascripts/jquery.localScroll.js"></script>
-  <script src="/javascripts/jquery.tipTip.minified.js"></script>
-  <script src="/javascripts/scripts.js"></script>
-  <script type="text/javascript">
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="icon" type="image/png"  href="/favicon.png" />
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-16326763-1']);
-  _gaq.push(['_setDomainName', 'helabs.com.br']);
-  _gaq.push(['_trackPageview']);
+	<!-- Open Graph -->
+    <meta property="og:title" content="{{ page.title }} - HE:labs"/>
+    <meta property="og:site_name" content="helabs.com.br"/>
+    <meta property="og:image" content="http://helabs.com.br/images/logo_sq.jpg"/>
+    <meta property="og:description" content="{{ page.description }}" />
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+	<!-- Viewport Config -->
+	<meta name="viewport" content="width=device-width" />
+	<!--
+	<meta name="viewport" content="width=device-width,maximum-scale=1.0" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=480, user-scalable=no" />
+	-->
+	
+	<!-- Media Queries -->
+	<link rel="stylesheet" type="text/css" href="/stylesheets/he-core.css" />
+	<link rel="stylesheet" type="text/css" href="/stylesheets/he-web.css" media="(min-width:801px)" />
+	<link rel="stylesheet" type="text/css" href="/stylesheets/he-mobile.css" media="(max-width:801px)" />
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="static/css/cdm-web.css" media="screen" />
+	<![endif]-->
+	
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+    <script src="/javascripts/jquery.scrollTo.js"></script>
+    <script src="/javascripts/jquery.localScroll.js"></script>
+    <script src="/javascripts/jquery.tipTip.minified.js"></script>
+    <script src="/javascripts/scripts.js"></script>
+  
+    <script type="text/javascript">
 
-</script>
+  	  var _gaq = _gaq || [];
+  	  _gaq.push(['_setAccount', 'UA-16326763-1']);
+  	  _gaq.push(['_setDomainName', 'helabs.com.br']);
+  	  _gaq.push(['_trackPageview']);
+
+  	  (function() {
+  	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  	  })();
+
+    </script>
+
 </head>
