@@ -240,19 +240,7 @@ footer li, footer h3 {
 
 
   #time ul li {
-    list-style: none;
-    display: block;
-    width: 50px; height:50px;
-    text-align: center;
-    color: #b80606;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding-top: 100px;
-    border:1px solid #fff;
-    text-indent:0;
-    overflow:hidden;
-    float:left;
+
   }
   
 
