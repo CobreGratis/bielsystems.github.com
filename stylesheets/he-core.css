@@ -6,7 +6,6 @@ em, strong, a, img, ul, li {
 	padding:0; margin:0; border:0;
 	vertical-align:baseline;
 	font-style:normal;
-  list-style-type:none;
 }
 
 header, footer, aside, nav, article, section {display:block}
@@ -16,6 +15,14 @@ html {font-size: 62.5%}
 p {margin:20px 0 0 0}
 label {cursor:pointer}
 img {border:none}
+
+body {
+  font-family: inherit;
+  vertical-align: baseline;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  color: #888;
+}
 
 @font-face {
     font-family: 'RobotoLight';
@@ -39,14 +46,6 @@ img {border:none}
     font-weight: normal;
     font-style: normal;
 
-}
-
-body {
-  font-family: inherit;
-  vertical-align: baseline;
-  font-family: 'Lato', sans-serif;
-  font-size: 13px;
-  color: #888;
 }
 
 
@@ -89,7 +88,7 @@ a, a:active, a:visited{
   padding-top: 160px;
 }
 
-h1 {}
+h1{}
 
 h3 {
   text-transform: uppercase;
@@ -102,22 +101,10 @@ h3 {
 }
 
 .sub {
-  width:100%;
-  font-size: 35px;
-  font-family: 'lato';
-  font-weight:300;
+  font-size: 21px;
   text-transform: uppercase;
-  text-align:center;
   margin-bottom: 60px;
-  line-height:45px;
-  color:#6d7171;
-  float:left;
-}
-
-#home .sub {
-  margin-bottom: 30px;
-  text-shadow:#d5d6d6 0 1px 0;
-  font-size:38px
+  line-height:35px;
 }
 
 div.service {
@@ -288,6 +275,15 @@ height:115px;
   line-height: 80px;
 }
 
+#single-page #home h3 {
+  font-family: 'lato';
+  font-weight:300;
+  font-size:38px;
+  color:#6d7171;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(256, 256, 256, 0.6);
+}
+
 #home ul.icons a{
   float: left;
   text-align: center;
@@ -448,7 +444,11 @@ a.white-button:hover{
 }
 
 #process p.sub {
-  color:#800404;
+font-family: 'lato';
+  font-weight:300;
+font-size:36px;
+color:#800404;
+text-align: center;
 }
 
 #process li{
@@ -551,7 +551,11 @@ font-size:36px;
 }
 
 #cliente p.sub {
+  font-family: 'lato';
+  font-weight:300;
+  font-size:36px;
   color:#6d7171;
+  text-align: center;
 }
 
 #cliente a.red-button{
@@ -639,7 +643,11 @@ margin-top:5px;
 }
 
 #projects p.sub {
+  font-family: 'lato';
+  font-weight:300;
+  font-size:36px;
   color:#6d7171;
+  text-align: center;
 }
 
 div.more-projects{
@@ -695,7 +703,11 @@ margin-top:50px;
 }
 
 #time p.sub {
+  font-family: 'lato';
+  font-weight:300;
+  font-size:21px;
   color:#6d7171;
+  text-align: center;
 }
 
 
@@ -877,9 +889,15 @@ a.product span{
 }
 #faleconosco .pre, #faleconosco .sub {
   color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
 }
 #faleconosco .pre {
   font-size: 30.5px;
+}
+#faleconosco .sub {
+  font-size: 27.6px;
 }
 #faleconosco form {
   margin: 0px auto;
