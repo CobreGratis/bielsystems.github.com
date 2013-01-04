@@ -290,17 +290,39 @@
   }
   
   #faleconosco h2 {
-    font-size: 80px;
+    font-size:60px;
+  }
+  
+  #faleconosco .pre, #faleconosco .sub {
+    font-size:20px;
   }
 
+  #faleconosco .pre {
+    font-size:15px;
+  }
+
+  #faleconosco .sub {
+    font-size:15px;
+  }
+  
+  #faleconosco form {
+    padding:0;
+    margin:0;
+  }
+
+  #faleconosco input[type="text"],#faleconosco textarea {
+    width: 94%;
+    padding:3%;
+    margin:0;
+    float:left;
+  }
+  
   #faleconosco input[type="text"] {
-    width: 80%;
-    float:left;
+    margin-bottom:15px;
   }
-
+  
   #faleconosco textarea {
-    width: 80%;
-    float:left;
+    margin-bottom:40px;
   }
   
   
