@@ -260,7 +260,6 @@ height:115px;
 }
 
 #home h2 {
-
   text-align: center;
   color: #fff;
   text-transform: uppercase;
@@ -272,7 +271,6 @@ height:115px;
 #home h3 {
   font-family: 'lato';
   font-weight:300;
-  font-size:38px;
   color:#6d7171;
   text-align: center;
   text-shadow: 0px 1px 0px rgba(256, 256, 256, 0.6);

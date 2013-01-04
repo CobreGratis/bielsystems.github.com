@@ -2,14 +2,22 @@
 	width:700px;
 }
 
+
+/* Home */
+
 #home {
   height: auto;
   padding-bottom:130px;
 }
 
 #home h2 {
-  font-size: 72px;
+  padding-top:0px;
   line-height: 70px;
+  font-size: 72px;
+}
+
+#home h3 {
+  font-size:28px;
 }
 
 .home-button a.red-button {
@@ -152,18 +160,13 @@
 		padding:0 6% 0 6%;
   }
   
+  
+  /* home */
+  
   #home {
     padding-bottom:70px !important;
     padding-top:120px !important;
     background:#b1b6b2;
-  }
-  
-  .icons {
-    width: 360px !important;
-  }
-  
-  .icons a {
-    margin: 20px 6px 0 6px !important;
   }
 
   #home h2 {
@@ -179,7 +182,7 @@
     width:100%;
     font-size: 30px !important;
     line-height: 40px !important;
-    margin:0;
+    margin:0 0 40px 0;
     text-align:center;
     float:left;
   }
@@ -339,6 +342,46 @@
 /* Max Width, 480px */
 
 @media (max-width:480px) {
+  
+#home h2 {
+  font-size: 30px !important;
+  line-height: 40px !important;
+}
+  
+#home h3 {
+  font-size: 20px !important;
+  line-height: 30px !important;
+}
+
+.icons {
+  width:160px;
+}
+  
+.icons li {
+  margin:3%;
+}
+  
+.icons a {
+  float: left;
+  margin:1% !important;
+}
+
+#process li {
+  width:100%;
+  margin:30px 0 0 0;
+}
+
+#process li:first-child {
+  margin-top:0 !important;
+}
+
+#process li img {
+  width:230px; height:233px;
+}
+
+.ourprocess {
+  display:none;
+}
 
 #faleconosco input[type="image"] {
   width:100%;
