@@ -29,7 +29,30 @@
   left:223px;
 }
 
-#cliente iframe{
+
+/* Process */
+
+#process {
+  padding-bottom:60px;
+}
+
+
+/* Cliente */
+
+#cliente {
+    padding-bottom:60px;
+}
+
+#cliente h2, #process h2, #time h2 {
+    padding-top: 80px;
+    margin:0 0 20px 0;
+}
+
+#cliente .sub, #process .sub {
+  line-height: 46px;
+}
+
+#cliente iframe {
   width:940px; height:467px;
   border:10px solid #fff;
 }
@@ -57,6 +80,13 @@
 .diferenciado a.white-button {
   margin-left:1px;
   margin-top:30px;
+}
+
+
+/* Time */
+
+#time {
+  padding-bottom:60px;
 }
 
 #time ul {

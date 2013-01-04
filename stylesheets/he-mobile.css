@@ -20,6 +20,9 @@
   min-height:270px;
 }
 
+
+/* Process */
+
 #process li img {
   width:90%;
 }
@@ -60,10 +63,31 @@
   margin:30px auto;
 }
 
+
+/* Cliente */
+
+#cliente {
+    padding-bottom:60px;
+}
+
+#cliente h2, #process h2, #time h2 {
+  font-size: 62px;
+  padding-top: 50px;
+  margin-bottom:10px;
+}
+
+#cliente .sub, #process .sub, #time .sub {
+  line-height: 36px;
+  font-size: 20px;
+}
+
 #cliente iframe {
   width:690px; height:343px;
   border:5px solid #fff;
 }
+
+
+/* Footer */
 
 footer li, footer h3 {
   width:100%;
@@ -78,14 +102,22 @@ footer li, footer h3 {
   }
 
   .containner {
-		width:90%;
-		padding:0 5% 0 5%;
+		width:84%;
+		padding:0 8% 0 8%;
   }
   
   #home {
     padding-bottom:70px !important;
     padding-top:170px !important;
     background:#b1b6b2;
+  }
+  
+  .icons {
+    width: 360px !important;
+  }
+  
+  .icons a {
+    margin: 20px 6px 0 6px !important;
   }
 
   #home h2 {
@@ -134,24 +166,23 @@ footer li, footer h3 {
   .ourprocess {
     margin-left:0;
   }
+  
+  
+  /* Cliente */
 
   #cliente {
     background-image: none;
   }
-
-  #cliente h2 {
-    font-size: 40px;
+  
+  #cliente h2, #process h2, #time h2  {
+    font-size: 48px;
     padding-top: 50px;
   }
 
-  #cliente p.sub {
-    font-size: 20px;
-    margin:0;
-  }
-
   #cliente iframe {
-    width: 95%;
-    height: 200px
+    width:100%;
+    box-shadow:none;
+    border:none;
   }
 
 }
