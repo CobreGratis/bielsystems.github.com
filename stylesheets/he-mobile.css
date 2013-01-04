@@ -92,9 +92,16 @@ footer li, footer h3 {
   header.default {
     height:80px;
   }
+  
+  header.default h1 a {
+    width: 150px; height: 79px;
+    background-image: url(/images/m-logo.png);
+    margin:auto;
+    float: none;
+  }
 
   #menu {
-    display: none;
+    
   }
 
   .containner {
@@ -152,6 +159,10 @@ footer li, footer h3 {
     line-height:23px;
     padding:0 10% 0 10%;
     float:left;
+  }
+  
+  .services h3 {
+    margin:0 0 -20px 0 !important;
   }
   
   .services li:first-child {
