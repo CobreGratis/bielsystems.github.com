@@ -36,31 +36,21 @@
 }
 
 .ourprocess {
-  max-height:392px; max-height:393px;
-  margin:60px 0 50px 150px;
+  width:50%; height:50%;
+  margin-top:125px;
 }
 
 .diferenciado {
-  width:80%;
-  padding:0 10% 0 10%;
-  text-align:center;
-  float:left;
+  width:300px;
 }
 
-.diferenciado h3 {
-  width:100%;
-  margin: 0 0 20px 0;
-  text-align:center !important;
-  float:left;
+.full-p {
+  width:690px;
+  margin-left:-400px;
 }
 
-.diferenciado p {
-  line-height:30px;
-  font-size:17px;
-}
+.diferenciado .white-button {
 
-.diferenciado a.white-button {
-  margin:30px auto;
 }
 
 
@@ -170,6 +160,19 @@ footer li, footer h3 {
   }
   
   .ourprocess {
+    width:392px; height:393px;
+    margin:0 auto !important;
+    display:block;
+  }
+  
+  .diferenciado {
+    width:100%;
+    text-align:center;
+    float:left;
+  }
+  
+  .full-p {
+    width:auto;
     margin-left:0;
   }
   

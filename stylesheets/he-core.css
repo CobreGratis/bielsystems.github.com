@@ -452,7 +452,19 @@ a.white-button:hover{
 }
 
 .diferenciado {
-    color:#fff;
+  margin-top:40px;
+  float:right;
+  color:#fff;
+}
+
+.diferenciado p {
+  margin-top:30px;
+  line-height:25px;
+  font-size:17px;
+}
+
+.ourprocess {
+  margin-top:65px;
 }
 
 #process .diferenciado h3 {
@@ -464,20 +476,8 @@ a.white-button:hover{
   margin-top:30px;
 }
 
-.diferenciado a.white-button {
-  background: url(/images/white-button.png) center no-repeat;
-  width:410px;
-  height:60px;
-  color:#b30000;
-  text-decoration:none;
-  font-family: 'lato';
-  font-size:22px;
-  text-transform:uppercase;
-  padding-top:35px;
-  padding-left:30px;
-  text-align:left;
-  display:block;
-  font-weight:900;
+.diferenciado .white-button {
+  margin-top:30px;
 }
 
 
