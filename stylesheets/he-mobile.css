@@ -95,7 +95,13 @@ footer li, footer h3 {
 }
 
 
-@media only screen and (max-width : 686px)   {
+/* Max Width, 686px */
+
+@media (max-width:686px) {
+  
+  header.default {
+    height:80px;
+  }
 
   #menu {
     display: none;
