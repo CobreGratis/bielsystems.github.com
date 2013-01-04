@@ -50,7 +50,7 @@
 }
 
 .diferenciado .white-button {
-
+	display:none;
 }
 
 
@@ -224,6 +224,23 @@ footer li, footer h3 {
     width:100%;
     box-shadow:none;
     border:none;
+  }
+  
+  
+  /* Fale Conosco */
+  
+  #faleconosco h2 {
+    font-size: 80px;
+  }
+
+  #faleconosco input[type="text"] {
+    width: 80%;
+    padding: 3%;
+  }
+
+  #faleconosco textarea {
+      width: 80%;
+      padding: 3%;
   }
 
 }

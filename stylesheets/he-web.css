@@ -92,3 +92,16 @@ footer li {
 footer h3 {
   text-align:left;
 }
+
+
+/* Fale Conosco */
+
+#faleconosco input[type="text"] {
+  width: 382px;
+  padding: 15px;
+}
+
+#faleconosco textarea {
+  width: 827px;
+  padding: 15px;
+}
