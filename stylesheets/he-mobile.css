@@ -159,21 +159,38 @@ footer li, footer h3 {
     margin-left:1px !important;
   }
   
+  
+  /* Process */
+
+  #process ul {
+    width:100%;
+    margin-bottom:40px !important;
+    float:left;
+  }
+  
   .ourprocess {
     width:392px; height:393px;
-    margin:0 auto !important;
+    margin:50px auto !important;
     display:block;
   }
   
-  .diferenciado {
-    width:100%;
-    text-align:center;
-    float:left;
+  .diferenciado, .diferenciado h3 {
+    width:100% !important;
+    text-align:center !important;
+    float:left !important;
+  }
+  
+  .diferenciado h3 {
+    margin-top:-40px;
   }
   
   .full-p {
     width:auto;
     margin-left:0;
+  }
+  
+  .diferenciado .white-button {
+
   }
   
   
@@ -185,7 +202,7 @@ footer li, footer h3 {
   
   #cliente h2, #process h2, #time h2  {
     font-size: 48px;
-    padding-top: 50px;
+    padding-top: 50px !important;
   }
 
   #cliente iframe {
