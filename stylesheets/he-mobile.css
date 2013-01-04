@@ -343,6 +343,14 @@
 
 @media (max-width:480px) {
   
+header.default {
+  position:relative;
+}
+
+#home {
+    padding-top: 40px !important;
+}
+
 #home h2 {
   font-size: 30px !important;
   line-height: 40px !important;
