@@ -90,28 +90,32 @@ footer li, footer h3 {
 @media (max-width:686px) {
   
   header.default {
-    height:80px;
+    height:60px;
   }
   
   header.default h1 a {
-    width: 150px; height: 79px;
+    width: 150px; height: 60px;
     background-image: url(/images/m-logo.png);
-    margin:auto;
-    float: none;
   }
 
   #menu {
-    
+    display:none;
+    width:65%;
+    margin:0;
+  }
+  
+  #menu li {
+    margin:0;
   }
 
   .containner {
-		width:84%;
-		padding:0 8% 0 8%;
+		width:88%;
+		padding:0 6% 0 6%;
   }
   
   #home {
     padding-bottom:70px !important;
-    padding-top:170px !important;
+    padding-top:120px !important;
     background:#b1b6b2;
   }
   
