@@ -273,6 +273,10 @@
   
   /* Time */
   
+  #time {
+    padding-bottom:20px !important;
+  }
+  
   #time ul > li {
     width:163px;
     margin-right:0 !important;
@@ -281,6 +285,10 @@
   
   .social-icons {
     right:7px; bottom:64px;
+  }
+  
+  .red-button {
+    display:none !important;
   }
 
   
