@@ -88,15 +88,15 @@
 /* Time */
 
 #time ul > li {
-  margin:0 1px 40px 10px;
+  margin:0 8px 30px 7px;
 }
   
 
 /* Fale Conosco */
 
 #faleconosco {
-	 padding-top: 70px;
-    padding-bottom:210px;
+  padding-top: 70px;
+  padding-bottom:210px;
 }
 
 #faleconosco h2 {
@@ -278,15 +278,31 @@
   }
   
   #time ul > li {
-    width:163px;
-    margin-right:0 !important;
-    margin-left:0 !important;
+    width:27%;
+    margin:0 3% 10px 3%;
+    position:relative;
+    display:block;
+    text-align:center;
+    color:#333;
+    float:left;
   }
   
-  .social-icons {
-    right:7px; bottom:64px;
+  #time ul > li img, #time ul > li a img {
+    width:100%; height:100%;
+    background:#fff;
+    padding:0;
+    float:left;
   }
   
+  #time ul p {
+    font-size:14px;
+    height:70px;
+  }
+
+  #time ul span {
+    font-size:10px;
+  }
+
   .red-button {
     display:none !important;
   }
@@ -305,7 +321,7 @@
   }
   
   #faleconosco h2 {
-    font-size:60px;
+    font-size:50px;
   }
   
   #faleconosco .pre, #faleconosco .sub {
@@ -397,6 +413,11 @@ header.default {
 
 #process li img {
   width:230px; height:233px;
+}
+
+#time ul > li {
+  width:44%;
+  margin:0 3% 40px 3%;
 }
 
 .ourprocess {

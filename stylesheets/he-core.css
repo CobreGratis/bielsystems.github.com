@@ -642,12 +642,6 @@ margin-top:50px;
   float:left;
 }
 
-.voce a img {
-  width:150px; height:149px;
-  border:5px solid #fff;
-  display:block;
-}
-
 #time p {
   width:100%;
   text-align:center;
@@ -663,37 +657,53 @@ margin-top:50px;
   color:#a5a5ac;
 }
 
-#time li > img {
-  width:150px; height:149px;
+#time ul > li img, #time ul > li a img {
+  width:160px;
   background:#fff;
-  padding:5px;
   float:left;
 }
 
 .social-icons {
-  width:auto !important;
+  width:26px !important;
   position:absolute;
-  right:5px; bottom:64px;
-  float:right;
+  right:0; top:0;
+  z-index:200;
 }
 
 .social-icons li {
-  width:30px !important; height:30px;
-  margin:0 0 0 3px !important;
-  float:right;
+  width:26px !important; height:26px;
+  margin:0 0 1px 0 !important;
 }
 
 .social-icons a {
-  width:24px; height:24px;
-  background:#000;
-  opacity: .4;
-  padding:4px;
+  width:26px; height:26px;
+  text-indent:-9999px;
+  opacity: .5;
   float:right;
+}
+
+.twitter, .dribbble, .soundcloud, .github {
+  background:#000 url("/images/sprite-social-icons.png") left no-repeat;
+}
+
+.twitter {
+  background-position:0 0;
+}
+
+.dribbble {
+  background-position:-26px 0;
+}
+
+.soundcloud {
+  background-position:-52px 0;
+}
+
+.github {
+  background-position:-78px 0;
 }
 
 .social-icons a:hover {
   opacity: .8;
-  background:#b80606;
 }
 
 
