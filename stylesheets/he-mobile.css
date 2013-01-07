@@ -87,7 +87,9 @@
 
 /* Time */
 
-#time {}
+#time ul > li {
+  margin:0 1px 40px 10px;
+}
   
 
 /* Fale Conosco */
@@ -271,14 +273,16 @@
   
   /* Time */
   
-  #time {
-	  padding-bottom:70px;
+  #time ul > li {
+    width:163px;
+    margin-right:0 !important;
+    margin-left:0 !important;
   }
   
-  #time .red-button {
-	  display:none !important;
+  .social-icons {
+    right:7px; bottom:64px;
   }
-  
+
   
   /* Fale Conosco */
   
