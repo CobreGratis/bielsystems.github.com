@@ -658,7 +658,7 @@ margin-top:50px;
 }
 
 #time ul > li img, #time ul > li a img {
-  width:160px;
+  width:160px; height:160px;
   background:#fff;
   float:left;
 }
