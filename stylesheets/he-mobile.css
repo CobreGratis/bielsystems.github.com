@@ -288,7 +288,7 @@
   }
   
   #time ul > li img, #time ul > li a img {
-    width:100%;
+    width:100%; height:auto;
     background:#fff;
     padding:0;
     float:left;
