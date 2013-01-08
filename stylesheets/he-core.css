@@ -58,6 +58,7 @@ header.default h1 a {
   display: block;
   width: 217px; height: 115px;
   background-image: url(/images/logo.jpg);
+  text-indent:-9999px;
   float: left;
 }
 
