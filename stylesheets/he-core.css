@@ -1003,20 +1003,6 @@ footer p.copyright{
   margin: 30px 0 10px 0;
 }
 
-.left{
-  width:560px;
-  float:left;
-}
-
-.left p{
-  margin-bottom:15px;
-}
-
-.right{
-  width:360px;
-  float:right;
-}
-
 .price{
   font-size:40px;
   font-weight: 900;
@@ -1589,6 +1575,16 @@ div.zombie-anezio {
 /*== Jobs ==*/
 /*=====================*/
 
+.left{
+  width:560px;
+  float:left;
+}
+
+.right {
+  width:360px;
+  float:right;
+}
+
 #jobs h2 {
   color: #444444;
   font-size:22px;
@@ -1613,13 +1609,16 @@ div.zombie-anezio {
   text-transform: uppercase;
 }
 
+
+/* Jobs List */
+
 .right-jobs li {
   width:100%;
   border-top:1px solid #efefef;
   padding-top:20px;
   margin-bottom:20px;
-  line-height:25px;
-  font-size:14px;
+  line-height:28px;
+  font-size:17px;
   float:left;
 }
 
@@ -1682,6 +1681,7 @@ div.zombie-anezio {
   border-radius:4px;
   font-size:12px;
 }
+
 #jobs input[type="submit"]{
   background-color:#b80606;
   padding:8px;
