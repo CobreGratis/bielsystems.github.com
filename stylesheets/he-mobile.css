@@ -373,6 +373,7 @@
   
 header.default {
   position:relative;
+  float:left;
 }
 
 #home {
