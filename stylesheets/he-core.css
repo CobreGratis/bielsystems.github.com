@@ -214,7 +214,7 @@ header.landingpage {
 }
 
 div.header-spacer-default{
-height:115px;
+  height:115px;
 }
 
 /*====================*/
@@ -1377,12 +1377,9 @@ div.zombie-anezio {
   font-size:16px;
 }
 
-
-
 .mailing-form{
   padding-top:55px;
   margin-left:250px;
-  /**background-color:rgba(0, 0, 0, 0.1);**/
 }
 
 .mailing-form p{
@@ -1426,37 +1423,6 @@ div.zombie-anezio {
 
 .cover-mailing-page div.containner input[type="submit"]:hover{
   opacity:0.9;
-}
-
-
-/*=====================*/
-/*== Apoios Page ==*/
-/*=====================*/
-
-.logos-list {
-  width:100%;
-  margin:0 0 40px 0;
-  float:left;
-}
-
-.logos-list > li {
-  width:27.3%;
-  margin:0 3% 10px 3%;
-  display:block;
-  float:left;
-}
-
-.logos-list p {
-  width:100%;
-  text-align:center;
-  font-size:17px;
-  margin:15px 0 0 0;
-  float:left;
-}
-
-.logos-list > li img {
-  width:100%;
-  float:left;
 }
 
 
@@ -1582,6 +1548,40 @@ div.zombie-anezio {
   color:#ba2426;
   font-weight:500;
 }
+
+
+/* Apoios List */
+
+.logos-list {
+  width:100%;
+  margin:0 0 40px 0;
+  float:left;
+}
+
+.logos-list > li {
+  width:27.3%;
+  margin:0 3% 10px 3%;
+  display:block;
+  float:left;
+}
+
+.logos-list p {
+  width:100%;
+  text-align:center;
+  font-size:17px;
+  margin:15px 0 0 0;
+  float:left;
+}
+
+.logos-list > li img {
+  width:100%;
+  float:left;
+}
+
+
+/*=====================*/
+/*== Jobs ==*/
+/*=====================*/
 
 #depoimento {
   padding-bottom: 180px;

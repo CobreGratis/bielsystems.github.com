@@ -138,8 +138,8 @@
 
 @media (max-width:686px) {
   
-  header.default {
-    height:60px;
+  header.default, .header-spacer-default {
+    height:60px !important;
   }
   
   header.default h1 a {
