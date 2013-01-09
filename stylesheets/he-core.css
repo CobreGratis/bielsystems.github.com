@@ -320,8 +320,10 @@ height:115px;
 .services li h3 {
   font-size:22px !important;
   color:#b30000 !important;
+  text-align:center;
+  line-height:30px;
   padding:0;
-  margin:10px 0 0 0;
+  margin:5px 0 0 0;
 }
 
 .services li p {
@@ -1832,7 +1834,7 @@ margin: 0 auto;
 
 
 /*=====================*/
-/*======= t =======*/
+/*======= Cloud =======*/
 /*=====================*/
 
 #cloud .cover-cloud{
@@ -1861,17 +1863,6 @@ margin: 0 auto;
 #cloud{
   padding-bottom:120px;
   background-color:#efefef;
-}
-
-#cloud ul.services li p {
-  margin:0;
-  text-align:center;
-font-family: 'lato';
-  font-size:14px;
-}
-
-#cloud ul.services li a {
-color:#00d0f5;
 }
 
 .slider-cloud{
