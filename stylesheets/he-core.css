@@ -300,7 +300,9 @@ div.header-spacer-default{
 /* Services */
 
 .services {
+  width:100%;
   margin-top: 50px;
+  float:left;
 }
 
 .services li {
@@ -339,18 +341,13 @@ div.header-spacer-default{
   position:relative;
 }
 
-#cloud .home-button a.red-button {
-  font-size: 19px;
-}
-
 .home-button a.red-button {
   position:absolute;
   margin-top:-45px;
 }
 
-.home-button a.red-button:hover{
-  position:absolute;
-  margin-top:-45px;
+#cloud .home-button a.red-button {
+  font-size: 19px;
 }
 
 a.red-button, a.white-button {
@@ -364,15 +361,15 @@ a.red-button, a.white-button {
     text-align:left;
     display:block;
     margin:0 auto;
-    z-indez:9999;
+    z-index:9999;
 }
 
 a.red-button {
-  background: url(/images/red-button.png) center no-repeat;
+    background: url(/images/red-button.png) center no-repeat;
     color:#fff;
 }
 
-a.red-button:hover{
+a.red-button:hover {
   opacity:0.9;
 }
 
@@ -381,9 +378,10 @@ a.white-button {
   color:#b30000;
 }
 
-a.white-button:hover{
+a.white-button:hover {
   opacity:0.9;
 }
+
 
 /*====================*/
 /*== Nosso Processo ==*/
@@ -1832,40 +1830,35 @@ margin: 0 auto;
 /*======= Cloud =======*/
 /*=====================*/
 
-#cloud .cover-cloud{
-  background-color:#9d1b1f;
-  background-image: url(/images/cloud-bg.jpg);
-  background-repeat: no-repeat;
-  background-position:center;
-  height:457px;
+#cloud {
+  background:url("/images/cloud-bg.jpg") center top no-repeat;
 }
 
-.cover-cloud h2{
+#cloud .cover-cloud {
+  width:100%; height:460px;
+}
+
+.cover-cloud h2 {
+  width:100%; height:340px;
+  background: url("/images/cloud-top.png") 0 50px no-repeat;
+  margin:55px auto;
   display:block;
-  width:960px;
-  height:340px;
-  background-image: url(/images/cloud-top.png);
-  background-repeat: no-repeat;
-  background-position:0px 50px;
-  margin:0 auto;
-  margin-top:55px;
-
+  text-indent:-9999px;
 }
+
 .cover-cloud h2 span{
   display:none;
 }
 
-#cloud{
+#cloud {
   padding-bottom:120px;
   background-color:#efefef;
 }
 
 .slider-cloud{
-  width:960px;
+  width:100%;
   overflow:hidden;
-margin-bottom:30px;
-  margin:0 auto;
-  margin-bottom:50px;
+  padding-bottom:100px;
   position:relative;
 }
 
