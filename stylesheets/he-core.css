@@ -1830,6 +1830,10 @@ margin: 0 auto;
 /*======= Cloud =======*/
 /*=====================*/
 
+.cf {
+  width:100%; height:100%;
+}
+
 #cloud {
   background:url("/images/cloud-bg.jpg") center top no-repeat;
 }
@@ -1855,6 +1859,9 @@ margin: 0 auto;
   background-color:#efefef;
 }
 
+
+/* Slider cloud */
+
 .slider-cloud {
   width:100%;
   overflow:hidden;
@@ -1862,12 +1869,12 @@ margin: 0 auto;
   position:relative;
 }
 
-.slider-cloud ul.step-list {
+.step-list {
   width:3800px;
   position: relative;
 }
 
-.slider-cloud ul.step-list li {
+.step-list li {
   list-style:none;
   width:810px;
   display:block;
@@ -1876,11 +1883,13 @@ margin: 0 auto;
   margin-left:70px;
 }
 
-.slider-cloud ul.step-list li p {
+.step-list p {
   line-height:25px;
 }
 
-#cloud .slider-cloud ul.step-list li h3 {
+#cloud .step-list h3 {
+  background-repeat: no-repeat;
+  background-position: 0 7px;
   font-family: 'lato';
   font-weight:300;
   font-size:33px;
@@ -1889,35 +1898,17 @@ margin: 0 auto;
   padding-top:0px;
   margin:25px 0 10px 0;
   padding-left:75px;
-  background-repeat: no-repeat;
 }
 
-#cloud .slider-cloud ul.step-list li h3.step1{
-background-image: url(/images/step-01.png);
-background-position: 0 7px;
-}
+#cloud .step1 {background-image: url("/images/step-01.png")}
+#cloud .step2 {background-image: url("/images/step-02.png")}
+#cloud .step3 {background-image: url("/images/step-03.png")}
+#cloud .step4 {background-image: url("/images/step-04.png")}
 
-#cloud .slider-cloud ul.step-list li h3.step2{
-background-image: url(/images/step-02.png);
-background-position: 0 7px;
-}
-
-#cloud .slider-cloud ul.step-list li h3.step3{
-background-image: url(/images/step-03.png);
-background-position: 0 7px;
-}
-
-#cloud .slider-cloud ul.step-list li h3.step4{
-background-image: url(/images/step-04.png);
-background-position: 0 7px;
-}
-
-
-
-.slider-cloud ul li div{
-width:520px;
-float:right;
-padding:0;
+.slider-cloud ul li div {
+  width:520px;
+  float:right;
+  padding:0;
 }
 
 .slider-cloud a#next{

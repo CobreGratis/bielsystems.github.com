@@ -144,23 +144,6 @@
   display:none;
 }
 
-/*
-#cloud .cover-cloud {
-  background:none;
-  height:auto;
-}
-
-.cover-cloud h2 {
-  height:340px;
-  background:none;
-  text-indent:0 !important;
-  font: 50px 'Lato', sans-serif;
-  text-align:center;
-  margin:100px 0 0 0;
-  float:left;
-}
-*/
-
 .step-list img {
   width:25%; height:25%;
 }
@@ -399,6 +382,33 @@
     width:100%;
     float:left;
   }
+  
+  
+  /*=====================*/
+  /*======= Cloud =======*/
+  /*=====================*/
+
+  #cloud .cover-cloud {
+    background:none;
+    height:auto;
+  }
+
+  .cover-cloud h2 {
+    height:340px;
+    background:none;
+    text-indent:0 !important;
+    font: 40px 'Lato', sans-serif;
+    font-weight:300px;
+    text-align:center;
+    margin:100px 0 0 0;
+    display:block !important;
+    float:left;
+  }
+  
+  #m-cloud {
+    display:none;
+  }
+  
 
 }
 
