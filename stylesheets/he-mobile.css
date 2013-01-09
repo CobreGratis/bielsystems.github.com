@@ -161,6 +161,15 @@
 }
 */
 
+.step-list img {
+  width:25%; height:25%;
+}
+
+.step-content {
+  width:500px !important;
+  background:red;
+}
+
 
 /* Max Width, 686px */
 
