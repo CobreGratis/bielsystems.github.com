@@ -1655,41 +1655,45 @@ div.zombie-anezio {
 }
 
 #jobs form{
-margin-top: 15px;
-
+  width:100%;
+  margin-top: 15px;
+  margin-bottom:40px;
+  float:left;
 }
 
 #jobs input[type="text"]{
-height:35px;
+  height:40px;
+  line-height:36px;
   width:152px;
-  padding:0 10px;
+  padding:0 10px 0 10px;
   border:1px solid #ccc;
   margin-right: 10px;
-  border-radius:6px;
+  border-radius:4px;
+  font-size:12px;
 
 }
 
-#jobs textarea{
-height:100px;
-  width:526px;
+#jobs textarea {
+  width:526px; max-width:526px;
+  min-height:100px; max-height:300px;
   padding:10px;
   border:1px solid #ccc;
-  font-family: lucida grande;
-  font-size:11px;
   margin-top:10px;
-  border-radius:6px;
+  border-radius:4px;
+  font-size:12px;
 }
 #jobs input[type="submit"]{
   background-color:#b80606;
   padding:8px;
-  border:0px;
-  border-radius:6px;
+  border:none;
+  border-radius:4px;
   color:#fff;
   font-size:12px;
   text-transform:uppercase;
   font-weight:700;
   float: right;
   margin-right:12px;
+  margin-top:10px;
 }
 
 #jobs input[type="submit"]:hover{
