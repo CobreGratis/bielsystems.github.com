@@ -1535,18 +1535,21 @@ div.zombie-anezio {
   border-top:1px solid #efefef;
 }
 
+
 /*=====================*/
 /*== Privacidade ==*/
 /*=====================*/
 
-#privacidade{
-padding-bottom:70px;
+#privacidade {
+  padding-bottom:70px;
   font-size:20px;
-    color:#333;
-    font-weight:300;
+  color:#333;
+  font-weight:300;
 }
 
-#privacidade h2{
+#privacidade h2 {
+  border-bottom:1px solid #f4f4f4;
+  padding-bottom:20px;
   text-transform: uppercase;
   font-size: 32px;
   font-weight: bold;
@@ -1556,37 +1559,29 @@ padding-bottom:70px;
 
 }
 
-#privacidade p{
-margin-bottom:20px;
-font-size:20px;
-color:#333;
+#privacidade p {
+  line-height:27px;
+  font-size:17px;
+  color:#333;
 }
 
-#privacidade p strong{
-font-size:20px;
-font-weight:700;
+#privacidade p strong {
+  font-size:20px;
+  font-weight:700;
 }
 
-
-#privacidade ol li{
-margin-left:20px;
+#privacidade ol li {
+  margin-left:20px;
 }
 
-#privacidade ol{
+#privacidade ol {
   margin-bottom:25px;
 }
 
-#privacidade a{
+#privacidade a {
   color:#ba2426;
   font-weight:500;
 }
-
-#privacidade hr{
-  margin-bottom:30px;
-  border:0;
-border-top:1px solid #efefef;
-}
-
 
 #depoimento {
   padding-bottom: 180px;
