@@ -1576,11 +1576,6 @@ div.zombie-anezio {
   float:left;
 }
 
-
-/*=====================*/
-/*== Jobs ==*/
-/*=====================*/
-
 #depoimento {
   padding-bottom: 180px;
   background-image: url(/images/bg-time.png);
@@ -1589,43 +1584,74 @@ div.zombie-anezio {
   background-color:#efefef;
 }
 
-#jobs h2{
+
+/*=====================*/
+/*== Jobs ==*/
+/*=====================*/
+
+#jobs h2 {
   color: #444444;
   font-size:22px;
   padding-top:40px;
   text-transform:uppercase;
 }
 
-#jobs .right h2{
-margin-bottom: 10px;
-}
 
+/* Right */
 
-#jobs .left h3{
-  font-weight:300;
-  text-transform:none;
-  font-size:23px;
-  padding-top:10px;
-  line-height:20px;
-  margin-bottom:25px;
+#jobs .right h2 {
+  margin-bottom: 10px;
+  color:#b80606;
 }
 
 #jobs .right h3{
   font-weight:300;
-  font-size:23px;
+  font-size:24px;
   padding-top:10px;
   line-height:20px;
   margin-bottom:25px;
   text-transform: uppercase;
 }
 
-#jobs p{
-font-weight: 300;
+.right-jobs li {
+  width:100%;
+  border-top:1px solid #efefef;
+  padding-top:20px;
+  margin-bottom:20px;
+  line-height:25px;
+  font-size:14px;
+  float:left;
 }
 
-#jobs .right p{
-padding: 8px 0;
-border-top: 1px solid #efefef;
+.right-jobs strong {
+  color:#b80606;
+}
+
+.right-jobs li:first-child {
+  width:100%;
+  border-top:none;
+  float:left;
+}
+
+
+/* Left */
+
+#jobs .left h2 {
+    line-height:32px !important;
+}
+
+#jobs .left h3 {
+  font-weight:300;
+  text-transform:none;
+  font-size:23px;
+  padding-top:10px;
+  line-height:30px;
+  margin-bottom:25px;
+}
+
+#jobs p {
+  font-weight: 300;
+  line-height:25px;
 }
 
 #jobs form{
@@ -1673,15 +1699,17 @@ height:100px;
 
 textarea:focus{outline:none;}
 
-.cover-jobs{
+
+/* Cover */
+
+#jobs .cover-jobs {
   background-color: #b80606;
   padding-top:50px;
 }
 
-#jobs div.cover-jobs h2{
-color:#fff;
-width: 960px;
-margin: 0 auto;
+#jobs .cover-jobs h2 {
+  color:#fff;
+  margin: 0 auto;
   font-size:160px;
   font-weight:900;
 }
