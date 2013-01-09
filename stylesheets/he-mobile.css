@@ -383,32 +383,6 @@
     float:left;
   }
   
-  
-  /*=====================*/
-  /*======= Cloud =======*/
-  /*=====================*/
-
-  #cloud .cover-cloud {
-    background:none;
-    height:auto;
-  }
-
-  .cover-cloud h2 {
-    height:340px;
-    background:none;
-    text-indent:0 !important;
-    font: 40px 'Lato', sans-serif;
-    font-weight:300px;
-    text-align:center;
-    margin:100px 0 0 0;
-    display:block !important;
-    float:left;
-  }
-  
-  #m-cloud {
-    display:none;
-  }
-  
 
 }
 
@@ -479,4 +453,30 @@ header.default {
 #faleconosco input[type="image"] {
   width:100%;
   background:#fff;
+}
+
+
+/*=====================*/
+/*======= Cloud =======*/
+/*=====================*/
+
+#cloud .cover-cloud {
+  background:none;
+  height:auto;
+}
+
+.cover-cloud h2 {
+  height:340px;
+  background:none;
+  text-indent:0 !important;
+  font: 40px 'Lato', sans-serif;
+  font-weight:300px;
+  text-align:center;
+  margin:100px 0 0 0;
+  display:block !important;
+  float:left;
+}
+  
+#m-cloud {
+  display:none;
 }
