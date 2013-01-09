@@ -57,10 +57,6 @@
   margin-left:-400px;
 }
 
-.diferenciado .white-button {
-
-}
-
 
 /* Cliente */
 
@@ -134,12 +130,35 @@
 }
 
 
+/*=====================*/
+/*======= Cloud =======*/
+/*=====================*/
+
+#m-cloud {
+  width:100%;
+  padding-top:120px;
+  display:block;
+}
+
+#cloud .cover-cloud h2 {
+  display:none;
+}
+
+.step-list img {
+  width:25%; height:25%;
+}
+
+.step-content {
+  width:500px !important;
+}
+
+
 /* Max Width, 686px */
 
 @media (max-width:686px) {
   
-  header.default {
-    height:60px;
+  header.default, .header-spacer-default {
+    height:60px !important;
   }
   
   header.default h1 a {
@@ -288,7 +307,7 @@
   }
   
   #time ul > li img, #time ul > li a img {
-    width:100%; height:100%;
+    width:100%; height:auto;
     background:#fff;
     padding:0;
     float:left;
@@ -363,6 +382,7 @@
     width:100%;
     float:left;
   }
+  
 
 }
 
@@ -373,6 +393,7 @@
   
 header.default {
   position:relative;
+  float:left;
 }
 
 #home {
@@ -420,6 +441,11 @@ header.default {
   margin:0 3% 40px 3%;
 }
 
+.logos-list > li {
+  width:44%;
+  margin:0 3% 10px 3%;
+}
+
 .ourprocess {
   display:none;
 }
@@ -427,4 +453,30 @@ header.default {
 #faleconosco input[type="image"] {
   width:100%;
   background:#fff;
+}
+
+
+/*=====================*/
+/*======= Cloud =======*/
+/*=====================*/
+
+#cloud .cover-cloud {
+  background:none;
+  height:auto;
+}
+
+.cover-cloud h2 {
+  height:340px;
+  background:none;
+  text-indent:0 !important;
+  font: 40px 'Lato', sans-serif;
+  font-weight:300px;
+  text-align:center;
+  margin:100px 0 0 0;
+  display:block !important;
+  float:left;
+}
+  
+#m-cloud {
+  display:none;
 }
