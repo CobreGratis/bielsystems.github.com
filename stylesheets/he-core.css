@@ -301,7 +301,7 @@ div.header-spacer-default{
 
 .services {
   width:100%;
-  margin-top: 50px;
+  margin-top:50px;
   float:left;
 }
 
@@ -312,6 +312,7 @@ div.header-spacer-default{
   display:block;
   line-height:20px;
   padding:3%;
+  padding-bottom:60px !important;
   float:left;
 }
 
@@ -330,8 +331,9 @@ div.header-spacer-default{
 
 .services li p {
   text-align:center;
-  font-family: 'lato';
-  font-size:14px;
+  font-family:'lato';
+  font-size:16px;
+  line-height:23px;
 }
 
 
