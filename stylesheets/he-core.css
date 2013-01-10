@@ -1669,7 +1669,6 @@ div.zombie-anezio {
   margin-right: 10px;
   border-radius:4px;
   font-size:12px;
-
 }
 
 #jobs textarea {
@@ -1691,8 +1690,7 @@ div.zombie-anezio {
   font-size:12px;
   text-transform:uppercase;
   font-weight:700;
-  float: right;
-  margin-right:12px;
+  float: left;
   margin-top:10px;
 }
 
