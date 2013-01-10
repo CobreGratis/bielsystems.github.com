@@ -146,6 +146,28 @@
   float:left;
 }
 
+#jobs form {
+  width:90%;
+  background:#f8f8f8;
+  padding:5%;
+}
+
+#jobs input[type="text"] {
+  width:94%;
+  padding:0 3% 0 3%;
+  margin-right:0;
+  margin-bottom:10px;
+  font-size:14px;
+}
+
+#jobs textarea {
+  width:94% !important;
+  padding:3%;
+  line-height:22px;
+  margin-top:0;
+  font-size:14px;
+}
+
 
 
 /*=====================*/
@@ -409,92 +431,109 @@
 
 @media (max-width:480px) {
   
-header.default {
-  position:relative;
-  float:left;
-}
+  header.default {
+    position:relative;
+    float:left;
+  }
 
-#home {
-    padding-top: 40px !important;
-}
+  #home {
+      padding-top: 40px !important;
+  }
 
-#home h2 {
-  font-size: 30px !important;
-  line-height: 40px !important;
-}
+  #home h2 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
   
-#home h3 {
-  font-size: 20px !important;
-  line-height: 30px !important;
-}
+  #home h3 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
 
-.icons {
-  width:160px;
-}
+  .icons {
+    width:160px;
+  }
   
-.icons li {
-  margin:3%;
-}
+  .icons li {
+    margin:3%;
+  }
   
-.icons a {
-  float: left;
-  margin:1% !important;
-}
+  .icons a {
+    float: left;
+    margin:1% !important;
+  }
 
-#process li {
-  width:100%;
-  margin:30px 0 0 0;
-}
+  #process li {
+    width:100%;
+    margin:30px 0 0 0;
+  }
 
-#process li:first-child {
-  margin-top:0 !important;
-}
+  #process li:first-child {
+    margin-top:0 !important;
+  }
 
-#process li img {
-  width:230px; height:233px;
-}
+  #process li img {
+    width:230px; height:233px;
+  }
 
-#time ul > li {
-  width:44%;
-  margin:0 3% 40px 3%;
-}
+  #time ul > li {
+    width:44%;
+    margin:0 3% 40px 3%;
+  }
 
-.logos-list > li {
-  width:44%;
-  margin:0 3% 10px 3%;
-}
+  .logos-list > li {
+    width:44%;
+    margin:0 3% 10px 3%;
+  }
 
-.ourprocess {
-  display:none;
-}
+  .ourprocess {
+    display:none;
+  }
 
-#faleconosco input[type="image"] {
-  width:100%;
-  background:#fff;
-}
+  #faleconosco input[type="image"] {
+    width:100%;
+    background:#fff;
+  }
 
 
-/*=====================*/
-/*======= Cloud =======*/
-/*=====================*/
+  /*=====================*/
+  /*======= Jobs =======*/
+  /*=====================*/
 
-#cloud .cover-cloud {
-  background:none;
-  height:auto;
-}
+  #jobs .cover-jobs {
+    padding-top:40px;
+    padding-bottom:30px;
+    height:auto;
+  }
 
-.cover-cloud h2 {
-  height:340px;
-  background:none;
-  text-indent:0 !important;
-  font: 40px 'Lato', sans-serif;
-  font-weight:300px;
-  text-align:center;
-  margin:100px 0 0 0;
-  display:block !important;
-  float:left;
-}
+  #jobs .cover-jobs h2 {
+    font-size:80px;
+  }
+
+
+  /*=====================*/
+  /*======= Cloud =======*/
+  /*=====================*/
+
+  #cloud .cover-cloud {
+    background:none;
+    height:auto;
+  }
+
+  .cover-cloud h2 {
+    height:340px;
+    background:none;
+    text-indent:0 !important;
+    font: 40px 'Lato', sans-serif;
+    font-weight:300px;
+    text-align:center;
+    margin:100px 0 0 0;
+    display:block !important;
+    float:left;
+  }
   
-#m-cloud {
-  display:none;
+  #m-cloud {
+    display:none;
+  }
+
 }
