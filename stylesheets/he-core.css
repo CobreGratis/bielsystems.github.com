@@ -1474,7 +1474,7 @@ div.zombie-anezio {
   color:#b80606;
 }
 
-#open-source a:hover{
+#open-source a:hover {
   text-decoration:underline;
   border:0;
 }
@@ -1495,6 +1495,13 @@ div.zombie-anezio {
   margin-top:50px;
   border:0;
   border-top:1px solid #efefef;
+}
+
+
+
+.highlighted {
+  width: 50%;
+  float: left;
 }
 
 
