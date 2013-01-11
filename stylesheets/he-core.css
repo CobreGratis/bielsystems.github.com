@@ -1389,7 +1389,8 @@ div.zombie-anezio {
   background-repeat: no-repeat;
 }
 
-.cover-mailing-page div.containner input[type="text"], .cover-mailing-page div.containner input[type="email"]{
+.cover-mailing-page div.containner input[type="text"], 
+.cover-mailing-page div.containner input[type="email"]{
   margin:0px 0 0 10px;
   width:531px;
   border:none;
