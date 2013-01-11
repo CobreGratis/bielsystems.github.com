@@ -346,6 +346,7 @@ div.header-spacer-default{
 .home-button a.red-button {
   position:absolute;
   margin-top:-45px;
+  z-index:200;
 }
 
 #cloud .home-button a.red-button {
