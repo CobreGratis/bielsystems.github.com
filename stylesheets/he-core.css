@@ -1432,7 +1432,7 @@ div.zombie-anezio {
   margin-top:55px;
 }
 
-#open-source{
+#open-source {
   padding-bottom:70px;
 }
 
@@ -1468,7 +1468,7 @@ div.zombie-anezio {
   opacity:0.9;
 }
 
-#open-source a{
+#open-source a {
   text-decoration:none;
   border:0;
   color:#b80606;
@@ -1494,14 +1494,25 @@ div.zombie-anezio {
 #open-source hr{
   margin-top:50px;
   border:0;
-  border-top:1px solid #efefef;
+  border-top:none;
+}
+
+.highlighted {
+  width: 380px;
+  padding: 30px;
+  float: left;
+  background-color: #f8f8f8;
+  margin-right: 30px;
+  height: 140px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 
-
-.highlighted {
-  width: 50%;
-  float: left;
+#open-source span {
+  font-size: 16px;
+  font-weight:400;
+  color:#888;
 }
 
 
