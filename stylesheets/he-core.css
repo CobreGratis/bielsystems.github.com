@@ -1443,12 +1443,12 @@ div.zombie-anezio {
 
 #open-source ul li{
   list-style:none;
-  width:320px;
-  display:block;
-  /**background-color:rgba(0, 0, 0, 0.1);**/
-  padding-top:20px;
-  padding-bottom:8px;
+  width: 290px;
+  height: 200px;
   float:left;
+  display:block;
+  margin-bottom: 10px;
+  padding: 20px 30px 8px 0;
 }
 
 #open-source ul li span,#open-source span{
@@ -1479,9 +1479,16 @@ div.zombie-anezio {
   border:0;
 }
 
-#open-source ul li p, p{
+#open-source p {
   font-size:16px;
+  font-weight: 300;
+  line-height:26px;
+  font-size:16px !important;
+  color: #6a6a6a;
+/*  opacity: 0.4;*/
 }
+
+
 
 #open-source hr{
   margin-top:50px;
