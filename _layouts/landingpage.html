@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang='pt'>
-  {% include head.html %}
-  <body>
+
+{% include head.html %}
+  
+<body>
+
   <header class="landingpage">
     <div class="containner">
-    	<h1><a class="back-to-home landing-top" href="/"><span>HE:labs</span></a></h1>
+
+    	<h1>
+        <a class="back-to-home landing-top" href="/">
+          <span>HE:labs</span>
+        </a>
+      </h1>
+
+    	<nav>
+        <ul>
+          <li><a href="/">Página Inicial</a></li>
+          <li><a href="//startupdev.com.br/">Startup DEV</a></li>
+        	<li><a href="/mailing">Mailing</a></li>
+          <li><a href="/workshops/startupdev">Workshops</a></li>
+          <li><a href="/opensource">Open Source</a></li>
+        	<li><a href="#faleconosco">Fale Conosco</a></li>
+        </ul>
+    	</nav>
+
     </div>
   </header>
+  
   {{ content }}
   {% include footer.html %}
+
 </body>
 </html>
