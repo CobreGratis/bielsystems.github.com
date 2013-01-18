@@ -773,13 +773,14 @@ a.product span{
 }
 
 #faleconosco h2 {
-  padding-top: 0px;
+	width:100%;
   text-transform:uppercase;
-  font-weight:700;
+  font-weight:bold;
   color: #fff;
   text-align: center;
-  margin: -10px;
-  font-size: 115px;
+  font-size: 120px;
+  margin:5px 0 9px 0;
+	float:left;
 }
 
 #faleconosco .pre, #faleconosco .sub {
@@ -795,11 +796,11 @@ a.product span{
   font-size: 27.6px;
 }
 #faleconosco form {
-  margin: 0px auto;
+  margin: 0 auto;
 }
 #faleconosco input[type="image"] {
   display: block;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 #faleconosco input[type="image"]:hover {
