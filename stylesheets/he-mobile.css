@@ -104,14 +104,6 @@
   font-size:20px;
 }
 
-#faleconosco .pre {
-  margin:0 0 5px 0;
-}
-
-#faleconosco .sub {
-  margin:5px 0 40px 0;
-}
-
 #faleconosco .containner {
   padding-bottom:120px;
 }
@@ -128,6 +120,46 @@
   margin: 30px 0 30px 30px;
   padding: 15px;
 }
+
+
+/*=====================*/
+/*== Jobs ==*/
+/*=====================*/
+
+
+#jobs .left {
+  width:100%;
+}
+
+#jobs .right {
+  width:100%;
+  border-bottom:5px solid #b80606;
+  padding-bottom:20px;
+  float:left;
+}
+
+#jobs form {
+  width:90%;
+  background:#f8f8f8;
+  padding:5%;
+}
+
+#jobs input[type="text"] {
+  width:94%;
+  padding:0 3% 0 3%;
+  margin-right:0;
+  margin-bottom:10px;
+  font-size:14px;
+}
+
+#jobs textarea {
+  width:94% !important;
+  padding:3%;
+  line-height:22px;
+  margin-top:0;
+  font-size:14px;
+}
+
 
 
 /*=====================*/
@@ -214,7 +246,7 @@
   
   .services li {
     width:90%;
-    padding:25px 5% 30px 5%;
+    padding:25px 5% 30px 5% !important;
     min-height:auto !important;
     margin-top:1px;
   }
@@ -222,8 +254,6 @@
   .services p {
     width:80%;
     margin:30px 0 0 0;
-    font-size:16px !important;
-    line-height:23px;
     padding:0 10% 0 10%;
     float:left;
   }
@@ -295,7 +325,7 @@
   #time {
     padding-bottom:20px !important;
   }
-  
+
   #time ul > li {
     width:27%;
     margin:0 3% 10px 3%;
@@ -305,7 +335,7 @@
     color:#333;
     float:left;
   }
-  
+
   #time ul > li img, #time ul > li a img {
     width:100%; height:auto;
     background:#fff;
@@ -340,19 +370,24 @@
   }
   
   #faleconosco h2 {
-    font-size:50px;
+    font-size:69px;
+		margin:10px 0 12px 0;
   }
   
   #faleconosco .pre, #faleconosco .sub {
     font-size:20px;
   }
+	
+	#faleconosco .pre, #faleconosco .sub {
+	  line-height:25px;
+	}
 
   #faleconosco .pre {
-    font-size:15px;
+    font-size:18px;
   }
 
   #faleconosco .sub {
-    font-size:15px;
+    font-size:16px;
   }
   
   #faleconosco form {
@@ -360,7 +395,7 @@
     margin:0;
   }
 
-  #faleconosco input[type="text"],#faleconosco textarea {
+  #faleconosco input[type="text"], #faleconosco textarea {
     width: 94%;
     padding:3%;
     margin:0;
@@ -383,7 +418,6 @@
     float:left;
   }
   
-
 }
 
 
@@ -391,92 +425,109 @@
 
 @media (max-width:480px) {
   
-header.default {
-  position:relative;
-  float:left;
-}
+  header.default {
+    position:relative;
+    float:left;
+  }
 
-#home {
-    padding-top: 40px !important;
-}
-
-#home h2 {
-  font-size: 30px !important;
-  line-height: 40px !important;
-}
+  #home h2 {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
   
-#home h3 {
-  font-size: 20px !important;
-  line-height: 30px !important;
-}
+  #home h3 {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
 
-.icons {
-  width:160px;
-}
+  .icons {
+    width:160px;
+  }
   
-.icons li {
-  margin:3%;
-}
+  .icons li {
+    margin:3%;
+  }
   
-.icons a {
-  float: left;
-  margin:1% !important;
-}
+  .icons a {
+    float: left;
+    margin:1% !important;
+  }
 
-#process li {
-  width:100%;
-  margin:30px 0 0 0;
-}
+  #process li {
+    width:100%;
+    margin:30px 0 0 0;
+  }
 
-#process li:first-child {
-  margin-top:0 !important;
-}
+  #process li:first-child {
+    margin-top:0 !important;
+  }
 
-#process li img {
-  width:230px; height:233px;
-}
+  #process li img {
+    width:230px; height:233px;
+  }
 
-#time ul > li {
-  width:44%;
-  margin:0 3% 40px 3%;
-}
+  #time ul > li {
+    width:44%;
+    margin:0 3% 40px 3%;
+  }
 
-.logos-list > li {
-  width:44%;
-  margin:0 3% 10px 3%;
-}
+  .logos-list > li {
+    width:44%;
+    margin:0 3% 10px 3%;
+  }
 
-.ourprocess {
-  display:none;
-}
+  .ourprocess {
+    display:none;
+  }
 
-#faleconosco input[type="image"] {
-  width:100%;
-  background:#fff;
-}
+  #faleconosco input[type="image"] {
+    width:100%;
+    background:#fff;
+  }
+	
+  #faleconosco h2 {
+    font-size:55px;
+  }
 
 
-/*=====================*/
-/*======= Cloud =======*/
-/*=====================*/
+  /*=====================*/
+  /*======= Jobs =======*/
+  /*=====================*/
 
-#cloud .cover-cloud {
-  background:none;
-  height:auto;
-}
+  #jobs .cover-jobs {
+    padding-top:40px;
+    padding-bottom:30px;
+    height:auto;
+  }
 
-.cover-cloud h2 {
-  height:340px;
-  background:none;
-  text-indent:0 !important;
-  font: 40px 'Lato', sans-serif;
-  font-weight:300px;
-  text-align:center;
-  margin:100px 0 0 0;
-  display:block !important;
-  float:left;
-}
+  #jobs .cover-jobs h2 {
+    font-size:80px;
+  }
+
+
+  /*=====================*/
+  /*======= Cloud =======*/
+  /*=====================*/
+
+  #cloud .cover-cloud {
+    background:none;
+    height:auto;
+  }
+
+  .cover-cloud h2 {
+    height:340px;
+    background:none;
+    text-indent:0 !important;
+    font: 40px 'Lato', sans-serif;
+    font-weight:300px;
+    text-align:center;
+    margin:100px 0 0 0;
+    display:block !important;
+    float:left;
+  }
   
-#m-cloud {
-  display:none;
+  #m-cloud {
+    display:none;
+  }
+
 }

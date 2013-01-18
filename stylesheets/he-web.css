@@ -24,7 +24,7 @@ header.default {
   left:223px;
 }
 
-.home-button a.red-button:hover{
+.home-button a.red-button:hover {
   left:223px;
 }
 
@@ -77,18 +77,17 @@ header.default {
 }
 
 #faleconosco input[type="text"] {
-  width: 382px;
+  width: 405px;
   padding: 15px;
   margin-left: 30px;
   margin-bottom:10px;
 }
 
 #faleconosco textarea {
-  width: 827px;
+  width: 873px;
   margin: 30px 0 30px 30px;
   padding: 15px;
 }
-
 
 
 /*=====================*/
