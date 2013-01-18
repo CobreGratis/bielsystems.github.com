@@ -333,7 +333,7 @@
   #time {
     padding-bottom:20px !important;
   }
-  
+
   #time ul > li {
     width:27%;
     margin:0 3% 10px 3%;
@@ -343,7 +343,7 @@
     color:#333;
     float:left;
   }
-  
+
   #time ul > li img, #time ul > li a img {
     width:100%; height:auto;
     background:#fff;
