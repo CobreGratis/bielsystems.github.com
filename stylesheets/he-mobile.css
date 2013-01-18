@@ -80,6 +80,10 @@
   border:5px solid #fff;
 }
 
+.js-client-videos-chooser a {
+  margin-right: 10px;
+}
+
 
 /* Time */
 
