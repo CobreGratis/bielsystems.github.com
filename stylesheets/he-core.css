@@ -1663,14 +1663,25 @@ div.zombie-anezio {
 /*== Jobs ==*/
 /*=====================*/
 
-.left{
-  width:560px;
+#jobs .cover-jobs {
+  background-color:#b80606;
+  margin-top:56px;
+}
+
+#jobs .cover-jobs h2 {
+  color:#fff;
+  margin-top:20px;
+  font-size:120px;
+  font-weight:bold;
   float:left;
 }
 
-.right {
-  width:360px;
-  float:right;
+
+/* Left */
+
+.left {
+  width:560px;
+  float:left;
 }
 
 #jobs h2 {
@@ -1682,6 +1693,11 @@ div.zombie-anezio {
 
 
 /* Right */
+
+.right {
+  width:360px;
+  float:right;
+}
 
 #jobs .right h2 {
   margin-bottom: 10px;
@@ -1789,22 +1805,6 @@ div.zombie-anezio {
 }
 
 textarea:focus{outline:none;}
-
-
-/* Cover */
-
-#jobs .cover-jobs {
-  background-color:#b80606;
-  padding-top:60px;
-  height:255px;
-}
-
-#jobs .cover-jobs h2 {
-  color:#fff;
-  margin: 0 auto;
-  font-size:130px;
-  font-weight:900;
-}
 
 
 /* TipTip CSS - Version 1.2 */
