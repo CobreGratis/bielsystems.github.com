@@ -104,14 +104,6 @@
   font-size:20px;
 }
 
-#faleconosco .pre {
-  margin:0 0 5px 0;
-}
-
-#faleconosco .sub {
-  margin:5px 0 40px 0;
-}
-
 #faleconosco .containner {
   padding-bottom:120px;
 }
@@ -378,19 +370,24 @@
   }
   
   #faleconosco h2 {
-    font-size:50px;
+    font-size:69px;
+		margin:10px 0 12px 0;
   }
   
   #faleconosco .pre, #faleconosco .sub {
     font-size:20px;
   }
+	
+	#faleconosco .pre, #faleconosco .sub {
+	  line-height:25px;
+	}
 
   #faleconosco .pre {
-    font-size:15px;
+    font-size:18px;
   }
 
   #faleconosco .sub {
-    font-size:15px;
+    font-size:16px;
   }
   
   #faleconosco form {
@@ -398,7 +395,7 @@
     margin:0;
   }
 
-  #faleconosco input[type="text"],#faleconosco textarea {
+  #faleconosco input[type="text"], #faleconosco textarea {
     width: 94%;
     padding:3%;
     margin:0;
@@ -421,7 +418,6 @@
     float:left;
   }
   
-
 }
 
 
@@ -487,6 +483,10 @@
   #faleconosco input[type="image"] {
     width:100%;
     background:#fff;
+  }
+	
+  #faleconosco h2 {
+    font-size:55px;
   }
 
 

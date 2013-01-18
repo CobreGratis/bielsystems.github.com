@@ -25,6 +25,9 @@ body {
   color: #888;
 }
 
+
+/* Fonts */
+
 @font-face {
     font-family: 'RobotoLight';
     src: url('/fonts/Roboto-Light-webfont.eot');
@@ -47,6 +50,31 @@ body {
     font-weight: normal;
     font-style: normal;
 
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/Kom15zUm24dIPfIRiNogNuvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
 }
 
 
@@ -202,7 +230,7 @@ header.default {
 
 header.landingpage {
   height: 55px;
-  background-color: #fff;
+  background-color: #333;
   border-top: 5px solid #b80606;
   border-bottom: 1px solid #efefef;
   position: fixed;
@@ -332,8 +360,8 @@ div.header-spacer-default{
 .services li p {
   text-align:center;
   font-family:'lato';
-  font-size:16px;
-  line-height:23px;
+  font-size:17px;
+  line-height:24px;
 }
 
 
@@ -345,12 +373,8 @@ div.header-spacer-default{
 
 .home-button a.red-button {
   position:absolute;
-  margin-top:-45px;
+  margin-top:-30px;
   z-index:200;
-}
-
-#cloud .home-button a.red-button {
-  font-size: 19px;
 }
 
 a.red-button, a.white-button {
@@ -767,6 +791,7 @@ a.product span{
 
 #faleconosco {
   width:100%;
+  border-top:1px solid #fff;
   background: #bd0011 url("/images/bg-contato.jpg") center bottom no-repeat;
   position: relative;
   float:left;
@@ -1487,10 +1512,7 @@ div.zombie-anezio {
   font-size:16px !important;
   color: #6a6a6a;
   margin-top: 10px;
-/*  opacity: 0.4;*/
 }
-
-
 
 #open-source hr{
   margin-top:50px;
@@ -1864,46 +1886,22 @@ textarea:focus{outline:none;}
   }
 }
 
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 100;
-  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/Kom15zUm24dIPfIRiNogNuvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/kcf5uOXucLcbFOydGU24WALUuEpTyoUstqEm5AMlJo4.woff) format('woff');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
-}
-
 
 /*=====================*/
 /*======= Cloud =======*/
 /*=====================*/
 
-.cf {
-  width:100%; height:100%;
-}
-
 #cloud {
+  width:100%;
   background:url("/images/cloud-bg.jpg") center top no-repeat;
+  padding-bottom:100px;
+  background-color:#efefef;
+  float:left;
 }
 
 #cloud .cover-cloud {
   width:100%; height:460px;
+  float:left;
 }
 
 .cover-cloud h2 {
@@ -1918,9 +1916,40 @@ textarea:focus{outline:none;}
   display:none;
 }
 
-#cloud {
-  padding-bottom:120px;
-  background-color:#efefef;
+
+/* Cloud Services */
+
+#cloud .services {
+  margin-top:-30px !important;
+}
+
+#cloud .services h3 {
+  font-size:16px!important;
+  margin:0 0 -5px 0;
+}
+
+#cloud a.red-button {
+  margin-top:-45px;
+  font-size: 19px;
+}
+
+
+/* Parceiros */
+
+#parceiros {
+  width:100%;
+  margin-top:120px;
+  float:left;
+}
+
+#parceiros li {
+  width:50%;
+  text-align:center;
+  float:left;
+}
+
+#parceiros a img {
+  width:75%;
 }
 
 
@@ -2042,6 +2071,8 @@ background-image: url(/images/cloud-slider-nav-active.png);
 }
 
 
+
+/* Menu */
 
 #menu > ul > li {
     position: relative;
