@@ -2431,3 +2431,78 @@ p.advice {
 		border-top-color: rgba(20,20,20,0.92);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====================*/
+/*== Design inicial páginas internas, refatorar em breve! ==*/
+/*=====================*/
+
+/* Projetos */
+
+#projetos {
+  width:100%;
+  background: #efefef url("/images/bg-time.png top center no-repeat");
+  padding-bottom:60px;
+  float:left;
+}
+
+#projetos .sub {
+  font-size:21px;
+  margin-top:0;
+  color:#6d7171;
+}
+
+#projetos ul {
+  width:100%;
+  margin-top:50px;
+  float:left;
+}
+
+#projetos ul > li {
+  width:  280px;
+  margin:0 20px 40px 20px;
+  position:relative;
+  color:#333;
+  float:left;
+}
+
+#projetos p {
+  width:100%;
+  text-align:center;
+  font-size:17px;
+  margin:15px 0 0 0;
+  float:left;
+}
+
+#projetos span {
+  text-transform:uppercase;
+  margin-top:5px;
+  font-size:11px;
+  color:#a5a5ac;
+}
+
+#projetos ul > li img, #projetos ul > li a img {
+  width:300px; height:280px;
+  background:#fff;
+  float:left;
+}
+
