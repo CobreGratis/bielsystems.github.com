@@ -570,6 +570,9 @@ a.white-button:hover {
   border-color: #B80606;
 }
 
+.thumbs {
+  height: 180px;
+}
 
 .thumbs a {
   display: block;
@@ -578,6 +581,7 @@ a.white-button:hover {
   float: left;
   margin-right: 20px;
   margin-top: 30px;
+
 }
 
 /*====================*/
