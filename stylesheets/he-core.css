@@ -1571,23 +1571,95 @@ div.zombie-anezio {
   border-top:none;
 }
 
+section.highlight-projects {
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+
+section.highlight-projects:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
+}
+
 .highlighted {
-  width: 385px;
+  width: 42%;
   padding: 30px;
   float: left;
   background-color: #f8f8f8;
-  margin-right: 30px;
-  height: 140px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-right: 3%;
+  margin-bottom: 0;
+  margin-top: 30px;
+  min-height: 300px;
 }
 
+.highlighted.second {
+  margin-right: 0px;
+}
+
+.highlighted:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
+}
+
+
+.highlighted h4 {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.highlighted p {
+  text-align: left;
+}
+
+
+
+.highlighted span {
+
+  float: left;
+
+}
+
+.highlighted img {
+  margin-right: 30px;
+}
 
 #open-source span {
   font-size: 16px;
   font-weight:400;
   color:#888;
+  float: left;
 }
+
+
+
+
+#open-source li.github-link  a {
+  background-color: #fff;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  padding: 20px;
+}
+
+#open-source li.github-link  a:hover {
+
+  background: #fafafa url(/images/ninecat.png) no-repeat 100px 30px;
+  text-decoration: none;
+}
+
+
 
 
 /*=====================*/
