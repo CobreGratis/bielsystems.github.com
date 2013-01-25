@@ -2506,3 +2506,18 @@ p.advice {
   float:left;
 }
 
+
+
+
+/* Projeto */
+
+#projeto {
+  width:100%;
+  background-color:#f9f9f9;
+  height: 600px;
+}
+
+#projeto h2 {
+  color: #ccc;
+}
+
