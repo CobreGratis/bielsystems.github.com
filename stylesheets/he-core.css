@@ -2482,11 +2482,27 @@ p.advice {
 
 #projetos {
   width:100%;
-  background: #efefef url("/images/bg-time.png top center no-repeat");
+  background: #fbfbfb;
   padding-bottom:60px;
   float:left;
+  margin-bottom: 600px;
+  padding-top: 40px;
 }
 
+#projetos h2 {
+  float: left;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  color: #B80606;
+  color: #d92727;
+}
+
+#projetos h3 {
+  color: #B80606;
+}
 #projetos .sub {
   font-size:21px;
   margin-top:0;
@@ -2542,4 +2558,78 @@ p.advice {
 #projeto h2 {
   color: #ccc;
 }
+
+
+
+
+/* Processo Interna */
+
+#processo{
+  width:100%;
+  background-color:#fbfbfb;
+
+  background-repeat:repeat;
+  float:left;
+}
+
+#processo h2 {
+  color:#fff;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+#processo p.sub {
+  color:#800404;
+}
+
+#processo li {
+  width:27.3%;
+  display:block;
+  text-align:center;
+  margin:0 3% 0 3%;
+  float:left;
+}
+
+#processo h3{
+  text-align:center;
+  font-size:22px;
+  font-weight:300;
+  color:#fff;
+}
+
+#processo li p {
+  font-size:14px;
+}
+
+.diferenciado {
+  margin-top:40px;
+  float:right;
+  color:#fff;
+}
+
+.diferenciado p {
+  margin-top:30px;
+  line-height:25px;
+  font-size:17px;
+}
+
+.ourprocess {
+  margin-top:65px;
+}
+
+#process .diferenciado h3 {
+  font-size:36px;
+  text-align:left;
+}
+
+.diferenciado p {
+  margin-top:30px;
+}
+
+.diferenciado .white-button {
+  margin-top:30px;
+}
+
+
+
+
 
