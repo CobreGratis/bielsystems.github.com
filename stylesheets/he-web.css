@@ -47,6 +47,11 @@ header.default {
     margin:0 0 20px 0;
 }
 
+#cliente h2 {
+    padding-top: 40px;
+    margin:0 0 20px 0;
+}
+
 #cliente .sub, #process .sub {
   line-height: 46px;
 }
