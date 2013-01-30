@@ -230,7 +230,7 @@ header.default {
 
 header.landingpage {
   width: 100%; height:55px;
-  background-color:#333;
+  background-color:#fff;
   border-bottom: 1px solid #efefef;
   position: fixed;
   top:0; left:0;
@@ -266,13 +266,12 @@ div.header-spacer-default {
   padding-left:12px;
   padding-right:12px;
   line-height:55px;
-  background:#3e3e3e;
-  color:#bbb;
+  background:#fbfbfb;
   float:right;
 }
 
 .landingpage nav a:hover {
-  background:#742227;
+  background:#c12525;
   color:#fff;
 }
 
@@ -518,7 +517,7 @@ a.white-button:hover {
 
 #cliente {
   width:100%;
-  background: url("/images/bg-cliente.jpg") center 425px no-repeat;
+/*  background: url("/images/bg-cliente.jpg") center 425px no-repeat;*/
   border-bottom: 5px solid #b80606;
   float:left;
 }
@@ -530,6 +529,10 @@ a.white-button:hover {
   text-transform: uppercase;
   font-weight: bold;
   float:left;
+}
+
+#cliente h2 span {
+  font-size: 100px;
 }
 
 #cliente .sub, #process .sub, #time .sub {
@@ -548,9 +551,38 @@ a.white-button:hover {
 }
 
 #cliente iframe {
-  box-shadow: 0px 0px 10px rgba(0, 10, 0, 0.5);
+  box-shadow: 0px 0px 10px rgba(0, 10, 0, 0.1);
 }
 
+.js-client-videos-chooser {
+  margin-top: 20px;
+}
+
+.js-client-videos-chooser a {
+  display: block;
+  border: 10px solid #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 10, 0, 0.5);
+  float: left;
+  margin-right: 20px;
+}
+
+.js-client-videos-chooser a.selected {
+  border-color: #B80606;
+}
+
+.thumbs {
+  height: 180px;
+}
+
+.thumbs a {
+  display: block;
+  border: 6px solid #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 10, 0, 0.1);
+  float: left;
+  margin-right: 15px;
+  margin-top: 30px;
+
+}
 
 /*====================*/
 /*===== Projects =====*/
@@ -1556,23 +1588,95 @@ div.zombie-anezio {
   border-top:none;
 }
 
+section.highlight-projects {
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+
+section.highlight-projects:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
+}
+
 .highlighted {
-  width: 385px;
+  width: 42%;
   padding: 30px;
   float: left;
   background-color: #f8f8f8;
-  margin-right: 30px;
-  height: 140px;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-right: 3%;
+  margin-bottom: 0;
+  margin-top: 30px;
+  min-height: 300px;
 }
 
+.highlighted.second {
+  margin-right: 0px;
+}
+
+.highlighted:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
+}
+
+
+.highlighted h4 {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.highlighted p {
+  text-align: left;
+}
+
+
+
+.highlighted span {
+
+  float: left;
+
+}
+
+.highlighted img {
+  margin-right: 30px;
+}
 
 #open-source span {
   font-size: 16px;
   font-weight:400;
   color:#888;
+  float: left;
 }
+
+
+
+
+#open-source li.github-link  a {
+  background-color: #fff;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  padding: 20px;
+}
+
+#open-source li.github-link  a:hover {
+
+  background: #fafafa url(/images/ninecat.png) no-repeat 100px 30px;
+  text-decoration: none;
+}
+
+
 
 
 /*=====================*/
@@ -1664,14 +1768,25 @@ div.zombie-anezio {
 /*== Jobs ==*/
 /*=====================*/
 
-.left{
-  width:560px;
+#jobs .cover-jobs {
+  background-color:#b80606;
+  margin-top:56px;
+}
+
+#jobs .cover-jobs h2 {
+  color:#fff;
+  margin-top:20px;
+  font-size:120px;
+  font-weight:bold;
   float:left;
 }
 
-.right {
-  width:360px;
-  float:right;
+
+/* Left */
+
+.left {
+  width:560px;
+  float:left;
 }
 
 #jobs h2 {
@@ -1683,6 +1798,11 @@ div.zombie-anezio {
 
 
 /* Right */
+
+.right {
+  width:360px;
+  float:right;
+}
 
 #jobs .right h2 {
   margin-bottom: 10px;
@@ -1790,22 +1910,6 @@ div.zombie-anezio {
 }
 
 textarea:focus{outline:none;}
-
-
-/* Cover */
-
-#jobs .cover-jobs {
-  background-color:#b80606;
-  padding-top:60px;
-  height:255px;
-}
-
-#jobs .cover-jobs h2 {
-  color:#fff;
-  margin: 0 auto;
-  font-size:130px;
-  font-weight:900;
-}
 
 
 /* TipTip CSS - Version 1.2 */
@@ -2174,6 +2278,11 @@ margin:0;
         text-align: center;
 }
 
+#menu a span.heart{
+  font-size: 17px;
+  margin-left: 5px;
+}
+
 #menu ul ul a:hover {
   background-color: rgb(240,240,240);
   text-decoration: none;
@@ -2344,3 +2453,183 @@ p.advice {
 		border-top-color: rgba(20,20,20,0.92);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====================*/
+/*== Design inicial páginas internas, refatorar em breve! ==*/
+/*=====================*/
+
+/* Projetos */
+
+#projetos {
+  width:100%;
+  background: #fbfbfb;
+  padding-bottom:60px;
+  float:left;
+  margin-bottom: 600px;
+  padding-top: 40px;
+}
+
+#projetos h2 {
+  float: left;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  color: #B80606;
+  color: #d92727;
+}
+
+#projetos h3 {
+  color: #B80606;
+}
+#projetos .sub {
+  font-size:21px;
+  margin-top:0;
+  color:#6d7171;
+}
+
+#projetos ul {
+  width:100%;
+  margin-top:50px;
+  float:left;
+}
+
+#projetos ul > li {
+  width:  280px;
+  margin:0 20px 40px 20px;
+  position:relative;
+  color:#333;
+  float:left;
+}
+
+#projetos p {
+  width:100%;
+  text-align:center;
+  font-size:17px;
+  margin:15px 0 0 0;
+  float:left;
+}
+
+#projetos span {
+  text-transform:uppercase;
+  margin-top:5px;
+  font-size:11px;
+  color:#a5a5ac;
+}
+
+#projetos ul > li img, #projetos ul > li a img {
+  width:300px; height:280px;
+  background:#fff;
+  float:left;
+}
+
+
+
+
+/* Projeto */
+
+#projeto {
+  width:100%;
+  background-color:#f9f9f9;
+  height: 600px;
+}
+
+#projeto h2 {
+  color: #ccc;
+}
+
+
+
+
+/* Processo Interna */
+
+#processo{
+  width:100%;
+  background-color:#fbfbfb;
+
+  background-repeat:repeat;
+  float:left;
+}
+
+#processo h2 {
+  color:#fff;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+#processo p.sub {
+  color:#800404;
+}
+
+#processo li {
+  width:27.3%;
+  display:block;
+  text-align:center;
+  margin:0 3% 0 3%;
+  float:left;
+}
+
+#processo h3{
+  text-align:center;
+  font-size:22px;
+  font-weight:300;
+  color:#fff;
+}
+
+#processo li p {
+  font-size:14px;
+}
+
+.diferenciado {
+  margin-top:40px;
+  float:right;
+  color:#fff;
+}
+
+.diferenciado p {
+  margin-top:30px;
+  line-height:25px;
+  font-size:17px;
+}
+
+.ourprocess {
+  margin-top:65px;
+}
+
+#process .diferenciado h3 {
+  font-size:36px;
+  text-align:left;
+}
+
+.diferenciado p {
+  margin-top:30px;
+}
+
+.diferenciado .white-button {
+  margin-top:30px;
+}
+
+
+
+
+

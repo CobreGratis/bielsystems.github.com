@@ -39,11 +39,16 @@ header.default {
 /* Cliente */
 
 #cliente {
-    padding-bottom:60px;
+    padding-bottom:20px;
 }
 
 #cliente h2, #process h2, #time h2 {
     padding-top: 80px;
+    margin:0 0 20px 0;
+}
+
+#cliente h2 {
+    padding-top: 40px;
     margin:0 0 20px 0;
 }
 

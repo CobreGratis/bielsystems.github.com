@@ -80,6 +80,10 @@
   border:5px solid #fff;
 }
 
+.js-client-videos-chooser a {
+  margin-right: 10px;
+}
+
 
 /* Time */
 
@@ -495,9 +499,11 @@
   /*=====================*/
 
   #jobs .cover-jobs {
-    padding-top:40px;
-    padding-bottom:30px;
+		width:100%;
+    padding-top:0;
+    padding-bottom:50px;
     height:auto;
+		float:left;
   }
 
   #jobs .cover-jobs h2 {

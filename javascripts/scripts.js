@@ -92,6 +92,22 @@ var App = {
 	      });
 	    }
 
+      if($("section#cliente").size() > 0) {
+        
+        link = $(".js-client-videos-chooser a")
+        iframe = $(".js-client-videos iframe");
+        iframe.hide();
+        iframe.eq(0).show();
+        link.eq(0).addClass("selected");
+        link.click(function(e){
+          clicked = $(this).index();
+          link.removeClass("selected");
+          $(this).addClass("selected");
+          iframe.hide();
+          iframe.eq(clicked).show();
+          e.preventDefault();
+        });
+      }
     }
 
 } // Var Site
