@@ -194,7 +194,7 @@
 @media (max-width:686px) {
   
   header.default, .header-spacer-default {
-    height:60px !important;
+    height:100px !important;
   }
   
   header.default h1 a {
@@ -203,9 +203,10 @@
   }
 
   #menu {
-    display:none;
-    width:65%;
+    /*display:none;*/
+    width:100%;
     margin:0;
+    padding: 0;
   }
   
   #menu li {
@@ -217,7 +218,9 @@
 		padding:0 6% 0 6%;
   }
   
-  
+  #menu ul li:first-child {
+    margin-left: 0;
+  }
   /* home */
   
   #home {
@@ -427,11 +430,25 @@
 
 /* Max Width, 480px */
 
+
+
+
+
 @media (max-width:480px) {
   
   header.default {
     position:relative;
     float:left;
+    height: 110px !important;
+  }
+  #menu {
+    margin-top: 10px;
+  }
+  #menu ul li {
+    margin-left: 10px;
+  }
+  #menu ul li.has-sub {
+    display: none;
   }
 
   #home h2 {
