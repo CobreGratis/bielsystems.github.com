@@ -84,8 +84,8 @@ body {
 
 header.default h1 a {
   display: block;
-  width: 217px; height: 115px;
-  background-image: url(/images/logo.jpg);
+  width: 236px; height: 114px;
+  background-image: url(/images/logo.png);
   text-indent:-9999px;
   float: left;
 }
@@ -104,6 +104,19 @@ header.landingpage h1 a {
 
 header.landingpage h1 a span {
   display: none;
+}
+
+
+header.projetos {
+  border-bottom: 1px solid ##f7f7f7;
+}
+
+header.projetos h1 {
+  width: 200px;
+}
+
+header.projetos nav#menu {
+  padding: 10px;
 }
 
 a, a:active, a:visited{
