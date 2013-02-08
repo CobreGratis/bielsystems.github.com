@@ -167,6 +167,48 @@
 
 
 /*=====================*/
+/*== Workshops ==*/
+/*=====================*/
+
+#workshops .cover-workshops h2 {
+  font-size:80px;
+}
+
+#workshops .left {
+  width:100%;
+}
+
+#workshops .right {
+  width:100%;
+  border-bottom:5px solid #b80606;
+  padding-bottom:20px;
+  float:left;
+}
+
+#workshops form {
+  width:90%;
+  background:#f8f8f8;
+  padding:5%;
+}
+
+#workshops input[type="text"] {
+  width:94%;
+  padding:0 3% 0 3%;
+  margin-right:0;
+  margin-bottom:10px;
+  font-size:14px;
+}
+
+#workshops textarea {
+  width:94% !important;
+  padding:3%;
+  line-height:22px;
+  margin-top:0;
+  font-size:14px;
+}
+
+
+/*=====================*/
 /*======= Cloud =======*/
 /*=====================*/
 
@@ -525,6 +567,23 @@
 
   #jobs .cover-jobs h2 {
     font-size:80px;
+  }
+
+
+  /*=====================*/
+  /*======= workshops =======*/
+  /*=====================*/
+
+  #workshops .cover-workshops {
+    width:100%;
+    padding-top:0;
+    padding-bottom:50px;
+    height:auto;
+    float:left;
+  }
+
+  #workshops .cover-workshops h2 {
+    font-size:60px;
   }
 
 
