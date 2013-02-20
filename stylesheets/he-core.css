@@ -298,7 +298,9 @@ div.header-spacer-default {
   padding-top: 48px;
 }
 #menu ul {
+  width: 440px;
 }
+
 #menu ul li {
   display: inline;
   margin-left: 25px
