@@ -483,9 +483,13 @@
     float:left;
     height: 110px !important;
   }
+
   #menu {
+    display: none;
     margin-top: 10px;
+    width: 100%;
   }
+
   #menu ul li {
     margin-left: 10px;
   }
