@@ -367,7 +367,9 @@
     box-shadow:none;
     border:none;
   }
-  
+  .thumbs {
+    display: none;
+  }
   
   /* Time */
   
@@ -481,7 +483,11 @@
   header.default {
     position:relative;
     float:left;
-    height: 110px !important;
+    height: 80px !important;
+  }
+
+  h1 a {
+    margin-top: 10px;
   }
 
   #menu {
@@ -555,7 +561,9 @@
   #faleconosco h2 {
     font-size:55px;
   }
-
+  .thumbs {
+    display: none;
+  }
 
   /*=====================*/
   /*======= Jobs =======*/
