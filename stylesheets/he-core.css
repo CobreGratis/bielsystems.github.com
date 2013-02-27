@@ -2804,8 +2804,19 @@ p.advice {
   margin-top:30px;
 }
 
-.header-space {
+.cover {
+  background-color: #b80606;
   margin-top: 56px;
+}
+
+.cover h2 {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 120px;
+  font-weight: bold;
+  float: left;
+  padding-top: 40px;
+  text-transform: uppercase;
 }
 
 .apoio-h3 {
