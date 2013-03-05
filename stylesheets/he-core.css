@@ -1523,6 +1523,128 @@ div.zombie-anezio {
   opacity:0.9;
 }
 
+/*======================*/
+/*==Cover Café com Dev==*/
+/*======================*/
+.cover-cafecomdev-page{
+  background-image: url(/images/cafecomdev.png);
+  background-position: bottom center;
+  margin-top:56px;
+}
+
+.cover-cafecomdev-page h2{
+  padding:0px;
+  margin:0px;
+  color:#b80606;
+  font-size:30px;
+  text-transform:none;
+  width:520px;
+  line-height:30px;
+  margin-bottom:35px;
+}
+
+#cafecomdev-page{
+  padding-bottom:50px;
+}
+
+#cafecomdev-page h3{
+  font-size:28px;
+  margin:40px 0;
+}
+
+#cafecomdev-page ul li{
+  list-style:none;
+  width:960px;
+  display:block;
+  /**background-color:rgba(0, 0, 0, 0.1);**/
+  padding-top:20px;
+  padding-bottom:8px;
+  border-bottom:1px solid #f5f5f5;
+}
+
+#cafecomdev-page ul li:hover{
+  background-color:#fbfbfb;
+}
+
+#cafecomdev-page ul li:last-child{
+  border-bottom:none;
+}
+
+#cafecomdev-page ul li img{
+  float:left;
+  margin-right:30px;
+}
+
+#cafecomdev-page ul li span{
+  font-size:23px;
+  font-weight:300;
+  color:#888;
+}
+
+#cafecomdev-page ul li h4{
+  font-size:23px;
+  font-weight:400;
+  color:#b80606;
+  margin-bottom:20px;
+}
+
+#cafecomdev-page ul li p{
+  font-size:16px;
+}
+
+.cafecomdev-form{
+  padding-top:55px;
+  margin-left:250px;
+}
+
+.cafecomdev-form p{
+  margin-top:15px;
+}
+
+.cafecomdev-form p a{
+  font-size:11px;
+  color:#666;
+}
+
+.cafecomdev-form img{
+  float:right;
+  margin: 11px 60px 0 0;
+}
+
+.cover-cafecomdev-page div.containner{
+  height:275px;
+  background-image: url(/images/mailing-page-containner-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cover-cafecomdev-page div.containner input[type="text"], 
+.cover-cafecomdev-page div.containner input[type="email"]{
+  margin:0px 0 0 10px;
+  width:531px;
+  border:none;
+  font-size:14px;
+}
+
+.cover-cafecomdev div.containner input[type="submit"]{
+  background-color:#b80606;
+  padding:8px;
+  border:0px;
+  border-radius:6px;
+  color:#fff;
+  font-size:12px;
+  text-transform:uppercase;
+  font-weight:700;
+}
+
+.cover-cafecomdev-page div.containner input[type="submit"]:hover{
+  opacity:0.9;
+}
+.containner{
+  margin:0 auto;
+}
+
+
 
 /*=====================*/
 /*== Opensource Page ==*/
