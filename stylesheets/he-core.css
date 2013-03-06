@@ -22,7 +22,7 @@ body {
   vertical-align: baseline;
   font-family: 'Lato', sans-serif;
   font-size: 13px;
-  color: #888;
+  color:rgb(71, 60, 60);
 }
 
 
@@ -136,7 +136,7 @@ h3 {
   font-size: 16px;
   font-weight: bold;
   text-align:left;
-  color: #222;
+  color: brown;
   padding-top: 20px;
   margin-bottom: 15px;
 }
@@ -1535,7 +1535,7 @@ div.zombie-anezio {
 .cover-cafecomdev-page h2{
   padding:0px;
   margin:0px;
-  color:#b80606;
+  color:rgb(82, 6, 6);
   font-size:30px;
   text-transform:none;
   width:520px;
@@ -1584,17 +1584,16 @@ div.zombie-anezio {
 #cafecomdev-page ul li h4{
   font-size:23px;
   font-weight:400;
-  color:#b80606;
+  color:brown;
   margin-bottom:20px;
 }
 
 #cafecomdev-page ul li p{
   font-size:16px;
 }
-
-.cafecomdev-form{
-  padding-top:55px;
-  margin-left:250px;
+.cafecomdev-text{
+  padding-top:px;
+  margin-right:250px;
 }
 
 .cafecomdev-form p{
@@ -1613,9 +1612,8 @@ div.zombie-anezio {
 
 .cover-cafecomdev-page div.containner{
   height:275px;
-  background-image: url(/images/mailing-page-containner-bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  position:relative;
+  bottom:20px;
 }
 
 .cover-cafecomdev-page div.containner input[type="text"], 
@@ -1643,7 +1641,12 @@ div.zombie-anezio {
 .containner{
   margin:0 auto;
 }
-
+.text{
+  margin-left:450px;
+  position:relative;
+  bottom:210px;
+  font-size:20px;
+}
 
 
 /*=====================*/
@@ -2945,3 +2948,57 @@ p.advice {
   font-size: 28px;
   margin: 40px 0;
 }
+/*=====================*/
+/*== calendar
+/*=====================*/
+div.calendar {
+  height:140px;
+  width:130px;
+  
+  background-color:white;
+  text-align: center;
+
+  border-radius:      5px;
+
+  box-shadow:     0 0 20px rgba(0,0,0,0.6);
+
+  background-image: -webkit-radial-gradient(center, #eee, #fff);
+  background-image: -moz-radial-gradient(center, #eee, #fff);
+
+
+  -webkit-backface-visibility:hidden;
+  
+  margin:50px auto;
+}
+
+div.calendar h1 {
+  margin:0;
+  text-align: center;
+  color:#fff;
+  font-style: bold;
+  font-size: 1em;
+  padding:10px;
+  border-bottom: 2px solid #1e1e1e;
+
+  background-color: #d93e3e;  
+
+  background-image: -webkit-gradient(linear,left top, left bottom,color-stop(0.0,#e37f80),color-stop(0.85, #d93e3e));
+  background-image: -moz-gradient(linear,left top, left bottom,color-stop(0.0,#e37f80),color-stop(0.85, #d93e3e));
+  background-image: -ms-gradient(linear,left top, left bottom,color-stop(0.0,#e37f80),color-stop(0.85, #d93e3e));
+  background-image: -o-gradient(linear,left top, left bottom,color-stop(0.0,#e37f80),color-stop(0.85, #d93e3e));
+  background-image: gradient(linear,left top, left bottom,color-stop(0.0,#e37f80),color-stop(0.85, #d93e3e));
+
+  -webkit-border-radius:  5px 5px 0 0;
+  -moz-border-radius:   5px 5px 0 0;
+  -ms-border-radius:    5px 5px 0 0;
+  -o-border-radius:   5px 5px 0 0;
+  border-radius:      5px 5px 0 0;
+}
+
+div.calendar p {
+  font-size: 3em;
+  line-height: 0%;
+  color:black;
+  font-weight: bold;
+}
+
