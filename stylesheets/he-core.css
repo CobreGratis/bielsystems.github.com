@@ -1647,7 +1647,15 @@ div.zombie-anezio {
   bottom:210px;
   font-size:20px;
 }
-
+.participantes{
+margin-left:210px;
+position:relative;
+bottom:200px;
+}
+.eventos{
+position:relative;
+bottom:150px;
+}
 
 /*=====================*/
 /*== Opensource Page ==*/
@@ -2951,6 +2959,13 @@ p.advice {
 /*=====================*/
 /*== calendar
 /*=====================*/
+
+div.calendar{
+  margin:0;
+  position:relative;
+  right:415px;
+
+}
 div.calendar {
   height:140px;
   width:130px;
@@ -2982,7 +2997,7 @@ div.calendar h1 {
 
   background-color: #d93e3e;  
 
-  background-image: -webkit-gradient(linear,left top, left bottom,color-stop(0.0,#e37f80),color-stop(0.85, #d93e3e));
+  background-image: -webkit-gradient(linear,right top, left bottom,color-stop(0.0,#e37f80),color-stop(0.85, #d93e3e));
   background-image: -moz-gradient(linear,left top, left bottom,color-stop(0.0,#e37f80),color-stop(0.85, #d93e3e));
   background-image: -ms-gradient(linear,left top, left bottom,color-stop(0.0,#e37f80),color-stop(0.85, #d93e3e));
   background-image: -o-gradient(linear,left top, left bottom,color-stop(0.0,#e37f80),color-stop(0.85, #d93e3e));
@@ -3000,5 +3015,11 @@ div.calendar p {
   line-height: 0%;
   color:black;
   font-weight: bold;
+}
+.data{
+  position:relative;
+  bottom:115px;
+  left:12px;
+  color:brown;
 }
 
