@@ -1650,11 +1650,11 @@ div.zombie-anezio {
 .palestrantes{
 margin-left:210px;
 position:relative;
-bottom:200px;
+bottom:300px;
 }
 .eventos{
 position:relative;
-bottom:150px;
+bottom:250px;
 }
 
 /*=====================*/
@@ -3018,8 +3018,16 @@ div.calendar p {
 }
 .data{
   position:relative;
-  bottom:115px;
-  left:12px;
+  bottom:185px;
+  left:20px;
+  font-size:50px; 
   color:brown;
+}
+.mes{
+  position:relative;
+  bottom:190px;
+  left:10px;
+  font-size: 30px;
+  color:white;
 }
 
