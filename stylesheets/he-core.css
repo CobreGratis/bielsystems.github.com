@@ -1648,13 +1648,14 @@ div.zombie-anezio {
   font-size:20px;
 }
 .palestrantes{
-margin-left:210px;
+margin-left:150px;
 position:relative;
-bottom:300px;
+bottom:340px;
+font-size:20px;
 }
 .eventos{
 position:relative;
-bottom:250px;
+bottom:300px;
 }
 
 /*=====================*/
