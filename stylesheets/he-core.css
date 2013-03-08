@@ -1554,7 +1554,7 @@ div.zombie-anezio {
 
 #cafecomdev-page ul li{
   list-style:none;
-  width:960px;
+  width:970px;
   display:block;
   /**background-color:rgba(0, 0, 0, 0.1);**/
   padding-top:20px;
@@ -1653,10 +1653,7 @@ position:relative;
 bottom:340px;
 font-size:20px;
 }
-.eventos{
-position:relative;
-bottom:300px;
-}
+
 
 /*=====================*/
 /*== Opensource Page ==*/
@@ -2853,9 +2850,6 @@ p.advice {
   float:left;
 }
 
-
-
-
 /* Projeto */
 
 #projeto {
@@ -2867,9 +2861,6 @@ p.advice {
 #projeto h2 {
   color: #ccc;
 }
-
-
-
 
 /* Processo Interna */
 
