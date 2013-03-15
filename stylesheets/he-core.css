@@ -588,6 +588,8 @@ a.white-button:hover {
 
 .thumbs {
   height: 180px;
+  margin: 0 auto;
+  width: 630px;
 }
 
 .thumbs a {
