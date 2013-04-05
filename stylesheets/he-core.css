@@ -3019,9 +3019,6 @@ p.advice {
 
 
 
-#profile {
-  padding-top: 180px;
-}
 
 
 #profile {
@@ -3031,7 +3028,7 @@ p.advice {
   padding-bottom:0px;
   float:left;
 /*  margin-bottom: 600px;*/
-  padding-top: 140px;
+  padding-top: 150px;
 }
 
 #profile h2 {
@@ -3100,14 +3097,59 @@ section#related-content {
   padding: 50px 0 400px ;
 }
 
+article.blog-posts {
+  background: red;
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+}
+
+article.projects-worked {
+  background: green;
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+}
+
+article.talks-presentations {
+  background: blue;
+  width: 30%;
+  float: left;
+}
 
 
 
 
 
+.social-links {
+  margin-top: 30px;
+}
+
+.social-links a {
+  height: 40px;
+  color: #d92727;
+  float: left;
+  padding-left:25px;
+  font-size: 1em;
+  text-decoration: none;
+  margin-right: 20px;
+}
+/* Twitter */
+a.twitter {
 
 
+  background: url("/images/social-icons/fc-webicon-twitter-s.png") no-repeat;
 
+}
+
+a.twitter:hover {
+  opacity: 0.8;
+}
+
+a.github {
+
+  background: url("/images/social-icons/fc-webicon-github-s.png") no-repeat;
+}
 
 
 
