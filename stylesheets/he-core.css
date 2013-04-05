@@ -3056,7 +3056,7 @@ article.mini-bio p.job-title {
 }
 article.mini-bio {
   width: 60%;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   float: left;
 }
 
@@ -3087,36 +3087,85 @@ aside.photo-bio {
 
 
 
-section#profile-links {
+section#profile-cote {
   background: #D92727;
-  padding: 160px 0;
+  padding:100px 0;
+}
+
+p.cote {
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
+  color: #fff
 }
 
 section#related-content {
   background: #fff;
-  padding: 50px 0 400px ;
+  padding: 50px 0 400px;
+  margin-bottom: 300px;
 }
 
 article.blog-posts {
-  background: red;
-  width: 30%;
+  width: 60%;
   float: left;
   margin-right: 5%;
+
+}
+
+article.blog-posts h2 {
+  font-size: 2.6em;
+  font-weight: 900;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+article.blog-posts a {
+  font-size: 1.6em;
+  font-weight: 400;
+  color: #d92727;
+  margin-bottom: 0px;
+}
+
+article.blog-posts p {
+  margin-top: 10px;
+  line-height: 1.8em;
+  font-size: 1.2em;
+  color: #474747;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 40px;
 }
 
 article.projects-worked {
-  background: green;
   width: 30%;
   float: left;
   margin-right: 5%;
 }
 
-article.talks-presentations {
+article.projects-worked h2 {
+  font-size: 2.6em;
+  font-weight: 900;
+  color: #474747;
+  margin-bottom: 10px;
+}
+
+article.projects-worked img {
+  margin-left: -10px;
+  margin-top: 20px;
+}
+
+article.projects-worked a {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #d92727;
+  margin-bottom: 0px;
+}
+
+/*article.talks-presentations {
   background: blue;
   width: 30%;
   float: left;
 }
-
+*/
 
 
 
@@ -3134,21 +3183,17 @@ article.talks-presentations {
   text-decoration: none;
   margin-right: 20px;
 }
-/* Twitter */
-a.twitter {
 
-
-  background: url("/images/social-icons/fc-webicon-twitter-s.png") no-repeat;
-
-}
-
-a.twitter:hover {
+.social-links a:hover {
   opacity: 0.8;
 }
 
-a.github {
+a.twitter {
+  background: url(/images/social-icons/fc-webicon-twitter-s.png) no-repeat;
+}
 
-  background: url("/images/social-icons/fc-webicon-github-s.png") no-repeat;
+a.github {
+  background: url(/images/social-icons/fc-webicon-github-s.png) no-repeat;
 }
 
 
