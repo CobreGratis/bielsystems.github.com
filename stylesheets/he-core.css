@@ -3352,8 +3352,9 @@ article.he-intro h3 {
 #advisors-team {
   width:100%;
   padding-bottom:60px;
-  background: #f8f8f8;
-  height: 250px;
+  background: #fff;
+  height: 300px;
+  margin-bottom: 160px;
 }
 
 #advisors-team .sub {
@@ -3364,9 +3365,8 @@ article.he-intro h3 {
 
 #advisors-team ul {
   width:100%;
-  margin-top:50px;
+  margin-top:30px;
   float:left;
-  margin-left: 100px;
 }
 
 #advisors-team ul > li {
@@ -3410,3 +3410,55 @@ section.apply-positions {
   height: 300px;
   padding-top: 30px;
 }
+
+
+section.apply-positions h3 {
+  font-size: 2.4em;
+  font-weight: 600;
+  color: #red;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  font-size: 3.4em;
+  font-weight: 800;
+  text-align: center;
+  color: #d92727;
+  color: #474747;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+section.apply-positions a.follow-jobs {
+  font-size: 2.2em;
+  font-weight: 600;
+  text-transform: none;
+  text-align: center;
+  color: #d92727;
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+section.apply-positions p {
+  font-size: 2.2em;
+  font-weight: 600;
+  text-transform: none;
+  text-align: center;
+  color: #d92727;
+  margin-bottom: 30px;
+  width: 100%;
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
