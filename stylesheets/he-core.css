@@ -3203,15 +3203,15 @@ article.projects-worked p {
   opacity: 0.8;
 }
 
-a.twitter {
+a.profile-twitter {
   background: url(/images/social-icons/fc-webicon-twitter-s.png) no-repeat;
 }
 
-a.github {
+a.profile-github {
   background: url(/images/social-icons/fc-webicon-github-s.png) no-repeat;
 }
 
-a.facebook {
+a.profile-facebook {
   background: url(/images/social-icons/fc-webicon-facebook-s.png) no-repeat;
 }
 
