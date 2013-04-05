@@ -3353,7 +3353,7 @@ article.he-intro h3 {
   width:100%;
   padding-bottom:60px;
   background: #f8f8f8;
-  height: 300px;
+  height: 250px;
 }
 
 #advisors-team .sub {
@@ -3366,6 +3366,7 @@ article.he-intro h3 {
   width:100%;
   margin-top:50px;
   float:left;
+  margin-left: 100px;
 }
 
 #advisors-team ul > li {
@@ -3405,4 +3406,7 @@ article.he-intro h3 {
   z-index:200;
 }
 
-
+section.apply-positions {
+  height: 300px;
+  padding-top: 30px;
+}
