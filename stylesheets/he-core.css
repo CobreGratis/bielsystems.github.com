@@ -3203,19 +3203,49 @@ article.projects-worked p {
   opacity: 0.8;
 }
 
-a.twitter {
+a.profile-twitter {
   background: url(/images/social-icons/fc-webicon-twitter-s.png) no-repeat;
 }
 
-a.github {
+a.profile-github {
   background: url(/images/social-icons/fc-webicon-github-s.png) no-repeat;
 }
 
-a.facebook {
+a.profile-facebook {
   background: url(/images/social-icons/fc-webicon-facebook-s.png) no-repeat;
 }
 
 
+
+
+
+
+section#about-us {
+  background: #EFEFEF;
+  background: #f7f7f7;
+  padding-top: 160px;
+}
+
+article.he-intro h2 {
+  font-size: 3.4em;
+  font-weight: 800;
+  text-align: center;
+  color: #d92727;
+  letter-spacing: 0.02em;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+article.he-intro h3 {
+  font-size: 1.4em;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+  text-align:center;
+  line-height: 1.6em;
+  color: #737373;
+  text-transform: none;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
 
 
 
