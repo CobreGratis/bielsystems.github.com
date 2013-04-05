@@ -3020,7 +3020,7 @@ p.advice {
 
 
 
-
+/* Profile View */
 #profile {
   width:100%;
   background: #fbfbfb;
@@ -3056,7 +3056,7 @@ article.mini-bio p.job-title {
 }
 article.mini-bio {
   width: 60%;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   float: left;
 }
 
@@ -3070,33 +3070,44 @@ article.mini-bio p {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-
-
 aside.photo-bio {
   width: 30%;
   float: left;
   margin-left: 3%;
 }
-
+.nav-profiles {
+  margin-top: 20px;
+  float: right;
+  margin-right: -30px;
+}
 .profile-picture img{
   margin-top:70px;
 
   border-radius: 6px;
-
 }
 
-
-
-section#profile-cote {
+section.profile-cote {
   background: #D92727;
-  padding:100px 0;
+  padding: 60px 0;
 }
-
-p.cote {
-  font-size: 3em;
+.cote p {
+  font-size: 3.3em;
   font-weight: 900;
   text-align: center;
-  color: #fff
+  color: #fff;
+  margin-top: 0;
+  text-shadow: 1px 1px 1px #980000;
+}
+
+p.signature {
+  font-size: 1.8em;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  margin-top: 15px;
+/*  font-style: italic;*/
+  text-shadow: none;
+  opacity: 0.9;
 }
 
 section#related-content {
@@ -3139,6 +3150,7 @@ article.projects-worked {
   width: 30%;
   float: left;
   margin-right: 5%;
+  margin-bottom: 100px;
 }
 
 article.projects-worked h2 {
@@ -3153,20 +3165,23 @@ article.projects-worked img {
   margin-top: 20px;
 }
 
-article.projects-worked a {
-  font-size: 1.3em;
-  font-weight: 600;
+article.projects-worked h3 {
+  font-size: 1.4em;
+  font-weight: 400;
   color: #d92727;
+  text-transform: none;
   margin-bottom: 0px;
 }
 
-/*article.talks-presentations {
-  background: blue;
-  width: 30%;
-  float: left;
-}
-*/
 
+article.projects-worked p {
+  margin-top: 10px;
+  line-height: 1.4em;
+  font-size: 1em;
+  color: #474747;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 40px;
+}
 
 
 
@@ -3194,6 +3209,10 @@ a.twitter {
 
 a.github {
   background: url(/images/social-icons/fc-webicon-github-s.png) no-repeat;
+}
+
+a.facebook {
+  background: url(/images/social-icons/fc-webicon-facebook-s.png) no-repeat;
 }
 
 
