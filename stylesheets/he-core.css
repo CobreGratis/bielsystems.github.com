@@ -3222,7 +3222,7 @@ a.profile-facebook {
 
 section#about-us {
   background: #EFEFEF;
-  background: #f7f7f7;
+  background: #fafafa;
   padding-top: 160px;
 }
 
@@ -3237,11 +3237,11 @@ article.he-intro h2 {
 
 article.he-intro h3 {
   font-size: 1.4em;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
-  margin-bottom: 30px;
   text-align:center;
   line-height: 1.6em;
+  margin-bottom: 0;
   color: #737373;
   text-transform: none;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -3251,5 +3251,158 @@ article.he-intro h3 {
 
 
 
+/* Time */
+
+#our-team {
+  width:100%;
+  background: #fafafa;
+  border-bottom: 1px solid #fff;
+}
+
+#our-team .sub {
+  font-size:21px;
+  margin-top:0;
+  color:#6d7171;
+}
+
+#our-team ul {
+  width:100%;
+  margin-top:50px;
+  float:left;
+}
+
+#our-team ul > li {
+  width:160px;
+  margin:0 10px 40px 20px;
+  position:relative;
+  color:#333;
+  float:left;
+}
+
+#our-team p {
+  width:100%;
+  text-align:center;
+  font-size:17px;
+  margin:15px 0 0 0;
+  float:left;
+}
+
+#our-team span {
+  text-transform:uppercase;
+  margin-top:5px;
+  font-size:11px;
+  color:#a5a5ac;
+}
+
+#our-team ul > li img, #our-team ul > li a img {
+  width:160px; height:160px;
+  background:#fff;
+  float:left;
+  border-radius: 4px;
+}
+
+.social-icons {
+  width:26px !important;
+  position:absolute;
+  right:0; top:0;
+  z-index:200;
+}
+
+.social-icons li {
+  width:26px !important; height:26px;
+  margin:0 0 1px 0 !important;
+}
+
+.social-icons a {
+  width:26px; height:26px;
+  text-indent:-9999px;
+  opacity: .5;
+  float:right;
+}
+
+.twitter, .dribbble, .soundcloud, .github {
+  background:#000 url("/images/sprite-social-icons.png") left no-repeat;
+}
+
+.twitter {
+  background-position:0 0;
+}
+
+.dribbble {
+  background-position:-26px 0;
+}
+
+.soundcloud {
+  background-position:-52px 0;
+}
+
+.github {
+  background-position:-78px 0;
+}
+
+.social-icons a:hover {
+  opacity: .8;
+}
+
+
+
+
+
+
+#advisors-team {
+  width:100%;
+  padding-bottom:60px;
+  background: #f8f8f8;
+  height: 300px;
+}
+
+#advisors-team .sub {
+  font-size:21px;
+  margin-top:0;
+  color:#6d7171;
+}
+
+#advisors-team ul {
+  width:100%;
+  margin-top:50px;
+  float:left;
+}
+
+#advisors-team ul > li {
+  width:160px;
+  margin:0 10px 40px 20px;
+  position:relative;
+  color:#333;
+  float:left;
+}
+
+#advisors-team p {
+  width:100%;
+  text-align:center;
+  font-size:17px;
+  margin:15px 0 0 0;
+  float:left;
+}
+
+#advisors-team span {
+  text-transform:uppercase;
+  margin-top:5px;
+  font-size:11px;
+  color:#a5a5ac;
+}
+
+#advisors-team ul > li img, #advisors-team ul > li a img {
+  width:160px; height:160px;
+  background:#fff;
+  float:left;
+  border-radius: 4px;
+}
+
+.social-icons {
+  width:26px !important;
+  position:absolute;
+  right:0; top:0;
+  z-index:200;
+}
 
 
