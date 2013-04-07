@@ -3462,3 +3462,458 @@ section.apply-positions p {
 
 
 
+
+
+
+
+
+
+
+
+
+/*======================*/
+/*==Cover Café com Dev==*/
+/*======================*/
+.cover-cafecomdev-page{
+  background-image: url(/images/wood_pattern.png);
+  background-position: bottom center;
+  margin-top:56px;
+  padding-top: 30px;
+}
+
+#cover.cover-cafecomdev-page {
+  height: 260px;
+}
+
+.cafe-logo {
+  width: 100%;
+  float: left;
+
+  text-align: center;
+}
+
+.cafe-logo img{
+
+  margin-top: 5px;
+}
+
+.cafe-intro {
+  width: 70%;
+  float: left;
+  margin-top: 40px;
+
+}
+
+
+.cover-cafecomdev-page h2{
+  padding:0px;
+  margin:0px;
+  color:rgb(82, 6, 6);
+  font-size:30px;
+  text-transform:none;
+  width: 100%;
+  line-height:30px;
+  margin-bottom:35px;
+
+
+  font-size: 2em;
+  font-weight: 800;
+  text-align: left;
+  color: #d92727;
+  color: #4d2111;
+
+  letter-spacing: 0.02em;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+#cafecomdev-page{
+  padding-bottom:50px;
+}
+section.latest-cafes {
+  background: #fafafa;
+  border-top: 1px solid #f7f7f7;
+}
+.latest-cafes h3{
+  font-size:28px;
+  margin:40px 0;
+}
+
+.latest-cafes ul li{
+  list-style:none;
+  width:970px;
+  display:block;
+  /**background-color:rgba(0, 0, 0, 0.1);**/
+  padding-top:20px;
+  padding-bottom:8px;
+  border-bottom:1px solid #f5f5f5;
+}
+
+.latest-cafes ul li:hover{
+  background-color:#fbfbfb;
+}
+
+.latest-cafes ul li:last-child{
+  border-bottom:none;
+}
+
+.latest-cafes ul li img{
+  float:left;
+  margin-right:30px;
+}
+
+.latest-cafes ul li span{
+  font-size:23px;
+  font-weight:300;
+  color:#888;
+}
+
+.latest-cafes ul li h4{
+  font-size:23px;
+  font-weight:400;
+  color:brown;
+  margin-bottom:20px;
+
+  padding:0px;
+  margin:0px;
+  color:rgb(82, 6, 6);
+  font-size:30px;
+  text-transform:none;
+  width: 100%;
+  line-height:30px;
+  margin-bottom:35px;
+
+
+  font-size: 2em;
+  font-weight: 700;
+  text-align: left;
+  color: #d92727;
+  color: #D92727;
+
+  letter-spacing: 0.02em;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.latest-cafes ul li p{
+  margin-top: 10px;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  color: #474747;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 40px;
+}
+.cafecomdev-text{
+  padding-top:px;
+  margin-right:250px;
+}
+
+.cafecomdev-form p{
+  margin-top:15px;
+}
+
+.cafecomdev-form p a{
+  font-size:11px;
+  color:#666;
+}
+
+.cafecomdev-form img{
+  float:right;
+  margin: 11px 60px 0 0;
+}
+
+.cover-cafecomdev-page div.containner{
+  height:275px;
+  position:relative;
+  bottom:20px;
+}
+
+.cover-cafecomdev-page div.containner input[type="text"], 
+.cover-cafecomdev-page div.containner input[type="email"]{
+  margin:0px 0 0 10px;
+  width:531px;
+  border:none;
+  font-size:14px;
+}
+
+.cover-cafecomdev div.containner input[type="submit"]{
+  background-color:#b80606;
+  padding:8px;
+  border:0px;
+  border-radius:6px;
+  color:#fff;
+  font-size:12px;
+  text-transform:uppercase;
+  font-weight:700;
+}
+
+.cover-cafecomdev-page div.containner input[type="submit"]:hover{
+  opacity:0.9;
+}
+.containner{
+  margin:0 auto;
+}
+.text{
+  margin-left:450px;
+  position:relative;
+  bottom:200px;
+  font-size:20px;
+  
+}
+.palestrantes{
+ position:relative;
+ float:right;
+ bottom:140px;
+ left:-690px;
+ font-size:15px;
+
+}
+
+
+
+
+
+section.latest-cafes-dev {
+  background: #fcfcfc;
+  border-top: 1px solid #f9f9f9;
+  border-bottom: 1px solid #f9f9f9;
+  margin-bottom: 300px;
+  padding: 40px 0;
+  height: 800px;
+}
+
+section.latest-cafes-dev h2 {
+  font-size: 2.2em;
+  font-weight: 900;
+  color: #474747;
+  margin-bottom: 60px;
+  font-size: 2.4em;
+  font-weight: 900;
+  color: #474747;
+  color: #4d2111;
+  margin-bottom: 0px;
+}
+
+
+.line-divisor-2{
+  border-bottom: 2px solid #ffa800;
+  width: 320px;
+  margin-top: 5px;
+  margin-left: -5px;
+  margin-bottom: 60px;
+ }
+
+
+
+
+
+article.last-event {
+  height: 200px;
+
+  margin-bottom: 60px;
+
+}
+
+
+.date-cafe {
+  width: 101px;
+  background-image: url(/images/date-bg-2.png);
+  height: 92px;
+  float: left;
+  margin-right: 3%;
+}
+
+
+article.last-event p.month {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 0;
+}
+article.last-event p.day {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 700;
+  margin-top: 0px;
+  padding: 0;
+  line-height: 1em;
+  margin-top: 3px;
+/*  text-shadow: 1px 1px white, -1px -1px #7f0404;*/
+}
+
+
+
+.infos-cafe {
+  width: 80%;
+  float: left;
+}
+
+
+article.last-event h4 {
+  text-transform:none;
+  font-size: 2em;
+  font-weight: 700;
+  color: #D92727;
+  letter-spacing: 0.01em;
+/*  text-shadow: 1px 1px 1px #fff;*/
+}
+
+span.palestrante {
+  color: #474747;
+    font-size: 0.75em;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    text-transform: none;
+    margin-left: 5px;
+}
+
+span.with {
+  color: #757575;
+    font-size: 0.6em;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    text-transform: none;
+    margin-left: 5px;
+}
+
+article.last-event p{
+  margin-top: 10px;
+  font-size: 1.1em;
+  line-height: 1.8em;
+  color: #474747;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 0px;
+}
+
+span.issue {
+  text-transform: uppercase;
+     color: #757575;
+    font-size: 0.95em;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-transform: uppercase
+}
+
+article.last-event h4 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+article.last-event h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  text-transform:none;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #474747;
+  letter-spacing: 0.01em;
+/*  text-shadow: 1px 1px 1px #fff;*/
+}
+
+article.last-event p {
+  margin-top: 15px;
+}
+
+
+/*article.last-event :hover {
+  cursor: pointer;
+}
+article.last-event :hover p  {
+  text-decoration: underline;
+}
+
+
+article.last-event :hover h4 {
+  text-decoration: underline;
+}*/
+
+
+article.about-cafe {
+  padding: 40px 0;
+  height: 220px;
+}
+
+.about-text {
+  width: 60%;
+  float: left;
+}
+
+.next-event {
+  width: 35%;
+  margin-left: 3%;
+  float: left;
+  border: 1px solid #ccc;
+  height: 200px;
+  text-align: center;
+}
+article.about-cafe h2{
+  font-size: 2.4em;
+  font-weight: 900;
+  color: #474747;
+  color: #4d2111;
+  margin-bottom: 0px;
+  
+}
+.line-divisor{
+  border-bottom: 2px solid #ffa800;
+  width: 340px;
+  margin-top: 5px;
+  margin-left: -5px;
+ }
+
+article.about-cafe p {
+  color: #474747;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 1.1em;
+  line-height: 2em;
+  text-align: left;
+}
+
+
+
+
+
+
+a.photos-facebook {
+  height: 40px;
+  color: #d92727;
+  float: left;
+  padding-left:25px;
+  font-size: 1em;
+  text-decoration: underline;
+  margin-right: 20px;
+  margin-top: 15px;
+  background: url(/images/social-icons/fc-webicon-facebook-s.png) no-repeat 0 0px;
+  padding-top: 2px;
+}
+
+.photos-facebook a:hover {
+  text-decoration: underline;
+}
+
+
+a.blog-post {
+  height: 20px;
+  color: #d92727;
+  float: left;
+  padding-left:25px;
+  font-size: 1em;
+  text-decoration: underline;
+  margin-right: 20px;
+  margin-top: 20px;
+  background: url(/images/social-icons/fc-webicon-rss-s.png) no-repeat 0 0px;
+  padding-top: 2px;
+}
+
+
