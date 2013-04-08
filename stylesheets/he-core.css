@@ -1530,7 +1530,7 @@ div.zombie-anezio {
 /*======================*/
 /*==Cover Café com Dev==*/
 /*======================*/
-/*.cover-cafecomdev-page{
+.cover-cafecomdev-page{
   background-image: url(/images/cafecomdev.png);
   background-position: bottom center;
   margin-top:56px;
@@ -1660,14 +1660,14 @@ div.zombie-anezio {
  font-size:15px;
 
 }
-*/
+
 
 /*=====================*/
 /*== Opensource Page ==*/
 /*=====================*/
 
 .cover-open-source{
-  background-color:#9d1b1f;
+  background-color: #9d1b1f;
 }
 
 .cover-open-source h2{
@@ -4022,4 +4022,10 @@ article.about-cafe p.free {
   color: #757575;
   font-size: 1em;
   margin-left: 5px;
+}
+
+
+
+.cover-open-source{
+  background-color: #9D1B1F;
 }
