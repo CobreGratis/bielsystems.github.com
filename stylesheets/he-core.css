@@ -3723,30 +3723,38 @@ article.last-event {
 }
 
 
-.date-cafe {
+/*.date-cafe {
   width: 101px;
   background-image: url(/images/date-bg-2.png);
   height: 92px;
   float: left;
   margin-right: 3%;
+}*/
+
+.date-cafe {
+  border: 2px solid #FFA800;
+  border-radius: 4px 4px 4px 4px;
+  float: left;
+  height: 80px;
+  width: 90px;
+  margin-right: 20px;
 }
 
-
 article.last-event p.month {
-  color: #fff;
+  color: #4D2111;
   text-align: center;
   text-transform: uppercase;
-  font-size: 1.25em;
+  font-size: 1.1em;
   font-weight: 600;
   margin-top: 5px;
   margin-bottom: 0;
   padding: 0;
 }
 article.last-event p.day {
-  color: #fff;
+  color: #4D2111;
   text-align: center;
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 2.7em;
   font-weight: 700;
   margin-top: 0px;
   padding: 0;
@@ -3966,12 +3974,12 @@ a.blog-post {
   height: 20px;
   color: #d92727;
   float: left;
-  padding-left:25px;
-  font-size: 1em;
+/*  padding-left:25px;*/
+  font-size: 1.1em;
   text-decoration: underline;
   margin-right: 20px;
   margin-top: 20px;
-  background: url(/images/social-icons/fc-webicon-rss-s.png) no-repeat 0 0px;
+/*  background: url(/images/social-icons/fc-webicon-rss-s.png) no-repeat 0 0px;*/
   padding-top: 2px;
 }
 h2.next {
