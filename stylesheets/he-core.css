@@ -3482,7 +3482,7 @@ section.apply-positions p {
 }
 
 #cover.cover-cafecomdev-page {
-  height: 260px;
+  height: 240px;
 }
 
 .cafe-logo {
@@ -3494,7 +3494,7 @@ section.apply-positions p {
 
 .cafe-logo img{
 
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 .cafe-intro {
@@ -3702,6 +3702,16 @@ section.latest-cafes-dev h2 {
  }
 
 
+.line-divisor-3{
+  border-bottom: 2px solid #ffa800;
+  width: 280px;
+  
+  margin-bottom: 60px;
+  margin: 0 auto;
+  margin-top: 5px;
+ }
+
+
 
 
 
@@ -3853,10 +3863,59 @@ article.about-cafe {
   width: 35%;
   margin-left: 3%;
   float: left;
-  border: 1px solid #ccc;
-  height: 200px;
-  text-align: center;
 }
+
+
+
+
+.date-next {
+
+  padding: 20px 10px;
+  height: 100px;
+  margin-top: 10px;
+  float: left;
+}
+
+.date-box {
+  border: 2px solid #FFA800;
+  height: 80px;
+  width: 80px;
+  float: left;
+  border-radius: 4px;
+  float: left;
+
+}
+.date-box p.title-mes {
+  color: #4D2111;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.date-box p.title-dia {
+  color: #4D2111;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.6em;
+  font-weight: 700;
+  margin-top: 0px;
+  padding: 0;
+  line-height: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
 article.about-cafe h2{
   font-size: 2.4em;
   font-weight: 900;
@@ -3915,5 +3974,18 @@ a.blog-post {
   background: url(/images/social-icons/fc-webicon-rss-s.png) no-repeat 0 0px;
   padding-top: 2px;
 }
+h2.next {
+  text-align: center;
+}
 
-
+.tituloevento-next h3.textonovo {
+  color: #D92727;
+  font-size: 1.6em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  margin: 0;
+  padding: 0;
+  margin-top: -20px;
+  line-height: 1.2em;
+}
