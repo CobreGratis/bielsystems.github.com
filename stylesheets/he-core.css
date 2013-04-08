@@ -3850,8 +3850,8 @@ article.last-event :hover h4 {
 
 
 article.about-cafe {
-  padding: 40px 0;
-  height: 220px;
+  padding: 50px 0 30px;
+  height: 160px;
 }
 
 .about-text {
@@ -3861,7 +3861,7 @@ article.about-cafe {
 
 .next-event {
   width: 35%;
-  margin-left: 3%;
+  margin-left: 5%;
   float: left;
 }
 
@@ -3952,7 +3952,7 @@ a.photos-facebook {
   font-size: 1em;
   text-decoration: underline;
   margin-right: 20px;
-  margin-top: 15px;
+  margin-top: 20px;
   background: url(/images/social-icons/fc-webicon-facebook-s.png) no-repeat 0 0px;
   padding-top: 2px;
 }
@@ -3978,7 +3978,7 @@ h2.next {
   text-align: center;
 }
 
-.tituloevento-next h3.textonovo {
+.tituloevento-next h4.textonovo {
   color: #D92727;
   font-size: 1.6em;
   font-weight: 700;
@@ -3986,6 +3986,46 @@ h2.next {
   text-transform: none;
   margin: 0;
   padding: 0;
-  margin-top: -20px;
+  margin-top: 30px;
   line-height: 1.2em;
 }
+
+
+
+span.by {
+  color: #757575;
+    font-size: 0.7em;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    text-transform: none;
+    margin-left: 5px;
+}
+
+
+.tituloevento-next h5{
+  color: #D92727;
+  font-size: 1.6em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  line-height: 1.2em;
+  margin-bottom: 5px;
+}
+
+
+a.free {
+  margin-top: 15px;
+  color: #D92727;
+  font-size: 1.2em;
+  margin-left: 5px;
+}
+
+
+
+
