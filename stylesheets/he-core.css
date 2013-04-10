@@ -3677,7 +3677,7 @@ section.latest-cafes-dev {
   border-bottom: 1px solid #f9f9f9;
   margin-bottom: 200px;
   padding: 40px 0;
-  height: 800px;
+   overflow: auto;
 }
 
 section.latest-cafes-dev h2 {
@@ -3716,9 +3716,8 @@ section.latest-cafes-dev h2 {
 
 
 article.last-event {
-  height: 200px;
-
-  margin-bottom: 60px;
+  overflow: auto;
+  margin-bottom: 80px;
 
 }
 
@@ -3839,6 +3838,7 @@ article.last-event p {
 article.about-cafe {
   padding: 50px 0 30px;
   height: 200px;
+
 }
 
 .about-text {
@@ -4014,6 +4014,24 @@ a.subscribe-cafecomdev {
 
 a.subscribe-cafecomdev:hover{
   opacity:0.9;
+}
+
+
+
+
+a.suggestion {
+  border-radius: 6px;
+  text-decoration:none;
+  padding-left: 0;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-top: 20px;
+  margin-right: 10px;
+  letter-spacing: 0.02em;
+  text-decoration: underline;
+  text-align: center;
+  margin-left: 10px;
 }
 
 
