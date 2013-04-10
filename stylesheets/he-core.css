@@ -6044,26 +6044,6 @@ p.advice {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*=====================*/
 /*== Design inicial pÃ¡ginas internas, refatorar em breve! ==*/
 /*=====================*/
@@ -6290,13 +6270,6 @@ p.advice {
 .calendar:before{left:11px;}  
 .calendar:after{right:11px;}
 
-
-
-
-
-
-
-
 /* Profile View */
 #profile {
   width:100%;
@@ -6450,7 +6423,6 @@ article.projects-worked h3 {
   margin-bottom: 0px;
 }
 
-
 article.projects-worked p {
   margin-top: 10px;
   line-height: 1.4em;
@@ -6459,8 +6431,6 @@ article.projects-worked p {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 40px;
 }
-
-
 
 .social-links {
   margin-top: 30px;
@@ -6492,11 +6462,6 @@ a.profile-facebook {
   background: url(/images/social-icons/fc-webicon-facebook-s.png) no-repeat;
 }
 
-
-
-
-
-
 section#about-us {
   background: #EFEFEF;
   background: #fafafa;
@@ -6523,10 +6488,6 @@ article.he-intro h3 {
   text-transform: none;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
-
-
-
 
 /* Time */
 
@@ -6620,11 +6581,6 @@ article.he-intro h3 {
 .social-icons a:hover {
   opacity: .8;
 }
-
-
-
-
-
 
 #advisors-team {
   width:100%;
@@ -6727,27 +6683,6 @@ section.apply-positions p {
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*======================*/
 /*==Cover CafÃ© com Dev==*/
 /*======================*/
@@ -6780,7 +6715,6 @@ section.apply-positions p {
   margin-top: 40px;
 
 }
-
 
 .cover-cafecomdev-page h2{
   padding:0px;
@@ -6944,10 +6878,6 @@ section.latest-cafes {
 
 }
 
-
-
-
-
 section.latest-cafes-dev {
   background: #fcfcfc;
   border-top: 1px solid #f9f9f9;
@@ -6987,9 +6917,6 @@ section.latest-cafes-dev h2 {
   margin: 0 auto;
   margin-top: 5px;
  }
-
-
-
 
 
 article.last-event {
