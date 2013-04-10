@@ -122,6 +122,9 @@ header.projetos nav#menu {
 a, a:active, a:visited{
   color: #b80606;
 }
+/*====================*/
+/*===== Error404 =====*/
+/*====================*/
 .error{
 
  background:#F9F9F9;
@@ -1557,136 +1560,10 @@ div.zombie-anezio {
 /*======================*/
 /*==Cover Café com Dev==*/
 /*======================*/
-.cover-cafecomdev-page{
-  background-image: url(/images/cafecomdev.png);
-  background-position: bottom center;
-  margin-top:56px;
-}
 
-.cover-cafecomdev-page h2{
-  padding:0px;
-  margin:0px;
-  color:rgb(82, 6, 6);
-  font-size:30px;
-  text-transform:none;
-  width:520px;
-  line-height:30px;
-  margin-bottom:35px;
-}
 
-#cafecomdev-page{
-  padding-bottom:50px;
-}
 
-#cafecomdev-page h3{
-  font-size:28px;
-  margin:40px 0;
-}
 
-#cafecomdev-page ul li{
-  list-style:none;
-  width:970px;
-  display:block;
-  /**background-color:rgba(0, 0, 0, 0.1);**/
-  padding-top:20px;
-  padding-bottom:8px;
-  border-bottom:1px solid #f5f5f5;
-}
-
-#cafecomdev-page ul li:hover{
-  background-color:#fbfbfb;
-}
-
-#cafecomdev-page ul li:last-child{
-  border-bottom:none;
-}
-
-#cafecomdev-page ul li img{
-  float:left;
-  margin-right:30px;
-}
-
-#cafecomdev-page ul li span{
-  font-size:23px;
-  font-weight:300;
-  color:#888;
-}
-
-#cafecomdev-page ul li h4{
-  font-size:23px;
-  font-weight:400;
-  color:brown;
-  margin-bottom:20px;
-}
-
-#cafecomdev-page ul li p{
-  font-size:16px;
-}
-.cafecomdev-text{
-  padding-top:px;
-  margin-right:250px;
-}
-
-.cafecomdev-form p{
-  margin-top:15px;
-}
-
-.cafecomdev-form p a{
-  font-size:11px;
-  color:#666;
-}
-
-.cafecomdev-form img{
-  float:right;
-  margin: 11px 60px 0 0;
-}
-
-.cover-cafecomdev-page div.containner{
-  height:275px;
-  position:relative;
-  bottom:20px;
-}
-
-.cover-cafecomdev-page div.containner input[type="text"], 
-.cover-cafecomdev-page div.containner input[type="email"]{
-  margin:0px 0 0 10px;
-  width:531px;
-  border:none;
-  font-size:14px;
-}
-
-.cover-cafecomdev div.containner input[type="submit"]{
-  background-color:#b80606;
-  padding:8px;
-  border:0px;
-  border-radius:6px;
-  color:#fff;
-  font-size:12px;
-  text-transform:uppercase;
-  font-weight:700;
-}
-
-.cover-cafecomdev-page div.containner input[type="submit"]:hover{
-  opacity:0.9;
-}
-.containner{
-  margin:0 auto;
-}
-.text{
-  margin-left:450px;
-  position:relative;
-  bottom:200px;
-  font-size:20px;
-  
-}
-.palestrantes{
- position:relative;
- float:right;
- bottom:140px;
- left:-690px;
- font-size:15px;
-
-}
 
 
 /*=====================*/
@@ -2982,70 +2859,6 @@ p.advice {
   font-size: 28px;
   margin: 40px 0;
 }
-/*=====================*/
-/*== calendar
-/*=====================*/
-.calendar{
-  margin:.25em 10px 10px 0;
-  padding-top:20px;
-  float:none;
-  width:100px;
-  background:#ededef;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ededef), to(#ccc)); 
-  background: -moz-linear-gradient(top,  #ededef,  #ccc); 
-  font:bold 30px/60px Arial Black, Arial, Helvetica, sans-serif;
-  text-align:center;
-  color:#000;
-  text-shadow:#fff 0 1px 0; 
-  -moz-border-radius:3px;
-  -webkit-border-radius:3px;
-  border-radius:3px;  
-  position:relative;
-  -moz-box-shadow:0 2px 2px #888;
-  -webkit-box-shadow:0 2px 2px #888;
-  box-shadow:0 2px 2px #888;
-  }
-  .calendar em{
-  display:block;
-  font:normal bold 19px/30px Arial, Helvetica, sans-serif;
-  color:#fff;
-  text-shadow:#00365a 0 -1px 0; 
-  background:brown;
-  background:-webkit-gradient(linear, left top, left bottom, from(#800000 ), to()); 
-  background:-moz-linear-gradient(top, #800000 , #800000 ); 
-  -moz-border-radius-bottomright:3px;
-  -webkit-border-bottom-right-radius:3px; 
-  border-bottom-right-radius:3px;
-  -moz-border-radius-bottomleft:3px;
-  -webkit-border-bottom-left-radius:3px;  
-  border-bottom-left-radius:3px;  
-  border-top:1px solid #00365a;
-  }
-  .calendar:before, .calendar:after{
-  content:'';
-  float:left;
-  position:absolute;
-  top:5px;  
-  width:8px;
-  height:8px;
-  background:#111;
-  z-index:1;
-  -moz-border-radius:10px;
-  -webkit-border-radius:10px;
-  border-radius:10px;
-  -moz-box-shadow:0 1px 1px #fff;
-  -webkit-box-shadow:0 1px 1px #fff;
-  box-shadow:0 1px 1px #fff;
-  }
-.calendar:before{left:11px;}  
-.calendar:after{right:11px;}
-
-
-
-
-
-
-
 
 /* Profile View */
 #profile {
@@ -4317,7 +4130,6 @@ footer p.copyright{
   margin:0 auto;
 }
 
-
 /*=====================*/
 /*=== Workshop Page ===*/
 /*=====================*/
@@ -4540,9 +4352,6 @@ div.teaser-zombies p{
   width:700px;
   margin: 0 auto;
 }
-
-
-
 div.teaser-zombies-choose{
   margin:0px auto;
   text-align:center;
@@ -4578,18 +4387,6 @@ a.subscribe-workshop-big-choose {
   float: left;
   margin-right: 2%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 a.subscribe-workshop-big{
   background-color: #b80606;
   padding: 20px;
@@ -4808,9 +4605,33 @@ div.zombie-anezio {
 /*==Cover CafÃ© com Dev==*/
 /*======================*/
 .cover-cafecomdev-page{
-  background-image: url(/images/cafecomdev.png);
+  background-image: url(/images/wood_pattern.png);
   background-position: bottom center;
   margin-top:56px;
+  padding-top: 30px;
+}
+
+#cover.cover-cafecomdev-page {
+  height: 240px;
+}
+
+.cafe-logo {
+  width: 100%;
+  float: left;
+
+  text-align: center;
+}
+
+.cafe-logo img{
+
+  margin-top: 0px;
+}
+
+.cafe-intro {
+  width: 70%;
+  float: left;
+  margin-top: 40px;
+
 }
 
 .cover-cafecomdev-page h2{
@@ -4819,21 +4640,34 @@ div.zombie-anezio {
   color:rgb(82, 6, 6);
   font-size:30px;
   text-transform:none;
-  width:520px;
+  width: 100%;
   line-height:30px;
   margin-bottom:35px;
+
+
+  font-size: 2em;
+  font-weight: 800;
+  text-align: left;
+  color: #d92727;
+  color: #4d2111;
+
+  letter-spacing: 0.02em;
+  text-shadow: 1px 1px 1px #fff;
 }
 
 #cafecomdev-page{
   padding-bottom:50px;
 }
-
-#cafecomdev-page h3{
+section.latest-cafes {
+  background: #fafafa;
+  border-top: 1px solid #f7f7f7;
+}
+.latest-cafes h3{
   font-size:28px;
   margin:40px 0;
 }
 
-#cafecomdev-page ul li{
+.latest-cafes ul li{
   list-style:none;
   width:970px;
   display:block;
@@ -4843,34 +4677,58 @@ div.zombie-anezio {
   border-bottom:1px solid #f5f5f5;
 }
 
-#cafecomdev-page ul li:hover{
+.latest-cafes ul li:hover{
   background-color:#fbfbfb;
 }
 
-#cafecomdev-page ul li:last-child{
+.latest-cafes ul li:last-child{
   border-bottom:none;
 }
 
-#cafecomdev-page ul li img{
+.latest-cafes ul li img{
   float:left;
   margin-right:30px;
 }
 
-#cafecomdev-page ul li span{
+.latest-cafes ul li span{
   font-size:23px;
   font-weight:300;
   color:#888;
 }
 
-#cafecomdev-page ul li h4{
+.latest-cafes ul li h4{
   font-size:23px;
   font-weight:400;
   color:brown;
   margin-bottom:20px;
+
+  padding:0px;
+  margin:0px;
+  color:rgb(82, 6, 6);
+  font-size:30px;
+  text-transform:none;
+  width: 100%;
+  line-height:30px;
+  margin-bottom:35px;
+
+
+  font-size: 2em;
+  font-weight: 700;
+  text-align: left;
+  color: #d92727;
+  color: #D92727;
+
+  letter-spacing: 0.02em;
+  text-shadow: 1px 1px 1px #fff;
 }
 
-#cafecomdev-page ul li p{
-  font-size:16px;
+.latest-cafes ul li p{
+  margin-top: 10px;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  color: #474747;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 40px;
 }
 .cafecomdev-text{
   padding-top:px;
@@ -4938,6 +4796,379 @@ div.zombie-anezio {
 
 }
 
+section.latest-cafes-dev {
+  background: #fcfcfc;
+  border-top: 1px solid #f9f9f9;
+  border-bottom: 1px solid #f9f9f9;
+  margin-bottom: 200px;
+  padding: 40px 0;
+   overflow: auto;
+}
+
+section.latest-cafes-dev h2 {
+  font-size: 2.2em;
+  font-weight: 900;
+  color: #474747;
+  margin-bottom: 60px;
+  font-size: 2.4em;
+  font-weight: 900;
+  color: #474747;
+  color: #4d2111;
+  margin-bottom: 0px;
+}
+
+
+.line-divisor-2{
+  border-bottom: 2px solid #ffa800;
+  width: 320px;
+  margin-top: 5px;
+  margin-left: -5px;
+  margin-bottom: 60px;
+ }
+
+
+.line-divisor-3{
+  border-bottom: 2px solid #ffa800;
+  width: 280px;
+  
+  margin-bottom: 60px;
+  margin: 0 auto;
+  margin-top: 5px;
+ }
+
+
+article.last-event {
+  overflow: auto;
+  margin-bottom: 80px;
+
+}
+
+
+.date-cafe {
+  border: 2px solid #FFA800;
+  border-radius: 4px 4px 4px 4px;
+  float: left;
+  height: 80px;
+  width: 90px;
+  margin-right: 20px;
+}
+
+article.last-event p.month {
+  color: #4D2111;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 0;
+}
+article.last-event p.day {
+  color: #4D2111;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.7em;
+  font-weight: 700;
+  margin-top: 0px;
+  padding: 0;
+  line-height: 1em;
+  margin-top: 3px;
+/*  text-shadow: 1px 1px white, -1px -1px #7f0404;*/
+}
+
+
+
+.infos-cafe {
+  width: 80%;
+  float: left;
+}
+
+
+article.last-event h4 {
+  text-transform:none;
+  font-size: 2em;
+  font-weight: 700;
+  color: #D92727;
+  letter-spacing: 0.01em;
+/*  text-shadow: 1px 1px 1px #fff;*/
+}
+
+span.palestrante {
+  color: #474747;
+    font-size: 0.75em;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    text-transform: none;
+    margin-left: 5px;
+}
+
+span.with {
+  color: #757575;
+    font-size: 0.6em;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    text-transform: none;
+    margin-left: 5px;
+}
+
+article.last-event p{
+  margin-top: 10px;
+  font-size: 1.1em;
+  line-height: 1.8em;
+  color: #474747;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 0px;
+}
+
+span.issue {
+  text-transform: uppercase;
+     color: #757575;
+    font-size: 0.95em;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-transform: uppercase
+}
+
+article.last-event h4 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+article.last-event h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  text-transform:none;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #474747;
+  letter-spacing: 0.01em;
+/*  text-shadow: 1px 1px 1px #fff;*/
+}
+
+article.last-event p {
+  margin-top: 15px;
+}
+
+
+article.about-cafe {
+  padding: 50px 0 30px;
+  height: 200px;
+
+}
+
+.about-text {
+  width: 60%;
+  float: left;
+}
+
+.next-event {
+  width: 35%;
+  margin-left: 5%;
+  float: left;
+}
+
+
+.date-next {
+
+  padding: 20px 10px;
+  height: 100px;
+  margin-top: 10px;
+  float: left;
+}
+
+.date-box {
+  border: 2px solid #FFA800;
+  height: 80px;
+  width: 80px;
+  float: left;
+  border-radius: 4px;
+  float: left;
+
+}
+.date-box p.title-mes {
+  color: #4D2111;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.date-box p.title-dia {
+  color: #4D2111;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.6em;
+  font-weight: 700;
+  margin-top: 0px;
+  padding: 0;
+  line-height: 1em;
+}
+
+
+article.about-cafe h2{
+  font-size: 2.4em;
+  font-weight: 900;
+  color: #474747;
+  color: #4d2111;
+  margin-bottom: 0px;
+  
+}
+.line-divisor{
+  border-bottom: 2px solid #ffa800;
+  width: 340px;
+  margin-top: 5px;
+  margin-left: -5px;
+ }
+
+article.about-cafe p {
+  color: #474747;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 1.1em;
+  line-height: 2em;
+  text-align: left;
+}
+
+
+a.photos-facebook {
+  height: 40px;
+  color: #d92727;
+  float: left;
+  padding-left:25px;
+  font-size: 1em;
+  text-decoration: underline;
+  margin-right: 20px;
+  margin-top: 20px;
+  background: url(/images/social-icons/fc-webicon-facebook-s.png) no-repeat 0 0px;
+  padding-top: 2px;
+}
+
+.photos-facebook a:hover {
+  text-decoration: underline;
+}
+
+
+a.blog-post {
+  height: 20px;
+  color: #d92727;
+  float: left;
+/*  padding-left:25px;*/
+  font-size: 1.1em;
+  text-decoration: underline;
+  margin-right: 20px;
+  margin-top: 20px;
+/*  background: url(/images/social-icons/fc-webicon-rss-s.png) no-repeat 0 0px;*/
+  padding-top: 2px;
+}
+h2.next {
+  text-align: center;
+}
+
+.tituloevento-next h4.textonovo {
+  color: #D92727;
+  font-size: 1.6em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  line-height: 1.2em;
+}
+
+
+
+span.by {
+  color: #757575;
+    font-size: 0.7em;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    text-transform: none;
+    margin-left: 5px;
+}
+
+
+.tituloevento-next h5{
+  color: #D92727;
+  font-size: 1.6em;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  line-height: 1.2em;
+  margin-bottom: 5px;
+}
+
+
+a.subscribe-cafecomdev {
+  background-color: #b80606;
+
+  text-align:center;
+  border-radius: 6px;
+  text-decoration:none;
+  text-transform:uppercase;
+  color:#fff;
+  padding-left: 0;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 1.2em;
+  width: 300px;
+  padding: 15px 0;
+  height: 20px;
+  float: right;
+  margin-top: -15px;
+  margin-right: 10px;
+  letter-spacing: 0.02em;
+}
+
+a.subscribe-cafecomdev:hover{
+  opacity:0.9;
+}
+
+
+
+
+a.suggestion {
+  border-radius: 6px;
+  text-decoration:none;
+  padding-left: 0;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-top: 20px;
+  margin-right: 10px;
+  letter-spacing: 0.02em;
+  text-decoration: underline;
+  text-align: center;
+  margin-left: 10px;
+}
+
+
+article.about-cafe p.free {
+  margin-top: 5px;
+  color: #757575;
+  font-size: 1em;
+  margin-left: 5px;
+}
+
+
+
+.cover-open-source{
+  background-color: #9D1B1F;
+}
 
 /*=====================*/
 /*== Opensource Page ==*/
@@ -6212,63 +6443,6 @@ p.advice {
   font-size: 28px;
   margin: 40px 0;
 }
-/*=====================*/
-/*== calendar
-/*=====================*/
-.calendar{
-  margin:.25em 10px 10px 0;
-  padding-top:20px;
-  float:none;
-  width:100px;
-  background:#ededef;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ededef), to(#ccc)); 
-  background: -moz-linear-gradient(top,  #ededef,  #ccc); 
-  font:bold 30px/60px Arial Black, Arial, Helvetica, sans-serif;
-  text-align:center;
-  color:#000;
-  text-shadow:#fff 0 1px 0; 
-  -moz-border-radius:3px;
-  -webkit-border-radius:3px;
-  border-radius:3px;  
-  position:relative;
-  -moz-box-shadow:0 2px 2px #888;
-  -webkit-box-shadow:0 2px 2px #888;
-  box-shadow:0 2px 2px #888;
-  }
-  .calendar em{
-  display:block;
-  font:normal bold 19px/30px Arial, Helvetica, sans-serif;
-  color:#fff;
-  text-shadow:#00365a 0 -1px 0; 
-  background:brown;
-  background:-webkit-gradient(linear, left top, left bottom, from(#800000 ), to()); 
-  background:-moz-linear-gradient(top, #800000 , #800000 ); 
-  -moz-border-radius-bottomright:3px;
-  -webkit-border-bottom-right-radius:3px; 
-  border-bottom-right-radius:3px;
-  -moz-border-radius-bottomleft:3px;
-  -webkit-border-bottom-left-radius:3px;  
-  border-bottom-left-radius:3px;  
-  border-top:1px solid #00365a;
-  }
-  .calendar:before, .calendar:after{
-  content:'';
-  float:left;
-  position:absolute;
-  top:5px;  
-  width:8px;
-  height:8px;
-  background:#111;
-  z-index:1;
-  -moz-border-radius:10px;
-  -webkit-border-radius:10px;
-  border-radius:10px;
-  -moz-box-shadow:0 1px 1px #fff;
-  -webkit-box-shadow:0 1px 1px #fff;
-  box-shadow:0 1px 1px #fff;
-  }
-.calendar:before{left:11px;}  
-.calendar:after{right:11px;}
 
 /* Profile View */
 #profile {
@@ -6682,576 +6856,4 @@ section.apply-positions p {
   text-decoration: underline;
   text-align: center;
 }
-
-/*======================*/
-/*==Cover CafÃ© com Dev==*/
-/*======================*/
-.cover-cafecomdev-page{
-  background-image: url(/images/wood_pattern.png);
-  background-position: bottom center;
-  margin-top:56px;
-  padding-top: 30px;
-}
-
-#cover.cover-cafecomdev-page {
-  height: 240px;
-}
-
-.cafe-logo {
-  width: 100%;
-  float: left;
-
-  text-align: center;
-}
-
-.cafe-logo img{
-
-  margin-top: 0px;
-}
-
-.cafe-intro {
-  width: 70%;
-  float: left;
-  margin-top: 40px;
-
-}
-
-.cover-cafecomdev-page h2{
-  padding:0px;
-  margin:0px;
-  color:rgb(82, 6, 6);
-  font-size:30px;
-  text-transform:none;
-  width: 100%;
-  line-height:30px;
-  margin-bottom:35px;
-
-
-  font-size: 2em;
-  font-weight: 800;
-  text-align: left;
-  color: #d92727;
-  color: #4d2111;
-
-  letter-spacing: 0.02em;
-  text-shadow: 1px 1px 1px #fff;
-}
-
-#cafecomdev-page{
-  padding-bottom:50px;
-}
-section.latest-cafes {
-  background: #fafafa;
-  border-top: 1px solid #f7f7f7;
-}
-.latest-cafes h3{
-  font-size:28px;
-  margin:40px 0;
-}
-
-.latest-cafes ul li{
-  list-style:none;
-  width:970px;
-  display:block;
-  /**background-color:rgba(0, 0, 0, 0.1);**/
-  padding-top:20px;
-  padding-bottom:8px;
-  border-bottom:1px solid #f5f5f5;
-}
-
-.latest-cafes ul li:hover{
-  background-color:#fbfbfb;
-}
-
-.latest-cafes ul li:last-child{
-  border-bottom:none;
-}
-
-.latest-cafes ul li img{
-  float:left;
-  margin-right:30px;
-}
-
-.latest-cafes ul li span{
-  font-size:23px;
-  font-weight:300;
-  color:#888;
-}
-
-.latest-cafes ul li h4{
-  font-size:23px;
-  font-weight:400;
-  color:brown;
-  margin-bottom:20px;
-
-  padding:0px;
-  margin:0px;
-  color:rgb(82, 6, 6);
-  font-size:30px;
-  text-transform:none;
-  width: 100%;
-  line-height:30px;
-  margin-bottom:35px;
-
-
-  font-size: 2em;
-  font-weight: 700;
-  text-align: left;
-  color: #d92727;
-  color: #D92727;
-
-  letter-spacing: 0.02em;
-  text-shadow: 1px 1px 1px #fff;
-}
-
-.latest-cafes ul li p{
-  margin-top: 10px;
-  font-size: 1.2em;
-  line-height: 1.4em;
-  color: #474747;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin-bottom: 40px;
-}
-.cafecomdev-text{
-  padding-top:px;
-  margin-right:250px;
-}
-
-.cafecomdev-form p{
-  margin-top:15px;
-}
-
-.cafecomdev-form p a{
-  font-size:11px;
-  color:#666;
-}
-
-.cafecomdev-form img{
-  float:right;
-  margin: 11px 60px 0 0;
-}
-
-.cover-cafecomdev-page div.containner{
-  height:275px;
-  position:relative;
-  bottom:20px;
-}
-
-.cover-cafecomdev-page div.containner input[type="text"], 
-.cover-cafecomdev-page div.containner input[type="email"]{
-  margin:0px 0 0 10px;
-  width:531px;
-  border:none;
-  font-size:14px;
-}
-
-.cover-cafecomdev div.containner input[type="submit"]{
-  background-color:#b80606;
-  padding:8px;
-  border:0px;
-  border-radius:6px;
-  color:#fff;
-  font-size:12px;
-  text-transform:uppercase;
-  font-weight:700;
-}
-
-.cover-cafecomdev-page div.containner input[type="submit"]:hover{
-  opacity:0.9;
-}
-.containner{
-  margin:0 auto;
-}
-.text{
-  margin-left:450px;
-  position:relative;
-  bottom:200px;
-  font-size:20px;
-  
-}
-.palestrantes{
- position:relative;
- float:right;
- bottom:140px;
- left:-690px;
- font-size:15px;
-
-}
-
-section.latest-cafes-dev {
-  background: #fcfcfc;
-  border-top: 1px solid #f9f9f9;
-  border-bottom: 1px solid #f9f9f9;
-  margin-bottom: 200px;
-  padding: 40px 0;
-   overflow: auto;
-}
-
-section.latest-cafes-dev h2 {
-  font-size: 2.2em;
-  font-weight: 900;
-  color: #474747;
-  margin-bottom: 60px;
-  font-size: 2.4em;
-  font-weight: 900;
-  color: #474747;
-  color: #4d2111;
-  margin-bottom: 0px;
-}
-
-
-.line-divisor-2{
-  border-bottom: 2px solid #ffa800;
-  width: 320px;
-  margin-top: 5px;
-  margin-left: -5px;
-  margin-bottom: 60px;
- }
-
-
-.line-divisor-3{
-  border-bottom: 2px solid #ffa800;
-  width: 280px;
-  
-  margin-bottom: 60px;
-  margin: 0 auto;
-  margin-top: 5px;
- }
-
-
-article.last-event {
-  overflow: auto;
-  margin-bottom: 80px;
-
-}
-
-
-.date-cafe {
-  border: 2px solid #FFA800;
-  border-radius: 4px 4px 4px 4px;
-  float: left;
-  height: 80px;
-  width: 90px;
-  margin-right: 20px;
-}
-
-article.last-event p.month {
-  color: #4D2111;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.1em;
-  font-weight: 600;
-  margin-top: 5px;
-  margin-bottom: 0;
-  padding: 0;
-}
-article.last-event p.day {
-  color: #4D2111;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 2.7em;
-  font-weight: 700;
-  margin-top: 0px;
-  padding: 0;
-  line-height: 1em;
-  margin-top: 3px;
-/*  text-shadow: 1px 1px white, -1px -1px #7f0404;*/
-}
-
-
-
-.infos-cafe {
-  width: 80%;
-  float: left;
-}
-
-
-article.last-event h4 {
-  text-transform:none;
-  font-size: 2em;
-  font-weight: 700;
-  color: #D92727;
-  letter-spacing: 0.01em;
-/*  text-shadow: 1px 1px 1px #fff;*/
-}
-
-span.palestrante {
-  color: #474747;
-    font-size: 0.75em;
-    font-weight: 600;
-    letter-spacing: 0.01em;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 0;
-    text-transform: none;
-    margin-left: 5px;
-}
-
-span.with {
-  color: #757575;
-    font-size: 0.6em;
-    font-weight: 300;
-    letter-spacing: 0.01em;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 0;
-    text-transform: none;
-    margin-left: 5px;
-}
-
-article.last-event p{
-  margin-top: 10px;
-  font-size: 1.1em;
-  line-height: 1.8em;
-  color: #474747;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin-bottom: 0px;
-}
-
-span.issue {
-  text-transform: uppercase;
-     color: #757575;
-    font-size: 0.95em;
-    font-weight: 300;
-    margin-bottom: 10px;
-    text-transform: uppercase
-}
-
-article.last-event h4 {
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-article.last-event h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
-  text-transform:none;
-  font-size: 1.1em;
-  font-weight: 600;
-  color: #474747;
-  letter-spacing: 0.01em;
-/*  text-shadow: 1px 1px 1px #fff;*/
-}
-
-article.last-event p {
-  margin-top: 15px;
-}
-
-
-article.about-cafe {
-  padding: 50px 0 30px;
-  height: 200px;
-
-}
-
-.about-text {
-  width: 60%;
-  float: left;
-}
-
-.next-event {
-  width: 35%;
-  margin-left: 5%;
-  float: left;
-}
-
-
-.date-next {
-
-  padding: 20px 10px;
-  height: 100px;
-  margin-top: 10px;
-  float: left;
-}
-
-.date-box {
-  border: 2px solid #FFA800;
-  height: 80px;
-  width: 80px;
-  float: left;
-  border-radius: 4px;
-  float: left;
-
-}
-.date-box p.title-mes {
-  color: #4D2111;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.25em;
-  font-weight: 700;
-  margin-top: 5px;
-  margin-bottom: 0;
-  padding: 0;
-}
-.date-box p.title-dia {
-  color: #4D2111;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 2.6em;
-  font-weight: 700;
-  margin-top: 0px;
-  padding: 0;
-  line-height: 1em;
-}
-
-
-article.about-cafe h2{
-  font-size: 2.4em;
-  font-weight: 900;
-  color: #474747;
-  color: #4d2111;
-  margin-bottom: 0px;
-  
-}
-.line-divisor{
-  border-bottom: 2px solid #ffa800;
-  width: 340px;
-  margin-top: 5px;
-  margin-left: -5px;
- }
-
-article.about-cafe p {
-  color: #474747;
-  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
-  font-size: 1.1em;
-  line-height: 2em;
-  text-align: left;
-}
-
-
-a.photos-facebook {
-  height: 40px;
-  color: #d92727;
-  float: left;
-  padding-left:25px;
-  font-size: 1em;
-  text-decoration: underline;
-  margin-right: 20px;
-  margin-top: 20px;
-  background: url(/images/social-icons/fc-webicon-facebook-s.png) no-repeat 0 0px;
-  padding-top: 2px;
-}
-
-.photos-facebook a:hover {
-  text-decoration: underline;
-}
-
-
-a.blog-post {
-  height: 20px;
-  color: #d92727;
-  float: left;
-/*  padding-left:25px;*/
-  font-size: 1.1em;
-  text-decoration: underline;
-  margin-right: 20px;
-  margin-top: 20px;
-/*  background: url(/images/social-icons/fc-webicon-rss-s.png) no-repeat 0 0px;*/
-  padding-top: 2px;
-}
-h2.next {
-  text-align: center;
-}
-
-.tituloevento-next h4.textonovo {
-  color: #D92727;
-  font-size: 1.6em;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 30px;
-  line-height: 1.2em;
-}
-
-
-
-span.by {
-  color: #757575;
-    font-size: 0.7em;
-    font-weight: 300;
-    letter-spacing: 0.01em;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding: 0;
-    text-transform: none;
-    margin-left: 5px;
-}
-
-
-.tituloevento-next h5{
-  color: #D92727;
-  font-size: 1.6em;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  text-transform: none;
-  margin: 0;
-  padding: 0;
-  margin-top: 5px;
-  line-height: 1.2em;
-  margin-bottom: 5px;
-}
-
-
-a.subscribe-cafecomdev {
-  background-color: #b80606;
-
-  text-align:center;
-  border-radius: 6px;
-  text-decoration:none;
-  text-transform:uppercase;
-  color:#fff;
-  padding-left: 0;
-  margin-top: 15px;
-  font-weight: 700;
-  font-size: 1.2em;
-  width: 300px;
-  padding: 15px 0;
-  height: 20px;
-  float: right;
-  margin-top: -15px;
-  margin-right: 10px;
-  letter-spacing: 0.02em;
-}
-
-a.subscribe-cafecomdev:hover{
-  opacity:0.9;
-}
-
-
-
-
-a.suggestion {
-  border-radius: 6px;
-  text-decoration:none;
-  padding-left: 0;
-  margin-top: 15px;
-  font-weight: 700;
-  font-size: 1.1em;
-  margin-top: 20px;
-  margin-right: 10px;
-  letter-spacing: 0.02em;
-  text-decoration: underline;
-  text-align: center;
-  margin-left: 10px;
-}
-
-
-article.about-cafe p.free {
-  margin-top: 5px;
-  color: #757575;
-  font-size: 1em;
-  margin-left: 5px;
-}
-
-
-
-.cover-open-source{
-  background-color: #9D1B1F;
-}
-
-
-
 
