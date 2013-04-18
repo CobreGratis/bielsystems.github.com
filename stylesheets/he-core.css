@@ -2088,6 +2088,7 @@ textarea:focus{outline:none;}
   margin-right: 10px;
   border-radius:4px;
   font-size:12px;
+  float:left;
 }
 
 #workshops textarea {
