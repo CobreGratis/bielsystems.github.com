@@ -48,7 +48,7 @@ var Sidecar;
         
         // Set Option defaults
         this.options.openDelay = 250;
-        this.options.sidecarPosition = 'left';
+        this.options.sidecarPosition = 'right';
         this.options.shadow = true;
         
         this.elems.body = $('body');
