@@ -240,8 +240,14 @@
   }
   
   header.default h1 a {
-    width: 150px; height: 60px;
-    background-image: url(/images/m-logo.png);
+      background-image: url("/images/m-logo.png");
+      background-position: 0 center;
+      height: 56px;
+      width: 150px;
+  }
+  
+  #menu2 {
+    background:red;
   }
 
   #menu {
@@ -489,6 +495,25 @@
   h1 a {
     margin-top: 10px;
   }
+  /*menu novo */
+  #menu2 {
+    display: none;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  #menu2 ul li {
+    margin-left: 10px;
+  }
+  #menu2 ul li.has-sub {
+    display: none;
+  }
+  
+  .submenuhome {
+    display:none;
+  }
+  /* menu novo fim */
+  
 
   #menu {
     display: none;
