@@ -242,8 +242,24 @@
   header.default h1 a {
       background-image: url("/images/m-logo.png");
       background-position: 0 center;
-      height: 56px;
-      width: 150px;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      float: left;
+      height: 50px;
+      margin-top: 0.6em;
+      width: 26%;
+  }
+  
+  #menu2 {
+      float: right;
+      padding-top: 2em;
+      width: 70%;
+  }
+  
+  #menu2 ul {
+      float: right;
+      font-size-adjust: 0.47;
+      width: 102%;
   }
 
   #menu {
@@ -269,7 +285,7 @@
   
   #home {
     padding-bottom:70px !important;
-    padding-top:120px !important;
+    padding-top:12em !important;
     background:#b1b6b2;
   }
 
@@ -507,6 +523,17 @@
   
   .submenuhome {
     display:none;
+  }
+  
+  header.default h1 a {
+      background-image: url("/images/m-logo.png");
+      background-position: 0 center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      float: left;
+      height: 50px;
+      margin-top: 0.6em;
+      width: 145px;
   }
   /* menu novo fim */
   
