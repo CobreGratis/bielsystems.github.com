@@ -6087,6 +6087,7 @@ section.workshops-newsletter {
   overflow:hidden;
   padding-bottom:100px;
   position:relative;
+  float:left;
 }
 
 .step-list {
