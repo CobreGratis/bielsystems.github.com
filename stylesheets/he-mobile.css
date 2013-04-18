@@ -234,6 +234,29 @@
 /* Max Width, 686px */
 
 @media (max-width:686px) {
+  /*mailing page*/
+  .mailing-form {
+      margin-left: 0;
+      padding-top: 19px;
+      width: 98%;
+  }
+  .cover-mailing-page div.containner {
+      background: none repeat scroll 0 0 transparent;
+      height: 275px;
+      padding: 2em 1em 1em;
+      width: 100%;
+  }
+  
+  .cover-mailing-page h2 {
+      color: #B80606;
+      font-size: 30px;
+      line-height: 30px;
+      margin: 0 0 35px;
+      padding: 0;
+      text-transform: none;
+      width: 100%;
+  }
+  /*fim da mailling page*/
   
   header.default, .header-spacer-default {
     height:100px !important;
@@ -497,6 +520,17 @@
 
 
 @media (max-width:480px) {
+  /*mailling page*/
+  .cover-mailing-page h2 {
+      color: #B80606;
+      font-size: 25px;
+      line-height: 30px;
+      margin: 0 0 35px;
+      padding: 0;
+      text-transform: none;
+      width: 100%;
+  }
+  /*fim da mailling page*/
   
   header.default {
     position:relative;
