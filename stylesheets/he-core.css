@@ -4670,6 +4670,7 @@ div.zombie-anezio {
 
 #mailing-page{
   padding-bottom:50px;
+  padding-top: 3.8em;
 }
 
 #mailing-page h3{
@@ -4736,30 +4737,36 @@ div.zombie-anezio {
   margin: 11px 60px 0 0;
 }
 
-.cover-mailing-page div.containner{
-  height:275px;
-  background-image: url(/images/mailing-page-containner-bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
+.cover-mailing-page div.containner {
+    background-image: url("/images/mailing-page-containner-bg.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 275px;
+    width: 100%;
 }
 
 .cover-mailing-page div.containner input[type="text"], 
-.cover-mailing-page div.containner input[type="email"]{
-  margin:0px 0 0 10px;
-  width:531px;
-  border:none;
-  font-size:14px;
+.cover-mailing-page div.containner input[type="email"] {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #C7C7C7;
+    border-radius: 6px 6px 6px 6px;
+    float: left;
+    font-size: 14px;
+    margin: 0;
+    padding: 0.7em;
+    width: 70%;
 }
 
-.cover-mailing-page div.containner input[type="submit"]{
-  background-color:#b80606;
-  padding:8px;
-  border:0px;
-  border-radius:6px;
-  color:#fff;
-  font-size:12px;
-  text-transform:uppercase;
-  font-weight:700;
+.cover-mailing-page div.containner input[type="submit"] {
+    background-color: #B80606;
+    border: 0 none;
+    border-radius: 6px 6px 6px 6px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0.2em 0.2em 0.2em 0.3em;
+    padding: 8px;
+    text-transform: uppercase;
 }
 
 .cover-mailing-page div.containner input[type="submit"]:hover{
