@@ -586,7 +586,7 @@
   /*fim da mailling page*/
   
   header.default {
-    position:relative;
+    position:absolute;
     float:left;
     height: 80px !important;
   }
