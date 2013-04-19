@@ -256,6 +256,11 @@
       text-transform: none;
       width: 100%;
   }
+  
+  #mailing-page ul li {
+    width:95%;
+    
+  }
   /*fim da mailling page*/
   
   header.default, .header-spacer-default {
@@ -521,13 +526,61 @@
 
 @media (max-width:480px) {
   /*mailling page*/
+  #mailing-page ul li p {
+      float: left;
+      font-size: 16px;
+      margin-bottom: 0.5em;
+      margin-top: 0.2em;
+      width: 100%;
+  }
+  
+  #mailing-page ul li h4 {
+      color: #B80606;
+      float: left;
+      font-size: 23px;
+      font-weight: 400;
+      margin-bottom: 0.1em;
+      width: 100%;
+  }
+  
+  #mailing-page ul li span {
+      color: #888888;
+      float: left;
+      font-size: 23px;
+      font-weight: 300;
+      margin-top: 0.3em;
+      width: 100%;
+  }
+  
+  #mailing-page h3 {
+      border-bottom: 2px solid #c6c6c6;
+      float: left;
+      font-size: 28px;
+      margin: 0.2em 0 0.6em;
+      padding-bottom: 0.3em;
+      width: 100%;
+  }
+  
+  
   .cover-mailing-page h2 {
       color: #B80606;
-      font-size: 25px;
-      line-height: 30px;
-      margin: 0 0 35px;
+      font-size: 1.53em;
+      line-height: 20px;
+      margin: 0 0 15px;
       padding: 0;
       text-transform: none;
+      width: 100%;
+  }
+  
+  .cover-mailing-page div.containner input[type="text"], .cover-mailing-page div.containner input[type="email"]{
+    width:40%;
+    
+  }
+  #mailing-page ul li {
+      border-bottom: 1px dashed #C6C6C6;
+      max-width: 100%;
+      padding-bottom: 2em;
+      padding-top: 2em;
       width: 100%;
   }
   /*fim da mailling page*/
