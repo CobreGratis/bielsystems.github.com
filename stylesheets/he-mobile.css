@@ -1,7 +1,6 @@
 .containner {
-	width:700px;
+    width: 100%;
 }
-
 
 /* Home */
 
@@ -520,11 +519,19 @@
 
 /* Max Width, 480px */
 
-
-
-
-
 @media (max-width:480px) {
+  /*apoios*/
+  #apoios .cover-apoios {
+      float: left;
+      height: auto;
+      padding-bottom: 50px;
+      padding-top: 0;
+      width: 100%;
+  }
+  .cover h2 {
+    font-size:80px;
+  }
+  
   /*mailling page*/
   #mailing-page ul li p {
       float: left;
@@ -698,6 +705,23 @@
   }
   .thumbs {
     display: none;
+  }
+  /*=====================*/
+  /*======= Apoios =======*/
+  /*=====================*/
+
+  #apoios .cover-apoios {
+      float: left;
+      height: auto;
+      margin-bottom: 3em;
+      margin-top: 15px;
+      padding-bottom: 50px;
+      padding-top: 0;
+      width: 100%;
+  }
+
+  #apoios .cover-apoios h2 {
+    font-size:80px;
   }
 
   /*=====================*/

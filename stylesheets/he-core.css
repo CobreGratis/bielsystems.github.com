@@ -1837,6 +1837,26 @@ section.highlight-projects:after {
   font-size:120px;
   font-weight:bold;
   float:left;
+  margin-left: 4%;
+}
+
+
+/*=====================*/
+/*== Apoios ==*/
+/*=====================*/
+
+#apoios .cover-apoios {
+  background-color:#b80606;
+  margin-top:56px;
+}
+
+#apoios .cover-apoios h2 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 120px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-left: 4%;
 }
 
 
