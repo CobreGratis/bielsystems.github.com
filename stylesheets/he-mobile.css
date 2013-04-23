@@ -164,6 +164,29 @@
 }
 
 
+#jobs .cover-jobs {
+  margin-top:50px;
+  height: 200px;
+}
+
+#cover.cover-jobs h2 {
+  font-size: 2.3em;
+}
+
+section.he-enviroment {
+  overflow: auto;
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+section.he-enviroment article {
+  width: 100%;
+  float: left;
+}
+section.he-enviroment aside.photo-big {
+  display: none;
+}
+
 
 /*=====================*/
 /*== Workshops ==*/
@@ -739,6 +762,37 @@
   #jobs .cover-jobs h2 {
     font-size:80px;
   }
+
+
+  #jobs .cover-jobs {
+    margin-top:0px;
+    height: 14  0px;
+  }
+
+  #cover.cover-jobs h2 {
+    font-size: 1.6em;
+    margin-top: 0px;
+  }
+
+  section.he-enviroment {
+    overflow: auto;
+    overflow: hidden;
+    height: 800px;
+    margin-bottom: 0px;
+    padding: 0;
+  }
+
+  section.he-enviroment article {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+
+  section.positions-available article {
+    width: 100%;
+  }
+  
 
 
   /*=====================*/
