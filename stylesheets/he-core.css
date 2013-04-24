@@ -1926,7 +1926,7 @@ a:hover {
   opacity: 0.95;
 }
 section.he-enviroment {
-  overflow: auto;
+  height: 400px;
   margin-bottom: 40px;
   padding: 30px 0;
 }

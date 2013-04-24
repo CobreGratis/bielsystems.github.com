@@ -165,16 +165,19 @@
 
 
 #jobs .cover-jobs {
-  margin-top:50px;
+  margin-top:60px;
   height: 200px;
 }
 
+.open-positions {
+  display: none;
+}
 #cover.cover-jobs h2 {
   font-size: 2.3em;
 }
 
 section.he-enviroment {
-  overflow: auto;
+
   margin-bottom: 0px;
   padding: 0;
 }
@@ -537,6 +540,14 @@ section.he-enviroment aside.photo-big {
     float:left;
   }
   
+  #jobs #cover.cover-jobs {
+    height: 160px;
+  }
+
+  #jobs #cover.cover-jobs .intro-jobs h2 {
+    margin-top: 70px;
+  }
+
 }
 
 
@@ -776,8 +787,7 @@ section.he-enviroment aside.photo-big {
 
   section.he-enviroment {
     overflow: auto;
-    overflow: hidden;
-    height: 800px;
+    height: 300px;
     margin-bottom: 0px;
     padding: 0;
   }
