@@ -1822,26 +1822,6 @@ section.highlight-projects:after {
 }
 
 
-/*=====================*/
-/*== Jobs ==*/
-/*=====================*/
-
-#jobs .cover-jobs {
-  background-color:#b80606;
-  margin-top:80px;
-  height: 260px;
-}
-
-#cover.cover-jobs h2 {
-  color:#fff;
-  margin-top:30px;
-  font-size: 3em;
-  font-weight:bold;
-  text-align: center;
-  float:left;
-<<<<<<< HEAD
-  margin-left: 4%;
-}
 
 
 /*=====================*/
@@ -1860,42 +1840,91 @@ section.highlight-projects:after {
     font-weight: bold;
     margin-top: 60px;
     margin-left: 4%;
-=======
   text-transform: none;
   line-height: 1.6em;
   letter-spacing: 0.02em;
   width: 100%;
 }
 
+
+/*=====================*/
+/*== Jobs ==*/
+/*=====================*/
+
+#jobs .cover-jobs {
+  background-color:#b80606;
+  margin-top:70px;
+  height: 280px;
+}
+
+#cover.cover-jobs h2 {
+  color:#fff;
+  margin-top:30px;
+  font-size: 3em;
+  font-weight:bold;
+  text-align: center;
+  float:left;
+  margin-left: 4%;
+}
+
 .intro-jobs {
 
   overflow: auto;
 }
+
+section#jobs #cover.cover-jobs .intro-jobs h2 {
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
 .open-positions {
   margin: 0 auto;
-  width: 50%;
+  width: 40%;
   margin-top: 40px;
   margin-bottom: 50px;
   display: block;
 }
 #jobs a.open-developer {
   background: #fff;
-  padding: 16px 20px;
+  padding: 15px 20px;
   display: block;
   font-family: 'lato';
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: 500;
   margin: 0 auto;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
   color: #B30000;
-  width: 160px;
-  margin-right: 20px;
+  width: 140px;
+  margin-right: 23px;
   float: left;
-  border-radius: 60px;
-}
+  border-radius: 40px;
+/*  opacity: 0.95;
+*/}
 
+#jobs a.open-designer {
+  background: #fff;
+  padding: 15px 20px;
+  display: block;
+  font-family: 'lato';
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #B30000;
+  width: 140px;
+  margin-right: 0px;
+  float: left;
+  border-radius: 40px;
+/*  opacity: 0.95;
+*/}
+
+
+a:hover {
+  opacity: 0.95;
+}
 section.he-enviroment {
   overflow: auto;
   margin-bottom: 40px;
@@ -1925,7 +1954,7 @@ section.he-enviroment article h3 {
 
 section.he-enviroment aside.photo-big {
   width: 50%;
-  margin-top: 0px;
+  margin-top: 20px;
   float: left;
 }
 
@@ -1935,17 +1964,26 @@ section.he-enviroment aside.photo-big {
   border-top: 1px solid #f7f7f7;
   border-bottom: 1px solid #f7f7f7;
   overflow: auto;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
-#jobs section.positions-available h2 {
-  text-align: center;
+#jobs section.positions-available h3 {
+  text-align: left;
   font-size: 2.4em;
   font-weight: 700;
   margin-top: 0;
   padding-top: 0;
   letter-spacing: 0.02em;
   color: #B80606;
+
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 1.4em;
+  letter-spacing: 0.01em;
+  margin-bottom: 25px;
+  text-transform: none;
+  margin-bottom: 30px;
+
 }
 
 section.positions-available article {
@@ -1958,7 +1996,6 @@ section.positions-available article {
   -moz-box-sizing:border-box;
   -webkit-box-sizing:border-box;
   box-sizing:border-box;
->>>>>>> Adding jobs desciptions on different pages
 }
 
 section.positions-available article:last-child {
@@ -1970,7 +2007,7 @@ section.positions-available article img {
   float: left;
   margin-right: 20px;
 }
-section.positions-available article h3 {
+section.positions-available article h4 {
   font-size: 1.8em;
   font-weight: 600;
   line-height: 1.6em;
@@ -1981,14 +2018,14 @@ section.positions-available article h3 {
   padding: 0;
   margin-bottom: 0;
   float: left;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 #jobs section.positions-available .job-title {
   overflow: auto;
 }
 #jobs section.positions-available .job-description {
-  min-height: 220px;
+  min-height: 130px;
   display: block;
   overflow: auto; 
 }
@@ -1999,7 +2036,6 @@ section.positions-available article h3 {
   font-size: 1.1em !important;
   line-height: 1.8em;
   color: #606060;
-  color: #737373;
   float: left;
 }
 
@@ -2020,8 +2056,45 @@ section.positions-available article a {
 
 
 section.apprentice-program {
-  padding: 60px 0;
+  padding: 60px 0 100px;
 }
+
+
+section.apprentice-program h3 {
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 1.4em;
+  letter-spacing: 0.01em;
+  margin-bottom: 0px;
+  text-transform: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+
+#jobs section.apprentice-program p {
+font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-weight: 400;
+font-size: 1.2em !important;
+color: #606060;
+}
+
+
+section.about-position {
+  margin-top: 160px;
+}
+
+section.about-position h2 {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 30px;
+}
+
+
+article.job-description {
+  margin-bottom: 40px;
+}
+
 
 /* Left */
 
