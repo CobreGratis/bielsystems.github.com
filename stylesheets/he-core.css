@@ -2172,9 +2172,10 @@ article.job-description {
 }
 
 #jobs p {
-  font-weight: 300;
+  font-weight: 400;
   line-height:28px;
   font-size:17px !important;
+  color: #606060;
 }
 
 #jobs form {
