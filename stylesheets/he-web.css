@@ -1,5 +1,5 @@
 header.default {
-  height:115px;
+  height: 99px;
 }
 
 .containner {
@@ -33,6 +33,7 @@ header.default {
 
 #process {
   padding-bottom:60px;
+  padding-top: 62px;
 }
 
 
@@ -40,6 +41,7 @@ header.default {
 
 #cliente {
     padding-bottom:20px;
+    padding-top: 87px;
 }
 
 #cliente h2, #process h2, #time h2 {
@@ -77,7 +79,7 @@ header.default {
 /* Fale Conosco */
 
 #faleconosco {
-	padding-top: 100px;
+	padding-top: 146px;
   padding-bottom:320px;
 }
 

@@ -1,7 +1,6 @@
 .containner {
-	width:700px;
+    width: 100%;
 }
-
 
 /* Home */
 
@@ -165,6 +164,32 @@
 }
 
 
+#jobs .cover-jobs {
+  margin-top:60px;
+  height: 200px;
+}
+
+.open-positions {
+  display: none;
+}
+#cover.cover-jobs h2 {
+  font-size: 2.3em;
+}
+
+section.he-enviroment {
+
+  margin-bottom: 0px;
+  padding: 0;
+}
+
+section.he-enviroment article {
+  width: 100%;
+  float: left;
+}
+section.he-enviroment aside.photo-big {
+  display: none;
+}
+
 
 /*=====================*/
 /*== Workshops ==*/
@@ -234,14 +259,60 @@
 /* Max Width, 686px */
 
 @media (max-width:686px) {
+  /*mailing page*/
+  .mailing-form {
+      margin-left: 0;
+      padding-top: 19px;
+      width: 98%;
+  }
+  .cover-mailing-page div.containner {
+      background: none repeat scroll 0 0 transparent;
+      height: 275px;
+      padding: 2em 1em 1em;
+      width: 100%;
+  }
+  
+  .cover-mailing-page h2 {
+      color: #B80606;
+      font-size: 30px;
+      line-height: 30px;
+      margin: 0 0 35px;
+      padding: 0;
+      text-transform: none;
+      width: 100%;
+  }
+  
+  #mailing-page ul li {
+    width:95%;
+    
+  }
+  /*fim da mailling page*/
   
   header.default, .header-spacer-default {
     height:100px !important;
   }
   
   header.default h1 a {
-    width: 150px; height: 60px;
-    background-image: url(/images/m-logo.png);
+      background-image: url("/images/m-logo.png");
+      background-position: 0 center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      float: left;
+      height: 50px;
+      margin-top: 0.6em;
+      width: 26%;
+  }
+  
+  #menu2 {
+      float: right;
+      padding-top: 2em;
+      width: 70%;
+  }
+  
+  #menu2 ul {
+      float: right;
+      font-size-adjust: 0.47;
+      width: 102%;
   }
 
   #menu {
@@ -267,7 +338,7 @@
   
   #home {
     padding-bottom:70px !important;
-    padding-top:120px !important;
+    padding-top:12em !important;
     background:#b1b6b2;
   }
 
@@ -469,19 +540,94 @@
     float:left;
   }
   
+  #jobs #cover.cover-jobs {
+    height: 160px;
+  }
+
+  #jobs #cover.cover-jobs .intro-jobs h2 {
+    margin-top: 70px;
+  }
+
 }
 
 
 /* Max Width, 480px */
 
-
-
-
-
 @media (max-width:480px) {
+  /*apoios*/
+  #apoios .cover-apoios {
+      float: left;
+      height: auto;
+      padding-bottom: 50px;
+      padding-top: 0;
+      width: 100%;
+  }
+  .cover h2 {
+    font-size:80px;
+  }
+  
+  /*mailling page*/
+  #mailing-page ul li p {
+      float: left;
+      font-size: 16px;
+      margin-bottom: 0.5em;
+      margin-top: 0.2em;
+      width: 100%;
+  }
+  
+  #mailing-page ul li h4 {
+      color: #B80606;
+      float: left;
+      font-size: 23px;
+      font-weight: 400;
+      margin-bottom: 0.1em;
+      width: 100%;
+  }
+  
+  #mailing-page ul li span {
+      color: #888888;
+      float: left;
+      font-size: 23px;
+      font-weight: 300;
+      margin-top: 0.3em;
+      width: 100%;
+  }
+  
+  #mailing-page h3 {
+      border-bottom: 2px solid #c6c6c6;
+      float: left;
+      font-size: 28px;
+      margin: 0.2em 0 0.6em;
+      padding-bottom: 0.3em;
+      width: 100%;
+  }
+  
+  
+  .cover-mailing-page h2 {
+      color: #B80606;
+      font-size: 1.53em;
+      line-height: 20px;
+      margin: 0 0 15px;
+      padding: 0;
+      text-transform: none;
+      width: 100%;
+  }
+  
+  .cover-mailing-page div.containner input[type="text"], .cover-mailing-page div.containner input[type="email"]{
+    width:40%;
+    
+  }
+  #mailing-page ul li {
+      border-bottom: 1px dashed #C6C6C6;
+      max-width: 100%;
+      padding-bottom: 2em;
+      padding-top: 2em;
+      width: 100%;
+  }
+  /*fim da mailling page*/
   
   header.default {
-    position:relative;
+    position:absolute;
     float:left;
     height: 80px !important;
   }
@@ -489,6 +635,36 @@
   h1 a {
     margin-top: 10px;
   }
+  /*menu novo */
+  #menu2 {
+    display: none;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  #menu2 ul li {
+    margin-left: 10px;
+  }
+  #menu2 ul li.has-sub {
+    display: none;
+  }
+  
+  .submenuhome {
+    display:none;
+  }
+  
+  header.default h1 a {
+      background-image: url("/images/m-logo.png");
+      background-position: 0 center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      float: left;
+      height: 50px;
+      margin-top: 0.6em;
+      width: 145px;
+  }
+  /* menu novo fim */
+  
 
   #menu {
     display: none;
@@ -564,6 +740,23 @@
   .thumbs {
     display: none;
   }
+  /*=====================*/
+  /*======= Apoios =======*/
+  /*=====================*/
+
+  #apoios .cover-apoios {
+      float: left;
+      height: auto;
+      margin-bottom: 3em;
+      margin-top: 15px;
+      padding-bottom: 50px;
+      padding-top: 0;
+      width: 100%;
+  }
+
+  #apoios .cover-apoios h2 {
+    font-size:80px;
+  }
 
   /*=====================*/
   /*======= Jobs =======*/
@@ -580,6 +773,36 @@
   #jobs .cover-jobs h2 {
     font-size:80px;
   }
+
+
+  #jobs .cover-jobs {
+    margin-top:0px;
+    height: 14  0px;
+  }
+
+  #cover.cover-jobs h2 {
+    font-size: 1.6em;
+    margin-top: 0px;
+  }
+
+  section.he-enviroment {
+    overflow: auto;
+    height: 300px;
+    margin-bottom: 0px;
+    padding: 0;
+  }
+
+  section.he-enviroment article {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+
+  section.positions-available article {
+    width: 100%;
+  }
+  
 
 
   /*=====================*/
