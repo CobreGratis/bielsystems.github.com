@@ -1,4 +1,4 @@
-@charset "utf-8";
+ @charset "utf-8";
 
 body, h1, h2, h3, h4,
 form, fieldset, input, label, p,
@@ -127,27 +127,34 @@ a, a:active, a:visited{
 /*====================*/
 .error{
 
- background:#F9F9F9;
- width:100%;
- height:300px;
- color:#b50505;
- font-size:30px;
- text-align:center;
- padding-top:130px;
+  background:#F9F9F9;
+  width:100%;
+  height:300px;
+  color:#b50505;
+  font-size:30px;
+  text-align:center;
+  padding-top:130px;
 }
 
 .error h1{
-margin-top:-250px;
-font-size:250px;
-font-style: italic;
-color:grey;
-opacity:0.1;
-top:15px;
+  margin-top:-250px;
+  font-size:250px;
+  font-style: italic;
+  color:grey;
+  opacity:0.1;
+  top:15px;
 }
  
 .error h6{
   font-size:15px;
   color:grey;
+}
+
+.image{
+ background-image:url('/images/pedreiro.png');
+  width:320px;
+  height:291px;
+  margin-top:-150px;
 }
 
 
@@ -1331,17 +1338,6 @@ a.subscribe-workshop-big-choose {
   float: left;
   margin-right: 2%;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 a.subscribe-workshop-big{
   background-color: #b80606;
