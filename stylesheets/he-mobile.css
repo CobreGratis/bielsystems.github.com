@@ -259,6 +259,24 @@ section.he-enviroment aside.photo-big {
 /* Max Width, 686px */
 
 @media (max-width:686px) {
+  #hiddenmenu {
+      background: none repeat scroll 0 0 #B80606;
+      border-bottom: 2px solid #D7D7D7;
+      border-top: 1px solid grey;
+      color: white;
+      display: block;
+      float: right;
+      font-family: 'Lato',sans-serif;
+      font-weight: lighter;
+      margin-top: 0.7em;
+      padding: 0.5em 0 0.1em 0.5em;
+      width: 100%;
+  }
+  
+  .submenuhome{
+    position:relative;
+  }
+  
   /*mailing page*/
   .mailing-form {
       margin-left: 0;
@@ -307,6 +325,7 @@ section.he-enviroment aside.photo-big {
       float: right;
       padding-top: 2em;
       width: 70%;
+      display:none;
   }
   
   #menu2 ul {
@@ -554,6 +573,26 @@ section.he-enviroment aside.photo-big {
 /* Max Width, 480px */
 
 @media (max-width:480px) {
+
+  #hiddenmenu {
+      background: none repeat scroll 0 0 #B80606;
+      border-bottom: 2px solid #B80606;
+      border-top: 1px solid grey;
+      color: white;
+      display: block;
+      float: right;
+      font-family: 'Lato',sans-serif;
+      font-weight: lighter;
+      margin-top: 0.7em;
+      padding: 0.5em 0 0.1em 0.5em;
+      width: 100%;
+  }
+  
+.hemaismobile {
+      border-top: 1px dashed grey;
+  }
+  
+  
   /*apoios*/
   #apoios .cover-apoios {
       float: left;
@@ -847,4 +886,70 @@ section.he-enviroment aside.photo-big {
     display:none;
   }
 
+}
+
+/*===== mobile menu ======*/
+.navigation {
+    background: none repeat scroll 0 0 white;
+    margin-left: 0;
+    max-width: none;
+    padding: 0;
+}
+
+.navigation li {
+  float: left;
+  margin:0px;
+  padding:0px;
+  color:black;
+}
+
+.navigation li a {
+    color: black;
+    display: block;
+    font-weight: 400;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+  background: #c7c7c7;
+}
+
+.navheader { 
+  font-size: 12px;
+}
+
+.slide-trigger {
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    font-family: lato;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 0.5em;
+}
+
+.slide-trigger span {
+  background-image: url("menumobile.png");
+  background-position: 0 -14px;
+  display: block;
+  float: right;
+  margin-top: 3px;
+  height: 14px;
+  width: 32px;
+}
+
+@media only screen and (max-width: 700px) {
+  .slide-trigger { display: block; }
+    .no-js .slide-trigger { display: none; }
+  .navigation { display: none; }
+    .no-js .navigation { display: block; }
+    .navigation {
+        margin: 0;
+        width: 100%;
+    }
+  .navigation li { float: none; padding-left:18px}
+  .navigation li a { border-bottom: 1px solid #fff; }
 }

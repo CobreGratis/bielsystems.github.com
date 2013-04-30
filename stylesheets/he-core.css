@@ -3656,6 +3656,10 @@ div.header-spacer-default {
 /*======== Nav com ícones =======*/
 /*====================*/
 
+#hiddenmenu{
+  display:none;
+}
+
 #menu2 {
     float: right;
     padding-top: 2.5em;
@@ -7160,4 +7164,5 @@ section.apply-positions p {
     top: 102%;
     width: 390px;
 }
+
 
