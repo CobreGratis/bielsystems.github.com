@@ -3656,6 +3656,10 @@ div.header-spacer-default {
 /*======== Nav com ícones =======*/
 /*====================*/
 
+#hiddenmenu{
+  display:none;
+}
+
 #menu2 {
     float: right;
     padding-top: 2.5em;
@@ -5034,7 +5038,7 @@ div.zombie-anezio {
   background-image: url(/images/wood_pattern.png);
   background-position: bottom center;
   margin-top:56px;
-  padding-top: 30px;
+  padding-top: 60px;
 }
 
 #cover.cover-cafecomdev-page {
@@ -5050,7 +5054,7 @@ div.zombie-anezio {
 
 .cafe-logo img{
 
-  margin-top: 0px;
+  margin-top: 5px;
 }
 
 .cafe-intro {
@@ -7160,4 +7164,5 @@ section.apply-positions p {
     top: 102%;
     width: 390px;
 }
+
 
