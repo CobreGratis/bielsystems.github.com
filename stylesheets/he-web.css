@@ -44,6 +44,15 @@ header.default {
     padding-top: 87px;
 }
 
+#clientefeliz h2 {
+    color: white;
+    font-size: 105px;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-top: 0.8em;
+    text-transform: uppercase;
+}
+
 #cliente h2, #process h2, #time h2 {
     padding-top: 80px;
     margin:0 0 20px 0;
