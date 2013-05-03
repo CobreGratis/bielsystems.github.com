@@ -1,4 +1,5 @@
-.containner {
+.
+ {
     width: 100%;
 }
 
@@ -566,6 +567,53 @@ section.he-enviroment aside.photo-big {
   #jobs #cover.cover-jobs .intro-jobs h2 {
     margin-top: 70px;
   }
+
+  /*cafe com dev */
+
+  .next-event {
+  width: 100%;
+  float: left;
+  }
+
+  .about-text {
+  width: 100%;
+  float: left;
+  }
+
+section.latest-cafes-dev {
+  background: #fcfcfc;
+  border-top: 1px solid #f9f9f9;
+  border-bottom: 1px solid #f9f9f9;
+  margin-bottom: 200px;
+  padding: 40px 0;
+   overflow: auto;
+   width:100%;
+   float:left;
+
+  }
+
+article.last-event {
+  overflow: hidden;
+  margin-bottom: 80px;
+  border-top: 1px dashed grey;
+  padding-top: 1em;
+
+}
+.date {
+  float:left;
+  width:67%;
+  
+}
+#texto{
+  font-size:1.5em;
+}
+
+.infos-cafe {
+    float: left;
+    text-align: justify;
+    width: 100%;
+}
+
 
 }
 
