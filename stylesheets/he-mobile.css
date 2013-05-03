@@ -572,7 +572,16 @@ section.he-enviroment aside.photo-big {
 
 /* Max Width, 480px */
 
-@media (max-width:480px) {
+
+
+media (max-width:480px) {
+  
+  .next-event {
+      float: left;
+      margin-left: 5%;
+      width: 35%;
+      background:red;
+  }
 
   #hiddenmenu {
       background: none repeat scroll 0 0 #B80606;

@@ -6314,6 +6314,25 @@ background-image: url(/images/cloud-slider-nav-active.png);
 }
 
 /* clientefeliz */
+#linkvideos {
+    background: none repeat scroll 0 0 white;
+    box-shadow: 0 4px 8px -3px black;
+    float: left;
+    margin-bottom: 2em;
+    margin-left: 3%;
+    margin-top: 2em;
+    opacity: 1;
+    text-align: center;
+    width: 27%;
+}
+
+#linkvideos a {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
 #clientefeliz {
     background: url("/images/cloud-bg.jpg") no-repeat scroll center top #EFEFEF;
     float: left;
@@ -6323,7 +6342,6 @@ background-image: url(/images/cloud-slider-nav-active.png);
 .cover-clientefeliz {
   background-color: #B80606;
     height: 280px;
-    margin-top: 56px;
   }
 
 .clientefeliz-bullets {

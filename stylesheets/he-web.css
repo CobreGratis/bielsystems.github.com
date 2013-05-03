@@ -53,6 +53,32 @@ header.default {
     text-transform: uppercase;
 }
 
+.videothumbs li {
+    background: none repeat scroll 0 0 white;
+    box-shadow: 0 4px 8px -3px black;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding: 10px;
+    width: 25%;
+    opacity:1.0;
+    text-align: center;
+}
+
+.videothumbs li img:hover {
+    opacity:0.5;
+    background:blue;
+}
+.videothumbs li:hover {
+    background: url("/images/play.jpg") no-repeat white;
+    background-size: 100%;  
+}
+
+
+.desc {
+    color: #8C8C8C;
+    font-style: italic;
+}
+
 #cliente h2, #process h2, #time h2 {
     padding-top: 80px;
     margin:0 0 20px 0;
