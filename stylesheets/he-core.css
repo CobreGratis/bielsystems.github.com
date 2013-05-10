@@ -5445,10 +5445,11 @@ article.about-cafe {
 
 .event {
   margin-bottom:10px;
+  padding:10px;
 }
   .event .tituloevento-next p{
     line-height:1.4em;
-    margin:5px 0 0 0;
+    margin:5px 0 10px 0;
   }
   .event .date-box{
     height:96px;
@@ -5459,11 +5460,11 @@ article.about-cafe {
     margin:0;
   }
   .event .tituloevento-next h4.textonovo {
-    margin-top:5px;
+    margin-top:10px;
   }
   .event .palestrante {margin:0px;}
   .event .date-next {
-    padding:5px;
+    padding:10px;
     margin:0;
     height:85px;
   }
