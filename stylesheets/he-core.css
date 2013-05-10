@@ -5232,7 +5232,6 @@ section.latest-cafes-dev {
   border-bottom: 1px solid #f9f9f9;
   margin-bottom: 200px;
   padding: 40px 0;
-   overflow: auto;
 }
 
 section.latest-cafes-dev h2 {
@@ -5398,6 +5397,7 @@ article.about-cafe {
   float: left;
 }
 
+
 .next-event {
   width: 35%;
   margin-left: 5%;
@@ -5442,6 +5442,32 @@ article.about-cafe {
   padding: 0;
   line-height: 1em;
 }
+
+.event {
+  margin-bottom:10px;
+}
+  .event .tituloevento-next p{
+    line-height:1.4em;
+    margin:5px 0 0 0;
+  }
+  .event .date-box{
+    height:96px;
+  }
+  .event .city{
+    text-align: center;
+    font-size:0.9em;
+    margin:0;
+  }
+  .event .tituloevento-next h4.textonovo {
+    margin-top:5px;
+  }
+  .event .palestrante {margin:0px;}
+  .event .date-next {
+    padding:5px;
+    margin:0;
+    height:85px;
+  }
+
 
 
 article.about-cafe h2{
