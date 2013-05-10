@@ -791,6 +791,11 @@ margin-top:50px;
   float:left;
 }
 
+#time ul > li a:first:hover{
+  color:#333;
+}
+
+
 #time p {
   width:100%;
   text-align:center;
