@@ -791,6 +791,11 @@ margin-top:50px;
   float:left;
 }
 
+#time ul > li a:first:hover{
+  color:#333;
+}
+
+
 #time p {
   width:100%;
   text-align:center;
@@ -997,8 +1002,8 @@ footer a:hover {
 }
 
 footer li {
-	width:50%;
 	text-align:center;
+	width:33%;
   line-height:23px;
   font-size:16px;
   float:left;
@@ -4471,14 +4476,6 @@ footer a:hover {
   color:#fff;
 }
 
-footer li {
-  width:50%;
-  text-align:center;
-  line-height:23px;
-  font-size:16px;
-  float:left;
-}
-
 footer h3 {
   width:100%;
   text-align:center;
@@ -5232,7 +5229,6 @@ section.latest-cafes-dev {
   border-bottom: 1px solid #f9f9f9;
   margin-bottom: 200px;
   padding: 40px 0;
-   overflow: auto;
 }
 
 section.latest-cafes-dev h2 {
@@ -5398,6 +5394,7 @@ article.about-cafe {
   float: left;
 }
 
+
 .next-event {
   width: 35%;
   margin-left: 5%;
@@ -5442,6 +5439,33 @@ article.about-cafe {
   padding: 0;
   line-height: 1em;
 }
+
+.event {
+  margin-bottom:10px;
+  padding:10px;
+}
+  .event .tituloevento-next p{
+    line-height:1.4em;
+    margin:5px 0 10px 0;
+  }
+  .event .date-box{
+    height:96px;
+  }
+  .event .city{
+    text-align: center;
+    font-size:0.9em;
+    margin:0;
+  }
+  .event .tituloevento-next h4.textonovo {
+    margin-top:10px;
+  }
+  .event .palestrante {margin:0px;}
+  .event .date-next {
+    padding:10px;
+    margin:0;
+    height:85px;
+  }
+
 
 
 article.about-cafe h2{
