@@ -791,10 +791,6 @@ margin-top:50px;
   float:left;
 }
 
-#time ul > li a:first:hover{
-  color:#333;
-}
-
 
 #time p {
   width:100%;
@@ -816,6 +812,11 @@ margin-top:50px;
   background:#fff;
   float:left;
 }
+
+#time ul > li > a{
+  text-decoration: underline;
+}
+
 
 .social-icons {
   width:26px !important;
