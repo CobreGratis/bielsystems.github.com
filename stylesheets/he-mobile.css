@@ -260,9 +260,31 @@ section.he-enviroment aside.photo-big {
 }
 
 
-/* Max Width, 686px */
+/* Max Width, 686px  ---  tablet*/
 
 @media (max-width:686px) {
+  
+  .videothumbs li {
+      background: none repeat scroll 0 0 white;
+      box-shadow: 0 4px 8px -3px black;
+      margin-bottom: 2em;
+      margin-top: 2em;
+      opacity: 1;
+      padding: 10px;
+      text-align: center;
+      width: 39%;
+  }
+
+  .videothumbs li img:hover {
+      opacity:0.5;
+  }
+  .videothumbs li:hover {
+      background: url("/images/play.jpg") no-repeat white;
+      background-size: 100%;  
+  }
+  
+  
+  
   #faleconosco input[type="image"] {
     width:100%;
   }
@@ -636,11 +658,30 @@ article.last-event {
 }
 
 
-/* Max Width, 480px */
+/* Max Width, 480px -- smartphone */
 
 
 
 @media (max-width:480px) {
+  
+  .videothumbs li {
+      background: none repeat scroll 0 0 white;
+      box-shadow: 0 4px 8px -3px black;
+      margin-bottom: 2em;
+      margin-top: 2em;
+      opacity: 1;
+      padding: 10px;
+      text-align: center;
+      width: 90%;
+  }
+
+  .videothumbs li img:hover {
+      opacity:0.5;
+  }
+  .videothumbs li:hover {
+      background: url("/images/play.jpg") no-repeat white;
+      background-size: 100%;  
+  }
   
   #faleconosco input[type="image"] {
     width:100%;

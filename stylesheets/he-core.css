@@ -640,6 +640,49 @@ a.white-button:hover {
   margin-top: 30px;
 
 }
+.videothumbs {
+   float: left;
+   margin: 0 0 40px;
+   width: 100%;
+}
+.videothumbs li {
+    background: none repeat scroll 0 0 white;
+    box-shadow: 0 4px 8px -3px black;
+    display: block;
+    float: left;
+    margin: 10px 3%;
+    opacity: 1;
+    padding: 10px;
+    text-align: center;
+    width: 24%;
+}
+
+
+.videothumbs li img{
+    float: left;
+    width: 100%;  
+}
+
+.videothumbs li img:hover {
+    opacity:0.5;
+}
+.videothumbs li:hover {
+    background: url("/images/play.jpg") no-repeat white;
+    background-size: 100%;  
+}
+
+.textovideothumbs {
+  float: left;
+  height: 40px;
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 10px
+}
+
+.desc {
+    color: #8C8C8C;
+    font-style: italic;
+}
 
 /*====================*/
 /*===== Projects =====*/
