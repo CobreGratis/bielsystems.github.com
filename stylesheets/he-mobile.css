@@ -562,6 +562,18 @@ section.he-enviroment aside.photo-big {
     width:100%;
     float:left;
   }
+
+  footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  float: left;
+  font-size: 14px;
+  height: 29em;
+  left: 0;
+  padding: 30px 0 0;
+  position: absolute;
+  width: 100%;
+} 
   
   #jobs #cover.cover-jobs {
     height: 160px;
