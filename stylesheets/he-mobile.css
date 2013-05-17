@@ -260,6 +260,9 @@ section.he-enviroment aside.photo-big {
 /* Max Width, 686px */
 
 @media (max-width:686px) {
+  #faleconosco input[type="image"] {
+    width:100%;
+  }
   #hiddenmenu {
       background: none repeat scroll 0 0 #B80606;
       border-bottom: 2px solid #D7D7D7;
@@ -622,7 +625,11 @@ article.last-event {
 
 
 
-media (max-width:480px) {
+@media (max-width:480px) {
+  
+  #faleconosco input[type="image"] {
+    width:100%;
+  }
   
   .next-event {
       float: left;
