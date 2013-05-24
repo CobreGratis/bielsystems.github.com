@@ -1,6 +1,4 @@
- @charset "utf-8";
-
-body, h1, h2, h3, h4,
+ @charset "utf-8"; body, h1, h2, h3, h4,
 form, fieldset, input, label, p,
 em, strong, a, img, ul, li {
 	padding:0; margin:0; border:0;
@@ -578,6 +576,7 @@ margin:0;
 .services {
   width:100%;
   margin-top:50px;
+  margin-bottom: 20px;
   float:left;
 }
 
@@ -588,7 +587,6 @@ margin:0;
   display:block;
   line-height:20px;
   padding:3%;
-  padding-bottom:60px !important;
   float:left;
 }
 
@@ -614,16 +612,6 @@ margin:0;
 
 
 /* Home.Red Button */
-
-.home-button {
-  position:relative;
-}
-
-.home-button a.red-button {
-  position:absolute;
-  margin-top:-30px;
-  z-index:200;
-}
 
 a.red-button, a.white-button {
     width:437px; height:60px;
