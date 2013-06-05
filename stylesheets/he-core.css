@@ -147,9 +147,7 @@ header.projetos nav#menu {
   padding: 10px;
 }
 
-a, a:active, a:visited{
-  color: #b80606;
-}
+
 
 #hiddenmenu{
   display:none;
