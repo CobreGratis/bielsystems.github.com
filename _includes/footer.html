@@ -43,7 +43,7 @@
         </li>
         <li>
           <address>
-            <a href="https://maps.google.com.br/maps?q=Rua+Alagoas,+680,+sala+202+-+Centro+-+Londrina+-+PR+-+Brasil&amp;hl=pt-BR&amp;ie=UTF8&amp;sll=-23.558238,-46.782099&amp;sspn=0.528708,1.056747&amp;hq=Londrina+-+PR+-+Brasil&amp;hnear=R.+Alagoas,+680+-+Centro,+S%C3%A3o+Caetano+do+Sul+-+S%C3%A3o+Paulo,+09521-050&amp;t=m&amp;z=11" target="_blank">
+            <a href="https://maps.google.com/maps?q=Rua+Alagoas,+680,+sala+202+-+Londrina+-+PR+-+Brasil&amp;ie=UTF8&amp;t=m" target="_blank">
               <h3>HE:LABS LONDRINA</h3>
               Rua Alagoas, 680, sala 202 - Centro<br />
               Londrina - PR - Brasil<br />
@@ -57,6 +57,28 @@
   </footer>
 </section>
 
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+{% javascript_asset_tag global %}
+- /_assets/javascripts/jquery.scrollTo.js
+- /_assets/javascripts/jquery.localScroll.js
+- /_assets/javascripts/jquery.prettyPhoto.js
+- /_assets/javascripts/scripts.js
+{% endjavascript_asset_tag %}
+
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-16326763-1']);
+	_gaq.push(['_setDomainName', 'helabs.com.br']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
 
 <script type="text/javascript">
 setTimeout(function(){var a=document.createElement("script");
