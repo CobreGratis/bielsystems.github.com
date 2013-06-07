@@ -691,7 +691,7 @@ article.last-event {
       float: left;
       margin-left: 5%;
       width: 35%;
-      background:red;
+      background: none;
   }
 
   #hiddenmenu {
