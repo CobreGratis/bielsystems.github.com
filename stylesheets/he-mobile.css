@@ -90,7 +90,7 @@
 #time ul > li {
   margin:0 8px 30px 7px;
 }
-  
+
 
 /* Fale Conosco */
 
@@ -263,7 +263,7 @@ section.he-enviroment aside.photo-big {
 /* Max Width, 686px  ---  tablet*/
 
 @media (max-width:686px) {
-  
+
   .videothumbs li {
       background: none repeat scroll 0 0 white;
       box-shadow: 0 4px 8px -3px black;
@@ -282,9 +282,9 @@ section.he-enviroment aside.photo-big {
       background: url("/images/play.jpg") no-repeat white;
       background-size: 100%;  
   }
-  
-  
-  
+
+
+
   #faleconosco input[type="image"] {
     width:100%;
   }
@@ -301,11 +301,11 @@ section.he-enviroment aside.photo-big {
       padding: 0.5em 0 0.1em 0.5em;
       width: 100%;
   }
-  
+
   .submenuhome{
     position:relative;
   }
-  
+
   /*mailing page*/
   .mailing-form {
       margin-left: 0;
@@ -318,7 +318,7 @@ section.he-enviroment aside.photo-big {
       padding: 2em 1em 1em;
       width: 100%;
   }
-  
+
   .cover-mailing-page h2 {
       color: #B80606;
       font-size: 30px;
@@ -328,17 +328,17 @@ section.he-enviroment aside.photo-big {
       text-transform: none;
       width: 100%;
   }
-  
+
   #mailing-page ul li {
     width:95%;
-    
+  
   }
   /*fim da mailling page*/
-  
+
   header.default, .header-spacer-default {
     height:100px !important;
   }
-  
+
   header.default h1 a {
       background-image: url("/images/m-logo.png");
       background-position: 0 center;
@@ -349,14 +349,14 @@ section.he-enviroment aside.photo-big {
       margin-top: 0.6em;
       width: 26%;
   }
-  
+
   #menu2 {
       float: right;
       padding-top: 2em;
       width: 70%;
       display:none;
   }
-  
+
   #menu2 ul {
       float: right;
       font-size-adjust: 0.47;
@@ -369,7 +369,7 @@ section.he-enviroment aside.photo-big {
     margin:0;
     padding: 0;
   }
-  
+
   #menu li {
     margin:0;
   }
@@ -378,12 +378,12 @@ section.he-enviroment aside.photo-big {
 		width:88%;
 		padding:0 6% 0 6%;
   }
-  
+
   #menu ul li:first-child {
     margin-left: 0;
   }
   /* home */
-  
+
   #home {
     padding-bottom:70px !important;
     padding-top:12em !important;
@@ -398,7 +398,7 @@ section.he-enviroment aside.photo-big {
     text-align:center;
     float:left;
   }
-  
+
   #home h3 {
     width:100%;
     font-size: 30px !important;
@@ -407,35 +407,35 @@ section.he-enviroment aside.photo-big {
     text-align:center;
     float:left;
   }
-  
+
   #home .home-button {
     display:none;
   }
-  
+
   .services li {
     width:90%;
     padding:25px 5% 30px 5% !important;
     min-height:auto !important;
     margin-top:1px;
   }
-  
+
   .services p {
     width:80%;
     margin:30px 0 0 0;
     padding:0 10% 0 10%;
     float:left;
   }
-  
+
   .services h3 {
     margin:0 0 -20px 0 !important;
   }
-  
+
   .services li:first-child {
     margin-top:0;
     margin-left:1px !important;
   }
-  
-  
+
+
   /* Process */
 
   #process ul {
@@ -443,39 +443,39 @@ section.he-enviroment aside.photo-big {
     margin-bottom:40px !important;
     float:left;
   }
-  
+
   .ourprocess {
     width:392px; height:393px;
     margin:50px auto !important;
     display:block;
   }
-  
+
   .diferenciado, .diferenciado h3 {
     width:100% !important;
     text-align:center !important;
     float:left !important;
   }
-  
+
   .diferenciado h3 {
     margin-top:-40px;
   }
-  
+
   .full-p {
     width:auto;
     margin-left:0;
   }
-  
+
   .diferenciado .white-button {
 	  display:none;
   }
-  
-  
+
+
   /* Cliente */
 
   #cliente {
     background-image: none;
   }
-  
+
   #cliente h2, #process h2, #time h2  {
     font-size: 48px;
     padding-top: 50px !important;
@@ -489,9 +489,9 @@ section.he-enviroment aside.photo-big {
   .thumbs {
     display: none;
   }
-  
+
   /* Time */
-  
+
   #time {
     padding-bottom:20px !important;
   }
@@ -512,7 +512,7 @@ section.he-enviroment aside.photo-big {
     padding:0;
     float:left;
   }
-  
+
   #time ul p {
     font-size:14px;
     height:70px;
@@ -526,28 +526,28 @@ section.he-enviroment aside.photo-big {
     display:none !important;
   }
 
-  
+
   /* Fale Conosco */
-  
+
   #faleconosco {
     padding-bottom:330px;
   }
-  
+
   #faleconosco {
     padding-left:0 !important;
     padding-right:0 !important;
     float:left;
   }
-  
+
   #faleconosco h2 {
     font-size:69px;
 		margin:10px 0 12px 0;
   }
-  
+
   #faleconosco .pre, #faleconosco .sub {
     font-size:20px;
   }
-	
+
 	#faleconosco .pre, #faleconosco .sub {
 	  line-height:25px;
 	}
@@ -559,7 +559,7 @@ section.he-enviroment aside.photo-big {
   #faleconosco .sub {
     font-size:16px;
   }
-  
+
   #faleconosco form {
     padding:0;
     margin:0;
@@ -571,16 +571,16 @@ section.he-enviroment aside.photo-big {
     margin:0;
     float:left;
   }
-  
+
   #faleconosco input[type="text"] {
     margin-bottom:15px;
   }
-  
+
   #faleconosco textarea {
     margin-bottom:40px;
   }
-  
-  
+
+
   /* Footer */
 
   footer li {
@@ -599,7 +599,7 @@ section.he-enviroment aside.photo-big {
   position: absolute;
   width: 100%;
 } 
-  
+
   #jobs #cover.cover-jobs {
     height: 160px;
   }
@@ -642,7 +642,7 @@ article.last-event {
 .date {
   float:left;
   width:67%;
-  
+
 }
 #texto{
   font-size:1.5em;
@@ -663,7 +663,7 @@ article.last-event {
 
 
 @media (max-width:480px) {
-  
+
   .videothumbs li {
       background: none repeat scroll 0 0 white;
       box-shadow: 0 4px 8px -3px black;
@@ -682,11 +682,11 @@ article.last-event {
       background: url("/images/play.jpg") no-repeat white;
       background-size: 100%;  
   }
-  
+
   #faleconosco input[type="image"] {
     width:100%;
   }
-  
+
   .next-event {
       float: left;
       margin-left: 5%;
@@ -707,12 +707,12 @@ article.last-event {
       padding: 0.5em 0 0.1em 0.5em;
       width: 100%;
   }
-  
+
 .hemaismobile {
       border-top: 1px dashed grey;
   }
-  
-  
+
+
   /*apoios*/
   #apoios .cover-apoios {
       float: left;
@@ -724,7 +724,7 @@ article.last-event {
   .cover h2 {
     font-size:80px;
   }
-  
+
   /*mailling page*/
   #mailing-page ul li p {
       float: left;
@@ -733,7 +733,7 @@ article.last-event {
       margin-top: 0.2em;
       width: 100%;
   }
-  
+
   #mailing-page ul li h4 {
       color: #B80606;
       float: left;
@@ -742,7 +742,7 @@ article.last-event {
       margin-bottom: 0.1em;
       width: 100%;
   }
-  
+
   #mailing-page ul li span {
       color: #888888;
       float: left;
@@ -751,7 +751,7 @@ article.last-event {
       margin-top: 0.3em;
       width: 100%;
   }
-  
+
   #mailing-page h3 {
       border-bottom: 2px solid #c6c6c6;
       float: left;
@@ -760,8 +760,8 @@ article.last-event {
       padding-bottom: 0.3em;
       width: 100%;
   }
-  
-  
+
+
   .cover-mailing-page h2 {
       color: #B80606;
       font-size: 1.53em;
@@ -771,10 +771,10 @@ article.last-event {
       text-transform: none;
       width: 100%;
   }
-  
+
   .cover-mailing-page div.containner input[type="text"], .cover-mailing-page div.containner input[type="email"]{
     width:40%;
-    
+  
   }
   #mailing-page ul li {
       border-bottom: 1px dashed #C6C6C6;
@@ -784,7 +784,7 @@ article.last-event {
       width: 100%;
   }
   /*fim da mailling page*/
-  
+
   header.default {
     position:absolute;
     float:left;
@@ -807,11 +807,11 @@ article.last-event {
   #menu2 ul li.has-sub {
     display: none;
   }
-  
+
   .submenuhome {
     display:none;
   }
-  
+
   header.default h1 a {
       background-image: url("/images/m-logo.png");
       background-position: 0 center;
@@ -823,7 +823,7 @@ article.last-event {
       width: 145px;
   }
   /* menu novo fim */
-  
+
 
   #menu {
     display: none;
@@ -842,7 +842,7 @@ article.last-event {
     font-size: 30px !important;
     line-height: 40px !important;
   }
-  
+
   #home h3 {
     font-size: 20px !important;
     line-height: 30px !important;
@@ -851,11 +851,11 @@ article.last-event {
   .icons {
     width:160px;
   }
-  
+
   .icons li {
     margin:3%;
   }
-  
+
   .icons a {
     float: left;
     margin:1% !important;
@@ -891,7 +891,7 @@ article.last-event {
   #faleconosco input[type="image"] {
     width:100%;
   }
-	
+
   #faleconosco h2 {
     font-size:55px;
   }
@@ -960,7 +960,7 @@ article.last-event {
   section.positions-available article {
     width: 100%;
   }
-  
+
 
 
   /*=====================*/
@@ -1000,7 +1000,7 @@ article.last-event {
     display:block !important;
     float:left;
   }
-  
+
   #m-cloud {
     display:none;
   }
@@ -1072,3 +1072,4 @@ article.last-event {
   .navigation li { float: none; padding-left:18px}
   .navigation li a { border-bottom: 1px solid #fff; }
 }
+

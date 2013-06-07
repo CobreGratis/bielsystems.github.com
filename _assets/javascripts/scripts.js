@@ -3,6 +3,25 @@
 if(typeof(console) == 'undefined') console = { log : function(){} };
 if(typeof(console.log) != 'function') console.log = function(){};
 
+// Collapse Plugin
+
+(function($) {
+$.fn.collapsable = function(options) {
+  // iterate and reformat each matched element
+  return this.each(function() {
+    // cache this:
+    var obj = $(this);
+    var tree = obj.next('.navigation');
+    obj.click(function(){
+      if( obj.is(':visible') ){tree.toggle();}
+    });
+    $(window).resize(function(){
+      if ( $(window).width() <= 570 ){tree.attr('style','');};
+    });
+  });
+};
+})(jQuery);
+
 
 // Functions
 
@@ -18,7 +37,13 @@ var App = {
     },
 
     InterfaceActions: function() {
-		
+	
+			// mobile site
+			$('.slide-trigger').collapsable();
+			
+			// inicia plugin prettyPhoto
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+			
 	    $("a[rel^='external']").each(function() { $(this).attr("target","_blank"); });
 
 	    $('nav, .advice, header, #right, #single-page').localScroll({

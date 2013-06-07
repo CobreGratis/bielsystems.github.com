@@ -51,7 +51,7 @@ body {
 
 }
 
-@font-face {
+/*@font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
@@ -74,7 +74,7 @@ body {
   font-style: normal;
   font-weight: 400;
   src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
-}
+}*/
 
 /*====================*/
 /*===== Patterns =====*/
@@ -964,7 +964,7 @@ margin-top:50px;
  
 #time {
   width:100%;
-  background: #efefef url("/images/bg-time.png top center no-repeat");
+  background: #efefef url("/images/bg-time.png") top center no-repeat;
   padding-bottom:60px;
   float:left;
   padding-top: 84px;

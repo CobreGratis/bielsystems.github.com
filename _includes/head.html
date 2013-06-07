@@ -4,9 +4,7 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 	
-  <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,800" rel="stylesheet" type="text/css" />
-	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|PT+Sans|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,500,300italic,700|Open+Sans' rel='stylesheet' type='text/css'>
   <title>{{ page.title }} &mdash; HE:labs</title>
 
   <meta http-equiv="content-language" content="pt-br" />
@@ -21,7 +19,7 @@
 
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="icon" type="image/png"  href="/favicon.png" />
-
+  
   <!-- Open Graph -->
   <meta property="og:title" content="{{ page.title }} - HE:labs"/>
   <meta property="og:site_name" content="helabs.com.br"/>
@@ -30,59 +28,16 @@
 	
   <!-- Media -->
   <meta name="viewport" content="width=device-width, user-scalable=no" />
-  <link rel="stylesheet" type="text/css" href="/stylesheets/he-core.css" />
-  <link rel="stylesheet" type="text/css" href="/stylesheets/prettyPhoto.css" />
+
+  {% css_asset_tag global %}
+  - /_assets/stylesheets/he-core.css
+  - /_assets/stylesheets/prettyPhoto.css
+  {% endcss_asset_tag %}
+
   <link rel="stylesheet" type="text/css" href="/stylesheets/he-web.css" media="(min-width:801px)" />
   <link rel="stylesheet" type="text/css" href="/stylesheets/he-mobile.css" media="(max-width:801px)" />
+
   <!--[if IE]>
     <link rel="stylesheet" type="text/css" href="/stylesheets/he-web.css" media="screen" />
   <![endif]-->
-	
-  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
-  <script src="/javascripts/jquery.scrollTo.js"></script>
-  <script src="/javascripts/jquery.localScroll.js"></script>
-  <script src="/javascripts/scripts.js"></script>
-   <script src="/javascripts/jquery.prettyPhoto.js"></script>
-  
-  <script type="text/javascript">
-
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-16326763-1']);
-    _gaq.push(['_setDomainName', 'helabs.com.br']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-  </script>
-  
-  <!--scripts mobile menu-->
-  <script>
-  /* MOBILE COLLAPSE MENU */
-  (function($) {
-    $.fn.collapsable = function(options) {
-      // iterate and reformat each matched element
-      return this.each(function() {
-        // cache this:
-        var obj = $(this);
-        var tree = obj.next('.navigation');
-        obj.click(function(){
-          if( obj.is(':visible') ){tree.toggle();}
-        });
-        $(window).resize(function(){
-          if ( $(window).width() <= 570 ){tree.attr('style','');};
-        });
-      });
-    };
-  })(jQuery);
-  </script>
-  
-  <script>
-  $(document).ready(function(){
-      $('.slide-trigger').collapsable();
-  });
-  </script>
 </head>
