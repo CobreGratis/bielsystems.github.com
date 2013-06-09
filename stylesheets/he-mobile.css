@@ -580,6 +580,25 @@ section.he-enviroment aside.photo-big {
   }
 
 
+  /* Open Source */
+
+  #cover.cover-open-source {
+    height: 260px;
+  }
+
+  #cover.cover-open-source h2 {
+    font-size: 80px;
+    padding-top: 140px;
+  }
+
+  #open-source section.high-light-projects article {
+    margin-right: 1%;
+    width: 47%;
+    padding: 5px;
+  }
+
+
+
   /* Footer */
 
   footer li {
@@ -960,7 +979,25 @@ article.last-event {
     width: 100%;
   }
 
+  /*=====================*/
+  /*======= opensource =======*/
+  /*=====================*/
 
+  #cover.cover-open-source {
+    height: 260px;
+  }
+
+  #cover.cover-open-source h2 {
+    font-size: 40px;
+    padding-top: 160px;
+  }
+
+  #open-source section.high-light-projects article {
+    margin-right: 0;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
 
   /*=====================*/
   /*======= workshops =======*/
