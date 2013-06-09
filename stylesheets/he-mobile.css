@@ -442,6 +442,7 @@ section.he-enviroment aside.photo-big {
     float:left;
   }
 
+
   .ourprocess {
     width:392px; height:393px;
     margin:50px auto !important;
@@ -606,8 +607,6 @@ section.he-enviroment aside.photo-big {
     font-size: 60px;
     padding-top: 140px;
   }
-
-
 
   /* Footer */
 
@@ -900,6 +899,10 @@ article.last-event {
 
   #process li img {
     width:230px; height:233px;
+  }
+
+  #process h2 {
+    padding-top: 140px !important;
   }
 
   #time ul > li {
