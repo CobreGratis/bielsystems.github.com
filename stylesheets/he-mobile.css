@@ -929,6 +929,31 @@ article.last-event {
   .thumbs {
     display: none;
   }
+
+
+
+  #profile article.mini-bio {
+    width: 100%;
+  }
+
+  #profile aside.photo-bio {
+    width: 100%;
+  }
+
+  #profile aside.photo-bio .profile-picture {
+    display: none;
+  }
+
+  article.blog-posts, article.projects-worked {
+    width: 100%;
+  }
+
+  article.projects-worked img {
+    display: none;
+  }
+
+
+
   /*=====================*/
   /*======= Apoios =======*/
   /*=====================*/
