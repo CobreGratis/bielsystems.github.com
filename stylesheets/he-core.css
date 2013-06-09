@@ -2411,6 +2411,7 @@ textarea:focus{outline:none;}
   font-size:120px;
   font-weight:bold;
   float:left;
+  text-transform: none;
 }
 
 
@@ -2545,6 +2546,7 @@ textarea:focus{outline:none;}
 textarea:focus{outline:none;}
 
 section.workshops-newsletter {
+  display: none;
   margin-bottom: 100px;
 }
 

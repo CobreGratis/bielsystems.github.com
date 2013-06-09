@@ -199,9 +199,7 @@ section.he-enviroment aside.photo-big {
 /*== Workshops ==*/
 /*=====================*/
 
-#workshops .cover-workshops h2 {
-  font-size:80px;
-}
+
 
 #workshops .left {
   width:100%;
@@ -598,6 +596,18 @@ section.he-enviroment aside.photo-big {
   }
 
 
+  /* workshops */
+
+  #workshops #cover.cover-workshops {
+    height: 260px;
+  }
+
+  #workshops #cover.cover-workshops h2 {
+    font-size: 60px;
+    padding-top: 140px;
+  }
+
+
 
   /* Footer */
 
@@ -911,7 +921,7 @@ article.last-event {
   }
 
   #faleconosco h2 {
-    font-size:55px;
+    font-size:50px;
   }
   .thumbs {
     display: none;
@@ -1003,18 +1013,19 @@ article.last-event {
   /*======= workshops =======*/
   /*=====================*/
 
-  #workshops .cover-workshops {
-    width:100%;
-    padding-top:0;
-    padding-bottom:50px;
-    height:auto;
-    float:left;
+  #cover.cover-workshops {
+    height: 260px;
+    margin-top: 0;
+
   }
 
-  #workshops .cover-workshops h2 {
-    font-size:60px;
+  #workshops #cover.cover-workshops h2 {
+    font-size:40px;
+    padding-top: 160px;
   }
-
+  ul.right-workshops a {
+    width: 160px;
+  }
 
   /*=====================*/
   /*======= Cloud =======*/
