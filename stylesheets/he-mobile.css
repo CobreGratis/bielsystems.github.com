@@ -613,6 +613,10 @@ section.he-enviroment aside.photo-big {
   }
 
 
+  #process h2 {
+    padding-top: 150px !important;
+  }
+
   /* workshops */
 
   #workshops #cover.cover-workshops {
