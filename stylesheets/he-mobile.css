@@ -525,6 +525,22 @@ section.he-enviroment aside.photo-big {
     display:none !important;
   }
 
+
+
+  /* Time Profile*/
+
+  #profile article.mini-bio {
+    width: 100%;
+  }
+
+  #profile aside.photo-bio {
+    display: none;
+  }
+
+  article.blog-posts, article.projects-worked {
+    width: 100%;
+  }
+
   /* Fale Conosco */
 
   #faleconosco {
@@ -931,6 +947,10 @@ article.last-event {
   }
 
 
+
+  /*=====================*/
+  /*======= Time Profile =======*/
+  /*=====================*/
 
   #profile article.mini-bio {
     width: 100%;
