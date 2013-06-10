@@ -3340,7 +3340,7 @@ article.mini-bio {
 
 
 
-article.mini-bio p {
+.mini-bio p {
   text-align: left;
   line-height: 1.8em;
   font-size: 1.2em;
@@ -3348,7 +3348,7 @@ article.mini-bio p {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-aside.photo-bio {
+.photo-bio {
   width: 30%;
   float: left;
   margin-left: 3%;
@@ -3358,13 +3358,16 @@ aside.photo-bio {
   float: right;
   margin-right: -30px;
 }
-.profile-picture img{
+.profile-picture img {
   margin-top:70px;
-
   border-radius: 6px;
 }
 
-section.profile-cote {
+.profile-pic {
+  width:70% !important;
+}
+
+.profile-cote {
   background: #D92727;
   padding: 60px 0;
 }
