@@ -1022,7 +1022,8 @@ margin-top:50px;
   float:left;
 }
 
-#time ul > li > a{
+#time ul > li > a {
+  color: #333;
   text-decoration: underline;
 }
 
