@@ -1719,21 +1719,15 @@ section.high-light-projects article img {
   float: left;
 }
 
-
-
-
-#open-source li.github-link  a {
-  background-color: #fff;
-  height: 300px;
-  width: 300px;
-  position: absolute;
-  padding: 20px;
+#open-source ul.gems-list {
+  margin-top: 50px;
+  width: 90%;
+  margin-left: 20px;
 }
 
-#open-source li.github-link  a:hover {
-
-  background: #fafafa url(/images/ninecat.png) no-repeat 100px 30px;
-  text-decoration: none;
+#open-source ul.gems-list li {
+  width: 30%;
+  min-height: 180px;
 }
 
 
