@@ -691,34 +691,44 @@ a.white-button:hover {
   font-size:14px;
 }
 
-.diferenciado {
-  margin-top:40px;
-  float:right;
-  color:#fff;
-}
-
-.diferenciado p {
-  margin-top:30px;
-  line-height:25px;
-  font-size:17px;
-}
-
 .ourprocess {
   margin-top:65px;
 }
 
-#process .diferenciado h3 {
+#process ul.different-processes li {
+  width: 65%;
+  margin: 5%;
+}
+
+
+#process ul.different-processes li:first-child {
+  width: 25%;
+  margin: 0;
+}
+
+
+#process ul.different-processes li img {
+  width: 100%;
+  margin-left: 40px;
+}
+
+#process ul.different-processes li h3 {
   font-size:36px;
   text-align:left;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
-.diferenciado p {
+#process ul.different-processes li p {
+  text-align:left;
   margin-top:30px;
+  line-height:28px;
+  font-size:17px;
+  color: #fff;
 }
 
-.diferenciado .white-button {
-  margin-top:30px;
-}
+
+
 /*====================*/
 /*===== Clientes =====*/
 /*====================*/
@@ -3249,34 +3259,11 @@ p.advice {
   font-size:14px;
 }
 
-.diferenciado {
-  margin-top:40px;
-  float:right;
-  color:#fff;
-}
-
-.diferenciado p {
-  margin-top:30px;
-  line-height:25px;
-  font-size:17px;
-}
 
 .ourprocess {
   margin-top:65px;
 }
 
-#process .diferenciado h3 {
-  font-size:36px;
-  text-align:left;
-}
-
-.diferenciado p {
-  margin-top:30px;
-}
-
-.diferenciado .white-button {
-  margin-top:30px;
-}
 
 .cover {
   background-color: #b80606;

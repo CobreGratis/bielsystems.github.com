@@ -48,9 +48,6 @@
   margin-top:125px;
 }
 
-.diferenciado {
-  width:300px;
-}
 
 .full-p {
   width:690px;
@@ -361,6 +358,7 @@ section.he-enviroment aside.photo-big {
       width: 102%;
   }
 
+
   #menu {
     /*display:none;*/
     width:100%;
@@ -449,24 +447,11 @@ section.he-enviroment aside.photo-big {
     display:block;
   }
 
-  .diferenciado, .diferenciado h3 {
-    width:100% !important;
-    text-align:center !important;
-    float:left !important;
-  }
-
-  .diferenciado h3 {
-    margin-top:-40px;
-  }
-
   .full-p {
     width:auto;
     margin-left:0;
   }
 
-  .diferenciado .white-button {
-	  display:none;
-  }
 
 
   /* Cliente */
