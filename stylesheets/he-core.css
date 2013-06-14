@@ -1435,55 +1435,6 @@ a.subscribe-workshop:hover{
   margin:0 auto;
 }
 
-/*=====================*/
-/*== Mailing He:labs ==*/
-/*=====================*/
-
-#mailing-helabs{
-  background-image: url(/images/mailing-bg.png);
-  width:550px;
-  height:167px;
-}
-
-#mailing-helabs h2{
-  font-size:18px;
-  padding-top:55px;
-}
-
-#mailing-helabs input[type="text"], #mailing-helabs input[type="email"]{
-  margin:26px 0 0 10px;
-  width:425px;
-  border:none;
-  font-size:14px;
-}
-
-#mailing-helabs input[type="submit"]{
-  background-color:#b80606;
-  padding:8px;
-  border:0px;
-  border-radius:6px;
-  color:#fff;
-  font-size:12px;
-  text-transform:uppercase;
-  font-weight:700;
-}
-
-#mailing-helabs input[type="submit"]:hover{
-  opacity:0.9;
-  cursor: pointer;
-}
-#mailing-helabs p {
-  margin:12px 0 0 10px;
-  font-size:13px;
-}
-#mailing-helabs a {
-  color:#333;
-}
-
-#mailing-helabs p span{
-  color: #b80606;
-  text-decoration:none;
-}
 
 #instructors{
   margin:80px 0 0 0;
@@ -1650,133 +1601,7 @@ div.zombie-anezio {
   margin-top:60px;
 }
 
-/*=====================*/
-/*=== Mailing Page ===*/
-/*=====================*/
 
-.cover-mailing-page{
-  background-image: url(/images/mailing-cover-bg.jpg);
-  background-position: bottom center;
-  margin-top:56px;
-}
-
-.cover-mailing-page h2{
-  padding:0px;
-  margin:0px;
-  color:#b80606;
-  font-size:30px;
-  text-transform:none;
-  width:520px;
-  line-height:30px;
-  margin-bottom:35px;
-}
-
-#mailing-page{
-  padding-bottom:50px;
-  padding-top: 3.8em;
-}
-
-#mailing-page h3{
-  font-size:28px;
-  margin:40px 0;
-}
-
-#mailing-page ul li{
-  list-style:none;
-  width:97%;
-  display:block;
-  /**background-color:rgba(0, 0, 0, 0.1);**/
-  padding-top:20px;
-  padding-bottom:8px;
-  border-bottom:1px solid #f5f5f5;
-}
-
-
-#mailing-page ul li:hover{
-  background-color:#fbfbfb;
-}
-
-#mailing-page ul li:last-child{
-  border-bottom:none;
-}
-
-#mailing-page ul li img{
-  float:left;
-  margin-right:30px;
-}
-
-#mailing-page ul li span{
-  font-size:23px;
-  font-weight:300;
-  color:#888;
-}
-
-#mailing-page ul li h4{
-  font-size:23px;
-  font-weight:400;
-  color:#b80606;
-  margin-bottom:20px;
-}
-
-#mailing-page ul li p{
-  font-size:16px;
-}
-
-.mailing-form{
-  padding-top:55px;
-  margin-left:250px;
-}
-
-.mailing-form p{
-  margin-top:15px;
-}
-
-.mailing-form p a{
-  font-size:11px;
-  color:#666;
-}
-
-.mailing-form img{
-  float:right;
-  margin: 11px 60px 0 0;
-}
-
-
-.cover-mailing-page div.containner {
-    background-image: url("/images/mailing-page-containner-bg.png");
-    background-position: left center;
-    background-repeat: no-repeat;
-    height: 275px;
-    width: 100%;
-}
-
-.cover-mailing-page div.containner input[type="text"], 
-.cover-mailing-page div.containner input[type="email"] {
-    background: none repeat scroll 0 0 white;
-    border: 1px solid #C7C7C7;
-    border-radius: 6px 6px 6px 6px;
-    float: left;
-    font-size: 14px;
-    margin: 0;
-    padding: 0.7em;
-    width: 70%;
-}
-
-.cover-mailing-page div.containner input[type="submit"] {
-    background-color: #B80606;
-    border: 0 none;
-    border-radius: 6px 6px 6px 6px;
-    color: #FFFFFF;
-    font-size: 12px;
-    font-weight: 700;
-    margin: 0.2em 0.2em 0.2em 0.3em;
-    padding: 8px;
-    text-transform: uppercase;
-}
-
-.cover-mailing-page div.containner input[type="submit"]:hover{
-  opacity:0.9;
-}
 
 /*=====================*/
 /*== Opensource Page ==*/
@@ -4421,6 +4246,136 @@ section.apply-positions p {
 }
 
 
+
+
+
+/*=====================*/
+/*=== Mailing Page ===*/
+/*=====================*/
+
+.cover-mailing-page{
+  background-image: url("/images/mailing-cover-bg.jpg");
+  background-position: bottom center;
+  margin-top:50px;
+}
+
+.mailing-form {
+  background-image: url("/images/mailing-mauro.png");
+  background-position: left 40px;
+  background-repeat: no-repeat;
+  padding-left: 200px;
+  padding-top: 100px;
+  height: 200px;
+}
+
+#mailing-page h2 {
+  color:#b80606;
+  font-size:30px;
+  margin-top: -40px;
+  text-transform:none;
+  width:100%;
+  line-height:30px;
+  margin-bottom:35px;
+}
+
+.cover-mailing-page div.containner input[type="text"], 
+.cover-mailing-page div.containner input[type="email"] {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #C7C7C7;
+    border-radius: 6px 6px 6px 6px;
+    float: left;
+    font-size: 14px;
+    margin: 0;
+    padding: 0.7em;
+    width: 50%;
+}
+
+.cover-mailing-page div.containner input[type="submit"] {
+    background-color: #B80606;
+    border: 0 none;
+    border-radius: 6px 6px 6px 6px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0.2em 0.2em 0.2em 0.3em;
+    padding: 8px;
+    text-transform: uppercase;
+}
+
+.cover-mailing-page div.containner input[type="submit"]:hover{
+  opacity:0.9;
+}
+
+
+#mailing-page{
+  padding-bottom:50px;
+  padding-top: 3.8em;
+}
+
+#mailing-page h3{
+  font-size:28px;
+  margin:40px 0;
+}
+
+#mailing-page ul li{
+  list-style:none;
+  width:97%;
+  display:block;
+  /**background-color:rgba(0, 0, 0, 0.1);**/
+  padding-top:20px;
+  padding-bottom:8px;
+  border-bottom:1px solid #f5f5f5;
+}
+
+
+#mailing-page ul li:hover{
+  background-color:#fbfbfb;
+}
+
+#mailing-page ul li:last-child{
+  border-bottom:none;
+}
+
+#mailing-page ul li img{
+  float:left;
+  margin-right:30px;
+}
+
+#mailing-page ul li span{
+  font-size:23px;
+  font-weight:300;
+  color:#888;
+}
+
+#mailing-page ul li h4{
+  font-size:23px;
+  font-weight:400;
+  color:#b80606;
+  margin-bottom:20px;
+}
+
+#mailing-page ul li p{
+  font-size:16px;
+}
+
+.mailing-form p{
+  margin-top:15px;
+}
+
+.mailing-form p a{
+  font-size:11px;
+  color:#666;
+}
+
+.mailing-form img{
+  float:right;
+  margin: 11px 60px 0 0;
+}
+
+
+
+
+
 /*section#about-us {
   background: #EFEFEF;
   background: #fafafa;
@@ -4431,6 +4386,62 @@ Não consegui identidicar no site em qual página a classe é usada,
 e portanto nao sei qual a correta. =/ Se alguém souber pode editar
 
 */
+
+
+
+
+
+
+/*=====================*/
+/*== Mailing He:labs ==*/
+/*=====================*/
+
+#mailing-helabs{
+  background-image: url(/images/mailing-bg.png);
+  width:550px;
+  height:167px;
+}
+
+#mailing-helabs h2{
+  font-size:18px;
+  padding-top:55px;
+}
+
+#mailing-helabs input[type="text"], #mailing-helabs input[type="email"]{
+  margin:26px 0 0 10px;
+  width:425px;
+  border:none;
+  font-size:14px;
+}
+
+#mailing-helabs input[type="submit"]{
+  background-color:#b80606;
+  padding:8px;
+  border:0px;
+  border-radius:6px;
+  color:#fff;
+  font-size:12px;
+  text-transform:uppercase;
+  font-weight:700;
+}
+
+#mailing-helabs input[type="submit"]:hover{
+  opacity:0.9;
+  cursor: pointer;
+}
+#mailing-helabs p {
+  margin:12px 0 0 10px;
+  font-size:13px;
+}
+#mailing-helabs a {
+  color:#333;
+}
+
+#mailing-helabs p span{
+  color: #b80606;
+  text-decoration:none;
+}
+
 
 
 

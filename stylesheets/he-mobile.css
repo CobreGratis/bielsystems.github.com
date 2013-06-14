@@ -305,6 +305,7 @@ section.he-enviroment aside.photo-big {
   #process ul.different-processes li p {
     text-align:left;
   }
+
 }
 
 
@@ -358,34 +359,40 @@ section.he-enviroment aside.photo-big {
     position:relative;
   }
 
+
+
   /*mailing page*/
+
+
+  .cover-mailing-page{
+    background-image: url("/images/mailing-cover-bg.jpg");
+    background-position: bottom center;
+    margin-top:60px;
+  }
+
   .mailing-form {
-      margin-left: 0;
-      padding-top: 19px;
-      width: 98%;
-  }
-  .cover-mailing-page div.containner {
-      background: none repeat scroll 0 0 transparent;
-      height: 275px;
-      padding: 2em 1em 1em;
-      width: 100%;
+    background-image: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
-  .cover-mailing-page h2 {
-      color: #B80606;
-      font-size: 30px;
-      line-height: 30px;
-      margin: 0 0 35px;
-      padding: 0;
-      text-transform: none;
-      width: 100%;
+  #mailing-page h2 {
+    color:#b80606;
+    font-size:30px;
+    padding-top: 70px;
+    text-transform:none;
+    width:100%;
+    line-height:30px;
+    margin-bottom:35px;
   }
 
-  #mailing-page ul li {
-    width:95%;
-  
-  }
+
   /*fim da mailling page*/
+
+
+
+
 
   header.default, .header-spacer-default {
     height:100px !important;
@@ -924,8 +931,8 @@ article.last-event {
 
   .cover-mailing-page div.containner input[type="text"], .cover-mailing-page div.containner input[type="email"]{
     width:40%;
-  
   }
+
   #mailing-page ul li {
       border-bottom: 1px dashed #C6C6C6;
       max-width: 100%;
@@ -933,7 +940,46 @@ article.last-event {
       padding-top: 2em;
       width: 100%;
   }
+
+  #cover.cover-mailing-page{
+    background-image: none;
+    background-color:#eaeaea;
+    margin-top:60px;
+    height: 300px;
+  }
+
+  .mailing-form {
+    background-image: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #mailing-page h2 {
+    color:#b80606;
+    font-size:25px;
+    padding-top: 70px;
+    text-transform:none;
+    width:100%;
+    line-height:30px;
+    margin-bottom:15px;
+  }
+
+  .cover-mailing-page div.containner input[type="text"], 
+  .cover-mailing-page div.containner input[type="email"] {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #C7C7C7;
+    border-radius: 6px 6px 6px 6px;
+    float: left;
+    font-size: 12px;
+    margin: 0;
+    padding: 0.7em;
+    width: 95%;
+  }
+
   /*fim da mailling page*/
+
+
 
   header.default {
     position:absolute;
