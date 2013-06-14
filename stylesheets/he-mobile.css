@@ -31,7 +31,7 @@
 
 /* Process */
 
-#process li img {
+/*#process li img {
   width:90%;
 }
 
@@ -52,7 +52,7 @@
 .full-p {
   width:690px;
   margin-left:-400px;
-}
+}*/
 
 
 /* Cliente */
@@ -255,6 +255,63 @@ section.he-enviroment aside.photo-big {
 }
 
 
+
+
+
+
+
+/* Max Width 1024 */
+
+@media (max-width:1024px) {
+  #process h2 {
+    padding-top: 100px;
+  }
+
+  #process ul li {
+    width: 33%;
+    margin: 0;
+  }
+
+  #process ul li img {
+    width: 70%;
+  }
+
+  #process ul li h3 {
+    font-size: 16px;
+  }
+
+  #process ul.different-processes li {
+    width: 90%;
+    margin: 0;
+    margin-left: 5%;
+    margin-bottom: 60px;
+    margin-top: 30px;
+  }
+
+
+  #process ul.different-processes li:first-child {
+    width: 25%;
+    margin: 0;
+  }
+
+  #process ul.different-processes li img {
+    display: none;
+  }
+
+  #process ul.different-processes li h3 {
+  text-align:left;
+  }
+
+  #process ul.different-processes li p {
+    text-align:left;
+  }
+}
+
+
+
+
+
+
 /* Max Width, 686px  ---  tablet*/
 
 @media (max-width:686px) {
@@ -451,6 +508,61 @@ section.he-enviroment aside.photo-big {
     width:auto;
     margin-left:0;
   }
+
+
+
+  #process ul li {
+    width: 30%;
+    margin: 0 1%;
+  }
+
+  #process ul li img {
+    width: 100%;
+  }
+
+  #process ul li {
+    width: 30%;
+  }
+
+  #process ul li h3 {
+    font-size: 18px;
+  }
+
+
+
+
+  #process ul.different-processes li {
+    width: 100%;
+    margin: 0%;
+  }
+
+
+  #process ul.different-processes li:first-child {
+    width: 0%;
+    margin: 0;
+  }
+
+
+  #process ul.different-processes li img {
+    display: none;
+  }
+
+  #process ul.different-processes li h3 {
+    font-size:36px;
+    text-align:center;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+  }
+
+  #process ul.different-processes li p {
+    text-align:center;
+    margin-top:30px;
+    line-height:24px;
+    font-size:17px;
+    color: #fff;
+  }
+
+
 
 
 
@@ -690,9 +802,14 @@ article.last-event {
 }
 
 
+
+
+
+
+
+
+
 /* Max Width, 480px -- smartphone */
-
-
 
 @media (max-width:480px) {
 
@@ -909,6 +1026,49 @@ article.last-event {
   #process h2 {
     padding-top: 140px !important;
   }
+
+
+  #process p.sub {
+    margin-bottom: 30px;
+  }
+
+  #process ul li {
+    width: 100%;
+    margin: 0;
+    float: none;
+  }
+
+  #process ul li img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+
+  #process ul li h3 {
+    font-size: 14px;
+  }
+
+
+  #process ul.different-processes li {
+    width: 100%;
+    margin: 0%;
+  }
+
+  #process ul.different-processes li h3 {
+    font-size:30px;
+    text-align:left;
+  }
+
+  #process ul.different-processes li p {
+    text-align:left;
+    margin-top:20px;
+    line-height:20px;
+    font-size:14px;
+  }
+
+
+
 
   #time ul > li {
     width:44%;
