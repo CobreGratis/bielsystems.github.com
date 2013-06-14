@@ -317,7 +317,6 @@ section.he-enviroment aside.photo-big {
     margin-right: 21px;
   }
 
-
 }
 
 
@@ -1336,6 +1335,10 @@ article.last-event {
     display:none;
   }
 
+
+  #cafecomdev-page .line-divisor {
+    width: 100%;
+  }
 }
 
 /*===== mobile menu ======*/
