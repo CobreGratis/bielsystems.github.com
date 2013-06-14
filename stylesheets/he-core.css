@@ -2248,8 +2248,9 @@ textarea:focus{outline:none;}
 /* Left */
 
 .left {
-  width:560px;
+  width:60%;
   float:left;
+  margin-bottom: 50px;
 }
 
 #workshops h2 {
@@ -2257,13 +2258,14 @@ textarea:focus{outline:none;}
   font-size:22px;
   padding-top:40px;
   text-transform:uppercase;
+
 }
 
 
 /* Right */
 
 .right {
-  width:360px;
+  width: 35%;
   float:right;
 }
 
