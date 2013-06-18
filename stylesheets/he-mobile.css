@@ -29,30 +29,6 @@
 }
 
 
-/* Process */
-
-/*#process li img {
-  width:90%;
-}
-
-#process {
-  padding-bottom:70px;
-}
-
-#process h3 {
-  font-size:15px;
-}
-
-.ourprocess {
-  width:50%; height:50%;
-  margin-top:125px;
-}
-
-
-.full-p {
-  width:690px;
-  margin-left:-400px;
-}*/
 
 
 /* Cliente */
@@ -257,12 +233,33 @@ section.he-enviroment aside.photo-big {
 
 
 
-
-
-
 /* Max Width 1024 */
 
 @media (max-width:1024px) {
+  header.default h1 a {
+    background-image: url("/images/m-logo.png");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    float: left;
+    height: 50px;
+    margin-top: 0.6em;
+    width: 145px;
+  }
+
+  #menu2 {
+    float: right;
+    padding-top: 2.5em;
+    width: 70%;
+    margin-right: 10px;
+  }
+
+  #menu2 ul li a {
+    font-size: 12px;
+  }
+
+
+
   #process h2 {
     padding-top: 100px;
   }
@@ -305,6 +302,21 @@ section.he-enviroment aside.photo-big {
   #process ul.different-processes li p {
     text-align:left;
   }
+
+
+  #open-source ul.gems-list {
+    margin-top: 50px;
+    width: 90%;
+    margin-left: 10px;
+  }
+
+  #open-source ul.gems-list li {
+    width: 40%;
+    min-height: 180px;
+    float: left;
+    margin-right: 21px;
+  }
+
 }
 
 
@@ -358,34 +370,40 @@ section.he-enviroment aside.photo-big {
     position:relative;
   }
 
+
+
   /*mailing page*/
+
+
+  .cover-mailing-page{
+    background-image: url("/images/mailing-cover-bg.jpg");
+    background-position: bottom center;
+    margin-top:60px;
+  }
+
   .mailing-form {
-      margin-left: 0;
-      padding-top: 19px;
-      width: 98%;
-  }
-  .cover-mailing-page div.containner {
-      background: none repeat scroll 0 0 transparent;
-      height: 275px;
-      padding: 2em 1em 1em;
-      width: 100%;
+    background-image: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
-  .cover-mailing-page h2 {
-      color: #B80606;
-      font-size: 30px;
-      line-height: 30px;
-      margin: 0 0 35px;
-      padding: 0;
-      text-transform: none;
-      width: 100%;
+  #mailing-page h2 {
+    color:#b80606;
+    font-size:30px;
+    padding-top: 70px;
+    text-transform:none;
+    width:100%;
+    line-height:30px;
+    margin-bottom:35px;
   }
 
-  #mailing-page ul li {
-    width:95%;
-  
-  }
+
   /*fim da mailling page*/
+
+
+
+
 
   header.default, .header-spacer-default {
     height:100px !important;
@@ -710,6 +728,19 @@ section.he-enviroment aside.photo-big {
   }
 
 
+ #open-source ul.gems-list {
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  #open-source ul.gems-list li {
+    width: 40%;
+    min-height: 180px;
+    float: left;
+    margin-right: 20px;
+  }
+
   #process h2 {
     padding-top: 150px !important;
   }
@@ -838,8 +869,9 @@ article.last-event {
 
   .next-event {
       float: left;
-      margin-left: 5%;
-      width: 35%;
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
       background: none;
   }
 
@@ -923,8 +955,8 @@ article.last-event {
 
   .cover-mailing-page div.containner input[type="text"], .cover-mailing-page div.containner input[type="email"]{
     width:40%;
-  
   }
+
   #mailing-page ul li {
       border-bottom: 1px dashed #C6C6C6;
       max-width: 100%;
@@ -932,7 +964,46 @@ article.last-event {
       padding-top: 2em;
       width: 100%;
   }
+
+  #cover.cover-mailing-page{
+    background-image: none;
+    background-color:#eaeaea;
+    margin-top:60px;
+    height: 300px;
+  }
+
+  .mailing-form {
+    background-image: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #mailing-page h2 {
+    color:#b80606;
+    font-size:25px;
+    padding-top: 70px;
+    text-transform:none;
+    width:100%;
+    line-height:30px;
+    margin-bottom:15px;
+  }
+
+  .cover-mailing-page div.containner input[type="text"], 
+  .cover-mailing-page div.containner input[type="email"] {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #C7C7C7;
+    border-radius: 6px 6px 6px 6px;
+    float: left;
+    font-size: 12px;
+    margin: 0;
+    padding: 0.7em;
+    width: 95%;
+  }
+
   /*fim da mailling page*/
+
+
 
   header.default {
     position:absolute;
@@ -1201,10 +1272,25 @@ article.last-event {
 
   #open-source section.high-light-projects article {
     margin-right: 0;
-    width: 100%;
+    width:90%;
     padding: 10px;
     margin-bottom: 20px;
   }
+
+  #open-source ul.gems-list {
+    margin-top: 50px;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  #open-source ul.gems-list li {
+    width: 90%;
+    min-height: 180px;
+    float: left;
+    margin-right: 0px;
+  }
+
+
 
   /*=====================*/
   /*======= workshops =======*/
@@ -1249,6 +1335,10 @@ article.last-event {
     display:none;
   }
 
+
+  #cafecomdev-page .line-divisor {
+    width: 100%;
+  }
 }
 
 /*===== mobile menu ======*/
