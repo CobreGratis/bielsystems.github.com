@@ -67,32 +67,32 @@
 
 /* Fale Conosco */
 
-#faleconosco {
+#fale-conosco {
   padding-top: 70px;
   padding-bottom:210px;
 }
 
-#faleconosco h2 {
+#fale-conosco h2 {
   font-size:80px;
   margin:0;
 }
 
-#faleconosco .pre, #faleconosco .sub {
+#fale-conosco .pre, #fale-conosco .sub {
   font-size:20px;
 }
 
-#faleconosco .containner {
+#fale-conosco .containner {
   padding-bottom:120px;
 }
 
-#faleconosco input[type="text"] {
+#fale-conosco input[type="text"] {
   width: 275px;
   padding: 15px;
   margin-left: 30px;
   margin-bottom:10px;
 }
 
-#faleconosco textarea {
+#fale-conosco textarea {
   width: 613px;
   margin: 30px 0 30px 30px;
   padding: 15px;
@@ -349,7 +349,7 @@ section.he-enviroment aside.photo-big {
 
 
 
-  #faleconosco input[type="image"] {
+  #fale-conosco input[type="image"] {
     width:100%;
   }
   #hiddenmenu {
@@ -658,54 +658,54 @@ section.he-enviroment aside.photo-big {
 
   /* Fale Conosco */
 
-  #faleconosco {
+  #fale-conosco {
     padding-bottom:330px;
   }
 
-  #faleconosco {
+  #fale-conosco {
     padding-left:0 !important;
     padding-right:0 !important;
     float:left;
   }
 
-  #faleconosco h2 {
+  #fale-conosco h2 {
     font-size:69px;
 		margin:10px 0 12px 0;
   }
 
-  #faleconosco .pre, #faleconosco .sub {
+  #fale-conosco .pre, #fale-conosco .sub {
     font-size:20px;
   }
 
-	#faleconosco .pre, #faleconosco .sub {
+	#fale-conosco .pre, #fale-conosco .sub {
 	  line-height:25px;
 	}
 
-  #faleconosco .pre {
+  #fale-conosco .pre {
     font-size:18px;
   }
 
-  #faleconosco .sub {
+  #fale-conosco .sub {
     font-size:16px;
   }
 
-  #faleconosco form {
+  #fale-conosco form {
     padding:0;
     margin:0;
   }
 
-  #faleconosco input[type="text"], #faleconosco textarea {
+  #fale-conosco input[type="text"], #fale-conosco textarea {
     width: 94%;
     padding:3%;
     margin:0;
     float:left;
   }
 
-  #faleconosco input[type="text"] {
+  #fale-conosco input[type="text"] {
     margin-bottom:15px;
   }
 
-  #faleconosco textarea {
+  #fale-conosco textarea {
     margin-bottom:40px;
   }
 
@@ -863,7 +863,7 @@ article.last-event {
       background-size: 100%;  
   }
 
-  #faleconosco input[type="image"] {
+  #fale-conosco input[type="image"] {
     width:100%;
   }
 
@@ -1155,11 +1155,11 @@ article.last-event {
     display:none;
   }
 
-  #faleconosco input[type="image"] {
+  #fale-conosco input[type="image"] {
     width:100%;
   }
 
-  #faleconosco h2 {
+  #fale-conosco h2 {
     font-size:50px;
   }
   .thumbs {

@@ -847,6 +847,7 @@ a.white-button:hover {
 .desc {
     color: #8C8C8C;
     font-style: italic;
+    display: block;
 }
 
 /*====================*/
@@ -1126,7 +1127,8 @@ a.product span{
 /*=== Fale Conosco ===*/
 /*====================*/
 
-#faleconosco {
+#fale-conosco,
+#talk-to-us {
   width:100%;
   border-top:1px solid #fff;
   background: #bd0011 url("/images/bg-contato.jpg") center bottom no-repeat;
@@ -1134,7 +1136,8 @@ a.product span{
   float:left;
 }
 
-#faleconosco h2 {
+#fale-conosco h2,
+#talk-to-us h2 {
 	width:100%;
   text-transform:uppercase;
   font-weight:bold;
@@ -1146,31 +1149,37 @@ a.product span{
 }
 
 
-#faleconosco .pre, #faleconosco .sub {
+#fale-conosco .pre, #fale-conosco .sub, #talk-to-us .pre, #talk-to-us .sub {
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
 }
-#faleconosco .pre {
+#fale-conosco .pre,
+#talk-to-us .pre {
   font-size: 30.5px;
 }
-#faleconosco .sub {
+#fale-conosco .sub,
+#talk-to-us .sub {
   font-size: 27.6px;
 }
-#faleconosco form {
+#fale-conosco form,
+#talk-to-us form {
   margin: 0 auto;
 }
-#faleconosco input[type="image"] {
-  display: block;
+#fale-conosco input[type="image"],
+#talk-to-us input[type="image"] {
+  display:  block;
   margin: 0 auto;
 }
 
-#faleconosco input[type="image"]:hover {
+#fale-conosco input[type="image"]:hover,
+#talk-to-us input[type="image"]:hover {
   opacity: 0.85;
 }
 
-#faleconosco input[type="text"] {
+#fale-conosco input[type="text"],
+#talk-to-us input[type="text"] {
   background-color: black;
   opacity: 0.6;
   border: none;
@@ -1178,7 +1187,8 @@ a.product span{
   font-size: 18px;
   font-weight: bold;
 }
-#faleconosco textarea {
+#fale-conosco textarea,
+#talk-to-us textarea {
   background-color: black;
   opacity: 0.6;
   border: none;
@@ -3954,7 +3964,7 @@ article.about-cafe p.free {
   margin-left: 5px;
 }
 
-/* clientefeliz */
+/* cliente-feliz */
 #linkvideos {
     background: none repeat scroll 0 0 white;
     box-shadow: 0 4px 8px -3px black;
@@ -3974,7 +3984,8 @@ article.about-cafe p.free {
     width: 100%;
 }
 
-#clientefeliz {
+#cliente-feliz,
+#happy-costumer {
     background: url("/images/cloud-bg.jpg") no-repeat scroll center top #EFEFEF;
     float: left;
     width: 100%;
@@ -3999,7 +4010,9 @@ article.about-cafe p.free {
   position:relative;
   float:left;
 }
-#clientefeliz .step-list h3 {
+
+#cliente-feliz .step-list h3,
+#happy-costumer .step-list h3 {
   background-repeat: no-repeat;
   background-position: 0 7px;
   font-family: 'lato';
@@ -4012,10 +4025,14 @@ article.about-cafe p.free {
   padding-left:75px;
 }
 
-#clientefeliz .step1 {background-image: url("/images/step-01.png")}
-#clientefeliz .step2 {background-image: url("/images/step-02.png")}
-#clientefeliz .step3 {background-image: url("/images/step-03.png")}
-#clientefeliz .step4 {background-image: url("/images/step-04.png")}
+#cliente-feliz .step1,
+#happy-costumer .step1 {background-image: url("/images/step-01.png")}
+#cliente-feliz .step2,
+#happy-costumer .step2 {background-image: url("/images/step-02.png")}
+#cliente-feliz .step3,
+#happy-costumer .step3 {background-image: url("/images/step-03.png")}
+#cliente-feliz .step4,
+#happy-costumer .step4 {background-image: url("/images/step-04.png")}
 
 .slider-clientefeliz ul li div {
     left: -260px;
@@ -4065,7 +4082,7 @@ width:50px;
   top:70px;
 }
 
-#clientefelizbullets {
+#cliente-feliz .bullets {
   width:140px;
 }
 
