@@ -2562,7 +2562,7 @@ section.workshops-newsletter {
 
 #parceiros {
   width:100%;
-  margin-top:120px;
+  margin-top:20px;
   float:left;
 }
 
@@ -4456,10 +4456,6 @@ e portanto nao sei qual a correta. =/ Se alguém souber pode editar
   text-decoration:none;
 }
 
-
-
-
-
-
-
-
+.home-button.cloud {
+  margin-top: 40px;
+}
