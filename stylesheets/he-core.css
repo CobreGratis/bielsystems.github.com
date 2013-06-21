@@ -2515,6 +2515,7 @@ section.workshops-newsletter {
 /*=====================*/
 
 #cloud {
+  margin-top: 20px;
   width:100%;
   background:url("/images/cloud-bg.jpg") center top no-repeat;
   padding-bottom:100px;
