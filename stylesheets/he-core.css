@@ -2334,18 +2334,18 @@ textarea:focus{outline:none;}
 }
 
 #workshops .left h3 {
-  font-weight:300;
-  text-transform:none;
-  font-size:23px;
-  padding-top:10px;
-  line-height:30px;
-  margin-bottom:25px;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 22px;
+  padding-top: 10px;
+  line-height: 28px;
+  margin-bottom: 25px;
 }
 
 #workshops p {
-  font-weight: 300;
-  line-height:28px;
-  font-size:17px !important;
+  font-weight: 400;
+  line-height:24px;
+  font-size:16px !important;
 }
 
 #workshops form {
