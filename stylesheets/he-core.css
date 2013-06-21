@@ -1801,7 +1801,7 @@ section.high-light-projects article img {
 
 .logos-list > li {
   width:27.3%;
-  margin:0 3% 10px 3%;
+  margin:0 3% 20px 3%;
   display:block;
   float:left;
 }
@@ -1812,6 +1812,8 @@ section.high-light-projects article img {
   font-size:17px;
   margin:15px 0 0 0;
   float:left;
+  color: #333;
+  font-weight: bold;
 }
 
 .logos-list > li img {
@@ -1826,9 +1828,6 @@ section.high-light-projects article img {
   background-position:top center;
   background-color:#efefef;
 }
-
-
-
 
 /*=====================*/
 /*== Apoios ==*/
