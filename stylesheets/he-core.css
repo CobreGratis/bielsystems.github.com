@@ -836,6 +836,11 @@ a.white-button:hover {
     background-size: 100%;  
 }
 
+.videothumbs li .name {
+    color: rgb(184, 6, 6); 
+    font-weight: 600;
+}
+
 .textovideothumbs {
   float: left;
   height: 40px;
