@@ -390,10 +390,10 @@ div.header-spacer-default {
 }
 
 #menu2 {
-    float: right;
-    padding-top: 41px;
-    width: 64%;
-		text-align: right;
+  float: right;
+  padding-top: 41px;
+  width: 64%;
+  text-align: right;
 }
 
 #menu2 ul li {
