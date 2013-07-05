@@ -108,14 +108,22 @@ header.landingpage {
 
 header.default h1 a {
     background-image: url("/images/logo.png");
-    background-position: 0 -7px;
     background-repeat: no-repeat;
-    background-size: 100% auto;
     display: block;
     float: left;
     height: 97px;
     text-indent: -9999px;
     width: 236px;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+header.default h1 a {
+    background-image: url("/images/logo2x.png");
+    background-size: 236px 97px;
+}
 }
 
 header.default h1 a span {
