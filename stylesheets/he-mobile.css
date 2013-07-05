@@ -1407,12 +1407,11 @@ article.last-event {
 }
 
 .slide-trigger span {
-  background-image: url("menumobile.png");
-  background-position: 0 -14px;
+  background: url("/images/menumobile.png") repeat-y;
   display: block;
   float: right;
   margin-top: 3px;
-  height: 14px;
+  height: 12px;
   width: 32px;
 }
 

@@ -393,9 +393,7 @@ div.header-spacer-default {
     float: right;
     padding-top: 41px;
     width: 64%;
-}
-#menu2 ul {
-    float: right;
+		text-align: right;
 }
 
 #menu2 ul li {
