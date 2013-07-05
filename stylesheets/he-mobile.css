@@ -252,15 +252,15 @@ section.he-enviroment aside.photo-big {
     margin: 5px;
   }
   
-  @media only screen and (min--moz-device-pixel-ratio: 2),
+/*  @media only screen and (min--moz-device-pixel-ratio: 2),
   only screen and (-o-min-device-pixel-ratio: 2/1),
   only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (min-device-pixel-ratio: 2) {
   header.default h1 a {
       background: url("/images/m-logo2x.png");
-      background-size: 150px 59px;
+      background-size: 150px 118px;
   }
-  }
+  }*/
   
   #menu2 {
     float: right;
@@ -429,15 +429,15 @@ section.he-enviroment aside.photo-big {
     margin: 5px;
   }
   
-  @media only screen and (min--moz-device-pixel-ratio: 2),
+/*  @media only screen and (min--moz-device-pixel-ratio: 2),
   only screen and (-o-min-device-pixel-ratio: 2/1),
   only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (min-device-pixel-ratio: 2) {
   header.default h1 a {
       background: url("/images/m-logo2x.png");
-      background-size: 150px 59px;
+      background-size: 150px 118px;
   }
-  }
+  }*/
 
   #menu2 {
     float: right;
@@ -1066,15 +1066,15 @@ article.last-event {
     margin: 5px;
   }
   
-  @media only screen and (min--moz-device-pixel-ratio: 2),
+/*  @media only screen and (min--moz-device-pixel-ratio: 2),
   only screen and (-o-min-device-pixel-ratio: 2/1),
   only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (min-device-pixel-ratio: 2) {
   header.default h1 a {
       background: url("/images/m-logo2x.png");
-      background-size: 150px 59px;
+      background-size: 150px 118px;
   }
-  }
+  }*/
 
 
 
