@@ -256,7 +256,7 @@ section.he-enviroment aside.photo-big {
 
   #menu2 {
     float: right;
-    padding-top: 2.5em;
+    padding-top: 25px;
     width: 70%;
     margin-right: 10px;
   }
@@ -418,21 +418,21 @@ section.he-enviroment aside.photo-big {
   }
 
   header.default h1 a {
-      background-image: url("/images/m-logo.png");
-      background-position: 0 center;
-      background-repeat: no-repeat;
-      background-size: 100% auto;
-      float: left;
-      height: 50px;
-      margin-top: 0.6em;
-      width: 26%;
+    background-image: url("/images/m-logo.png");
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    float: left;
+    height: 50px;
+    margin-top: 0.6em;
+    width: 26%;
   }
 
   #menu2 {
-      float: right;
-      padding-top: 2em;
-      width: 70%;
-      display:none;
+    float: right;
+    padding-top: 2em;
+    width: 70%;
+    display:none;
   }
 
   #menu2 ul {
