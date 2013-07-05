@@ -243,16 +243,27 @@ section.he-enviroment aside.photo-big {
 /* Max Width 1024 */
 
 @media (max-width:1024px) {
+  
+  
   header.default h1 a {
-    background-image: url("/images/m-logo.png");
-    background-position: 0 center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    background: url("/images/m-logo.png") no-repeat;
     float: left;
-    height: 50px;
-    margin-top: 0.6em;
-    width: 145px;
+    width: 150px;
+    height: 59px;
+    margin: 5px;
   }
+  
+  @media only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+  header.default h1 a {
+      background: url("/images/m-logo2x.png");
+      background-size: 150px 59px;
+  }
+  }
+  
+  
 
   #menu2 {
     float: right;
