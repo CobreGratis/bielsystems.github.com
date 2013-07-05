@@ -244,7 +244,6 @@ section.he-enviroment aside.photo-big {
 
 @media (max-width:1024px) {
   
-  
   header.default h1 a {
     background: url("/images/m-logo.png") no-repeat;
     float: left;
@@ -263,11 +262,9 @@ section.he-enviroment aside.photo-big {
   }
   }
   
-  
-
   #menu2 {
     float: right;
-    padding-top: 25px;
+    padding-top: 26px;
     width: 70%;
     margin-right: 10px;
   }
@@ -420,23 +417,26 @@ section.he-enviroment aside.photo-big {
 
   /*fim da mailling page*/
 
-
-
-
-
   header.default, .header-spacer-default {
     height:100px !important;
   }
 
   header.default h1 a {
-    background-image: url("/images/m-logo.png");
-    background-position: 0 center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    background: url("/images/m-logo.png") no-repeat;
     float: left;
-    height: 50px;
-    margin-top: 0.6em;
-    width: 26%;
+    width: 150px;
+    height: 59px;
+    margin: 5px;
+  }
+  
+  @media only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+  header.default h1 a {
+      background: url("/images/m-logo2x.png");
+      background-size: 150px 59px;
+  }
   }
 
   #menu2 {
@@ -462,11 +462,6 @@ section.he-enviroment aside.photo-big {
 
   #menu li {
     margin:0;
-  }
-
-  .containner {
-		width:88%;
-		padding:0 6% 0 6%;
   }
 
   #menu ul li:first-child {
@@ -1064,16 +1059,23 @@ article.last-event {
   }
 
   header.default h1 a {
-      background-image: url("/images/m-logo.png");
-      background-position: 0 center;
-      background-repeat: no-repeat;
-      background-size: 100% auto;
-      float: left;
-      height: 50px;
-      margin-top: 0.6em;
-      width: 145px;
+    background: url("/images/m-logo.png") no-repeat;
+    float: left;
+    width: 150px;
+    height: 59px;
+    margin: 5px;
   }
-  /* menu novo fim */
+  
+  @media only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+  header.default h1 a {
+      background: url("/images/m-logo2x.png");
+      background-size: 150px 59px;
+  }
+  }
+
 
 
   #menu {
