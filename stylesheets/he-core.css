@@ -116,15 +116,20 @@ header.default h1 a {
     width: 236px;
 }
 
-/*@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
+@media
 only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-header.default h1 a {
-    background-image: url("/images/logo2x.png");
-    background-size: 236px 97px;
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  header.default h1 a {
+      background-image: url("/images/logo2x.png");
+      background-size: 236px 97px;
+  }
+
 }
-}*/
 
 header.default h1 a span {
   display: none;

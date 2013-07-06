@@ -244,24 +244,6 @@ section.he-enviroment aside.photo-big {
 
 @media (max-width:1024px) {
   
-  header.default h1 a {
-    background: url("/images/m-logo.png") no-repeat;
-    float: left;
-    width: 150px;
-    height: 59px;
-    margin: 5px;
-  }
-  
-/*  @media only screen and (min--moz-device-pixel-ratio: 2),
-  only screen and (-o-min-device-pixel-ratio: 2/1),
-  only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min-device-pixel-ratio: 2) {
-  header.default h1 a {
-      background: url("/images/m-logo2x.png");
-      background-size: 150px 118px;
-  }
-  }*/
-  
   #menu2 {
     float: right;
     padding-top: 26px;
@@ -335,9 +317,28 @@ section.he-enviroment aside.photo-big {
 }
 
 
+header.default h1 a {
+  background: url("/images/m-logo.png") no-repeat;
+  float: left;
+  width: 150px;
+  height: 59px;
+  margin: 5px;
+}
 
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  header.default h1 a {
+      background: url("/images/m-logo2x.png");
+      background-size: 150px 59px;
+  }
 
-
+}
 
 /* Max Width, 686px  ---  tablet*/
 
@@ -420,24 +421,6 @@ section.he-enviroment aside.photo-big {
   header.default, .header-spacer-default {
     height:100px !important;
   }
-
-  header.default h1 a {
-    background: url("/images/m-logo.png") no-repeat;
-    float: left;
-    width: 150px;
-    height: 59px;
-    margin: 5px;
-  }
-  
-/*  @media only screen and (min--moz-device-pixel-ratio: 2),
-  only screen and (-o-min-device-pixel-ratio: 2/1),
-  only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min-device-pixel-ratio: 2) {
-  header.default h1 a {
-      background: url("/images/m-logo2x.png");
-      background-size: 150px 118px;
-  }
-  }*/
 
   #menu2 {
     float: right;
@@ -1057,26 +1040,6 @@ article.last-event {
   .submenuhome {
     display:none;
   }
-
-  header.default h1 a {
-    background: url("/images/m-logo.png") no-repeat;
-    float: left;
-    width: 150px;
-    height: 59px;
-    margin: 5px;
-  }
-  
-/*  @media only screen and (min--moz-device-pixel-ratio: 2),
-  only screen and (-o-min-device-pixel-ratio: 2/1),
-  only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min-device-pixel-ratio: 2) {
-  header.default h1 a {
-      background: url("/images/m-logo2x.png");
-      background-size: 150px 118px;
-  }
-  }*/
-
-
 
   #menu {
     display: none;
