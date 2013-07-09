@@ -243,20 +243,10 @@ section.he-enviroment aside.photo-big {
 /* Max Width 1024 */
 
 @media (max-width:1024px) {
-  header.default h1 a {
-    background-image: url("/images/m-logo.png");
-    background-position: 0 center;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    float: left;
-    height: 50px;
-    margin-top: 0.6em;
-    width: 145px;
-  }
-
+  
   #menu2 {
     float: right;
-    padding-top: 2.5em;
+    padding-top: 26px;
     width: 70%;
     margin-right: 10px;
   }
@@ -327,9 +317,28 @@ section.he-enviroment aside.photo-big {
 }
 
 
+header.default h1 a {
+  background: url("/images/m-logo.png") no-repeat;
+  float: left;
+  width: 150px;
+  height: 59px;
+  margin: 5px;
+}
 
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  header.default h1 a {
+      background: url("/images/m-logo2x.png");
+      background-size: 150px 59px;
+  }
 
-
+}
 
 /* Max Width, 686px  ---  tablet*/
 
@@ -409,36 +418,21 @@ section.he-enviroment aside.photo-big {
 
   /*fim da mailling page*/
 
-
-
-
-
   header.default, .header-spacer-default {
     height:100px !important;
   }
 
-  header.default h1 a {
-      background-image: url("/images/m-logo.png");
-      background-position: 0 center;
-      background-repeat: no-repeat;
-      background-size: 100% auto;
-      float: left;
-      height: 50px;
-      margin-top: 0.6em;
-      width: 26%;
-  }
-
   #menu2 {
-      float: right;
-      padding-top: 2em;
-      width: 70%;
-      display:none;
+    float: right;
+    padding-top: 2em;
+    width: 70%;
+    display:none;
   }
 
   #menu2 ul {
       float: right;
       font-size-adjust: 0.47;
-      width: 102%;
+/*      width: 100%;*/
   }
 
 
@@ -451,11 +445,6 @@ section.he-enviroment aside.photo-big {
 
   #menu li {
     margin:0;
-  }
-
-  .containner {
-		width:88%;
-		padding:0 6% 0 6%;
   }
 
   #menu ul li:first-child {
@@ -1052,19 +1041,6 @@ article.last-event {
     display:none;
   }
 
-  header.default h1 a {
-      background-image: url("/images/m-logo.png");
-      background-position: 0 center;
-      background-repeat: no-repeat;
-      background-size: 100% auto;
-      float: left;
-      height: 50px;
-      margin-top: 0.6em;
-      width: 145px;
-  }
-  /* menu novo fim */
-
-
   #menu {
     display: none;
     margin-top: 10px;
@@ -1407,12 +1383,11 @@ article.last-event {
 }
 
 .slide-trigger span {
-  background-image: url("menumobile.png");
-  background-position: 0 -14px;
+  background: url("/images/menumobile.png") repeat-y;
   display: block;
   float: right;
   margin-top: 3px;
-  height: 14px;
+  height: 12px;
   width: 32px;
 }
 

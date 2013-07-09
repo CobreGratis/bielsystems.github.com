@@ -108,14 +108,27 @@ header.landingpage {
 
 header.default h1 a {
     background-image: url("/images/logo.png");
-    background-position: 0 -7px;
     background-repeat: no-repeat;
-    background-size: 100% auto;
     display: block;
     float: left;
     height: 97px;
     text-indent: -9999px;
     width: 236px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  header.default h1 a {
+      background-image: url("/images/logo2x.png");
+      background-size: 236px 97px;
+  }
+
 }
 
 header.default h1 a span {
@@ -382,12 +395,10 @@ div.header-spacer-default {
 }
 
 #menu2 {
-    float: right;
-    padding-top: 2.5em;
-    width: 64%;
-}
-#menu2 ul {
-    float: right;
+  float: right;
+  padding-top: 41px;
+  width: 64%;
+  text-align: right;
 }
 
 #menu2 ul li {
@@ -1048,7 +1059,7 @@ margin-top:50px;
   float:right;
 }
 
-.twitter, .dribbble, .soundcloud, .github {
+.twitter, .dribbble, .soundcloud, .github, .behance {
   background:#000 url("/images/sprite-social-icons.png") left no-repeat;
 }
 
@@ -1058,6 +1069,10 @@ margin-top:50px;
 
 .dribbble {
   background-position:-26px 0;
+}
+
+.behance {
+  background-position: -102px 0;
 }
 
 .soundcloud {

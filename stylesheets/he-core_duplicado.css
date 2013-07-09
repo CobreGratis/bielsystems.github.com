@@ -7268,7 +7268,7 @@ article.he-intro h3 {
   float:right;
 }
 
-.twitter, .dribbble, .soundcloud, .github {
+.twitter, .dribbble, .soundcloud, .github, .behance {
   background:#000 url("/images/sprite-social-icons.png") left no-repeat;
 }
 
@@ -7278,6 +7278,10 @@ article.he-intro h3 {
 
 .dribbble {
   background-position:-26px 0;
+}
+
+.behance {
+  background-position: -102px 0;
 }
 
 .soundcloud {
