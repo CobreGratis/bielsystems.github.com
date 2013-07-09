@@ -3445,6 +3445,7 @@ article.he-intro h3 {
 
 #cafecomdev-page{
   padding-bottom:50px;
+  overflow: hidden;
 }
 section.latest-cafes {
   background: #fafafa;
@@ -3663,6 +3664,26 @@ article.last-event p.day {
 /*  text-shadow: 1px 1px white, -1px -1px #7f0404;*/
 }
 
+.bt-sign {
+  overflow: hidden;
+  clear: both;
+}
+
+.bt-sign a {
+  display: block;
+  width: 100px;
+  background-color: #912e2e;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 6px 0;
+  text-align: center;
+  color: #fff;
+  float: left;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
 
 
 .infos-cafe {
@@ -3804,9 +3825,11 @@ article.about-cafe {
 .event {
   margin-bottom:10px;
   padding:10px;
+  overflow: hidden;
 }
   .event .tituloevento-next p{
-    line-height:1.4em;
+    line-height:1.2em;
+    font-size: 1em;
     margin:5px 0 10px 0;
   }
   .event .date-box{
@@ -3889,7 +3912,7 @@ h2.next {
 
 .tituloevento-next h4.textonovo {
   color: #D92727;
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-weight: 700;
   letter-spacing: 0.01em;
   text-transform: none;
