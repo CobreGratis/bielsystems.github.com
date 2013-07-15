@@ -38,11 +38,13 @@ var App = {
 
     InterfaceActions: function() {
 	
-			// mobile site
-			$('.slide-trigger').collapsable();
-			
-			// inicia plugin prettyPhoto
-			$("a[rel^='prettyPhoto']").prettyPhoto();
+		// mobile site
+		$('.slide-trigger').collapsable();
+		
+		// inicia plugin prettyPhoto
+		$("a[rel^='prettyPhoto']").prettyPhoto({
+			deeplinking: false
+		});
 			
 	    $("a[rel^='external']").each(function() { $(this).attr("target","_blank"); });
 
