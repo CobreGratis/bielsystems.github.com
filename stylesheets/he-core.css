@@ -4516,15 +4516,15 @@ e portanto nao sei qual a correta. =/ Se alguém souber pode editar
 }
 
 #cafecomdev-page .event {
-  padding: 10px 0;
+  padding: 0;
   position: relative;
   min-height: 100px;
+  margin-top: 40px;
 }
 
 #cafecomdev-page .event .date-next {
   position: absolute;
-  top: 50%;
-  margin-top: -49px;
+  top: 10px;
   left: 0; 
   padding: 0;
   margin: 0;
@@ -4630,4 +4630,16 @@ e portanto nao sei qual a correta. =/ Se alguém souber pode editar
     border-top: none;
     padding-top: 0;
   }
+
+  .cafe-logo img {
+    width: 52%;
+    margin-top: 75px;
+  }
+
+  section.latest-cafes-dev article.last-event .date {
+    float: none;
+    width: auto;
+  }
+
+  #texto { font-size: 1.2em; }
 }
