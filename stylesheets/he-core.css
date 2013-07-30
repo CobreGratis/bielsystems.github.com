@@ -3400,7 +3400,7 @@ article.he-intro h3 {
 }
 
 #cover.cover-cafecomdev-page {
-  height: 240px;
+  overflow: hidden;
 }
 
 .cafe-logo {
@@ -3412,7 +3412,7 @@ article.he-intro h3 {
 
 .cafe-logo img{
 
-  margin-top: 5px;
+  margin-top: 30px;
 }
 
 .cafe-intro {
