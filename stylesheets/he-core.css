@@ -3539,7 +3539,6 @@ section.latest-cafes {
 }
 
 .cover-cafecomdev-page div.containner{
-  height:275px;
   position:relative;
   bottom:20px;
 }
@@ -4633,7 +4632,7 @@ e portanto nao sei qual a correta. =/ Se alguém souber pode editar
 
   .cafe-logo img {
     width: 52%;
-    margin-top: 18%;
+    margin-top: 35px;
   }
 
   section.latest-cafes-dev article.last-event .date {
