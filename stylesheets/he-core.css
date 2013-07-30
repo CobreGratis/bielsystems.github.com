@@ -3589,7 +3589,7 @@ section.latest-cafes-dev {
   background: #fcfcfc;
   border-top: 1px solid #f9f9f9;
   border-bottom: 1px solid #f9f9f9;
-  margin-bottom: 200px;
+  margin-bottom: 0;
   padding: 40px 0;
 }
 
@@ -4496,4 +4496,136 @@ e portanto nao sei qual a correta. =/ Se alguém souber pode editar
 
 .home-button.cloud {
   margin-top: 40px;
+}
+
+
+
+#cafecomdev-page .tituloevento-next {
+  padding-left: 95px;
+}
+
+#cafecomdev-page .line-divisor { margin-left: 0; }
+
+#cafecomdev-page h2.next {
+  text-align: left;
+}
+
+#cafecomdev-page .line-divisor-3 {
+  margin: 5px 0 0;
+}
+
+#cafecomdev-page .event {
+  padding: 10px 0;
+  position: relative;
+  min-height: 130px;
+}
+
+#cafecomdev-page .event .date-next {
+  position: absolute;
+  top: 10px;
+  left: 0; 
+  padding: 10px 0;
+  margin: 0;
+}
+
+#cafecomdev-page .about-text {
+  width: 45%;
+}
+
+#cafecomdev-page .next-event {
+  width: 50%;
+}
+
+#cafecomdev-page .date-box,
+.latest-cafes-dev .date-cafe {
+  height: 80px !important;
+  width: 80px;
+  float: none;
+  border-radius: 80px;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  background-color: #912e2e;
+  color: #fff;
+  border: none;
+}
+
+.latest-cafes-dev .date-cafe { float: left; margin-bottom: 15px;}
+
+#cafecomdev-page .date-box .title-mes,
+.latest-cafes-dev .date-cafe .month {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+  padding: 15px 0 0;
+  margin-top: 0;
+}
+
+#cafecomdev-page .date-box .title-dia,
+.latest-cafes-dev .date-cafe .day {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 0px;
+  padding: 0;
+  margin: 0 0 15px;
+}
+
+#cafecomdev-page .date-box .city {
+  text-align: center;
+  font-size: 10px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media (max-width: 950px) {
+  header.default h1 a {
+    background: url("/images/m-logo.png") no-repeat;
+    float: left;
+    width: 150px;
+    height: 59px;
+    margin: 20px 5px 5px;
+  }
+
+  #menu2 {
+    float: right;
+    padding-top: 41px;
+    width: 75%;
+    text-align: right;
+  }
+}
+
+@media (max-width: 801px) {
+  article.about-cafe { padding: 50px 10px 30px; }
+  section.latest-cafes-dev { padding: 40px 10px; }
+  article.about-cafe h2,
+  section.latest-cafes-dev h2 { font-size: 20px; }
+  #cafecomdev-page .line-divisor,
+  #cafecomdev-page .line-divisor-3 { width: 100%; }
+
+}
+
+@media (max-width: 686px) {
+  #cafecomdev-page .about-text,
+  #cafecomdev-page .next-event {
+    width: 100%;
+    margin: 0 0 30px;
+    padding: 0;
+  }  
+
+  #cafecomdev-page { padding-bottom: 0; }
+
+  section.latest-cafes-dev { padding: 40px 10px !important; width: auto !important; margin-bottom: 0 !important; }
+  .line-divisor-2 { margin-left: 0; width: 100%; }
+
+  section.latest-cafes-dev article.last-event {
+    overflow: hidden;
+    margin-bottom: 80px;
+    border-top: none;
+    padding-top: 0;
+  }
 }
