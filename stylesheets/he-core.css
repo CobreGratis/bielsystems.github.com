@@ -818,7 +818,7 @@ a.white-button:hover {
 }
 .videothumbs {
    float: left;
-   margin: 0 0 40px;
+   margin: 20px 0 40px;
    width: 100%;
 }
 .videothumbs li {
@@ -1844,22 +1844,20 @@ section.high-light-projects article img {
 /*=====================*/
 
 #apoios .cover-apoios {
-  background-color:#b80606;
-  margin-top:56px;
+  background-color: #B80606;
+  height: 210px;
+  margin-top: 40px;
 }
 
-#apoios .cover-apoios h2 {
+#apoios .cover-apoios h2  {
     color: #FFFFFF;
     float: left;
     font-size: 120px;
     font-weight: bold;
     margin-top: 60px;
-    margin-left: 4%;
-  text-transform: none;
-  line-height: 1.6em;
-  letter-spacing: 0.02em;
-  width: 100%;
+    text-transform: none;
 }
+
 
 
 /*=====================*/
@@ -2250,8 +2248,9 @@ textarea:focus{outline:none;}
 /*=====================*/
 
 #workshops .cover-workshops {
-  background-color:#b80606;
-  margin-top:56px;
+    background-color: #B80606;
+    height: 210px;
+    margin-top: 40px;
 }
 
 #workshops .cover-workshops h2 {
@@ -4022,11 +4021,20 @@ article.about-cafe p.free {
     float: left;
     width: 100%;
 }
-
 .cover-clientefeliz {
   background-color: #B80606;
-    height: 280px;
-  }
+  height: 210px;
+  margin-top: 40px;
+}
+
+.cover-clientefeliz h2 {
+    color: #FFFFFF;
+    float: left;
+    font-size: 120px;
+    font-weight: bold;
+    margin-top: 60px;
+    text-transform: none;
+}
 
 .clientefeliz-bullets {
     border-bottom: 2px dashed lightgray;
