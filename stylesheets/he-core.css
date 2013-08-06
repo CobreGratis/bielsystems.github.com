@@ -4310,7 +4310,9 @@ section.apply-positions p {
 .cover-mailing-page{
   background-image: url("/images/mailing-cover-bg.jpg");
   background-position: bottom center;
+  background-repeat:repeat-x;
   margin-top:50px;
+  height:280px;
 }
 
 .mailing-form {
