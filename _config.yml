@@ -1,4 +1,5 @@
-server: true
-auto: true
-exclude: docs README Gemfile Gemfile.lock CNAME
+safe: true
+lsi: false
+pygments: true
+exclude: ['docs', 'README', 'Gemfile', 'Gemfile.lock', 'CNAME']
 permalink: pretty
