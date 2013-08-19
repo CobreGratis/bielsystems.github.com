@@ -1871,17 +1871,14 @@ section.high-light-projects article img {
 }
 
 #cover.cover-jobs h2 {
-  color:#fff;
-  margin-top:30px;
+  color: #fff;
+  margin-top: 30px;
   font-size: 3em;
-  font-weight:bold;
+  font-weight: bold;
   text-align: center;
-  float:left;
-  margin-left: 4%;
 }
 
 .intro-jobs {
-
   overflow: auto;
 }
 
