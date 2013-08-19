@@ -4644,3 +4644,8 @@ e portanto nao sei qual a correta. =/ Se alguém souber pode editar
 
   #texto { font-size: 1.2em; }
 }
+
+#hepair-page {
+  min-height: 500px;
+  padding-top: 105px;
+}
