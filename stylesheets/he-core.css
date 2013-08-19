@@ -1240,10 +1240,10 @@ footer a:hover {
 
 footer li {
 	text-align:center;
-	width:33%;
-  line-height:23px;
-  font-size:16px;
-  float:left;
+	width: 25%;
+  line-height: 23px;
+  font-size: 14px;
+  float: left;
 }
 
 footer h3 {
