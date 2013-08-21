@@ -4658,24 +4658,48 @@ e portanto nao sei qual a correta. =/ Se alguém souber pode editar
 
 
 .background img{
-
- margin:0 auto;
- opacity:0.4;
+ margin: 0 auto;
+ display: block;
+ position: relative;
+ z-index: 5;
+ width: 100%;
+ height: auto;
 }
 
-.background{
-
-  background-color:#b80606;
-  width:100%;
-  height:300px;
+.background {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
 }
-.background h1{
 
-  margin:-235px auto 0 0;
-  font-size:150px;
+.background .cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #b80606;
+  background: rgba(184,6,6,0.6);
+  width: 100%;
+  height: 300px;
+  z-index: 10;
+  margin: 0;
+}
+
+.background .content {
+  position: absolute;
+  z-index: 20;
+  width: 100%;
   text-align:center;
+  top: 75px;
+  left: 0;
+  margin-top: -35px;
+}
+
+.background h2{
+  font-size: 70px;
   font-family: "delicious";
   color:#fff;
+  text-align: center;
 }
 .team li {
 
