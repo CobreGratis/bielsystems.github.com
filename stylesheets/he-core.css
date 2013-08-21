@@ -122,8 +122,8 @@ only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) { 
-  
+only screen and (                min-resolution: 2dppx) {
+
   header.default h1 a {
       background-image: url("/images/logo2x.png");
       background-size: 236px 97px;
@@ -188,7 +188,7 @@ header.projetos nav#menu {
   opacity:0.1;
   top:15px;
 }
- 
+
 .error h6{
   font-size:15px;
   color:grey;
@@ -592,7 +592,7 @@ margin:0;
 .services li {
   width:27.1%;
   background-color:#fff;
-  margin-left:1px;  
+  margin-left:1px;
   display:block;
   line-height:20px;
   padding:3%;
@@ -836,7 +836,7 @@ a.white-button:hover {
 
 .videothumbs li img{
     float: left;
-    width: 100%;  
+    width: 100%;
 }
 
 .videothumbs li img:hover {
@@ -844,7 +844,7 @@ a.white-button:hover {
 }
 .videothumbs li:hover {
     background: url("/images/play.jpg") no-repeat white;
-    background-size: 100%;  
+    background-size: 100%;
 }
 
 .textovideothumbs {
@@ -983,7 +983,7 @@ margin-top:50px;
 
 
 /* Time */
- 
+
 #time {
   width:100%;
   background: #efefef url("/images/bg-time.png") top center no-repeat;
@@ -1227,7 +1227,7 @@ footer {
   padding:30px 0 0 0;
   font-size:14px;
   float:left;
-}	
+}
 
 footer a {
   text-decoration:none;
@@ -2037,7 +2037,7 @@ section.positions-available article h4 {
 #jobs section.positions-available .job-description {
   min-height: 130px;
   display: block;
-  overflow: auto; 
+  overflow: auto;
 }
 
 #jobs section.positions-available article p {
@@ -2944,15 +2944,15 @@ p.advice {
 }
 
 /* Webkit Hacks  */
-@media screen and (-webkit-min-device-pixel-ratio:0) {	
+@media screen and (-webkit-min-device-pixel-ratio:0) {
 	#tiptip_content {
 		padding: 4px 8px 5px 8px;
 		background-color: rgba(45,45,45,0.88);
 	}
-	#tiptip_holder.tip_bottom #tiptip_arrow_inner { 
+	#tiptip_holder.tip_bottom #tiptip_arrow_inner {
 		border-bottom-color: rgba(45,45,45,0.88);
 	}
-	#tiptip_holder.tip_top #tiptip_arrow_inner { 
+	#tiptip_holder.tip_top #tiptip_arrow_inner {
 		border-top-color: rgba(20,20,20,0.92);
 	}
 }
@@ -3534,7 +3534,7 @@ section.latest-cafes {
   bottom:20px;
 }
 
-.cover-cafecomdev-page div.containner input[type="text"], 
+.cover-cafecomdev-page div.containner input[type="text"],
 .cover-cafecomdev-page div.containner input[type="email"]{
   margin:0px 0 0 10px;
   width:531px;
@@ -3564,7 +3564,7 @@ section.latest-cafes {
   position:relative;
   bottom:200px;
   font-size:20px;
-  
+
 }
 .palestrantes{
  position:relative;
@@ -3608,7 +3608,7 @@ section.latest-cafes-dev h2 {
 .line-divisor-3{
   border-bottom: 2px solid #ffa800;
   width: 280px;
-  
+
   margin-bottom: 60px;
   margin: 0 auto;
   margin-top: 5px;
@@ -3848,7 +3848,7 @@ article.about-cafe h2{
   color: #474747;
   color: #4d2111;
   margin-bottom: 0px;
-  
+
 }
 .line-divisor{
   border-bottom: 2px solid #ffa800;
@@ -4331,7 +4331,7 @@ section.apply-positions p {
   margin-bottom:35px;
 }
 
-.cover-mailing-page div.containner input[type="text"], 
+.cover-mailing-page div.containner input[type="text"],
 .cover-mailing-page div.containner input[type="email"] {
     background: none repeat scroll 0 0 white;
     border: 1px solid #C7C7C7;
@@ -4434,7 +4434,7 @@ section.apply-positions p {
   background: #fafafa;
   padding-top: 160px;
 }
-esta classe está repetida na linha 3543. 
+esta classe está repetida na linha 3543.
 Não consegui identidicar no site em qual página a classe é usada,
 e portanto nao sei qual a correta. =/ Se alguém souber pode editar
 
@@ -4526,7 +4526,7 @@ e portanto nao sei qual a correta. =/ Se alguém souber pode editar
 #cafecomdev-page .event .date-next {
   position: absolute;
   top: 10px;
-  left: 0; 
+  left: 0;
   padding: 0;
   margin: 0;
 }
@@ -4618,7 +4618,7 @@ e portanto nao sei qual a correta. =/ Se alguém souber pode editar
     width: 100%;
     margin: 0 0 30px;
     padding: 0;
-  }  
+  }
 
   #cafecomdev-page { padding-bottom: 0; }
 
@@ -4710,7 +4710,7 @@ e portanto nao sei qual a correta. =/ Se alguém souber pode editar
   margin:77px 24px auto 0;
   background:black;
   width:500px;
-  height:300px; 
+  height:300px;
   float: left;
 }
 h2{
