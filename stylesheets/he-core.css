@@ -4782,3 +4782,21 @@ hgroup h6{
 .hepair #fale-conosco .pair .div-form textarea { margin-top: 0; }
 
 .hepair #fale-conosco .pair .div-form input[type="image"] { margin-bottom: 50px; }
+
+.hepair .bt {
+  background: url('/images/pair-bt.png') 0 0 repeat-x;
+  height: 46px;
+  line-height: 46px;
+  color: #fff;
+  font-size: 26px;
+  padding: 0 20px;
+  display: block;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  clear: both;
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

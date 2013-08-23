@@ -145,4 +145,12 @@ jQuery(function(){
 
 $(document).ready(function(){
 	$('.hepair #fale-conosco .form').remove();
+
+	$('.hepair .bt').on('click',function (e) {
+	    e.preventDefault();
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $('#fale-conosco').offset().top
+	    }, 900, 'swing');
+	});
 });
