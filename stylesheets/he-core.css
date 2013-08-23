@@ -773,13 +773,13 @@ a.white-button:hover {
   text-align: center;
 }
 
-#time.hepair .sub {
-font-size: 16px;
-margin-top: 0;
-color: #6d7171;
-line-height: 26px;
-padding: 0 60px;
-width: auto;
+.hepair #time .sub {
+  font-size: 16px;
+  margin-top: 0;
+  color: #6d7171;
+  line-height: 26px;
+  padding: 0 60px;
+  width: auto;
 }
 
 
@@ -4758,3 +4758,20 @@ hgroup h6{
   text-align: center;
   text-shadow: -1px -1px 1px rgba(0,0,0,.2);
 }
+
+.hepair #fale-conosco .form { display: none !important; }
+
+.hepair #fale-conosco .pair .div-form {
+  clear: both;
+}
+
+.hepair #fale-conosco .pair .div-form .text {
+  position: static !important;
+  bottom: auto;
+  margin: 0 0 30px 30px;
+  width: 41.5%;
+}
+
+.hepair #fale-conosco .pair .div-form textarea { margin-top: 0; }
+
+.hepair #fale-conosco .pair .div-form input[type="image"] { margin-bottom: 50px; }

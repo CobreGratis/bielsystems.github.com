@@ -142,3 +142,7 @@ var App = {
 jQuery(function(){
 	App.StartApp();
 });
+
+$(document).ready(function(){
+	$('.hepair #fale-conosco .form').remove();
+});
