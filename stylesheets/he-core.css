@@ -1004,13 +1004,15 @@ margin-top:50px;
 #time .sub {
   font-size:21px;
   margin-top:0;
+  margin-bottom: 50px;
   color:#6d7171;
 }
 
 #time ul {
   width:100%;
   margin-top:50px;
-  float:left;
+  clear: both;
+  text-align: center;
 }
 
 #time ul > li {
@@ -1018,7 +1020,7 @@ margin-top:50px;
   margin:0 10px 40px 20px;
   position:relative;
   color:#333;
-  float:left;
+  display: inline-block;
 }
 
 
@@ -4757,6 +4759,11 @@ hgroup h6{
   text-decoration:none;
   text-align: center;
   text-shadow: -1px -1px 1px rgba(0,0,0,.2);
+}
+
+
+.hepair #time .sub {
+  margin-bottom: 50px;
 }
 
 .hepair #fale-conosco .form { display: none !important; }
