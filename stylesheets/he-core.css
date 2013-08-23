@@ -3185,7 +3185,7 @@ article.mini-bio {
 }
 
 .photo-bio {
-  width: 30%;
+  width: 37%;
   float: left;
   margin-left: 3%;
 }
@@ -3195,8 +3195,12 @@ article.mini-bio {
   margin-right: -30px;
 }
 .profile-picture img {
-  margin-top:70px;
+  margin-top: 20px;
   border-radius: 6px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 50px;
 }
 
 .profile-pic {
@@ -4783,15 +4787,16 @@ hgroup h6{
 
 .hepair #fale-conosco .pair .div-form input[type="image"] { margin-bottom: 50px; }
 
+#profile .bt,
 .hepair .bt {
   background: url('/images/pair-bt.png') 0 0 repeat-x;
-  height: 46px;
-  line-height: 46px;
+  height: 60px;
+  line-height: 60px;
   color: #fff;
-  font-size: 26px;
+  font-size: 22px;
   padding: 0 20px;
   display: block;
-  width: 400px;
+  width: 480px;
   text-align: center;
   margin: 0 auto;
   clear: both;
@@ -4799,4 +4804,22 @@ hgroup h6{
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+  font-family: 'lato';
+  text-transform: uppercase;
+}
+
+#profile .bt {
+  width: 100%;
+  padding: 0;
+  font-size: 16px;
+  height: 46px;
+  line-height: 46px;
+}
+
+#profile .bt:hover,
+.hepair .bt:hover {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow:    1px 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow:         1px 1px 3px rgba(0, 0, 0, 0.3);
 }
