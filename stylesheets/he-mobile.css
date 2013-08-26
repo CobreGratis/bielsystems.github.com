@@ -6,20 +6,27 @@
 /* Home */
 
 #home {
-  margin-bottom: 30px !important;
+  margin-bottom: 0;
   padding-top: 12em !important;
   background: #b1b6b2;
   padding-bottom: 0;
 }
 
 #home h2 {
-  padding-top:0px;
-  line-height: 70px;
-  font-size: 72px;
+  font-size: 24px !important;
+  line-height: 40px !important;
+  padding: 0 20px !important;
+  width: auto !important;
+  text-align: center !important;
+  float: none !important;
 }
 
 #home h3 {
-  font-size:28px;
+  font-size: 18px !important;
+  line-height: 24px !important;
+  padding: 0 20px !important;
+  width: auto !important;
+  float: none !important;
 }
 
 .home-button a.red-button {
@@ -84,9 +91,38 @@
 
 #fale-conosco,
 #talk-to-us {
-  padding-top: 70px;
-  padding-bottom:210px;
+  padding: 20px 0 210px;
 }
+
+#fale-conosco .form,
+#talk-to-us .form {
+  padding: 0 20px;
+}
+
+#fale-conosco .form h2,
+#talk-to-us .form h2 {
+  font-size: 32px;
+}
+
+#fale-conosco .form .pre,
+#talk-to-us .form .pre,
+#fale-conosco .form .sub,
+#talk-to-us .form .sub {
+  font-size: 14px;
+}
+
+#talk-to-us .form .sub,
+#fale-conosco .form .sub {
+  margin-bottom: 20px;
+}
+
+#fale-conosco input[type="text"], 
+#talk-to-us input[type="text"],
+#fale-conosco textarea, 
+#talk-to-us textarea { font-size: 14px; }
+
+#fale-conosco textarea, 
+#talk-to-us textarea { margin-bottom: 15px !important; }
 
 #fale-conosco h2,
 #talk-to-us h2 {
@@ -494,7 +530,7 @@ only screen and (                min-resolution: 2dppx) {
     width:90%;
     padding:25px 5% 30px 5% !important;
     min-height:auto !important;
-    margin-top:1px;
+    margin: 1px 0 0 0 !important;
   }
 
   .services p {
@@ -509,8 +545,7 @@ only screen and (                min-resolution: 2dppx) {
   }
 
   .services li:first-child {
-    margin-top:0;
-    margin-left:1px !important;
+    margin-top: 0 !important;
   }
 
 
