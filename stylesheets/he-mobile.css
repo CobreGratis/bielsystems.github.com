@@ -6,8 +6,10 @@
 /* Home */
 
 #home {
-  height: auto;
-  padding-bottom:130px;
+  margin-bottom: 30px !important;
+  padding-top: 12em !important;
+  background: #b1b6b2;
+  padding-bottom: 0;
 }
 
 #home h2 {
@@ -24,8 +26,21 @@
   left:95px;
 }
 
+.services {
+  margin-bottom: 0;
+}
+
 .services li {
-  min-height:270px;
+  height: auto;
+  min-height: auto;
+  overflow: hidden;
+}
+
+.services li p {
+  width: 100%;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 0;
 }
 
 
