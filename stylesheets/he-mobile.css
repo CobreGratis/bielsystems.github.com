@@ -467,11 +467,6 @@ only screen and (                min-resolution: 2dppx) {
   }
   /* home */
 
-  #home {
-    padding-bottom:70px !important;
-    padding-top:12em !important;
-    background:#b1b6b2;
-  }
 
   #home h2 {
     width:100%;
