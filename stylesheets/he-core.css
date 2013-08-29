@@ -1,4 +1,6 @@
- @charset "utf-8"; body, h1, h2, h3, h4,
+ @charset "utf-8";
+ 
+body, h1, h2, h3, h4,
 form, fieldset, input, label, p,
 em, strong, a, img, ul, li {
 	padding:0; margin:0; border:0;
@@ -6,7 +8,6 @@ em, strong, a, img, ul, li {
 	font-style:normal;
   list-style-type:none;
 }
-
 
 header, footer, aside, nav, article, section {display:block}
 
@@ -51,7 +52,8 @@ body {
 
 }
 
-/*@font-face {
+/*
+@font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
@@ -74,61 +76,53 @@ body {
   font-style: normal;
   font-weight: 400;
   src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
-}*/
+}
+*/
 
 /*====================*/
 /*===== Patterns =====*/
 /*====================*/
 
 header.default {
-    background-color: #FFFFFF;
-    border-bottom: 2px solid #6D7171;
-    border-top: 5px solid #B80606;
-    box-shadow: 0 -24px 8px 27px rgba(0, 0, 0, 0.3);
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 2px solid #6D7171;
+  border-top: 5px solid #B80606;
+  box-shadow: 0 -24px 8px 27px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  left: 0; top: 0;
+  z-index: 999;
 }
 
 header.landingpage {
-  width: 100%; height:55px;
+  width:100%;
+  height:55px;
   background-color:#fff;
   border-bottom: 1px solid #efefef;
-  position: fixed;
-  top:0; left:0;
-  z-index:999;
-  -webkit-box-shadow:  0px 2px 30px 2px rgba(0, 0, 0, 0.2);
   box-shadow:  0px 2px 30px 2px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0; left: 0;
+  z-index: 999;
   opacity:.9;
 }
 
-
-
 header.default h1 a {
-    background-image: url("/images/logo.png");
-    background-repeat: no-repeat;
-    display: block;
-    float: left;
-    height: 97px;
-    text-indent: -9999px;
-    width: 236px;
+  background-image: url("/images/logo.png");
+  background-repeat: no-repeat;
+  display: block;
+  float: left;
+  height: 97px;
+  text-indent: -9999px;
+  width: 236px;
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
-
-  header.default h1 a {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 240dpi) {
+    header.default h1 a {
       background-image: url("/images/logo2x.png");
       background-size: 236px 97px;
-  }
-
+    }
 }
 
 header.default h1 a span {
