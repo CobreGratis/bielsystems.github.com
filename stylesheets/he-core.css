@@ -20,9 +20,13 @@ img {border:none}
 body {
   font-family: inherit;
   vertical-align: baseline;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 13px;
   color:rgb(71, 60, 60);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -647,7 +651,7 @@ a.white-button:hover {
 Process
 ==================== */
 
-#process{
+#process {
   width:100%;
   background-color:#d92727;
   background-image: url("/images/bg-process.jpg");
@@ -703,7 +707,6 @@ Process
   width: 25%;
   margin: 0;
 }
-
 
 #process ul.different-processes li img {
   width: 100%;
@@ -1237,7 +1240,8 @@ footer a:hover {
 footer li {
 	text-align:center;
 	width: 25%;
-  line-height: 23px;
+  line-height: 21px;
+  font-weight:normal;
   font-size: 14px;
   float: left;
 }
@@ -2918,14 +2922,6 @@ p.advice {
 		border-top-color: rgba(20,20,20,0.92);
 	}
 }
-
-
-
-
-
-
-
-
 
 
 /*=====================*/
