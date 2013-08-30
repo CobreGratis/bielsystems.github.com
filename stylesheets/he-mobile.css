@@ -55,40 +55,31 @@
   margin:0 8px 30px 7px;
 }
 
+
 /* Fale Conosco */
-#fale-conosco .form h2,
-#talk-to-us .form h2 {
-  font-size: 32px;
-}
-
-#fale-conosco .form .pre,
-#talk-to-us .form .pre,
-#fale-conosco .form .sub,
-#talk-to-us .form .sub {
-  font-size: 14px;
-}
-
-#talk-to-us .form .sub,
-#fale-conosco .form .sub {
-  margin-bottom: 20px;
-}
 
 #fale-conosco h2,
 #talk-to-us h2 {
-  font-size: 48px !important;
-  margin:0;
+  font-size: 90px;
+  line-height: 90px;
 }
 
-#fale-conosco .pre, #fale-conosco .sub,
-#talk-to-us .pre, #fale-conosco .sub {
-  font-size:20px;
+#fale-conosco .pre,
+#talk-to-us .pre {
+  margin:0 0 5px 0 !important;
+  font-size: 23px;
+}
+
+#fale-conosco .sub,
+#talk-to-us .sub {
+  margin: 10px 0 0 0 !important;
+  font-size: 21px;
 }
 
 
 /*=====================*/
 /*== Jobs ==*/
 /*=====================*/
-
 
 #jobs .left {
   width:100%;
