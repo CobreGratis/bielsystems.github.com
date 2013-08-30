@@ -346,8 +346,6 @@ section.he-enviroment aside.photo-big {
 
   #texto { font-size: 1.2em; }
   
-  
-
   .videothumbs li {
       background: none repeat scroll 0 0 white;
       box-shadow: 0 4px 8px -3px black;
@@ -362,17 +360,17 @@ section.he-enviroment aside.photo-big {
   .videothumbs li img:hover {
       opacity:0.5;
   }
+  
   .videothumbs li:hover {
       background: url("/images/play.jpg") no-repeat white;
       background-size: 100%;  
   }
 
-
-
   #fale-conosco input[type="image"],
   #talk-to-us input[type="image"] {
     width:100%;
   }
+  
   #hiddenmenu {
       background: none repeat scroll 0 0 #B80606;
       border-bottom: 2px solid #D7D7D7;
@@ -392,11 +390,9 @@ section.he-enviroment aside.photo-big {
   }
 
 
+  /* Mailing page*/
 
-  /*mailing page*/
-
-
-  .cover-mailing-page{
+  .cover-mailing-page {
     background-image: url("/images/mailing-cover-bg.jpg");
     background-position: bottom center;
     margin-top:60px;
@@ -420,42 +416,13 @@ section.he-enviroment aside.photo-big {
   }
 
 
-  /*fim da mailling page*/
-
   header.default, .header-spacer-default {
     height:100px !important;
   }
-
+  
   #menu2 {
-    float: right;
-    padding-top: 2em;
-    width: 70%;
     display:none;
   }
-
-  #menu2 ul {
-      float: right;
-      font-size-adjust: 0.47;
-/*      width: 100%;*/
-  }
-
-
-  #menu {
-    /*display:none;*/
-    width:100%;
-    margin:0;
-    padding: 0;
-  }
-
-  #menu li {
-    margin:0;
-  }
-
-  #menu ul li:first-child {
-    margin-left: 0;
-  }
-  /* home */
-
 
   #home h2 {
     width:100%;
@@ -502,79 +469,6 @@ section.he-enviroment aside.photo-big {
   }
 
 
-  /* Process */
-
-  #process ul {
-    width:100%;
-    margin-bottom:40px !important;
-    float:left;
-  }
-
-
-  .ourprocess {
-    width:392px; height:393px;
-    margin:50px auto !important;
-    display:block;
-  }
-
-  .full-p {
-    width:auto;
-    margin-left:0;
-  }
-
-
-
-  #process ul li {
-    width: 30%;
-    margin: 0 1%;
-  }
-
-  #process ul li img {
-    width: 100%;
-  }
-
-  #process ul li {
-    width: 30%;
-  }
-
-  #process ul li h3 {
-    font-size: 18px;
-  }
-
-
-
-
-  #process ul.different-processes li {
-    width: 100%;
-    margin: 0%;
-  }
-
-  #process ul.different-processes li:first-child {
-    width: 0%;
-    margin: 0;
-  }
-
-
-  #process ul.different-processes li img {
-    display: none;
-  }
-
-  #process ul.different-processes li h3 {
-    font-size:36px;
-    text-align:center;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-  }
-
-  #process ul.different-processes li p {
-    text-align:center;
-    margin-top:30px;
-    line-height:24px;
-    font-size:17px;
-    color: #fff;
-  }
-
-
   /* Cliente */
 
   #cliente {
@@ -591,9 +485,11 @@ section.he-enviroment aside.photo-big {
     box-shadow:none;
     border:none;
   }
+
   .thumbs {
     display: none;
   }
+
 
   /* Time */
 
@@ -627,13 +523,8 @@ section.he-enviroment aside.photo-big {
     font-size:10px;
   }
 
-  .red-button {
-    display:none !important;
-  }
 
-
-
-  /* Time Profile*/
+  /* Time Profile */
 
   #profile article.mini-bio {
     width: 100%;
@@ -646,6 +537,7 @@ section.he-enviroment aside.photo-big {
   article.blog-posts, article.projects-worked {
     width: 100%;
   }
+
 
   /* Fale Conosco */
 
@@ -729,7 +621,6 @@ section.he-enviroment aside.photo-big {
     padding: 5px;
   }
 
-
  #open-source ul.gems-list {
     margin-top: 50px;
     width: 100%;
@@ -747,6 +638,7 @@ section.he-enviroment aside.photo-big {
     padding-top: 150px !important;
   }
 
+
   /* workshops */
 
   #workshops #cover.cover-workshops {
@@ -758,23 +650,23 @@ section.he-enviroment aside.photo-big {
     padding-top: 140px;
   }
 
+
   /* Footer */
 
   footer li {
     width:100%;
-    float:left;
   }
 
   footer {
-  background-color: rgba(0, 0, 0, 0.7);
-  bottom: 0;
-  float: left;
-  font-size: 14px;
-  height: 29em;
-  left: 0;
-  padding: 30px 0 0;
-  position: absolute;
-  width: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    float: left;
+    font-size: 14px;
+    height: 29em;
+    left: 0;
+    padding: 30px 0 0;
+    position: absolute;
   } 
 
   #jobs #cover.cover-jobs {
@@ -785,44 +677,44 @@ section.he-enviroment aside.photo-big {
     margin-top: 70px;
   }
 
-  /*cafe com dev */
+
+  /* Cafe com Dev */
 
   .next-event {
-  width: 100%;
-  float: left;
+    width: 100%;
+    float: left;
   }
 
   .about-text {
-  width: 100%;
-  float: left;
+    width: 100%;
+    float: left;
   }
 
   section.latest-cafes-dev {
-  background: #fcfcfc;
-  border-top: 1px solid #f9f9f9;
-  border-bottom: 1px solid #f9f9f9;
-  margin-bottom: 200px;
-  padding: 40px 0;
-   overflow: auto;
-   width:100%;
-   float:left;
-
+    background: #fcfcfc;
+    border-top: 1px solid #f9f9f9;
+    border-bottom: 1px solid #f9f9f9;
+    margin-bottom: 200px;
+    padding: 40px 0;
+    overflow: auto;
+    width:100%;
+    float:left;
   }
 
   article.last-event {
-  overflow: hidden;
-  margin-bottom: 80px;
-  border-top: 1px dashed grey;
-  padding-top: 1em;
-
-}
-  .date {
-  float:left;
-  width:67%;
-
+    overflow: hidden;
+    margin-bottom: 80px;
+    border-top: 1px dashed grey;
+    padding-top: 1em;
   }
+  
+  .date {
+    width:67%;
+    float:left;
+  }
+  
   #texto{
-  font-size:1.5em;
+    font-size:1.5em;
   }
 
   .infos-cafe {
@@ -837,24 +729,30 @@ section.he-enviroment aside.photo-big {
 /* Max Width, 481px  */
 
 @media (max-width:481px) {
+  
+  #time ul > li {
+    width:44%;
+    margin:0 3% 40px 3%;
+  }
 
   .videothumbs li {
-      background: none repeat scroll 0 0 white;
-      box-shadow: 0 4px 8px -3px black;
-      margin-bottom: 2em;
-      margin-top: 2em;
-      opacity: 1;
-      padding: 10px;
-      text-align: center;
-      width: 90%;
+    background: none repeat scroll 0 0 white;
+    box-shadow: 0 4px 8px -3px black;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    opacity: 1;
+    padding: 10px;
+    text-align: center;
+    width: 90%;
   }
 
   .videothumbs li img:hover {
-      opacity:0.5;
+    opacity:0.5;
   }
+  
   .videothumbs li:hover {
-      background: url("/images/play.jpg") no-repeat white;
-      background-size: 100%;  
+    background: url("/images/play.jpg") no-repeat white;
+    background-size: 100%;  
   }
 
   #fale-conosco input[type="image"],
@@ -863,33 +761,34 @@ section.he-enviroment aside.photo-big {
   }
 
   .next-event {
-      float: left;
-      width: 100%;
-      margin-left: 0;
-      margin-top: 20px;
-      background: none;
+    float: left;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+    background: none;
   }
 
   #hiddenmenu {
-      background: none repeat scroll 0 0 #B80606;
-      border-bottom: 2px solid #B80606;
-      border-top: 1px solid grey;
-      color: white;
-      display: block;
-      float: right;
-      font-family: 'Lato',sans-serif;
-      font-weight: lighter;
-      margin-top: 0.7em;
-      padding: 0.5em 0 0.1em 0.5em;
-      width: 100%;
+    background: none repeat scroll 0 0 #B80606;
+    border-bottom: 2px solid #B80606;
+    border-top: 1px solid grey;
+    color: white;
+    display: block;
+    float: right;
+    font-family: 'Lato',sans-serif;
+    font-weight: lighter;
+    margin-top: 0.7em;
+    padding: 0.5em 0 0.1em 0.5em;
+    width: 100%;
   }
 
-.hemaismobile {
-      border-top: 1px dashed grey;
+  .hemaismobile {
+    border-top: 1px dashed grey;
   }
 
 
-  /*apoios*/
+  /* Apoios */
+  
   #apoios .cover-apoios {
       float: left;
       height: auto;
@@ -897,58 +796,61 @@ section.he-enviroment aside.photo-big {
       padding-top: 0;
       width: 100%;
   }
+  
   .cover h2 {
     font-size:80px;
   }
 
-  /*mailling page*/
+
+  /* Mailling Page */
+  
   #mailing-page ul li p {
-      float: left;
-      font-size: 16px;
-      margin-bottom: 0.5em;
-      margin-top: 0.2em;
-      width: 100%;
+    float: left;
+    font-size: 16px;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+    width: 100%;
   }
 
   #mailing-page ul li h4 {
-      color: #B80606;
-      float: left;
-      font-size: 23px;
-      font-weight: 400;
-      margin-bottom: 0.1em;
-      width: 100%;
+    color: #B80606;
+    float: left;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 0.1em;
+    width: 100%;
   }
 
   #mailing-page ul li span {
-      color: #888888;
-      float: left;
-      font-size: 23px;
-      font-weight: 300;
-      margin-top: 0.3em;
-      width: 100%;
+    color: #888;
+    float: left;
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 0.3em;
+    width: 100%;
   }
 
   #mailing-page h3 {
-      border-bottom: 2px solid #c6c6c6;
-      float: left;
-      font-size: 28px;
-      margin: 0.2em 0 0.6em;
-      padding-bottom: 0.3em;
-      width: 100%;
+    border-bottom: 2px solid #c6c6c6;
+    float: left;
+    font-size: 28px;
+    margin: 0.2em 0 0.6em;
+    padding-bottom: 0.3em;
+    width: 100%;
   }
-
 
   .cover-mailing-page h2 {
-      color: #B80606;
-      font-size: 1.53em;
-      line-height: 20px;
-      margin: 0 0 15px;
-      padding: 0;
-      text-transform: none;
-      width: 100%;
+    color: #B80606;
+    font-size: 1.53em;
+    line-height: 20px;
+    margin: 0 0 15px;
+    padding: 0;
+    text-transform: none;
+    width: 100%;
   }
 
-  .cover-mailing-page div.containner input[type="text"], .cover-mailing-page div.containner input[type="email"]{
+  .cover-mailing-page div.containner input[type="text"],
+  .cover-mailing-page div.containner input[type="email"]{
     width:40%;
   }
 
@@ -996,58 +898,15 @@ section.he-enviroment aside.photo-big {
     width: 95%;
   }
 
-  /*fim da mailling page*/
-
-
+  /*-*/
 
   header.default {
     position:absolute;
     float:left;
-    height: 80px !important;
-  }
-
-  h1 a {
-    margin-top: 10px;
-  }
-  /*menu novo */
-  #menu2 {
-    display: none;
-    margin-top: 10px;
-    width: 100%;
-  }
-
-  #menu2 ul li {
-    margin-left: 10px;
-  }
-  #menu2 ul li.has-sub {
-    display: none;
   }
 
   .submenuhome {
     display:none;
-  }
-
-  #menu {
-    display: none;
-    margin-top: 10px;
-    width: 100%;
-  }
-
-  #menu ul li {
-    margin-left: 10px;
-  }
-  #menu ul li.has-sub {
-    display: none;
-  }
-
-  #home h2 {
-    font-size: 30px !important;
-    line-height: 40px !important;
-  }
-
-  #home h3 {
-    font-size: 20px !important;
-    line-height: 30px !important;
   }
 
   .icons {
@@ -1062,6 +921,9 @@ section.he-enviroment aside.photo-big {
     float: left;
     margin:1% !important;
   }
+  
+  
+  /* Process */
 
   #process li {
     width:100%;
@@ -1080,7 +942,6 @@ section.he-enviroment aside.photo-big {
     padding-top: 140px !important;
   }
 
-
   #process p.sub {
     margin-bottom: 30px;
   }
@@ -1097,11 +958,9 @@ section.he-enviroment aside.photo-big {
     margin: 0 auto;
   }
 
-
   #process ul li h3 {
     font-size: 14px;
   }
-
 
   #process ul.different-processes li {
     width: 100%;
@@ -1118,14 +977,6 @@ section.he-enviroment aside.photo-big {
     margin-top:20px;
     line-height:20px;
     font-size:14px;
-  }
-
-
-
-
-  #time ul > li {
-    width:44%;
-    margin:0 3% 40px 3%;
   }
 
   .logos-list > li {
@@ -1151,7 +1002,6 @@ section.he-enviroment aside.photo-big {
   }
 
 
-
   /*=====================*/
   /*======= Time Profile =======*/
   /*=====================*/
@@ -1175,7 +1025,6 @@ section.he-enviroment aside.photo-big {
   article.projects-worked img {
     display: none;
   }
-
 
 
   /*=====================*/

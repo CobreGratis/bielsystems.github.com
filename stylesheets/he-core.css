@@ -1159,6 +1159,7 @@ Contact
   margin-bottom: 40px;
 }
 
+
 /* ====================
 Footer
 ==================== */
@@ -1186,7 +1187,6 @@ footer ul {
 }
 
 footer ul li {
-	text-align:center;
 	width: 25%;
   line-height: 23px;
   font-size: 12px;
@@ -1207,7 +1207,7 @@ footer h3 {
   color:#fff;
 }
 
-footer p.copyright {
+.copyright {
   width:100%;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.4);
@@ -1227,7 +1227,7 @@ Workshop Covers
   margin-top: 56px;
 }
 
-#cover h2 span{
+#cover h2 span {
   display:none;
 }
 
