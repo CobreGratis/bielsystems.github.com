@@ -1,24 +1,5 @@
-.containner {
-  width: 960px;
-  padding: 0 10px 0 10px;
-}
-
-#home h2 {
-  padding-top:0px;
-  line-height: 80px;
-  font-size: 82px;
-}
-
-#home h3 {
-  font-size:38px;
-}
-
-.home-button a.red-button {
-  left:223px;
-}
-
-.home-button a.red-button:hover {
-  left:223px;
+.services li {
+  min-height: 225px;
 }
 
 
@@ -33,28 +14,27 @@
 /* Cliente */
 
 #cliente {
-    padding-bottom:20px;
-    padding-top: 87px;
+  padding-bottom:20px;
+  padding-top: 87px;
 }
 
 #clientefeliz h2 {
-    color: white;
-    font-size: 105px;
-    font-weight: bold;
-    margin: 0 auto;
-    padding-top: 0.8em;
-    text-transform: uppercase;
+  color: white;
+  font-size: 105px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding-top: 0.8em;
+  text-transform: uppercase;
 }
 
-
 #cliente h2, #process h2, #time h2 {
-    padding-top: 80px;
-    margin:0 0 20px 0;
+  padding-top: 80px;
+  margin:0 0 20px 0;
 }
 
 #cliente h2 {
-    padding-top: 40px;
-    margin:0 0 20px 0;
+  padding-top: 40px;
+  margin:0 0 20px 0;
 }
 
 #cliente .sub, #process .sub {
@@ -66,10 +46,6 @@
   border:10px solid #fff;
 }
 
-.services li {
-  min-height: 230px;
-}
-
 .diferenciado {
   width:500px;
 }
@@ -77,6 +53,7 @@
 .diferenciado .white-button {
   margin-left:0 !important;
 }
+
 
 /*=====================*/
 /*======= Cloud =======*/
