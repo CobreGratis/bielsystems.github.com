@@ -85,12 +85,6 @@
 
 /* Fale Conosco */
 
-#fale-conosco,
-#talk-to-us {
-	padding-top: 146px;
-  padding-bottom:320px;
-}
-
 #fale-conosco input[type="text"],
 #talk-to-us input[type="text"] {
   width: 41%;

@@ -1059,10 +1059,11 @@ Contact
 #fale-conosco,
 #talk-to-us {
   width:100%;
-  border-top:1px solid #fff;
+  border-top: 1px solid #fff;
   background: #bd0011 url("/images/bg-contato.jpg") center bottom no-repeat;
   position: relative;
-  float:left;
+  padding-top: 50px;
+  clear: both;
 }
 
 #fale-conosco h2,
@@ -1133,19 +1134,22 @@ Contact
   font-weight: bold;
 }
 
+#fale-conosco .form,
+#talk-to-us .form {
+  margin-bottom: 40px;
+}
 
 /* ====================
 Footer
 ==================== */
 
 footer {
-  position: absolute;
   width:100%;
-  bottom: 0; left:0;
+  background-color: #000;
   background-color: rgba(0, 0, 0, 0.7);
-  padding:30px 0 0 0;
-  font-size:14px;
-  float:left;
+  padding: 30px 0 0;
+  font-size: 14px;
+  overflow: hidden;
 }
 
 footer a {
@@ -1157,13 +1161,24 @@ footer a:hover {
   color:#fff;
 }
 
-footer li {
+footer ul {
+  overflow: hidden;
+}
+
+footer ul li {
 	text-align:center;
 	width: 25%;
-  line-height: 21px;
-  font-weight:normal;
-  font-size: 14px;
+  line-height: 23px;
+  font-size: 12px;
   float: left;
+}
+
+footer ul li address {
+  padding: 0 20px;
+}
+
+footer ul li address span {
+  display: block;
 }
 
 footer h3 {
@@ -1172,14 +1187,15 @@ footer h3 {
   color:#fff;
 }
 
-footer p.copyright{
+footer p.copyright {
   width:100%;
+  background-color: #000;
   background-color: rgba(0, 0, 0, 0.4);
-  text-align:center;
+  text-align: center;
   padding: 15px 0 15px 0;
   color:#fff;
-  margin-top:50px;
-  float:left;
+  margin-top: 40px;
+  clear: both;
 }
 
 
@@ -1188,7 +1204,7 @@ Workshop Covers
 ==================== */
 
 #workshop {
-  margin-top:56px;
+  margin-top: 56px;
 }
 
 #cover h2 span{
