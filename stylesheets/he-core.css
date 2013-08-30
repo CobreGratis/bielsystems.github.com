@@ -4536,66 +4536,6 @@ e portanto nao sei qual a correta. =/ Se alguém souber pode editar
   text-transform: uppercase;
 }
 
-@media (max-width: 950px) {
-  header.default h1 a {
-    background: url("/images/m-logo.png") no-repeat;
-    float: left;
-    width: 150px;
-    height: 59px;
-    margin: 20px 5px 5px;
-  }
-
-  #menu2 {
-    float: right;
-    padding-top: 41px;
-    width: 75%;
-    text-align: right;
-  }
-}
-
-@media (max-width: 801px) {
-  article.about-cafe { padding: 50px 10px 30px; }
-  section.latest-cafes-dev { padding: 40px 10px; }
-  article.about-cafe h2,
-  section.latest-cafes-dev h2 { font-size: 20px; }
-  #cafecomdev-page .line-divisor,
-  #cafecomdev-page .line-divisor-3 { width: 100%; }
-
-}
-
-@media (max-width: 686px) {
-  #cafecomdev-page .about-text,
-  #cafecomdev-page .next-event {
-    width: 100%;
-    margin: 0 0 30px;
-    padding: 0;
-  }
-
-  #cafecomdev-page { padding-bottom: 0; }
-
-  section.latest-cafes-dev { padding: 40px 10px !important; width: auto !important; margin-bottom: 0 !important; }
-  .line-divisor-2 { margin-left: 0; width: 100%; }
-
-  section.latest-cafes-dev article.last-event {
-    overflow: hidden;
-    margin-bottom: 80px;
-    border-top: none;
-    padding-top: 0;
-  }
-
-  .cafe-logo img {
-    width: 52%;
-    margin-top: 35px;
-  }
-
-  section.latest-cafes-dev article.last-event .date {
-    float: none;
-    width: auto;
-  }
-
-  #texto { font-size: 1.2em; }
-}
-
 
 /*=====================*/
 /*== HE:pair page ==*/

@@ -51,8 +51,6 @@
 }
 
 
-
-
 /* Cliente */
 
 #cliente {
@@ -383,17 +381,73 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
-  
   header.default h1 a {
       background: url("/images/m-logo2x.png");
       background-size: 150px 59px;
   }
-
 }
 
-/* Max Width, 686px  ---  tablet*/
 
-@media (max-width:686px) {
+/* Max Width, 686px  */
+
+@media (max-width: 801px) {
+  
+  #menu2 {
+    float: right;
+    padding-top: 41px;
+    width: 75%;
+    text-align: right;
+  }
+  
+  .containner {
+    width:700px;
+  }
+  
+  article.about-cafe { padding: 50px 10px 30px; }
+  section.latest-cafes-dev { padding: 40px 10px; }
+  article.about-cafe h2,
+  section.latest-cafes-dev h2 { font-size: 20px; }
+  #cafecomdev-page .line-divisor,
+  #cafecomdev-page .line-divisor-3 { width: 100%; }
+}
+
+
+/* Max Width, 686px  */
+
+@media (max-width: 686px) {
+  
+  #cafecomdev-page .about-text,
+  #cafecomdev-page .next-event {
+    width: 100%;
+    margin: 0 0 30px;
+    padding: 0;
+  }
+
+  #cafecomdev-page { padding-bottom: 0; }
+
+  section.latest-cafes-dev { padding: 40px 10px !important; width: auto !important; margin-bottom: 0 !important; }
+  .line-divisor-2 { margin-left: 0; width: 100%; }
+
+  section.latest-cafes-dev article.last-event {
+    overflow: hidden;
+    margin-bottom: 80px;
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .cafe-logo img {
+    width: 52%;
+    margin-top: 35px;
+  }
+
+  section.latest-cafes-dev article.last-event .date {
+    float: none;
+    width: auto;
+  }
+
+  #texto { font-size: 1.2em; }
+  
+  
 
   .videothumbs li {
       background: none repeat scroll 0 0 white;
@@ -596,7 +650,6 @@ only screen and (                min-resolution: 2dppx) {
     margin: 0%;
   }
 
-
   #process ul.different-processes li:first-child {
     width: 0%;
     margin: 0;
@@ -621,9 +674,6 @@ only screen and (                min-resolution: 2dppx) {
     font-size:17px;
     color: #fff;
   }
-
-
-
 
 
   /* Cliente */
@@ -826,7 +876,7 @@ only screen and (                min-resolution: 2dppx) {
   padding: 30px 0 0;
   position: absolute;
   width: 100%;
-} 
+  } 
 
   #jobs #cover.cover-jobs {
     height: 160px;
@@ -848,7 +898,7 @@ only screen and (                min-resolution: 2dppx) {
   float: left;
   }
 
-section.latest-cafes-dev {
+  section.latest-cafes-dev {
   background: #fcfcfc;
   border-top: 1px solid #f9f9f9;
   border-bottom: 1px solid #f9f9f9;
@@ -860,42 +910,34 @@ section.latest-cafes-dev {
 
   }
 
-article.last-event {
+  article.last-event {
   overflow: hidden;
   margin-bottom: 80px;
   border-top: 1px dashed grey;
   padding-top: 1em;
 
 }
-.date {
+  .date {
   float:left;
   width:67%;
 
-}
-#texto{
+  }
+  #texto{
   font-size:1.5em;
-}
+  }
 
-.infos-cafe {
+  .infos-cafe {
     float: left;
     text-align: justify;
     width: 100%;
+  }
+  
 }
 
 
-}
+/* Max Width, 481px  */
 
-
-
-
-
-
-
-
-
-/* Max Width, 480px -- smartphone */
-
-@media (max-width:480px) {
+@media (max-width:481px) {
 
   .videothumbs li {
       background: none repeat scroll 0 0 white;
