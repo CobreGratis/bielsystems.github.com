@@ -1,8 +1,3 @@
-.
- {
-    width: 100%;
-}
-
 /* Home */
 
 #home {
@@ -51,7 +46,7 @@
 /* Cliente */
 
 #cliente {
-    padding-bottom:60px;
+  padding-bottom:60px;
 }
 
 #cliente h2, #process h2, #time h2 {
@@ -346,7 +341,7 @@ section.he-enviroment aside.photo-big {
 }
 
 
-/* Max Width, 686px  */
+/* Max Width, 801px  */
 
 @media (max-width: 801px) {
   
@@ -372,6 +367,11 @@ section.he-enviroment aside.photo-big {
 /* Max Width, 686px  */
 
 @media (max-width: 686px) {
+  
+  .containner {
+    width: 90%;
+    padding: 0 5% 0 5%;
+  }
   
   #cafecomdev-page .about-text,
   #cafecomdev-page .next-event {
