@@ -196,7 +196,6 @@
   font-size:14px;
 }
 
-
 #jobs .cover-jobs {
   margin-top:60px;
   height: 200px;
@@ -205,12 +204,12 @@
 .open-positions {
   display: none;
 }
+
 #cover.cover-jobs h2 {
   font-size: 2.3em;
 }
 
 section.he-enviroment {
-
   margin-bottom: 0px;
   padding: 0;
 }
@@ -219,6 +218,7 @@ section.he-enviroment article {
   width: 100%;
   float: left;
 }
+
 section.he-enviroment aside.photo-big {
   display: none;
 }
@@ -227,8 +227,6 @@ section.he-enviroment aside.photo-big {
 /*=====================*/
 /*== Workshops ==*/
 /*=====================*/
-
-
 
 #workshops .left {
   width:100%;
@@ -288,23 +286,9 @@ section.he-enviroment aside.photo-big {
 
 
 
-
 /* Max Width 1024 */
 
 @media (max-width:1024px) {
-  
-  #menu2 {
-    float: right;
-    padding-top: 26px;
-    width: 70%;
-    margin-right: 10px;
-  }
-
-  #menu2 ul li a {
-    font-size: 12px;
-  }
-
-
 
   #process h2 {
     padding-top: 100px;
@@ -330,7 +314,6 @@ section.he-enviroment aside.photo-big {
     margin-bottom: 60px;
     margin-top: 30px;
   }
-
 
   #process ul.different-processes li:first-child {
     width: 25%;
@@ -366,41 +349,17 @@ section.he-enviroment aside.photo-big {
 }
 
 
-header.default h1 a {
-  background: url("/images/m-logo.png") no-repeat;
-  float: left;
-  width: 150px;
-  height: 59px;
-  margin: 5px;
-}
-
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) { 
-  header.default h1 a {
-      background: url("/images/m-logo2x.png");
-      background-size: 150px 59px;
-  }
-}
-
-
 /* Max Width, 686px  */
 
 @media (max-width: 801px) {
   
-  #menu2 {
-    float: right;
-    padding-top: 41px;
-    width: 75%;
-    text-align: right;
-  }
-  
   .containner {
     width:700px;
+  }
+  
+  header.default .logo {
+    width:155px;
+    float:left;
   }
   
   article.about-cafe { padding: 50px 10px 30px; }
@@ -409,6 +368,7 @@ only screen and (                min-resolution: 2dppx) {
   section.latest-cafes-dev h2 { font-size: 20px; }
   #cafecomdev-page .line-divisor,
   #cafecomdev-page .line-divisor-3 { width: 100%; }
+
 }
 
 
