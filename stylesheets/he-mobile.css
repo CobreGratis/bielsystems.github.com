@@ -351,7 +351,10 @@ section.he-enviroment aside.photo-big {
   
   header.default .logo {
     width:155px;
-    float:left;
+  }
+  
+  #menu2 {
+    margin-top:17px;
   }
   
   article.about-cafe { padding: 50px 10px 30px; }
