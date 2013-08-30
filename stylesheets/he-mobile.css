@@ -642,11 +642,12 @@ section.he-enviroment aside.photo-big {
     padding-top: 140px;
   }
 
+  footer {
+    padding-bottom:90px;
+  }
 
-  /* Footer */
-  footer ul li {
-    width: 50%;
-    float:left;
+  footer li {
+    width:100%;
   }
 
   #jobs #cover.cover-jobs {

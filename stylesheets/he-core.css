@@ -13,7 +13,7 @@ header, footer, aside, nav, article, section {display:block}
 
 html {font-size: 62.5%}
 
-p {margin:20px 0 0 0}
+p {margin:0 0 20px 0}
 label {cursor:pointer}
 img {border:none}
 
@@ -1061,24 +1061,28 @@ Contact
   border-top: 1px solid #fff;
   background: #bd0011 url("/images/bg-contato.jpg") center bottom no-repeat;
   position: relative;
-  padding-top: 80px;
+  padding-top: 70px;
   clear: both;
 }
 
 #fale-conosco h2,
 #talk-to-us h2 {
-	width:100%;
   text-transform:uppercase;
   font-weight:bold;
   color: #fff;
   text-align: center;
   font-size: 120px;
-  margin:5px 0 9px 0;
-	float:left;
+  line-height: 120px;
+  margin:0;
 }
 
+#fale-conosco form,
+#talk-to-us form {
+  margin-top:40px;
+}
 
-#fale-conosco .pre, #fale-conosco .sub, #talk-to-us .pre, #talk-to-us .sub {
+#fale-conosco .pre, #fale-conosco .sub,
+#talk-to-us .pre, #talk-to-us .sub {
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
@@ -1087,17 +1091,14 @@ Contact
 
 #fale-conosco .pre,
 #talk-to-us .pre {
-  font-size: 30.5px;
+  font-size: 31px;
+  margin:0 0 5px 0 !important;
 }
 
 #fale-conosco .sub,
 #talk-to-us .sub {
-  font-size: 27.6px;
-}
-
-#fale-conosco form,
-#talk-to-us form {
-  margin: 0 3%;
+  margin: 10px 0 0 0 !important;
+  font-size: 28px;
 }
 
 #fale-conosco input[type="image"],
@@ -1111,7 +1112,6 @@ Contact
   opacity: 0.85;
 }
 
-/* Fale Conosco */
 #fale-conosco input.text,
 #talk-to-us input.text {
   width: 45%;
@@ -1141,7 +1141,6 @@ Contact
   position: static;
 }
 
-
 #fale-conosco textarea,
 #talk-to-us textarea {
   background-color: black;
@@ -1168,9 +1167,9 @@ footer {
   width:100%;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 30px 0 0;
+  padding: 30px 0 100px 0;
   font-size: 14px;
-  overflow: hidden;
+  position: relative;
 }
 
 footer a {
@@ -1186,24 +1185,19 @@ footer ul {
   overflow: hidden;
 }
 
-footer ul li {
+footer li {
 	width: 25%;
-  line-height: 23px;
+  line-height: 20px;
   font-size: 12px;
   float: left;
 }
 
-footer ul li address {
-  padding: 0 20px;
-}
-
-footer ul li address span {
+footer address span {
   display: block;
 }
 
 footer h3 {
-	width:100%;
-	text-align:center;
+  margin:0 0 10px 0;
   color:#fff;
 }
 
@@ -1212,10 +1206,12 @@ footer h3 {
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.4);
   text-align: center;
-  padding: 15px 0 15px 0;
-  color:#fff;
-  margin-top: 40px;
-  clear: both;
+  padding: 12px 0 12px 0;
+  color: #fff;
+  position:absolute;
+  margin:0;
+  bottom:0;
+  left:0;
 }
 
 
