@@ -448,7 +448,7 @@ Home
 
 #home {
   background: url("/images/bg-home-2.jpg") center no-repeat;
-  padding-top: 190px;
+  padding:190px 0 60px 0;
 }
 
 #single-page {
