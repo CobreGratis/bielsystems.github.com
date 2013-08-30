@@ -1,3 +1,23 @@
+.containner {
+  width:700px;
+}
+
+header.default .logo {
+  width:155px;
+}
+
+#menu2 {
+  margin-top:17px;
+}
+
+article.about-cafe { padding: 50px 10px 30px; }
+section.latest-cafes-dev { padding: 40px 10px; }
+article.about-cafe h2,
+section.latest-cafes-dev h2 { font-size: 20px; }
+#cafecomdev-page .line-divisor,
+#cafecomdev-page .line-divisor-3 { width: 100%; }
+
+
 /* Home */
 
 #home {
@@ -66,13 +86,11 @@
 
 #fale-conosco .pre,
 #talk-to-us .pre {
-  margin:0 0 5px 0 !important;
   font-size: 23px;
 }
 
 #fale-conosco .sub,
 #talk-to-us .sub {
-  margin: 10px 0 0 0 !important;
   font-size: 21px;
 }
 
@@ -203,7 +221,6 @@ section.he-enviroment aside.photo-big {
 }
 
 
-
 /* Max Width 1024 */
 
 @media (max-width:1024px) {
@@ -243,13 +260,12 @@ section.he-enviroment aside.photo-big {
   }
 
   #process ul.different-processes li h3 {
-  text-align:left;
+    text-align:left;
   }
 
   #process ul.different-processes li p {
     text-align:left;
   }
-
 
   #open-source ul.gems-list {
     margin-top: 50px;
@@ -263,32 +279,6 @@ section.he-enviroment aside.photo-big {
     float: left;
     margin-right: 21px;
   }
-
-}
-
-
-/* Max Width, 960px  */
-
-@media (max-width: 980px) {
-  
-  .containner {
-    width:700px;
-  }
-  
-  header.default .logo {
-    width:155px;
-  }
-  
-  #menu2 {
-    margin-top:17px;
-  }
-  
-  article.about-cafe { padding: 50px 10px 30px; }
-  section.latest-cafes-dev { padding: 40px 10px; }
-  article.about-cafe h2,
-  section.latest-cafes-dev h2 { font-size: 20px; }
-  #cafecomdev-page .line-divisor,
-  #cafecomdev-page .line-divisor-3 { width: 100%; }
 
 }
 
@@ -331,17 +321,19 @@ section.he-enviroment aside.photo-big {
     width: auto;
   }
 
-  #texto { font-size: 1.2em; }
+  #texto {
+    font-size: 1.2em;
+  }
   
   .videothumbs li {
-      background: none repeat scroll 0 0 white;
-      box-shadow: 0 4px 8px -3px black;
-      margin-bottom: 2em;
-      margin-top: 2em;
-      opacity: 1;
-      padding: 10px;
-      text-align: center;
-      width: 39%;
+    background: none repeat scroll 0 0 white;
+    box-shadow: 0 4px 8px -3px black;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    opacity: 1;
+    padding: 10px;
+    text-align: center;
+    width: 39%;
   }
 
   .videothumbs li img:hover {
@@ -349,8 +341,8 @@ section.he-enviroment aside.photo-big {
   }
   
   .videothumbs li:hover {
-      background: url("/images/play.jpg") no-repeat white;
-      background-size: 100%;  
+    background: url("/images/play.jpg") no-repeat white;
+    background-size: 100%;  
   }
 
   #fale-conosco input[type="image"],
@@ -359,17 +351,17 @@ section.he-enviroment aside.photo-big {
   }
   
   #hiddenmenu {
-      background: none repeat scroll 0 0 #B80606;
-      border-bottom: 2px solid #D7D7D7;
-      border-top: 1px solid grey;
-      color: white;
-      display: block;
-      float: right;
-      font-family: 'Lato',sans-serif;
-      font-weight: lighter;
-      margin-top: 0.7em;
-      padding: 0.5em 0 0.1em 0.5em;
-      width: 100%;
+    background: none repeat scroll 0 0 #B80606;
+    border-bottom: 2px solid #D7D7D7;
+    border-top: 1px solid grey;
+    color: white;
+    display: block;
+    float: right;
+    font-family: 'Lato',sans-serif;
+    font-weight: lighter;
+    margin-top: 0.7em;
+    padding: 0.5em 0 0.1em 0.5em;
+    width: 100%;
   }
 
   .submenuhome{
@@ -530,42 +522,27 @@ section.he-enviroment aside.photo-big {
 
   #fale-conosco,
   #talk-to-us {
-    padding-left:0 !important;
-    padding-right:0 !important;
-    padding-top: 40px;
-    float:left;
+    padding-top: 50px;
   }
 
   #fale-conosco h2,
   #talk-to-us h2 {
-    font-size:69px;
-		margin:10px 0 12px 0;
+    display:none;
   }
-
-  #fale-conosco .pre, #fale-conosco .sub,
-  #talk-to-us .pre, #talk-to-us .sub {
-    font-size:20px;
-  }
-
-  #fale-conosco .pre, #fale-conosco .sub,
-	#talk-to-us .pre, #talk-to-us .sub {
-	  line-height:25px;
-	}
 
   #fale-conosco .pre,
   #talk-to-us .pre {
-    font-size:18px;
+    margin:0 0 15px 0 !important;
+    text-align:left;
+    font-size: 18px;
+    line-height: 28px;
   }
 
   #fale-conosco .sub,
   #talk-to-us .sub {
-    font-size:16px;
-  }
-
-  #fale-conosco form,
-  #talk-to-us form {
-    padding:0;
-    margin:0;
+    text-align:left;
+    font-size: 18px;
+    line-height: 28px;
   }
 
   #fale-conosco input[type="text"], #fale-conosco textarea,
