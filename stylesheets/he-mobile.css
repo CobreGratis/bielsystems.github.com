@@ -286,6 +286,57 @@ section.he-enviroment aside.photo-big {
 /* Max Width, 686px  */
 
 @media only screen and (max-width: 686px) {
+  
+  .navigation {
+      background: none repeat scroll 0 0 white;
+      margin-left: 0;
+      max-width: none;
+      padding: 0;
+  }
+
+  .navigation li {
+    float: left;
+    margin:0px;
+    padding:0px;
+    color:black;
+  }
+
+  .navigation li a {
+      color: black;
+      display: block;
+      font-weight: 400;
+      padding: 10px;
+      text-decoration: none;
+  }
+
+  .navigation li a:hover {
+    background: #c7c7c7;
+  }
+
+  .navheader { 
+    font-size: 12px;
+  }
+
+  .slide-trigger {
+      border: medium none;
+      cursor: pointer;
+      display: block;
+      font-family: lato;
+      font-size: 1.2em;
+      font-weight: 400;
+      margin-left: 15px;
+      margin-right: 15px;
+      padding-bottom: 0.5em;
+  }
+
+  .slide-trigger span {
+    background: url("/images/menumobile.png") repeat-y;
+    display: block;
+    float: right;
+    margin-top: 3px;
+    height: 12px;
+    width: 32px;
+  }
 
   .slide-trigger { display: block; }
   .no-js .slide-trigger { display: none; }
@@ -313,6 +364,24 @@ section.he-enviroment aside.photo-big {
   .containner {
     width: 90%;
     padding: 0 5% 0 5%;
+  }
+  
+  #hiddenmenu {
+    background: none repeat scroll 0 0 #B80606;
+    border-bottom: 2px solid #D7D7D7;
+    border-top: 1px solid grey;
+    color: white;
+    display: block;
+    float: right;
+    font-family: 'Lato',sans-serif;
+    font-weight: lighter;
+    margin-top: 0.7em;
+    padding: 0.5em 0 0.1em 0.5em;
+    width: 100%;
+  }
+
+  .submenuhome {
+    position:relative;
   }
   
   #cafecomdev-page .about-text,
@@ -368,24 +437,6 @@ section.he-enviroment aside.photo-big {
     background-size: 100%;  
   }
   
-  #hiddenmenu {
-    background: none repeat scroll 0 0 #B80606;
-    border-bottom: 2px solid #D7D7D7;
-    border-top: 1px solid grey;
-    color: white;
-    display: block;
-    float: right;
-    font-family: 'Lato',sans-serif;
-    font-weight: lighter;
-    margin-top: 0.7em;
-    padding: 0.5em 0 0.1em 0.5em;
-    width: 100%;
-  }
-
-  .submenuhome {
-    position:relative;
-  }
-
 
   /* Mailing page*/
 
@@ -1058,56 +1109,4 @@ section.he-enviroment aside.photo-big {
   #cafecomdev-page .line-divisor {
     width: 100%;
   }
-}
-
-/*===== mobile menu ======*/
-.navigation {
-    background: none repeat scroll 0 0 white;
-    margin-left: 0;
-    max-width: none;
-    padding: 0;
-}
-
-.navigation li {
-  float: left;
-  margin:0px;
-  padding:0px;
-  color:black;
-}
-
-.navigation li a {
-    color: black;
-    display: block;
-    font-weight: 400;
-    padding: 10px;
-    text-decoration: none;
-}
-
-.navigation li a:hover {
-  background: #c7c7c7;
-}
-
-.navheader { 
-  font-size: 12px;
-}
-
-.slide-trigger {
-    border: medium none;
-    cursor: pointer;
-    display: block;
-    font-family: lato;
-    font-size: 1.2em;
-    font-weight: 400;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-bottom: 0.5em;
-}
-
-.slide-trigger span {
-  background: url("/images/menumobile.png") repeat-y;
-  display: block;
-  float: right;
-  margin-top: 3px;
-  height: 12px;
-  width: 32px;
 }
