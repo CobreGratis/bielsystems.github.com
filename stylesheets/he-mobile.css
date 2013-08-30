@@ -8,10 +8,6 @@
   left:95px;
 }
 
-.services {
-  margin-bottom: 0;
-}
-
 .services li {
   height: auto;
   min-height: auto;
@@ -652,7 +648,7 @@ section.he-enviroment aside.photo-big {
     width: 50%;
     float:left;
   }
-  
+
   #jobs #cover.cover-jobs {
     height: 160px;
   }

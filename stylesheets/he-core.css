@@ -3927,16 +3927,17 @@ article.about-cafe p.free {
 }
 .cover-clientefeliz {
   background-color: #B80606;
-  height: 210px;
-  margin-top: 40px;
+  margin-top: 0;
+  clear: both;
+  padding: 40px 0;
 }
 
 .cover-clientefeliz h2 {
-    color: #FFFFFF;
-    float: left;
+    color: #FFF;
     font-size: 120px;
     font-weight: bold;
-    margin-top: 60px;
+    margin-top: 0;
+    padding-top: 0 !important;
     text-transform: none;
 }
 
