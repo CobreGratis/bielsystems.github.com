@@ -1098,7 +1098,7 @@ Contact
 
 #fale-conosco form,
 #talk-to-us form {
-  margin: 0 auto;
+  margin: 0 3%;
 }
 
 #fale-conosco input[type="image"],
@@ -1112,15 +1112,36 @@ Contact
   opacity: 0.85;
 }
 
-#fale-conosco input[type="text"],
-#talk-to-us input[type="text"] {
+/* Fale Conosco */
+#fale-conosco input.text,
+#talk-to-us input.text {
+  width: 45%;
+  padding: 15px 2%;
+  margin: 0 0 15px;
+  position: static;
   background-color: black;
   opacity: 0.6;
   border: none;
   color: #fff;
   font-size: 18px;
   font-weight: bold;
+  float: left;
 }
+
+#fale-conosco input.text.spacing,
+#talk-to-us input.text.spacing {
+  margin-right: 2%;
+}
+
+#fale-conosco textarea,
+#talk-to-us textarea {
+  width: 96%;
+  margin: 0 0 15px;
+  clear: both;
+  padding: 15px 2%;
+  position: static;
+}
+
 
 #fale-conosco textarea,
 #talk-to-us textarea {
