@@ -1061,7 +1061,7 @@ Contact
   border-top: 1px solid #fff;
   background: #bd0011 url("/images/bg-contato.jpg") center bottom no-repeat;
   position: relative;
-  padding-top: 50px;
+  padding-top: 80px;
   clear: both;
 }
 
@@ -4603,6 +4603,8 @@ hgroup h6{
 }
 
 .hepair #fale-conosco .form { display: none !important; }
+
+.hepair #fale-conosco .pair { padding-bottom: 50px; }
 
 .hepair #fale-conosco .pair .div-form {
   clear: both;
