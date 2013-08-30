@@ -343,7 +343,7 @@ section.he-enviroment aside.photo-big {
 
 /* Max Width, 960px  */
 
-@media (max-width: 960px) {
+@media (max-width: 980px) {
   
   .containner {
     width:700px;
