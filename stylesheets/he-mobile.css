@@ -79,7 +79,7 @@
 
 #fale-conosco h2,
 #talk-to-us h2 {
-  font-size: 70px !important;
+  font-size: 48px !important;
   margin:0;
 }
 
@@ -543,13 +543,9 @@ section.he-enviroment aside.photo-big {
 
   #fale-conosco,
   #talk-to-us {
-    padding-bottom:330px;
-  }
-
-  #fale-conosco,
-  #talk-to-us {
     padding-left:0 !important;
     padding-right:0 !important;
+    padding-top: 40px;
     float:left;
   }
 
@@ -652,23 +648,11 @@ section.he-enviroment aside.photo-big {
 
 
   /* Footer */
-
-  footer li {
-    width:100%;
+  footer ul li {
+    width: 50%;
+    float:left;
   }
-
-  footer {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    bottom: 0;
-    float: left;
-    font-size: 14px;
-    height: 29em;
-    left: 0;
-    padding: 30px 0 0;
-    position: absolute;
-  } 
-
+  
   #jobs #cover.cover-jobs {
     height: 160px;
   }
