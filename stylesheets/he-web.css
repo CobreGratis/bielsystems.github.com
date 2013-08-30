@@ -3,7 +3,8 @@ header.default {
 }
 
 .containner {
-  width: 82%;
+  width: 960px;
+  padding: 0 10px 0 10px;
 }
 
 #home {

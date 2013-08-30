@@ -13,12 +13,10 @@
 }
 
 #home h2 {
-  font-size: 24px !important;
-  line-height: 40px !important;
-  padding: 0 20px !important;
+  font-size: 34px !important;
+  line-height: 44px !important;
   width: auto !important;
   text-align: center !important;
-  float: none !important;
 }
 
 #home h3 {
@@ -26,7 +24,6 @@
   line-height: 24px !important;
   padding: 0 20px !important;
   width: auto !important;
-  float: none !important;
 }
 
 .home-button a.red-button {
