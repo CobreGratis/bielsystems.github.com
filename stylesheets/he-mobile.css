@@ -298,6 +298,37 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     padding: 0 5% 0 5%;
   }
   
+
+  /* Home */
+  
+  #home {
+    padding-top:185px;
+  }
+  
+  #home h2 {
+    font-size: 55px;
+    line-height: 57px;
+  }
+
+  #home h3 {
+    font-size: 28px;
+  }
+  
+
+  /* Red Button */
+
+  a.red-button, a.white-button {
+    border-radius:15px;
+    width:280px; height:auto;
+    background:#d92727;
+    padding:20px !important;
+    text-align:center;
+    font-size:18px;
+  }
+  
+
+  /* Menu */
+
   #menu2 {
     display:none;
   }
@@ -427,22 +458,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 
   .thumbs {
     display: none;
-  }
-  
-  
-  /* Home */
-  
-  #home {
-    padding-top:185px;
-  }
-  
-  #home h2 {
-    font-size: 55px;
-    line-height: 57px;
-  }
-
-  #home h3 {
-    font-size: 28px;
   }
 
 
