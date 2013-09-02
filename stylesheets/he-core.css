@@ -103,9 +103,9 @@ header.landingpage .logo {
 
 #help-header {
   background-color: #fff;
-  padding: 8px 16px 8px 16px;
+  padding: 8px 15px 8px 15px;
   position:fixed;
-  left:0; top:0;
+  left:2px; top:2px;
   z-index:999;
 }
 
