@@ -546,6 +546,11 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     font-size: 18px;
     line-height: 28px;
   }
+  
+  #fale-conosco input[type="image"],
+  #talk-to-us input[type="image"] {
+    width: 70%;
+  }
 
   #fale-conosco input[type="text"], #fale-conosco textarea,
   #talk-to-us input[type="text"], #talk-to-us textarea {
