@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang='pt'>
   {% include head.html %}
-  <body>     
-    {% include header.html %}
+  <header id="help-header">
+    <a href="/" title="Pág. Inicial">
+      <img class="logo" src="/images/logo.png" alt="HE:labs">
+    </a>
+  </header>
+  <body class="custom-help">
     {{ content }}
   </body>
 </html>
