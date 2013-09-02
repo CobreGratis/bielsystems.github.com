@@ -844,12 +844,22 @@ Team
   text-align: center;
 }
 
+#time ul:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
+}
+
 #time ul > li {
   width:160px;
   margin:0 10px 40px 20px;
   position:relative;
+  display:inline-block;
   color:#333;
-  display: inline-block;
 }
 
 #time p {
@@ -3934,55 +3944,7 @@ height:18px;
 background-image: url(/images/cloud-slider-nav-active.png);
 }
 
-/* Time */
 
-#our-team {
-  width:100%;
-  background: #fafafa;
-  border-bottom: 1px solid #fff;
-}
-
-#our-team .sub {
-  font-size:21px;
-  margin-top:0;
-  color:#6d7171;
-}
-
-#our-team ul {
-  width:100%;
-  margin-top:50px;
-  float:left;
-}
-
-#our-team ul > li {
-  width:160px;
-  margin:0 10px 40px 20px;
-  position:relative;
-  color:#333;
-  float:left;
-}
-
-#our-team p {
-  width:100%;
-  text-align:center;
-  font-size:17px;
-  margin:15px 0 0 0;
-  float:left;
-}
-
-#our-team span {
-  text-transform:uppercase;
-  margin-top:5px;
-  font-size:11px;
-  color:#a5a5ac;
-}
-
-#our-team ul > li img, #our-team ul > li a img {
-  width:160px; height:160px;
-  background:#fff;
-  float:left;
-  border-radius: 4px;
-}
 /*=== apply positions ==*/
 section.apply-positions {
   height: 300px;
@@ -4080,9 +4042,6 @@ section.apply-positions p {
 }
 
 
-
-
-
 /*=====================*/
 /*=== Mailing Page ===*/
 /*=====================*/
@@ -4157,7 +4116,6 @@ section.apply-positions p {
   list-style:none;
   width:97%;
   display:block;
-  /**background-color:rgba(0, 0, 0, 0.1);**/
   padding-top:20px;
   padding-bottom:8px;
   border-bottom:1px solid #f5f5f5;
