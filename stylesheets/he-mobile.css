@@ -428,6 +428,22 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   .thumbs {
     display: none;
   }
+  
+  
+  /* Home */
+  
+  #home {
+    padding-top:185px;
+  }
+  
+  #home h2 {
+    font-size: 55px;
+    line-height: 57px;
+  }
+
+  #home h3 {
+    font-size: 28px;
+  }
 
 
   /* Time */
@@ -641,6 +657,15 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 /* Max Width, 481px  */
 
 @media (max-width:481px) {
+  
+  #home h2 {
+    font-size: 45px;
+    line-height: 52px;
+  }
+
+  #home h3 {
+    font-size: 24px;
+  }
   
   #time ul > li {
     width:44%;
