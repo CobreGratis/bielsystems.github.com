@@ -1053,7 +1053,8 @@ footer address span {
 }
 
 footer h3 {
-  margin:0 0 10px 0;
+  text-transform:uppercase;
+  margin:13px 0 7px 0;
   color:#fff;
 }
 
