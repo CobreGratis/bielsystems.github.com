@@ -114,6 +114,10 @@ header.landingpage .logo {
   float: left;
 }
 
+.custom-help {
+  background:#efeff0;
+}
+
 .custom-help iframe {
   width:100%;
   margin:0;
