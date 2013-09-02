@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang='pt'>
   {% include head.html %}
-  <body class="hepair">     
+  <body class="hepair">
+
     {% include header.html %}
     {{ content }}
     
     <section id="fale-conosco">
-		<div class="pair">
-		  <div class="containner">
-		  	<p class="pre">Quer parear com alguém da HE:labs?</p>
-		    <h2>Fale Conosco</h2>
-		    <p class="sub">Venha parear com um dos melhores profissionais do mercado</p>
+  		<div class="pair">
 
-		    <form id="form29" name="form29" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://helabs.wufoo.com/forms/m7p7q1/#public">
+  		  <div class="containner">
+
+  		  	<p class="pre">
+            Quer parear com alguém da HE:labs?
+          </p>
+  		    <h2>Fale Conosco</h2>
+  		    <p class="sub">
+            Venha parear com um dos melhores profissionais do mercado.
+          </p>
+
+  		    <form id="form29" name="form29" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://helabs.wufoo.com/forms/m7p7q1/#public">
 		    	
-			    <input id="Field12" name="Field12" type="text" class="field text large spacing" value="" maxlength="255" tabindex="1" onkeyup="" required placeholder="Nome" />
+  			    <input id="Field12" name="Field12" type="text" class="field text large spacing" value="" maxlength="255" tabindex="1" onkeyup="" required placeholder="Nome" />
+  			    <input id="Field3" name="Field3" type="text" spellcheck="false" class="field text large" value="" maxlength="255" tabindex="2" placeholder="Email" required /> 
+  			    <input id="Field13" name="Field13" type="text" class="field text large spacing" value="" maxlength="255" tabindex="3" onkeyup="" required placeholder="Tecnologias que deseja utilizar" />
+  			    <input id="Field4" class="field text medium" name="Field4" tabindex="4" type="text" maxlength="255" value="" placeholder="Telefone" /> 
 
-			    <input id="Field3" name="Field3" type="text" spellcheck="false" class="field text large" value="" maxlength="255" tabindex="2" placeholder="Email" required /> 
+            <textarea id="Field5" name="Field5" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="5" onkeyup="" placeholder="Descreva sua necessidade" required></textarea>
 
-			    <input id="Field13" name="Field13" type="text" class="field text large spacing" value="" maxlength="255" tabindex="3" onkeyup="" required placeholder="Tecnologias que deseja utilizar" />
-
-			    <input id="Field4" class="field text medium" name="Field4" tabindex="4" type="text" maxlength="255" value="" placeholder="Telefone" /> 
-
-			    <textarea id="Field5" name="Field5" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="5" onkeyup="" placeholder="Descreva sua necessidade" required></textarea>
-
-				<input name="saveForm" type="image" value="Enviar Mensagem" src="/images/enviar.png" />
+    				<input name="saveForm" type="image" value="Enviar Mensagem" src="/images/enviar.png" />
 				
-				<div style="display: none">
-					<label for="comment">Do Not Fill This Out</label>
-					<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-					<input type="hidden" id="idstamp" name="idstamp" value="rKHF4yTSe/G8iVuogfZXXv8mYCI0LsHlzklsCksbRfQ=" />
-				</div>
-		    </form>
-		  </div>
-		</div>
-    	{% include footer.html %}
+    				<div style="display: none">
+    					<label for="comment">Do Not Fill This Out</label>
+    					<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+    					<input type="hidden" id="idstamp" name="idstamp" value="rKHF4yTSe/G8iVuogfZXXv8mYCI0LsHlzklsCksbRfQ=" />
+    				</div>
+
+  		    </form>
+
+  		  </div>
+
+  		</div> <!-- /pair -->
+      {% include footer.html %}
   	</section>
   </body>
 </html>
