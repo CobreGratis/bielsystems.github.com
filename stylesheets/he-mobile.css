@@ -292,12 +292,11 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   /* Red Button */
 
   a.red-button, a.white-button {
-    border-radius:15px;
-    width:280px; height:auto;
-    background:#d92727;
-    padding:20px !important;
+    border-radius:12px;
+    width:250px; height:auto;
+    padding:15px !important;
     text-align:center;
-    font-size:18px;
+    font-size:16px;
   }
 
   #time .red-button {
