@@ -28,6 +28,19 @@ header.default .logo {
 }
 
 
+/* Jobs */
+
+.cover-jobs {
+  margin-top: 80px;
+  padding: 40px 0 40px 0;
+}
+
+.cover-jobs h2 {
+  font-size: 52px;
+  line-height: 55px;
+}
+
+
 /* Cliente */
 
 #cliente {
