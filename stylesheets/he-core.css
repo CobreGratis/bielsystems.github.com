@@ -1692,24 +1692,17 @@ Jobs
 #jobs .cover-jobs {
   background-color:#b80606;
   margin-top:95px;
-  padding:0 0 80px 0;
+  padding:50px 0 80px 0;
 }
 
-#cover.cover-jobs h2 {
-  color: #fff;
-  margin-top: 30px;
-  font-size: 3em;
-  font-weight: bold;
+.cover-jobs h2 {
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
   text-align: center;
-}
-
-.intro-jobs {
-  overflow: auto;
-}
-
-section#jobs #cover.cover-jobs .intro-jobs h2 {
-  text-transform: none;
-  letter-spacing: 0.01em;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 65px;
+  color: #fff;
 }
 
 .open-positions {
@@ -1754,10 +1747,6 @@ section#jobs #cover.cover-jobs .intro-jobs h2 {
   margin-right: 0px;
   float: left;
   border-radius: 40px;
-}
-
-a:hover {
-  opacity: 0.95;
 }
 
 section.he-enviroment {
