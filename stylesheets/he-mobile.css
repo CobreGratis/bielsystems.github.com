@@ -272,7 +272,7 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   /* Home */
   
   #home {
-    padding-top:185px;
+    padding-top:125px;
   }
   
   #home h2 {
@@ -352,15 +352,14 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   
   
   /* Jobs */
+  
+  .cover-jobs {
+    margin-top:60px;
+  }
 
   .cover-jobs h2 {
     font-size: 32px;
     line-height: 35px;
-  }
-
-  .cover-jobs li {
-    margin:10px 0 0 0;
-    display: inline-block;
   }
   
   .he-enviroment article,
@@ -409,7 +408,7 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   /* Cliente */
   
   .cover-clientefeliz {
-    margin-top: 80px;
+    margin-top: 60px;
   }
 
   #cliente {
@@ -646,6 +645,11 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 
   #home h3 {
     font-size: 24px;
+  }
+  
+  .cover-jobs li {
+    margin:10px 0 0 0;
+    display: inline-block;
   }
   
   #time ul > li {
