@@ -3677,11 +3677,13 @@ article.about-cafe p.free {
     float: left;
     width: 100%;
 }
+
 .cover-clientefeliz {
+  height:auto;
   background-color: #B80606;
-  margin-top: 0;
+  margin-top:95px;
+  padding:20px 0 20px 0;
   clear: both;
-  padding: 40px 0;
 }
 
 .cover-clientefeliz h2 {
