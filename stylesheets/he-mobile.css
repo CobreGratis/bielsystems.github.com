@@ -392,13 +392,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   }
   
   .videothumbs li {
-    background: none repeat scroll 0 0 white;
-    box-shadow: 0 4px 8px -3px black;
-    margin-bottom: 2em;
-    margin-top: 2em;
-    opacity: 1;
-    padding: 10px;
-    text-align: center;
     width: 39%;
   }
 
@@ -698,18 +691,11 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   }
 
   .videothumbs li {
-    background: none repeat scroll 0 0 white;
-    box-shadow: 0 4px 8px -3px black;
-    margin-bottom: 2em;
-    margin-top: 2em;
-    opacity: 1;
-    padding: 10px;
-    text-align: center;
     width: 90%;
   }
 
   .videothumbs li img:hover {
-    opacity:0.5;
+    opacity: 0.5;
   }
   
   .videothumbs li:hover {

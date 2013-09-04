@@ -656,17 +656,17 @@ Clientes
 }
 
 .videothumbs {
-   float: left;
-   margin: 20px 0 40px;
-   width: 100%;
+  width: 100%;
+  margin: 30px 0 30px 0;
+  float: left;
 }
 
 .videothumbs li {
   background: none repeat scroll 0 0 white;
-  box-shadow: 0 4px 8px -3px black;
+  box-shadow: 0 4px 8px -3px #d8d8d8;
   display: block;
   float: left;
-  margin: 10px 3%;
+  margin: 10px 3% 10px 3%;
   opacity: 1;
   padding: 10px;
   text-align: center;
