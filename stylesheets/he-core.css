@@ -1661,7 +1661,7 @@ Apoios
 
 #depoimento {
   padding-bottom: 180px;
-  background-image: url(/images/bg-time.png);
+  background-image: url("/images/bg-time.png");
   background-repeat:no-repeat;
   background-position:top center;
   background-color:#efefef;
@@ -1676,12 +1676,12 @@ Apoios
 }
 
 #apoios .cover-apoios h2  {
-    color: #FFFFFF;
-    float: left;
-    font-size: 120px;
-    font-weight: bold;
-    margin-top: 60px;
-    text-transform: none;
+  color: #FFFFFF;
+  float: left;
+  font-size: 120px;
+  font-weight: bold;
+  margin-top: 60px;
+  text-transform: none;
 }
 
 
@@ -1713,7 +1713,7 @@ Jobs
   display: block;
 }
 
-#jobs a.open-developer {
+#jobs .open-developer {
   background: #fff;
   padding: 15px 20px;
   display: block;
@@ -1731,7 +1731,7 @@ Jobs
   border-radius: 40px;
 }
 
-#jobs a.open-designer {
+#jobs .open-designer {
   background: #fff;
   padding: 15px 20px;
   display: block;
@@ -1749,18 +1749,18 @@ Jobs
   border-radius: 40px;
 }
 
-section.he-enviroment {
+.he-enviroment {
   height: 400px;
   margin-bottom: 40px;
   padding: 30px 0;
 }
 
-section.he-enviroment article {
+.he-enviroment article {
   width: 50%;
   float: left;
 }
 
-section.he-enviroment article h3 {
+.he-enviroment article h3 {
   font-size: 2em;
   font-weight: 500;
   line-height: 1.4em;
@@ -1769,20 +1769,20 @@ section.he-enviroment article h3 {
   text-transform: none;
 }
 
-#jobs section.he-enviroment article p {
+#jobs .he-enviroment article p {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.2em !important;
   color: #606060;
 }
 
-section.he-enviroment aside.photo-big {
+.he-enviroment aside.photo-big {
   width: 50%;
   margin-top: 20px;
   float: left;
 }
 
-#jobs section.positions-available {
+#jobs .positions-available {
   background: #fafafa;
   border-top: 1px solid #f7f7f7;
   border-bottom: 1px solid #f7f7f7;
@@ -1790,7 +1790,7 @@ section.he-enviroment aside.photo-big {
   padding: 30px 0;
 }
 
-#jobs section.positions-available h3 {
+#jobs .positions-available h3 {
   text-align: left;
   font-size: 2.4em;
   font-weight: 700;
@@ -1807,7 +1807,7 @@ section.he-enviroment aside.photo-big {
   margin-bottom: 30px;
 }
 
-section.positions-available article {
+.positions-available article {
   float: left;
   width: 48%;
   margin-right: 4%;
@@ -1819,16 +1819,16 @@ section.positions-available article {
   box-sizing:border-box;
 }
 
-section.positions-available article:last-child {
+.positions-available article:last-child {
   margin-right: 0px;
 }
 
-section.positions-available article img {
+.positions-available article img {
   float: left;
   margin-right: 20px;
 }
 
-section.positions-available article h4 {
+.positions-available article h4 {
   font-size: 1.8em;
   font-weight: 600;
   line-height: 1.6em;
@@ -1842,16 +1842,13 @@ section.positions-available article h4 {
   margin-top: 0px;
 }
 
-#jobs section.positions-available .job-title {
-  overflow: auto;
-}
-#jobs section.positions-available .job-description {
+#jobs .positions-available .job-description {
   min-height: 130px;
   display: block;
   overflow: auto;
 }
 
-#jobs section.positions-available article p {
+#jobs .positions-available article p {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.1em !important;
@@ -1860,7 +1857,7 @@ section.positions-available article h4 {
   float: left;
 }
 
-section.positions-available article a {
+.positions-available article a {
   padding: 10px 20px;
   margin-top: 20px;
   background-color: #B80606;
@@ -1875,11 +1872,11 @@ section.positions-available article a {
   text-decoration: none;
 }
 
-section.apprentice-program {
+.apprentice-program {
   padding: 60px 0 100px;
 }
 
-section.apprentice-program h3 {
+.apprentice-program h3 {
   font-size: 2em;
   font-weight: 500;
   line-height: 1.4em;
@@ -1890,18 +1887,18 @@ section.apprentice-program h3 {
   padding-top: 0;
 }
 
-#jobs section.apprentice-program p {
+#jobs .apprentice-program p {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.2em !important;
   color: #606060;
 }
 
-section.about-position {
+.about-position {
   margin-top: 160px;
 }
 
-section.about-position h2 {
+.about-position h2 {
   margin-top: 0;
   padding-top: 0;
   margin-bottom: 30px;
