@@ -1689,10 +1689,17 @@ Apoios
 Jobs
 ==================== */
 
-#jobs .cover-jobs {
-  background-color:#b80606;
-  margin-top:95px;
-  padding:50px 0 80px 0;
+.cover-jobs {
+  background: #b80606;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b80606), color-stop(100%, #9b0505)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #b80606 0%, #9b0505 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #b80606 0%, #9b0505 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #b80606 0%, #9b0505 100%); /* IE10+ */
+  background: linear-gradient(top bottom, #b80606 0%, #9b0505 100%); /* W3C */
+  text-align: center;
+  margin-top: 95px;
+  margin-bottom: 40px;
+  padding: 50px 0 50px 0;
 }
 
 .cover-jobs h2 {
@@ -1705,91 +1712,34 @@ Jobs
   color: #fff;
 }
 
-.open-positions {
-  margin: 0 auto;
-  width: 40%;
-  margin-top: 40px;
-  margin-bottom: 50px;
-  display: block;
+.cover-jobs ul {
+  margin:30px 0 0 0;
 }
 
-#jobs .open-developer {
+.cover-jobs li {
+  margin:0 10px 0 10px;
+  display:inline-block;
+}
+
+.cover-jobs a {
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 40px;
+  width: 140px;
+  height: 50px;
   background: #fff;
-  padding: 15px 20px;
-  display: block;
-  font-family: 'lato';
-  font-size: 1.2em;
-  font-weight: 500;
-  margin: 0 auto;
-  text-align: center;
+  line-height: 50px !important;
+  padding: 0 20px 0 20px;
+  font: bold 1.2em 'lato', sans-serif;
   text-decoration: none;
   text-transform: uppercase;
-  color: #B30000;
-  width: 140px;
-  margin-right: 23px;
-  float: left;
-  border-radius: 40px;
-}
-
-#jobs .open-designer {
-  background: #fff;
-  padding: 15px 20px;
+  color: #b30000;
   display: block;
-  font-family: 'lato';
-  font-size: 1.2em;
-  font-weight: 500;
-  margin: 0 auto;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #B30000;
-  width: 140px;
-  margin-right: 0px;
-  float: left;
-  border-radius: 40px;
-}
-
-.he-enviroment {
-  height: 400px;
-  margin-bottom: 40px;
-  padding: 30px 0;
-}
-
-.he-enviroment article {
-  width: 50%;
   float: left;
 }
 
-.he-enviroment article h3 {
-  font-size: 2em;
-  font-weight: 500;
-  line-height: 1.4em;
-  letter-spacing: 0.01em;
-  margin-bottom: 25px;
-  text-transform: none;
-}
+/*-*/
 
-#jobs .he-enviroment article p {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 1.2em !important;
-  color: #606060;
-}
-
-.he-enviroment aside.photo-big {
-  width: 50%;
-  margin-top: 20px;
-  float: left;
-}
-
-#jobs .positions-available {
-  background: #fafafa;
-  border-top: 1px solid #f7f7f7;
-  border-bottom: 1px solid #f7f7f7;
-  padding: 30px;
-}
-
-.positions-available:after {
+.positions-available:after, .he-enviroment:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -1799,40 +1749,55 @@ Jobs
   min-height: 0;
 }
 
-#jobs .positions-available h3 {
-  text-align: left;
-  font-size: 2.4em;
-  font-weight: 700;
-  margin-top: 0;
-  padding-top: 0;
-  letter-spacing: 0.02em;
-  color: #B80606;
-  font-size: 2em;
-  font-weight: 500;
-  line-height: 1.4em;
-  letter-spacing: 0.01em;
-  margin-bottom: 25px;
-  text-transform: none;
-  margin-bottom: 30px;
+
+/* Enviroment */
+
+.he-enviroment article {
+  width: 45%;
+  float: left;
+}
+
+.he-enviroment h3 {
+  font-size: 23px;
+  line-height: 27px;
+  margin:0 0 20px 0;
+}
+
+.he-enviroment p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.he-enviroment img {
+  width: 50%;
+  float: right;
+}
+
+
+/* Positions Available */
+
+.positions-available {
+  width: 100%;
+  background: #fafafa;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+  padding:30px 0 30px 0;
+  margin:30px 0 0 0;
 }
 
 .positions-available article {
-  border-radius: 4px;
   width: 40%;
-  min-height: 190px;
-  margin: 0 2% 0 2%;
+  min-height: 225px;
   background: #fff;
-  padding: 2% 3% 3% 3%;
+  padding:20px 4% 0 4%;
+}
+
+.positions-available .column01 {
   float: left;
 }
 
-.positions-available article:last-child {
-  margin-right: 0;
-}
-
-.positions-available article img {
-  margin-right: 20px;
-  float: left;
+.positions-available .column02 {
+  float: right;
 }
 
 .positions-available h4 {
@@ -1851,10 +1816,10 @@ Jobs
 .positions-available a {
   padding: 10px 20px;
   margin-top: 20px;
-  background-color: #B80606;
+  background-color: #b80606;
   border: medium none;
   border-radius: 4px 4px 4px 4px;
-  color: #FFFFFF;
+  color: #fff;
   float: left;
   font-size: 12px;
   font-weight: 700;
@@ -1863,9 +1828,12 @@ Jobs
   text-decoration: none;
 }
 
+
+/* Apprentice Program */
+
 .apprentice-program {
+  padding: 55px 0 40px 0;
   text-align: center;
-  padding: 60px 0 40px 0;
 }
 
 .apprentice-program h3 {
