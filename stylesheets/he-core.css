@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
 }
 
-a:hover img {
+a:hover {
   opacity: .8;
 }
 
@@ -1864,23 +1864,22 @@ Jobs
 }
 
 .apprentice-program {
-  padding: 60px 0 100px;
+  text-align: center;
+  padding: 60px 0 40px 0;
 }
 
 .apprentice-program h3 {
-  font-size: 2em;
-  font-weight: 500;
-  line-height: 1.4em;
-  letter-spacing: 0.01em;
-  margin-bottom: 0px;
-  text-transform: none;
-  margin-top: 0;
-  padding-top: 0;
+  font-size: 23px;
+  margin: 0 0 5px 0;
 }
 
 .apprentice-program p {
   font-size: 14px;
   line-height: 23px;
+}
+
+.apprentice-program a {
+  color: #b20000;
 }
 
 
