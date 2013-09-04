@@ -120,7 +120,10 @@ header.default .logo {
 
 #jobs .cover-jobs {
   margin-top:60px;
-  height: 200px;
+}
+
+.cover-clientefeliz {
+  margin-top:80px;
 }
 
 .open-positions {
