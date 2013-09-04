@@ -167,7 +167,27 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 /* Max Width, 686px  */
 
 @media only screen and (max-width: 686px) {
-  
+
+  header.default .logo {
+    width:100px;
+  }
+
+  #menu2 {
+    display:none;
+  }
+
+  #hiddenmenu {
+    width: 150px;
+    background: none repeat scroll 0 0 #B80606;
+    font-family: 'Lato',sans-serif;
+    padding: 3px;
+    display: block;
+    position: absolute;
+    right: 4%; top: 8px;
+    color: #fff;
+    float: right;
+  }
+
   .navigation {
     background: none repeat scroll 0 0 white;
     margin-left: 0;
@@ -195,6 +215,7 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   }
 
   .navheader { 
+    margin-top: 5px;
     font-size: 12px;
   }
 
@@ -205,8 +226,8 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     font-family: lato;
     font-size: 1.2em;
     font-weight: 400;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
     padding-bottom: 0.5em;
   }
 
@@ -214,7 +235,7 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     background: url("/images/menumobile.png") repeat-y;
     display: block;
     float: right;
-    margin-top: 3px;
+    margin-top: 4px;
     height: 12px;
     width: 32px;
   }
@@ -225,13 +246,13 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   .no-js .navigation { display: block; }
 
   .navigation {
-    margin: 0;
     width: 100%;
+    margin: 0;
   }
 
   .navigation li {
+    padding-left: 18px;
     float: none;
-    padding-left:18px;
   }
   
   .navigation li a {
@@ -263,6 +284,10 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     font-size: 28px;
   }
   
+  #home .home-button {
+    display: none;
+  }
+  
 
   /* Red Button */
 
@@ -274,36 +299,11 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     text-align:center;
     font-size:18px;
   }
-  
+
   #time .red-button {
     margin-bottom:40px;
   }
-  
 
-  /* Menu */
-
-  #menu2 {
-    display:none;
-  }
-  
-  #hiddenmenu {
-    background: none repeat scroll 0 0 #B80606;
-    border-bottom: 2px solid #D7D7D7;
-    border-top: 1px solid grey;
-    color: white;
-    display: block;
-    float: right;
-    font-family: 'Lato',sans-serif;
-    font-weight: lighter;
-    margin-top: 0.7em;
-    padding: 0.5em 0 0.1em 0.5em;
-    width: 100%;
-  }
-
-  .submenuhome {
-    position:relative;
-  }
-  
   #cafecomdev-page .about-text,
   #cafecomdev-page .next-event {
     width: 100%;
@@ -403,14 +403,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     width:100%;
     line-height:30px;
     margin-bottom:35px;
-  }
-
-  header.default, .header-spacer-default {
-    height:100px !important;
-  }
-
-  #home .home-button {
-    display:none;
   }
 
 
@@ -682,33 +674,15 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     background: none;
   }
 
-  #hiddenmenu {
-    background: none repeat scroll 0 0 #B80606;
-    border-bottom: 2px solid #B80606;
-    border-top: 1px solid grey;
-    color: white;
-    display: block;
-    float: right;
-    font-family: 'Lato',sans-serif;
-    font-weight: lighter;
-    margin-top: 0.7em;
-    padding: 0.5em 0 0.1em 0.5em;
-    width: 100%;
-  }
-
-  .hemaismobile {
-    border-top: 1px dashed grey;
-  }
-
 
   /* Apoios */
   
   #apoios .cover-apoios {
-      float: left;
-      height: auto;
-      padding-bottom: 50px;
-      padding-top: 0;
-      width: 100%;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    padding-top: 0;
+    float: left;
   }
   
   .cover h2 {
