@@ -350,6 +350,35 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     background-size: 100%;  
   }
   
+  
+  /* Jobs */
+
+  .cover-jobs h2 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .cover-jobs li {
+    margin:10px 0 0 0;
+    display: inline-block;
+  }
+  
+  .he-enviroment article,
+  .he-enviroment img {
+    width: 100%;
+  }
+  
+  .positions-available article {
+    width: 94%;
+    min-height: 0;
+    margin: 5px 0 5px 0;
+    padding-bottom: 30px;
+  }
+  
+  .positions-available .column02 {
+    float: left;
+  }
+  
 
   /* Mailing page*/
 
