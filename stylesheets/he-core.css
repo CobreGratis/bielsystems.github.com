@@ -1786,8 +1786,17 @@ Jobs
   background: #fafafa;
   border-top: 1px solid #f7f7f7;
   border-bottom: 1px solid #f7f7f7;
-  overflow: auto;
-  padding: 30px 0;
+  padding: 30px;
+}
+
+.positions-available:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
 }
 
 #jobs .positions-available h3 {
@@ -1808,56 +1817,38 @@ Jobs
 }
 
 .positions-available article {
-  float: left;
-  width: 48%;
-  margin-right: 4%;
-  background: #fff;
-  padding: 20px 20px 30px;
   border-radius: 4px;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-  box-sizing:border-box;
+  width: 40%;
+  min-height: 190px;
+  margin: 0 2% 0 2%;
+  background: #fff;
+  padding: 2% 3% 3% 3%;
+  float: left;
 }
 
 .positions-available article:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .positions-available article img {
-  float: left;
   margin-right: 20px;
+  float: left;
 }
 
-.positions-available article h4 {
+.positions-available h4 {
   font-size: 1.8em;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.6em;
-  letter-spacing: 0.01em;
-  margin-bottom: 25px;
-  text-transform: none;
   color: #000;
-  padding: 0;
-  margin-bottom: 0;
-  float: left;
-  margin-top: 0px;
+  margin: 0;
 }
 
-#jobs .positions-available .job-description {
-  min-height: 130px;
-  display: block;
-  overflow: auto;
+.positions-available p {
+  font-size: 14px;
+  line-height: 23px;
 }
 
-#jobs .positions-available article p {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 1.1em !important;
-  line-height: 1.8em;
-  color: #606060;
-  float: left;
-}
-
-.positions-available article a {
+.positions-available a {
   padding: 10px 20px;
   margin-top: 20px;
   background-color: #B80606;
@@ -1887,25 +1878,9 @@ Jobs
   padding-top: 0;
 }
 
-#jobs .apprentice-program p {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 1.2em !important;
-  color: #606060;
-}
-
-.about-position {
-  margin-top: 160px;
-}
-
-.about-position h2 {
-  margin-top: 0;
-  padding-top: 0;
-  margin-bottom: 30px;
-}
-
-article.job-description {
-  margin-bottom: 40px;
+.apprentice-program p {
+  font-size: 14px;
+  line-height: 23px;
 }
 
 
