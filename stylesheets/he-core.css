@@ -1898,10 +1898,14 @@ User Profile
 ==================== */
 
 #profile {
-  background: #fbfbfb;
-  background: #fcfcfc;
-  padding-bottom:0px;
-  padding-top: 150px;
+  background: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #f9f9f9)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #fff 0%, #f9f9f9 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #fff 0%, #f9f9f9 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #fff 0%, #f9f9f9 100%); /* IE10+ */
+  background: linear-gradient(top bottom, #fff 0%, #f9f9f9 100%); /* W3C */
+  border-bottom: 1px solid #fff;
+  padding:150px 0 50px 0;
 }
 
 #profile:after {
@@ -1957,17 +1961,16 @@ User Profile
 }
 
 .profile-picture img {
-  margin-top: 20px;
-  border-radius: 6px;
-  width: 100%;
+  width: 94%;
+  padding: 3%;
+  background: #eaeaea;
   height: auto;
+  margin: 10px 0 20px 0;
   display: block;
-  margin-bottom: 50px;
 }
 
-.profile-pic {
-  width:70% !important;
-}
+
+/* Profile Cote */
 
 .profile-cote {
   text-shadow: 1px 1px 1px #810505;
@@ -1977,6 +1980,8 @@ User Profile
   background: -o-linear-gradient(top, #b80606 0%, #9b0505 100%); /* Opera 11.10+ */
   background: -ms-linear-gradient(top, #b80606 0%, #9b0505 100%); /* IE10+ */
   background: linear-gradient(top bottom, #b80606 0%, #9b0505 100%); /* W3C */
+  border-bottom: 10px solid #eaeaea;
+  border-top: 10px solid #eaeaea;
   text-align: center;
   padding: 45px 0 50px 0;
   color: #fff;
@@ -1992,6 +1997,8 @@ User Profile
   font-weight:normal;
   text-align: center;
 }
+
+/*-*/
 
 #related-content {
   margin-top: 50px;
@@ -2107,23 +2114,20 @@ a.profile-facebook {
 /* Pair Button */
 
 #profile .bt {
+  border-radius: 4px;
   background: url('/images/pair-bt.png') 0 0 repeat-x;
-  height: 60px;
-  line-height: 60px;
-  color: #fff;
   font-size: 22px;
+  line-height: 30px;
   padding: 0 20px;
-  display: block;
+  font-family: 'lato', sans-serif;
   width: 480px;
   text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  color: #fff;
   margin: 0 auto;
   clear: both;
-  text-decoration: none;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  font-family: 'lato';
-  text-transform: uppercase;
 }
 
 #profile .bt {
