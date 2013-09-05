@@ -1942,7 +1942,6 @@ User Profile
   line-height: 1.8em;
   font-size: 1.2em;
   color: #474747;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .photo-bio {
@@ -1971,27 +1970,22 @@ User Profile
 }
 
 .profile-cote {
-  background: #D92727;
-  padding: 60px 0 60px 0;
+  text-shadow: 1px 1px 1px #980000;
+  text-align: center;
+  background: #d92727;
+  padding: 45px 0 50px 0;
+  color: #fff;
 }
 
 .cote p {
-  font-size: 3.3em;
-  font-weight: 900;
-  text-align: center;
-  color: #fff;
-  margin-top: 0;
-  text-shadow: 1px 1px 1px #980000;
+  font: 900 3.4em 'lato', sans-serif;
+  margin: 0 0 5px 0;
 }
 
 .signature {
-  font-size: 1.8em;
-  font-weight: 400;
+  font-size: 2.4em;
+  font-weight:normal;
   text-align: center;
-  color: #fff;
-  margin-top: 15px;
-  text-shadow: none;
-  opacity: 0.9;
 }
 
 #related-content {
