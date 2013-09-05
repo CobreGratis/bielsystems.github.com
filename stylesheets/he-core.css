@@ -2858,8 +2858,9 @@ article.mini-bio {
 
 .profile-cote {
   background: #D92727;
-  padding: 60px 0;
+  padding: 60px 0 60px 0;
 }
+
 .cote p {
   font-size: 3.3em;
   font-weight: 900;
