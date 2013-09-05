@@ -3,14 +3,6 @@
 }
 
 
-/* Process */
-
-#process {
-  padding-bottom:60px;
-  padding-top: 62px;
-}
-
-
 /* Cliente */
 
 #cliente {
@@ -27,7 +19,7 @@
   text-transform: uppercase;
 }
 
-#cliente h2, #process h2, #time h2 {
+#cliente h2, #time h2 {
   padding-top: 80px;
   margin:0 0 20px 0;
 }
@@ -37,7 +29,7 @@
   margin:0 0 20px 0;
 }
 
-#cliente .sub, #process .sub {
+#cliente .sub {
   line-height: 46px;
 }
 

@@ -47,13 +47,13 @@ header.default .logo {
   padding-bottom:60px;
 }
 
-#cliente h2, #process h2, #time h2 {
+#cliente h2, #time h2 {
   font-size: 62px;
   padding-top: 50px;
   margin-bottom:10px;
 }
 
-#cliente .sub, #process .sub, #time .sub {
+#cliente .sub, #time .sub {
   line-height: 36px;
   font-size: 20px;
 }
@@ -420,7 +420,7 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     background-image: none;
   }
 
-  #cliente h2, #process h2, #time h2  {
+  #cliente h2, #time h2  {
     font-size: 48px;
     padding-top: 50px !important;
   }
@@ -572,10 +572,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     min-height: 180px;
     float: left;
     margin-right: 20px;
-  }
-
-  #process h2 {
-    padding-top: 150px !important;
   }
 
 
@@ -833,18 +829,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   article.projects-worked img {
     display: none;
   }
-
-
-  /*==========.services li {
-  min-height: 225px;
-}
-
-
-/* Process */
-
-#process {
-  padding-bottom:60px;
-  padding-top: 62px;
 }
 
 
@@ -864,7 +848,7 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   text-transform: uppercase;
 }
 
-#cliente h2, #process h2, #time h2 {
+#cliente h2, #time h2 {
   padding-top: 80px;
   margin:0 0 20px 0;
 }
@@ -874,7 +858,7 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   margin:0 0 20px 0;
 }
 
-#cliente .sub, #process .sub {
+#cliente .sub {
   line-height: 46px;
 }
 

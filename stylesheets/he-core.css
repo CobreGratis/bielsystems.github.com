@@ -479,81 +479,56 @@ a.white-button:hover {
 Process
 ==================== */
 
-#process {
+#process-cover {
   width:100%;
-  background-color:#d92727;
-  background-image: url("/images/bg-process.jpg");
-  background-repeat:repeat;
+  background: #b80606;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b80606), color-stop(100%, #9b0505)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #b80606 0%, #9b0505 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #b80606 0%, #9b0505 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #b80606 0%, #9b0505 100%); /* IE10+ */
+  background: linear-gradient(top bottom, #b80606 0%, #9b0505 100%); /* W3C */
+  text-align: center;
+  margin-top: 95px;
+  margin-bottom: 40px;
+  padding: 50px 0 50px 0;
+  color:#fff;
   float:left;
 }
 
-#process h2 {
-  color:#fff;
+#process-cover h2 {
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
-}
-
-.sub {
-  font-size: 21px;
-  line-height: 35px;
-  margin-bottom: 60px;
   text-transform: uppercase;
-}
-
-#process p.sub {
-  color:#800404;
-}
-
-#process li {
-  width:27.3%;
-  display:block;
-  text-align:center;
-  margin:0 3% 0 3%;
-  float:left;
-}
-
-#process h3 {
-  text-align:center;
-  font-size:22px;
-  font-weight:300;
-  color:#fff;
-}
-
-#process li p {
-  font-size:14px;
-}
-
-.ourprocess {
-  margin-top:65px;
-}
-
-#process ul.different-processes li {
-  width: 65%;
-  margin: 5%;
-}
-
-#process ul.different-processes li:first-child {
-  width: 25%;
-  margin: 0;
-}
-
-#process ul.different-processes li img {
-  width: 100%;
-  margin-left: 40px;
-}
-
-#process ul.different-processes li h3 {
-  font-size:36px;
-  text-align:left;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
-
-#process ul.different-processes li p {
-  text-align:left;
-  margin-top:30px;
-  line-height:28px;
-  font-size:17px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 65px;
   color: #fff;
+}
+
+#process-cover p {
+  font-family: 'Lato', sans-serif;
+  text-transform:uppercase;
+  margin:10px 0 0 0;
+  font-size:26px;
+  color:#ffd8d8;
+}
+
+#process {
+  
+}
+
+#process-info {
+  width: 53%;
+  float: left;
+}
+
+#process-info img {
+  width: 100%;
+}
+
+#process-entry {
+  width: 43%;
+  float: right;
 }
 
 
@@ -1996,6 +1971,7 @@ User Profile
   font-size: 2.4em;
   font-weight:normal;
   text-align: center;
+  color:#ffd8d8;
 }
 
 /*-*/
@@ -2946,72 +2922,6 @@ p.advice {
 #projeto h2 {
   color: #ccc;
 }
-
-/* Processo Interna */
-
-#processo{
-  width:100%;
-  background-color:#fbfbfb;
-
-  background-repeat:repeat;
-  float:left;
-}
-
-#processo h2 {
-  color:#fff;
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
-}
-
-#processo p.sub {
-  color:#800404;
-}
-
-#processo li {
-  width:27.3%;
-  display:block;
-  text-align:center;
-  margin:0 3% 0 3%;
-  float:left;
-}
-
-#processo h3{
-  text-align:center;
-  font-size:22px;
-  font-weight:300;
-  color:#fff;
-}
-
-#processo li p {
-  font-size:14px;
-}
-
-
-.ourprocess {
-  margin-top:65px;
-}
-
-.cover {
-  background-color: #b80606;
-  margin-top: 56px;
-}
-
-.cover h2 {
-  color: #fff;
-  margin-top: 20px;
-  font-size: 120px;
-  font-weight: bold;
-  float: left;
-  padding-top: 40px;
-  text-transform: uppercase;
-}
-
-.apoio-h3 {
-  font-size: 28px;
-  margin: 40px 0;
-}
-
-
-
 
 
 section#about-us {
