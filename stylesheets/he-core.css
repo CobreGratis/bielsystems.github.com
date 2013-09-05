@@ -1970,9 +1970,14 @@ User Profile
 }
 
 .profile-cote {
-  text-shadow: 1px 1px 1px #980000;
+  text-shadow: 1px 1px 1px #810505;
+  background: #b80606;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b80606), color-stop(100%, #9b0505)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #b80606 0%, #9b0505 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #b80606 0%, #9b0505 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #b80606 0%, #9b0505 100%); /* IE10+ */
+  background: linear-gradient(top bottom, #b80606 0%, #9b0505 100%); /* W3C */
   text-align: center;
-  background: #d92727;
   padding: 45px 0 50px 0;
   color: #fff;
 }
