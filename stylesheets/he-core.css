@@ -1994,9 +1994,7 @@ User Profile
 }
 
 #related-content {
-  background: #fff;
-  padding: 50px 0 400px;
-  margin-bottom: 300px;
+  margin-top: 50px;
 }
 
 
@@ -2004,31 +2002,35 @@ User Profile
 
 .blog-posts {
   width: 60%;
+  margin-bottom: 60px;
   float: left;
-  margin-right: 5%;
 }
 
 .blog-posts h2 {
   font-size: 2.6em;
   font-weight: 900;
   color: #474747;
-  margin-bottom: 30px;
+}
+
+.blog-posts li {
+  margin:35px 0 0 0;
+}
+
+.blog-posts h3 {
+  margin:0 0 10px 0;
 }
 
 .blog-posts a {
   font-size: 1.6em;
   font-weight: 400;
   color: #d92727;
-  margin-bottom: 0px;
 }
 
 .blog-posts p {
   margin-top: 10px;
   line-height: 1.8em;
   font-size: 1.2em;
-  color: #474747;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin-bottom: 40px;
+  margin: 0 0 0 0;
 }
 
 
@@ -2036,9 +2038,8 @@ User Profile
 
 .projects-worked {
   width: 30%;
-  float: left;
-  margin-right: 5%;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
+  float: right;
 }
 
 .projects-worked h2 {
@@ -2049,8 +2050,8 @@ User Profile
 }
 
 .projects-worked img {
-  margin-left: -10px;
-  margin-top: 20px;
+  width:100%;
+  margin:20px 0 20px 0;
 }
 
 .projects-worked h3 {
@@ -2062,11 +2063,10 @@ User Profile
 }
 
 .projects-worked p {
-  margin-top: 10px;
+  margin-top: 5px;
   line-height: 1.4em;
   font-size: 1em;
   color: #474747;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 40px;
 }
 
