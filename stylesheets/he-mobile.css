@@ -28,6 +28,19 @@ header.default .logo {
 }
 
 
+/* Process */
+
+#process-cover {
+  margin-top: 80px;
+  padding: 40px 0 40px 0;
+}
+
+#process-entry p {
+  font-size: 12px;
+  line-height: 19px;
+}
+
+
 /* Jobs */
 
 .cover-jobs {
