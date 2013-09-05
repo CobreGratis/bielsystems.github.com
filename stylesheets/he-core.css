@@ -489,7 +489,7 @@ Process
   background: linear-gradient(top bottom, #b80606 0%, #9b0505 100%); /* W3C */
   text-align: center;
   margin-top: 95px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   padding: 50px 0 50px 0;
   color:#fff;
   float:left;
@@ -518,7 +518,7 @@ Process
 }
 
 #process-info {
-  width: 53%;
+  width: 60%;
   float: left;
 }
 
@@ -527,8 +527,25 @@ Process
 }
 
 #process-entry {
-  width: 43%;
+  width: 35%;
+  margin-bottom: 55px;
+  margin-top: -15px;
   float: right;
+}
+
+#process-entry h3 {
+  margin: 15px 0 5px 0;
+  color: #b20000;
+}
+
+#process-entry p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+#process-entry strong {
+  margin:7px 0 0 0;
+  display:inline-block;
 }
 
 
