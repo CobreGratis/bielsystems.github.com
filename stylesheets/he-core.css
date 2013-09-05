@@ -3638,6 +3638,11 @@ article.about-cafe p.free {
   clear: both;
 }
 
+#en-cover {
+  border-top: 1px solid #fff;
+  margin-top: 0;
+}
+
 .cover-clientefeliz h2 {
     color: #FFF;
     font-size: 120px;
