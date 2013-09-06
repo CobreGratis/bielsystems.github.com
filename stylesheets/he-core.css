@@ -581,9 +581,19 @@ Clientes
 HE:pair
 ==================== */
 
+#hepair-logo img {
+  width: 470px;
+  margin: auto;
+}
+
+.sub {
+  text-transform: uppercase;
+  line-height: 30px;
+}
+
 .red-button-pair {
-  width:537px;
-  font-size:19px !important;
+  width: 537px;
+  font-size: 19px !important;
 }
 
 .hepair #fale-conosco .form {
