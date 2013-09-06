@@ -2097,16 +2097,16 @@ User Profile
   opacity: 0.8;
 }
 
-a.profile-twitter {
-  background: url(/images/social-icons/fc-webicon-twitter-s.png) no-repeat;
+.profile-twitter {
+  background: url("/images/social-icons/fc-webicon-twitter-s.png") no-repeat;
 }
 
-a.profile-github {
-  background: url(/images/social-icons/fc-webicon-github-s.png) no-repeat;
+.profile-github {
+  background: url("/images/social-icons/fc-webicon-github-s.png") no-repeat;
 }
 
-a.profile-facebook {
-  background: url(/images/social-icons/fc-webicon-facebook-s.png) no-repeat;
+.profile-facebook {
+  background: url("/images/social-icons/fc-webicon-facebook-s.png") no-repeat;
 }
 
 
