@@ -686,7 +686,27 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 }
 
 
-/* Max Width, 481px  */
+/* Max Width, 581px */
+
+@media (max-width:581px) {
+
+
+.blog-posts {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.projects-worked {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.projects-worked img {
+  width: 280px;
+}
+
+
+/* Max Width, 481px */
 
 @media (max-width:481px) {
   
