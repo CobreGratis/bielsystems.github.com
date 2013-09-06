@@ -546,38 +546,6 @@ Process
 
 
 /* ====================
-Clientes
-==================== */
-
-#cliente {
-  width:100%;
-  border-bottom: 5px solid #b80606;
-  float:left;
-}
-
-#cliente h2, #process h2, #time h2 {
-  width:100%;
-  font-size: 76px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  float:left;
-}
-
-#cliente h2 span {
-  font-size: 100px;
-}
-
-#cliente .sub, #process .sub, #time .sub {
-  font-family: 'lato';
-  font-weight:300;
-  font-size:36px;
-  color:#6d7171;
-  text-align: center;
-}
-
-
-/* ====================
 HE:pair
 ==================== */
 
@@ -872,11 +840,23 @@ Team
   padding-top: 84px;
 }
 
+#time h2 {
+  width:100%;
+  font-size: 76px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  float:left;
+}
+
 #time .sub {
+  font-family: 'lato';
+  font-weight:300;
   font-size:21px;
   margin-top:0;
   margin-bottom: 50px;
   color:#6d7171;
+  text-align: center;
 }
 
 #time ul {
@@ -3613,7 +3593,11 @@ article.about-cafe p.free {
   margin-left: 5px;
 }
 
-/* cliente-feliz */
+
+/* ====================
+Cliente Feliz
+==================== */
+
 #linkvideos {
     background: none repeat scroll 0 0 white;
     box-shadow: 0 4px 8px -3px black;
