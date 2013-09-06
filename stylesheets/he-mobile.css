@@ -175,6 +175,10 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 #cafecomdev-page .line-divisor,
 #cafecomdev-page .line-divisor-3 { width: 100%; }
 
+#hepair-logo img {
+  width: 370px;
+  margin: auto;
+}
 
 
 /* Max Width, 686px  */
@@ -900,6 +904,13 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   article.projects-worked img {
     display: none;
   }
+  
+  
+  #hepair-logo img {
+    width: 270px;
+    margin: auto;
+  }
+   
 }
 
 
