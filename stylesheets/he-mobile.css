@@ -823,11 +823,11 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   }
 
   #mailing-page ul li {
-      border-bottom: 1px dashed #C6C6C6;
-      max-width: 100%;
-      padding-bottom: 2em;
-      padding-top: 2em;
-      width: 100%;
+    border-bottom: 1px dashed #C6C6C6;
+    max-width: 100%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    width: 100%;
   }
 
   #cover.cover-mailing-page{
@@ -880,6 +880,7 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     display: none;
   }
   
+  /*-*/
   
   #hepair-logo img {
     width: 270px;
@@ -889,68 +890,22 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 }
 
 
-/* Cliente */
-
-#cliente {
-  padding-bottom:20px;
-  padding-top: 87px;
-}
-
-#clientefeliz h2 {
-  color: white;
-  font-size: 105px;
-  font-weight: bold;
-  margin: 0 auto;
-  padding-top: 0.8em;
-  text-transform: uppercase;
-}
-
-#cliente h2, #time h2 {
-  padding-top: 80px;
-  margin:0 0 20px 0;
-}
-
-#cliente h2 {
-  padding-top: 40px;
-  margin:0 0 20px 0;
-}
-
-#cliente .sub {
-  line-height: 46px;
-}
-
-#cliente iframe {
-  width:940px; height:467px;
-  border:10px solid #fff;
-}
-
-.diferenciado {
-  width:500px;
-}
-
-.diferenciado .white-button {
-  margin-left:0 !important;
-}
-
-
 /*=====================*/
 /*======= Cloud =======*/
 /*=====================*/
 
-#m-cloud {
-  display:none;
-}===========*/
-  /*======= Apoios =======*/
-  /*=====================*/
+  #m-cloud {
+    display:none;
+  }
 
   #apoios .cover-apoios {
-      float: left;
-      height: auto;
-      margin-bottom: 3em;
-      margin-top: 15px;
-      padding-bottom: 50px;
-      padding-top: 0;
-      width: 100%;
+    float: left;
+    height: auto;
+    margin-bottom: 3em;
+    margin-top: 15px;
+    padding-bottom: 50px;
+    padding-top: 0;
+    width: 100%;
   }
 
   #apoios .cover-apoios h2 {
@@ -990,7 +945,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     float: left;
     margin-right: 0px;
   }
-
 
 
   /*=====================*/
@@ -1036,8 +990,8 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     display:none;
   }
 
-
   #cafecomdev-page .line-divisor {
     width: 100%;
   }
+  
 }
