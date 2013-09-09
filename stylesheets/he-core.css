@@ -9,7 +9,10 @@ em, strong, a, img, ul, li {
   list-style-type:none;
 }
 
-html, body { width:100%;  overflow-x:hidden; }
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
 
 header, footer, aside, nav, article, section {display:block}
 
