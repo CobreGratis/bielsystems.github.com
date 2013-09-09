@@ -250,7 +250,7 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 }
 
 
-/* Max Width, 686px  */
+/* Max Width, 686px */
 
 @media only screen and (max-width: 686px) {
 
@@ -264,7 +264,7 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 
   #hiddenmenu {
     width: 150px;
-    background: none repeat scroll 0 0 #B80606;
+    background: none repeat scroll 0 0 #b80606;
     font-family: 'Lato',sans-serif;
     padding: 3px;
     display: block;
@@ -766,19 +766,20 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 
 @media (max-width:581px) {
 
+  .blog-posts {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 
-.blog-posts {
-  width: 100%;
-  margin-bottom: 50px;
-}
+  .projects-worked {
+    width: 100%;
+    margin-bottom: 0;
+  }
 
-.projects-worked {
-  width: 100%;
-  margin-bottom: 0;
-}
+  .projects-worked img {
+    width: 280px;
+  }
 
-.projects-worked img {
-  width: 280px;
 }
 
 
@@ -796,13 +797,13 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   }
   
   .cover-jobs li {
-    margin:10px 0 0 0;
+    margin: 10px 0 0 0;
     display: inline-block;
   }
   
   #time ul > li {
-    width:44%;
-    margin:0 3% 10px 3%;
+    width: 44%;
+    margin: 0 3% 10px 3%;
   }
 
   .videothumbs li {
@@ -955,16 +956,19 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   /*-*/
   
   #hepair-logo img {
-    width: 270px;
+    width: 200px;
     margin: auto;
   }
-   
-}
+  
+  .hepair-entry .sub {
+    font-size: 16px !important;
+    line-height: 26px !important;
+  }
 
 
-/*=====================*/
-/*======= Cloud =======*/
-/*=====================*/
+  /*=====================*/
+  /*======= Cloud =======*/
+  /*=====================*/
 
   #m-cloud {
     display:none;
