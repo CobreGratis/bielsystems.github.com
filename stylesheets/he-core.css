@@ -3744,9 +3744,7 @@ Cliente Feliz
 
 #cliente-feliz,
 #happy-costumer {
-    background: url("/images/cloud-bg.jpg") no-repeat scroll center top #EFEFEF;
-    float: left;
-    width: 100%;
+    background: #efefef url("/images/bg-time.png") top center no-repeat;
 }
 
 .cover-clientefeliz {
