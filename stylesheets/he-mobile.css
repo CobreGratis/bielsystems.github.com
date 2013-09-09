@@ -125,35 +125,22 @@ header.default .logo {
   margin-top: 80px;
 }
 
-#cliente {
-  padding-bottom:60px;
-}
-
-#cliente h2, #time h2 {
-  font-size: 62px;
-  padding-top: 50px;
-  margin-bottom:10px;
-}
-
-#cliente .sub, #time .sub {
-  line-height: 36px;
-  font-size: 20px;
-}
-
-#cliente iframe {
-  width:690px; height:343px;
-  border:5px solid #fff;
-}
-
-.js-client-videos-chooser a {
-  margin-right: 10px;
-}
-
 
 /* Time */
 
 #time ul > li {
   margin:0 8px 30px 7px;
+}
+
+#time h2 {
+  font-size: 62px;
+  padding-top: 50px;
+  margin-bottom:10px;
+}
+
+#time .sub {
+  line-height: 36px;
+  font-size: 20px;
 }
 
 
@@ -174,7 +161,6 @@ header.default .logo {
 #talk-to-us .sub {
   font-size: 21px;
 }
-
 
 
 /*=====================*/
@@ -543,21 +529,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     margin-top: 60px;
   }
 
-  #cliente {
-    background-image: none;
-  }
-
-  #cliente h2, #time h2  {
-    font-size: 48px;
-    padding-top: 50px !important;
-  }
-
-  #cliente iframe {
-    width:100%;
-    box-shadow:none;
-    border:none;
-  }
-
   .thumbs {
     display: none;
   }
@@ -567,6 +538,11 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 
   #time {
     padding-bottom:20px !important;
+  }
+  
+  #time h2  {
+    font-size: 48px;
+    padding-top: 50px !important;
   }
 
   #time ul > li {
