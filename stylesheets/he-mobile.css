@@ -1,13 +1,3 @@
-@viewport{
-    zoom: 1.0;
-    width: extend-to-zoom;
-}
-
-@-ms-viewport{
-    width: extend-to-zoom;
-    zoom: 1.0;
-}
-
 .containner {
   width:700px;
 }
@@ -28,7 +18,7 @@ header.default .logo {
 }
 
 .services li {
-  width:90%;
+  width: 90%;
   padding: 25px 5% 30px 5% !important;
   margin: 1px 0 0 0 !important;
 }
