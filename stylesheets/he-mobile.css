@@ -423,6 +423,11 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     text-align: center;
   }
   
+  #process-info p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
   #process-info img {
     width: 85%;
   }
@@ -438,7 +443,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   }
 
   
-
   /* Mailing page*/
 
   .cover-mailing-page {

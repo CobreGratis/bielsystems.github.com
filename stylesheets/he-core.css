@@ -526,14 +526,140 @@ Process
   color:#ffd8d8;
 }
 
+
+/* Process Info */
+
+@-moz-keyframes slidein {
+  from {
+    margin-left:-20px;
+    opacity:0;
+  }
+  to {
+    margin-left:0;
+    opacity:10;
+  }
+}
+
+@-webkit-keyframes slidein {
+  from {
+    margin-left:-20px;
+    opacity:0;
+  }
+  to {
+    margin-left:0;
+    opacity:10.0;
+  }
+}
+
 #process-info {
   width: 60%;
+  position: relative;
   float: left;
 }
 
 #process-info img {
   width: 100%;
 }
+
+#process-info > div {
+  -webkit-animation-duration: .4s;
+  -moz-animation-duration: .4s;
+  -ms-animation-duration: .4s;
+  -o-animation-duration: .4s;
+  animation-duration: .4s;
+  -moz-animation-name: slidein;
+  -webkit-animation-name: slidein;
+
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+ 
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation-timing-function: ease-in;
+  -o-animation-timing-function: ease-in;
+  
+  height: 40px;
+  background: #b20000;
+  position: absolute;
+  color: #fff;
+  z-index: 400;
+}
+
+#process-info span {
+  width: 30px;
+  height: 34px;
+  font-size: 19px;
+  text-align: center;
+  background: #e03145;
+  margin-right: 7px;
+  padding: 6px 0 0 0;
+  float: left;
+}
+
+#process-info p {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.proc-desc-01 {
+  width: 165px;
+  left:0; top:115px;
+}
+
+.proc-desc-01 p {
+  margin: 4px 0 0 0;
+}
+
+.proc-desc-02 {
+  width: 157px;
+  left: 142px; top: 180px;
+}
+
+.proc-desc-02 p {
+  margin: 4px 0 0 0;
+}
+
+.proc-desc-03 {
+  width: 172px;
+  left: 165px; top: 40px;
+}
+
+.proc-desc-03 p {
+  margin: 4px 0 0 0;
+}
+
+.proc-desc-04 {
+  width: 145px;
+  right: -20px; top: 55px;
+}
+
+.proc-desc-04 p {
+  margin: 12px 0 0 0;
+}
+
+.proc-desc-05 {
+  width: 100px;
+  right: -20px; bottom: 245px;
+}
+
+.proc-desc-05 p {
+  margin: 12px 0 0 0;
+}
+
+.proc-desc-06 {
+  width: 100px;
+  left:280px; bottom:85px;
+}
+
+.proc-desc-06 p {
+  margin: 4px 0 0 0;
+}
+
+
+/* Process Entry */
 
 #process-entry {
   width: 35%;
