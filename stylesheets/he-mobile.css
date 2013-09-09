@@ -40,6 +40,71 @@ header.default .logo {
   line-height: 19px;
 }
 
+#process-info > div {
+  width:30px;
+  position: absolute;
+}
+
+#process-info span {
+  width: 30px;
+  height: 34px;
+  margin-right: 0;
+  padding: 6px 0 0 0;
+}
+
+#process-info p {
+  display: none;
+}
+
+/*-*/
+
+.proc-desc-01 {
+  left: 30px; top: 72px;
+}
+
+.proc-desc-02 {
+  left: 125px; top: 135px;
+}
+
+.proc-desc-03 {
+  left: 140px; top: 20px;
+}
+
+.proc-desc-04 {
+  right: 40px; top: 15px;
+}
+
+.proc-desc-05 {
+  right: 25px; bottom: 440px;
+}
+
+.proc-desc-06 {
+  left: 250px; bottom: 345px;
+}
+
+/*-*/
+
+#tablet-descriptions {
+  margin: 50px 0 0 0;
+  display: block;
+}
+
+#tablet-descriptions strong {
+  color:#b20000;
+}
+
+#tablet-descriptions li {
+  padding: 10px 0 10px 0;
+  border-top: 1px solid #eaeaea;
+  font-size: 14px;
+  display: block;
+}
+
+#tablet-descriptions li:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+
 
 /* Jobs */
 
@@ -423,13 +488,8 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     text-align: center;
   }
   
-  #process-info > div {
+  #process-info > div, #tablet-descriptions {
     display: none;
-  }
-  
-  #process-info p {
-    font-size: 12px;
-    line-height: 15px;
   }
 
   #process-info img {

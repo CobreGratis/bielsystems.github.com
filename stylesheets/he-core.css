@@ -658,6 +658,12 @@ Process
   margin: 4px 0 0 0;
 }
 
+/*-*/
+
+#tablet-descriptions {
+  display: none;
+}
+
 
 /* Process Entry */
 
