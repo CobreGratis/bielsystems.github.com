@@ -28,12 +28,29 @@ header.default .logo {
 }
 
 
-/* Process */
+/* ====================
+Cover
+==================== */
 
-#process-cover {
+#cover-banner {
   margin-top: 80px;
   padding: 40px 0 40px 0;
 }
+
+
+/* HE:pair */
+
+#hepair-page {
+  margin-top: 130px;
+}
+
+#hepair-logo img {
+  width: 370px;
+  margin: auto;
+}
+
+
+/* Process */
 
 #process-entry li {
   font-size: 12px;
@@ -106,41 +123,10 @@ header.default .logo {
 }
 
 
-/* Jobs */
-
-.cover-jobs {
-  margin-top: 80px;
-  padding: 40px 0 40px 0;
-}
-
-.cover-jobs h2 {
-  font-size: 52px;
-  line-height: 55px;
-}
-
-
-/* Cliente */
-
-.cover-clientefeliz {
-  margin-top: 80px;
-}
-
-
 /* Time */
 
 #time ul > li {
   margin:0 8px 30px 7px;
-}
-
-#time h2 {
-  font-size: 62px;
-  padding-top: 50px;
-  margin-bottom:10px;
-}
-
-#time .sub {
-  line-height: 36px;
-  font-size: 20px;
 }
 
 
@@ -229,11 +215,6 @@ article.about-cafe h2,
 section.latest-cafes-dev h2 { font-size: 20px; }
 #cafecomdev-page .line-divisor,
 #cafecomdev-page .line-divisor-3 { width: 100%; }
-
-#hepair-logo img {
-  width: 370px;
-  margin: auto;
-}
 
 
 /* Max Width, 686px */
@@ -366,6 +347,40 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     margin:0 2px 0 2px;
   }
   
+  
+  /* Cover Banner */
+
+  #cover-banner {
+    margin-top: 60px;
+  }
+
+  #cover-banner h2 {
+    font-size: 32px;
+    line-height: 35px;
+  } 
+  
+  #cover-banner p {
+    font-size: 17px;
+    margin: 10px 0 0 0;
+  }
+  
+  
+  /* HE:pair */
+  
+  #hepair-page {
+    margin-top: 60px;
+  }
+  
+  #hepair-logo img {
+    width: 240px;
+    margin: auto;
+  }
+  
+  #hepair-page .sub {
+    font-size: 16px !important;
+    line-height: 26px !important;
+  }
+  
 
   /* Red Button */
 
@@ -430,15 +445,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   
   /* Jobs */
   
-  .cover-jobs {
-    margin-top:60px;
-  }
-
-  .cover-jobs h2 {
-    font-size: 32px;
-    line-height: 35px;
-  }
-  
   .he-enviroment article,
   .he-enviroment img {
     width: 100%;
@@ -457,20 +463,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   
 
   /* Process */
-
-  #process-cover {
-    margin-top: 60px;
-  }
-  
-  #process-cover h2 {
-    font-size: 32px;
-    line-height: 35px;
-  }
-  
-  #process-cover p {
-    font-size: 17px;
-    margin: 10px 0 0 0;
-  }
   
   #process-info {
     width: 100%;
@@ -524,10 +516,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 
 
   /* Cliente */
-  
-  .cover-clientefeliz {
-    margin-top: 60px;
-  }
 
   .thumbs {
     display: none;
@@ -810,21 +798,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   }
 
 
-  /* Apoios */
-  
-  #apoios .cover-apoios {
-    width: 100%;
-    height: auto;
-    padding-bottom: 50px;
-    padding-top: 0;
-    float: left;
-  }
-  
-  .cover h2 {
-    font-size:80px;
-  }
-
-
   /* Mailling Page */
   
   #mailing-page ul li p {
@@ -934,18 +907,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   .thumbs {
     display: none;
   }
-  
-  /*-*/
-  
-  #hepair-logo img {
-    width: 200px;
-    margin: auto;
-  }
-  
-  .hepair-entry .sub {
-    font-size: 16px !important;
-    line-height: 26px !important;
-  }
 
 
   /*=====================*/
@@ -954,20 +915,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 
   #m-cloud {
     display:none;
-  }
-
-  #apoios .cover-apoios {
-    float: left;
-    height: auto;
-    margin-bottom: 3em;
-    margin-top: 15px;
-    padding-bottom: 50px;
-    padding-top: 0;
-    width: 100%;
-  }
-
-  #apoios .cover-apoios h2 {
-    font-size:80px;
   }
 
 
@@ -1012,7 +959,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   #cover.cover-workshops {
     height: 260px;
     margin-top: 0;
-
   }
 
   #workshops #cover.cover-workshops h2 {
