@@ -121,6 +121,10 @@ header.default .logo {
 
 /* Cliente */
 
+.cover-clientefeliz {
+  margin-top: 80px;
+}
+
 #cliente {
   padding-bottom:60px;
 }
