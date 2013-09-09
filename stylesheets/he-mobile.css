@@ -35,7 +35,7 @@ header.default .logo {
   padding: 40px 0 40px 0;
 }
 
-#process-entry p {
+#process-entry li {
   font-size: 12px;
   line-height: 19px;
 }
@@ -429,10 +429,10 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   
   #process-entry {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
-  #process-entry p {
+  #process-entry li {
     font-size: 14px;
     line-height: 22px;
   }
