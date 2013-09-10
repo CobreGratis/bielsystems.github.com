@@ -130,6 +130,16 @@ Cover
 }
 
 
+/* Open Source */
+
+.gems-list li {
+  width: 96%;
+  margin-right: 0;
+  margin-left: 0;
+  height: auto;
+}
+
+
 /* Fale Conosco */
 
 #fale-conosco h2,
