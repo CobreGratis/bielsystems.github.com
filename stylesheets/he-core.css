@@ -26,8 +26,8 @@ body {
   font-family: inherit;
   vertical-align: baseline;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  color:rgb(71, 60, 60);
+  font-size: 14px;
+  color: rgb(71, 60, 60);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -708,6 +708,7 @@ Process
   width: 35%;
   margin-bottom: 60px;
   margin-top: -15px;
+  font-size: 13px;
   float: right;
 }
 
@@ -745,25 +746,6 @@ Cliente Feliz
   clear: both;
   height: 0;
   min-height: 0;
-}
-
-#linkvideos {
-  width: 27%;
-  background: none repeat scroll 0 0 white;
-  box-shadow: 0 4px 8px -3px black;
-  margin-bottom: 2em;
-  margin-left: 3%;
-  margin-top: 2em;
-  opacity: 1;
-  text-align: center;
-  float: left;
-}
-
-#linkvideos a {
-  display: block;
-  float: left;
-  height: 100%;
-  width: 100%;
 }
 
 .videothumbs {
@@ -1005,7 +987,7 @@ Team
 #time {
   background: #efefef url("/images/bg-time.png") top center no-repeat;
   padding-top: 10px;
-  padding-bottom:60px;
+  padding-bottom: 60px;
 }
 
 #time h2 {
@@ -1790,115 +1772,91 @@ Apoios
 Open Source
 ==================== */
 
-#cover.cover-open-source {
-  background-color:#B80606;
-  height: 320px;
-}
-
-.cover-open-source h2 {
-  padding-top:140px;
-  color: #FFFFFF;
-  font-size: 100px;
-  font-weight: bold;
-  letter-spacing: 0.02em;
-  text-transform: none;
-}
-
 #open-source {
-  padding-bottom:70px;
+  background: #efefef url("/images/bg-time.png") top center no-repeat;
+  line-height: 23px;
+  padding-top: 45px;
+  padding-bottom: 35px;
 }
 
-#open-source h3 {
-  font-size:28px;
-  margin:40px 0;
-}
-
-#open-source ul li {
-  list-style:none;
-  width: 290px;
-  height: 150px;
-  float:left;
-  display:block;
-  margin-bottom: 10px;
-  padding: 20px 30px 8px 0;
-}
-
-#open-source ul li span, #open-source span {
-  font-size:23px;
-  font-weight:300;
-  color:#888;
-}
-
-#open-source ul li a h4, a h4 {
-  font-size:23px;
-  font-weight:400;
-  color:#b80606;
-  margin-bottom:5px;
-}
-
-#open-source a:hover img {
-  opacity:0.9;
-}
-
-#open-source a {
-  text-decoration:none;
-  border:0;
-  color:#b80606;
-}
-
-#open-source a:hover {
-  text-decoration:underline;
-  border:0;
+#open-source h4 {
+  font-weight: normal;
+  font-size: 23px;
 }
 
 #open-source p {
-  font-size:16px;
-  font-weight: 300;
-  line-height:26px;
-  font-size:16px !important;
-  color: #6a6a6a;
-  margin-top: 10px;
+  margin:0;
 }
+
+#open-source a {
+  text-decoration: none;
+  color: #b80606;
+}
+
+#open-source a:hover {
+  text-decoration: underline;
+}
+
+
+/* Highlight Projects */
 
 .high-light-projects {
-  overflow: auto;
+  margin:0 0 35px 0;
 }
 
-.high-light-projects article {
-  background: #F8F8F8;
-  margin-top: 30px;
-  width: 40%;
-  margin-right: 5%;
+.high-light-projects:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
+}
+
+.high-light-projects div {
+  box-shadow: 0 4px 8px -3px #d8d8d8;
+  width: 44%;
+  background: #f8f8f8;
+  padding: 2%;
+  min-height: 260px;
+  float: right;
+}
+
+.high-light-projects div:first-child {
   float: left;
-  padding: 20px;
-  min-height: 270px;
 }
 
-.high-light-projects article:last-child {
-  margin-right: 0;
+.high-light-projects h4 {
+  margin: 20px 0 10px 0;
 }
 
-.high-light-projects article img {
-  margin-bottom: 20px;
+.high-light-projects img {
   width: 100%;
 }
 
-#open-source span {
-  font-size: 16px;
-  font-weight:400;
-  color:#888;
-  float: left;
-}
+
+/* Gems List */
 
 .gems-list {
-  margin-top:40px;
+  text-align: center;
 }
 
 .gems-list li {
-  width: 28% !important;
-  min-height: 180px;
-  display:inline-block;
-  margin:0 1% 0 1%;
+  box-shadow: 0 4px 8px -3px #d8d8d8;
+  width: 27%;
+  background: none repeat scroll 0 0 white;
+  margin: 10px 1% 10px 1%;
+  padding: 2%;
+  display: inline-block;
+  text-align: left;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.gems-list h4 {
+  font-weight:normal;
+  margin: 0 0 5px 0;
 }
 
 

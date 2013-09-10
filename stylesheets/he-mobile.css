@@ -641,37 +641,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   }
 
 
-  /* Open Source */
-
-  #cover.cover-open-source {
-    height: 260px;
-  }
-
-  #cover.cover-open-source h2 {
-    font-size: 80px;
-    padding-top: 140px;
-  }
-
-  #open-source section.high-light-projects article {
-    margin-right: 1%;
-    width: 47%;
-    padding: 5px;
-  }
-
- #open-source ul.gems-list {
-    margin-top: 50px;
-    width: 100%;
-    margin-left: 0px;
-  }
-
-  #open-source ul.gems-list li {
-    width: 40%;
-    min-height: 180px;
-    float: left;
-    margin-right: 20px;
-  }
-
-
   /* workshops */
 
   #workshops #cover.cover-workshops {
@@ -910,49 +879,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 
 
   /*=====================*/
-  /*======= Cloud =======*/
-  /*=====================*/
-
-  #m-cloud {
-    display:none;
-  }
-
-
-  /*=====================*/
-  /*======= opensource =======*/
-  /*=====================*/
-
-  #cover.cover-open-source {
-    height: 260px;
-  }
-
-  #cover.cover-open-source h2 {
-    font-size: 40px;
-    padding-top: 160px;
-  }
-
-  #open-source section.high-light-projects article {
-    margin-right: 0;
-    width:90%;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-
-  #open-source ul.gems-list {
-    margin-top: 50px;
-    width: 100%;
-    margin-left: 0px;
-  }
-
-  #open-source ul.gems-list li {
-    width: 90%;
-    min-height: 180px;
-    float: left;
-    margin-right: 0px;
-  }
-
-
-  /*=====================*/
   /*======= workshops =======*/
   /*=====================*/
 
@@ -968,10 +894,15 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   ul.right-workshops a {
     width: 160px;
   }
+  
 
   /*=====================*/
   /*======= Cloud =======*/
   /*=====================*/
+  
+  #m-cloud {
+    display:none;
+  }
 
   #cloud .cover-cloud {
     background:none;
