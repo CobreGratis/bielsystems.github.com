@@ -1785,7 +1785,7 @@ Open Source
 }
 
 #open-source p {
-  margin:0;
+  margin: 0;
 }
 
 #open-source a {
@@ -1804,7 +1804,7 @@ Open Source
   margin:0 0 35px 0;
 }
 
-.high-light-projects:after {
+.high-light-projects:after, .gems-list:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -1845,10 +1845,11 @@ Open Source
 .gems-list li {
   box-shadow: 0 4px 8px -3px #d8d8d8;
   width: 27%;
+  height: 150px;
   background: none repeat scroll 0 0 white;
   margin: 10px 1% 10px 1%;
   padding: 2%;
-  display: inline-block;
+  float: left;
   text-align: left;
   font-size: 13px;
   line-height: 21px;
