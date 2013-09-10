@@ -1823,7 +1823,7 @@ Open Source
   padding: 20px 30px 8px 0;
 }
 
-#open-source ul li span,#open-source span {
+#open-source ul li span, #open-source span {
   font-size:23px;
   font-weight:300;
   color:#888;
@@ -1836,7 +1836,7 @@ Open Source
   margin-bottom:5px;
 }
 
-#open-source a img:hover{
+#open-source a:hover img {
   opacity:0.9;
 }
 
@@ -1860,17 +1860,11 @@ Open Source
   margin-top: 10px;
 }
 
-#open-source hr{
-  margin-top:50px;
-  border:0;
-  border-top:none;
-}
-
-section.high-light-projects {
+.high-light-projects {
   overflow: auto;
 }
 
-section.high-light-projects article {
+.high-light-projects article {
   background: #F8F8F8;
   margin-top: 30px;
   width: 40%;
@@ -1880,11 +1874,11 @@ section.high-light-projects article {
   min-height: 270px;
 }
 
-section.high-light-projects article:last-child {
+.high-light-projects article:last-child {
   margin-right: 0;
 }
 
-section.high-light-projects article img {
+.high-light-projects article img {
   margin-bottom: 20px;
   width: 100%;
 }
@@ -1896,15 +1890,15 @@ section.high-light-projects article img {
   float: left;
 }
 
-#open-source ul.gems-list {
-  margin-top: 50px;
-  width: 90%;
-  margin-left: 20px;
+.gems-list {
+  margin-top:40px;
 }
 
-#open-source ul.gems-list li {
-  width: 30%;
+.gems-list li {
+  width: 28% !important;
   min-height: 180px;
+  display:inline-block;
+  margin:0 1% 0 1%;
 }
 
 
