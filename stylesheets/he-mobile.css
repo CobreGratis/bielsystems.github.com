@@ -754,6 +754,17 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     width: 44%;
     margin: 0 3% 10px 3%;
   }
+  
+  .high-light-projects div {
+    width: 96%;
+    padding: 2%;
+    min-height: 0;
+    float: left;
+  }
+  
+  .high-light-projects div:first-child {
+    margin-bottom: 20px;
+  }
 
   .videothumbs li {
     width: 90%;
