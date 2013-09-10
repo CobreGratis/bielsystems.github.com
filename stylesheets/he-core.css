@@ -509,6 +509,11 @@ Cover
   color: #fff;
 }
 
+#cover-banner.en-cover {
+  margin-top: 0 !important;
+  border-top: 1px solid #fff;
+}
+
 #cover-banner h2 {
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
