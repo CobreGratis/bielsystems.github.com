@@ -484,12 +484,12 @@ Error 404
 }
 
 .error h1{
-  margin-top:-250px;
-  font-size:250px;
+  margin-top: -250px;
+  font-size: 250px;
   font-style: italic;
-  color:grey;
-  opacity:0.1;
-  top:15px;
+  color: grey;
+  opacity :0.1;
+  top: 15px;
 }
 
 .error h6{
@@ -1294,6 +1294,53 @@ User Profile
 }
 
 
+/* Social Icons */
+
+.social-links {
+  margin-top: 30px;
+}
+
+.social-links a {
+  height: 30px;
+  text-decoration: none;
+  background: url("/images/profile-social.png") no-repeat;
+  padding-left: 35px;
+  line-height: 30px;
+  margin-right: 20px;
+  color: #8e8c8e;
+  float: left;
+}
+
+.profile-twitter {
+  background-position: 0 0 !important;
+}
+
+.profile-dribbble {
+  background-position: 0 -30px !important;
+}
+
+.profile-github {
+  background-position: 0 -60px !important;
+}
+
+.profile-facebook {
+  background-position: 0 -90px !important;
+}
+
+.profile-behance {
+  background-position: 0 -120px !important;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 240dpi) {
+  .social-links a {
+      background: url("/images/profile-social@2x.png") left no-repeat;
+      background-size: 30px 150px;
+  }
+}
+
+
 /* User Posts */
 
 .blog-posts {
@@ -1364,39 +1411,6 @@ User Profile
   font-size: 1em;
   color: #474747;
   margin-bottom: 40px;
-}
-
-
-/* Social Icons */
-
-.social-links {
-  margin-top: 30px;
-}
-
-.social-links a {
-  height: 40px;
-  color: #d92727;
-  float: left;
-  padding-left:25px;
-  font-size: 1em;
-  text-decoration: none;
-  margin-right: 20px;
-}
-
-.social-links a:hover {
-  opacity: 0.8;
-}
-
-.profile-twitter {
-  background: url("/images/social-icons/fc-webicon-twitter-s.png") no-repeat;
-}
-
-.profile-github {
-  background: url("/images/social-icons/fc-webicon-github-s.png") no-repeat;
-}
-
-.profile-facebook {
-  background: url("/images/social-icons/fc-webicon-facebook-s.png") no-repeat;
 }
 
 
