@@ -782,8 +782,8 @@ Cliente Feliz
 
 .videothumbs h3 {
   margin: 10px 0 0 0;
-  font-size:14px;
-  color:#b80606;
+  font-size: 14px;
+  color: #b80606;
 }
 
 .videothumbs p {
@@ -990,26 +990,6 @@ Team
   padding-bottom: 60px;
 }
 
-#time h2 {
-  width:100%;
-  font-size: 76px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  float:left;
-}
-
-#time .sub {
-  font-family: 'lato';
-  font-weight:300;
-  font-size:21px;
-  text-transform:uppercase;
-  margin-top:0;
-  margin-bottom: 50px;
-  color:#6d7171;
-  text-align: center;
-}
-
 #time ul {
   width:100%;
   margin-top:50px;
@@ -1029,17 +1009,15 @@ Team
 
 #time ul > li {
   width:160px;
-  margin:0 10px 40px 20px;
+  margin:0 10px 20px 20px;
   position:relative;
   display:inline-block;
   color:#333;
 }
 
-#time p {
-  text-align:center;
-  font-size:16px;
-  line-height:19px;
-  margin:7px 0 0 0;
+#time h3 {
+  font-size: 14px;
+  margin: 7px 0 0 0;
 }
 
 #time a {
@@ -1051,68 +1029,68 @@ Team
   color:#fff !important;
 }
 
-#time span {
-  text-transform:uppercase;
-  margin-top:5px;
-  font-size:11px;
-  color:#a5a5ac;
+#time p {
+  margin-top: 2px;
+  font-size: 12px;
+  color: #8c8c8c;
 }
 
 #time ul > li img, #time ul > li a img {
-  width:160px; height:160px;
-  background:#fff;
-}
-
-#time ul > li > a {
-  color: #333;
-  text-decoration: underline;
+  width: 160px; height: 160px;
+  background: #fff;
 }
 
 .social-icons {
-  width:26px !important;
-  position:absolute;
+  width: 26px !important;
+  position: absolute;
   right:0; top:0;
-  z-index:200;
+  z-index: 200;
+  float: right;
 }
 
 .social-icons li {
-  width:26px !important; height:26px;
-  margin:0 0 1px 0 !important;
+  width: 26px !important; height: 26px;
+  margin: 1px 0 0 0 !important;
+  float: right;
+}
+
+.social-icons li:first-child {
+  margin: 0 !important;
 }
 
 .social-icons a {
-  width:26px; height:26px;
-  text-indent:-9999px;
-  opacity: .5;
-  float:right;
+  width: 26px !important; height: 26px;
+  text-indent: -9999px;
+  opacity: .7;
+  float: right;
 }
 
 .twitter, .dribbble, .soundcloud, .github, .behance {
-  background:#000 url("/images/sprite-social-icons.png") left no-repeat;
+  background: #000 url("/images/sprite-social-icons.png") left no-repeat;
 }
 
 .twitter {
-  background-position:0 0;
+  background-position: 0 0;
 }
 
 .dribbble {
-  background-position:-26px 0;
-}
-
-.behance {
-  background-position: -102px 0;
+  background-position: -26px 0;
 }
 
 .soundcloud {
-  background-position:-52px 0;
+  background-position: -52px 0;
 }
 
 .github {
-  background-position:-78px 0;
+  background-position: -78px 0;
+}
+
+.behance {
+  background-position: -104px 0;
 }
 
 .social-icons a:hover {
-  opacity: .8;
+  opacity: 1;
 }
 
 
