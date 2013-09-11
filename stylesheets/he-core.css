@@ -502,10 +502,9 @@ Cover
 }
 
 #cover-banner p {
-  text-transform:uppercase;
-  margin:10px 0 0 0;
-  font-size:22px;
-  color:#ffd8d8;
+  text-transform: uppercase;
+  margin: 10px 0 0 0;
+  font-size: 22px;
 }
 
 #cover-banner a {
