@@ -405,12 +405,13 @@ Home
 }
 
 .services li {
-  width:27.2%;
-  background-color:#fff;
-  margin-left:1px;
-  display:inline-block;
-  line-height:20px;
-  padding:30px 3% 0 3%;
+  width: 27.2%;
+  background-color: #fff;
+  margin-left: 1px;
+  display: inline-block;
+  line-height: 20px;
+  padding: 30px 3% 0 3%;
+  min-height: 225px;
   float:left;
 }
 
@@ -3979,4 +3980,932 @@ section.apply-positions p {
   font-size: 10px;
   margin: 0;
   text-transform: uppercase;
+}
+
+
+/* Max Width, 960px */
+
+@media (max-width:960px) {
+
+  .containner {
+    width:700px;
+  }
+
+  header.default .logo {
+    width:155px;
+  }
+
+  #menu2 {
+    margin-top:17px;
+  }
+
+
+  /* Home */
+
+  #home {
+    padding-top: 150px;
+  }
+
+  .services li {
+    width: 90%;
+    height:auto !important;
+    min-height:auto !important;
+    padding: 25px 5% 30px 5% !important;
+    margin: 1px 0 0 0 !important;
+  }
+
+  .services li:first-child {
+    margin-top: 0 !important;
+  }
+
+
+  /* ====================
+  Cover
+  ==================== */
+
+  #cover-banner {
+    margin-top: 80px;
+    padding: 40px 0 40px 0;
+  }
+
+
+  /* HE:pair */
+
+  #hepair-page {
+    margin-top: 130px;
+  }
+
+  #hepair-logo img {
+    width: 370px;
+    margin: auto;
+  }
+
+
+  /* Process */
+
+  #process-entry li {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  #process-info > div {
+    width:30px;
+    position: absolute;
+  }
+
+  #process-info span {
+    width: 30px;
+    height: 34px;
+    margin-right: 0;
+    padding: 6px 0 0 0;
+  }
+
+  #process-info p {
+    display: none;
+  }
+
+  /*-*/
+
+  .proc-desc-01 {
+    left: 30px; top: 72px;
+  }
+
+  .proc-desc-02 {
+    left: 125px; top: 135px;
+  }
+
+  .proc-desc-03 {
+    left: 140px; top: 20px;
+  }
+
+  .proc-desc-04 {
+    right: 40px; top: 15px;
+  }
+
+  .proc-desc-05 {
+    right: 25px; bottom: 440px;
+  }
+
+  .proc-desc-06 {
+    left: 250px; bottom: 345px;
+  }
+
+  /*-*/
+
+  #tablet-descriptions {
+    margin: 50px 0 0 0;
+    display: block;
+  }
+
+  #tablet-descriptions strong {
+    color: #b20000;
+  }
+
+  #tablet-descriptions li {
+    padding: 10px 0 10px 0;
+    border-top: 1px solid #eaeaea;
+    font-size: 14px;
+    display: block;
+  }
+
+  #tablet-descriptions li:first-child {
+    padding-top: 0;
+    border-top: none;
+  }
+
+
+  /* Open Source */
+
+  .gems-list li {
+    width: 96%;
+    margin-right: 0;
+    margin-left: 0;
+    height: auto;
+  }
+
+
+  /* Fale Conosco */
+
+  #fale-conosco h2,
+  #talk-to-us h2 {
+    font-size: 90px;
+    line-height: 90px;
+  }
+
+  #fale-conosco .pre,
+  #talk-to-us .pre {
+    font-size: 23px;
+  }
+
+  #fale-conosco .sub,
+  #talk-to-us .sub {
+    font-size: 21px;
+  }
+
+
+  /*=====================*/
+  /*== Workshops ==*/
+  /*=====================*/
+
+  #workshops .left {
+    width:100%;
+  }
+
+  #workshops .right {
+    width:100%;
+    border-bottom:5px solid #b80606;
+    padding-bottom:20px;
+    float:left;
+  }
+
+  #workshops form {
+    width:90%;
+    background:#f8f8f8;
+    padding:5%;
+  }
+
+  #workshops input[type="text"] {
+    width:94%;
+    padding:0 3% 0 3%;
+    margin-right:0;
+    margin-bottom:10px;
+    font-size:14px;
+  }
+
+  #workshops textarea {
+    width:94% !important;
+    padding:3%;
+    line-height:22px;
+    margin-top:0;
+    font-size:14px;
+  }
+
+
+  /*=====================*/
+  /*======= Cloud =======*/
+  /*=====================*/
+
+  #m-cloud {
+    width:100%;
+    padding-top:120px;
+    display:block;
+  }
+
+  #cloud .cover-cloud h2 {
+    display:none;
+  }
+
+  .step-list img {
+    width:25%; height:25%;
+  }
+
+  .step-content {
+    width:500px !important;
+  }
+
+  article.about-cafe { padding: 50px 10px 30px; }
+  section.latest-cafes-dev { padding: 40px 10px; }
+  article.about-cafe h2,
+  section.latest-cafes-dev h2 { font-size: 20px; }
+  #cafecomdev-page .line-divisor,
+  #cafecomdev-page .line-divisor-3 { width: 100%; }
+  
+}
+
+
+/* Max Width, 686px */
+
+@media only screen and (max-width: 686px) {
+  
+  .containner {
+    width: 90%;
+    padding: 0 5% 0 5%;
+  }
+
+  header.default .logo {
+    width:100px;
+  }
+
+  #menu2 {
+    display:none;
+  }
+
+  #hiddenmenu {
+    width: 150px;
+    background: none repeat scroll 0 0 #b80606;
+    font-family: 'Lato',sans-serif;
+    padding: 3px;
+    display: block;
+    position: absolute;
+    right: 4%; top: 8px;
+    color: #fff;
+    float: right;
+  }
+
+  .navigation {
+    background: none repeat scroll 0 0 white;
+    margin-left: 0;
+    max-width: none;
+    padding: 0;
+  }
+
+  .navigation li {
+    float: left;
+    margin:0px;
+    padding:0px;
+    color:black;
+  }
+
+  .navigation li a {
+    color: black;
+    display: block;
+    font-weight: 400;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  .navigation li a:hover {
+    background: #c7c7c7;
+  }
+
+  .navheader { 
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  .slide-trigger {
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    font-family: lato;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 0.5em;
+  }
+
+  .slide-trigger span {
+    background: url("/images/menumobile.png") repeat-y;
+    display: block;
+    float: right;
+    margin-top: 4px;
+    height: 12px;
+    width: 32px;
+  }
+
+  .slide-trigger { display: block; }
+  .no-js .slide-trigger { display: none; }
+  .navigation { display: none; }
+  .no-js .navigation { display: block; }
+
+  .navigation {
+    width: 100%;
+    margin: 0;
+  }
+
+  .navigation li {
+    padding-left: 18px;
+    float: none;
+  }
+  
+  .navigation li a {
+    border-bottom: 1px solid #fff;
+  }
+  
+
+  /* Home */
+  
+  #home {
+    padding-top:125px;
+  }
+  
+  #home h2 {
+    font-size: 55px;
+    line-height: 57px;
+  }
+
+  #home h3 {
+    font-size: 28px;
+  }
+  
+  #home .home-button {
+    display: none;
+  }
+  
+  .icons li {
+    text-align:center;
+    display:inline-block;
+    margin:0 2px 0 2px;
+  }
+  
+  
+  /* Cover Banner */
+
+  #cover-banner {
+    margin-top: 60px;
+  }
+
+  #cover-banner h2 {
+    font-size: 32px;
+    line-height: 35px;
+  } 
+  
+  #cover-banner p {
+    font-size: 17px;
+    margin: 10px 0 0 0;
+  }
+  
+  
+  /* HE:pair */
+  
+  #hepair-page {
+    margin-top: 60px;
+  }
+  
+  #hepair-logo img {
+    width: 240px;
+    margin: auto;
+  }
+  
+  #hepair-page .sub {
+    font-size: 16px !important;
+    line-height: 26px !important;
+  }
+  
+
+  /* Red Button */
+
+  a.red-button, a.white-button {
+    border-radius:12px;
+    width:250px; height:auto;
+    padding:15px !important;
+    text-align:center;
+    font-size:16px;
+  }
+
+  #time .red-button {
+    margin-bottom:40px;
+  }
+  
+  
+  /* Cliete Feliz */
+  
+  .videothumbs li {
+    width: 39%;
+  }
+  
+  .videothumbs li:hover {
+    background: url("/images/play.jpg") no-repeat white;
+    background-size: 100%;  
+  }
+  
+  
+  /* Jobs */
+  
+  .he-enviroment article,
+  .he-enviroment img {
+    width: 100%;
+  }
+  
+  .positions-available article {
+    width: 94%;
+    min-height: 0;
+    margin: 5px 0 5px 0;
+    padding-bottom: 30px;
+  }
+  
+  .positions-available .column02 {
+    float: left;
+  }
+  
+
+  /* Process */
+  
+  #process-info {
+    width: 100%;
+    margin:0 0 30px 0;
+    text-align: center;
+  }
+  
+  #process-info > div, #tablet-descriptions {
+    display: none;
+  }
+
+  #process-info img {
+    width: 85%;
+  }
+  
+  #process-entry {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  #process-entry li {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+
+  /* Time */
+
+  #time {
+    padding-bottom:20px !important;
+  }
+
+  #time ul > li {
+    width:29%;
+    margin:0 2% 0 2%;
+  }
+
+  #time ul > li img, #time ul > li a img {
+    width:100%; height: auto;
+    background:#fff;
+    padding:0;
+  }
+
+  #time ul p {
+    font-size:14px;
+    height:70px;
+  }
+
+  #time ul span {
+    font-size:10px;
+  }
+
+
+  /* Time Profile */
+
+  .photo-bio {
+    display: none;
+  }
+  
+  .mini-bio {
+    width: 100%;
+    margin:0;
+    float: left;
+  }
+  
+  
+  /* Footer */
+  
+  footer {
+    padding-bottom:90px;
+  }
+
+  footer li {
+    width:100%;
+  }
+
+
+  /* Fale Conosco */
+
+  #fale-conosco,
+  #talk-to-us {
+    padding-top: 50px;
+  }
+
+  #fale-conosco h2,
+  #talk-to-us h2 {
+    display:none;
+  }
+
+  #fale-conosco .pre,
+  #talk-to-us .pre {
+    margin:0 0 15px 0 !important;
+    text-align:left;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  #fale-conosco .sub,
+  #talk-to-us .sub {
+    text-align:left;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  #fale-conosco input[type="image"],
+  #talk-to-us input[type="image"] {
+    width: 70%;
+  }
+
+  #fale-conosco input[type="text"], #fale-conosco textarea,
+  #talk-to-us input[type="text"], #talk-to-us textarea {
+    width: 94%;
+    padding:3%;
+    margin:0;
+    float:left;
+  }
+
+  #fale-conosco input[type="text"],
+  #talk-to-us input[type="text"] {
+    margin-bottom:15px;
+  }
+
+  #fale-conosco textarea,
+  #talk-to-us textarea {
+    margin-bottom:40px;
+  }
+
+
+  /* Mailing page*/
+
+  .cover-mailing-page {
+    background-image: url("/images/mailing-cover-bg.jpg");
+    background-position: bottom center;
+    margin-top:60px;
+  }
+
+  .mailing-form {
+    background-image: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #mailing-page h2 {
+    color:#b80606;
+    font-size:30px;
+    padding-top: 70px;
+    text-transform:none;
+    width:100%;
+    line-height:30px;
+    margin-bottom:35px;
+  }
+
+
+  /* workshops */
+
+  #workshops #cover.cover-workshops {
+    height: 260px;
+  }
+
+  #workshops #cover.cover-workshops h2 {
+    font-size: 60px;
+    padding-top: 140px;
+  }
+
+
+  /* Cafe com Dev */
+
+  .next-event {
+    width: 100%;
+    float: left;
+  }
+
+  .about-text {
+    width: 100%;
+    float: left;
+  }
+
+  section.latest-cafes-dev {
+    background: #fcfcfc;
+    border-top: 1px solid #f9f9f9;
+    border-bottom: 1px solid #f9f9f9;
+    margin-bottom: 200px;
+    padding: 40px 0;
+    overflow: auto;
+    width:100%;
+    float:left;
+  }
+
+  article.last-event {
+    overflow: hidden;
+    margin-bottom: 80px;
+    border-top: 1px dashed grey;
+    padding-top: 1em;
+  }
+  
+  .date {
+    width:67%;
+    float:left;
+  }
+  
+  #texto {
+    font-size:1.5em;
+  }
+
+  .infos-cafe {
+    float: left;
+    text-align: justify;
+    width: 100%;
+  }
+  
+  /*-*/
+
+  #cafecomdev-page .about-text,
+  #cafecomdev-page .next-event {
+    width: 100%;
+    margin: 0 0 30px;
+    padding: 0;
+  }
+
+  #cafecomdev-page { padding-bottom: 0; }
+
+  section.latest-cafes-dev { padding: 40px 10px !important; width: auto !important; margin-bottom: 0 !important; }
+  .line-divisor-2 { margin-left: 0; width: 100%; }
+
+  section.latest-cafes-dev article.last-event {
+    overflow: hidden;
+    margin-bottom: 80px;
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .cafe-logo img {
+    width: 52%;
+    margin-top: 35px;
+  }
+
+  .latest-cafes-dev article.last-event .date {
+    float: none;
+    width: auto;
+  }
+
+  #texto {
+    font-size: 1.2em;
+  }
+  
+}
+
+
+/* Max Width, 581px */
+
+@media (max-width:581px) {
+
+  .blog-posts {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .projects-worked {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .projects-worked img {
+    width: 280px;
+  }
+
+}
+
+
+/* Max Width, 481px */
+
+@media (max-width:481px) {
+  
+  #home h2 {
+    font-size: 45px;
+    line-height: 52px;
+  }
+
+  #home h3 {
+    font-size: 24px;
+  }
+  
+  .cover-jobs li {
+    margin: 10px 0 0 0;
+    display: inline-block;
+  }
+  
+  #time ul > li {
+    width: 44%;
+  }
+  
+  .high-light-projects div {
+    width: 96%;
+    padding: 2%;
+    min-height: 0;
+    float: left;
+  }
+  
+  .high-light-projects div:first-child {
+    margin-bottom: 20px;
+  }
+
+  .videothumbs li {
+    width: 90%;
+  }
+
+  .videothumbs li img:hover {
+    opacity: 0.5;
+  }
+  
+  .videothumbs li:hover {
+    background: url("/images/play.jpg") no-repeat white;
+    background-size: 100%;  
+  }
+
+  .next-event {
+    float: left;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+    background: none;
+  }
+
+
+  /* Mailling Page */
+  
+  #mailing-page ul li p {
+    float: left;
+    font-size: 16px;
+    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+    width: 100%;
+  }
+
+  #mailing-page ul li h4 {
+    color: #B80606;
+    float: left;
+    font-size: 23px;
+    font-weight: 400;
+    margin-bottom: 0.1em;
+    width: 100%;
+  }
+
+  #mailing-page ul li span {
+    color: #888;
+    float: left;
+    font-size: 23px;
+    font-weight: 300;
+    margin-top: 0.3em;
+    width: 100%;
+  }
+
+  #mailing-page h3 {
+    border-bottom: 2px solid #c6c6c6;
+    float: left;
+    font-size: 28px;
+    margin: 0.2em 0 0.6em;
+    padding-bottom: 0.3em;
+    width: 100%;
+  }
+
+  .cover-mailing-page h2 {
+    color: #B80606;
+    font-size: 1.53em;
+    line-height: 20px;
+    margin: 0 0 15px;
+    padding: 0;
+    text-transform: none;
+    width: 100%;
+  }
+
+  .cover-mailing-page div.containner input[type="text"],
+  .cover-mailing-page div.containner input[type="email"]{
+    width:40%;
+  }
+
+  #mailing-page ul li {
+    border-bottom: 1px dashed #C6C6C6;
+    max-width: 100%;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    width: 100%;
+  }
+
+  #cover.cover-mailing-page{
+    background-image: none;
+    background-color:#eaeaea;
+    margin-top:60px;
+    height: 300px;
+  }
+
+  .mailing-form {
+    background-image: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #mailing-page h2 {
+    color:#b80606;
+    font-size:25px;
+    padding-top: 70px;
+    text-transform:none;
+    width:100%;
+    line-height:30px;
+    margin-bottom:15px;
+  }
+
+  .cover-mailing-page div.containner input[type="text"], 
+  .cover-mailing-page div.containner input[type="email"] {
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #C7C7C7;
+    border-radius: 6px 6px 6px 6px;
+    float: left;
+    font-size: 12px;
+    margin: 0;
+    padding: 0.7em;
+    width: 95%;
+  }
+
+  /*-*/
+
+  .submenuhome {
+    display:none;
+  }
+
+  .ourprocess {
+    display:none;
+  }
+
+  .thumbs {
+    display: none;
+  }
+
+
+  /*=====================*/
+  /*======= workshops =======*/
+  /*=====================*/
+
+  #cover.cover-workshops {
+    height: 260px;
+    margin-top: 0;
+  }
+
+  #workshops #cover.cover-workshops h2 {
+    font-size:40px;
+    padding-top: 160px;
+  }
+  ul.right-workshops a {
+    width: 160px;
+  }
+  
+
+  /*=====================*/
+  /*======= Cloud =======*/
+  /*=====================*/
+  
+  #m-cloud {
+    display:none;
+  }
+
+  #cloud .cover-cloud {
+    background:none;
+    height:auto;
+  }
+
+  .cover-cloud h2 {
+    height:340px;
+    background:none;
+    text-indent:0 !important;
+    font: 40px 'Lato', sans-serif;
+    font-weight:300px;
+    text-align:center;
+    margin:100px 0 0 0;
+    display:block !important;
+    float:left;
+  }
+
+  #m-cloud {
+    display:none;
+  }
+
+  #cafecomdev-page .line-divisor {
+    width: 100%;
+  }
+  
 }
