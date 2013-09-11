@@ -1036,11 +1036,15 @@ Team
 }
 
 #time p {
-  width:100%;
   text-align:center;
-  font-size:17px;
-  margin:15px 0 0 0;
-  float:left;
+  font-size:16px;
+  line-height:19px;
+  margin:7px 0 0 0;
+}
+
+#time a {
+  text-decoration:none !important;
+  color:#b80606 !important;
 }
 
 #time span {
@@ -1053,7 +1057,6 @@ Team
 #time ul > li img, #time ul > li a img {
   width:160px; height:160px;
   background:#fff;
-  float:left;
 }
 
 #time ul > li > a {
