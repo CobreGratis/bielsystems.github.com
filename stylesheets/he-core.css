@@ -410,6 +410,7 @@ Cover
 ==================== */
 
 #cover-banner {
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
   background: #b80606;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b80606), color-stop(100%, #9b0505)); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top, #b80606 0%, #9b0505 100%); /* Chrome10+,Safari5.1+ */
@@ -428,7 +429,6 @@ Cover
 }
 
 #cover-banner h2 {
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
@@ -438,9 +438,10 @@ Cover
 }
 
 #cover-banner p {
+  font-weight: 300;
   text-transform: uppercase;
   margin: 10px 0 0 0;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 #cover-banner a {
@@ -1615,58 +1616,6 @@ footer h3 {
   margin:0;
   bottom:0;
   left:0;
-}
-
-
-/* ====================
-Workshop Covers
-==================== */
-
-#workshop {
-  margin-top: 56px;
-}
-
-#cover h2 span {
-  display:none;
-}
-
-.cover-workshop-startup-dev{
-  background-image: url("/images/workshop-startup-dev-bg.jpg");
-}
-.cover-rails-for-zombies-2{
-  background-image: url("/images/workshop-rails-for-zombies-2-bg.jpeg");
-  background-position:top center;
-}
-
-.cover-rails-for-zombies-2.rj {
-  background-image: url("/images/workshop-bg-rj.jpg");
-}
-
-.cover-rails-for-zombies-2.sp {
-  background-image: url("/images/workshop-bg-sp.jpg");
-}
-
-.cover-rails-for-zombies-2.pr {
-  background-image: url("/images/workshop-bg-pr.jpg");
-}
-
-.cover-workshop-startup-dev h2 {
-  display:block;
-  width:960px;
-  height:275px;
-  background-image: url("/images/workshop-startup-dev-logo.png");
-  background-repeat: no-repeat;
-  margin:0 auto;
-}
-
-.cover-rails-for-zombies-2 h2 {
-  display:block;
-  width:960px;
-  height:250px;
-  background-image: url("/images/workshop-rails-for-zombies-2-codeschool.png");
-  background-repeat: no-repeat;
-  background-position: left center;
-  margin:0 auto;
 }
 
 
