@@ -136,6 +136,8 @@ var App = {
         });
       }
     }
+    
+
 
 } // Var Site
 
@@ -153,4 +155,8 @@ $(document).ready(function(){
 	        'scrollTop': $('#fale-conosco').offset().top
 	    }, 900, 'swing');
 	});
+  
+  $('.eduardo-photo').on("hover", function(){
+    $(this).find("img").attr("src", "/images/time-eduardo.gif")
+  });
 });
