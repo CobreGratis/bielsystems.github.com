@@ -526,10 +526,9 @@ Cover
 }
 
 #cover-banner p {
-  font-family: 'Lato', sans-serif;
   text-transform:uppercase;
   margin:10px 0 0 0;
-  font-size:26px;
+  font-size:22px;
   color:#ffd8d8;
 }
 
