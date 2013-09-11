@@ -1231,14 +1231,38 @@ User Profile
   color: #8e8c8e;
 }
 
+.photo-bio {
+  width: 30%;
+  float: right;
+}
+
 .profile-picture img {
-  width: 28%;
-  padding: 1%;
+  width: 94%;
+  padding: 3%;
   background: #eaeaea;
   height: auto;
   margin: 0;
   float: right;
   display: block;
+}
+
+
+/* Pair Button */
+
+#profile .bt {
+  border-radius: 4px;
+  background: url('/images/pair-bt.png') 0 0 repeat-x;
+  font-family: 'lato', sans-serif;
+  width: 96%;
+  padding: 15px 2% 15px 2%;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  margin: 20px 0 0 0;
+  color: #fff;
+  float:left;
 }
 
 
@@ -1395,41 +1419,6 @@ User Profile
   font-size: 1em;
   color: #474747;
   margin-bottom: 40px;
-}
-
-
-/* Pair Button */
-
-#profile .bt {
-  border-radius: 4px;
-  background: url('/images/pair-bt.png') 0 0 repeat-x;
-  font-size: 22px;
-  line-height: 30px;
-  padding: 0 20px;
-  font-family: 'lato', sans-serif;
-  width: 480px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  display: block;
-  color: #fff;
-  margin: 0 auto;
-  clear: both;
-}
-
-#profile .bt {
-  width: 100%;
-  padding: 0;
-  font-size: 16px;
-  height: 46px;
-  line-height: 46px;
-}
-
-#profile .bt:hover {
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow:    1px 1px 3px rgba(0, 0, 0, 0.3);
-  box-shadow:         1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -2773,6 +2762,11 @@ Privacy
   .signature {
     font-size: 16px;
   }
+  
+  .photo-bio {
+    width: 100%;
+    margin: 10px 0 0 0;
+  }  
 
 
   /* Mailing page*/
