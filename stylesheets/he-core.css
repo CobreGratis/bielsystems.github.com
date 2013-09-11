@@ -1047,6 +1047,10 @@ Team
   color:#b80606 !important;
 }
 
+#time .red-button {
+  color:#fff !important;
+}
+
 #time span {
   text-transform:uppercase;
   margin-top:5px;
