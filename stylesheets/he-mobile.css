@@ -398,46 +398,12 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   #time .red-button {
     margin-bottom:40px;
   }
-
-  #cafecomdev-page .about-text,
-  #cafecomdev-page .next-event {
-    width: 100%;
-    margin: 0 0 30px;
-    padding: 0;
-  }
-
-  #cafecomdev-page { padding-bottom: 0; }
-
-  section.latest-cafes-dev { padding: 40px 10px !important; width: auto !important; margin-bottom: 0 !important; }
-  .line-divisor-2 { margin-left: 0; width: 100%; }
-
-  section.latest-cafes-dev article.last-event {
-    overflow: hidden;
-    margin-bottom: 80px;
-    border-top: none;
-    padding-top: 0;
-  }
-
-  .cafe-logo img {
-    width: 52%;
-    margin-top: 35px;
-  }
-
-  section.latest-cafes-dev article.last-event .date {
-    float: none;
-    width: auto;
-  }
-
-  #texto {
-    font-size: 1.2em;
-  }
+  
+  
+  /* Cliete Feliz */
   
   .videothumbs li {
     width: 39%;
-  }
-
-  .videothumbs li img:hover {
-    opacity:0.5;
   }
   
   .videothumbs li:hover {
@@ -491,64 +457,22 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     line-height: 22px;
   }
 
-  
-  /* Mailing page*/
-
-  .cover-mailing-page {
-    background-image: url("/images/mailing-cover-bg.jpg");
-    background-position: bottom center;
-    margin-top:60px;
-  }
-
-  .mailing-form {
-    background-image: none;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  #mailing-page h2 {
-    color:#b80606;
-    font-size:30px;
-    padding-top: 70px;
-    text-transform:none;
-    width:100%;
-    line-height:30px;
-    margin-bottom:35px;
-  }
-
-
-  /* Cliente */
-
-  .thumbs {
-    display: none;
-  }
-
 
   /* Time */
 
   #time {
     padding-bottom:20px !important;
   }
-  
-  #time h2  {
-    font-size: 48px;
-    padding-top: 50px !important;
-  }
 
   #time ul > li {
-    width:27%;
-    margin:0 3% 10px 3%;
-    position:relative;
-    text-align:center;
-    color:#333;
+    width:29%;
+    margin:0 2% 0 2%;
   }
 
   #time ul > li img, #time ul > li a img {
-    width:100%; height:auto;
+    width:100%; height: auto;
     background:#fff;
     padding:0;
-    float:left;
   }
 
   #time ul p {
@@ -563,16 +487,14 @@ section.latest-cafes-dev h2 { font-size: 20px; }
 
   /* Time Profile */
 
-  #profile article.mini-bio {
-    width: 100%;
-  }
-
-  #profile aside.photo-bio {
+  .photo-bio {
     display: none;
   }
-
-  article.blog-posts, article.projects-worked {
+  
+  .mini-bio {
     width: 100%;
+    margin:0;
+    float: left;
   }
   
   
@@ -638,6 +560,32 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   }
 
 
+  /* Mailing page*/
+
+  .cover-mailing-page {
+    background-image: url("/images/mailing-cover-bg.jpg");
+    background-position: bottom center;
+    margin-top:60px;
+  }
+
+  .mailing-form {
+    background-image: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #mailing-page h2 {
+    color:#b80606;
+    font-size:30px;
+    padding-top: 70px;
+    text-transform:none;
+    width:100%;
+    line-height:30px;
+    margin-bottom:35px;
+  }
+
+
   /* workshops */
 
   #workshops #cover.cover-workshops {
@@ -695,6 +643,41 @@ section.latest-cafes-dev h2 { font-size: 20px; }
     width: 100%;
   }
   
+  /*-*/
+
+  #cafecomdev-page .about-text,
+  #cafecomdev-page .next-event {
+    width: 100%;
+    margin: 0 0 30px;
+    padding: 0;
+  }
+
+  #cafecomdev-page { padding-bottom: 0; }
+
+  section.latest-cafes-dev { padding: 40px 10px !important; width: auto !important; margin-bottom: 0 !important; }
+  .line-divisor-2 { margin-left: 0; width: 100%; }
+
+  section.latest-cafes-dev article.last-event {
+    overflow: hidden;
+    margin-bottom: 80px;
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .cafe-logo img {
+    width: 52%;
+    margin-top: 35px;
+  }
+
+  .latest-cafes-dev article.last-event .date {
+    float: none;
+    width: auto;
+  }
+
+  #texto {
+    font-size: 1.2em;
+  }
+  
 }
 
 
@@ -739,7 +722,6 @@ section.latest-cafes-dev h2 { font-size: 20px; }
   
   #time ul > li {
     width: 44%;
-    margin: 0 3% 10px 3%;
   }
   
   .high-light-projects div {
