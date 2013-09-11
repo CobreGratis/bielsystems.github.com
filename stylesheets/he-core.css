@@ -1194,7 +1194,7 @@ User Profile
   background: -ms-linear-gradient(top, #fff 0%, #f9f9f9 100%); /* IE10+ */
   background: linear-gradient(top bottom, #fff 0%, #f9f9f9 100%); /* W3C */
   border-bottom: 1px solid #fff;
-  padding:150px 0 50px 0;
+  padding:135px 0 35px 0;
 }
 
 #profile:after {
@@ -1212,20 +1212,8 @@ User Profile
   color: #000;
 }
 
-#profile h3 {
-  color: #B80606;
-}
-
-.mini-bio .job-title {
-  font-weight: 300;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #8e8c8e;
-}
-
 .mini-bio {
   width: 60%;
-  margin-bottom: 40px;
   float: left;
 }
 
@@ -1236,24 +1224,19 @@ User Profile
   color: #474747;
 }
 
-.photo-bio {
-  width: 37%;
-  float: left;
-  margin-left: 3%;
-}
-
-.nav-profiles {
-  margin-top: 20px;
-  float: right;
-  margin-right: -30px;
+.mini-bio .job-title {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #8e8c8e;
 }
 
 .profile-picture img {
-  width: 75%;
-  padding: 3%;
+  width: 28%;
+  padding: 1%;
   background: #eaeaea;
   height: auto;
-  margin: 10px 0 20px 0;
+  margin: 0;
   float: right;
   display: block;
 }
@@ -1298,16 +1281,16 @@ User Profile
 /* Social Icons */
 
 .social-links {
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .social-links a {
   height: 30px;
   text-decoration: none;
   background: url("/images/profile-social.png") no-repeat;
-  padding-left: 35px;
+  padding-left: 33px;
   line-height: 30px;
-  margin-right: 20px;
+  margin-right: 25px;
   color: #8e8c8e;
   float: left;
 }
@@ -2346,9 +2329,7 @@ Privacy
   }
 
 
-  /* ====================
-  Cover
-  ==================== */
+  /* Cover Banner */
 
   #cover-banner {
     margin-top: 80px;
@@ -2438,6 +2419,26 @@ Privacy
   #tablet-descriptions li:first-child {
     padding-top: 0;
     border-top: none;
+  }
+  
+  
+  /* Profile */
+  
+  #profile {
+    padding-top: 120px;
+  }
+  
+  .social-links {
+    margin:0;
+  }
+  
+  .social-links li {
+    display:block;
+  }
+
+  .social-links a {
+    margin:5px 0 0 0;
+    clear:both;
   }
 
 
@@ -2734,15 +2735,43 @@ Privacy
 
 
   /* Time Profile */
-
-  .photo-bio {
-    display: none;
+  
+  #profile {
+    padding-top: 100px;
+  }
+  
+  #profile h2 {
+    font: 700 32px 'Lato', sans-serif;
+    color: #000;
   }
   
   .mini-bio {
     width: 100%;
-    margin:0;
-    float: left;
+  }
+
+  .mini-bio p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .mini-bio .job-title {
+    font-size: 14px;
+  }
+  
+  .profile-picture img {
+    display: none;
+  }
+  
+  .profile-cote {
+    padding: 35px 0 40px 0;
+  }
+
+  .cote p {
+    font: 700 30px 'lato', sans-serif;
+  }
+
+  .signature {
+    font-size: 16px;
   }
 
 
