@@ -757,6 +757,7 @@ HE:pair
 }
 
 #hepair-page .sub {
+  font-weight: 300;
   text-transform: uppercase;
   margin: 30px 0 0 0;
   font-size: 22px;
