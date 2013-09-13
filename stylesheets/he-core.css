@@ -1812,7 +1812,7 @@ Privacy
   background-image: url("/images/mailing/mailing-cover-bg.jpg");
   background-position: bottom center;
   background-repeat:repeat-x;
-  margin-top:50px;
+  margin-top:35px;
   height:280px;
 }
 
@@ -1934,7 +1934,7 @@ Privacy
 /*=====================*/
 
 #mailing-helabs{
-  background-image: url(/images/mailing/mailing-bg.png);
+  background-image: url(/images/mailing-bg.png);
   width:550px;
   height:167px;
 }
@@ -2131,6 +2131,13 @@ Privacy
   }
 
 
+  /* Mailing page*/
+
+  .cover-mailing-page {
+    margin-top:20px;
+  }
+
+
   /* Open Source */
 
   .gems-list li {
@@ -2158,7 +2165,6 @@ Privacy
   #talk-to-us .sub {
     font-size: 21px;
   }
-
 }
 
 
@@ -2474,7 +2480,7 @@ Privacy
   .cover-mailing-page {
     background-image: url("/images/mailing/mailing-cover-bg.jpg");
     background-position: bottom center;
-    margin-top:60px;
+    margin-top:40px;
   }
 
   .mailing-form {
@@ -2690,7 +2696,7 @@ Privacy
   #cover.cover-mailing-page{
     background-image: none;
     background-color:#eaeaea;
-    margin-top:60px;
+    margin-top:40px;
     height: 300px;
   }
 
@@ -2704,7 +2710,7 @@ Privacy
   #mailing-page h2 {
     color:#b80606;
     font-size:25px;
-    padding-top: 70px;
+    padding-top: 40px;
     text-transform:none;
     width:100%;
     line-height:30px;
