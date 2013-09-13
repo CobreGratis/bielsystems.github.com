@@ -2,7 +2,7 @@
 
 
 /* Reset */
- 
+
 body, h1, h2, h3, h4,
 form, fieldset, input, label, p,
 em, strong, a, img, ul, li {
@@ -105,7 +105,7 @@ Patterns
   width:100%;
   margin:0;
 }
-  
+
 /*-*/
 
 header.projetos {
@@ -498,7 +498,7 @@ Error 404
   color:grey;
 }
 
-.image { 
+.image {
   background-image:url('/images/pedreiro.png');
   width:320px;
   height:291px;
@@ -560,12 +560,12 @@ Process
   -ms-animation-fill-mode: both;
   -o-animation-fill-mode: both;
   animation-fill-mode: both;
- 
+
   -webkit-animation-timing-function: ease-in;
   -moz-animation-timing-function: ease-in;
   -ms-animation-timing-function: ease-in;
   -o-animation-timing-function: ease-in;
-  
+
   height: 40px;
   background: #b20000;
   position: absolute;
@@ -2406,18 +2406,18 @@ Privacy
     padding-top: 0;
     border-top: none;
   }
-  
-  
+
+
   /* Profile */
-  
+
   #profile {
     padding-top: 120px;
   }
-  
+
   .social-links {
     margin:0;
   }
-  
+
   .social-links li {
     display:block;
   }
@@ -2455,14 +2455,14 @@ Privacy
   #talk-to-us .sub {
     font-size: 21px;
   }
-  
+
 }
 
 
 /* Max Width, 686px */
 
 @media only screen and (max-width: 686px) {
-  
+
   .containner {
     width: 90%;
     padding: 0 5% 0 5%;
@@ -2514,7 +2514,7 @@ Privacy
     background: #c7c7c7;
   }
 
-  .navheader { 
+  .navheader {
     margin-top: 5px;
     font-size: 12px;
   }
@@ -2554,18 +2554,18 @@ Privacy
     padding-left: 18px;
     float: none;
   }
-  
+
   .navigation li a {
     border-bottom: 1px solid #fff;
   }
-  
+
 
   /* Home */
-  
+
   #home {
     padding-top:125px;
   }
-  
+
   #home h2 {
     font-size: 55px;
     line-height: 57px;
@@ -2574,18 +2574,18 @@ Privacy
   #home h3 {
     font-size: 28px;
   }
-  
+
   #home .home-button {
     display: none;
   }
-  
+
   .icons li {
     text-align:center;
     display:inline-block;
     margin:0 2px 0 2px;
   }
-  
-  
+
+
   /* Cover Banner */
 
   #cover-banner {
@@ -2595,30 +2595,30 @@ Privacy
   #cover-banner h2 {
     font-size: 32px;
     line-height: 35px;
-  } 
-  
+  }
+
   #cover-banner p {
     font-size: 17px;
     margin: 10px 0 0 0;
   }
-  
-  
+
+
   /* HE:pair */
-  
+
   #hepair-page {
     margin-top: 110px;
   }
-  
+
   #hepair-logo img {
     width: 240px;
     margin: auto;
   }
-  
+
   #hepair-page .sub {
     font-size: 16px !important;
     line-height: 26px !important;
   }
-  
+
 
   /* Red Button */
 
@@ -2633,47 +2633,47 @@ Privacy
   #time .red-button {
     margin-bottom:40px;
   }
-  
-  
+
+
   /* Cliete Feliz */
-  
+
   .videothumbs li {
     width: 39%;
   }
-  
+
   .videothumbs li:hover {
     background: url("/images/play.jpg") no-repeat white;
-    background-size: 100%;  
+    background-size: 100%;
   }
-  
-  
+
+
   /* Jobs */
-  
+
   .he-enviroment article,
   .he-enviroment img {
     width: 100%;
   }
-  
+
   .positions-available article {
     width: 94%;
     min-height: 0;
     margin: 5px 0 5px 0;
     padding-bottom: 30px;
   }
-  
+
   .positions-available .column02 {
     float: left;
   }
-  
+
 
   /* Process */
-  
+
   #process-info {
     width: 100%;
     margin:0 0 30px 0;
     text-align: center;
   }
-  
+
   #process-info > div, #tablet-descriptions {
     display: none;
   }
@@ -2681,7 +2681,7 @@ Privacy
   #process-info img {
     width: 85%;
   }
-  
+
   #process-entry {
     width: 100%;
     margin-bottom: 40px;
@@ -2721,16 +2721,16 @@ Privacy
 
 
   /* Time Profile */
-  
+
   #profile {
     padding-top: 100px;
   }
-  
+
   #profile h2 {
     font: 700 32px 'Lato', sans-serif;
     color: #000;
   }
-  
+
   .mini-bio {
     width: 100%;
   }
@@ -2743,11 +2743,11 @@ Privacy
   .mini-bio .job-title {
     font-size: 14px;
   }
-  
+
   .profile-picture img {
     display: none;
   }
-  
+
   .profile-cote {
     padding: 35px 0 40px 0;
   }
@@ -2759,11 +2759,11 @@ Privacy
   .signature {
     font-size: 16px;
   }
-  
+
   .photo-bio {
     width: 100%;
     margin: 10px 0 0 0;
-  }  
+  }
 
 
   /* Mailing page*/
@@ -2790,10 +2790,10 @@ Privacy
     line-height:30px;
     margin-bottom:35px;
   }
-  
-  
+
+
   /* Footer */
-  
+
   footer {
     padding-bottom:90px;
   }
@@ -2829,7 +2829,7 @@ Privacy
     font-size: 18px;
     line-height: 28px;
   }
-  
+
   #fale-conosco input[type="image"],
   #talk-to-us input[type="image"] {
     width: 70%;
@@ -2880,7 +2880,7 @@ Privacy
 /* Max Width, 481px */
 
 @media (max-width:481px) {
-  
+
   #home h2 {
     font-size: 45px;
     line-height: 52px;
@@ -2889,23 +2889,23 @@ Privacy
   #home h3 {
     font-size: 24px;
   }
-  
+
   .cover-jobs li {
     margin: 10px 0 0 0;
     display: inline-block;
   }
-  
+
   #time ul > li {
     width: 44%;
   }
-  
+
   .high-light-projects div {
     width: 96%;
     padding: 2%;
     min-height: 0;
     float: left;
   }
-  
+
   .high-light-projects div:first-child {
     margin-bottom: 20px;
   }
@@ -2917,15 +2917,15 @@ Privacy
   .videothumbs li img:hover {
     opacity: 0.5;
   }
-  
+
   .videothumbs li:hover {
     background: url("/images/play.jpg") no-repeat white;
-    background-size: 100%;  
+    background-size: 100%;
   }
 
 
   /* Mailling Page */
-  
+
   #mailing-page ul li p {
     float: left;
     font-size: 16px;
@@ -3008,7 +3008,7 @@ Privacy
     margin-bottom:15px;
   }
 
-  .cover-mailing-page div.containner input[type="text"], 
+  .cover-mailing-page div.containner input[type="text"],
   .cover-mailing-page div.containner input[type="email"] {
     background: none repeat scroll 0 0 white;
     border: 1px solid #C7C7C7;
@@ -3033,7 +3033,7 @@ Privacy
   .thumbs {
     display: none;
   }
-  
+
 }
 
 
