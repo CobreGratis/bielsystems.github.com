@@ -1018,7 +1018,7 @@ Team
 }
 
 .twitter, .dribbble, .soundcloud, .github, .behance {
-  background: #000 url("/images/sprite-social-icons.png") left no-repeat;
+  background: #000 url("/images/icons/sprite-social-icons.png") left no-repeat;
 }
 
 .twitter {
@@ -1312,7 +1312,7 @@ User Profile
 .social-links a {
   height: 30px;
   text-decoration: none;
-  background: url("/images/profile-social.png") no-repeat;
+  background: url("/images/icons/profile-social.png") no-repeat;
   padding-left: 33px;
   line-height: 30px;
   margin-right: 25px;
@@ -1344,7 +1344,7 @@ User Profile
   only screen and (min--moz-device-pixel-ratio: 1.5),
   only screen and (min-resolution: 240dpi) {
   .social-links a {
-      background: url("/images/profile-social@2x.png") left no-repeat;
+      background: url("/images/icons/profile-social@2x.png") left no-repeat;
       background-size: 30px 150px;
   }
 }
@@ -1809,7 +1809,7 @@ Privacy
 /*=====================*/
 
 .cover-mailing-page{
-  background-image: url("/images/mailing-cover-bg.jpg");
+  background-image: url("/images/mailing/mailing-cover-bg.jpg");
   background-position: bottom center;
   background-repeat:repeat-x;
   margin-top:50px;
@@ -1817,7 +1817,7 @@ Privacy
 }
 
 .mailing-form {
-  background-image: url("/images/mailing-mauro.png");
+  background-image: url("/images/mailing/mailing-mauro.png");
   background-position: left 40px;
   background-repeat: no-repeat;
   padding-left: 200px;
@@ -1934,7 +1934,7 @@ Privacy
 /*=====================*/
 
 #mailing-helabs{
-  background-image: url(/images/mailing-bg.png);
+  background-image: url(/images/mailing/mailing-bg.png);
   width:550px;
   height:167px;
 }
@@ -2472,7 +2472,7 @@ Privacy
   /* Mailing page*/
 
   .cover-mailing-page {
-    background-image: url("/images/mailing-cover-bg.jpg");
+    background-image: url("/images/mailing/mailing-cover-bg.jpg");
     background-position: bottom center;
     margin-top:60px;
   }
