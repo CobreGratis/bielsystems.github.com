@@ -37,15 +37,15 @@ var App = {
     },
 
     InterfaceActions: function() {
-	
+
 		// mobile site
 		$('.slide-trigger').collapsable();
-		
+
 		// inicia plugin prettyPhoto
 		$("a[rel^='prettyPhoto']").prettyPhoto({
 			deeplinking: false
 		});
-			
+
 	    $("a[rel^='external']").each(function() { $(this).attr("target","_blank"); });
 
 	    $('nav, .advice, header, #right, #single-page').localScroll({
@@ -120,7 +120,7 @@ var App = {
 	    }
 
       if($("section#cliente").size() > 0) {
-        
+
         link = $(".js-client-videos-chooser a")
         iframe = $(".js-client-videos iframe");
         iframe.hide();
@@ -136,7 +136,7 @@ var App = {
         });
       }
     }
-    
+
 
 
 } // Var Site
@@ -155,8 +155,8 @@ $(document).ready(function(){
 	        'scrollTop': $('#fale-conosco').offset().top
 	    }, 900, 'swing');
 	});
-  
+
   $('.eduardo-photo').on("hover", function(){
-    $(this).find("img").attr("src", "/images/time-eduardo.gif")
+    $(this).find("img").attr("src", "/images/time/time-eduardo.gif")
   });
 });
