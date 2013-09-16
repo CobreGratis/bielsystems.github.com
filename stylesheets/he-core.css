@@ -1727,32 +1727,32 @@ Privacy
 ==================== */
 
 #privacy {
-  padding:40px 0 40px 0;
+  padding: 40px 0 40px 0;
 }
 
 #privacy a {
-  color:#b80606;
+  color: #b80606;
 }
 
 #privacidade ol li {
-  margin-left:20px;
+  margin-left: 20px;
 }
 
 #privacidade ol {
-  margin-bottom:25px;
+  margin-bottom: 25px;
 }
 
 .topics {
-  margin-bottom:30px;
+  margin-bottom: 30px;
 }
 
 .topics li {
-  list-style-type:circle;
-  margin:10px 0 0 30px;
+  list-style-type: circle;
+  margin: 10px 0 0 30px;
 }
 
 .topics li:first-child {
-  margin-top:0 !important;
+  margin-top: 0 !important;
 }
 
 
