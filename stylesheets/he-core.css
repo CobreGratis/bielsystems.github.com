@@ -1726,33 +1726,8 @@ Open Source
 Privacy
 ==================== */
 
-#privacidade {
-  padding-bottom:70px;
-  font-size:20px;
-  color:#333;
-  font-weight:300;
-}
-
-#privacidade h2 {
-  border-bottom:1px solid #f4f4f4;
-  padding-bottom:20px;
-  text-transform: uppercase;
-  font-size: 32px;
-  font-weight: bold;
-  color: #222;
-  padding-top: 50px;
-  margin-bottom: 40px;
-}
-
-#privacidade p {
-  line-height:27px;
-  font-size:17px;
-  color:#333;
-}
-
-#privacidade p strong {
-  font-size:20px;
-  font-weight:700;
+#privacy {
+  padding:40px 0 40px 0;
 }
 
 #privacidade ol li {
@@ -1763,37 +1738,12 @@ Privacy
   margin-bottom:25px;
 }
 
-#privacidade a {
-  color:#ba2426;
-  font-weight:500;
-}
 
+/* ====================
+Mailing
+==================== */
 
-/* Parceiros */
-
-#parceiros {
-  width:100%;
-  margin-top:20px;
-  float:left;
-}
-
-#parceiros li {
-  width:50%;
-  text-align:center;
-  float:left;
-  margin: 0 25%;
-}
-
-#parceiros a img {
-  width:75%;
-}
-
-
-/*=====================*/
-/*=== Mailing Page ===*/
-/*=====================*/
-
-.cover-mailing-page{
+.cover-mailing-page {
   background-image: url("/images/mailing-cover-bg.jpg");
   background-position: bottom center;
   background-repeat:repeat-x;
