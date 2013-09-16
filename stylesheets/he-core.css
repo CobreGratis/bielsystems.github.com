@@ -85,50 +85,14 @@ Patterns
   float: left;
 }
 
-#help-header {
-  background-color: #fff;
-  padding: 8px 15px 8px 15px;
-  position:fixed;
-  left:2px; top:2px;
-  z-index:999;
-}
-
-#help-header .logo {
-  width: 150px;
-  float: left;
-}
-
-.custom-help {
-  background: #efeff0;
-}
-
-.custom-help iframe {
-  width: 100%;
-  margin: 0;
-}
-
-/*-*/
-
-header.projetos {
-  border-bottom: 1px solid #f7f7f7;
-}
-
-header.projetos h1 {
-  width: 200px;
-}
-
-header.projetos nav#menu {
-  padding: 10px;
-}
-
-#hiddenmenu {
-  display:none;
-}
-
 
 /* ====================
 Nav
 ==================== */
+
+#hiddenmenu {
+  display:none;
+}
 
 #menu2 {
   margin-top: 25px;
@@ -233,7 +197,6 @@ Nav
   background-color: rgb(240,240,240);
   text-decoration: none;
 }
-
 
 #menu2 ul ul ul {
   visibility: hidden;
@@ -468,42 +431,6 @@ Cover
 #cover-banner li {
   margin: 0 10px 0 10px;
   display: inline-block;
-}
-
-
-/* ====================
-Error 404
-==================== */
-
-.error {
-  background:#F9F9F9;
-  width:100%;
-  height:300px;
-  color:#b50505;
-  font-size:30px;
-  text-align:center;
-  padding-top:130px;
-}
-
-.error h1{
-  margin-top: -250px;
-  font-size: 250px;
-  font-style: italic;
-  color: grey;
-  opacity :0.1;
-  top: 15px;
-}
-
-.error h6{
-  font-size:15px;
-  color:grey;
-}
-
-.image {
-  background-image:url('/images/pedreiro.png');
-  width:320px;
-  height:291px;
-  margin-top:-150px;
 }
 
 
@@ -744,80 +671,6 @@ Cliente Feliz
 
 
 /* ====================
-HE:pair
-==================== */
-
-#hepair-page {
-  margin-top: 155px;
-  text-align: center;
-}
-
-#hepair-logo img {
-  width: 440px;
-  margin: auto;
-}
-
-#hepair-page .sub {
-  font-weight: 300;
-  text-transform: uppercase;
-  margin: 30px 0 0 0;
-  font-size: 22px;
-  line-height: 36px;
-}
-
-.red-button-pair {
-  width: 537px;
-  font-size: 19px !important;
-}
-
-.hepair #fale-conosco .form {
-  display: none !important;
-}
-
-.hepair #fale-conosco .pair .div-form {
-  clear: both;
-}
-
-.hepair #fale-conosco .pair .div-form .text {
-  position: static !important;
-  bottom: auto;
-  margin: 0 0 30px 30px;
-  width: 41.5%;
-}
-
-.hepair #fale-conosco input[type="image"],
-.hepair #talk-to-us input[type="image"] {
-  margin-bottom: 60px;
-}
-
-/*-*/
-
-.hepair #fale-conosco .pair .div-form .text {
-  position: static !important;
-  bottom: auto;
-  margin: 0 0 30px 30px;
-  width: 41.5%;
-}
-
-.offer {
-  width:20%;
-  background: #b40e00;
-  border-radius: 5px;
-  box-shadow: inset 0 1px 3px rgba(255, 255, 255, .3), 0 2px 3px rgba(0,0,0,.4);
-  color: white;
-  display: block;
-  float: left;
-  font: 20px "calibri";
-  margin-left: 55px;
-  height: 48px;
-  line-height: 48px;
-  text-decoration:none;
-  text-align: center;
-  text-shadow: -1px -1px 1px rgba(0,0,0,.2);
-}
-
-
-/* ====================
 Projects
 ==================== */
 
@@ -1018,33 +871,21 @@ Team
   float: right;
 }
 
-.twitter, .dribbble, .soundcloud, .github, .behance {
+.twitter,
+.dribbble,
+.soundcloud,
+.github,
+.behance {
   background: #000 url("/images/icons/sprite-social-icons.png") left no-repeat;
 }
 
-.twitter {
-  background-position: 0 0;
-}
+.twitter { background-position: 0 0; }
+.dribbble { background-position: -26px 0; }
+.soundcloud { background-position: -52px 0; }
+.github { background-position: -78px 0; }
+.behance { background-position: -104px 0; }
 
-.dribbble {
-  background-position: -26px 0;
-}
-
-.soundcloud {
-  background-position: -52px 0;
-}
-
-.github {
-  background-position: -78px 0;
-}
-
-.behance {
-  background-position: -104px 0;
-}
-
-.social-icons a:hover {
-  opacity: 1;
-}
+.social-icons a:hover { opacity: 1; }
 
 
 /* ====================
@@ -1054,8 +895,6 @@ Jobs
 #jobs {
   margin-top: 60px;
 }
-
-/*-*/
 
 .positions-available:after, .he-enviroment:after {
   visibility: hidden;
@@ -1400,8 +1239,8 @@ User Profile
 }
 
 .projects-worked img {
-  width:100%;
-  margin:20px 0 20px 0;
+  width: 100%;
+  margin: 20px 0 20px 0;
 }
 
 .projects-worked h3 {
@@ -1420,6 +1259,142 @@ User Profile
 }
 
 
+/* ====================
+Help
+==================== */
+
+#help-header {
+  background-color: #fff;
+  padding: 8px 15px 8px 15px;
+  position:fixed;
+  left:2px; top:2px;
+  z-index: 999;
+}
+
+#help-header .logo {
+  width: 150px;
+  float: left;
+}
+
+.custom-help {
+  background: #efeff0;
+}
+
+.custom-help iframe {
+  width: 100%;
+  margin: 0;
+}
+
+
+/* ====================
+Error 404
+==================== */
+
+.error {
+  background:#F9F9F9;
+  width:100%;
+  height:300px;
+  color:#b50505;
+  font-size:30px;
+  text-align:center;
+  padding-top:130px;
+}
+
+.error h1{
+  margin-top: -250px;
+  font-size: 250px;
+  font-style: italic;
+  color: grey;
+  opacity :0.1;
+  top: 15px;
+}
+
+.error h6{
+  font-size:15px;
+  color:grey;
+}
+
+.image {
+  background-image:url('/images/pedreiro.png');
+  width:320px;
+  height:291px;
+  margin-top:-150px;
+}
+
+
+/* ====================
+HE:pair
+==================== */
+
+#hepair-page {
+  margin-top: 155px;
+  text-align: center;
+}
+
+#hepair-logo img {
+  width: 440px;
+  margin: auto;
+}
+
+#hepair-page .sub {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 30px 0 0 0;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.red-button-pair {
+  width: 537px;
+  font-size: 19px !important;
+}
+
+.hepair #fale-conosco .form {
+  display: none !important;
+}
+
+.hepair #fale-conosco .pair .div-form {
+  clear: both;
+}
+
+.hepair #fale-conosco .pair .div-form .text {
+  position: static !important;
+  bottom: auto;
+  margin: 0 0 30px 30px;
+  width: 41.5%;
+}
+
+.hepair #fale-conosco input[type="image"],
+.hepair #talk-to-us input[type="image"] {
+  margin-bottom: 60px;
+}
+
+/*-*/
+
+.hepair #fale-conosco .pair .div-form .text {
+  position: static !important;
+  bottom: auto;
+  margin: 0 0 30px 30px;
+  width: 41.5%;
+}
+
+.offer {
+  width:20%;
+  background: #b40e00;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(255, 255, 255, .3), 0 2px 3px rgba(0,0,0,.4);
+  color: white;
+  display: block;
+  float: left;
+  font: 20px "calibri";
+  margin-left: 55px;
+  height: 48px;
+  line-height: 48px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: -1px -1px 1px rgba(0,0,0,.2);
+}
+
 
 /* ====================
 Contact
@@ -1437,8 +1412,8 @@ Contact
 
 #fale-conosco h2,
 #talk-to-us h2 {
-  text-transform:uppercase;
-  font-weight:bold;
+  text-transform: uppercase;
+  font-weight: bold;
   color: #fff;
   text-align: center;
   font-size: 120px;
@@ -1461,7 +1436,7 @@ Contact
 
 #fale-conosco .pre,
 #talk-to-us .pre {
-  margin:0 0 5px 0 !important;
+  margin: 0 0 5px 0 !important;
   font-size: 31px;
 }
 
@@ -1744,9 +1719,6 @@ Open Source
   font-weight: normal;
   margin: 0 0 5px 0;
 }
-
-
-
 
 
 /* ====================
