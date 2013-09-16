@@ -27,7 +27,8 @@ body {
   color: rgb(71, 60, 60);
 }
 
-p {margin:0 0 20px 0}
+p { margin:0 0 20px 0}
+
 label {cursor:pointer}
 img {border:none}
 
@@ -98,12 +99,12 @@ Patterns
 }
 
 .custom-help {
-  background:#efeff0;
+  background: #efeff0;
 }
 
 .custom-help iframe {
-  width:100%;
-  margin:0;
+  width: 100%;
+  margin: 0;
 }
 
 /*-*/
@@ -1592,10 +1593,24 @@ footer h3 {
 Apoios
 ==================== */
 
+#apoios {
+  background: #efefef url("/images/bg-time.png") top center no-repeat;
+  padding: 40px 0 0 0;
+}
+
+#apoios:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
+}
+
 .apoio-h3 {
-  font-size:20px;
-  margin-top:40px;
-  margin-bottom:20px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .logos-list {
@@ -1604,34 +1619,31 @@ Apoios
   float:left;
 }
 
-.logos-list > li {
-  width:27.3%;
-  margin:0 3% 20px 3%;
-  display:block;
-  float:left;
+.logos-list p {
+  font-weight:bold;
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  color: #b80606;
 }
 
-.logos-list p {
-  width:100%;
-  text-align:center;
-  font-size:17px;
-  margin:15px 0 0 0;
-  float:left;
-  color: #333;
-  font-weight: bold;
+.logos-list a {
+  text-decoration: none;
+}
+
+.logos-list > li {
+  box-shadow: 0 4px 8px -3px #d8d8d8;
+  width: 24%;
+  background: none repeat scroll 0 0 white;
+  margin: 10px 3% 10px 3%;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
 }
 
 .logos-list > li img {
-  width:100%;
-  float:left;
-}
-
-#depoimento {
-  padding-bottom: 180px;
-  background-image: url("/images/bg-time.png");
-  background-repeat:no-repeat;
-  background-position:top center;
-  background-color:#efefef;
+  width: 100%;
+  display: block;
 }
 
 
