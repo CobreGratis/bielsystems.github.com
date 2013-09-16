@@ -2366,6 +2366,13 @@ Privacy
     background: url("/images/play.jpg") no-repeat white;
     background-size: 100%;
   }
+  
+  
+  /* Apoios */
+
+  .logos-list > li {
+    width: 39%;
+  }
 
 
   /* Jobs */
@@ -2642,6 +2649,10 @@ Privacy
   .videothumbs li:hover {
     background: url("/images/play.jpg") no-repeat white;
     background-size: 100%;
+  }
+  
+  .logos-list > li {
+    width: 90%;
   }
 
 
