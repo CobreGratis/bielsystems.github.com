@@ -1760,124 +1760,121 @@ Privacy
 Mailing
 ==================== */
 
-.cover-mailing-page {
-  background-image: url("/images/mailing-cover-bg.jpg");
-  background-position: bottom center;
-  background-repeat:repeat-x;
-  margin-top:35px;
-  height:280px;
+#cover-mailing {
+  background: #f3f3f3 url("/images/mailing-cover-bg.jpg") bottom center repeat-x;
+  text-align: center;
+  margin-top: 95px;
+  padding: 50px 0 70px 0;
 }
 
-.mailing-form {
-  background-image: url("/images/mailing/mailing-mauro.png");
-  background-position: left 40px;
-  background-repeat: no-repeat;
-  padding-left: 200px;
-  padding-top: 100px;
-  height: 200px;
+#cover-mailing h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 52px;
+  line-height: 55px;
+  color: #b80606;
 }
 
-#mailing-page h2 {
-  color:#b80606;
-  font-size:30px;
-  margin-top: -40px;
-  text-transform:none;
-  width:100%;
-  line-height:30px;
-  margin-bottom:35px;
+#cover-mailing strong {
+  font-weight: 700 !important;
+  color: #8c8c8c;
 }
 
-.cover-mailing-page div.containner input[type="text"],
-.cover-mailing-page div.containner input[type="email"] {
-    background: none repeat scroll 0 0 white;
-    border: 1px solid #C7C7C7;
-    border-radius: 6px 6px 6px 6px;
-    float: left;
-    font-size: 14px;
-    margin: 0;
-    padding: 0.7em;
-    width: 50%;
+#cover-mailing .sup {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 5px 0 20px 0;
+  font-size: 24px;
 }
 
-.cover-mailing-page div.containner input[type="submit"] {
-    background-color: #B80606;
-    border: 0 none;
-    border-radius: 6px 6px 6px 6px;
-    color: #FFFFFF;
-    font-size: 12px;
-    font-weight: 700;
-    margin: 0.2em 0.2em 0.2em 0.3em;
-    padding: 8px;
-    text-transform: uppercase;
+#cover-mailing .sup strong {
+  font-weight: 300 !important;
+  color: #8c8c8c;
 }
 
-.cover-mailing-page div.containner input[type="submit"]:hover{
-  opacity:0.9;
+#cover-mailing input[type="text"],
+#cover-mailing input[type="email"] {
+  box-shadow: 0 2px 4px #e3e3e3;
+  border-radius: 4px;
+  width: 300px;
+  height: 44px;
+  line-height: 44px;
+  font: normal 17px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 0 15px 0 15px;
+  background: #fff;
+  display: inline-block;
+  margin: 0 0 25px 0;
+  outline: none;
+}
+
+#cover-mailing input[type="submit"] {
+  border-radius: 4px;
+  width: 100px;
+  height: 44px;
+  line-height: 44px;
+  font: normal 17px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 0 15px 0 15px;
+  background: #b80606;
+  display: inline-block;
+  margin: 0 0 0 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#cover-mailing input[type="submit"]:hover {
+  opacity: .8;
+}
+
+#cover-mailing li {
+  font-size: 14px;
+  margin: 0 7px 0 7px;
+  display: inline;
+}
+
+#cover-mailing a {
+  color: #8c8c8c;
 }
 
 
-#mailing-page{
-  padding-bottom:50px;
-  padding-top: 3.8em;
+/* Mailing List */
+
+#mailing {
+  padding: 40px 0 60px 0;
 }
 
-#mailing-page h3{
-  font-size:28px;
-  margin:40px 0;
+#mailing h3 {
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
-#mailing-page ul li{
-  list-style:none;
-  width:97%;
-  display:block;
-  padding-top:20px;
-  padding-bottom:8px;
-  border-bottom:1px solid #f5f5f5;
+#mailing li {
+  width: 100%;
+  margin: 0 0 30px 0;
+  line-height: 22px;
+  float: left;
 }
 
-
-#mailing-page ul li:hover{
-  background-color:#fbfbfb;
+#mailing a {
+  color: #b80606;
 }
 
-#mailing-page ul li:last-child{
-  border-bottom:none;
+#mailing span {
+  font-size: 12px;
+  color: #8c8c8c;
 }
 
-#mailing-page ul li img{
-  float:left;
-  margin-right:30px;
+#mailing h4 {
+  margin: -5px 0 7px 0;
 }
 
-#mailing-page ul li span{
-  font-size:23px;
-  font-weight:300;
-  color:#888;
+#mailing div {
+  margin-left: 180px;
 }
 
-#mailing-page ul li h4{
-  font-size:23px;
-  font-weight:400;
-  color:#b80606;
-  margin-bottom:20px;
-}
-
-#mailing-page ul li p{
-  font-size:16px;
-}
-
-.mailing-form p{
-  margin-top:15px;
-}
-
-.mailing-form p a{
-  font-size:11px;
-  color:#666;
-}
-
-.mailing-form img{
-  float:right;
-  margin: 11px 60px 0 0;
+#mailing img {
+  width: 160px;
+  float: left;
 }
 
 
@@ -1975,6 +1972,10 @@ Mailing
   #cover-banner {
     margin-top: 80px;
     padding: 40px 0 40px 0;
+  }
+  
+  #cover-mailing {
+    margin-top: 80px;
   }
 
 
@@ -2261,6 +2262,33 @@ Mailing
   #cover-banner p {
     font-size: 17px;
     margin: 10px 0 0 0;
+  }
+  
+  /*-*/
+  
+  #cover-mailing {
+    margin-top: 60px;
+  }
+  
+  #cover-mailing h2 {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  #cover-mailing .sup {
+    font-size: 17px;
+    margin: 10px 0 0 0;
+  }
+  
+  #cover-mailing input[type="text"],
+  #cover-mailing input[type="email"] {
+    width: 96%;
+    padding: 0 2% 0 2%;
+    margin: 25px 0 25px 0;
+  }
+
+  #cover-mailing input[type="submit"] {
+    margin-bottom: 25px;
   }
 
 
