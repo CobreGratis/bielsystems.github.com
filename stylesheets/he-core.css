@@ -1730,6 +1730,10 @@ Privacy
   padding:40px 0 40px 0;
 }
 
+#privacy a {
+  color:#b80606;
+}
+
 #privacidade ol li {
   margin-left:20px;
 }
@@ -1749,10 +1753,6 @@ Privacy
 
 .topics li:first-child {
   margin-top:0 !important;
-}
-
-.topics li a {
-  color:#b80606;
 }
 
 
