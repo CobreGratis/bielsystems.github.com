@@ -1821,7 +1821,7 @@ Privacy
 /*=====================*/
 
 .cover-mailing-page{
-  background-image: url("/images/mailing/mailing-cover-bg.jpg");
+  background-image: url("/images/mailing-cover-bg.jpg");
   background-position: bottom center;
   background-repeat:repeat-x;
   margin-top:35px;
@@ -2497,7 +2497,7 @@ Privacy
   /* Mailing page*/
 
   .cover-mailing-page {
-    background-image: url("/images/mailing/mailing-cover-bg.jpg");
+    background-image: url("/images/mailing-cover-bg.jpg");
     background-position: bottom center;
     margin-top:40px;
   }
