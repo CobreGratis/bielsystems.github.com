@@ -1868,8 +1868,9 @@ Mailing
   margin: -5px 0 7px 0;
 }
 
-#mailing div {
+#mailing li div {
   margin-left: 180px;
+  position: relative;
 }
 
 #mailing img {
