@@ -1855,10 +1855,6 @@ Mailing
   float: left;
 }
 
-#mailing a {
-  color: #b80606;
-}
-
 #mailing span {
   font-size: 12px;
   color: #8c8c8c;
@@ -1876,59 +1872,6 @@ Mailing
 #mailing img {
   width: 160px;
   float: left;
-}
-
-
-/* ====================
-Mailing, ????
-==================== */
-
-#mailing-helabs{
-  background-image: url(/images/mailing-bg.png);
-  width:550px;
-  height:167px;
-}
-
-#mailing-helabs h2{
-  font-size:18px;
-  padding-top:55px;
-}
-
-#mailing-helabs input[type="text"], #mailing-helabs input[type="email"]{
-  margin:26px 0 0 10px;
-  width:425px;
-  border:none;
-  font-size:14px;
-}
-
-#mailing-helabs input[type="submit"]{
-  background-color:#b80606;
-  padding:8px;
-  border:0px;
-  border-radius:6px;
-  color:#fff;
-  font-size:12px;
-  text-transform:uppercase;
-  font-weight:700;
-}
-
-#mailing-helabs input[type="submit"]:hover{
-  opacity:0.9;
-  cursor: pointer;
-}
-
-#mailing-helabs p {
-  margin:12px 0 0 10px;
-  font-size:13px;
-}
-
-#mailing-helabs a {
-  color:#333;
-}
-
-#mailing-helabs p span{
-  color: #b80606;
-  text-decoration:none;
 }
 
 
