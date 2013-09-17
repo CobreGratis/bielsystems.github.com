@@ -2564,103 +2564,6 @@ Mailing
     width: 90%;
   }
 
-
-  /* Mailling Page */
-
-  #mailing-page ul li p {
-    float: left;
-    font-size: 16px;
-    margin-bottom: 0.5em;
-    margin-top: 0.2em;
-    width: 100%;
-  }
-
-  #mailing-page ul li h4 {
-    color: #B80606;
-    float: left;
-    font-size: 23px;
-    font-weight: 400;
-    margin-bottom: 0.1em;
-    width: 100%;
-  }
-
-  #mailing-page ul li span {
-    color: #888;
-    float: left;
-    font-size: 23px;
-    font-weight: 300;
-    margin-top: 0.3em;
-    width: 100%;
-  }
-
-  #mailing-page h3 {
-    border-bottom: 2px solid #c6c6c6;
-    float: left;
-    font-size: 28px;
-    margin: 0.2em 0 0.6em;
-    padding-bottom: 0.3em;
-    width: 100%;
-  }
-
-  .cover-mailing-page h2 {
-    color: #B80606;
-    font-size: 1.53em;
-    line-height: 20px;
-    margin: 0 0 15px;
-    padding: 0;
-    text-transform: none;
-    width: 100%;
-  }
-
-  .cover-mailing-page div.containner input[type="text"],
-  .cover-mailing-page div.containner input[type="email"]{
-    width:40%;
-  }
-
-  #mailing-page ul li {
-    border-bottom: 1px dashed #C6C6C6;
-    max-width: 100%;
-    padding-bottom: 2em;
-    padding-top: 2em;
-    width: 100%;
-  }
-
-  #cover.cover-mailing-page{
-    background-image: none;
-    background-color:#eaeaea;
-    margin-top:40px;
-    height: 300px;
-  }
-
-  .mailing-form {
-    background-image: none;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  #mailing-page h2 {
-    color:#b80606;
-    font-size:25px;
-    padding-top: 40px;
-    text-transform:none;
-    width:100%;
-    line-height:30px;
-    margin-bottom:15px;
-  }
-
-  .cover-mailing-page div.containner input[type="text"],
-  .cover-mailing-page div.containner input[type="email"] {
-    background: none repeat scroll 0 0 white;
-    border: 1px solid #C7C7C7;
-    border-radius: 6px 6px 6px 6px;
-    float: left;
-    font-size: 12px;
-    margin: 0;
-    padding: 0.7em;
-    width: 95%;
-  }
-
   /*-*/
 
   .submenuhome {
@@ -2676,7 +2579,6 @@ Mailing
   }
 
 }
-
 
 
 /* ====================
