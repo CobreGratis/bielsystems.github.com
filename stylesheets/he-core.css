@@ -2509,6 +2509,14 @@ Mailing
 
   .projects-worked img {
     width: 280px;
+  } 
+
+  #mailing li div {
+    margin-left: 90px;
+  }
+
+  #mailing img {
+    width: 70px;
   }
 
 }
