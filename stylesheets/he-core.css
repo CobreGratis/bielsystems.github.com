@@ -291,7 +291,6 @@ Home
   line-height: 20px;
   padding: 30px 3% 0 3%;
   min-height: 225px;
-  display:inline-block;
 }
 
 .services h3 {
@@ -1858,8 +1857,7 @@ Media Queries for Tablets
 
   .services li {
     width: 90%;
-    height:auto !important;
-    min-height:auto !important;
+    min-height:100px !important;
     padding: 25px 5% 30px 5% !important;
     margin: 1px 0 0 0 !important;
   }
