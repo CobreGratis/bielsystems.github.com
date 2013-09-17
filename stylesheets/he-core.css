@@ -1872,7 +1872,10 @@ Mailing
 }
 
 
-/* Max Width, 960px */
+/*
+Max Width, 960px
+Media Queries for Tablets
+*/
 
 @media (max-width:960px) {
 
@@ -2062,7 +2065,10 @@ Mailing
 }
 
 
-/* Max Width, 686px */
+/*
+Max Width, 686px
+Media Queries for Smartphones
+*/
 
 @media only screen and (max-width: 686px) {
 
@@ -2493,7 +2499,10 @@ Mailing
 }
 
 
-/* Max Width, 581px */
+/*
+Max Width, 581px
+Media Queries with adjustments for Smartphones
+*/
 
 @media (max-width:581px) {
 
@@ -2522,7 +2531,10 @@ Mailing
 }
 
 
-/* Max Width, 481px */
+/*
+Max Width, 581px
+Media Queries with more adjustments for Smartphones
+*/
 
 @media (max-width:481px) {
 
