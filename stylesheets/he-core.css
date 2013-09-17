@@ -2488,7 +2488,7 @@ Media Queries with adjustments for Smartphones
 
 
 /*
-Max Width, 581px
+Max Width, 481px
 Media Queries with more adjustments for Smartphones
 */
 
@@ -2552,6 +2552,17 @@ Media Queries with more adjustments for Smartphones
 
   .thumbs {
     display: none;
+  }
+  
+  /*-*/
+  
+  #cover-banner h2 {
+    font-size: 22px;
+    line-height: 25px;
+  }
+
+  #cover-banner p {
+    font-size: 14px;
   }
 
 }
