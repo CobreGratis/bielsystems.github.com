@@ -269,8 +269,9 @@ Home
 /* Services */
 
 .services {
-  margin-top:50px;
-  margin-bottom:30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .services:after {
@@ -284,35 +285,28 @@ Home
 }
 
 .services li {
-  width: 27.2%;
+  width: 26%;
   background-color: #fff;
-  margin-left: 1px;
   display: inline-block;
   line-height: 20px;
   padding: 30px 3% 0 3%;
   min-height: 225px;
-  float:left;
-}
-
-.services li:first-child {
-  margin-left:0 !important;
+  display:inline-block;
 }
 
 .services h3 {
-  font-size:22px !important;
-  color:#b30000 !important;
-  text-align:center;
-  line-height:22px;
-  margin:0 0 5px 0 !important;
-  padding:0 !important;
+  font-size: 22px !important;
+  line-height: 22px;
+  color: #b80606 !important;
+  margin: 0 0 5px 0 !important;
+  padding-top: 0 !important;
 }
 
 .services p {
-  text-align:center;
-  font-family:'lato';
-  font-size:17px;
-  line-height:24px;
-  margin:0 !important;
+  font-family: 'lato';
+  font-size: 17px;
+  line-height: 24px;
+  margin: 0 !important;
 }
 
 
@@ -320,20 +314,20 @@ Home
 
 .icons {
   width: 100%;
-  text-align:center;
+  text-align: center;
   margin: 30px 0 0 0;
 }
 
 .icons li {
-  text-align:center;
-  display:inline-block;
-  margin:0 5px 0 5px;
+  text-align: center;
+  display: inline-block;
+  margin: 0 5px 0 5px;
 }
 
 .icons a {
-  display:inline-block;
+  display: inline-block;
   text-align: center;
-  opacity: 0.8;
+  opacity: .8;
 }
 
 
