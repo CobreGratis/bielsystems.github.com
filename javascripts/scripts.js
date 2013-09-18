@@ -42,6 +42,8 @@ var App = {
 		var $modalBg = $("#modalBg");
 		var $modalBox = $(".modalBox");
 
+		$('.modalBox').append('<span class="modalClose">Fechar</span>');
+
 		function DisableModal(){
 			$modalBg.fadeOut();
 			$modalBox.fadeOut();
@@ -56,11 +58,9 @@ var App = {
 			DisableModal();
 		});
 
-		$('.close').click(function() {
+		$('.modalClose').click(function() {
 			DisableModal();
 		});
-    
-		$('.modalBox').append('<span class="modalClose">Fechar</span>');
 
   }, // Modal
 
