@@ -597,14 +597,17 @@ Process
 #process-entry strong,
 #process-entry strong a {
   font-weight: bold;
-  margin:7px 0 0 0;
   display:inline-block;
-  cursor: pointer;
   color: rgb(71, 60, 60);
+}
+
+#process-entry strong {
+  margin:7px 0 0 0;
 }
 
 #process-entry strong a {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .m-det {
@@ -649,10 +652,14 @@ Process
 	top: 10%; left: 50%;
 	z-index: 9999;
 	margin-left: -255px;
-	padding: 23px 20px 0 20px;
+	padding: 23px 20px 10px 20px;
   font-size: 14px;
   line-height: 23px;
   display: none;
+}
+
+.modalBox p {
+  margin-bottom: 10px;
 }
 
 .modalBox h4 {
@@ -2240,11 +2247,7 @@ Media Queries for Smartphones
   	width: 280px;
 	  padding: 17px 10px 10px 10px;
   	top: 5%;
-  	margin-left: -150px;
-  }
-  
-  .modalBox p {
-    margin-bottom: 10px;
+  	margin-left: -155px;
   }
 
 
