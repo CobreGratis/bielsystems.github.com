@@ -1019,6 +1019,46 @@ Jobs
 }
 
 
+/* Jobs Form */
+
+#jobs-form { margin:0 0 40px 0; }
+#jobs-form h3 { margin:0 0 25px 0; }
+#jobs-form li { margin-top: 15px; } 
+
+#jobs-form input[type="text"], textarea {
+  border-radius: 4px; 
+  width: 280px;
+  font: normal 15px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 22px;
+  border: 1px solid #ccc;
+  padding: 0 12px 0 12px; 
+  display: inline-block;
+  outline: none;
+}
+
+#jobs-form input[type="text"] { height: 44px; }
+
+textarea {
+  height: 200px;
+  padding-top: 10px;
+}
+
+#jobs-form input[type="submit"] {
+  border-radius: 4px;
+  width: 100px;
+  height: 44px;
+  line-height: 44px;
+  font: normal 17px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 0 15px 0 15px;
+  background: #b80606;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+}
+
+#jobs-form input[type="submit"]:hover { opacity: .8; }
+
+
 /* ====================
 User Profile
 ==================== */
@@ -1031,7 +1071,7 @@ User Profile
   background: -ms-linear-gradient(top, #fff 0%, #f9f9f9 100%); /* IE10+ */
   background: linear-gradient(top bottom, #fff 0%, #f9f9f9 100%); /* W3C */
   border-bottom: 1px solid #fff;
-  padding:135px 0 35px 0;
+  padding: 135px 0 35px 0;
 }
 
 #profile:after {
