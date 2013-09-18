@@ -664,14 +664,14 @@ Process
 
 .modalBox h4 {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 22px;
   margin: 0;
-  color:#b80606;
+  color: #b80606;
 }
 
 .modalDay {
   font-weight: 300;
-  margin: 2px 0 15px 0;
+  margin: 2px 0 10px 0;
   display: block;
   color: #8c8c8c;
 }
