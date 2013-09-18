@@ -40,16 +40,16 @@ var App = {
 	Modal: function() {
 
 		var $modalBg = $("#modalBg");
-		var $modalBox = $("#modalBox");
+		var $modalBox = $(".modalBox");
 
 		function DisableModal(){
 			$modalBg.fadeOut();
 			$modalBox.fadeOut();
 		}
 
-		$('#modalTrigger').click(function() {
+		$('.modalTrigger').click(function() {
 			$modalBg.show();
-			$modalBox.fadeIn();
+			$(this).parent().find('.modalBox').fadeIn();
 		});
 
 		$modalBg.mouseup(function() {
@@ -59,6 +59,8 @@ var App = {
 		$('.close').click(function() {
 			DisableModal();
 		});
+    
+		$('.modalBox').append('<span class="modalClose">Fechar</span>');
 
   }, // Modal
 

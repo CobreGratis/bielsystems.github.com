@@ -594,9 +594,12 @@ Process
   line-height: 22px;
 }
 
-#process-entry strong {
+#process-entry strong,
+#process-entry a {
+  font-weight: bold;
   margin:7px 0 0 0;
   display:inline-block;
+  color: rgb(71, 60, 60);
 }
 
 
@@ -606,16 +609,16 @@ Process
 	width: 100%;
   height: 100%;
   background: url("/images/modal-bg.png");
-	display: none;
 	position: fixed;
 	left: 0; top: 0;
 	float: left;
 	z-index: 9000;
+  display:none;
 }
 
-.close {
+.modalClose {
 	width: 25px; height: 29px;
-	background: url($urls + "x.png");
+  background: url("/images/x.png");
 	position: absolute;
 	right: -12px; top: -12px;
 	text-indent: -9999px;
@@ -623,18 +626,22 @@ Process
 	float: left;
 }
 
-#cepBox {
+.modalBox {
 	border-radius: 4px;
-	width: 260px;
-	border: 1px solid #fff;
-	background: #055479;
+	width: 460px;
+  background: #fff;
 	position: absolute;
+  border:none;
 	top: 10%; left: 50%;
 	z-index: 9999;
-	margin-left: -180px;
-	padding: 20px;
-	color: #fff;
-	display: none;
+	margin-left: -250px;
+	padding: 20px 20px 0 20px;
+  font-size: 14px;
+  line-height: 23px;
+  display:none;
+}
+
+.modalBox p {
 }
 
 
