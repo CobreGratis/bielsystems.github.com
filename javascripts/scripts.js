@@ -44,13 +44,31 @@ var App = {
 
 		$('.modalBox').append('<span class="modalClose">Fechar</span>');
 
+		function EnableModal(){
+      $('body').css({'overflow':'hidden'});
+      window.scrollTo(0,0);
+      $(document).bind('scroll',function () {
+        window.scrollTo(0,0); 
+      });
+			$modalBg.show();
+		}
+
 		function DisableModal(){
 			$modalBg.fadeOut();
 			$modalBox.fadeOut();
+      $("body").css("overflow", "visible");
+      $(document).unbind('scroll');
 		}
 
+    // Trigger 01
 		$('.modalTrigger').click(function() {
-			$modalBg.show();
+			EnableModal();
+			$(this).parent().parent().find('.modalBox').fadeIn();
+		});
+
+    // Trigger 02
+		$('.m-det').click(function() {
+			EnableModal();
 			$(this).parent().find('.modalBox').fadeIn();
 		});
 

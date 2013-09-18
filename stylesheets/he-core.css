@@ -595,11 +595,25 @@ Process
 }
 
 #process-entry strong,
-#process-entry a {
+#process-entry strong a {
   font-weight: bold;
   margin:7px 0 0 0;
   display:inline-block;
+  cursor: pointer;
   color: rgb(71, 60, 60);
+}
+
+#process-entry strong a {
+  text-decoration: underline;
+}
+
+.m-det {
+  text-decoration: underline;
+  font-weight: 300 !important;
+  font-size: 12px;
+  margin-left: 7px;
+  color: #8c8c8c;
+  cursor: pointer;
 }
 
 
@@ -2218,6 +2232,19 @@ Media Queries for Smartphones
 
   .navigation li a {
     border-bottom: 1px solid #fff;
+  }
+
+  /*-*/
+
+  .modalBox {
+  	width: 280px;
+	  padding: 17px 10px 10px 10px;
+  	top: 5%;
+  	margin-left: -150px;
+  }
+  
+  .modalBox p {
+    margin-bottom: 10px;
   }
 
 
