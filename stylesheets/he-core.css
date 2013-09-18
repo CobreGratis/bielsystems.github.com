@@ -634,8 +634,8 @@ Process
 }
 
 .modalClose {
-	width: 25px; height: 29px;
-  background: url("/images/x.png");
+	width: 30px; height: 30px;
+  background: url("/images/x2.png");
 	position: absolute;
 	right: -12px; top: -12px;
 	text-indent: -9999px;
