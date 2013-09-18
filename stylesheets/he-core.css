@@ -665,7 +665,7 @@ Process
 	top: 10%; left: 50%;
 	z-index: 9999;
 	margin-left: -255px;
-	padding: 23px 20px 10px 20px;
+	padding: 23px 20px 20px 20px;
   font-size: 14px;
   line-height: 23px;
   display: none;
@@ -687,6 +687,11 @@ Process
   margin: 2px 0 10px 0;
   display: block;
   color: #8c8c8c;
+}
+
+.modalEntry {
+  height:200px;
+  overflow:auto;
 }
 
 
