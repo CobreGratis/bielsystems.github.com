@@ -644,6 +644,15 @@ Process
 	float: left;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 240dpi) {
+  .modalClose {
+      background: url("/images/x2@2x.png") left no-repeat;
+      background-size: 30px 30px;
+  }
+}
+
 .modalBox {
 	width: 460px;
   background: #fff;
