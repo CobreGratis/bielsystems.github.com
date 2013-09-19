@@ -1434,7 +1434,7 @@ Apoios
 #apoios {
   background: #efefef url("/images/bg-time.png") top center no-repeat;
   text-align: center;
-  padding: 40px 0 0 0;
+  padding: 5px 0 40px 0;
 }
 
 #apoios:after {
@@ -1449,11 +1449,7 @@ Apoios
 
 .apoio-h3 {
   font-size: 26px;
-  margin-bottom: 25px;
-}
-
-.logos-list {
-  margin: 0 0 40px 0;
+  margin: 35px 0 25px 0;
 }
 
 .logos-list p {
