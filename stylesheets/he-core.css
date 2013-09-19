@@ -712,6 +712,7 @@ Cliente Feliz
 #cliente-feliz,
 #happy-costumer {
   background: #efefef url("/images/bg-time.png") top center no-repeat;
+  text-align: center;
   padding: 40px 0 40px 0;
 }
 
@@ -723,10 +724,6 @@ Cliente Feliz
   clear: both;
   height: 0;
   min-height: 0;
-}
-
-.videothumbs {
-  text-align: center;
 }
 
 .videothumbs li {
