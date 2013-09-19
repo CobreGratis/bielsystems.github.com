@@ -670,10 +670,6 @@ Process
   display: none;
 }
 
-.modalBox p {
-  margin-bottom: 5px;
-}
-
 .modalBox h4 {
   font-size: 24px;
   margin: 0;
@@ -691,10 +687,21 @@ Process
 .modalEntry {
   border: 1px solid #eee;
   max-height: 250px;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 10px 10px 10px;
   overflow: auto;
 }
 
+.modalEntry p {
+  height: auto;
+  border:1px solid #eee;
+  margin-bottom: 1px;
+  font-size: 13px !important;
+  line-height: 19px !important;
+  padding: 0 10px 7px 10px;
+}
+
+.modalEntry p:nth-child(even) { background: #fafafa; }
+.modalEntry p:nth-child(odd) { background: #fdfdfd; }
 
 /* ====================
 Cliente Feliz
