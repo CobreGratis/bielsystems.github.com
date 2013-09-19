@@ -2269,15 +2269,6 @@ Media Queries for Smartphones
     border-bottom: 1px solid #fff;
   }
 
-  /*-*/
-
-  .modalBox {
-  	width: 280px;
-	  padding: 17px 10px 10px 10px;
-  	top: 5%;
-  	margin-left: -155px;
-  }
-
 
   /* Home */
 
@@ -2636,6 +2627,13 @@ Media Queries with adjustments for Smartphones
 
   #mailing img {
     width: 70px;
+  }
+  
+  .modalBox {
+  	width: 260px;
+    padding: 17px 10px 10px 10px;
+  	top: 5%;
+  	margin-left: -145px;
   }
 
 }
