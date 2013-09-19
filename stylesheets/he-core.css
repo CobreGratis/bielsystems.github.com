@@ -1796,7 +1796,7 @@ Contact
 
 #fale-conosco form,
 #talk-to-us form {
-  margin-top:40px;
+  margin-top: 40px;
 }
 
 #fale-conosco .pre, #fale-conosco .sub,
@@ -1833,17 +1833,18 @@ Contact
 
 #fale-conosco input.text,
 #talk-to-us input.text {
-  border-radius:3px;
+  border-radius: 3px;
   width: 45%;
   padding: 15px 2%;
-  margin: 0 0 15px;
+  margin: 0 0 15px 0;
   position: static;
   background-color: black;
-  opacity: 0.6;
+  opacity: .6;
   border: none;
   color: #fff;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 17px;
+  font-weight: normal;
+  outline: none;
   float: left;
 }
 
@@ -1854,24 +1855,24 @@ Contact
 
 #fale-conosco textarea,
 #talk-to-us textarea {
-  border-radius:3px;
+  border-radius: 3px;
   width: 96%;
-  margin: 0 0 15px;
-  clear: both;
-  padding: 15px 2%;
+  margin: 0 0 15px 0;
+  padding: 15px 2% 15px 2%;
   position: static;
+  clear: both; 
 }
 
 #fale-conosco textarea,
 #talk-to-us textarea {
   background-color: black;
-  opacity: 0.6;
+  opacity: .6;
   border: none;
   color: white;
   height: 100px;
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 17px;
+  font-weight: normal;
 }
 
 #fale-conosco .form,
