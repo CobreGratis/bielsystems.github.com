@@ -658,6 +658,7 @@ Process
 }
 
 .modalBox {
+  box-shadow:0 0 75px #450000;
 	width: 460px;
   background: #fff;
 	position: absolute;
