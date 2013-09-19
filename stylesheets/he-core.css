@@ -686,12 +686,6 @@ Process
 
 .modalEntry {
   background: #fff;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #f8f8f8)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #fff 0%, #f8f8f8 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #fff 0%, #f8f8f8 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #fff 0%, #f8f8f8 100%); /* IE10+ */
-  background: linear-gradient(top bottom, #fff 0%, #f8f8f8 100%); /* W3C */
-  
   border: 1px solid #eee;
   max-height: 250px;
   padding: 7px;
@@ -707,7 +701,7 @@ Process
   padding: 0 10px 7px 10px;
 }
 
-.modalEntry p:nth-child(even) { background: #fff; }
+.modalEntry p:nth-child(even) { background: #fafafa; }
 .modalEntry p:nth-child(odd) { background: #fdfdfd; }
 
 /* ====================
