@@ -1775,7 +1775,7 @@ Contact
 
 #fale-conosco,
 #talk-to-us {
-  width:100%;
+  width: 100%;
   border-top: 1px solid #fff;
   background: #bd0011 url("/images/bg-contato.jpg") center bottom no-repeat;
   position: relative;
@@ -1894,17 +1894,12 @@ footer {
 }
 
 footer a {
-  text-decoration:none;
-  color:#ebcacd;
+  text-decoration: none;
+  color: #ebcacd;
 }
 
-footer a:hover {
-  color:#fff;
-}
-
-footer ul {
-  overflow: hidden;
-}
+footer a:hover { color:#fff; }
+footer ul { overflow: hidden; }
 
 footer li {
 	width: 25%;
@@ -1913,9 +1908,7 @@ footer li {
   float: left;
 }
 
-footer address span {
-  display: block;
-}
+footer address span { display: block; }
 
 footer h3 {
   text-transform:uppercase;
@@ -1924,16 +1917,16 @@ footer h3 {
 }
 
 .copyright {
-  width:100%;
+  width: 100%;
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.4);
   text-align: center;
   padding: 12px 0 12px 0;
   color: #fff;
-  position:absolute;
-  margin:0;
-  bottom:0;
-  left:0;
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  left: 0;
 }
 
 
@@ -1944,35 +1937,23 @@ Media Queries for Tablets
 
 @media (max-width:960px) {
 
-  .containner {
-    width:700px;
-  }
-
-  header.default .logo {
-    width:155px;
-  }
-
-  #menu2 {
-    margin-top:17px;
-  }
+  .containner { width: 700px; }
+  header.default .logo { width: 155px; }
+  #menu2 { margin-top: 17px; }
 
 
   /* Home */
 
-  #home {
-    padding-top: 150px;
-  }
+  #home { padding-top: 150px; }
 
   .services li {
     width: 90%;
-    min-height:100px !important;
+    min-height: 100px !important;
     padding: 25px 5% 30px 5% !important;
     margin: 1px 0 0 0 !important;
   }
 
-  .services li:first-child {
-    margin-top: 0 !important;
-  }
+  .services li:first-child { margin-top: 0 !important; }
 
 
   /* Cover Banner */
@@ -1982,16 +1963,12 @@ Media Queries for Tablets
     padding: 40px 0 40px 0;
   }
   
-  #cover-mailing {
-    margin-top: 80px;
-  }
+  #cover-mailing { margin-top: 80px; }
 
 
   /* HE:pair */
 
-  #hepair-page {
-    margin-top: 130px;
-  }
+  #hepair-page { margin-top: 130px; }
 
   #hepair-logo img {
     width: 370px;
@@ -2018,35 +1995,14 @@ Media Queries for Tablets
     padding: 6px 0 0 0;
   }
 
-  #process-info p {
-    display: none;
-  }
+  #process-info p { display: none; }
 
-  /*-*/
-
-  .proc-desc-01 {
-    left: 30px; top: 72px;
-  }
-
-  .proc-desc-02 {
-    left: 125px; top: 135px;
-  }
-
-  .proc-desc-03 {
-    left: 140px; top: 20px;
-  }
-
-  .proc-desc-04 {
-    right: 40px; top: 15px;
-  }
-
-  .proc-desc-05 {
-    right: 25px; bottom: 440px;
-  }
-
-  .proc-desc-06 {
-    left: 250px; bottom: 345px;
-  }
+  .proc-desc-01 { left: 30px; top: 72px; }
+  .proc-desc-02 {left: 125px; top: 135px; }
+  .proc-desc-03 {left: 140px; top: 20px; }
+  .proc-desc-04 {right: 40px; top: 15px; }
+  .proc-desc-05 {right: 25px; bottom: 440px; }
+  .proc-desc-06 {left: 250px; bottom: 345px; }
 
   /*-*/
 
@@ -2055,9 +2011,7 @@ Media Queries for Tablets
     display: block;
   }
 
-  #tablet-descriptions strong {
-    color: #b20000;
-  }
+  #tablet-descriptions strong { color: #b20000; }
 
   #tablet-descriptions li {
     padding: 10px 0 10px 0;
@@ -2074,29 +2028,19 @@ Media Queries for Tablets
 
   /* Profile */
 
-  #profile {
-    padding-top: 120px;
-  }
-
-  .social-links {
-    margin:0;
-  }
-
-  .social-links li {
-    display:block;
-  }
+  #profile { padding-top: 120px; }
+  .social-links { margin: 0; }
+  .social-links li { display: block; }
 
   .social-links a {
-    margin:5px 0 0 0;
-    clear:both;
+    margin: 5px 0 0 0;
+    clear: both;
   }
 
 
   /* Mailing page*/
 
-  .cover-mailing-page {
-    margin-top:20px;
-  }
+  .cover-mailing-page { margin-top: 20px; }
 
 
   /* Open Source */
@@ -2118,14 +2062,11 @@ Media Queries for Tablets
   }
 
   #fale-conosco .pre,
-  #talk-to-us .pre {
-    font-size: 23px;
-  }
+  #talk-to-us .pre { font-size: 23px; }
 
   #fale-conosco .sub,
-  #talk-to-us .sub {
-    font-size: 21px;
-  }
+  #talk-to-us .sub { font-size: 21px; }
+
 }
 
 
@@ -2141,13 +2082,8 @@ Media Queries for Smartphones
     padding: 0 5% 0 5%;
   }
 
-  header.default .logo {
-    width:100px;
-  }
-
-  #menu2 {
-    display:none;
-  }
+  header.default .logo { width: 100px; }
+  #menu2 { display: none; }
 
   #hiddenmenu {
     width: 150px;
@@ -2183,9 +2119,7 @@ Media Queries for Smartphones
     text-decoration: none;
   }
 
-  .navigation li a:hover {
-    background: #c7c7c7;
-  }
+  .navigation li a:hover { background: #c7c7c7; }
 
   .navheader {
     margin-top: 5px;
@@ -2228,29 +2162,20 @@ Media Queries for Smartphones
     float: none;
   }
 
-  .navigation li a {
-    border-bottom: 1px solid #fff;
-  }
+  .navigation li a { border-bottom: 1px solid #fff; }
 
 
   /* Home */
 
-  #home {
-    padding-top:125px;
-  }
+  #home { padding-top:125px; }
 
   #home h2 {
     font-size: 45px;
     line-height: 47px;
   }
 
-  #home h3 {
-    font-size: 23px;
-  }
-
-  #home .home-button {
-    display: none;
-  }
+  #home h3 { font-size: 23px; }
+  #home .home-button { display: none; }
 
   .icons li {
     text-align:center;
@@ -2258,16 +2183,12 @@ Media Queries for Smartphones
     margin:0 2px 0 2px;
   }
 
-  .icons a img {
-    width: 70%;
-  }
+  .icons a img { width: 70%; }
 
 
   /* Cover Banner */
 
-  #cover-banner {
-    margin-top: 60px;
-  }
+  #cover-banner { margin-top: 60px; }
 
   #cover-banner h2 {
     font-size: 32px;
@@ -2309,9 +2230,7 @@ Media Queries for Smartphones
 
   /* HE:pair */
 
-  #hepair-page {
-    margin-top: 110px;
-  }
+  #hepair-page { margin-top: 110px; }
 
   #hepair-logo img {
     width: 240px;
@@ -2334,16 +2253,12 @@ Media Queries for Smartphones
     font-size:16px;
   }
 
-  #time .red-button {
-    margin-bottom:40px;
-  }
+  #time .red-button { margin-bottom:40px; }
 
 
   /* Cliete Feliz */
 
-  .videothumbs li {
-    width: 39%;
-  }
+  .videothumbs li { width: 39%; }
 
   .videothumbs li:hover {
     background: url("/images/play.jpg") no-repeat white;
@@ -2353,17 +2268,13 @@ Media Queries for Smartphones
   
   /* Apoios */
 
-  .logos-list > li {
-    width: 39%;
-  }
+  .logos-list > li { width: 39%; }
 
 
   /* Jobs */
 
   .he-enviroment article,
-  .he-enviroment img {
-    width: 100%;
-  }
+  .he-enviroment img { width: 100%; }
 
   .positions-available article {
     width: 94%;
@@ -2372,26 +2283,19 @@ Media Queries for Smartphones
     padding-bottom: 30px;
   }
 
-  .positions-available .column02 {
-    float: left;
-  }
+  .positions-available .column02 { float: left; }
 
 
   /* Process */
 
   #process-info {
     width: 100%;
-    margin:0 0 30px 0;
+    margin: 0 0 30px 0;
     text-align: center;
   }
 
-  #process-info > div, #tablet-descriptions {
-    display: none;
-  }
-
-  #process-info img {
-    width: 85%;
-  }
+  #process-info > div, #tablet-descriptions { display: none; }
+  #process-info img { width: 85%; }
 
   #process-entry {
     width: 100%;
@@ -2430,43 +2334,29 @@ Media Queries for Smartphones
 
   /* Time Profile */
 
-  #profile {
-    padding-top: 100px;
-  }
+  #profile { padding-top: 100px; }
 
   #profile h2 {
     font: 700 32px 'Lato', sans-serif;
     color: #000;
   }
 
-  .mini-bio {
-    width: 100%;
-  }
+  .mini-bio { width: 100%; }
 
   .mini-bio p {
     font-size: 14px;
     line-height: 23px;
   }
 
-  .mini-bio .job-title {
-    font-size: 14px;
-  }
+  .mini-bio .job-title { font-size: 14px; }
 
-  .profile-picture img {
-    display: none;
-  }
-
+  .profile-picture img { display: none; }
   .profile-cote {
     padding: 35px 0 40px 0;
   }
 
-  .cote p {
-    font: 700 30px 'lato', sans-serif;
-  }
-
-  .signature {
-    font-size: 16px;
-  }
+  .cote p { font: 700 30px 'lato', sans-serif; }
+  .signature { font-size: 16px; }
 
   .photo-bio {
     width: 100%;
@@ -2479,7 +2369,7 @@ Media Queries for Smartphones
   .cover-mailing-page {
     background-image: url("/images/mailing-cover-bg.jpg");
     background-position: bottom center;
-    margin-top:40px;
+    margin-top: 40px;
   }
 
   .mailing-form {
@@ -2490,76 +2380,61 @@ Media Queries for Smartphones
   }
 
   #mailing-page h2 {
-    color:#b80606;
-    font-size:30px;
+    width: 100%;
     padding-top: 70px;
-    text-transform:none;
-    width:100%;
-    line-height:30px;
-    margin-bottom:35px;
+    line-height: 30px;
+    margin-bottom: 35px;
+    text-transform: none;
+    font-size: 30px;
+    color: #b80606;
   }
 
 
   /* Footer */
 
-  footer {
-    padding-bottom:90px;
-  }
-
-  footer li {
-    width:100%;
-  }
+  footer { padding-bottom:90px; }
+  footer li { width:100%; }
 
 
   /* Fale Conosco */
 
   #fale-conosco,
-  #talk-to-us {
-    padding-top: 50px;
-  }
+  #talk-to-us { padding-top: 50px; }
 
   #fale-conosco h2,
-  #talk-to-us h2 {
-    display:none;
-  }
+  #talk-to-us h2 { display:none; }
 
   #fale-conosco .pre,
   #talk-to-us .pre {
-    margin:0 0 15px 0 !important;
-    text-align:left;
+    margin: 0 0 15px 0 !important;
+    text-align: left;
     font-size: 18px;
     line-height: 28px;
   }
 
   #fale-conosco .sub,
   #talk-to-us .sub {
-    text-align:left;
+    text-align: left;
     font-size: 18px;
     line-height: 28px;
   }
 
   #fale-conosco input[type="image"],
-  #talk-to-us input[type="image"] {
-    width: 70%;
-  }
+  #talk-to-us input[type="image"] { width: 70%; }
 
   #fale-conosco input[type="text"], #fale-conosco textarea,
   #talk-to-us input[type="text"], #talk-to-us textarea {
     width: 94%;
-    padding:3%;
-    margin:0;
-    float:left;
+    padding: 3%;
+    margin: 0;
+    float: left;
   }
 
   #fale-conosco input[type="text"],
-  #talk-to-us input[type="text"] {
-    margin-bottom:15px;
-  }
+  #talk-to-us input[type="text"] { margin-bottom: 15px; }
 
   #fale-conosco textarea,
-  #talk-to-us textarea {
-    margin-bottom:40px;
-  }
+  #talk-to-us textarea { margin-bottom: 40px; }
 
 }
 
@@ -2581,17 +2456,9 @@ Media Queries with adjustments for Smartphones
     margin-bottom: 0;
   }
 
-  .projects-worked img {
-    width: 280px;
-  } 
-
-  #mailing li div {
-    margin-left: 90px;
-  }
-
-  #mailing img {
-    width: 70px;
-  }
+  .projects-worked img { width: 280px; } 
+  #mailing li div { margin-left: 90px; }
+  #mailing img { width: 70px; }
   
   .modalBox {
   	width: 260px;
@@ -2615,18 +2482,14 @@ Media Queries with more adjustments for Smartphones
     line-height: 52px;
   }
 
-  #home h3 {
-    font-size: 24px;
-  }
+  #home h3 { font-size: 24px; }
 
   .cover-jobs li {
     margin: 10px 0 0 0;
     display: inline-block;
   }
 
-  #time ul > li {
-    width: 44%;
-  }
+  #time ul > li { width: 44%; }
 
   .high-light-projects div {
     width: 96%;
@@ -2639,36 +2502,21 @@ Media Queries with more adjustments for Smartphones
     margin-bottom: 20px;
   }
 
-  .videothumbs li {
-    width: 90%;
-  }
-
-  .videothumbs li img:hover {
-    opacity: 0.5;
-  }
+  .videothumbs li { width: 90%; }
+  .videothumbs li img:hover { opacity: 0.5; }
 
   .videothumbs li:hover {
     background: url("/images/play.jpg") no-repeat white;
     background-size: 100%;
   }
   
-  .logos-list > li {
-    width: 90%;
-  }
+  .logos-list > li { width: 90%; }
 
   /*-*/
 
-  .submenuhome {
-    display:none;
-  }
-
-  .ourprocess {
-    display:none;
-  }
-
-  .thumbs {
-    display: none;
-  }
+  .submenuhome { display:none; }
+  .ourprocess { display:none; }
+  .thumbs { display: none; }
   
   /*-*/
   
@@ -2677,9 +2525,7 @@ Media Queries with more adjustments for Smartphones
     line-height: 25px;
   }
 
-  #cover-banner p {
-    font-size: 14px;
-  }
+  #cover-banner p { font-size: 14px; }
 
 }
 
@@ -2696,21 +2542,10 @@ TipTip
   z-index: 99999;
 }
 
-#tiptip_holder.tip_top {
-  padding-bottom: 5px;
-}
-
-#tiptip_holder.tip_bottom {
-  padding-top: 5px;
-}
-
-#tiptip_holder.tip_right {
-  padding-left: 5px;
-}
-
-#tiptip_holder.tip_left {
-  padding-right: 5px;
-}
+#tiptip_holder.tip_top { padding-bottom: 5px; }
+#tiptip_holder.tip_bottom { padding-top: 5px; }
+#tiptip_holder.tip_right { padding-left: 5px; }
+#tiptip_holder.tip_left { padding-right: 5px; }
 
 #tiptip_content {
   font-size: 11px;
