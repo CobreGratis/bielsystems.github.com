@@ -1433,6 +1433,7 @@ Apoios
 
 #apoios {
   background: #efefef url("/images/bg-time.png") top center no-repeat;
+  text-align: center;
   padding: 40px 0 0 0;
 }
 
@@ -1447,19 +1448,17 @@ Apoios
 }
 
 .apoio-h3 {
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 26px;
+  margin-bottom: 25px;
 }
 
 .logos-list {
-  width:100%;
-  margin:0 0 40px 0;
-  float:left;
+  margin: 0 0 40px 0;
 }
 
 .logos-list p {
-  font-weight:bold;
   margin: 10px 0 0 0;
+  font-weight: bold;
   font-size: 14px;
   color: #b80606;
 }
