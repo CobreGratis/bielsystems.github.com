@@ -667,13 +667,11 @@ Process
 	z-index: 9999;
 	margin-left: -255px;
 	padding: 23px 20px 20px 20px;
-  font-size: 14px;
-  line-height: 23px;
   display: none;
 }
 
 .modalBox p {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .modalBox h4 {
@@ -685,14 +683,16 @@ Process
 
 .modalDay {
   font-weight: 300;
-  margin: 2px 0 10px 0;
+  margin: 2px 0 15px 0;
   display: block;
   color: #8c8c8c;
 }
 
 .modalEntry {
-  max-height:250px;
-  overflow:auto;
+  border: 1px solid #eee;
+  max-height: 250px;
+  padding: 10px 15px 10px 15px;
+  overflow: auto;
 }
 
 
