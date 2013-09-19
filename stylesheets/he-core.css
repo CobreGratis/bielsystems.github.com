@@ -913,11 +913,11 @@ Team
 }
 
 #time ul > li {
-  width:160px;
-  margin:0 1% 20px 1%;
-  position:relative;
-  display:inline-block;
-  color:#333;
+  width: 160px;
+  margin: 0 1% 20px 1%;
+  position: relative;
+  display: inline-block;
+  color: #333;
 }
 
 #time h3 {
@@ -930,7 +930,7 @@ Team
 }
 
 #time .red-button {
-  color:#fff !important;
+  color: #fff !important;
 }
 
 #time p {
@@ -943,6 +943,8 @@ Team
   width: 160px; height: 160px;
   background: #fff;
 }
+
+/*-*/
 
 .social-icons {
   width: 26px !important;
@@ -2441,29 +2443,26 @@ Media Queries for Smartphones
 
   /* Time */
 
-  #time {
-    padding-bottom:20px !important;
-  }
+  #time { padding-bottom: 20px !important; }
 
   #time ul > li {
-    width:29%;
-    margin:0 2% 0 2%;
+    width: 29%;
+    margin: 0 2% -35px 2% !important;
   }
 
   #time ul > li img, #time ul > li a img {
-    width:100%; height: auto;
-    background:#fff;
-    padding:0;
+    width: 100%;
+    height:auto;
+    background: #fff;
+    padding: 0;
   }
 
   #time ul p {
-    font-size:14px;
-    height:70px;
+    font-size: 14px;
+    height: 70px;
   }
 
-  #time ul span {
-    font-size:10px;
-  }
+  #time ul span { font-size: 10px; }
 
 
   /* Time Profile */
