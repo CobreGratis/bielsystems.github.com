@@ -1496,23 +1496,15 @@ Open Source
   font-size: 23px;
 }
 
-#open-source p {
-  margin: 0;
-}
-
-#open-source a {
-  text-decoration: none;
-}
-
-#open-source a:hover {
-  text-decoration: underline;
-}
+#open-source p { margin: 0; }
+#open-source a { text-decoration: none; }
+#open-source a:hover { text-decoration: underline; }
 
 
 /* Highlight Projects */
 
 .high-light-projects {
-  margin:0 0 35px 0;
+  margin: 0 0 35px 0;
 }
 
 .high-light-projects:after {
@@ -1534,17 +1526,9 @@ Open Source
   float: right;
 }
 
-.high-light-projects div:first-child {
-  float: left;
-}
-
-.high-light-projects h4 {
-  margin: 20px 0 10px 0;
-}
-
-.high-light-projects img {
-  width: 100%;
-}
+.high-light-projects div:first-child { float: left; }
+.high-light-projects h4 { margin: 20px 0 10px 0; }
+.high-light-projects img { width: 100%; }
 
 
 /* Gems List */
@@ -1582,30 +1566,15 @@ Open Source
 Privacy
 ==================== */
 
-#privacy {
-  padding: 40px 0 40px 0;
-}
-
-#privacidade ol li {
-  margin-left: 20px;
-}
-
-#privacidade ol {
-  margin-bottom: 25px;
-}
-
-.topics {
-  margin-bottom: 30px;
-}
+#privacy { padding: 40px 0 40px 0; }
+.topics { margin-bottom: 30px; }
 
 .topics li {
   list-style-type: circle;
   margin: 10px 0 0 30px;
 }
 
-.topics li:first-child {
-  margin-top: 0 !important;
-}
+.topics li:first-child { margin-top: 0 !important; }
 
 
 /* ====================
@@ -1713,9 +1682,7 @@ Mailing
   color: #8c8c8c;
 }
 
-#mailing h4 {
-  margin: -5px 0 7px 0;
-}
+#mailing h4 { margin: -5px 0 7px 0; }
 
 #mailing li div {
   margin-left: 180px;
