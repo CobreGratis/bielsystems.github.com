@@ -772,13 +772,8 @@ Team
   margin: 7px 0 0 0;
 }
 
-#time a {
-  text-decoration:none !important;
-}
-
-#time .red-button {
-  color: #fff !important;
-}
+#time a { text-decoration:none !important; }
+#time .red-button { color: #fff !important; }
 
 #time p {
   margin-top: 2px;
@@ -808,9 +803,7 @@ Team
   float: right;
 }
 
-.social-icons li:first-child {
-  margin: 0 !important;
-}
+.social-icons li:first-child { margin: 0 !important; }
 
 .social-icons a {
   width: 26px !important; height: 26px;
@@ -823,9 +816,7 @@ Team
 .dribbble,
 .soundcloud,
 .github,
-.behance {
-  background: #000 url("/images/icons/sprite-social-icons.png") left no-repeat;
-}
+.behance { background: #000 url("/images/icons/sprite-social-icons.png") left no-repeat; }
 
 .twitter { background-position: 0 0; }
 .dribbble { background-position: -26px 0; }
@@ -840,11 +831,10 @@ Team
 Jobs
 ==================== */
 
-#jobs {
-  margin-top: 60px;
-}
+#jobs { margin-top: 60px; }
 
-.positions-available:after, .he-enviroment:after {
+.positions-available:after,
+.he-enviroment:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -897,13 +887,8 @@ Jobs
   padding:20px 4% 0 4%;
 }
 
-.positions-available .column01 {
-  float: left;
-}
-
-.positions-available .column02 {
-  float: right;
-}
+.positions-available .column01 { float: left; }
+.positions-available .column02 { float: right; }
 
 .positions-available h4 {
   font-size: 1.8em;
@@ -951,9 +936,7 @@ Jobs
   line-height: 23px;
 }
 
-.apprentice-program a {
-  color: #b20000;
-}
+.apprentice-program a { color: #b20000; }
 
 
 /* Jobs Details */
@@ -1126,9 +1109,7 @@ User Profile
 
 /*-*/
 
-#related-content {
-  margin-top: 50px;
-}
+#related-content { margin-top: 50px; }
 
 
 /* Social Icons */
@@ -1148,32 +1129,18 @@ User Profile
   float: left;
 }
 
-.profile-twitter {
-  background-position: 0 0 !important;
-}
-
-.profile-dribbble {
-  background-position: 0 -30px !important;
-}
-
-.profile-github {
-  background-position: 0 -60px !important;
-}
-
-.profile-facebook {
-  background-position: 0 -90px !important;
-}
-
-.profile-behance {
-  background-position: 0 -120px !important;
-}
+.profile-twitter { background-position: 0 0 !important; }
+.profile-dribbble { background-position: 0 -30px !important; }
+.profile-github { background-position: 0 -60px !important; }
+.profile-facebook { background-position: 0 -90px !important; }
+.profile-behance { background-position: 0 -120px !important; }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
   only screen and (min--moz-device-pixel-ratio: 1.5),
   only screen and (min-resolution: 240dpi) {
   .social-links a {
-      background: url("/images/icons/profile-social@2x.png") left no-repeat;
-      background-size: 30px 150px;
+    background: url("/images/icons/profile-social@2x.png") left no-repeat;
+    background-size: 30px 150px;
   }
 }
 
@@ -1191,13 +1158,8 @@ User Profile
   font-weight: 900;
 }
 
-.blog-posts li {
-  margin: 35px 0 0 0;
-}
-
-.blog-posts h3 {
-  margin:0 0 10px 0;
-}
+.blog-posts li { margin: 35px 0 0 0; }
+.blog-posts h3 { margin:0 0 10px 0; }
 
 .blog-posts a {
   font-size: 1.4em;
@@ -1264,9 +1226,7 @@ Help
   float: left;
 }
 
-.custom-help {
-  background: #efeff0;
-}
+.custom-help { background: #efeff0; }
 
 .custom-help iframe {
   width: 100%;
@@ -1306,9 +1266,7 @@ Apoios
   color: #b80606;
 }
 
-.logos-list a {
-  text-decoration: none;
-}
+.logos-list a { text-decoration: none; }
 
 .logos-list > li {
   box-shadow: 0 4px 8px -3px #d8d8d8;
@@ -1491,9 +1449,7 @@ Mailing
   color: #fff;
 }
 
-#cover-mailing input[type="submit"]:hover {
-  opacity: .8;
-}
+#cover-mailing input[type="submit"]:hover { opacity: .8; }
 
 #cover-mailing li {
   font-size: 14px;
@@ -1501,16 +1457,12 @@ Mailing
   display: inline;
 }
 
-#cover-mailing a {
-  color: #8c8c8c;
-}
+#cover-mailing a { color: #8c8c8c; }
 
 
 /* Mailing List */
 
-#mailing {
-  padding: 40px 0 60px 0;
-}
+#mailing { padding: 40px 0 60px 0; }
 
 #mailing h3 {
   font-size: 20px;
@@ -1638,7 +1590,7 @@ Contact
   text-align: center;
   font-size: 120px;
   line-height: 120px;
-  margin:0;
+  margin: 0;
 }
 
 #fale-conosco form,
@@ -1669,7 +1621,7 @@ Contact
 #fale-conosco input[type="image"],
 #talk-to-us input[type="image"] {
   width: 40%;
-  display:  block;
+  display: block;
   margin: 0 auto;
 }
 
@@ -1723,9 +1675,7 @@ Contact
 }
 
 #fale-conosco .form,
-#talk-to-us .form {
-  margin-bottom: 40px;
-}
+#talk-to-us .form { margin-bottom: 40px; }
 
 
 /* ====================
@@ -1759,9 +1709,9 @@ footer li {
 footer address span { display: block; }
 
 footer h3 {
-  text-transform:uppercase;
-  margin:13px 0 7px 0;
-  color:#fff;
+  text-transform: uppercase;
+  margin: 13px 0 7px 0;
+  color: #fff;
 }
 
 .copyright {
@@ -1832,7 +1782,7 @@ Media Queries for Tablets
   }
 
   #process-info > div {
-    width:30px;
+    width: 30px;
     position: absolute;
   }
 
@@ -1954,9 +1904,9 @@ Media Queries for Smartphones
 
   .navigation li {
     float: left;
-    margin:0px;
-    padding:0px;
-    color:black;
+    margin: 0;
+    padding: 0;
+    color: #000;
   }
 
   .navigation li a {
@@ -2195,10 +2145,7 @@ Media Queries for Smartphones
   .mini-bio .job-title { font-size: 14px; }
 
   .profile-picture img { display: none; }
-  .profile-cote {
-    padding: 35px 0 40px 0;
-  }
-
+  .profile-cote { padding: 35px 0 40px 0; }
   .cote p { font: 700 30px 'lato', sans-serif; }
   .signature { font-size: 16px; }
 
