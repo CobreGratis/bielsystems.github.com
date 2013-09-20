@@ -958,15 +958,15 @@ Jobs
 
 #jobs-form { margin:0 0 40px 0; }
 #jobs-form h3 { margin:0 0 25px 0; }
-#jobs-form li { margin-top: 15px; } 
+#jobs-form li { margin-top: 15px; }
 
 #jobs-form input[type="text"], textarea {
-  border-radius: 4px; 
+  border-radius: 4px;
   width: 280px;
   font: normal 15px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 22px;
   border: 1px solid #ccc;
-  padding: 0 12px 0 12px; 
+  padding: 0 12px 0 12px;
   display: inline-block;
   outline: none;
 }
@@ -1462,36 +1462,27 @@ Mailing
 
 /* Mailing List */
 
-#mailing { padding: 40px 0 60px 0; }
+#mailing { padding: 40px 0 100px 0; }
 
 #mailing h3 {
   font-size: 20px;
+  margin: 20px 0 40px;
+}
+
+#mailing .display_archive .campaign {
+  font-size: 14px;
   margin-bottom: 30px;
 }
 
-#mailing li {
-  width: 100%;
-  margin: 0 0 30px 0;
-  line-height: 22px;
-  float: left;
+#mailing .display_archive .campaign a {
+  font-size: 16px;
+  text-decoration: none;
 }
 
-#mailing span {
-  font-size: 12px;
-  color: #8c8c8c;
+#mailing .display_archive .campaign a:hover {
+  opacity: 0.8;
 }
 
-#mailing h4 { margin: -5px 0 7px 0; }
-
-#mailing li div {
-  margin-left: 180px;
-  position: relative;
-}
-
-#mailing img {
-  width: 160px;
-  float: left;
-}
 
 
 /* ====================
@@ -1659,7 +1650,7 @@ Contact
   margin: 0 0 15px 0;
   padding: 15px 2% 15px 2%;
   position: static;
-  clear: both; 
+  clear: both;
 }
 
 #fale-conosco textarea,
@@ -1760,7 +1751,7 @@ Media Queries for Tablets
     margin-top: 80px;
     padding: 40px 0 40px 0;
   }
-  
+
   #cover-mailing { margin-top: 80px; }
 
 
@@ -1997,11 +1988,11 @@ Media Queries for Smartphones
     font-size: 17px;
     margin: 10px 0 0 0;
   }
-  
+
   /*-*/
-  
+
   #cover-mailing { margin-top: 60px; }
-  
+
   #cover-mailing h2 {
     font-size: 32px;
     line-height: 35px;
@@ -2011,7 +2002,7 @@ Media Queries for Smartphones
     font-size: 17px;
     margin: 10px 0 0 0;
   }
-  
+
   #cover-mailing input[type="text"],
   #cover-mailing input[type="email"] {
     width: 96%;
@@ -2058,8 +2049,8 @@ Media Queries for Smartphones
     background: url("/images/play.jpg") no-repeat white;
     background-size: 100%;
   }
-  
-  
+
+
   /* Apoios */
 
   .logos-list > li { width: 39%; }
@@ -2247,10 +2238,10 @@ Media Queries with adjustments for Smartphones
     margin-bottom: 0;
   }
 
-  .projects-worked img { width: 280px; } 
+  .projects-worked img { width: 280px; }
   #mailing li div { margin-left: 90px; }
   #mailing img { width: 70px; }
-  
+
   .modalBox {
   	width: 260px;
     padding: 17px 10px 10px 10px;
@@ -2300,7 +2291,7 @@ Media Queries with more adjustments for Smartphones
     background: url("/images/play.jpg") no-repeat white;
     background-size: 100%;
   }
-  
+
   .logos-list > li { width: 90%; }
 
   /*-*/
@@ -2308,9 +2299,9 @@ Media Queries with more adjustments for Smartphones
   .submenuhome { display:none; }
   .ourprocess { display:none; }
   .thumbs { display: none; }
-  
+
   /*-*/
-  
+
   #cover-banner h2 {
     font-size: 22px;
     line-height: 25px;
