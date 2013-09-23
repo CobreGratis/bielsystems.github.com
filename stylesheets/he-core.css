@@ -567,7 +567,7 @@ Process
 #process-entry strong,
 #process-entry strong a {
   font-weight: bold;
-  display:inline-block;
+  display: inline-block;
   color: rgb(71, 60, 60);
 }
 
@@ -618,8 +618,8 @@ Process
   only screen and (min--moz-device-pixel-ratio: 1.5),
   only screen and (min-resolution: 240dpi) {
   .modalClose {
-      background: url("/images/x2@2x.png") left no-repeat;
-      background-size: 30px 30px;
+    background: url("/images/x2@2x.png") left no-repeat;
+    background-size: 30px 30px;
   }
 }
 
@@ -1462,7 +1462,7 @@ Mailing
 
 /* Mailing List */
 
-#mailing { padding: 40px 0 100px 0; }
+#mailing { padding: 40px 0 30px 0; }
 
 #mailing h3 {
   font-size: 20px;
