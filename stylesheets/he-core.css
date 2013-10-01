@@ -621,6 +621,10 @@ Process
     background: url("/images/x2@2x.png") left no-repeat;
     background-size: 30px 30px;
   }
+
+  .video {
+    width: 90%;
+  }
 }
 
 .modalBox {
@@ -640,6 +644,13 @@ Process
   font-size: 24px;
   margin: 0;
   color: #b80606;
+}
+
+.video {
+  display: block;
+  height: 225px;
+  margin: 20px auto;
+  width: 400px;
 }
 
 .modalDay {
