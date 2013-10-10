@@ -1302,14 +1302,16 @@ Apoios
 Serviços
 ==================== */
 
-#servicos h3 {
-  text-align: left;
-}
-
+#servicos h3,
+#servicos h4,
 #servicos p {
   text-align: left;
 }
 
+#servicos h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
 
 /* ====================
 Open Source
