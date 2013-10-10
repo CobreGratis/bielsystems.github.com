@@ -1249,13 +1249,15 @@ Help
 Apoios
 ==================== */
 
-#apoios {
+#apoios,
+#servicos{
   background: #efefef url("/images/bg-time.png") top center no-repeat;
   text-align: center;
   padding: 5px 0 40px 0;
 }
 
-#apoios:after {
+#apoios:after,
+#servicos:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -1265,7 +1267,8 @@ Apoios
   min-height: 0;
 }
 
-.apoio-h3 {
+.apoio-h3,
+#servicos h3 {
   font-size: 26px;
   margin: 35px 0 25px 0;
 }
@@ -1293,6 +1296,18 @@ Apoios
 .logos-list > li img {
   width: 100%;
   display: block;
+}
+
+/* ====================
+Serviços
+==================== */
+
+#servicos h3 {
+  text-align: left;
+}
+
+#servicos p {
+  text-align: left;
 }
 
 
