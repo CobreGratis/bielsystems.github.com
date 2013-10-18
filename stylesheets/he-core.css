@@ -656,6 +656,7 @@ Process
   width: 400px;
 }
 
+
 .modalDay {
   font-weight: 300;
   margin: 0 0 20px 0;
@@ -683,7 +684,6 @@ Process
 
 .modalEntry p:nth-child(even) { background: #fafafa; }
 .modalEntry p:nth-child(odd) { background: #fdfdfd; }
-
 
 /* ====================
 Cliente Feliz
@@ -739,6 +739,65 @@ Cliente Feliz
 }
 
 .videothumbs p {
+  font-size: 12px;
+  color: #8c8c8c;
+  margin: 2px 0 0 0;
+  display: block;
+}
+
+/* ====================
+conheca
+==================== */
+
+#conheca {
+  background: #efefef url("/images/bg-time.png") top center no-repeat;
+  text-align: center;
+  padding: 40px 0 40px 0;
+}
+
+#conheca:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
+}
+
+.videothumbs2 li {
+  box-shadow: 0 4px 8px -3px #d8d8d8;
+  width: 40%;
+  background: none repeat scroll 0 0 white;
+  margin: 10px 3% 10px 3%;
+  padding: 10px;
+  display: inline-block;
+  font-size: 14px;
+  opacity: 1;
+}
+
+.videothumbs2 img {
+  width: 100%;
+  display: block;
+}
+
+.videothumbs2 img:hover { opacity: .5; }
+
+.videothumbs2 li:hover {
+  background: url("/images/play.jpg") no-repeat white;
+  background-size: 100%;
+}
+
+
+/* Video Text */
+
+.videothumbs2 h3 {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  color: #b80606;
+}
+
+.videothumbs2 p {
   font-size: 12px;
   color: #8c8c8c;
   margin: 2px 0 0 0;
