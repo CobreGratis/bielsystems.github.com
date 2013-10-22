@@ -1318,7 +1318,7 @@ Apoios
   padding: 5px 0 40px 0;
 }
 
-#servicos-text{
+.servicos-text{
     float: left;
     position: relative;
     width: 60%;
@@ -1966,8 +1966,6 @@ Media Queries for Tablets
 
 }
 
-   /* Servicos * / 
-
 
 /*
 Max Width, 686px
@@ -2337,7 +2335,7 @@ Media Queries with adjustments for Smartphones
 */
 
 @media (max-width:581px) {
-
+  
   .blog-posts {
     width: 100%;
     margin-bottom: 50px;
@@ -2357,6 +2355,13 @@ Media Queries with adjustments for Smartphones
     padding: 17px 10px 10px 10px;
   	top: 5%;
   	margin-left: -145px;
+  }
+  
+  /* Servicos */
+  .servicos-text{
+      float: left;
+      position: relative;
+      width: 100%;
   }
 
 }
