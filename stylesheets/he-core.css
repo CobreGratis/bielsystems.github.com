@@ -1318,6 +1318,13 @@ Apoios
   padding: 5px 0 40px 0;
 }
 
+#servicos-text{
+    float: left;
+    position: relative;
+    width: 60%;
+}
+
+
 #apoios:after,
 #servicos:after {
   visibility: hidden;
@@ -1958,6 +1965,8 @@ Media Queries for Tablets
   #talk-to-us .sub { font-size: 21px; }
 
 }
+
+   /* Servicos * / 
 
 
 /*
