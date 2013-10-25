@@ -304,7 +304,12 @@ Home
   line-height: 24px;
   margin: 0 !important;
 }
-
+.videothumbs hr{
+  border-bottom-color: red;
+  width: 90px;
+  border-style: dashed;
+  margin: 18px auto -21px;
+}
 
 /* Social Icons */
 
@@ -710,7 +715,7 @@ Cliente Feliz
   box-shadow: 0 4px 8px -3px #d8d8d8;
   width: 24%;
   background: none repeat scroll 0 0 white;
-  margin: 10px 3% 10px 3%;
+  margin: 46px  3% 10px 3%;
   padding: 10px;
   display: inline-block;
   font-size: 14px;
