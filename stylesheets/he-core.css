@@ -1310,6 +1310,10 @@ Services
   padding-bottom: 40px;
 }
 
+.last-serv {
+  border-bottom: none;
+}
+
 .services:nth-child(even) {background: #f4f4f4}
 .services:nth-child(odd) {background: #fafafa}
 
@@ -2218,13 +2222,6 @@ Media Queries with adjustments for Smartphones
     padding: 17px 10px 10px 10px;
   	top: 5%;
   	margin-left: -145px;
-  }
-  
-  /* Servicos */
-  .servicos-text{
-      float: left;
-      position: relative;
-      width: 100%;
   }
 
 }
