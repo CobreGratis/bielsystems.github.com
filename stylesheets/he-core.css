@@ -1251,15 +1251,14 @@ Help
 Apoios
 ==================== */
 
-#apoios,
-#services{
+#apoios {
   background: #efefef url("/images/bg-time.png") top center no-repeat;
   text-align: center;
   padding: 5px 0 40px 0;
 }
 
 #apoios:after,
-#services:after {
+.services:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -1269,8 +1268,7 @@ Apoios
   min-height: 0;
 }
 
-.apoio-h3,
-#services h3 {
+.apoio-h3 {
   font-size: 40px;
   margin: 35px 0 25px 0;
   color: #B80606
@@ -1306,36 +1304,52 @@ Apoios
 Services
 ==================== */
 
+.services {
+  background: #fafafa;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+}
+
+.services:nth-child(even) {background: #f4f4f4}
+.services:nth-child(odd) {background: #fafafa}
+
 .services-text {
   width: 60%;
   position: relative;
+  line-height: 28px;
+  font-size: 17px;
   float: left;
 }
 
-#services h3,
-#services h4,
-#services p {
-  text-align: left;
-}
-
-#services h4 {
+.services h3 {
+  text-transform: uppercase;
+  font-weight: 300;
   font-size: 30px;
-  margin-bottom: 5px;
-  margin-left: 20px;
+  margin: 50px 0 20px 0;
+  color: #B80606;
 }
 
-#services .videothumbs {
+.services h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  margin-left: 0;
+  color: #B80606;
+}
+
+.services .videothumbs {
   width: 30%;
+  margin-top: 50px;
   float: right;
 }
 
-#services .videothumbs li {
+.services .videothumbs li {
   width: 92%;
   padding: 4%;
   margin: 0 0 25px 0;
 }
 
-#services .videothumbs h5 {
+.services .videothumbs h5 {
   margin: 10px 0 0 0;
   font-size: 14px;
   color: #b80606;
@@ -1735,6 +1749,7 @@ Media Queries for Tablets
   }
 
   #cover-mailing { margin-top: 80px; }
+
 
   /* Process */
 
