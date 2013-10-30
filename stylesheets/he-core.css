@@ -263,54 +263,6 @@ Home
 }
 
 
-/* Services */
-
-.services {
-  margin-top: 50px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.services:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  min-height: 0;
-}
-
-.services li {
-  width: 26%;
-  background-color: #fff;
-  display: inline-block;
-  line-height: 20px;
-  padding: 30px 3% 0 3%;
-  min-height: 225px;
-}
-
-.services h3 {
-  font-size: 22px !important;
-  line-height: 22px;
-  color: #b80606 !important;
-  margin: 0 0 5px 0 !important;
-  padding-top: 0 !important;
-}
-
-.services p {
-  font-family: 'lato';
-  font-size: 17px;
-  line-height: 24px;
-  margin: 0 !important;
-}
-.videothumbs hr{
-  border-bottom-color: red;
-  width: 90px;
-  border-style: dashed;
-  margin: 18px auto -21px;
-}
-
 /* Social Icons */
 
 .icons {
@@ -750,6 +702,7 @@ Cliente Feliz
   display: block;
 }
 
+
 /* ====================
 conheca
 ==================== */
@@ -1136,6 +1089,7 @@ User Profile
   display: block;
 }
 
+
 /* Profile Cote */
 
 .profile-cote {
@@ -1297,14 +1251,14 @@ Apoios
 ==================== */
 
 #apoios,
-#servicos{
+#services{
   background: #efefef url("/images/bg-time.png") top center no-repeat;
   text-align: center;
   padding: 5px 0 40px 0;
 }
 
 #apoios:after,
-#servicos:after {
+#services:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -1315,7 +1269,7 @@ Apoios
 }
 
 .apoio-h3,
-#servicos h3 {
+#services h3 {
   font-size: 40px;
   margin: 35px 0 25px 0;
   color: #B80606
@@ -1348,25 +1302,42 @@ Apoios
 
 
 /* ====================
-Serviços
+Services
 ==================== */
 
-.servicos-text{
-  float: left;
-  position: relative;
+.services-text {
   width: 60%;
+  position: relative;
+  float: left;
 }
 
-#servicos h3,
-#servicos h4,
-#servicos p {
+#services h3,
+#services h4,
+#services p {
   text-align: left;
 }
 
-#servicos h4 {
+#services h4 {
   font-size: 30px;
   margin-bottom: 5px;
   margin-left: 20px;
+}
+
+#services .videothumbs {
+  width: 30%;
+  float: right;
+}
+
+#services .videothumbs li {
+  width: 92%;
+  padding: 4%;
+  margin: 0 0 25px 0;
+}
+
+#services .videothumbs h5 {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  color: #b80606;
 }
 
 
