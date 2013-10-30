@@ -286,7 +286,7 @@ Home
 }
 
 
-/* Services */
+/* Services Home */
  
 .services-home {
   margin-top: 50px;
@@ -2066,6 +2066,19 @@ Media Queries for Smartphones
   .videothumbs li:hover {
     background: url("/images/play.jpg") no-repeat white;
     background-size: 100%;
+  }
+  
+  
+  /* Services Page */
+
+  .services-text {
+    width: 100%;
+  }
+  
+  .services .videothumbs {
+    width: 80%;
+    padding: 0 10% 0 10%;
+    margin-top: 20px;
   }
 
 
