@@ -1303,13 +1303,6 @@ Apoios
   padding: 5px 0 40px 0;
 }
 
-.servicos-text{
-    float: left;
-    position: relative;
-    width: 60%;
-}
-
-
 #apoios:after,
 #servicos:after {
   visibility: hidden;
@@ -1353,29 +1346,28 @@ Apoios
   display: block;
 }
 
+
 /* ====================
 Serviços
 ==================== */
+
+.servicos-text{
+  float: left;
+  position: relative;
+  width: 60%;
+}
 
 #servicos h3,
 #servicos h4,
 #servicos p {
   text-align: left;
-  
-
-
 }
-
-
 
 #servicos h4 {
   font-size: 30px;
   margin-bottom: 5px;
   margin-left: 20px;
-
 }
-
-
 
 
 /* ====================
