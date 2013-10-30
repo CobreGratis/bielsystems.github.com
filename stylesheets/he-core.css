@@ -288,44 +288,44 @@ Home
 
 /* Services */
  
- .services-home {
-   margin-top: 50px;
-   margin-bottom: 30px;
-   text-align: center;
+.services-home {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
 }
  
- .services-home:after {
-   visibility: hidden;
-   display: block;
-   font-size: 0;
-   content: " ";
-   clear: both;
-   height: 0;
-   min-height: 0;
+.services-home:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
 }
  
- .services-home li {
-   width: 26%;
-   background-color: #fff;
-   display: inline-block;
-   line-height: 20px;
-   padding: 30px 3% 0 3%;
-   min-height: 225px;
+.services-home li {
+  width: 26%;
+  background-color: #fff;
+  display: inline-block;
+  line-height: 20px;
+  padding: 30px 3% 0 3%;
+  min-height: 225px;
 }
  
- .services-home h3 {
-   font-size: 22px !important;
-   line-height: 22px;
-   color: #b80606 !important;
-   margin: 0 0 5px 0 !important;
-   padding-top: 0 !important;
+.services-home h3 {
+  font-size: 22px !important;
+  line-height: 22px;
+  color: #b80606 !important;
+  margin: 0 0 5px 0 !important;
+  padding-top: 0 !important;
 }
  
- .services-home p {
-   font-family: 'lato';
-   font-size: 17px;
-   line-height: 24px;
-   margin: 0 !important;
+.services-home p {
+  font-family: 'lato';
+  font-size: 17px;
+  line-height: 24px;
+  margin: 0 !important;
 }
 
 
@@ -1778,14 +1778,14 @@ Media Queries for Tablets
 
   #home { padding-top: 150px; }
 
-  .services li {
+  .services-home li {
     width: 90%;
     min-height: 100px !important;
     padding: 25px 5% 30px 5% !important;
     margin: 1px 0 0 0 !important;
   }
 
-  .services li:first-child { margin-top: 0 !important; }
+  .services-home li:first-child { margin-top: 0 !important; }
 
 
   /* Cover Banner */
