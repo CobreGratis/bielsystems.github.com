@@ -710,6 +710,11 @@ Cliente Feliz
   min-height: 0;
 }
 
+#cliente-feliz .videothumbs,
+#happy-costumer .videothumbs {
+  margin-bottom: 30px;
+}
+
 .videothumbs li {
   box-shadow: 0 4px 8px -3px #d8d8d8;
   width: 24%;
