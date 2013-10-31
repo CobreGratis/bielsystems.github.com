@@ -1610,12 +1610,12 @@ Contact
 #talk-to-us {
   width: 100%;
   border-top: 1px solid #fff;
-  background: #7b0000;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #400000), color-stop(100%, #7b0000)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #400000 0%, #7b0000 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #400000 0%, #7b0000 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #400000 0%, #7b0000 100%); /* IE10+ */
-  background: linear-gradient(top bottom, #400000 0%, #7b0000 100%); /* W3C */
+  background: #b80606;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b80606), color-stop(100%, #9b0505)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #b80606 0%, #9b0505 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #b80606 0%, #9b0505 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #b80606 0%, #9b0505 100%); /* IE10+ */
+  background: linear-gradient(top bottom, #b80606 0%, #9b0505 100%); /* W3C */
   position: relative;
   padding-top: 50px;
   text-align: center;
@@ -1627,19 +1627,19 @@ Contact
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
-  text-align: center;
   font-size: 42px;
   margin: 0;
 }
 
 #fale-conosco form,
 #talk-to-us form {
-  margin-top: 30px;
+  width: 490px;
+  margin: 30px auto;
 }
 
-#form li,
-#form li {
-  width: 100%;
+#fale-conosco form li,
+#talk-to-us form li {
+  display: inline-block;
 }
 
 #fale-conosco input.text,
@@ -1657,8 +1657,11 @@ Contact
   font-size: 16px;
   font-weight: normal !important;
   outline: none;
-  display: inline-block;
 }
+
+.half-line input.text { width: 207px !important; }
+.half-left { float: left; }
+.half-right { float: right; }
 
 #fale-conosco textarea,
 #talk-to-us textarea {
@@ -1678,7 +1681,7 @@ Contact
 }
 
 #fale-conosco .form,
-#talk-to-us .form { margin-bottom: 40px; }
+#talk-to-us .form { margin-bottom: 50px; }
 
 .form button {
   border-radius: 4px;
@@ -1690,7 +1693,7 @@ Contact
   background: #fff;
   display: inline-block;
   border: none;
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 0;
   cursor: pointer;
   outline: none;
   color: #b80606;
@@ -1706,7 +1709,7 @@ Footer
 ==================== */
 
 footer {
-  border-top: 1px solid #666;
+  border-top: 1px solid #888;
   width: 100%;
   background-color: #333;
   padding: 30px 0 85px 0;
