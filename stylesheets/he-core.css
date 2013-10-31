@@ -1667,6 +1667,12 @@ Contact
   opacity: .8;
 }
 
+.contact-send {
+  font-size: 17px;
+  line-height: 26px;
+  margin: 40px 0 30px 0;
+}
+
 
 /* ====================
 Footer
