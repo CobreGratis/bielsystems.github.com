@@ -970,7 +970,7 @@ Jobs
   font-weight: 700;
   line-height: 1.6em;
   color: #000;
-  margin: 0;
+  margin: 0;.
 }
 
 .positions-available p {
@@ -1598,7 +1598,7 @@ Mailing
 }
 
 #mailing .display_archive .campaign a:hover {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 
@@ -1610,9 +1610,15 @@ Contact
 #talk-to-us {
   width: 100%;
   border-top: 1px solid #fff;
-  background: #bd0011 url("/images/bg-contato.jpg") center bottom no-repeat;
+  background: #7b0000;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #400000), color-stop(100%, #7b0000)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #400000 0%, #7b0000 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #400000 0%, #7b0000 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #400000 0%, #7b0000 100%); /* IE10+ */
+  background: linear-gradient(top bottom, #400000 0%, #7b0000 100%); /* W3C */
   position: relative;
-  padding-top: 70px;
+  padding-top: 50px;
+  text-align: center;
   clear: both;
 }
 
@@ -1622,94 +1628,77 @@ Contact
   font-weight: bold;
   color: #fff;
   text-align: center;
-  font-size: 120px;
-  line-height: 120px;
+  font-size: 42px;
   margin: 0;
 }
 
 #fale-conosco form,
 #talk-to-us form {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
-#fale-conosco .pre, #fale-conosco .sub,
-#talk-to-us .pre, #talk-to-us .sub {
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: bold;
-  text-align: center;
-}
-
-#fale-conosco .pre,
-#talk-to-us .pre {
-  margin: 0 0 5px 0 !important;
-  font-size: 31px;
-}
-
-#fale-conosco .sub,
-#talk-to-us .sub {
-  margin: 10px 0 0 0 !important;
-  font-size: 28px;
-}
-
-#fale-conosco input[type="image"],
-#talk-to-us input[type="image"] {
-  width: 40%;
-  display: block;
-  margin: 0 auto;
-}
-
-#fale-conosco input[type="image"]:hover,
-#talk-to-us input[type="image"]:hover {
-  opacity: .8;
+#form li,
+#form li {
+  width: 100%;
 }
 
 #fale-conosco input.text,
 #talk-to-us input.text {
-  border-radius: 3px;
-  width: 45%;
-  padding: 15px 2%;
-  margin: 0 0 15px 0;
-  position: static;
-  background-color: black;
-  opacity: .6;
+  border-radius: 4px;
+  width: 460px;
+  height: 40px;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.4);
   border: none;
+  line-height: 40px;
+  margin: 0 0 15px 0;
+  padding: 0 15px 0 15px;
   color: #fff;
-  font-size: 17px;
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: normal !important;
   outline: none;
-  float: left;
-}
-
-#fale-conosco input.text.spacing,
-#talk-to-us input.text.spacing {
-  margin-right: 2%;
+  display: inline-block;
 }
 
 #fale-conosco textarea,
 #talk-to-us textarea {
-  border-radius: 3px;
-  width: 96%;
-  margin: 0 0 15px 0;
-  padding: 15px 2% 15px 2%;
-  position: static;
-  clear: both;
-}
-
-#fale-conosco textarea,
-#talk-to-us textarea {
-  background-color: black;
-  opacity: .6;
+  border-radius: 4px;
+  width: 460px; max-width: 460px; min-width: 460px;
+  height: 50px; max-height: 300px; min-height: 50px;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.4);
   border: none;
-  color: white;
-  height: 100px;
-  font-family: 'Lato', sans-serif;
-  font-size: 17px;
-  font-weight: normal;
+  margin: 0 0 15px 0;
+  padding: 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal !important;
+  outline: none;
+  display: inline-block;
 }
 
 #fale-conosco .form,
 #talk-to-us .form { margin-bottom: 40px; }
+
+.form button {
+  border-radius: 4px;
+  width: 220px;
+  height: 50px;
+  line-height: 50px;
+  font: normal 19px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 0 15px 0 15px;
+  background: #fff;
+  display: inline-block;
+  border: none;
+  margin: 20px 0 0 0;
+  cursor: pointer;
+  outline: none;
+  color: #b80606;
+}
+
+.form button:hover {
+  opacity: .8;
+}
 
 
 /* ====================
@@ -1717,9 +1706,9 @@ Footer
 ==================== */
 
 footer {
-  width:100%;
-  background-color: #000;
-  background-color: rgba(0, 0, 0, 0.7);
+  border-top: 1px solid #666;
+  width: 100%;
+  background-color: #333;
   padding: 30px 0 85px 0;
   font-size: 14px;
   position: relative;
@@ -1727,7 +1716,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #ebcacd;
+  color: #ccc;
 }
 
 footer a:hover { color:#fff; }
@@ -1736,7 +1725,7 @@ footer ul { overflow: hidden; }
 footer li {
 	width: 25%;
   line-height: 17px;
-  font-size: 11px;
+  font-size: 12px;
   float: left;
 }
 
