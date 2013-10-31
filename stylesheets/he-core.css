@@ -425,7 +425,7 @@ Cover
 
 
 /* ====================
-Process
+Process (Mágica)
 ==================== */
 
 @-moz-keyframes slidein {
@@ -551,7 +551,7 @@ Process
 
 #process-entry {
   width: 35%;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   margin-top: -15px;
   font-size: 13px;
   float: right;
@@ -684,6 +684,7 @@ Process
 
 .modalEntry p:nth-child(even) { background: #fafafa; }
 .modalEntry p:nth-child(odd) { background: #fdfdfd; }
+
 
 /* ====================
 Cliente Feliz
@@ -1671,6 +1672,14 @@ Contact
   font-size: 17px;
   line-height: 26px;
   margin: 40px 0 30px 0;
+}
+
+
+/* Bottom Nav */
+
+.bottom-nav {
+  margin-bottom: 30px;
+  clear: both;
 }
 
 
