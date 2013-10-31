@@ -450,7 +450,10 @@ Process (Mágica)
   }
 }
 
-#process { margin-top: 60px; }
+#process {
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
 
 #process-info {
   width: 60%;
@@ -765,6 +768,11 @@ conheca
   clear: both;
   height: 0;
   min-height: 0;
+}
+
+
+.videothumbs2 {
+  margin-bottom: 30px;
 }
 
 .videothumbs2 li {
@@ -1678,7 +1686,6 @@ Contact
 /* Bottom Nav */
 
 .bottom-nav {
-  margin-bottom: 30px;
   clear: both;
 }
 
