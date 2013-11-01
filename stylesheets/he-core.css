@@ -290,7 +290,7 @@ Home
 .icons li {
   text-align: center;
   display: inline-block;
-  margin: 0 5px 0 5px;
+  margin: 0 10px 0 10px;
 }
 
 .icons a img {
@@ -1950,10 +1950,12 @@ Media Queries for Smartphones
   .icons li {
     text-align:center;
     display:inline-block;
-    margin:0 2px 0 2px;
+    margin: 0 2px 0 2px !important;
   }
 
-  .icons a img { width: 70%; }
+  .icons a img {
+    width: 40px;
+  }
 
 
   /* Cover Banner */
