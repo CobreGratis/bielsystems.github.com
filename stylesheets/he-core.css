@@ -97,17 +97,33 @@ Patterns
 Nav
 ==================== */
 
-#hiddenmenu { display:none; }
-
 #menu2 {
   margin-top: 25px;
   text-align: right;
   float: right;
 }
 
+#menu-trigger {
+  border-radius: 4px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 10px 0 10px;
+  background: #333;
+  position: absolute !important;
+  right: 5%;
+  top: 10px;
+  display: none;
+  color: #fff;
+  cursor: pointer;
+}
+
 #menu2 li {
   display: inline;
-  margin-left: 10px
+  margin-left: 10px;
+}
+
+.mob-link {
+  display: none !important;
 }
 
 #menu2 a {
@@ -1875,87 +1891,49 @@ Media Queries for Smartphones
   }
 
   header.default .logo { width: 100px; }
-  #menu2 { display: none; }
-
-  #hiddenmenu {
-    width: 150px;
-    background: none repeat scroll 0 0 #b80606;
-    font-family: 'Lato',sans-serif;
-    padding: 3px;
-    display: block;
-    position: absolute;
-    right: 4%; top: 8px;
-    color: #fff;
-    float: right;
+  
+  #menu-trigger {
+    display: inline-block;
   }
-
-  .navigation {
-    background: none repeat scroll 0 0 white;
-    margin-left: 0;
-    max-width: none;
-    padding: 0;
-  }
-
-  .navigation li {
-    float: left;
-    margin: 0;
-    padding: 0;
-    color: #000;
-  }
-
-  .navigation li a {
-    color: black;
-    display: block;
-    font-weight: 400;
-    padding: 10px;
-    text-decoration: none;
-  }
-
-  .navigation li a:hover { background: #c7c7c7; }
-
-  .navheader {
-    margin-top: 5px;
-    font-size: 12px;
-  }
-
-  .slide-trigger {
-    border: medium none;
-    cursor: pointer;
-    display: block;
-    font-family: lato;
-    font-size: 1.2em;
-    font-weight: 400;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding-bottom: 0.5em;
-  }
-
-  .slide-trigger span {
-    background: url("/images/menumobile.png") repeat-y;
-    display: block;
-    float: right;
-    margin-top: 4px;
-    height: 12px;
-    width: 32px;
-  }
-
-  .slide-trigger { display: block; }
-  .no-js .slide-trigger { display: none; }
-  .navigation { display: none; }
-  .no-js .navigation { display: block; }
-
-  .navigation {
+  
+  #menu2 {
     width: 100%;
-    margin: 0;
+    text-align: left;
+    display: none;
   }
-
-  .navigation li {
-    padding-left: 18px;
-    float: none;
+  
+  #menu2 li {
+    display: block;
+    margin-left: 0;
   }
-
-  .navigation li a { border-bottom: 1px solid #fff; }
-
+  
+  #menu2 a {
+    width: 94%;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 3% 0 3%;
+    background: #333;
+    text-transform: none;
+    font-size: 14px;
+    margin-top: 1px;
+    color: #fff;
+    float: left;
+  }
+  
+  #menu2 a:hover {
+    opacity: 1;
+    background: #b80606;
+    color: #fff;
+  }
+  
+  .has-sub.hemaisdestaque {
+    display: none !important;
+  }
+  
+  .mob-link {
+    display: block !important;
+  }
+  
 
   /* Home */
 
@@ -2486,4 +2464,12 @@ TipTip
 	#tiptip_holder.tip_top #tiptip_arrow_inner {
 		border-top-color: rgba(20,20,20,0.92);
 	}
+}
+
+@media only screen and (min-width: 686px) {
+
+  #menu2 {
+    display: block !important;
+  }
+
 }

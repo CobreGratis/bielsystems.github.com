@@ -86,6 +86,10 @@ var App = {
 
 		$('.slide-trigger').collapsable();
 
+    $("#menu-trigger").click(function(){
+      $("#menu2").toggle();
+    });
+
 		$("a[rel^='prettyPhoto']").prettyPhoto({
 			deeplinking: false
 		});
