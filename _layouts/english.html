@@ -4,46 +4,41 @@
 <body>
   <header class="default">
     <div class="containner">
+
       <h1>
         <a href="/en/" title="Back to Home">
           <img class="logo" src="/images/logo.png" alt="HE:labs">
         </a>
       </h1>
+
       <nav id="menu2">
         <ul>
+
           <li><a href="/en/happy-customers">HE:<span class="doispontos">❤</span></a></li>
           <li><a href="/en/our-team">Team</a></li>
           <li><a href="/en/talk-to-us">Talk to us</a></li>
+
+          <li class="mob-link"><a href="/en/opensource">Open Source</a></li>
+          <li class="mob-link"><a href="/en/we-support">We support</a></li>
+
           <li class='has-sub hemaisdestaque'>
-            <a href="#">HE<span class="doispontos">:</span>more</a>
+            <a href="#">HE<span class="doispontos">:</span>mais</a>
             <ul>
               <li><a href="/en/opensource">Open Source</a></li>
               <li><a href="/en/we-support">We support</a></li>
             </ul>
           </li>
-          <li class='hemaisdestaque'><a href="/">PT</a></li>
+
+          <li class='hemaisdestaque'><a href="/en/">EN</a></li>
+
         </ul>
       </nav>
+    
+      <a id="menu-trigger">
+        Menu
+      </a>
+      
     </div>
-    <!--MENU RESPONSIVO-->
-    <nav id="hiddenmenu" class="group">
-      <h2 class="navheader slide-trigger">Menu <span>&nbsp;</span></h2>
-      <ul class="navigation group">
-        <li><a href="/en/happy-customers">HE:<span class="doispontos">❤</span></a></li>
-        <li><a href="/en/our-team">Team</a></li>
-        <li><a href="/en/talk-to-us">Talk to us</a></li>
-        <li class='hemaismobile'>
-          <!-- <a href="#">HE<span class="doispontos">:</span>mais</a> -->
-
-          <h2 class="navheader slide-trigger hemaismobile" style="padding-top: 0.5em;">HE:mais<span></span></h2>
-          <ul class="navigation group">
-            <li><a href="/en/opensource">Open Source</a></li>
-            <li><a href="/en/we-support">We support</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-    <!--FIM-->
   </header>
   {{ content }}
   {% include en_footer.html %}
