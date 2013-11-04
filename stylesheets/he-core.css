@@ -1836,6 +1836,7 @@ Media Queries for Smartphones
   }
   
   #menu2 a {
+    border-radius: 0;
     width: 94%;
     padding: 0 3% 0 3%;
     background: #333;
@@ -1844,6 +1845,12 @@ Media Queries for Smartphones
     color: #fff;
     display: block;
     float: left;
+  }
+  
+  .current-page {
+    background: #b80606 !important;
+    border: none !important;
+    margin-left: 1px;
   }
   
   #menu2 a:hover {
