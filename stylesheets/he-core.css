@@ -122,10 +122,6 @@ Nav
   margin-left: 10px;
 }
 
-.mob-link {
-  display: none !important;
-}
-
 #menu2 a {
   color: #555;
   text-decoration: none;
@@ -139,112 +135,6 @@ Nav
   color: #B80606;
   text-transform: uppercase;
   font-size: 12px;
-}
-
-#menu2 > ul > li { position: relative; }
-
-#menu2 > ul > li > ul {
-  opacity: 0;
-  visibility: hidden;
-  padding: 5px 0 5px 0;
-  background-color: rgba(0,0,0,.9);
-  text-align: left;
-  position: absolute;
-  top: 0px;
-  left: 50%;
-  margin-left: -70px;
-  width: 140px;
-  -webkit-transition: all .3s .1s;
-  -moz-transition: all .3s .1s;
-  -o-transition: all .3s .1s;
-  transition: all .3s .1s;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
-  -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
-  box-shadow: 0px 1px 3px rgba(0,0,0,.4);
-}
-
-#menu2 > ul > li:hover > ul {
-  opacity: 1;
-  top: 40px;
-  visibility: visible;
-}
-
-#menu2 > ul > li > ul:before{
-  content: '';
-  display: block;
-  border-color: transparent transparent rgba(0,0,0,.9) transparent;
-  border-style: solid;
-  border-width: 10px;
-  position: absolute;
-  top: -20px;
-  left: 50%;
-  margin-left: -10px;
-  z-index: 100;
-}
-
-#menu2 > ul ul > li {
-  position: relative;
-  margin:0;
-}
-
-#menu2 ul ul a {
-  color: rgb(250,250,250);
-  font-family: Verdana, 'Lucida Grande';
-  font-size: 12px;
-  padding: 5px 0px 7px 0px;
-  display: block;
-  -webkit-transition: background-color .1s;
-  -moz-transition: background-color .1s;
-  -o-transition: background-color .1s;
-  transition: background-color .1s;
-  text-align: center;
-  font-weight: normal;
-}
-
-#menu2 a span.heart{
-  font-size: 17px;
-  margin-left: 5px;
-}
-
-#menu2 ul ul a:hover {
-  text-decoration: none;
-  opacity: 1;
-}
-
-#menu2 ul ul {
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
-  -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.4);
-  box-shadow: 0px 1px 3px rgba(0,0,0,.4);
-
-  width: 160px;
-  visibility: hidden;
-  position: absolute;
-  top: -16px;
-  left: 206px;
-  padding: 16px 0 20px 0;
-  background-color: rgb(250,250,250);
-  opacity: 0;
-}
-
-#menu2 ul ul > li:hover > ul {
-  visibility: visible;
-  opacity: 1;
-  left: 196px;
-}
-
-#menu2 ul ul a:hover {
-  background-color: #b80606;
-  color: #fff;
 }
 
 
@@ -1929,11 +1819,7 @@ Media Queries for Smartphones
   .has-sub.hemaisdestaque {
     display: none !important;
   }
-  
-  .mob-link {
-    display: block !important;
-  }
-  
+
 
   /* Home */
 
