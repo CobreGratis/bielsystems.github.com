@@ -135,6 +135,10 @@ Nav
   color: #666;
 }
 
+.current-page {
+  border-color: #B80606 !important;
+}
+
 #menu2 a:hover {
   border-color: #eee;
   color: #b80606;

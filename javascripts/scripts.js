@@ -84,6 +84,19 @@ var App = {
 
   InterfaceActions: function() {
 
+
+    /* Menu: Current Page */
+
+    var current_page = location.pathname;
+
+    $("#menu2 a").each(function(i) {
+      if (current_page.indexOf($(this).attr('href')) == 0) {
+        $(this).addClass('current-page');
+        return false
+      }
+    });
+
+
 		$('.slide-trigger').collapsable();
 
     $("#menu-trigger").click(function(){
@@ -186,6 +199,7 @@ var App = {
       });
     }
   }
+
 
 } // Var Site
 
