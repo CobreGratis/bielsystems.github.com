@@ -119,7 +119,7 @@ Nav
 
 #menu2 li {
   display: inline;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 #menu2 a {
@@ -135,6 +135,15 @@ Nav
   color: #B80606;
   text-transform: uppercase;
   font-size: 12px;
+}
+
+.languages {
+  font-weight: bold;
+  margin-left: 30px !important;
+}
+
+.languages a {
+  font-size: 11px !important;
 }
 
 
@@ -1838,14 +1847,13 @@ Media Queries for Smartphones
     color: #fff;
   }
   
-  .has-sub.hemaisdestaque {
-    display: none !important;
-  }
+  .languages { margin-left: 0 !important; }
+  .languages a { font-size: 12px !important; }
 
 
   /* Home */
 
-  #home { padding-top:125px; }
+  #home { padding-top: 125px; }
 
   #home h2 {
     font-size: 45px;
