@@ -98,28 +98,14 @@ Nav
 ==================== */
 
 #menu2 {
-  margin-top: 9px;
+  margin-top: 8px;
   text-align: right;
   float: right;
 }
 
-#menu-trigger {
-  border-radius: 4px;
-  height: 36px;
-  line-height: 36px;
-  padding: 0 10px 0 10px;
-  background: #333;
-  position: absolute !important;
-  right: 5%;
-  top: 10px;
-  display: none;
-  color: #fff;
-  cursor: pointer;
-}
-
 #menu2 li {
   display: inline;
-  margin-left: 5px;
+  margin-left: 0;
 }
 
 #menu2 a {
@@ -135,22 +121,48 @@ Nav
   color: #666;
 }
 
-.current-page {
-  border-color: #B80606 !important;
-}
-
 #menu2 a:hover {
   border-color: #eee;
   color: #b80606;
 }
 
+
+/* Languages */
+
 .languages {
-  font-weight: bold;
-  margin-left: 20px !important;
+  background: #B80606;
+  position: absolute;
+  right: 10px; top: -7px;
+  padding: 5px 7px 5px 7px;
+  text-decoration: none;
+  font-size: 11px;
+  color: #ffe3e2;
 }
 
-.languages a {
-  font-size: 11px !important;
+.languages:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+
+/* Mobile Menu */
+
+#menu-trigger {
+  border-radius: 4px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 10px 0 10px;
+  background: #333;
+  position: absolute !important;
+  right: 5%;
+  top: 10px;
+  display: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.current-page {
+  border-color: #B80606 !important;
 }
 
 
@@ -1858,9 +1870,18 @@ Media Queries for Smartphones
     background: #b80606;
     color: #fff;
   }
-  
-  .languages { margin-left: 0 !important; }
-  .languages a { font-size: 12px !important; }
+
+  .languages {
+    background: none;
+    padding: 0;
+    right: 120px; top: 19px;
+    color: #666;
+  }
+
+  .languages:hover {
+    opacity: 1;
+    color: #B80606;
+  }
 
 
   /* Home */
