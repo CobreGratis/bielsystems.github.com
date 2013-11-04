@@ -98,7 +98,7 @@ Nav
 ==================== */
 
 #menu2 {
-  margin-top: 25px;
+  margin-top: 16px;
   text-align: right;
   float: right;
 }
@@ -119,27 +119,30 @@ Nav
 
 #menu2 li {
   display: inline;
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 #menu2 a {
-  color: #555;
+  border-radius: 2px;
+  height: 36px;
+  border: 1px solid #fff;
+  line-height: 36px;
+  padding: 0 10px 0 10px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 12px;
+  display: inline-block;
+  color: #666;
 }
 
-#menu2 a:hover { color: #b80606; }
-
-#menu2 span a {
-  color: #B80606;
-  text-transform: uppercase;
-  font-size: 12px;
+#menu2 a:hover {
+  border-color: #eee;
+  color: #b80606;
 }
 
 .languages {
   font-weight: bold;
-  margin-left: 30px !important;
+  margin-left: 20px !important;
 }
 
 .languages a {
@@ -1692,7 +1695,7 @@ Media Queries for Tablets
 
   .containner { width: 700px; }
   header.default .logo { width: 155px; }
-  #menu2 { margin-top: 17px; }
+  #menu2 { margin-top: 8px; }
 
 
   /* Home */
@@ -1825,19 +1828,17 @@ Media Queries for Smartphones
   
   #menu2 li {
     display: block;
-    margin-left: 0;
+    margin: 1px 0 0 0;
   }
   
   #menu2 a {
     width: 94%;
-    height: 30px;
-    line-height: 30px;
     padding: 0 3% 0 3%;
     background: #333;
     text-transform: none;
     font-size: 14px;
-    margin-top: 1px;
     color: #fff;
+    display: block;
     float: left;
   }
   
