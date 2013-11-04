@@ -97,19 +97,30 @@ var App = {
     });
 
 
-		$('.slide-trigger').collapsable();
+    /* Menu: Mobile */
 
     $("#menu-trigger").click(function(){
       $("#menu2").toggle();
     });
 
+		$('.slide-trigger').collapsable();
+
+
+    /* PrettyPhoto */
+
 		$("a[rel^='prettyPhoto']").prettyPhoto({
 			deeplinking: false
 		});
+    
+    
+    /* External Links */
 
     $("a[rel^='external']").each(function() {
       $(this).attr("target","_blank");
     });
+    
+    
+    /* General */
 
     $('nav, .advice, header, #right, #single-page').localScroll({
       duration: 1000,
