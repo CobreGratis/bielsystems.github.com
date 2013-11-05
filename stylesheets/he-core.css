@@ -528,13 +528,18 @@ Process (Mágica)
   width: 43%;
   height: 410px;
   margin: 0 0 20px 0;
-  background: #f2f2f2;
+  background: #f8f8f8;
   padding: 3%;
   text-align: left;
 }
 
-.left-column { float: left; }
-.right-column { float: right; }
+.left-column {
+  float: left;
+}
+
+.right-column {
+  float: right;
+}
 
 .bottom-column { height: 300px; }
 
@@ -1770,6 +1775,44 @@ Media Queries for Tablets
   .social-links a {
     margin: 5px 0 0 0;
     clear: both;
+  }
+  
+  
+  /* Process (Mágica) */
+  
+  #process {
+    padding-bottom: 20px;
+  }
+  
+  .process-column {
+    width: 94%;
+    height: auto;
+    margin: 0 0 1px 0;
+    float: left;
+  }
+  
+  .proc-desc-01 {
+    left: 20px; top: 115px;
+  }
+
+  .proc-desc-02 {
+    left: 90px; top: 170px;
+  }
+
+  .proc-desc-03 {
+    left: 170px; top: 15px;
+  }
+
+  .proc-desc-04 {
+    left: 520px; top: 20px;
+  }
+
+  .proc-desc-05 {
+    left: 500px; top: 160px;
+  }
+
+  .proc-desc-06 {
+    left: 260px; top: 275px;
   }
 
 
