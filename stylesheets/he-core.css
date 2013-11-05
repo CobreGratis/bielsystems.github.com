@@ -2132,8 +2132,8 @@ Media Queries for Smartphones
 
   /* Footer */
 
-  footer { padding-bottom:90px; }
-  footer li { width:100%; }
+  footer { padding-bottom: 90px; }
+  .offices li { width: 100%; }
   
   
   /* Tak to us */
