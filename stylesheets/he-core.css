@@ -782,13 +782,11 @@ Team
 
 #time {
   background: #efefef url("/images/bg-time.png") top center no-repeat;
-  padding-top: 10px;
-  padding-bottom: 60px;
+  padding: 60px 0 10px 0;
 }
 
 #time ul {
   width: 100%;
-  margin-top: 50px;
   clear: both;
   text-align: center;
 }
