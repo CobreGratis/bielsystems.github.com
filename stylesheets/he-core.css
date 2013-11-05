@@ -509,7 +509,7 @@ Process (Mágica)
 
 #process-entry {
   width: 35%;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   margin-top: -15px;
   font-size: 13px;
   float: right;
@@ -652,10 +652,11 @@ Cliente Feliz
 #happy-costumer {
   background: #efefef url("/images/bg-time.png") top center no-repeat;
   text-align: center;
-  padding: 40px 0 40px 0;
+  padding: 60px 0 1px 0;
 }
 
-#cliente-feliz:after, #happy-costumer:after {
+#cliente-feliz:after,
+#happy-costumer:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -674,7 +675,7 @@ Cliente Feliz
   box-shadow: 0 4px 8px -3px #d8d8d8;
   width: 24%;
   background: none repeat scroll 0 0 white;
-  margin: 46px  3% 10px 3%;
+  margin: 0 3% 30px 3%;
   padding: 10px;
   display: inline-block;
   font-size: 14px;
@@ -711,13 +712,13 @@ Cliente Feliz
 
 
 /* ====================
-conheca
+Sobre Nós
 ==================== */
 
 #conheca {
   background: #efefef url("/images/bg-time.png") top center no-repeat;
   text-align: center;
-  padding: 40px 0 40px 0;
+  padding: 60px 0 1px 0;
 }
 
 #conheca:after {
@@ -739,7 +740,7 @@ conheca
   box-shadow: 0 4px 8px -3px #d8d8d8;
   width: 40%;
   background: none repeat scroll 0 0 white;
-  margin: 10px 3% 10px 3%;
+  margin: 0 3% 30px 3%;
   padding: 10px;
   display: inline-block;
   font-size: 14px;
@@ -1646,6 +1647,7 @@ Contact
 /* Bottom Nav */
 
 .bottom-nav {
+  border-top: 1px solid #eaeaea;
   padding: 15px 0 15px 0;
   background: #f2f2f2;
   clear: both;
