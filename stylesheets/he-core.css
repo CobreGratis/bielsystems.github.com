@@ -407,16 +407,18 @@ Process (Mágica)
 }
 
 #process {
-  margin-top: 60px;
+  padding: 40px 0 1px 0;
+  text-align: center;
 }
 
 #process-info {
-  width: 60%;
+  width: 100%;
   position: relative;
+  margin-bottom: 40px;
   float: left;
 }
 
-#process-info img { width: 100%; }
+#process-info img { width: 55%; }
 
 #process-info > div {
   -webkit-animation-duration: .4s;
@@ -438,6 +440,7 @@ Process (Mágica)
   height: 40px;
   background: #b20000;
   position: absolute;
+  text-align: left;
   color: #fff;
   z-index: 400;
 }
@@ -460,42 +463,42 @@ Process (Mágica)
 
 .proc-desc-01 {
   width: 155px;
-  left:0; top:115px;
+  left: 120px; top: 115px;
 }
 
 .proc-desc-01 p { margin: 4px 0 0 0; }
 
 .proc-desc-02 {
   width: 157px;
-  left: 142px; top: 180px;
+  left: 340px; top: 160px;
 }
 
 .proc-desc-02 p { margin: 4px 0 0 0; }
 
 .proc-desc-03 {
   width: 172px;
-  left: 165px; top: 40px;
+  left: 270px; top: 35px;
 }
 
 .proc-desc-03 p { margin: 4px 0 0 0; }
 
 .proc-desc-04 {
   width: 145px;
-  right: -20px; top: 55px;
+  left: 650px; top: 50px;
 }
 
 .proc-desc-04 p { margin: 12px 0 0 0; }
 
 .proc-desc-05 {
   width: 100px;
-  right: -20px; bottom: 245px;
+  left: 650px; top: 230px;
 }
 
 .proc-desc-05 p { margin: 12px 0 0 0; }
 
 .proc-desc-06 {
   width: 100px;
-  left:280px; bottom:85px;
+  left: 480px; bottom: 85px;
 }
 
 .proc-desc-06 p { margin: 4px 0 0 0; }
@@ -508,21 +511,50 @@ Process (Mágica)
 /* Process Entry */
 
 #process-entry {
-  width: 35%;
-  margin-bottom: 60px;
-  margin-top: -15px;
-  font-size: 13px;
+  margin-bottom: 30px;
+}
+
+#process-entry:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
+}
+
+.process-column {
+  width: 43%;
+  height: 410px;
+  margin: 0 0 20px 0;
+  background: #f2f2f2;
+  padding: 3%;
+  text-align: left;
+}
+
+.left-column {
+  float: left;
+}
+
+.right-column {
   float: right;
 }
 
-#process-entry h3 {
-  margin: 15px 0 0 0;
-  color: #b20000;
+.bottom-column {
+  height: 300px;
 }
 
 #process-entry p {
-  font-size: 14px;
-  line-height: 22px;
+
+}
+
+#process-entry h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 19px;
+  margin: 15px 0 0 0;
+  color: #b20000;
 }
 
 #process-entry strong,
@@ -532,7 +564,9 @@ Process (Mágica)
   color: rgb(71, 60, 60);
 }
 
-#process-entry strong { margin:7px 0 0 0; }
+#process-entry strong {
+  margin: 20px 0 5px 0;
+}
 
 #process-entry strong a {
   text-decoration: underline;
@@ -730,7 +764,6 @@ Sobre Nós
   height: 0;
   min-height: 0;
 }
-
 
 .videothumbs2 {
   margin-bottom: 30px;
@@ -1737,56 +1770,6 @@ Media Queries for Tablets
   }
 
   #cover-mailing { margin-top: 80px; }
-
-
-  /* Process */
-
-  #process-entry li {
-    font-size: 12px;
-    line-height: 19px;
-  }
-
-  #process-info > div {
-    width: 30px;
-    position: absolute;
-  }
-
-  #process-info span {
-    width: 30px;
-    height: 34px;
-    margin-right: 0;
-    padding: 6px 0 0 0;
-  }
-
-  #process-info p { display: none; }
-
-  .proc-desc-01 { left: 30px; top: 72px; }
-  .proc-desc-02 {left: 125px; top: 135px; }
-  .proc-desc-03 {left: 140px; top: 20px; }
-  .proc-desc-04 {right: 40px; top: 15px; }
-  .proc-desc-05 {right: 25px; bottom: 440px; }
-  .proc-desc-06 {left: 250px; bottom: 345px; }
-
-  /*-*/
-
-  #tablet-descriptions {
-    margin: 50px 0 0 0;
-    display: block;
-  }
-
-  #tablet-descriptions strong { color: #b20000; }
-
-  #tablet-descriptions li {
-    padding: 10px 0 10px 0;
-    border-top: 1px solid #eaeaea;
-    font-size: 14px;
-    display: block;
-  }
-
-  #tablet-descriptions li:first-child {
-    padding-top: 0;
-    border-top: none;
-  }
 
 
   /* Profile */
