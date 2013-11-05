@@ -533,21 +533,10 @@ Process (Mágica)
   text-align: left;
 }
 
-.left-column {
-  float: left;
-}
+.left-column { float: left; }
+.right-column { float: right; }
 
-.right-column {
-  float: right;
-}
-
-.bottom-column {
-  height: 300px;
-}
-
-#process-entry p {
-
-}
+.bottom-column { height: 300px; }
 
 #process-entry h3 {
   font-weight: 300;
