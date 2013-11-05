@@ -223,7 +223,7 @@ Home
  
 .services-home {
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   text-align: center;
 }
  
@@ -408,7 +408,6 @@ Process (Mágica)
 
 #process {
   margin-top: 60px;
-  padding-bottom: 40px;
 }
 
 #process-info {
@@ -510,7 +509,7 @@ Process (Mágica)
 
 #process-entry {
   width: 35%;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   margin-top: -15px;
   font-size: 13px;
   float: right;
@@ -1647,6 +1646,8 @@ Contact
 /* Bottom Nav */
 
 .bottom-nav {
+  padding: 15px 0 15px 0;
+  background: #f2f2f2;
   clear: both;
 }
 
