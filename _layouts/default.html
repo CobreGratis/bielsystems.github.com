@@ -89,5 +89,11 @@
         </div>
       </footer>
     </div>
+    <script type="text/javascript">
+      if(window.location.hash == '#modal') {
+        var element = document.getElementsByTagName("footer")[0];
+        element.parentNode.removeChild(element);
+      }
+    </script>
   </body>
 </html>
