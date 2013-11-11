@@ -47,7 +47,7 @@ var App = {
 		function EnableModal(){
       $('body').css({'overflow':'hidden'});
       window.scrollTo(0,0);
-      $(document).bind('scroll',function () {
+      $(document).bind('scroll', function() {
         window.scrollTo(0,0); 
       });
 			$modalBg.show();
