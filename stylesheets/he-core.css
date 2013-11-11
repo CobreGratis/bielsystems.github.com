@@ -637,13 +637,6 @@ Process (Mágica)
   color: #b80606;
 }
 
-.video {
-  display: block;
-  height: 225px;
-  margin: 20px auto;
-  width: 400px;
-}
-
 .modalDay {
   font-weight: 300;
   margin: 0 0 20px 0;
@@ -658,6 +651,14 @@ Process (Mágica)
   max-height: 250px;
   padding: 7px;
   overflow: auto;
+}
+
+.video,
+.modalEntry iframe {
+  width: 100%;
+  min-height: 225px;
+  display: block;
+  margin: 20px 0 20px 0;
 }
 
 .modalEntry p {
