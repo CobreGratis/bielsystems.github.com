@@ -624,7 +624,7 @@ Process (Mágica)
   background: #fff;
 	position: absolute;
   border: 5px solid #eee;
-	top: 10%; left: 50%;
+	top: 30px; left: 50%;
 	z-index: 9999;
 	margin-left: -255px;
 	padding: 15px 20px 20px 20px;
@@ -645,14 +645,6 @@ Process (Mágica)
   color: #8c8c8c;
 }
 
-.modalEntry {
-  background: #fff;
-  border: 1px solid #eee;
-  max-height: 250px;
-  padding: 7px;
-  overflow-y: auto;
-}
-
 .video,
 .modalEntry iframe {
   width: 100%;
@@ -664,7 +656,7 @@ Process (Mágica)
 .modalEntry p {
   height: auto;
   border: 1px solid #eee;
-  margin: 1px 0 0 0;
+  margin: -1px 0 0 0;
   font-size: 12px;
   line-height: 17px;
   padding: 7px 10px 7px 10px;
