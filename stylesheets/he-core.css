@@ -650,7 +650,7 @@ Process (Mágica)
   border: 1px solid #eee;
   max-height: 250px;
   padding: 7px;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 .video,
