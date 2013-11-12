@@ -388,23 +388,23 @@ Process (Mágica)
 
 @-moz-keyframes slidein {
   from {
-    margin-left:-20px;
-    opacity:0;
+    margin-left: -20px;
+    opacity: 0;
   }
   to {
-    margin-left:0;
-    opacity:10;
+    margin-left: 0;
+    opacity: 10;
   }
 }
 
 @-webkit-keyframes slidein {
   from {
-    margin-left:-20px;
-    opacity:0;
+    margin-left: -20px;
+    opacity: 0;
   }
   to {
-    margin-left:0;
-    opacity:10.0;
+    margin-left: 0;
+    opacity: 10.0;
   }
 }
 
