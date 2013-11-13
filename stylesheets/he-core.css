@@ -220,6 +220,54 @@ Home
   opacity: .8;
 }
 
+.icons a {
+  position: relative;
+}
+
+.icons a span {
+  width: 100px;
+  height: auto;
+  line-height: 20px;
+  padding: 10px;
+  left: 50%;
+  margin-left: -64px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background: #222;
+  text-indent: 0px;
+  border-radius: 5px;
+  position: absolute;
+  pointer-events: none;
+  bottom: 100px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.icons span:before,
+.icons span:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -9px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #222;
+}
+
+.icons span:after {
+  border-top: 10px solid #222;
+  display: none;
+}
+
+.icons a:hover span {
+  opacity: 1;
+  bottom: 70px;
+}
+
 
 /* Services Home */
  
