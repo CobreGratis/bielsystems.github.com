@@ -25,7 +25,7 @@ description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web,
           {% if person.permalink %}<a href="{{ person.permalink }}">{% endif %}
             <img src="{{ person.image }}" alt="{{ person.full_name }}">
             <h3>{{ person.full_name }}</h3>
-            <p>{{ person.job_title | capitalize }}</p>
+            <p>{{ person.job_title }}</p>
           {% if person.permalink %}</a>{% endif %}
           
           <ul class="social-icons">
