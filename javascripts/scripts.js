@@ -219,7 +219,8 @@ jQuery(function(){
 });
 
 $(document).ready(function(){
-  $('.eduardo-photo').on("hover", function(){
-    $(this).find("img").attr("src", "/images/time/time-eduardo.gif");
+  $("img[src='/images/time/time-eduardo.jpg']").on("hover", function(){
+    $(this).attr("src", "/images/time/time-eduardo.gif");
   });
 });
+
