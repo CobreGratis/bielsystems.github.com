@@ -1,8 +1,8 @@
 # -*- encoding : utf-8 -*-
-require 'blogpost'
+require 'spec_helper'
 
 describe Blogpost do
-  describe "#fetch" do
+  describe "#fetch", :vcr do
     let(:blogpost) { Blogpost.new('Redesign do Startupdev', 'http://helabs.com.br/blog/2013/11/26/startupdev-novo-design', 'Aluísio Azevedo') }
 
     it "returns array of blogposts" do
