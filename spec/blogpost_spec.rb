@@ -18,4 +18,22 @@ describe Blogpost do
       expect(blogpost.author).to eql('Ali Ismayilov')
     end
   end
+
+  describe '#relative_url' do
+    context "host is helabe.com.br" do
+      it 'cuts out host and protocol from url' do
+        blogpost = Blogpost.new('some title', 'http://helabs.com.br/blog/2013/11/26/startupdev-novo-design', 'some name')
+
+        expect(blogpost.relative_url).to eql('/blog/2013/11/26/startupdev-novo-design')
+      end
+    end
+
+    context "external host" do
+      it 'returns url as it is' do
+        blogpost = Blogpost.new('some title', 'http://startupdev.com.br/en/startup-services/mvp/', 'some name')
+
+        expect(blogpost.relative_url).to eql('http://startupdev.com.br/en/startup-services/mvp/')
+      end
+    end
+  end
 end

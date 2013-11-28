@@ -10,6 +10,14 @@ class Blogpost
     @author = author.split[0..1].join(' ')
   end
 
+  def relative_url
+    if url.include? 'helabs.com.br'
+      url.gsub('http://helabs.com.br', '')
+    else
+      url
+    end
+  end
+
   def self.fetch(url)
     doc = Nokogiri::XML(open(url))
     doc.css('entry').map do |entry|
