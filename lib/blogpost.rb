@@ -7,7 +7,7 @@ class Blogpost
   def initialize(title, url, author)
     @title  = title
     @url    = url
-    @author = author
+    @author = author.split[0..1].join(' ')
   end
 
   def self.fetch(url)

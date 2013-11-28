@@ -10,4 +10,12 @@ describe Blogpost do
       expect(entries).to include(blogpost)
     end
   end
+
+  describe '#author' do
+    it "gets only first 2 words" do
+      blogpost = Blogpost.new('some-title', 'some-url', 'Ali Ismayilov Fuad oghlu')
+
+      expect(blogpost.author).to eql('Ali Ismayilov')
+    end
+  end
 end
