@@ -1410,18 +1410,6 @@ Services
   float: left;
 }
 
-.services-text2 {
-  width: 100%;
-  position: relative;
-  line-height: 28px;
-  font-size: 17px;
-  float: left;
-  text-align:center;
-  background-color: #fff;
-  padding-left:40px;
-  padding-right:40px;
-}
-
 .services h3 {
   text-transform: uppercase;
   font-weight: 300;
@@ -1456,6 +1444,57 @@ Services
   color: #b80606;
 }
 
+
+/*
+
+Midiakit
+
+*/
+
+.services-text2 {
+  width: 100%;
+  position: relative;
+  line-height: 28px;
+  font-size: 17px;
+  float: left;
+  text-align:center;
+  background-color: #fff;
+  padding-left:40px;
+  padding-right:40px;
+}
+
+.
+
+.midiakit-text p{
+  font-family: Helvetica, sans-serif;
+  font-size:20px;
+  font-weight: bold;
+}
+
+.midiakit-text span{
+  color: #990000;
+}
+
+.box_download {
+  display:block;
+  width: 800px;
+  height:300px;
+  margin-right: auto;
+  margin-left:auto;
+  border: #ffcccc 3px dashed;
+}
+
+.box_download h3{
+  font-family: Helvetica, sans-serif;
+  font-size:34px;
+  margin-top:35px;
+}
+
+.bt_download {
+  width: 372px;
+  height:74px;
+  background-image: url("bt_download.png");
+}
 
 /* ====================
 Open Source
