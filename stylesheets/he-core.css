@@ -270,13 +270,13 @@ Home
 
 
 /* Services Home */
- 
+
 .services-home {
   margin-top: 50px;
   margin-bottom: 35px;
   text-align: center;
 }
- 
+
 .services-home:after {
   visibility: hidden;
   display: block;
@@ -286,7 +286,7 @@ Home
   height: 0;
   min-height: 0;
 }
- 
+
 .services-home li {
   width: 26%;
   background-color: #fff;
@@ -295,7 +295,7 @@ Home
   padding: 30px 3% 0 3%;
   min-height: 225px;
 }
- 
+
 .services-home h3 {
   font-size: 22px !important;
   line-height: 22px;
@@ -303,7 +303,7 @@ Home
   margin: 0 0 5px 0 !important;
   padding-top: 0 !important;
 }
- 
+
 .services-home p {
   font-family: 'lato';
   font-size: 17px;
@@ -1410,6 +1410,18 @@ Services
   float: left;
 }
 
+.services-text2 {
+  width: 100%;
+  position: relative;
+  line-height: 28px;
+  font-size: 17px;
+  float: left;
+  text-align:center;
+  background-color: #fff;
+  padding-left:40px;
+  padding-right:40px;
+}
+
 .services h3 {
   text-transform: uppercase;
   font-weight: 300;
@@ -1841,21 +1853,21 @@ Media Queries for Tablets
     margin: 5px 0 0 0;
     clear: both;
   }
-  
-  
+
+
   /* Process (Mágica) */
-  
+
   #process {
     padding-bottom: 20px;
   }
-  
+
   .process-column {
     width: 94%;
     height: auto;
     margin: 0 0 1px 0;
     float: left;
   }
-  
+
   .proc-desc-01 {
     left: 20px; top: 115px;
   }
@@ -1912,22 +1924,22 @@ Media Queries for Smartphones
   }
 
   header.default .logo { width: 100px; }
-  
+
   #menu-trigger {
     display: inline-block;
   }
-  
+
   #menu2 {
     width: 100%;
     text-align: left;
     display: none;
   }
-  
+
   #menu2 li {
     display: block;
     margin: 1px 0 0 0;
   }
-  
+
   #menu2 a {
     border-radius: 0;
     width: 94%;
@@ -1939,14 +1951,14 @@ Media Queries for Smartphones
     display: block;
     float: left;
   }
-  
+
   .current-page {
     box-shadow: none;
     background: #b80606 !important;
     border: none !important;
     margin-left: 1px;
   }
-  
+
   #menu2 a:hover {
     opacity: 1;
     background: #b80606;
@@ -2048,14 +2060,14 @@ Media Queries for Smartphones
     background: url("/images/play.jpg") no-repeat white;
     background-size: 100%;
   }
-  
-  
+
+
   /* Services Page */
 
   .services-text {
     width: 100%;
   }
-  
+
   .services .videothumbs {
     width: 80%;
     padding: 0 10% 0 10%;
@@ -2204,7 +2216,7 @@ Media Queries for Smartphones
   .footer-links ul {
     width: 100%;
   }
-  
+
   .footer-links li {
     width: 100%;
     height: 30px;
@@ -2222,9 +2234,9 @@ Media Queries for Smartphones
     display: block;
   }
 
-  
+
   /* Tak to us */
-  
+
   #talk-to-us form {
     width: auto;
   }
@@ -2250,7 +2262,7 @@ Media Queries with adjustments for Smartphones
 */
 
 @media (max-width:581px) {
-  
+
   .blog-posts {
     width: 100%;
     margin-bottom: 50px;
