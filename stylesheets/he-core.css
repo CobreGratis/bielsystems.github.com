@@ -1446,9 +1446,11 @@ Services
 
 
 /*
+============================================|
 
-Midiakit
+                  MIDIAKIT
 
+============================================|
 */
 
 .services-text2 {
@@ -1463,7 +1465,6 @@ Midiakit
   padding-right:40px;
 }
 
-.
 
 .midiakit-text p{
   font-family: Helvetica, sans-serif;
@@ -1475,26 +1476,71 @@ Midiakit
   color: #990000;
 }
 
+
+/* BOX DOWNLOAD AND CONTENTS */
+
 .box_download {
   display:block;
-  width: 800px;
+  width: 900px;
   height:300px;
   margin-right: auto;
   margin-left:auto;
   border: #ffcccc 3px dashed;
+  padding-left: 40px;
 }
 
 .box_download h3{
-  font-family: Helvetica, sans-serif;
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: 500;
   font-size:34px;
   margin-top:35px;
+  margin-bottom: 35px;
+}
+
+.box_download p{
+  position:relative;
+  display:table;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 .bt_download {
-  width: 372px;
-  height:74px;
-  background-image: url("bt_download.png");
+  margin-top: 40px;
+  display: inline;
 }
+
+.bt_download a{
+    float:left;
+    display:block;
+    background-image: url("/images/bt_download.png");
+    color:#fff;
+    text-decoration: none;
+    font-family: Helvetica Neue, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 372px;
+    height:74px;
+    margin-left:40px;
+}
+
+.bt_download_text{
+  text-transform: uppercase;;
+  display:block;
+  padding-left: 90px;
+  margin-top: 25px;
+  letter-spacing: 1px;
+}
+/* End of BOX DOWNLOAD
+______________________________________*/
+
+
+
+
+/* END OF MIDIAKIT
+==================================================|
+
+
 
 /* ====================
 Open Source
