@@ -18,6 +18,10 @@ class Blogpost
     end
   end
 
+  def to_yaml
+    "title: #{title}\nurl: #{url}\n"
+  end
+
   def self.fetch(url)
     doc = Nokogiri::XML(open(url))
     doc.css('entry').map do |entry|

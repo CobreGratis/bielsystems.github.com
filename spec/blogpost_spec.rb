@@ -6,8 +6,51 @@ describe Blogpost do
     let(:blogpost) { Blogpost.new('Redesign do Startupdev', 'http://helabs.com.br/blog/2013/11/26/startupdev-novo-design', 'Aluísio Azevedo') }
 
     it "returns array of blogposts" do
-      entries = Blogpost.fetch('http://helabs.com.br/blog/atom.xml')
-      expect(entries).to include(blogpost)
+      blogposts = Blogpost.fetch('http://helabs.com.br/blog/atom.xml')
+      expect(blogposts).to include(blogpost)
+    end
+  end
+
+  pending '#export' do
+    def read_yaml(filename)
+
+    end
+
+    context "person has blogposts" do
+      before do
+        @original_yaml = read_yaml("ssss")
+        expect(@original_yaml.blogposts.size).to eq(1)
+
+        expect(@original_yaml.blogposts.first.url).to eq("ssss")      
+        expect(@original_yaml.blogposts.first.title).to eq("ssss")      
+      end
+
+      it "save correct new blogposts" do
+        Blogpost.export
+        @original_yaml.reload
+
+        expect(@original_yaml.blogposts.last.url).to eq("another")      
+        expect(@original_yaml.blogposts.last.title).to eq("another")      
+      end
+
+
+      it "update blogposts size" do
+        expect {
+          Blogpost.export
+        }.to change { @original_yaml.reload }.by(1)
+      end
+    end
+  end
+
+  describe '#to_yaml' do
+    subject(:blogpost) { Blogpost.new('some title', 'http://some.url', 'some person') }
+
+    it "prints expected yaml" do
+      expected_yaml_string = <<-eos
+title: some title
+url: http://some.url
+eos
+      expect(blogpost.to_yaml).to eql(expected_yaml_string)
     end
   end
 
