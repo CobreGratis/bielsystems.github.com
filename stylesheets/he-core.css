@@ -1548,8 +1548,8 @@ ______________________________________*/
   font-family: Helvetica Neue, sans-serif;
   font-weight: 500;
   font-size:34px;
-  margin-top:35px;
-  margin-bottom: 35px;
+  margin-top:50px;
+  margin-bottom: 15px;
 }
 
 .box_colors p{
@@ -1561,7 +1561,7 @@ ______________________________________*/
 
 .box_colors_show {
   width: 702px;
-  height:95px;
+  height:80px;
   background-color: #000;
   display:block;
   margin-left:auto;
@@ -1583,19 +1583,46 @@ ______________________________________*/
 
 .bt_colors {
   width:100px;
-  height:65px;
+  height:50px;
   display: table-cell;
   margin:0px;
   padding:0px;
 }
 
-
-
-
 /* End of BOX COLORS
 ______________________________________*/
 
+/* BOX FONTS AND CONTENTS */
 
+.box_fonts {
+  display:block;
+  width: 900px;
+  height:300px;
+  margin-right: auto;
+  margin-left:auto;
+}
+
+.box_fonts h3{
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: 500;
+  font-size:34px;
+  margin-top:50px;
+  margin-bottom: 15px;
+}
+
+.box_fonts p{
+  position:relative;
+  display:table;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+#font_show {
+  width:800px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 /* END OF MIDIAKIT
