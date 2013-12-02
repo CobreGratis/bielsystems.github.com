@@ -2,7 +2,7 @@
 require 'spec_helper'
 
 describe Blogpost do
-  describe "#fetch", :vcr do
+  describe "#fetch" do
     let(:blogpost) { Blogpost.new('Redesign do Startupdev', 'http://helabs.com.br/blog/2013/11/26/startupdev-novo-design', 'Aluísio Azevedo') }
 
     it "returns array of blogposts" do
@@ -11,46 +11,55 @@ describe Blogpost do
     end
   end
 
-  pending '#export' do
-    def read_yaml(filename)
-
-    end
-
+  describe '#export_to' do
     context "person has blogposts" do
       before do
-        @original_yaml = read_yaml("ssss")
-        expect(@original_yaml.blogposts.size).to eq(1)
+        # copy fixture to _posts directory
+        spec_directory = File.dirname(__FILE__)
+        @fixture_name = '2011-10-11-mauro-george.html'
+        fixture_file = File.join(spec_directory, 'fixtures', @fixture_name)
+        FileUtils.cp fixture_file, File.join(spec_directory, '_posts')
+        @post_file = File.join(spec_directory, '_posts', @fixture_name)
 
-        expect(@original_yaml.blogposts.first.url).to eq("ssss")      
-        expect(@original_yaml.blogposts.first.title).to eq("ssss")      
+        # create Jekyll post which can parse post file inside _posts
+        @site = Jekyll::Site.new(Jekyll.configuration({}))
+        post = Jekyll::Post.new(@site, Dir.pwd, 'spec', @fixture_name)
+
+        expect(post.data['blogposts'].count).to eq(2)
+
+        expect(post.data['blogposts'].first['title']).to eq("Awesome post 1")
+        expect(post.data['blogposts'].first['url']).to eq("/blogs/mauro/1")
       end
 
-      it "save correct new blogposts" do
-        Blogpost.export
-        @original_yaml.reload
+      subject(:blogpost) { Blogpost.new('New blogpost', 'http://some.url', 'Mauro George') }
 
-        expect(@original_yaml.blogposts.last.url).to eq("another")      
-        expect(@original_yaml.blogposts.last.title).to eq("another")      
+      it "appends new blogpost" do
+        blogpost.export_to @post_file
+
+        post = Jekyll::Post.new(@site, Dir.pwd, 'spec', @fixture_name)
+
+        expect(post.data['blogposts'][-1]['url']).to eq("http://some.url")
+        expect(post.data['blogposts'][-1]['title']).to eq("New blogpost")
       end
 
 
-      it "update blogposts size" do
-        expect {
-          Blogpost.export
-        }.to change { @original_yaml.reload }.by(1)
+      it "update blogposts count" do
+        blogpost.export_to @post_file
+
+        post = Jekyll::Post.new(@site, Dir.pwd, 'spec', @fixture_name)
+
+        expect(post.data['blogposts'].count).to eq(3)
       end
     end
   end
 
-  describe '#to_yaml' do
+  describe '#to_hash' do
     subject(:blogpost) { Blogpost.new('some title', 'http://some.url', 'some person') }
 
-    it "prints expected yaml" do
-      expected_yaml_string = <<-eos
-title: some title
-url: http://some.url
-eos
-      expect(blogpost.to_yaml).to eql(expected_yaml_string)
+    it "returns hash with title and url" do
+      expected_hash = { 'title' => 'some title', 'url' => 'http://some.url' }
+
+      expect(blogpost.to_hash).to eql(expected_hash)
     end
   end
 

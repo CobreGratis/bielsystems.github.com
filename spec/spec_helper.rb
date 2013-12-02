@@ -1,11 +1,14 @@
 require 'blogpost'
-require 'vcr'
+# require 'vcr'
+require 'jekyll'
+require 'pry'
 
-VCR.configure do |c|
-  c.cassette_library_dir = 'spec/cassettes'
-  c.hook_into :webmock
-  c.configure_rspec_metadata!
-end
+# TODO: use VCR
+# VCR.configure do |c|
+#   c.cassette_library_dir = 'spec/cassettes'
+#   c.hook_into :webmock
+#   c.configure_rspec_metadata!
+# end
 
 RSpec.configure do |c|
   # so we can use :vcr rather than :vcr => true;

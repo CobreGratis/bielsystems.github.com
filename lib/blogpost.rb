@@ -18,8 +18,29 @@ class Blogpost
     end
   end
 
-  def to_yaml
-    "title: #{title}\nurl: #{url}\n"
+  def to_hash
+    {
+      'title' => title,
+      'url' => relative_url
+    }
+  end
+
+  def export_to(filename)
+    file_content = File.read(filename)
+    frontmatter = YAML.load(
+      file_content.scan(/\A(---\s*\n.*?\n?)^(---\s*$\n?)/m).first.first
+    )
+
+    frontmatter['blogposts'] << self.to_hash
+
+    File.open(filename, 'w') do |f|
+      f.write(
+        file_content.gsub(
+          /\A(---\s*\n.*?\n?)^(---\s*$\n?)/m,
+          frontmatter.to_yaml({ line_width: -1 }) + "---\n"
+        )
+      )
+    end
   end
 
   def self.fetch(url)
