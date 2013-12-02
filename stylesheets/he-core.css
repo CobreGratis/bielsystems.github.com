@@ -1534,6 +1534,67 @@ Services
 /* End of BOX DOWNLOAD
 ______________________________________*/
 
+/* BOX COLORS AND CONTENTS */
+
+.box_colors {
+  display:block;
+  width: 900px;
+  height:300px;
+  margin-right: auto;
+  margin-left:auto;
+}
+
+.box_colors h3{
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: 500;
+  font-size:34px;
+  margin-top:35px;
+  margin-bottom: 35px;
+}
+
+.box_colors p{
+  position:relative;
+  display:table;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.box_colors_show {
+  width: 702px;
+  height:95px;
+  background-color: #000;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: left;
+  padding:0px;
+}
+
+.box_colors_show p{
+  padding: 0px;
+  margin-left:5px;
+  margin-top:0px;
+  margin-bottom:0px;
+  color:#fff;
+  font-weight: lighter;
+  font-family: helvetica neue, sans-serif;
+  letter-spacing: 1px;
+}
+
+.bt_colors {
+  width:100px;
+  height:65px;
+  display: table-cell;
+  margin:0px;
+  padding:0px;
+}
+
+
+
+
+/* End of BOX COLORS
+______________________________________*/
+
 
 
 
