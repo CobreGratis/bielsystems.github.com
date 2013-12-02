@@ -1418,13 +1418,6 @@ Services
   color: #B80606;
 }
 
-.services2 h3 {
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 30px;
-  margin: 50px 0 20px 0;
-  color: #B80606;
-}
 .services h4 {
   font-size: 20px;
   margin-bottom: 5px;
@@ -1461,11 +1454,12 @@ Services
 */
 
 .services-text2 {
-  width: 100%;
+  width: 80%;
   position: relative;
   line-height: 28px;
   font-size: 17px;
-  float: left;
+  margin-right:auto;
+  margin-left:auto;
   text-align:center;
   background-color: #fff;
   padding-left:40px;
@@ -1490,12 +1484,12 @@ Services
 
 .box_download {
   display:block;
-  width: 900px;
+  width: 100%;
   height:300px;
-  margin-right: auto;
+  margin-right:auto;
   margin-left:auto;
   border: #ffcccc 3px dashed;
-  padding-left: 40px;
+  text-align:center;
 }
 
 .box_download h3{
@@ -1504,40 +1498,39 @@ Services
   font-size:34px;
   margin-top:35px;
   margin-bottom: 35px;
+  color:#990000;
 }
 
 .box_download p{
   position:relative;
-  display:table;
-  margin-left:auto;
-  margin-right: auto;
+  padding:20px;
 }
 
 .bt_download {
-  margin-top: 40px;
-  display: inline;
+  margin-top: 0px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .bt_download a{
-    float:left;
     display:block;
     background-image: url("/images/bt_download.png");
     color:#fff;
     text-decoration: none;
     font-family: Helvetica Neue, sans-serif;
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: lighter;
-    width: 372px;
-    height:74px;
-    margin-left:40px;
+    width: 300px;
+    height:60px;
 }
 
 .bt_download_text{
   text-transform: uppercase;;
   display:block;
-  padding-left: 90px;
-  margin-top: 25px;
+  padding-left: 70px;
+  padding-top: 15px;
   letter-spacing: 1px;
 }
 /* End of BOX DOWNLOAD
@@ -1547,7 +1540,7 @@ ______________________________________*/
 
 .box_colors {
   display:block;
-  width: 900px;
+  width: 100%;
   height:180px;
   margin-right: auto;
   margin-left:auto;
@@ -1559,6 +1552,7 @@ ______________________________________*/
   font-size:34px;
   margin-top:50px;
   margin-bottom: 15px;
+  color:#990000;
 }
 
 .box_colors p{
@@ -1624,7 +1618,7 @@ ______________________________________*/
 
 .box_fonts {
   display:block;
-  width: 900px;
+  width: 100%;
   height:450px;
   margin-right: auto;
   margin-left:auto;
@@ -1636,6 +1630,7 @@ ______________________________________*/
   font-size:34px;
   margin-top:50px;
   margin-bottom: 15px;
+  color:#990000;
 }
 
 .box_fonts p{
