@@ -1539,7 +1539,7 @@ ______________________________________*/
 .box_colors {
   display:block;
   width: 900px;
-  height:300px;
+  height:180px;
   margin-right: auto;
   margin-left:auto;
 }
@@ -1587,7 +1587,26 @@ ______________________________________*/
   display: table-cell;
   margin:0px;
   padding:0px;
+  text-align:center;
 }
+
+.color_number {
+  display:block;
+  width:100px;
+  height:30px;
+  font-size: 18px;
+  font-family: helvetica neue, sans-serif;
+  font-weight: lighter;
+  color: transparent;
+  margin-top: 20px;
+
+}
+
+.color_number:hover {
+  color:#fff;
+  background-color: #000;
+}
+
 
 /* End of BOX COLORS
 ______________________________________*/
@@ -1597,7 +1616,7 @@ ______________________________________*/
 .box_fonts {
   display:block;
   width: 900px;
-  height:300px;
+  height:450px;
   margin-right: auto;
   margin-left:auto;
 }
@@ -1622,6 +1641,11 @@ ______________________________________*/
   display:block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#font_show img{
+  border-bottom: dashed 1px #ccc;
+  margin-bottom: 10px;
 }
 
 
