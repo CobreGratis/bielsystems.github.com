@@ -47,13 +47,24 @@
       </section>
     {% endif %}
 
-    {% if content != empty %}
-      <section id="related-content">
-        <div class="containner">
-          {{ content }}
-        </div>
-      </section>
-    {% endif %}
+    <section id="related-content">
+      <div class="containner">
+        {% if page.blogposts %}
+          <article class="blog-posts">
+            <h2>Posts no Blog</h2>
+            <ul>
+              {% for blogpost in page.blogposts %}
+                <li>
+                  <h3><a href="{{ blogpost.url }}">{{ blogpost.title }}</a></h3>
+                </li>
+              {% endfor %}
+            </ul>
+          </article>
+        {% endif %}
+
+        {{ content }}
+      </div>
+    </section>
     {% include footer.html %}
   </body>
 </html>
