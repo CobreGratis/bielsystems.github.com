@@ -1,6 +1,5 @@
 require 'blogpost'
 require 'vcr'
-require 'jekyll'
 require 'pry'
 
 VCR.configure do |c|

@@ -11,7 +11,7 @@ describe Blogpost do
     end
   end
 
-  describe '#export_to' do
+  describe '#export_to' do    
     context "person has blogposts" do
       before do
         # copy fixture to _posts directory
@@ -22,6 +22,7 @@ describe Blogpost do
         @post_file = File.join(spec_directory, '_posts', @fixture_name)
 
         # create Jekyll post which can parse post file inside _posts
+        require 'jekyll'
         @site = Jekyll::Site.new(Jekyll.configuration({}))
         post = Jekyll::Post.new(@site, Dir.pwd, 'spec', @fixture_name)
 
@@ -87,5 +88,9 @@ describe Blogpost do
         expect(blogpost.relative_url).to eql('http://startupdev.com.br/en/startup-services/mvp/')
       end
     end
+  end
+
+  pending '#==' do
+    
   end
 end
