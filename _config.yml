@@ -1,5 +1,5 @@
 safe: true
 lsi: false
 pygments: true
-exclude: ['docs', 'README', 'Gemfile', 'Gemfile.lock', 'CNAME']
+exclude: ['docs', 'README', 'Gemfile', 'Gemfile.lock', 'CNAME', 'spec', 'lib', 'bin']
 permalink: pretty
