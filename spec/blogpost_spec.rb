@@ -64,7 +64,7 @@ describe Blogpost do
   end
 
   describe '#relative_url' do
-    context "host is helabe.com.br" do
+    context "host is helabs.com.br" do
       it 'cuts out host and protocol from url' do
         blogpost = Blogpost.new('some title', 'http://helabs.com.br/blog/2013/11/26/startupdev-novo-design', 'some name')
 
