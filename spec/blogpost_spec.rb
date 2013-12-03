@@ -13,43 +13,34 @@ describe Blogpost do
 
   describe '#export_to' do    
     context "person has blogposts" do
+      let(:spec_directory) { File.dirname __FILE__ }
+      let(:fixture_name)   { '2011-10-11-mauro-george.html' }
+      let(:post_file)      { File.join(spec_directory, '_posts', fixture_name) }
+      let(:site)           { Jekyll::Site.new(Jekyll.configuration({})) }
+      def post
+        # create Jekyll post which can parse :post_file
+        require 'jekyll'
+        Jekyll::Post.new(site, Dir.pwd, 'spec', fixture_name)
+      end
+
       before do
         # copy fixture to _posts directory
-        spec_directory = File.dirname(__FILE__)
-        @fixture_name = '2011-10-11-mauro-george.html'
-        fixture_file = File.join(spec_directory, 'fixtures', @fixture_name)
+        fixture_file = File.join(spec_directory, 'fixtures', fixture_name)
         FileUtils.cp fixture_file, File.join(spec_directory, '_posts')
-        @post_file = File.join(spec_directory, '_posts', @fixture_name)
-
-        # create Jekyll post which can parse post file inside _posts
-        require 'jekyll'
-        @site = Jekyll::Site.new(Jekyll.configuration({}))
-        post = Jekyll::Post.new(@site, Dir.pwd, 'spec', @fixture_name)
-
-        expect(post.data['blogposts'].count).to eq(2)
-
-        expect(post.data['blogposts'].first['title']).to eq("Awesome post 1")
-        expect(post.data['blogposts'].first['url']).to eq("/blogs/mauro/1")
       end
 
       subject(:blogpost) { Blogpost.new('New blogpost', 'http://some.url', 'Mauro George') }
 
       it "appends new blogpost" do
-        blogpost.export_to @post_file
-
-        post = Jekyll::Post.new(@site, Dir.pwd, 'spec', @fixture_name)
+        blogpost.export_to post_file
 
         expect(post.data['blogposts'][-1]['url']).to eq("http://some.url")
         expect(post.data['blogposts'][-1]['title']).to eq("New blogpost")
       end
 
 
-      it "update blogposts count" do
-        blogpost.export_to @post_file
-
-        post = Jekyll::Post.new(@site, Dir.pwd, 'spec', @fixture_name)
-
-        expect(post.data['blogposts'].count).to eq(3)
+      it "updates blogposts count" do
+        expect { blogpost.export_to(post_file) }.to change{ post.data['blogposts'].count }.from(2).to(3)
       end
     end
   end
