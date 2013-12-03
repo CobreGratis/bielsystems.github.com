@@ -42,6 +42,10 @@ describe Blogpost do
       it "updates blogposts count" do
         expect { blogpost.export_to(post_file) }.to change{ post.data['blogposts'].count }.from(2).to(3)
       end
+
+      it "does not add blogpost if it already exists" do
+        expect { 2.times { blogpost.export_to(post_file) } }.to change{ post.data['blogposts'].count }.by(1)
+      end
     end
 
     context "person has no blogposts" do

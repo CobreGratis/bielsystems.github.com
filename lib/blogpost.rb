@@ -32,7 +32,7 @@ class Blogpost
     )
 
     frontmatter['blogposts'] ||= []
-    frontmatter['blogposts'] << self.to_hash
+    frontmatter['blogposts'] << self.to_hash unless frontmatter['blogposts'].any? { |hash| hash == self.to_hash }
 
     File.open(filename, 'w') do |f|
       f.write(
