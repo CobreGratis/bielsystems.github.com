@@ -270,13 +270,13 @@ Home
 
 
 /* Services Home */
- 
+
 .services-home {
   margin-top: 50px;
   margin-bottom: 35px;
   text-align: center;
 }
- 
+
 .services-home:after {
   visibility: hidden;
   display: block;
@@ -286,7 +286,7 @@ Home
   height: 0;
   min-height: 0;
 }
- 
+
 .services-home li {
   width: 26%;
   background-color: #fff;
@@ -295,7 +295,7 @@ Home
   padding: 30px 3% 0 3%;
   min-height: 225px;
 }
- 
+
 .services-home h3 {
   font-size: 22px !important;
   line-height: 22px;
@@ -303,7 +303,7 @@ Home
   margin: 0 0 5px 0 !important;
   padding-top: 0 !important;
 }
- 
+
 .services-home p {
   font-family: 'lato';
   font-size: 17px;
@@ -1445,6 +1445,227 @@ Services
 }
 
 
+/*
+============================================|
+
+                  MIDIAKIT
+
+============================================|
+*/
+
+.services-text2 {
+  width: 80%;
+  position: relative;
+  line-height: 28px;
+  font-size: 17px;
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;
+  background-color: #fff;
+  padding-left:40px;
+  padding-right:40px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+.midiakit-text p{
+  font-family: Helvetica, sans-serif;
+  font-size:20px;
+  font-weight: bold;
+}
+
+.midiakit-text span{
+  color: #990000;
+}
+
+
+/* BOX DOWNLOAD AND CONTENTS */
+
+.box_download {
+  display:block;
+  width: 100%;
+  height:300px;
+  margin-right:auto;
+  margin-left:auto;
+  border: #ffcccc 3px dashed;
+  text-align:center;
+}
+
+.box_download h3{
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: 500;
+  font-size:34px;
+  margin-top:35px;
+  margin-bottom: 35px;
+  color:#990000;
+}
+
+.box_download p{
+  position:relative;
+  padding:20px;
+}
+
+.bt_download {
+  margin-top: 0px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.bt_download a{
+    display:block;
+    background-image: url("/images/bt_download.png");
+    color:#fff;
+    text-decoration: none;
+    font-family: Helvetica Neue, sans-serif;
+    text-align: left;
+    font-size: 14px;
+    font-weight: lighter;
+    width: 300px;
+    height:60px;
+}
+
+.bt_download_text{
+  text-transform: uppercase;;
+  display:block;
+  padding-left: 70px;
+  padding-top: 15px;
+  letter-spacing: 1px;
+}
+/* End of BOX DOWNLOAD
+______________________________________*/
+
+/* BOX COLORS AND CONTENTS */
+
+.box_colors {
+  display:block;
+  width: 100%;
+  height:180px;
+  margin-right: auto;
+  margin-left:auto;
+}
+
+.box_colors h3{
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: 500;
+  font-size:34px;
+  margin-top:50px;
+  margin-bottom: 15px;
+  color:#990000;
+}
+
+.box_colors p{
+  position:relative;
+  display:table;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.box_colors_show {
+  width: 702px;
+  height:80px;
+  background-color: #000;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: left;
+  padding:0px;
+}
+
+.box_colors_show p{
+  padding: 0px;
+  margin-left:5px;
+  margin-top:0px;
+  margin-bottom:0px;
+  color:#fff;
+  font-weight: lighter;
+  font-family: helvetica neue, sans-serif;
+  letter-spacing: 1px;
+}
+
+.bt_colors {
+  width:100px;
+  height:50px;
+  display: table-cell;
+  margin:0px;
+  padding:0px;
+  text-align:center;
+}
+
+.color_number {
+  display:block;
+  width:100px;
+  height:30px;
+  font-size: 18px;
+  font-family: helvetica neue, sans-serif;
+  font-weight: lighter;
+  color: transparent;
+  margin-top: 20px;
+
+}
+
+.color_number:hover {
+  color:#fff;
+  background-color: #000;
+}
+
+
+
+/* End of BOX COLORS
+______________________________________*/
+
+/* BOX FONTS AND CONTENTS */
+
+.box_fonts {
+  display:block;
+  width: 100%;
+  height:450px;
+  margin-right: auto;
+  margin-left:auto;
+}
+
+.box_fonts h3{
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: 500;
+  font-size:34px;
+  margin-top:50px;
+  margin-bottom: 15px;
+  color:#990000;
+}
+
+.box_fonts p{
+  position:relative;
+  display:table;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+#font_show {
+  width:800px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#font_show img{
+  border-bottom: dashed 1px #ccc;
+  margin-bottom: 10px;
+}
+
+.font_show_img {
+  display:none;
+}
+
+.responsive_option {
+  display:none;
+}
+
+/* END OF MIDIAKIT
+==================================================|
+
+
+
 /* ====================
 Open Source
 ==================== */
@@ -1794,11 +2015,20 @@ footer a:hover {
   display: inline-block;
 }
 
+/*/=============================================================================
 
+
+
+
+                        MEDIA QUERIES BEGINS HERE
+
+
+
+=============================================================================/*/
 /*
 Max Width, 960px
 Media Queries for Tablets
-*/
+------------------------------------------------------------------------------*/
 
 @media (max-width:960px) {
 
@@ -1841,21 +2071,21 @@ Media Queries for Tablets
     margin: 5px 0 0 0;
     clear: both;
   }
-  
-  
+
+
   /* Process (Mágica) */
-  
+
   #process {
     padding-bottom: 20px;
   }
-  
+
   .process-column {
     width: 94%;
     height: auto;
     margin: 0 0 1px 0;
     float: left;
   }
-  
+
   .proc-desc-01 {
     left: 20px; top: 115px;
   }
@@ -1895,6 +2125,44 @@ Media Queries for Tablets
     height: auto;
   }
 
+    /*-midiakit-*/
+
+
+  .box_colors {
+    height:auto;
+  }
+
+  .responsive_option {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #font_show {
+    display:none;
+  }
+
+  .box_fonts{
+    height:auto;
+  }
+
+  .font_show_img {
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .box_colors_show {
+    display:none;
+  }
+
+  .box_download {
+    height: auto;
+  }
+
+  .bt_download {
+    display:none;
+  }
+
 
 }
 
@@ -1902,7 +2170,9 @@ Media Queries for Tablets
 /*
 Max Width, 686px
 Media Queries for Smartphones
-*/
+------------------------------------------------------------------------------*/
+
+
 
 @media only screen and (max-width: 686px) {
 
@@ -1912,22 +2182,22 @@ Media Queries for Smartphones
   }
 
   header.default .logo { width: 100px; }
-  
+
   #menu-trigger {
     display: inline-block;
   }
-  
+
   #menu2 {
     width: 100%;
     text-align: left;
     display: none;
   }
-  
+
   #menu2 li {
     display: block;
     margin: 1px 0 0 0;
   }
-  
+
   #menu2 a {
     border-radius: 0;
     width: 94%;
@@ -1939,14 +2209,14 @@ Media Queries for Smartphones
     display: block;
     float: left;
   }
-  
+
   .current-page {
     box-shadow: none;
     background: #b80606 !important;
     border: none !important;
     margin-left: 1px;
   }
-  
+
   #menu2 a:hover {
     opacity: 1;
     background: #b80606;
@@ -2048,14 +2318,14 @@ Media Queries for Smartphones
     background: url("/images/play.jpg") no-repeat white;
     background-size: 100%;
   }
-  
-  
+
+
   /* Services Page */
 
   .services-text {
     width: 100%;
   }
-  
+
   .services .videothumbs {
     width: 80%;
     padding: 0 10% 0 10%;
@@ -2204,7 +2474,7 @@ Media Queries for Smartphones
   .footer-links ul {
     width: 100%;
   }
-  
+
   .footer-links li {
     width: 100%;
     height: 30px;
@@ -2222,9 +2492,9 @@ Media Queries for Smartphones
     display: block;
   }
 
-  
-  /* Tak to us */
-  
+
+  /* TaLk to us */
+
   #talk-to-us form {
     width: auto;
   }
@@ -2241,16 +2511,53 @@ Media Queries for Smartphones
     padding: 3%;
   }
 
+    /*-midiakit-*/
+
+
+  .box_colors {
+    height:auto;
+  }
+
+  .responsive_option {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #font_show {
+    display:none;
+  }
+
+  .box_fonts{
+    height:auto;
+  }
+
+  .font_show_img {
+    display:block;
+  }
+  .box_colors_show {
+    display:none;
+  }
+
+  .box_download {
+    height: auto;
+  }
+
+  .bt_download {
+    display:none;
+  }
+
+
 }
 
 
 /*
 Max Width, 581px
 Media Queries with adjustments for Smartphones
-*/
+------------------------------------------------------------------------------*/
 
 @media (max-width:581px) {
-  
+
   .blog-posts {
     width: 100%;
     margin-bottom: 50px;
@@ -2271,6 +2578,47 @@ Media Queries with adjustments for Smartphones
   	top: 5%;
   	margin-left: -145px;
   }
+    /*-midiakit-*/
+
+  .resizeble_img {
+    width:300px;
+    height:121px;
+  }
+
+  .box_colors {
+    height:auto;
+  }
+
+  .responsive_option {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #font_show {
+    display:none;
+  }
+
+  .box_fonts{
+    height:auto;
+  }
+
+  .font_show_img {
+    display:block;
+  }
+  .box_colors_show {
+    display:none;
+  }
+
+  .box_download {
+    height: auto;
+  }
+
+  .bt_download {
+    display:none;
+  }
+
+
 
 }
 
@@ -2278,7 +2626,9 @@ Media Queries with adjustments for Smartphones
 /*
 Max Width, 481px
 Media Queries with more adjustments for Smartphones
-*/
+------------------------------------------------------------------------------*/
+
+
 
 @media (max-width:481px) {
 
@@ -2286,6 +2636,7 @@ Media Queries with more adjustments for Smartphones
     font-size: 45px;
     line-height: 52px;
   }
+
 
   #home h3 { font-size: 24px; }
 
@@ -2332,7 +2683,53 @@ Media Queries with more adjustments for Smartphones
 
   #cover-banner p { font-size: 14px; }
 
+  /*--midiakit--*/
+
+  .box_colors {
+    height:auto;
+  }
+
+  .responsive_option {
+    display:block;
+  }
+
+
+  #font_show {
+    display:none;
+  }
+
+  .box_fonts{
+    display:none;
+  }
+
+  .font_show_img {
+    display:none;
+
+  }
+  .box_colors {
+    display:none;
+  }
+
+  .box_download {
+    height: auto;
+  }
+
+  .bt_download {
+    display:none;
+  }
+
+  .resizeble_img {
+    width:250px;
+    height:101px;
+  }
+
+  .red-button {
+    max-width: 100px;
+  }
 }
+
+
+/*END OF MEDIA QUERIES--------------------------------------------------------
 
 
 /* ====================
