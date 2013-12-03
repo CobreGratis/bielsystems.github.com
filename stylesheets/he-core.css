@@ -1611,6 +1611,7 @@ ______________________________________*/
 }
 
 
+
 /* End of BOX COLORS
 ______________________________________*/
 
@@ -1652,6 +1653,13 @@ ______________________________________*/
   margin-bottom: 10px;
 }
 
+.font_show_img {
+  display:none;
+}
+
+.responsive_option {
+  display:none;
+}
 
 /* END OF MIDIAKIT
 ==================================================|
@@ -2007,11 +2015,20 @@ footer a:hover {
   display: inline-block;
 }
 
+/*/=============================================================================
 
+
+
+
+                        MEDIA QUERIES BEGINS HERE
+
+
+
+=============================================================================/*/
 /*
 Max Width, 960px
 Media Queries for Tablets
-*/
+------------------------------------------------------------------------------*/
 
 @media (max-width:960px) {
 
@@ -2108,6 +2125,44 @@ Media Queries for Tablets
     height: auto;
   }
 
+    /*-midiakit-*/
+
+
+  .box_colors {
+    height:auto;
+  }
+
+  .responsive_option {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #font_show {
+    display:none;
+  }
+
+  .box_fonts{
+    height:auto;
+  }
+
+  .font_show_img {
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .box_colors_show {
+    display:none;
+  }
+
+  .box_download {
+    height: auto;
+  }
+
+  .bt_download {
+    display:none;
+  }
+
 
 }
 
@@ -2115,7 +2170,9 @@ Media Queries for Tablets
 /*
 Max Width, 686px
 Media Queries for Smartphones
-*/
+------------------------------------------------------------------------------*/
+
+
 
 @media only screen and (max-width: 686px) {
 
@@ -2436,7 +2493,7 @@ Media Queries for Smartphones
   }
 
 
-  /* Tak to us */
+  /* TaLk to us */
 
   #talk-to-us form {
     width: auto;
@@ -2454,13 +2511,50 @@ Media Queries for Smartphones
     padding: 3%;
   }
 
+    /*-midiakit-*/
+
+
+  .box_colors {
+    height:auto;
+  }
+
+  .responsive_option {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #font_show {
+    display:none;
+  }
+
+  .box_fonts{
+    height:auto;
+  }
+
+  .font_show_img {
+    display:block;
+  }
+  .box_colors_show {
+    display:none;
+  }
+
+  .box_download {
+    height: auto;
+  }
+
+  .bt_download {
+    display:none;
+  }
+
+
 }
 
 
 /*
 Max Width, 581px
 Media Queries with adjustments for Smartphones
-*/
+------------------------------------------------------------------------------*/
 
 @media (max-width:581px) {
 
@@ -2484,6 +2578,47 @@ Media Queries with adjustments for Smartphones
   	top: 5%;
   	margin-left: -145px;
   }
+    /*-midiakit-*/
+
+  .resizeble_img {
+    width:300px;
+    height:121px;
+  }
+
+  .box_colors {
+    height:auto;
+  }
+
+  .responsive_option {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #font_show {
+    display:none;
+  }
+
+  .box_fonts{
+    height:auto;
+  }
+
+  .font_show_img {
+    display:block;
+  }
+  .box_colors_show {
+    display:none;
+  }
+
+  .box_download {
+    height: auto;
+  }
+
+  .bt_download {
+    display:none;
+  }
+
+
 
 }
 
@@ -2491,7 +2626,9 @@ Media Queries with adjustments for Smartphones
 /*
 Max Width, 481px
 Media Queries with more adjustments for Smartphones
-*/
+------------------------------------------------------------------------------*/
+
+
 
 @media (max-width:481px) {
 
@@ -2499,6 +2636,7 @@ Media Queries with more adjustments for Smartphones
     font-size: 45px;
     line-height: 52px;
   }
+
 
   #home h3 { font-size: 24px; }
 
@@ -2545,9 +2683,53 @@ Media Queries with more adjustments for Smartphones
 
   #cover-banner p { font-size: 14px; }
 
+  /*--midiakit--*/
+
+  .box_colors {
+    height:auto;
+  }
+
+  .responsive_option {
+    display:block;
+  }
+
+
+  #font_show {
+    display:none;
+  }
+
+  .box_fonts{
+    display:none;
+  }
+
+  .font_show_img {
+    display:none;
+
+  }
+  .box_colors {
+    display:none;
+  }
+
+  .box_download {
+    height: auto;
+  }
+
+  .bt_download {
+    display:none;
+  }
+
+  .resizeble_img {
+    width:250px;
+    height:101px;
+  }
+
+  .red-button {
+    max-width: 100px;
+  }
 }
 
 
+/*END OF MEDIA QUERIES--------------------------------------------------------
 
 
 /* ====================
