@@ -7,6 +7,7 @@ GEM
       fast-stemmer (>= 1.0.0)
     coderay (1.1.0)
     colorator (0.1)
+    colored (1.2)
     commander (4.1.4)
       highline (~> 1.6.11)
     crack (0.3.2)
@@ -15,6 +16,7 @@ GEM
     fast-stemmer (1.0.2)
     haml (3.1.4)
     highline (1.6.19)
+    i18n (0.6.5)
     jekyll (1.1.2)
       classifier (~> 1.3)
       colorator (~> 0.1)
@@ -68,7 +70,9 @@ PLATFORMS
 
 DEPENDENCIES
   RedCloth (= 4.2.9)
+  colored (~> 1.2)
   haml (= 3.1.4)
+  i18n (~> 0.6.5)
   jekyll (= 1.1.2)
   jekyll_ext (= 0.1.4)
   kramdown (= 1.0.2)
