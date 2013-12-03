@@ -90,7 +90,40 @@ describe Blogpost do
     end
   end
 
-  pending '#==' do
-    
+  describe '#==' do
+    it "returns false if titles differ" do
+      a = Blogpost.new('a title', 'http://some.url', 'some author')
+      b = Blogpost.new('b title', 'http://some.url', 'some author')
+
+      expect(a == b).to be_false
+    end
+
+    it "returns false if urls differ" do
+      a = Blogpost.new('some title', 'http://a.url', 'some author')
+      b = Blogpost.new('some title', 'http://b.url', 'some author')
+
+      expect(a == b).to be_false
+    end
+
+    it "returns false if authors differ" do
+      a = Blogpost.new('some title', 'http://some.url', 'a author')
+      b = Blogpost.new('some title', 'http://some.url', 'b author')
+
+      expect(a == b).to be_false
+    end
+
+    it "returns true if title, url and authors are same" do
+      a = Blogpost.new('some title', 'http://some.url', 'some author')
+      b = Blogpost.new('some title', 'http://some.url', 'some author')
+
+      expect(a == b).to be_true
+    end
+
+    it "returns true if title, relative urls (host should be helabs.com.br) and authors are same" do
+      a = Blogpost.new('some title', 'http://helabs.com.br/some-url', 'some author')
+      b = Blogpost.new('some title', '/some-url', 'some author')
+
+      expect(a == b).to be_true
+    end
   end
 end

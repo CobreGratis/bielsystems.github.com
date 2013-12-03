@@ -51,8 +51,8 @@ class Blogpost
   end
 
   def ==(other)
-    self.title  == self.title &&
-    self.url    == self.url &&
+    self.title  == other.title &&
+    (self.url == other.url || self.relative_url == other.relative_url) &&
     self.author == other.author
   end
 end
