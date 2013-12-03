@@ -12,22 +12,23 @@ describe Blogpost do
   end
 
   describe '#export_to' do    
-    context "person has blogposts" do
-      let(:spec_directory) { File.dirname __FILE__ }
-      let(:fixture_name)   { '2011-10-11-mauro-george.html' }
-      let(:post_file)      { File.join(spec_directory, '_posts', fixture_name) }
-      let(:site)           { Jekyll::Site.new(Jekyll.configuration({})) }
-      def post
-        # create Jekyll post which can parse :post_file
-        require 'jekyll'
-        Jekyll::Post.new(site, Dir.pwd, 'spec', fixture_name)
-      end
+    let(:spec_directory) { File.dirname __FILE__ }
+    let(:post_file)      { File.join(spec_directory, '_posts', fixture_name) }
+    let(:site)           { Jekyll::Site.new(Jekyll.configuration({})) }
+    def post
+      # create Jekyll post which can parse :post_file
+      require 'jekyll'
+      Jekyll::Post.new(site, Dir.pwd, 'spec', fixture_name)
+    end
 
-      before do
-        # copy fixture to _posts directory
-        fixture_file = File.join(spec_directory, 'fixtures', fixture_name)
-        FileUtils.cp fixture_file, File.join(spec_directory, '_posts')
-      end
+    before :each do
+      # copy fixture to _posts directory
+      fixture_file = File.join(spec_directory, 'fixtures', fixture_name)
+      FileUtils.cp fixture_file, File.join(spec_directory, '_posts')
+    end
+    
+    context "person has blogposts" do
+      let(:fixture_name)   { '2011-10-11-mauro-george.html' }
 
       subject(:blogpost) { Blogpost.new('New blogpost', 'http://some.url', 'Mauro George') }
 
@@ -38,9 +39,28 @@ describe Blogpost do
         expect(post.data['blogposts'][-1]['title']).to eq("New blogpost")
       end
 
-
       it "updates blogposts count" do
         expect { blogpost.export_to(post_file) }.to change{ post.data['blogposts'].count }.from(2).to(3)
+      end
+    end
+
+    context "person has no blogposts" do
+      let(:fixture_name)   { '2011-12-11-aluisio-azevedo.html' }
+
+      subject(:blogpost) { Blogpost.new('New blogpost', 'http://some.url', 'Aluisio Azevedo') }
+
+      it "adds new blogpost" do
+        blogpost.export_to post_file
+
+        expect(post.data['blogposts'][0]['url']).to eq("http://some.url")
+        expect(post.data['blogposts'][0]['title']).to eq("New blogpost")
+      end
+
+
+      it "updates blogposts count" do
+        blogpost.export_to(post_file)
+
+        expect(post.data['blogposts']).to have(1).blogposts
       end
     end
   end

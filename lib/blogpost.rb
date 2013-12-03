@@ -31,6 +31,7 @@ class Blogpost
       file_content.scan(/\A(---\s*\n.*?\n?)^(---\s*$\n?)/m).first.first
     )
 
+    frontmatter['blogposts'] ||= []
     frontmatter['blogposts'] << self.to_hash
 
     File.open(filename, 'w') do |f|
