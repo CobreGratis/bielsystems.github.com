@@ -175,27 +175,85 @@ Home
 #home {
   background: url("/images/bg-home.jpg") center no-repeat;
   padding: 175px 0 60px 0;
+  text-align: center;
 }
 
 #home h2 {
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
   text-transform: uppercase;
-  text-align: center;
   font-weight: bold;
   line-height: 80px;
   font-size: 82px;
   color: #fff;
 }
 
-#home h3 {
+#home h3,
+.logo-tip-trigger {
   text-shadow: 0px 1px 0px rgba(256, 256, 256, 0.6);
   font-weight:300;
   text-transform: uppercase;
+  color: #6d7171;
+}
+
+#home h3 {
+  margin: 25px 0 5px 0;
   font-size: 38px;
-  text-align:center;
-  color:#6d7171;
-  padding-top: 20px;
-  margin-bottom: 15px;
+}
+
+.logo-tip-trigger {
+  font-size: 26px;
+  text-decoration: none;
+  border-bottom: 1px dotted #fff;
+  position: relative;
+}
+
+.logo-tip-trigger span {
+  border-radius: 5px;
+  width: 160px;
+  height: auto;
+  line-height: 20px;
+  left: 50%;
+  margin-left: -87px;
+  background: #fff;
+  text-indent: 0px;
+  position: absolute;
+  pointer-events: none;
+  text-align: center;
+  top: -120px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
+}
+
+.logo-tip-trigger img {
+  border-radius: 5px;
+  width: 160px;
+  padding: 10px;
+  background: #fff;
+}
+
+.logo-tip-trigger span:before,
+.logo-tip-trigger span:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+}
+
+.logo-tip-trigger span:after {
+  border-top: 10px solid #fff;
+  display: none;
+}
+
+.logo-tip-trigger:hover span {
+  opacity: 1;
+  top: -80px;
 }
 
 
