@@ -944,7 +944,9 @@ Team
   margin: 7px 0 0 0;
 }
 
-#time a { text-decoration:none !important; }
+#time a { text-decoration: none !important; }
+#time a:hover { opacity: .8 !important; }
+
 #time .red-button { color: #fff !important; }
 
 #time p {
@@ -954,7 +956,8 @@ Team
 }
 
 #time ul > li img, #time ul > li a img {
-  width: 160px; height: 160px;
+  width: 160px;
+  height: 160px;
   background: #fff;
 }
 
@@ -2190,10 +2193,7 @@ Media Queries for Smartphones
   }
 
   header.default .logo { width: 100px; }
-
-  #menu-trigger {
-    display: inline-block;
-  }
+  #menu-trigger { display: inline-block; }
 
   #menu2 {
     width: 100%;
@@ -2305,15 +2305,16 @@ Media Queries for Smartphones
 
   /* Red Button */
 
-  a.red-button, a.white-button {
-    border-radius:12px;
-    width:250px; height:auto;
-    padding:15px !important;
-    text-align:center;
-    font-size:16px;
+  a.red-button,
+  a.white-button {
+    border-radius: 12px;
+    width: 250px; height:auto;
+    padding: 15px !important;
+    text-align: center;
+    font-size: 16px;
   }
 
-  #time .red-button { margin-bottom:40px; }
+  #time .red-button { margin-bottom: 40px; }
 
 
   /* Cliete Feliz */
