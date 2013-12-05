@@ -1918,9 +1918,7 @@ Mailing
   text-decoration: none;
 }
 
-#mailing .display_archive .campaign a:hover {
-  opacity: .8;
-}
+#mailing .display_archive .campaign a:hover { opacity: .8; }
 
 
 /* ====================
@@ -1937,9 +1935,7 @@ Contact
   margin: 30px auto;
 }
 
-#talk-to-us form li {
-  display: inline-block;
-}
+#talk-to-us form li { display: inline-block; }
 
 #talk-to-us input[type="text"] {
   border-radius: 4px;
@@ -2064,30 +2060,29 @@ footer a:hover {
   float: left;
 }
 
-.footer-links ul {
-  float: right;
-}
+.footer-links ul { float: right; }
 
 .footer-links li {
   margin-left: 20px;
   display: inline-block;
 }
 
+
+
 /*/=============================================================================
-
-
 
 
                         MEDIA QUERIES BEGINS HERE
 
 
-
 =============================================================================/*/
+
+
 /*
 Max Width, 960px
 Media Queries for Tablets
 ------------------------------------------------------------------------------*/
-
+ 
 @media (max-width:960px) {
 
   .containner { width: 700px; }
@@ -2133,9 +2128,7 @@ Media Queries for Tablets
 
   /* Process (Mágica) */
 
-  #process {
-    padding-bottom: 20px;
-  }
+  #process { padding-bottom: 20px; }
 
   .process-column {
     width: 94%;
@@ -2145,27 +2138,33 @@ Media Queries for Tablets
   }
 
   .proc-desc-01 {
-    left: 20px; top: 115px;
+    left: 20px;
+    top: 115px;
   }
 
   .proc-desc-02 {
-    left: 90px; top: 170px;
+    left: 90px;
+    top: 170px;
   }
 
   .proc-desc-03 {
-    left: 170px; top: 15px;
+    left: 170px;
+    top: 15px;
   }
 
   .proc-desc-04 {
-    left: 520px; top: 20px;
+    left: 520px;
+    top: 20px;
   }
 
   .proc-desc-05 {
-    left: 500px; top: 160px;
+    left: 500px;
+    top: 160px;
   }
 
   .proc-desc-06 {
-    left: 260px; top: 275px;
+    left: 260px;
+    top: 275px;
   }
 
 
@@ -2183,44 +2182,28 @@ Media Queries for Tablets
     height: auto;
   }
 
-    /*-midiakit-*/
 
-
-  .box_colors {
-    height:auto;
-  }
+  /* Media Kit */
 
   .responsive_option {
-    display:block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  #font_show {
-    display:none;
-  }
-
-  .box_fonts{
-    height:auto;
   }
 
   .font_show_img {
-    display:block;
+    display: block;
     margin-right: auto;
     margin-left: auto;
   }
-  .box_colors_show {
-    display:none;
-  }
+  
+  .box_colors,
+  .box_download,
+  .box_fonts { height: auto; }
 
-  .box_download {
-    height: auto;
-  }
-
-  .bt_download {
-    display:none;
-  }
-
+  .bt_download,
+  #font_show,
+  .box_colors_show { display:none; }
 
 }
 
@@ -2310,9 +2293,7 @@ Media Queries for Smartphones
     margin: 0 2px 0 2px !important;
   }
 
-  .icons a img {
-    width: 40px;
-  }
+  .icons a img { width: 40px; }
 
 
   /* Cover Banner */
@@ -2567,42 +2548,25 @@ Media Queries for Smartphones
     padding: 3%;
   }
 
-    /*-midiakit-*/
 
+  /* Media Kit */
 
-  .box_colors {
-    height:auto;
-  }
+  .box_colors { height: auto; }
 
   .responsive_option {
-    display:block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  #font_show {
-    display:none;
-  }
+  .font_show_img { display: block; }
 
-  .box_fonts{
-    height:auto;
-  }
+  .box_fonts,
+  .box_download { height: auto; }
 
-  .font_show_img {
-    display:block;
-  }
-  .box_colors_show {
-    display:none;
-  }
-
-  .box_download {
-    height: auto;
-  }
-
-  .bt_download {
-    display:none;
-  }
-
+   #font_show,
+  .box_colors_show,
+  .bt_download { display: none; }
 
 }
 
@@ -2634,47 +2598,31 @@ Media Queries with adjustments for Smartphones
   	top: 5%;
   	margin-left: -145px;
   }
-    /*-midiakit-*/
+  
+
+  /*- Media Kit -*/
 
   .resizeble_img {
-    width:300px;
-    height:121px;
+    width: 300px;
+    height: 121px;
   }
 
-  .box_colors {
-    height:auto;
-  }
+  .box_colors { height: auto; }
 
   .responsive_option {
-    display:block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  #font_show {
-    display:none;
-  }
+  .box_fonts { height: auto; }
 
-  .box_fonts{
-    height:auto;
-  }
+  .font_show_img { display: block; }
+  .box_download { height: auto; }
 
-  .font_show_img {
-    display:block;
-  }
-  .box_colors_show {
-    display:none;
-  }
-
-  .box_download {
-    height: auto;
-  }
-
-  .bt_download {
-    display:none;
-  }
-
-
+  #font_show,
+  .box_colors_show,
+  .bt_download { display: none; }
 
 }
 
@@ -2738,44 +2686,22 @@ Media Queries with more adjustments for Smartphones
 
   #cover-banner p { font-size: 14px; }
 
-  /*--midiakit--*/
 
-  .box_colors {
-    height:auto;
-  }
+  /*-- Media Kit --*/
 
-  .responsive_option {
-    display:block;
-  }
+  .box_colors { height: auto; }
+  .responsive_option { display: block; }
+  .box_download { height: auto; }
 
-
-  #font_show {
-    display:none;
-  }
-
-  .box_fonts{
-    display:none;
-  }
-
-  .font_show_img {
-    display:none;
-
-  }
-  .box_colors {
-    display:none;
-  }
-
-  .box_download {
-    height: auto;
-  }
-
-  .bt_download {
-    display:none;
-  }
+  #font_show,
+  .box_fonts,
+  .font_show_img,
+  .box_colors,
+  .bt_download { display: none; }
 
   .resizeble_img {
-    width:250px;
-    height:101px;
+    width: 250px;
+    height: 101px;
   }
 
 }
