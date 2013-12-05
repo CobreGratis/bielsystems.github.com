@@ -945,10 +945,8 @@ Team
   margin: 7px 0 0 0;
 }
 
-#time a { text-decoration: none !important; }
-#time a:hover { opacity: .8 !important; }
-
-#time .red-button { color: #fff !important; }
+#time a { text-decoration: none; }
+#time a:hover { opacity: .8; }
 
 #time p {
   margin-top: 2px;
@@ -956,7 +954,8 @@ Team
   color: #8c8c8c;
 }
 
-#time ul > li img, #time ul > li a img {
+#time ul > li img,
+#time ul > li a img {
   width: 160px;
   height: 160px;
   background: #fff;
