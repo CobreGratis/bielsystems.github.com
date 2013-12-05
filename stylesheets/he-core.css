@@ -2230,8 +2230,6 @@ Max Width, 686px
 Media Queries for Smartphones
 ------------------------------------------------------------------------------*/
 
-
-
 @media only screen and (max-width: 686px) {
 
   .containner {
@@ -2264,7 +2262,7 @@ Media Queries for Smartphones
     text-transform: none;
     font-size: 14px;
     color: #fff;
-    display: block;
+    display: !important;
     float: left;
   }
 
@@ -2981,12 +2979,4 @@ TipTip
 	#tiptip_holder.tip_top #tiptip_arrow_inner {
 		border-top-color: rgba(20,20,20,0.92);
 	}
-}
-
-@media only screen and (min-width: 686px) {
-
-  #menu2 {
-    display: block !important;
-  }
-
 }
