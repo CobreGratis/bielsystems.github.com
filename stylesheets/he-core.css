@@ -352,12 +352,14 @@ Home
   min-height: 225px;
 }
 
-.services-home h3 {
-  font-size: 22px !important;
+.services-home h4 {
+  text-transform: uppercase;
+  font-size: 22px;
   line-height: 22px;
-  color: #b80606 !important;
-  margin: 0 0 5px 0 !important;
-  padding-top: 0 !important;
+  font-weight: 300;
+  color: #b80606;
+  margin: 0 0 5px 0;
+  padding-top: 0;
 }
 
 .services-home p {
