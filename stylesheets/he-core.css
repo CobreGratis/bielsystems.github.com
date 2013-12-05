@@ -2628,8 +2628,6 @@ Max Width, 481px
 Media Queries with more adjustments for Smartphones
 ------------------------------------------------------------------------------*/
 
-
-
 @media (max-width:481px) {
 
   #home h2 {
@@ -2637,8 +2635,9 @@ Media Queries with more adjustments for Smartphones
     line-height: 52px;
   }
 
-
   #home h3 { font-size: 24px; }
+  
+  .red-button { max-width: 220px; }
 
   .cover-jobs li {
     margin: 10px 0 0 0;
@@ -2723,9 +2722,6 @@ Media Queries with more adjustments for Smartphones
     height:101px;
   }
 
-  .red-button {
-    max-width: 100px;
-  }
 }
 
 
