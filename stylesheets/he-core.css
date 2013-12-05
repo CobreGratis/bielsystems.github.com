@@ -277,9 +277,8 @@ Home
   opacity: .8;
 }
 
-.icons a {
-  position: relative;
-}
+.icons a { position: relative; }
+.icons a:hover { opacity: .8; }
 
 .icons a span {
   width: 100px;
