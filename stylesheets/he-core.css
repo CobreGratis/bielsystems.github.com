@@ -89,6 +89,8 @@ Patterns
   float: left;
 }
 
+.default .logo:hover { opacity: .8; }
+
 
 /* ====================
 Nav
