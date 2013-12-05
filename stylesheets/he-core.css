@@ -34,19 +34,16 @@ p { margin:0 0 20px 0; }
 label { cursor:pointer; }
 img { border:none; }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
-}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-family: 'Lato', sans-serif; }
 
 a { color:#b80606; }
+span.red { color: #b20000; }
 
-a:hover, a:hover img {
-  opacity: .8;
-}
-
-span.red {
-  color: #b20000;
-}
 
 /* Viewport */
 
@@ -1501,193 +1498,6 @@ Services
 }
 
 
-/* Media Kit */
-
-.services-text2 {
-  width: 80%;
-  position: relative;
-  line-height: 28px;
-  font-size: 17px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align:center;
-  background-color: #fff;
-  padding: 0 40px 0 40px;
-  margin-bottom: 0;
-}
-
-.midiakit-text p {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.midiakit-text span { color: #990000; }
-
-
-/* BOX DOWNLOAD AND CONTENTS */
-
-.box_download {
-  display:block;
-  width: 100%;
-  height:300px;
-  margin-right:auto;
-  margin-left:auto;
-  border: #ffcccc 3px dashed;
-  text-align:center;
-}
-
-.box_download h3{
-  font-family: Helvetica Neue, sans-serif;
-  font-weight: 500;
-  font-size:34px;
-  margin-top:35px;
-  margin-bottom: 35px;
-  color:#990000;
-}
-
-.box_download p{
-  position:relative;
-  padding:20px;
-}
-
-.bt_download {
-  margin-top: 0px;
-  display: inline-block;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-.bt_download a{
-  display: block;
-  background-image: url("/images/bt_download.png");
-  color: #fff;
-  text-decoration: none;
-  text-align: left;
-  font-size: 14px;
-  font-weight: lighter;
-  width: 300px;
-  height: 60px;
-}
-
-.bt_download_text {
-  text-transform: uppercase;;
-  display: block;
-  padding-left: 70px;
-  padding-top: 15px;
-  letter-spacing: 1px;
-}
-
-
-/* BOX COLORS AND CONTENTS */
-
-.box_colors {
-  display: block;
-  width: 100%;
-  height: 180px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.box_colors h3 {
-  font-weight: 500;
-  font-size: 34px;
-  margin-top: 50px;
-  margin-bottom: 15px;
-  color: #990000;
-}
-
-.box_colors p{
-  position: relative;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.box_colors_show {
-  width: 702px;
-  height: 80px;
-  background-color: #000;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  padding: 0;
-}
-
-.box_colors_show p{
-  padding: 0px;
-  margin: 0 0 0 5px;
-  color: #fff;
-  font-weight: lighter;
-  letter-spacing: 1px;
-}
-
-.bt_colors {
-  width: 100px;
-  height: 50px;
-  display: table-cell;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.color_number {
-  display: block;
-  width: 100px;
-  height: 30px;
-  font-size: 18px;
-  font-weight: lighter;
-  color: transparent;
-  margin-top: 20px;
-}
-
-.color_number:hover {
-  color:#fff;
-  background-color: #000;
-}
-
-
-/* BOX FONTS AND CONTENTS */
-
-.box_fonts {
-  display: block;
-  width: 100%;
-  height: 450px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.box_fonts h3 {
-  font-weight: 500;
-  font-size: 34px;
-  margin-top: 50px;
-  margin-bottom: 15px;
-  color: #990000;
-}
-
-.box_fonts p {
-  position: relative;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#font_show {
-  width:800px;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#font_show img{
-  border-bottom: dashed 1px #ccc;
-  margin-bottom: 10px;
-}
-
-.font_show_img { display:none; }
-.responsive_option { display: none; }
-
-
 /* ====================
 Open Source
 ==================== */
@@ -2030,6 +1840,195 @@ footer a:hover {
   margin-left: 20px;
   display: inline-block;
 }
+
+
+/* ====================
+Media Kit
+==================== */
+
+.services-text2 {
+  width: 80%;
+  position: relative;
+  line-height: 28px;
+  font-size: 17px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align:center;
+  background-color: #fff;
+  padding: 0 40px 0 40px;
+  margin-bottom: 0;
+}
+
+.midiakit-text p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.midiakit-text span { color: #990000; }
+
+
+/* BOX DOWNLOAD AND CONTENTS */
+
+.box_download {
+  display:block;
+  width: 100%;
+  height:300px;
+  margin-right:auto;
+  margin-left:auto;
+  border: #ffcccc 3px dashed;
+  text-align:center;
+}
+
+.box_download h3{
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: 500;
+  font-size:34px;
+  margin-top:35px;
+  margin-bottom: 35px;
+  color:#990000;
+}
+
+.box_download p{
+  position:relative;
+  padding:20px;
+}
+
+.bt_download {
+  margin-top: 0px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.bt_download a{
+  display: block;
+  background-image: url("/images/bt_download.png");
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+  font-size: 14px;
+  font-weight: lighter;
+  width: 300px;
+  height: 60px;
+}
+
+.bt_download_text {
+  text-transform: uppercase;;
+  display: block;
+  padding-left: 70px;
+  padding-top: 15px;
+  letter-spacing: 1px;
+}
+
+
+/* BOX COLORS AND CONTENTS */
+
+.box_colors {
+  display: block;
+  width: 100%;
+  height: 180px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.box_colors h3 {
+  font-weight: 500;
+  font-size: 34px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  color: #990000;
+}
+
+.box_colors p{
+  position: relative;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box_colors_show {
+  width: 702px;
+  height: 80px;
+  background-color: #000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding: 0;
+}
+
+.box_colors_show p{
+  padding: 0px;
+  margin: 0 0 0 5px;
+  color: #fff;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.bt_colors {
+  width: 100px;
+  height: 50px;
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.color_number {
+  display: block;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: lighter;
+  color: transparent;
+  margin-top: 20px;
+}
+
+.color_number:hover {
+  color:#fff;
+  background-color: #000;
+}
+
+
+/* BOX FONTS AND CONTENTS */
+
+.box_fonts {
+  display: block;
+  width: 100%;
+  height: 450px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.box_fonts h3 {
+  font-weight: 500;
+  font-size: 34px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  color: #990000;
+}
+
+.box_fonts p {
+  position: relative;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#font_show {
+  width:800px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#font_show img{
+  border-bottom: dashed 1px #ccc;
+  margin-bottom: 10px;
+}
+
+.font_show_img { display:none; }
+.responsive_option { display: none; }
 
 
 
