@@ -1453,9 +1453,7 @@ Services
   padding-bottom: 40px;
 }
 
-.last-serv {
-  border-bottom: none;
-}
+.last-serv { border-bottom: none; }
 
 .services:nth-child(even) {background: #f4f4f4}
 .services:nth-child(odd) {background: #fafafa}
@@ -1503,39 +1501,27 @@ Services
 }
 
 
-/*
-============================================|
-
-                  MIDIAKIT
-
-============================================|
-*/
+/* Media Kit */
 
 .services-text2 {
   width: 80%;
   position: relative;
   line-height: 28px;
   font-size: 17px;
-  margin-right:auto;
-  margin-left:auto;
+  margin-right: auto;
+  margin-left: auto;
   text-align:center;
   background-color: #fff;
-  padding-left:40px;
-  padding-right:40px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
+  padding: 0 40px 0 40px;
+  margin-bottom: 0;
 }
 
-
-.midiakit-text p{
-  font-family: Helvetica, sans-serif;
-  font-size:20px;
+.midiakit-text p {
+  font-size: 20px;
   font-weight: bold;
 }
 
-.midiakit-text span{
-  color: #990000;
-}
+.midiakit-text span { color: #990000; }
 
 
 /* BOX DOWNLOAD AND CONTENTS */
@@ -1572,95 +1558,87 @@ Services
 }
 
 .bt_download a{
-    display:block;
-    background-image: url("/images/bt_download.png");
-    color:#fff;
-    text-decoration: none;
-    font-family: Helvetica Neue, sans-serif;
-    text-align: left;
-    font-size: 14px;
-    font-weight: lighter;
-    width: 300px;
-    height:60px;
+  display: block;
+  background-image: url("/images/bt_download.png");
+  color: #fff;
+  text-decoration: none;
+  text-align: left;
+  font-size: 14px;
+  font-weight: lighter;
+  width: 300px;
+  height: 60px;
 }
 
-.bt_download_text{
+.bt_download_text {
   text-transform: uppercase;;
-  display:block;
+  display: block;
   padding-left: 70px;
   padding-top: 15px;
   letter-spacing: 1px;
 }
-/* End of BOX DOWNLOAD
-______________________________________*/
+
 
 /* BOX COLORS AND CONTENTS */
 
 .box_colors {
-  display:block;
+  display: block;
   width: 100%;
-  height:180px;
+  height: 180px;
   margin-right: auto;
-  margin-left:auto;
+  margin-left: auto;
 }
 
-.box_colors h3{
-  font-family: Helvetica Neue, sans-serif;
+.box_colors h3 {
   font-weight: 500;
-  font-size:34px;
-  margin-top:50px;
+  font-size: 34px;
+  margin-top: 50px;
   margin-bottom: 15px;
-  color:#990000;
+  color: #990000;
 }
 
 .box_colors p{
-  position:relative;
-  display:table;
-  margin-left:auto;
+  position: relative;
+  display: table;
+  margin-left: auto;
   margin-right: auto;
 }
 
 .box_colors_show {
   width: 702px;
-  height:80px;
+  height: 80px;
   background-color: #000;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   text-align: left;
-  padding:0px;
+  padding: 0;
 }
 
 .box_colors_show p{
   padding: 0px;
-  margin-left:5px;
-  margin-top:0px;
-  margin-bottom:0px;
-  color:#fff;
+  margin: 0 0 0 5px;
+  color: #fff;
   font-weight: lighter;
-  font-family: helvetica neue, sans-serif;
   letter-spacing: 1px;
 }
 
 .bt_colors {
-  width:100px;
-  height:50px;
+  width: 100px;
+  height: 50px;
   display: table-cell;
-  margin:0px;
-  padding:0px;
-  text-align:center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .color_number {
-  display:block;
-  width:100px;
-  height:30px;
+  display: block;
+  width: 100px;
+  height: 30px;
   font-size: 18px;
-  font-family: helvetica neue, sans-serif;
   font-weight: lighter;
   color: transparent;
   margin-top: 20px;
-
 }
 
 .color_number:hover {
@@ -1669,33 +1647,28 @@ ______________________________________*/
 }
 
 
-
-/* End of BOX COLORS
-______________________________________*/
-
 /* BOX FONTS AND CONTENTS */
 
 .box_fonts {
-  display:block;
+  display: block;
   width: 100%;
-  height:450px;
+  height: 450px;
   margin-right: auto;
-  margin-left:auto;
+  margin-left: auto;
 }
 
-.box_fonts h3{
-  font-family: Helvetica Neue, sans-serif;
+.box_fonts h3 {
   font-weight: 500;
-  font-size:34px;
-  margin-top:50px;
+  font-size: 34px;
+  margin-top: 50px;
   margin-bottom: 15px;
-  color:#990000;
+  color: #990000;
 }
 
-.box_fonts p{
-  position:relative;
-  display:table;
-  margin-left:auto;
+.box_fonts p {
+  position: relative;
+  display: table;
+  margin-left: auto;
   margin-right: auto;
 }
 
@@ -1711,17 +1684,8 @@ ______________________________________*/
   margin-bottom: 10px;
 }
 
-.font_show_img {
-  display:none;
-}
-
-.responsive_option {
-  display:none;
-}
-
-/* END OF MIDIAKIT
-==================================================|
-
+.font_show_img { display:none; }
+.responsive_option { display: none; }
 
 
 /* ====================
