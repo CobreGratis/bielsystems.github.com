@@ -2251,6 +2251,8 @@ Media Queries for Smartphones
 
   #home h3 { font-size: 23px; }
   #home .home-button { display: none; }
+  
+  .logo-tip-trigger { font-size: 19px; }
 
   .icons li {
     text-align:center;
