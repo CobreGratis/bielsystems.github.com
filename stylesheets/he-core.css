@@ -1875,13 +1875,12 @@ Media Kit
 /* BOX DOWNLOAD AND CONTENTS */
 
 .box_download {
-  display:block;
   width: 100%;
-  height: 300px;
   margin-right: auto;
   margin-left: auto;
-  border: #ffcccc 3px dashed;
+  border: 3px dashed #ffcccc;
   text-align: center;
+  display: block;
 }
 
 .box_download h3 {
@@ -1889,7 +1888,7 @@ Media Kit
   font-size: 34px;
   margin-top: 35px;
   margin-bottom: 35px;
-  color:#990000;
+  color: #990000;
 }
 
 .box_download p {
@@ -1905,20 +1904,18 @@ Media Kit
 }
 
 .bt_download a {
-  display: block;
+  width: 300px;
+  height: 60px;
   background-image: url("/images/bt_download.png");
-  color: #fff;
   text-decoration: none;
   text-align: left;
   font-size: 14px;
   font-weight: lighter;
-  width: 300px;
-  height: 60px;
+  color: #fff;
+  display: block;
 }
 
-.bt_download a:hover {
-  opacity: .8;
-}
+.bt_download a:hover {  opacity: .8; }
 
 .bt_download_text {
   text-transform: uppercase;;
