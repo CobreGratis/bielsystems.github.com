@@ -1373,9 +1373,25 @@ User Profile
 Cases
 ==================== */
 
-#cases {
-  
+#cases li {
+  padding: 35px 0 45px 0;
 }
+
+#cases h3 {
+  font: 900 34px 'Lato', sans-serif;
+  color: #000;
+  margin: 0 0 15px 0;
+}
+
+#cases p {
+  font: normal 16px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 26px;
+  margin: 0 0 15px 0;
+}
+
+#cases li:nth-child(odd) { background: #f8f8f8;}
+
+#cases li:nth-child(even) { background: #fff; }
 
 
 /* ====================
