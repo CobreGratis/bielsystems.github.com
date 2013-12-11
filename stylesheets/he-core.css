@@ -1373,7 +1373,9 @@ User Profile
 Cases
 ==================== */
 
+/*
 #cases { display: none; }
+*/
 
 #cases li {
   width: 100%;
@@ -1408,7 +1410,7 @@ Cases
 .browser-nav {
   border: 1px solid #ddd;
   background: #fff;
-  border-radius: 3px;
+  border-radius: 2px;
   margin-bottom: 5px;
   height: 25px;
 }
@@ -2236,6 +2238,14 @@ Media Queries for Tablets
     height: auto;
   }
 
+
+  /* Cases */
+  
+  .browser-nav { height: 15px; }
+  #cases .case-thumb { width: 250px; }
+
+  .odd-case .case-info { margin-left: 300px; }
+  .even-case .case-info { margin-right: 300px; }
 
   /* Media Kit */
 
