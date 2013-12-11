@@ -1377,21 +1377,37 @@ Cases
   padding: 35px 0 45px 0;
 }
 
-#cases h3 {
+#cases li:nth-child(odd) {
+  background: #f8f8f8;
+}
+
+#cases li:nth-child(even) {
+  background: #fff;
+}
+
+.odd-case .case-info {
+  margin-left: 300px;
+}
+
+.even-case .case-info {
+  margin-right: 300px;
+}
+
+.case-info {
+  
+}
+
+.case-info h3 {
   font: 900 34px 'Lato', sans-serif;
   color: #000;
   margin: 0 0 15px 0;
 }
 
-#cases p {
+.case-info p {
   font: normal 16px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 26px;
   margin: 0 0 15px 0;
 }
-
-#cases li:nth-child(odd) { background: #f8f8f8;}
-
-#cases li:nth-child(even) { background: #fff; }
 
 
 /* ====================
