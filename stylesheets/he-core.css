@@ -1413,11 +1413,21 @@ Cases
 .even-case .case-thumb { float: right; }
 
 .odd-case .case-info { margin-left: 450px; }
-.even-case .case-info { margin-right: 450px;}
+.even-case .case-info { margin-right: 450px; }
 
-.case-info {
-  
+.case-info a {
+  border-radius: 4px;
+  height: 40px;
+  line-height: 40px;
+  background: #b80606;
+  padding: 0 10px 0 10px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 0 0 0;
 }
+
+.case-info a:hover { opacity: .8; }
 
 .case-info h3 {
   font: 900 34px 'Lato', sans-serif;
