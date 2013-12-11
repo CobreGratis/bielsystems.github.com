@@ -1373,9 +1373,7 @@ User Profile
 Cases
 ==================== */
 
-/*
 #cases { display: none; }
-*/
 
 #cases li {
   width: 100%;
@@ -1404,12 +1402,22 @@ Cases
   width: 400px;
   background: #f2f2f2;
   border: 1px solid #ddd;
-  padding: 30px 3px 1px 3px;
+  padding: 6px 5px 0 5px;
+}
+
+.browser-nav {
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  height: 25px;
 }
 
 #cases .case-thumb img {
+  border: 1px solid #ddd;
+  border-bottom: none;
   border-radius: 2px;
-  width: 100%;
+  width: 99.6%;
   float: left;
 }
 
