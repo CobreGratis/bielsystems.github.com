@@ -1373,17 +1373,44 @@ User Profile
 Cases
 ==================== */
 
-#cases li { padding: 50px 0 50px 0; }
+#cases li {
+  width: 100%;
+  padding: 50px 0 50px 0;
+}
+
+#cases li:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  min-height: 0;
+}
 
 #cases li:nth-child(odd) { background: #f8f8f8; }
 #cases li:nth-child(even) { background: #fff; }
 
-#cases li img {
+#cases .case-thumb {
+  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  box-shadow: 0 0 7px #e2e2e2;
   width: 400px;
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 30px 3px 1px 3px;
 }
 
-.odd-case img { float: left; }
-.even-case img { float: right; }
+#cases .case-thumb img {
+  border-radius: 2px;
+  width: 100%;
+  float: left;
+}
+
+.odd-case .case-thumb { float: left; }
+.even-case .case-thumb { float: right; }
 
 .odd-case .case-info { margin-left: 450px; }
 .even-case .case-info { margin-right: 450px;}
