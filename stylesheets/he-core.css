@@ -1373,6 +1373,8 @@ User Profile
 Cases
 ==================== */
 
+#cases { display: none; }
+
 #cases li {
   width: 100%;
   padding: 50px 0 50px 0;
@@ -2329,7 +2331,7 @@ Media Queries for Smartphones
 
   .languages:hover {
     opacity: 1;
-    color: #B80606;
+    color: #b80606;
   }
 
 
@@ -2572,9 +2574,7 @@ Media Queries for Smartphones
 
   /* Footer */
 
-  footer {
-    padding: 20px 0 260px 0;
-  }
+  footer { padding: 20px 0 260px 0; }
 
   .offices li {
     width: 100%;
@@ -2587,9 +2587,7 @@ Media Queries for Smartphones
     margin: 0;
   }
 
-  .footer-links ul {
-    width: 100%;
-  }
+  .footer-links ul { width: 100%; }
 
   .footer-links li {
     width: 100%;
@@ -2611,9 +2609,7 @@ Media Queries for Smartphones
 
   /* TaLk to us */
 
-  #talk-to-us form {
-    width: auto;
-  }
+  #talk-to-us form { width: auto; }
 
   #talk-to-us input[type="text"] {
     width: 94%;
@@ -2775,7 +2771,7 @@ Media Queries with more adjustments for Smartphones
   #cover-banner p { font-size: 14px; }
 
 
-  /*-- Media Kit --*/
+  /* Media Kit */
 
   .box_colors { height: auto; }
   .responsive_option { display: block; }
