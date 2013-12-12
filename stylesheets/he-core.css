@@ -2245,6 +2245,7 @@ Media Queries for Tablets
   .odd-case .case-info { margin-left: 300px; }
   .even-case .case-info { margin-right: 300px; }
 
+
   /* Media Kit */
 
   .responsive_option {
@@ -2400,7 +2401,8 @@ Media Queries for Smartphones
   a.red-button,
   a.white-button {
     border-radius: 12px;
-    width: 250px; height:auto;
+    width: 250px;
+    height: auto;
     padding: 15px !important;
     text-align: center;
     font-size: 16px;
@@ -2421,9 +2423,7 @@ Media Queries for Smartphones
 
   /* Services Page */
 
-  .services-text {
-    width: 100%;
-  }
+  .services-text { width: 100%; }
 
   .services .videothumbs {
     width: 80%;
@@ -2662,7 +2662,7 @@ Media Queries with adjustments for Smartphones
   }
   
 
-  /*- Media Kit -*/
+  /* Media Kit */
 
   .resizeble_img {
     width: 300px;
