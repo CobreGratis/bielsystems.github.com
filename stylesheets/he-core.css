@@ -2678,6 +2678,15 @@ Media Queries with adjustments for Smartphones
   	margin-left: -145px;
   }
   
+  
+  /* Cases */
+
+  #cases .case-thumb { width: 96%; }
+  
+  .case-info h3 {
+    font-size: 28px;
+  }
+
 
   /* Media Kit */
 
