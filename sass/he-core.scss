@@ -793,48 +793,43 @@ Cliente Feliz
   min-height: 0;
 }
 
-#cliente-feliz .videothumbs,
-#happy-costumer .videothumbs {
+.videothumbs {
   margin-bottom: 30px;
-}
+  
+  li {
+    box-shadow: 0 4px 8px -3px #d8d8d8;
+    width: 24%;
+    background: none repeat scroll 0 0 white;
+    margin: 0 3% 30px 3%;
+    padding: 10px;
+    display: inline-block;
+    font-size: 14px;
+    opacity: 1;
 
-.videothumbs li {
-  box-shadow: 0 4px 8px -3px #d8d8d8;
-  width: 24%;
-  background: none repeat scroll 0 0 white;
-  margin: 0 3% 30px 3%;
-  padding: 10px;
-  display: inline-block;
-  font-size: 14px;
-  opacity: 1;
-}
+    img {
+      width: 100%;
+      display: block;
+      &:hover { opacity: .4; }
+    }
 
-.videothumbs img {
-  width: 100%;
-  display: block;
-}
+    &:hover {
+      background: url("/images/play.jpg") no-repeat white;
+      background-size: 100%;
+    }
+  }
+  
+  h3 {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    color: #b80606;
+  }
 
-.videothumbs img:hover { opacity: .5; }
-
-.videothumbs li:hover {
-  background: url("/images/play.jpg") no-repeat white;
-  background-size: 100%;
-}
-
-
-/* Video Text */
-
-.videothumbs h3 {
-  margin: 10px 0 0 0;
-  font-size: 14px;
-  color: #b80606;
-}
-
-.videothumbs p {
-  font-size: 12px;
-  color: #8c8c8c;
-  margin: 2px 0 0 0;
-  display: block;
+  p {
+    font-size: 12px;
+    margin: 2px 0 0 0;
+    color: #8c8c8c;
+    display: block;
+  }
 }
 
 
