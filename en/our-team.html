@@ -24,11 +24,17 @@ description: HE:labs is pioneer in web development, web applications, SaaS and C
         <li>
           <img src="{{ person.image }}" alt="{{ person.full_name }}">
           <h3>{{ person.full_name }}</h3>
-          <p>{{ person.job_title }}</p>
+          <p>
+            {% if person.job_title_en %}
+              {{ person.job_title_en }}
+            {% else %}
+              {{ person.job_title }}
+            {% endif %}
+          </p>
           <ul class="social-icons">
             {% for sa in person.social_accounts %}
               <li>
-                <a class="{{ sa.provider }}" href="http://{{ sa.provider }}.com/{{ sa.username }}" rel="external" title="{{ sa.provider | capitalize }} do {{ person.full_name }}">{{ sa.provider | capitalize }}</a>
+                <a class="{{ sa.provider }}" href="http://{{ sa.provider }}.com/{{ sa.username }}" rel="external" title="{{ sa.provider | capitalize }} of {{ person.full_name }}">{{ sa.provider | capitalize }}</a>
               </li>
             {% endfor %}
           </ul>
