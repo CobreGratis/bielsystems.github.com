@@ -46,10 +46,6 @@ var App = {
 
 		function EnableModal(){
       $('body').css({'overflow':'hidden'});
-      window.scrollTo(0,0);
-      $(document).bind('scroll', function() {
-        window.scrollTo(0,0); 
-      });
 			$modalBg.show();
 		}
 
@@ -57,7 +53,6 @@ var App = {
 			$modalBg.fadeOut();
 			$modalBox.fadeOut();
       $("body").css("overflow", "visible");
-      $(document).unbind('scroll');
 		}
 
     // Trigger 01
@@ -111,15 +106,15 @@ var App = {
 		$("a[rel^='prettyPhoto']").prettyPhoto({
 			deeplinking: false
 		});
-    
-    
+
+
     /* External Links */
 
     $("a[rel^='external']").each(function() {
       $(this).attr("target","_blank");
     });
-    
-    
+
+
     /* General */
 
     $('nav, .advice, header, #right, #single-page').localScroll({
