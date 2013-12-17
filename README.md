@@ -5,9 +5,14 @@ http://helabs.com.br
 
 ## Rodando
 
-Rode com
+1. Start Jekyll
 ```sh
 $ jekyll -w serve
+```
+
+2. Start Compass
+```sh
+$ compass watch
 ```
 
 ## Import blogposts
