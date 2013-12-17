@@ -1831,38 +1831,38 @@ Contact
     font-size: 16px;
     font-weight: normal !important;
     outline: none;
-    
-    textarea {
-      border-radius: 4px;
-      width: 428px; max-width: 428px; min-width: 428px;
-      height: 80px; max-height: 400px; min-height: 80px;
-      background-color: #f2f2f2;
-      border: 1px solid #e3e3e3;
-      margin: 0 0 15px 0;
-      padding: 15px;
-      font-size: 17px;
-      font-weight: normal !important;
-      outline: none;
-      display: inline-block;
-    }
+  }
 
-    button {
-      border-radius: 4px;
-      width: 220px;
-      height: 50px;
-      line-height: 50px;
-      font: normal 19px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      padding: 0 15px 0 15px;
-      background: #b80606;
-      display: inline-block;
-      border: none;
-      margin: 10px 0 0 0;
-      cursor: pointer;
-      outline: none;
-      color: #fff;
+  textarea {
+    border-radius: 4px;
+    width: 428px; max-width: 428px; min-width: 428px;
+    height: 80px; max-height: 400px; min-height: 80px;
+    background-color: #f2f2f2;
+    border: 1px solid #e3e3e3;
+    margin: 0 0 15px 0;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: normal !important;
+    outline: none;
+    display: inline-block;
+  }
 
-      &:hover { opacity: .8; }
-    }
+  button {
+    border-radius: 4px;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    font: normal 19px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 0 15px 0 15px;
+    background: #b80606;
+    display: inline-block;
+    border: none;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+
+    &:hover { opacity: .8; }
   }
 }
 
