@@ -1179,6 +1179,11 @@ User Profile
   background: linear-gradient(top bottom, #fff 0%, #f9f9f9 100%); /* W3C */
   border-bottom: 1px solid #fff;
   padding: 135px 0 35px 0;
+
+  h2 {
+    font: 900 42px 'Lato', sans-serif;
+    color: #000;
+  }
 }
 
 #profile:after {
@@ -1191,28 +1196,23 @@ User Profile
   min-height: 0;
 }
 
-#profile h2 {
-  font: 900 42px 'Lato', sans-serif;
-  color: #000;
-}
-
 .mini-bio {
   width: 60%;
   float: left;
-}
 
-.mini-bio p {
-  text-align: left;
-  line-height: 1.8em;
-  font-size: 1.2em;
-  color: #474747;
-}
+  p {
+    text-align: left;
+    line-height: 1.8em;
+    font-size: 1.2em;
+    color: #474747;
+  }
 
-.mini-bio .job-title {
-  font-weight: 300;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #8e8c8e;
+  .job-title {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #8e8c8e;
+  }
 }
 
 .photo-bio {
@@ -1269,17 +1269,17 @@ User Profile
 
 .social-links {
   margin-top: 25px;
-}
 
-.social-links a {
-  height: 30px;
-  text-decoration: none;
-  background: url("/images/icons/profile-social.png") no-repeat;
-  padding-left: 33px;
-  line-height: 30px;
-  margin-right: 25px;
-  color: #8e8c8e;
-  float: left;
+  a {
+    height: 30px;
+    text-decoration: none;
+    background: url("/images/icons/profile-social.png") no-repeat;
+    padding-left: 33px;
+    line-height: 30px;
+    margin-right: 25px;
+    color: #8e8c8e;
+    float: left;
+  }
 }
 
 .profile-twitter { background-position: 0 0 !important; }
@@ -1304,26 +1304,26 @@ User Profile
   width: 60%;
   margin-bottom: 60px;
   float: left;
-}
 
-.blog-posts h2 {
-  font-size: 30px;
-  font-weight: 900;
-}
+  h2 {
+    font-size: 30px;
+    font-weight: 900;
+  }
 
-.blog-posts li { margin: 35px 0 0 0; }
-.blog-posts h3 { margin:0 0 10px 0; }
+  li { margin: 35px 0 0 0; }
+  h3 { margin:0 0 10px 0; }
 
-.blog-posts a {
-  font-size: 1.4em;
-  font-weight: 400;
-  color: #d92727;
-}
+  a {
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #d92727;
+  }
 
-.blog-posts p {
-  line-height: 25px;
-  font-size: 16px;
-  margin: 0 0 0 0;
+  p {
+    line-height: 25px;
+    font-size: 16px;
+    margin: 0 0 0 0;
+  }
 }
 
 
@@ -1333,32 +1333,32 @@ User Profile
   width: 30%;
   margin-bottom: 60px;
   float: right;
-}
 
-.projects-worked h2 {
-  font-size: 30px;
-  font-weight: 900;
-  margin-bottom: 10px;
-}
+  h2 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
 
-.projects-worked img {
-  width: 100%;
-  margin: 20px 0 20px 0;
-}
+  img {
+    width: 100%;
+    margin: 20px 0 20px 0;
+  }
 
-.projects-worked h3 {
-  font-size: 1.4em;
-  font-weight: 400;
-  color: #d92727;
-  text-transform: none;
-  margin-bottom: 0px;
-}
+  h3 {
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #d92727;
+    text-transform: none;
+    margin-bottom: 0px;
+  }
 
-.projects-worked p {
-  margin-top: 5px;
-  font-size: 14px;
-  line-height: 22px;
-  margin-bottom: 40px;
+  p {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 40px;
+  }
 }
 
 
