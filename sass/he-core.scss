@@ -1507,29 +1507,31 @@ Apoios
   color: #B80606
 }
 
-.logos-list p {
-  margin: 10px 0 0 0;
-  font-weight: bold;
-  font-size: 14px;
-  color: #b80606;
-}
+.logos-list {
+  p {
+    margin: 10px 0 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #b80606;
+  }
 
-.logos-list a { text-decoration: none; }
+  a { text-decoration: none; }
 
-.logos-list > li {
-  box-shadow: 0 4px 8px -3px #d8d8d8;
-  width: 24%;
-  background: none repeat scroll 0 0 white;
-  margin: 10px 3% 10px 3%;
-  padding: 10px;
-  text-align: center;
-  display: inline-block;
-  font-size: 14px;
-}
+  > li {
+    box-shadow: 0 4px 8px -3px #d8d8d8;
+    width: 24%;
+    background: none repeat scroll 0 0 white;
+    margin: 10px 3% 10px 3%;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
 
-.logos-list > li img {
-  width: 100%;
-  display: block;
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
 }
 
 
