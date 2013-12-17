@@ -1707,95 +1707,101 @@ Mailing
   text-align: center;
   margin-top: 80px;
   padding: 50px 0 70px 0;
+
+  h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 52px;
+    line-height: 55px;
+    color: #b80606;
+  }
+
+  strong {
+    font-weight: 700 !important;
+    color: #8c8c8c;
+  }
+
+  .sup {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 5px 0 20px 0;
+    font-size: 24px;
+
+    strong {
+      font-weight: 300 !important;
+      color: #8c8c8c;
+    }
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    box-shadow: 0 2px 4px #e3e3e3;
+    border-radius: 4px;
+    width: 300px;
+    height: 44px;
+    line-height: 44px;
+    font: normal 17px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 0 15px 0 15px;
+    background: #fff;
+    display: inline-block;
+    margin: 0 0 25px 0;
+    outline: none;
+  }
+
+  input[type="submit"] {
+    box-shadow: 0 2px 4px #e3e3e3;
+    border-radius: 4px;
+    width: 100px;
+    height: 44px;
+    line-height: 44px;
+    font: normal 17px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 0 15px 0 15px;
+    background: #b80606;
+    display: inline-block;
+    margin: 0 0 0 5px;
+    cursor: pointer;
+    color: #fff;
+
+    &:hover { opacity: .8; }
+  }
+
+  li {
+    font-size: 14px;
+    margin: 0 7px 0 7px;
+    display: inline;
+  }
+
+  a { color: #8c8c8c; }
 }
-
-#cover-mailing h2 {
-  font-weight: 300;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 52px;
-  line-height: 55px;
-  color: #b80606;
-}
-
-#cover-mailing strong {
-  font-weight: 700 !important;
-  color: #8c8c8c;
-}
-
-#cover-mailing .sup {
-  font-weight: 300;
-  text-transform: uppercase;
-  margin: 5px 0 20px 0;
-  font-size: 24px;
-}
-
-#cover-mailing .sup strong {
-  font-weight: 300 !important;
-  color: #8c8c8c;
-}
-
-#cover-mailing input[type="text"],
-#cover-mailing input[type="email"] {
-  box-shadow: 0 2px 4px #e3e3e3;
-  border-radius: 4px;
-  width: 300px;
-  height: 44px;
-  line-height: 44px;
-  font: normal 17px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 0 15px 0 15px;
-  background: #fff;
-  display: inline-block;
-  margin: 0 0 25px 0;
-  outline: none;
-}
-
-#cover-mailing input[type="submit"] {
-  box-shadow: 0 2px 4px #e3e3e3;
-  border-radius: 4px;
-  width: 100px;
-  height: 44px;
-  line-height: 44px;
-  font: normal 17px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 0 15px 0 15px;
-  background: #b80606;
-  display: inline-block;
-  margin: 0 0 0 5px;
-  cursor: pointer;
-  color: #fff;
-}
-
-#cover-mailing input[type="submit"]:hover { opacity: .8; }
-
-#cover-mailing li {
-  font-size: 14px;
-  margin: 0 7px 0 7px;
-  display: inline;
-}
-
-#cover-mailing a { color: #8c8c8c; }
 
 
 /* Mailing List */
 
-#mailing { padding: 40px 0 30px 0; }
+#mailing {
+  padding: 40px 0 30px 0;
+  
+  h3 {
+    font-size: 20px;
+    margin: 20px 0 40px;
+  }
+  
+  .display_archive {
+    .campaign {
+      font-size: 14px;
+      margin-bottom: 30px;
 
-#mailing h3 {
-  font-size: 20px;
-  margin: 20px 0 40px;
+      a {
+        font-size: 16px;
+        text-decoration: none;
+
+        &:hover { opacity: .8; }
+      }
+
+    } // .campaign
+  } //.display_archive
+
 }
-
-#mailing .display_archive .campaign {
-  font-size: 14px;
-  margin-bottom: 30px;
-}
-
-#mailing .display_archive .campaign a {
-  font-size: 16px;
-  text-decoration: none;
-}
-
-#mailing .display_archive .campaign a:hover { opacity: .8; }
 
 
 /* ====================
