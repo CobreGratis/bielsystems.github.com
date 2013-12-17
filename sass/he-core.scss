@@ -973,7 +973,6 @@ Team
     text-indent: -9999px;
     float: right;
     opacity: .7;
-
     &:hover { opacity: 1; }
   }
 }
@@ -1014,22 +1013,27 @@ Jobs
 .he-enviroment article {
   width: 45%;
   float: left;
-}
 
-.he-enviroment h3 {
-  font-size: 23px;
-  line-height: 27px;
-  margin:0 0 20px 0;
-}
+  article {
+    width: 45%;
+    float: left;
+  }
 
-.he-enviroment p {
-  font-size: 16px;
-  line-height: 26px;
-}
+  h3 {
+    font-size: 23px;
+    line-height: 27px;
+    margin:0 0 20px 0;
+  }
 
-.he-enviroment img {
-  width: 50%;
-  float: right;
+  p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  img {
+    width: 50%;
+    float: right;
+  }
 }
 
 
@@ -1040,46 +1044,46 @@ Jobs
   background: #fafafa;
   border-top: 1px solid #f7f7f7;
   border-bottom: 1px solid #f7f7f7;
-  padding:30px 0 30px 0;
-  margin:30px 0 0 0;
-}
+  padding: 30px 0 30px 0;
+  margin: 30px 0 0 0;
+  
+  article {
+    width: 40%;
+    min-height: 225px;
+    background: #fff;
+    padding:20px 4% 0 4%;
+  }
 
-.positions-available article {
-  width: 40%;
-  min-height: 225px;
-  background: #fff;
-  padding:20px 4% 0 4%;
-}
+  .column01 { float: left; }
+  .column02 { float: right; }
 
-.positions-available .column01 { float: left; }
-.positions-available .column02 { float: right; }
+  h4 {
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 1.6em;
+    color: #000;
+    margin: 0;
+  }
 
-.positions-available h4 {
-  font-size: 1.8em;
-  font-weight: 700;
-  line-height: 1.6em;
-  color: #000;
-  margin: 0;
-}
+  p {
+    font-size: 14px;
+    line-height: 23px;
+  }
 
-.positions-available p {
-  font-size: 14px;
-  line-height: 23px;
-}
-
-.positions-available a {
-  padding: 10px 20px;
-  margin-top: 20px;
-  background-color: #b80606;
-  border: medium none;
-  border-radius: 4px 4px 4px 4px;
-  color: #fff;
-  float: left;
-  font-size: 12px;
-  font-weight: 700;
-  margin-top: 0px;
-  text-transform: uppercase;
-  text-decoration: none;
+  a {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #b80606;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px;
+    color: #fff;
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }  
 }
 
 
@@ -1088,19 +1092,19 @@ Jobs
 .apprentice-program {
   padding: 55px 0 40px 0;
   text-align: center;
-}
 
-.apprentice-program h3 {
-  font-size: 23px;
-  margin: 0 0 5px 0;
-}
+  h3 {
+    font-size: 23px;
+    margin: 0 0 5px 0;
+  }
 
-.apprentice-program p {
-  font-size: 14px;
-  line-height: 23px;
-}
+  p {
+    font-size: 14px;
+    line-height: 23px;
+  }
 
-.apprentice-program a { color: #b20000; }
+  a { color: #b20000; }
+}
 
 
 /* Jobs Details */
@@ -1110,52 +1114,56 @@ Jobs
   font-size: 14px;
   line-height: 23px;
   margin-bottom: 40px;
-}
 
-.job-description h3 {
-  margin: 0 0 15px 0;
-  font-size: 24px;
+  h3 {
+    margin: 0 0 15px 0;
+    font-size: 24px;
+  }
 }
 
 
 /* Jobs Form */
 
-#jobs-form { margin:0 0 40px 0; }
-#jobs-form h3 { margin:0 0 25px 0; }
-#jobs-form li { margin-top: 15px; }
+#jobs-form {
+  margin: 0 0 40px 0;
 
-#jobs-form input[type="text"], textarea {
-  border-radius: 4px;
-  width: 280px;
-  font: normal 15px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  line-height: 22px;
-  border: 1px solid #ccc;
-  padding: 0 12px 0 12px;
-  display: inline-block;
-  outline: none;
+  h3 { margin: 0 0 25px 0; }
+  li { margin-top: 15px; }
+  
+  input[type="text"],
+  textarea {
+    border-radius: 4px;
+    width: 280px;
+    font: normal 15px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 22px;
+    border: 1px solid #ccc;
+    padding: 0 12px 0 12px;
+    display: inline-block;
+    outline: none;
+  }
+  
+  input[type="text"] { height: 44px; }
+
+  textarea {
+    height: 200px;
+    padding-top: 10px;
+  }
+
+  input[type="submit"] {
+    border-radius: 4px;
+    width: 100px;
+    height: 44px;
+    line-height: 44px;
+    font: normal 17px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 0 15px 0 15px;
+    background: #b80606;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+
+    &:hover { opacity: .8; }
+  }
 }
-
-#jobs-form input[type="text"] { height: 44px; }
-
-textarea {
-  height: 200px;
-  padding-top: 10px;
-}
-
-#jobs-form input[type="submit"] {
-  border-radius: 4px;
-  width: 100px;
-  height: 44px;
-  line-height: 44px;
-  font: normal 17px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 0 15px 0 15px;
-  background: #b80606;
-  display: inline-block;
-  cursor: pointer;
-  color: #fff;
-}
-
-#jobs-form input[type="submit"]:hover { opacity: .8; }
 
 
 /* ====================
