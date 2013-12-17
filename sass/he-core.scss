@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import "variables";
 
 
 /* Reset */
@@ -25,8 +26,7 @@ html { font-size: 62.5%; }
 body {
   font-family: inherit;
   vertical-align: baseline;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font: $font-medium $sans_serif;
   color: rgb(71, 60, 60);
 }
 
@@ -468,7 +468,7 @@ Cover
   line-height: 30px !important;
   background: url("/images/icons/open-source.png") left no-repeat;
   padding: 0 0 0 40px;
-  font: normal 16px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: normal 16px $sans_serif;;
   margin: 20px 0 0 0;
   display: inline-block;
   text-decoration: none;
@@ -1116,7 +1116,7 @@ Jobs
 /* Jobs Details */
 
 .job-description {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: $sans_serif;
   font-size: 14px;
   line-height: 23px;
   margin-bottom: 40px;
@@ -1140,7 +1140,7 @@ Jobs
   textarea {
     border-radius: 4px;
     width: 280px;
-    font: normal 15px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: normal 15px $sans_serif;
     line-height: 22px;
     border: 1px solid ;
     padding: 0 12px 0 12px;
@@ -1160,7 +1160,7 @@ Jobs
     width: 100px;
     height: 44px;
     line-height: 44px;
-    font: normal 17px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: normal 17px $sans_serif;
     padding: 0 15px 0 15px;
     background: #b80606;
     display: inline-block;
@@ -1451,7 +1451,7 @@ Cases
   }
 
   p {
-    font: normal 16px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: normal 16px $sans_serif;
     line-height: 26px;
     margin: 0 0 15px 0;
   }
@@ -1749,7 +1749,7 @@ Mailing
     width: 300px;
     height: 44px;
     line-height: 44px;
-    font: normal 17px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: normal 17px $sans_serif;
     padding: 0 15px 0 15px;
     background: #fff;
     display: inline-block;
@@ -1763,7 +1763,7 @@ Mailing
     width: 100px;
     height: 44px;
     line-height: 44px;
-    font: normal 17px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: normal 17px $sans_serif;
     padding: 0 15px 0 15px;
     background: #b80606;
     display: inline-block;
@@ -1860,7 +1860,7 @@ Contact
     width: 220px;
     height: 50px;
     line-height: 50px;
-    font: normal 19px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font: normal 19px $sans_serif;
     padding: 0 15px 0 15px;
     background: #b80606;
     display: inline-block;
