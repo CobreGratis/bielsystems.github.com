@@ -1685,14 +1685,17 @@ Privacy
 ==================== */
 
 #privacy { padding: 40px 0 40px 0; }
-.topics { margin-bottom: 30px; }
 
-.topics li {
-  list-style-type: circle;
-  margin: 10px 0 0 30px;
+.topics {
+  margin-bottom: 30px;
+
+  li {
+    list-style-type: circle;
+    margin: 10px 0 0 30px;
+  }
+  
+  li:first-child { margin-top: 0 !important; }
 }
-
-.topics li:first-child { margin-top: 0 !important; }
 
 
 /* ====================
