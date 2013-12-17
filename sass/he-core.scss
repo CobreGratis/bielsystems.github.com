@@ -1811,61 +1811,59 @@ Contact
 #talk-to-us {
   text-align: center;
   margin-bottom: 60px;
-}
 
-#talk-to-us form {
-  width: 450px;
-  margin: 30px auto;
-}
+  form {
+    width: 450px;
+    margin: 30px auto;
 
-#talk-to-us form li { display: inline-block; }
+    li { display: inline-block; }
+  }
 
-#talk-to-us input[type="text"] {
-  border-radius: 4px;
-  width: 428px;
-  height: 50px;
-  background-color: #f2f2f2;
-  border: 1px solid #e3e3e3;
-  line-height: 50px;
-  margin: 0 0 15px 0;
-  padding: 0 15px 0 15px;
-  font-size: 16px;
-  font-weight: normal !important;
-  outline: none;
-}
+  input[type="text"] {
+    border-radius: 4px;
+    width: 428px;
+    height: 50px;
+    background-color: #f2f2f2;
+    border: 1px solid #e3e3e3;
+    line-height: 50px;
+    margin: 0 0 15px 0;
+    padding: 0 15px 0 15px;
+    font-size: 16px;
+    font-weight: normal !important;
+    outline: none;
+    
+    textarea {
+      border-radius: 4px;
+      width: 428px; max-width: 428px; min-width: 428px;
+      height: 80px; max-height: 400px; min-height: 80px;
+      background-color: #f2f2f2;
+      border: 1px solid #e3e3e3;
+      margin: 0 0 15px 0;
+      padding: 15px;
+      font-size: 17px;
+      font-weight: normal !important;
+      outline: none;
+      display: inline-block;
+    }
 
-#talk-to-us textarea {
-  border-radius: 4px;
-  width: 428px; max-width: 428px; min-width: 428px;
-  height: 80px; max-height: 400px; min-height: 80px;
-  background-color: #f2f2f2;
-  border: 1px solid #e3e3e3;
-  margin: 0 0 15px 0;
-  padding: 15px;
-  font-size: 17px;
-  font-weight: normal !important;
-  outline: none;
-  display: inline-block;
-}
+    button {
+      border-radius: 4px;
+      width: 220px;
+      height: 50px;
+      line-height: 50px;
+      font: normal 19px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      padding: 0 15px 0 15px;
+      background: #b80606;
+      display: inline-block;
+      border: none;
+      margin: 10px 0 0 0;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
 
-#talk-to-us button {
-  border-radius: 4px;
-  width: 220px;
-  height: 50px;
-  line-height: 50px;
-  font: normal 19px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  padding: 0 15px 0 15px;
-  background: #b80606;
-  display: inline-block;
-  border: none;
-  margin: 10px 0 0 0;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-}
-
-#talk-to-us button:hover {
-  opacity: .8;
+      &:hover { opacity: .8; }
+    }
+  }
 }
 
 .contact-send {
