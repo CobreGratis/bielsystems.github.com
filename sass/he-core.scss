@@ -1915,19 +1915,19 @@ Media Kit
   border: 3px dashed #ffcccc;
   text-align: center;
   display: block;
-}
 
-.box_download h3 {
-  font-weight: 500;
-  font-size: 34px;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  color: #990000;
-}
+  h3 {
+    font-weight: 500;
+    font-size: 34px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color: #990000;
+  }
 
-.box_download p {
-  position: relative;
-  padding: 20px;
+  p {
+    position: relative;
+    padding: 20px;
+  }
 }
 
 .bt_download {
@@ -1935,21 +1935,21 @@ Media Kit
   display: inline-block;
   margin-right: 10px;
   margin-left: 10px;
-}
+  
+  a {
+    width: 300px;
+    height: 60px;
+    background-image: url("/images/bt_download.png");
+    text-decoration: none;
+    text-align: left;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #fff;
+    display: block;
 
-.bt_download a {
-  width: 300px;
-  height: 60px;
-  background-image: url("/images/bt_download.png");
-  text-decoration: none;
-  text-align: left;
-  font-size: 14px;
-  font-weight: lighter;
-  color: #fff;
-  display: block;
+    &:hover {  opacity: .8; }
+  }
 }
-
-.bt_download a:hover {  opacity: .8; }
 
 .bt_download_text {
   text-transform: uppercase;;
@@ -1960,7 +1960,7 @@ Media Kit
 }
 
 
-/* BOX COLORS AND CONTENTS */
+/* Box Colors and Contents */
 
 .box_colors {
   display: block;
@@ -1968,21 +1968,21 @@ Media Kit
   height: 180px;
   margin-right: auto;
   margin-left: auto;
-}
 
-.box_colors h3 {
-  font-weight: 500;
-  font-size: 34px;
-  margin-top: 50px;
-  margin-bottom: 15px;
-  color: #990000;
-}
+  h3 {
+    font-weight: 500;
+    font-size: 34px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: #990000;
+  }
 
-.box_colors p {
-  position: relative;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
+  p {
+    position: relative;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .box_colors_show {
@@ -1994,14 +1994,14 @@ Media Kit
   margin-right: auto;
   text-align: left;
   padding: 0;
-}
 
-.box_colors_show p {
-  padding: 0;
-  margin: 0 0 0 5px;
-  color: #fff;
-  font-weight: lighter;
-  letter-spacing: 1px;
+  p {
+    padding: 0;
+    margin: 0 0 0 5px;
+    color: #fff;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
 }
 
 .bt_colors {
@@ -2021,15 +2021,15 @@ Media Kit
   font-weight: lighter;
   color: transparent;
   margin-top: 20px;
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
 }
 
-.color_number:hover {
-  color: #fff;
-  background-color: #000;
-}
 
-
-/* BOX FONTS AND CONTENTS */
+/* Box Fonts and Contents */
 
 .box_fonts {
   display: block;
@@ -2037,21 +2037,21 @@ Media Kit
   height: 450px;
   margin-right: auto;
   margin-left: auto;
-}
 
-.box_fonts h3 {
-  font-weight: 500;
-  font-size: 34px;
-  margin-top: 50px;
-  margin-bottom: 15px;
-  color: #990000;
-}
+  h3 {
+    font-weight: 500;
+    font-size: 34px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: #990000;
+  }
 
-.box_fonts p {
-  position: relative;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
+  p {
+    position: relative;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 #font_show {
@@ -2059,11 +2059,11 @@ Media Kit
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
 
-#font_show img {
-  border-bottom: dashed 1px #ccc;
-  margin-bottom: 10px;
+  img {
+    border-bottom: dashed 1px #ccc;
+    margin-bottom: 10px;
+  }  
 }
 
 .font_show_img { display:none; }
