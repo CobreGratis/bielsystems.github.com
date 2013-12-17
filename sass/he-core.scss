@@ -855,45 +855,42 @@ Sobre Nós
 
 .videothumbs2 {
   margin-bottom: 30px;
-}
 
-.videothumbs2 li {
-  box-shadow: 0 4px 8px -3px #d8d8d8;
-  width: 40%;
-  background: none repeat scroll 0 0 white;
-  margin: 0 3% 30px 3%;
-  padding: 10px;
-  display: inline-block;
-  font-size: 14px;
-  opacity: 1;
-}
+  li {
+    box-shadow: 0 4px 8px -3px #d8d8d8;
+    width: 40%;
+    background: none repeat scroll 0 0 white;
+    margin: 0 3% 30px 3%;
+    padding: 10px;
+    display: inline-block;
+    font-size: 14px;
+    opacity: 1;
 
-.videothumbs2 img {
-  width: 100%;
-  display: block;
-}
+    &:hover {
+      background: url("/images/play.jpg") no-repeat white;
+      background-size: 100%;
+    }
+  }
 
-.videothumbs2 img:hover { opacity: .5; }
+  img {
+    width: 100%;
+    display: block;
 
-.videothumbs2 li:hover {
-  background: url("/images/play.jpg") no-repeat white;
-  background-size: 100%;
-}
+    &:hover { opacity: .5; }
+  }
 
+  h3 {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    color: #b80606;
+  }
 
-/* Video Text */
-
-.videothumbs2 h3 {
-  margin: 10px 0 0 0;
-  font-size: 14px;
-  color: #b80606;
-}
-
-.videothumbs2 p {
-  font-size: 12px;
-  color: #8c8c8c;
-  margin: 2px 0 0 0;
-  display: block;
+  p {
+    font-size: 12px;
+    color: #8c8c8c;
+    margin: 2px 0 0 0;
+    display: block;
+  }
 }
 
 
