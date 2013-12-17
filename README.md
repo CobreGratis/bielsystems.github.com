@@ -14,6 +14,7 @@ $ jekyll -w serve
 ```sh
 $ compass watch
 ```
+
 ## Editing
 
 You can edit the SCSS files in the sass folder.
