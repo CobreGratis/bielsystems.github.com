@@ -901,12 +901,43 @@ Team
 #time {
   background: #efefef url("/images/bg-time.png") top center no-repeat;
   padding: 60px 0 10px 0;
-}
 
-#time ul {
-  width: 100%;
-  clear: both;
-  text-align: center;
+  ul {
+    width: 100%;
+    clear: both;
+    text-align: center;
+
+    > li {
+      width: 160px;
+      margin: 0 1% 20px 1%;
+      position: relative;
+      display: inline-block;
+      color: #333;
+      
+      img,
+      a img {
+        width: 160px;
+        height: 160px;
+        background: #fff;
+      }
+    }
+  }
+  
+  h3 {
+    font-size: 14px;
+    margin: 7px 0 0 0;
+  }
+
+  a {
+    text-decoration: none;
+    &:hover { opacity: .8; }
+  }
+
+  p {
+    margin-top: 2px;
+    font-size: 12px;
+    color: #8c8c8c;
+  }
 }
 
 #time ul:after {
@@ -919,35 +950,6 @@ Team
   min-height: 0;
 }
 
-#time ul > li {
-  width: 160px;
-  margin: 0 1% 20px 1%;
-  position: relative;
-  display: inline-block;
-  color: #333;
-}
-
-#time h3 {
-  font-size: 14px;
-  margin: 7px 0 0 0;
-}
-
-#time a { text-decoration: none; }
-#time a:hover { opacity: .8; }
-
-#time p {
-  margin-top: 2px;
-  font-size: 12px;
-  color: #8c8c8c;
-}
-
-#time ul > li img,
-#time ul > li a img {
-  width: 160px;
-  height: 160px;
-  background: #fff;
-}
-
 /*-*/
 
 .social-icons {
@@ -957,21 +959,23 @@ Team
   margin-top: 0 !important;
   z-index: 200;
   float: right;
-}
 
-.social-icons li {
-  width: 26px !important; height: 26px;
-  margin: 1px 0 0 0 !important;
-  float: right;
-}
+  li {
+    width: 26px !important; height: 26px;
+    margin: 1px 0 0 0 !important;
+    float: right;
+  }
 
-.social-icons li:first-child { margin: 0 !important; }
+  li:first-child { margin: 0 !important; }
 
-.social-icons a {
-  width: 26px !important; height: 26px;
-  text-indent: -9999px;
-  opacity: .7;
-  float: right;
+  a {
+    width: 26px !important; height: 26px;
+    text-indent: -9999px;
+    float: right;
+    opacity: .7;
+
+    &:hover { opacity: 1; }
+  }
 }
 
 .twitter,
@@ -985,8 +989,6 @@ Team
 .soundcloud { background-position: -52px 0; }
 .github { background-position: -78px 0; }
 .behance { background-position: -104px 0; }
-
-.social-icons a:hover { opacity: 1; }
 
 
 /* ====================
