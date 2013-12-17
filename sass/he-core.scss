@@ -339,6 +339,7 @@ Home
   margin-top: 50px;
   margin-bottom: 35px;
   text-align: center;
+  @include clearfix;
 
   li {
     width: 26%;
@@ -365,16 +366,6 @@ Home
     line-height: 24px;
     margin: 0 !important;
   }
-}
-
-.services-home:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  min-height: 0;
 }
 
 
@@ -623,16 +614,9 @@ Process (Mágica)
 
 /* Process Entry */
 
-#process-entry { margin-bottom: 30px; }
-
-#process-entry:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  min-height: 0;
+#process-entry {
+  margin-bottom: 30px;
+  @include clearfix;
 }
 
 .process-column {
@@ -783,17 +767,7 @@ Cliente Feliz
   background: #efefef url("/images/bg-time.png") top center no-repeat;
   text-align: center;
   padding: 60px 0 1px 0;
-}
-
-#cliente-feliz:after,
-#happy-costumer:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  min-height: 0;
+  @include clearfix;
 }
 
 .videothumbs {
@@ -844,16 +818,7 @@ Sobre Nós
   background: #efefef url("/images/bg-time.png") top center no-repeat;
   text-align: center;
   padding: 60px 0 1px 0;
-}
-
-#conheca:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  min-height: 0;
+  @include clearfix;
 }
 
 .videothumbs2 {
@@ -909,6 +874,7 @@ Team
     width: 100%;
     clear: both;
     text-align: center;
+    @include clearfix;
 
     > li {
       width: 160px;
@@ -942,16 +908,6 @@ Team
     font-size: 12px;
     color: #8c8c8c;
   }
-}
-
-#time ul:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  min-height: 0;
 }
 
 /*-*/
@@ -1002,43 +958,31 @@ Jobs
 
 #jobs { margin-top: 60px; }
 
-.positions-available:after,
-.he-enviroment:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  min-height: 0;
-}
-
 
 /* Enviroment */
 
-.he-enviroment article {
-  width: 45%;
-  float: left;
+.he-enviroment {
+  @include clearfix;
 
   article {
     width: 45%;
     float: left;
-  }
 
-  h3 {
-    font-size: 23px;
-    line-height: 27px;
-    margin:0 0 20px 0;
-  }
+    h3 {
+      font-size: 23px;
+      line-height: 27px;
+      margin:0 0 20px 0;
+    }
 
-  p {
-    font-size: 16px;
-    line-height: 26px;
-  }
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
 
-  img {
-    width: 50%;
-    float: right;
+    img {
+      width: 50%;
+      float: right;
+    }
   }
 }
 
@@ -1052,6 +996,7 @@ Jobs
   border-bottom: 1px solid #f7f7f7;
   padding: 30px 0 30px 0;
   margin: 30px 0 0 0;
+  @include clearfix;
   
   article {
     width: 40%;
@@ -1185,21 +1130,12 @@ User Profile
   background: linear-gradient(top bottom, #fff 0%, #f9f9f9 100%); /* W3C */
   border-bottom: 1px solid #fff;
   padding: 135px 0 35px 0;
+  @include clearfix;
 
   h2 {
     font: 900 42px 'Lato', sans-serif;
     color: #000;
   }
-}
-
-#profile:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  min-height: 0;
 }
 
 .mini-bio {
@@ -1378,16 +1314,7 @@ Cases
   li {
     width: 100%;
     padding: 50px 0 50px 0;
-  }
-
-  li:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-    min-height: 0;
+    @include clearfix;
   }
 
   li:nth-child(odd) { background: #f8f8f8; }
@@ -1494,17 +1421,7 @@ Apoios
   background: #efefef url("/images/bg-time.png") top center no-repeat;
   text-align: center;
   padding: 5px 0 40px 0;
-}
-
-#apoios:after,
-.services:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  min-height: 0;
+  @include clearfix;
 }
 
 .apoio-h3 {
@@ -1549,6 +1466,7 @@ Services
   background: #fafafa;
   border-bottom: 1px solid #ccc;
   padding-bottom: 40px;
+  @include clearfix;
 
   h3 {
     text-transform: uppercase;
@@ -1627,6 +1545,7 @@ Open Source
 
 .high-light-projects {
   margin: 0 0 35px 0;
+  @include clearfix;
 
   div {
     box-shadow: 0 4px 8px -3px #d8d8d8;
@@ -1644,16 +1563,6 @@ Open Source
   a:hover img { opacity: .8; }
 }
 
-.high-light-projects:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  min-height: 0;
-}
-
 
 /* Gems List */
 
@@ -1669,22 +1578,13 @@ Open Source
     text-align: left;
     font-size: 14px;
     line-height: 21px;
+    @include clearfix;
   }
 
   h4 {
     font-weight: normal;
     margin: 0 0 7px 0;
   }
-}
-
-.gems-list:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-  min-height: 0;
 }
 
 
