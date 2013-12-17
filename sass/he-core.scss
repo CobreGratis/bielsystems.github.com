@@ -1602,22 +1602,38 @@ Open Source
   line-height: 23px;
   padding-top: 45px;
   padding-bottom: 35px;
-}
 
-#open-source h4 {
-  font-weight: normal;
-  font-size: 23px;
-}
+  h4 {
+    font-weight: normal;
+    font-size: 23px;
+  }
 
-#open-source p { margin: 0; }
-#open-source a { text-decoration: none; }
-#open-source a:hover { text-decoration: underline; }
+  p { margin: 0; }
+
+  a {
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+}
 
 
 /* Highlight Projects */
 
 .high-light-projects {
   margin: 0 0 35px 0;
+
+  div {
+    box-shadow: 0 4px 8px -3px #d8d8d8;
+    width: 44%;
+    background: #f8f8f8;
+    padding: 2%;
+    min-height: 260px;
+    float: right;
+  }
+
+  div:first-child { float: left; }
+  h4 { margin: 20px 0 10px 0; }
+  img { width: 100%; }
 }
 
 .high-light-projects:after {
@@ -1630,21 +1646,28 @@ Open Source
   min-height: 0;
 }
 
-.high-light-projects div {
-  box-shadow: 0 4px 8px -3px #d8d8d8;
-  width: 44%;
-  background: #f8f8f8;
-  padding: 2%;
-  min-height: 260px;
-  float: right;
-}
-
-.high-light-projects div:first-child { float: left; }
-.high-light-projects h4 { margin: 20px 0 10px 0; }
-.high-light-projects img { width: 100%; }
-
 
 /* Gems List */
+
+.gems-list {
+  li {
+    box-shadow: 0 4px 8px -3px #d8d8d8;
+    width: 27%;
+    height: 160px;
+    background: none repeat scroll 0 0 white;
+    margin: 10px 1% 10px 1%;
+    padding: 2%;
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  h4 {
+    font-weight: normal;
+    margin: 0 0 7px 0;
+  }
+}
 
 .gems-list:after {
   visibility: hidden;
@@ -1654,24 +1677,6 @@ Open Source
   clear: both;
   height: 0;
   min-height: 0;
-}
-
-.gems-list li {
-  box-shadow: 0 4px 8px -3px #d8d8d8;
-  width: 27%;
-  height: 160px;
-  background: none repeat scroll 0 0 white;
-  margin: 10px 1% 10px 1%;
-  padding: 2%;
-  float: left;
-  text-align: left;
-  font-size: 14px;
-  line-height: 21px;
-}
-
-.gems-list h4 {
-  font-weight: normal;
-  margin: 0 0 7px 0;
 }
 
 
