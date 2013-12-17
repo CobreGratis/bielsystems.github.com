@@ -2140,6 +2140,7 @@ a {
 }
 
 
+
 /*/=============================================================================
 
 
@@ -2154,7 +2155,7 @@ Max Width, 960px
 Media Queries for Tablets
 ------------------------------------------------------------------------------*/
 
-@media (max-width:960px) {
+@media (max-width: 960px) {
 
   .containner { width: 700px; }
   header.default .logo { width: 155px; }
@@ -2188,12 +2189,16 @@ Media Queries for Tablets
   /* Profile */
 
   #profile { padding-top: 120px; }
-  .social-links { margin: 0; }
-  .social-links li { display: block; }
+  
+  .social-links {
+    margin: 0;
 
-  .social-links a {
-    margin: 5px 0 0 0;
-    clear: both;
+    li { display: block; }
+
+    a {
+      margin: 5px 0 0 0;
+      clear: both;
+    }
   }
 
 
@@ -2307,23 +2312,29 @@ Media Queries for Smartphones
     width: 100%;
     text-align: left;
     display: none;
-  }
 
-  #menu2 li {
-    display: block;
-    margin: 1px 0 0 0;
-  }
+    li {
+      display: block;
+      margin: 1px 0 0 0;
+    }
 
-  #menu2 a {
-    border-radius: 0;
-    width: 94%;
-    padding: 0 3% 0 3%;
-    background: #333;
-    text-transform: none;
-    font-size: 14px;
-    color: #fff;
-    display: !important;
-    float: left;
+    a {
+      border-radius: 0;
+      width: 94%;
+      padding: 0 3% 0 3%;
+      background: #333;
+      text-transform: none;
+      font-size: 14px;
+      color: #fff;
+      display: !important;
+      float: left;
+
+      &:hover {
+        opacity: 1;
+        background: #b80606;
+        color: #fff;
+      }
+    }
   }
 
   .current-page {
@@ -2333,90 +2344,90 @@ Media Queries for Smartphones
     margin-left: 1px;
   }
 
-  #menu2 a:hover {
-    opacity: 1;
-    background: #b80606;
-    color: #fff;
-  }
-
   .languages {
     background: none;
     padding: 0;
     right: 105px; top: 19px;
     color: #666;
-  }
 
-  .languages:hover {
-    opacity: 1;
-    color: #b80606;
+    &:hover {
+      opacity: 1;
+      color: #b80606;
+    }
   }
-
 
   /* Home */
 
-  #home { padding-top: 125px; }
+  #home {
+    padding-top: 125px;
 
-  #home h2 {
-    font-size: 45px;
-    line-height: 47px;
+    h2 {
+      font-size: 45px;
+      line-height: 47px;
+    }
+
+    h3 { font-size: 23px; }
+
+    .home-button { display: none; }
   }
-
-  #home h3 { font-size: 23px; }
-  #home .home-button { display: none; }
 
   .logo-tip-trigger { font-size: 19px; }
+  
+  .icons {
+    li {
+      text-align:center;
+      display:inline-block;
+      margin: 0 2px 0 2px !important;
+    }
 
-  .icons li {
-    text-align:center;
-    display:inline-block;
-    margin: 0 2px 0 2px !important;
+    a img { width: 40px; }
   }
-
-  .icons a img { width: 40px; }
-
 
   /* Cover Banner */
 
-  #cover-banner { margin-top: 60px; }
+  #cover-banner {
+    margin-top: 60px;
 
-  #cover-banner h2 {
-    font-size: 32px;
-    line-height: 35px;
-  }
+    h2 {
+      font-size: 32px;
+      line-height: 35px;
+    }
 
-  #cover-banner p {
-    font-size: 17px;
-    margin: 10px 0 0 0;
+    p {
+      font-size: 17px;
+      margin: 10px 0 0 0;
+    }
   }
 
   /*-*/
 
-  #cover-mailing { margin-top: 60px; }
+  #cover-mailing {
+    margin-top: 60px;
 
-  #cover-mailing h2 {
-    font-size: 32px;
-    line-height: 35px;
+    h2 {
+      font-size: 32px;
+      line-height: 35px;
+    }
+
+    .sup {
+      font-size: 17px;
+      margin: 10px 0 0 0;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 96%;
+      padding: 0 2% 0 2%;
+      margin: 25px 0 25px 0;
+    }
+
+    input[type="submit"] { margin-bottom: 25px; }
   }
-
-  #cover-mailing .sup {
-    font-size: 17px;
-    margin: 10px 0 0 0;
-  }
-
-  #cover-mailing input[type="text"],
-  #cover-mailing input[type="email"] {
-    width: 96%;
-    padding: 0 2% 0 2%;
-    margin: 25px 0 25px 0;
-  }
-
-  #cover-mailing input[type="submit"] { margin-bottom: 25px; }
 
 
   /* Red Button */
 
-  a.red-button,
-  a.white-button {
+  .red-button {
     border-radius: 12px;
     width: 250px;
     height: auto;
@@ -2428,13 +2439,15 @@ Media Queries for Smartphones
   #time .red-button { margin-bottom: 40px; }
 
 
-  /* Cliete Feliz */
+  /* Cliente Feliz */
 
-  .videothumbs li { width: 39%; }
+  .videothumbs li {
+    width: 39%;
 
-  .videothumbs li:hover {
-    background: url("/images/play.jpg") no-repeat white;
-    background-size: 100%;
+    &:hover {
+      background: url("/images/play.jpg") no-repeat white;
+      background-size: 100%;
+    }
   }
 
 
@@ -2455,18 +2468,22 @@ Media Queries for Smartphones
 
 
   /* Jobs */
-
-  .he-enviroment article,
-  .he-enviroment img { width: 100%; }
-
-  .positions-available article {
-    width: 94%;
-    min-height: 0;
-    margin: 5px 0 5px 0;
-    padding-bottom: 30px;
+  
+  .he-enviroment {
+    article,
+    img { width: 100%; }
   }
 
-  .positions-available .column02 { float: left; }
+  .positions-available {
+    article {
+      width: 94%;
+      min-height: 0;
+      margin: 5px 0 5px 0;
+      padding-bottom: 30px;
+    }
+
+    .column02 { float: left; }
+  }
 
 
   /* Process */
@@ -2475,63 +2492,74 @@ Media Queries for Smartphones
     width: 100%;
     margin: 0 0 30px 0;
     text-align: center;
-  }
 
-  #process-info > div, #tablet-descriptions { display: none; }
-  #process-info img { width: 85%; }
+    > div,
+    #tablet-descriptions { display: none; }
+
+    img { width: 85%; }
+  }
 
   #process-entry {
     width: 100%;
     margin-bottom: 40px;
-  }
 
-  #process-entry li {
-    font-size: 14px;
-    line-height: 22px;
+    li {
+      font-size: 14px;
+      line-height: 22px;
+    }
   }
 
 
   /* Time */
 
-  #time { padding-bottom: 20px !important; }
+  #time {
+    padding-bottom: 20px !important;
+    
+    ul {
+      > li {
+        width: 29%;
+        margin: 0 2% -35px 2% !important;
 
-  #time ul > li {
-    width: 29%;
-    margin: 0 2% -35px 2% !important;
+        img,
+        a img {
+          width: 100%;
+          height:auto;
+          background: #fff;
+          padding: 0;
+        }
+      }
+
+      p {
+        font-size: 14px;
+        height: 70px;
+      }
+
+      span { font-size: 10px; }
+    } // ul
   }
-
-  #time ul > li img, #time ul > li a img {
-    width: 100%;
-    height:auto;
-    background: #fff;
-    padding: 0;
-  }
-
-  #time ul p {
-    font-size: 14px;
-    height: 70px;
-  }
-
-  #time ul span { font-size: 10px; }
 
 
   /* Time Profile */
 
-  #profile { padding-top: 100px; }
+  #profile {
+    padding-top: 100px;
 
-  #profile h2 {
-    font: 700 32px 'Lato', sans-serif;
-    color: #000;
+    h2 {
+      font: 700 32px 'Lato', sans-serif;
+      color: #000;
+    }
   }
 
-  .mini-bio { width: 100%; }
+  .mini-bio {
+    width: 100%;
 
-  .mini-bio p {
-    font-size: 14px;
-    line-height: 23px;
+    p {
+      font-size: 14px;
+      line-height: 23px;
+    }
+
+    .job-title { font-size: 14px; }
   }
-
-  .mini-bio .job-title { font-size: 14px; }
 
   .profile-picture img { display: none; }
   .profile-cote { padding: 35px 0 40px 0; }
@@ -2548,18 +2576,20 @@ Media Queries for Smartphones
 
   .browser-nav { height: 20px; }
 
-  #cases { text-align: center; }
+  #cases {
+    text-align: center;
 
-  #cases .case-thumb {
-    width: 60%;
-    margin-bottom: 25px;
-    display: inline-block;
-    float: none;
-  }
+    .case-thumb {
+      width: 60%;
+      margin-bottom: 25px;
+      display: inline-block;
+      float: none;
+    }
 
-  #cases .case-info {
-    text-align: left;
-    margin: 0;
+    .case-info {
+      text-align: left;
+      margin: 0;
+    }
   }
 
 
@@ -2598,46 +2628,50 @@ Media Queries for Smartphones
     margin-top: 20px;
   }
 
-  .footer-links p {
-    width: 100%;
-    height: 30px;
-    margin: 0;
-  }
+  .footer-links {
+    p {
+      width: 100%;
+      height: 30px;
+      margin: 0;
+    }
 
-  .footer-links ul { width: 100%; }
+    ul { width: 100%; }
 
-  .footer-links li {
-    width: 100%;
-    height: 30px;
-    margin-top: 1px;
-    margin-left: 0;
-    display: block;
-  }
+    li {
+      width: 100%;
+      height: 30px;
+      margin-top: 1px;
+      margin-left: 0;
+      display: block;
+    }
 
-  .footer-links a {
-    width: 94%;
-    padding: 0 3% 0 3%;
-    height: 30px;
-    line-height: 30px;
-    background: #444;
-    display: block;
+    a {
+      width: 94%;
+      padding: 0 3% 0 3%;
+      height: 30px;
+      line-height: 30px;
+      background: #444;
+      display: block;
+    }
   }
 
 
   /* TaLk to us */
+  
+  #talk-to-us {
+    form { width: auto; }
 
-  #talk-to-us form { width: auto; }
+    input[type="text"] {
+      width: 94%;
+      padding: 0 3% 0 3%;
+    }
 
-  #talk-to-us input[type="text"] {
-    width: 94%;
-    padding: 0 3% 0 3%;
-  }
-
-  #talk-to-us textarea {
-    width: 94%;
-    max-width: 94%;
-    min-width: 94%;
-    padding: 3%;
+    textarea {
+      width: 94%;
+      max-width: 94%;
+      min-width: 94%;
+      padding: 3%;
+    }
   }
 
 
@@ -2678,11 +2712,14 @@ Media Queries with adjustments for Smartphones
   .projects-worked {
     width: 100%;
     margin-bottom: 0;
+    
+    img { width: 280px; }
   }
-
-  .projects-worked img { width: 280px; }
-  #mailing li div { margin-left: 90px; }
-  #mailing img { width: 70px; }
+  
+  #mailing {
+    li div { margin-left: 90px; }
+    img { width: 70px; }
+  }
 
   .modalBox {
   	width: 260px;
@@ -2733,14 +2770,17 @@ Max Width, 481px
 Media Queries with more adjustments for Smartphones
 ------------------------------------------------------------------------------*/
 
-@media (max-width:481px) {
+@media (max-width: 481px) {
+  
+  
+  #home {
+    h2 {
+      font-size: 45px;
+      line-height: 52px;
+    }
 
-  #home h2 {
-    font-size: 45px;
-    line-height: 52px;
+   h3 { font-size: 24px; }
   }
-
-  #home h3 { font-size: 24px; }
 
   .red-button { max-width: 220px; }
 
@@ -2758,9 +2798,7 @@ Media Queries with more adjustments for Smartphones
     float: left;
   }
 
-  .high-light-projects div:first-child {
-    margin-bottom: 20px;
-  }
+  .high-light-projects div:first-child { margin-bottom: 20px; }
 
   .videothumbs li { width: 90%; }
   .videothumbs li img:hover { opacity: 0.5; }
@@ -2779,13 +2817,15 @@ Media Queries with more adjustments for Smartphones
   .thumbs { display: none; }
 
   /*-*/
+  
+  #cover-banner {
+    h2 {
+      font-size: 22px;
+      line-height: 25px;
+    }
 
-  #cover-banner h2 {
-    font-size: 22px;
-    line-height: 25px;
+    p { font-size: 14px; }
   }
-
-  #cover-banner p { font-size: 14px; }
 
 
   /* Media Kit */
@@ -2845,7 +2885,8 @@ TipTip
   -moz-box-shadow: 0 0 3px #555;
 }
 
-#tiptip_arrow, #tiptip_arrow_inner {
+#tiptip_arrow,
+#tiptip_arrow_inner {
   position: absolute;
   border-color: transparent;
   border-style: solid;
