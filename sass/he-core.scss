@@ -1614,6 +1614,7 @@ Open Source
 
   a {
     text-decoration: none;
+    color: #b80606;
     &:hover { text-decoration: underline; }
   }
 }
@@ -1636,6 +1637,8 @@ Open Source
   div:first-child { float: left; }
   h4 { margin: 20px 0 10px 0; }
   img { width: 100%; }
+
+  a:hover img { opacity: .8; }
 }
 
 .high-light-projects:after {
