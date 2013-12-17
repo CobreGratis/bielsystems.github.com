@@ -41,13 +41,17 @@ h4,
 h5,
 h6 { font-family: 'Lato', sans-serif; }
 
-a { color:#b80606; }
+a {
+  color: #b80606;
+}
+
 span.red { color: #b20000; }
 
 
 /* Viewport */
 
-html, body {
+html,
+body {
   width: 100%;
   overflow-x: hidden;
 }
@@ -391,6 +395,7 @@ Home
   margin: 0 auto;
   z-index: 9999;
   color: #fff;
+
   &:hover { opacity: .8; }
 }
 
@@ -618,9 +623,7 @@ Process (Mágica)
 
 /* Process Entry */
 
-#process-entry {
-  margin-bottom: 30px;
-}
+#process-entry { margin-bottom: 30px; }
 
 #process-entry:after {
   visibility: hidden;
@@ -653,11 +656,11 @@ Process (Mágica)
     font-weight: bold;
     display: inline-block;
     color: rgb(71, 60, 60);
+    
+    &:hover { opacity: .8; }
   }
 
-  strong {
-    margin: 20px 0 5px 0;
-  }
+  strong { margin: 20px 0 5px 0; }
 
   strong a {
     text-decoration: underline;
@@ -920,8 +923,9 @@ Team
         height: 160px;
         background: #fff;
       }
-    }
-  }
+
+    } // li
+  } // ul
 
   h3 {
     font-size: 14px;
@@ -930,8 +934,6 @@ Team
 
   a {
     text-decoration: none;
-    color: #b80606;
-
     &:hover { opacity: .8; }
   }
 
@@ -963,7 +965,8 @@ Team
   float: right;
 
   li {
-    width: 26px !important; height: 26px;
+    width: 26px !important;
+    height: 26px;
     margin: 1px 0 0 0 !important;
     float: right;
   }
@@ -975,6 +978,7 @@ Team
     text-indent: -9999px;
     float: right;
     opacity: .7;
+
     &:hover { opacity: 1; }
   }
 }
@@ -1138,7 +1142,7 @@ Jobs
     width: 280px;
     font: normal 15px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 22px;
-    border: 1px solid #ccc;
+    border: 1px solid ;
     padding: 0 12px 0 12px;
     display: inline-block;
     outline: none;
@@ -1614,8 +1618,7 @@ Open Source
 
   a {
     text-decoration: none;
-    color: #b80606;
-    &:hover { text-decoration: underline; }
+    &:hover { opacity: .8; }
   }
 }
 
@@ -2087,16 +2090,16 @@ footer {
   font-size: 14px;
   position: relative;
   clear: both;
-}
 
-a {
-  text-decoration: none;
-  color: #ccc;
+  a {
+    text-decoration: none;
+    color: #ccc;
 
-  &:hover {
-    opacity: 1;
-    color: #fff;
-  }
+    &:hover {
+      opacity: 1;
+      color: #fff;
+    }
+  } // a
 }
 
 .offices {
@@ -2108,9 +2111,7 @@ a {
     font-size: 12px;
     float: left;
   }
-}
-
-.offices {
+  
   address span { display: block; }
 
   h3 {
