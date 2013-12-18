@@ -394,12 +394,7 @@ Cover
 
 #cover-banner {
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
-  background: $he_red;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $he_red), color-stop(100%, #9b0505)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, $he_red 0%, #9b0505 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, $he_red 0%, #9b0505 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, $he_red 0%, #9b0505 100%); /* IE10+ */
-  background: linear-gradient(top bottom, $he_red 0%, #9b0505 100%); /* W3C */
+  @include red_gradiente;
   text-align: center;
   margin-top: 80px;
   padding: 50px 0 50px 0;
@@ -1174,12 +1169,7 @@ User Profile
 
 .profile-cote {
   text-shadow: 1px 1px 1px #810505;
-  background: $he_red;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $he_red), color-stop(100%, #9b0505)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, $he_red 0%, #9b0505 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, $he_red 0%, #9b0505 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, $he_red 0%, #9b0505 100%); /* IE10+ */
-  background: linear-gradient(top bottom, $he_red 0%, #9b0505 100%); /* W3C */
+  @include red_gradiente;
   border-bottom: 10px solid #eaeaea;
   border-top: 10px solid #eaeaea;
   text-align: center;
@@ -1194,9 +1184,9 @@ User Profile
 
 .signature {
   font-size: 2.4em;
-  font-weight:normal;
+  font-weight: normal;
   text-align: center;
-  color:#ffd8d8;
+  color: #ffd8d8;
 }
 
 /*-*/
