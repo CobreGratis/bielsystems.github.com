@@ -121,7 +121,7 @@ Nav
 
     &:hover {
       border-color: #eee;
-      color: #b80606;
+      color: $he_red;
     }
   }
 }
@@ -352,7 +352,7 @@ Home
     font-size: 22px;
     line-height: 22px;
     font-weight: 300;
-    color: #b80606;
+    color: $he_red;
     margin: 0 0 5px 0;
     padding-top: 0;
   }
@@ -394,12 +394,12 @@ Cover
 
 #cover-banner {
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
-  background: #b80606;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b80606), color-stop(100%, #9b0505)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #b80606 0%, #9b0505 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #b80606 0%, #9b0505 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #b80606 0%, #9b0505 100%); /* IE10+ */
-  background: linear-gradient(top bottom, #b80606 0%, #9b0505 100%); /* W3C */
+  background: $he_red;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $he_red), color-stop(100%, #9b0505)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, $he_red 0%, #9b0505 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, $he_red 0%, #9b0505 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, $he_red 0%, #9b0505 100%); /* IE10+ */
+  background: linear-gradient(top bottom, $he_red 0%, #9b0505 100%); /* W3C */
   text-align: center;
   margin-top: 80px;
   padding: 50px 0 50px 0;
@@ -716,7 +716,7 @@ Process (Mágica)
   h4 {
     font-size: 24px;
     margin: 0;
-    color: #b80606;
+    color: $he_red;
   }
 }
 
@@ -795,7 +795,7 @@ Cliente Feliz
   h3 {
     margin: 10px 0 0 0;
     font-size: 14px;
-    color: #b80606;
+    color: $he_red;
   }
 
   p {
@@ -847,7 +847,7 @@ Sobre Nós
   h3 {
     margin: 10px 0 0 0;
     font-size: 14px;
-    color: #b80606;
+    color: $he_red;
   }
 
   p {
@@ -1021,7 +1021,7 @@ Jobs
   a {
     padding: 10px 20px;
     margin-top: 20px;
-    background-color: #b80606;
+    background-color: $he_red;
     border: medium none;
     border-radius: 4px 4px 4px 4px;
     color: #fff;
@@ -1104,7 +1104,7 @@ Jobs
     line-height: 44px;
     font: normal 17px $sans_serif;
     padding: 0 15px 0 15px;
-    background: #b80606;
+    background: $he_red;
     display: inline-block;
     cursor: pointer;
     color: #fff;
@@ -1174,12 +1174,12 @@ User Profile
 
 .profile-cote {
   text-shadow: 1px 1px 1px #810505;
-  background: #b80606;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b80606), color-stop(100%, #9b0505)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #b80606 0%, #9b0505 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #b80606 0%, #9b0505 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #b80606 0%, #9b0505 100%); /* IE10+ */
-  background: linear-gradient(top bottom, #b80606 0%, #9b0505 100%); /* W3C */
+  background: $he_red;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $he_red), color-stop(100%, #9b0505)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, $he_red 0%, #9b0505 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, $he_red 0%, #9b0505 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, $he_red 0%, #9b0505 100%); /* IE10+ */
+  background: linear-gradient(top bottom, $he_red 0%, #9b0505 100%); /* W3C */
   border-bottom: 10px solid #eaeaea;
   border-top: 10px solid #eaeaea;
   text-align: center;
@@ -1358,7 +1358,7 @@ Cases
     border-radius: 4px;
     height: 40px;
     line-height: 40px;
-    background: #b80606;
+    background: $he_red;
     padding: 0 10px 0 10px;
     display: inline-block;
     color: #fff;
@@ -1424,7 +1424,7 @@ Apoios
 .apoio-h3 {
   font-size: 40px;
   margin: 35px 0 25px 0;
-  color: #B80606
+  color: $he_red;
 }
 
 .logos-list {
@@ -1432,7 +1432,7 @@ Apoios
     margin: 10px 0 0 0;
     font-weight: bold;
     font-size: 14px;
-    color: #b80606;
+    color: $he_red;
   }
 
   a { text-decoration: none; }
@@ -1470,7 +1470,7 @@ Services
     font-weight: 300;
     font-size: 30px;
     margin: 50px 0 20px 0;
-    color: #b80606;
+    color: $he_red;
   }
 
   h4 {
@@ -1478,7 +1478,7 @@ Services
     margin-bottom: 5px;
     margin-left: 30px;
     margin-left: 0;
-    color: #b80606;
+    color: $he_red;
   }
 
   .videothumbs {
@@ -1495,7 +1495,7 @@ Services
     h5 {
       margin: 10px 0 0 0;
       font-size: 14px;
-      color: #b80606;
+      color: $he_red;
     }
   }
 }
@@ -1619,7 +1619,7 @@ Mailing
     text-align: center;
     font-size: 52px;
     line-height: 55px;
-    color: #b80606;
+    color: $he_red;
   }
 
   strong {
@@ -1662,7 +1662,7 @@ Mailing
     line-height: 44px;
     font: normal 17px $sans_serif;
     padding: 0 15px 0 15px;
-    background: #b80606;
+    background: $he_red;
     display: inline-block;
     margin: 0 0 0 5px;
     cursor: pointer;
@@ -1759,7 +1759,7 @@ Contact
     line-height: 50px;
     font: normal 19px $sans_serif;
     padding: 0 15px 0 15px;
-    background: #b80606;
+    background: $he_red;
     display: inline-block;
     border: none;
     margin: 10px 0 0 0;
@@ -2234,7 +2234,7 @@ Media Queries for Smartphones
 
       &:hover {
         opacity: 1;
-        background: #b80606;
+        background: $he_red;
         color: #fff;
       }
     }
@@ -2242,7 +2242,7 @@ Media Queries for Smartphones
 
   .current-page {
     box-shadow: none;
-    background: #b80606 !important;
+    background: $he_red !important;
     border: none !important;
     margin-left: 1px;
   }
@@ -2255,7 +2255,7 @@ Media Queries for Smartphones
 
     &:hover {
       opacity: 1;
-      color: #b80606;
+      color: $he_red;
     }
   }
 
@@ -2518,7 +2518,7 @@ Media Queries for Smartphones
     margin-bottom: 35px;
     text-transform: none;
     font-size: 30px;
-    color: #b80606;
+    color: $he_red;
   }
 
 
