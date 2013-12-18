@@ -115,7 +115,7 @@ Nav
     padding: 0 10px 0 10px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: $font-small;
     display: inline-block;
     color: $grey3;
 
@@ -531,7 +531,7 @@ Process (Mágica)
   }
 
   p {
-    font-size: 12px;
+    font-size: $font-small;
     line-height: 15px;
   }
 }
@@ -637,7 +637,7 @@ Process (Mágica)
 .m-det {
   text-decoration: underline;
   font-weight: 300 !important;
-  font-size: 12px;
+  font-size: $font-small;
   margin-left: 7px;
   color: #8c8c8c;
   cursor: pointer;
@@ -720,7 +720,7 @@ Process (Mágica)
   height: auto;
   border: 1px solid $grey1;
   margin: -1px 0 0 0;
-  font-size: 12px;
+  font-size: $font-small;
   line-height: 17px;
   padding: 7px 10px 7px 10px;
 
@@ -779,7 +779,7 @@ Cliente Feliz
   }
 
   p {
-    font-size: 12px;
+    font-size: $font-small;
     margin: 2px 0 0 0;
     color: #8c8c8c;
     display: block;
@@ -831,7 +831,7 @@ Sobre Nós
   }
 
   p {
-    font-size: 12px;
+    font-size: $font-small;
     color: #8c8c8c;
     margin: 2px 0 0 0;
     display: block;
@@ -882,7 +882,7 @@ Team
 
   p {
     margin-top: 2px;
-    font-size: 12px;
+    font-size: $font-small;
     color: #8c8c8c;
   }
 }
@@ -1006,7 +1006,7 @@ Jobs
     border-radius: 4px 4px 4px 4px;
     color: #fff;
     float: left;
-    font-size: 12px;
+    font-size: $font-small;
     font-weight: 700;
     margin-top: 0px;
     text-transform: uppercase;
@@ -1980,7 +1980,7 @@ footer {
   li {
   	width: 25%;
     line-height: 17px;
-    font-size: 12px;
+    font-size: $font-small;
     float: left;
   }
   
