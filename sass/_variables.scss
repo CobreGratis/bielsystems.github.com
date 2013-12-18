@@ -1,5 +1,5 @@
 
-/* Font Variables */
+/* Fonts Variables */
 
 $sans_serif: 'Open Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
 
@@ -9,7 +9,7 @@ $font-large: 19px;
 $font-big: 29px;
 
 
-/* Color Variables */
+/* Colors Variables */
 
 $grey1: #eee;
 $grey2: #ddd;
@@ -36,7 +36,7 @@ $he_red: #b80606;
   }
 }
 
-@mixin red_gradiente {
+@mixin red_gradient {
   background: $he_red;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $he_red), color-stop(100%, #9b0505)); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(top, $he_red 0%, #9b0505 100%); /* Chrome10+,Safari5.1+ */

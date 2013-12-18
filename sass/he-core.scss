@@ -394,7 +394,7 @@ Cover
 
 #cover-banner {
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
-  @include red_gradiente;
+  @include red_gradient;
   text-align: center;
   margin-top: 80px;
   padding: 50px 0 50px 0;
@@ -1084,7 +1084,7 @@ Jobs
     display: inline-block;
     outline: none;
   }
-  
+
   input[type="text"] { height: 44px; }
 
   textarea {
@@ -1169,7 +1169,7 @@ User Profile
 
 .profile-cote {
   text-shadow: 1px 1px 1px #810505;
-  @include red_gradiente;
+  @include red_gradient;
   border-bottom: 10px solid #eaeaea;
   border-top: 10px solid #eaeaea;
   text-align: center;
