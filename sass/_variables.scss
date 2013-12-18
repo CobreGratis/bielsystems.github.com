@@ -44,3 +44,22 @@ $he_red: #b80606;
   background: -ms-linear-gradient(top, $he_red 0%, #9b0505 100%); /* IE10+ */
   background: linear-gradient(top bottom, $he_red 0%, #9b0505 100%); /* W3C */
 }
+
+@mixin fade_effect {
+  -webkit-animation-duration: .4s;
+  -moz-animation-duration: .4s;
+  -ms-animation-duration: .4s;
+  -o-animation-duration: .4s;
+  animation-duration: .4s;
+  -moz-animation-name: slidein;
+  -webkit-animation-name: slidein;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in;
+  -moz-animation-timing-function: ease-in;
+  -ms-animation-timing-function: ease-in;
+  -o-animation-timing-function: ease-in;
+}
