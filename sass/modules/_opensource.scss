@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+
+/* ====================
+Open Source
+==================== */
+
+#open-source {
+  background: #efefef url("/images/bg-time.png") top center no-repeat;
+  line-height: 23px;
+  padding-top: 45px;
+  padding-bottom: 35px;
+
+  h4 {
+    font-weight: normal;
+    font-size: 23px;
+  }
+
+  p { margin: 0; }
+
+  a {
+    text-decoration: none;
+    &:hover { opacity: .8; }
+  }
+}
+
+
+/* Highlight Projects */
+
+.high-light-projects {
+  margin: 0 0 35px 0;
+  @include clearfix;
+
+  div {
+    box-shadow: 0 4px 8px -3px #d8d8d8;
+    width: 44%;
+    background: $light-grey1;
+    padding: 2%;
+    min-height: 260px;
+    float: right;
+  }
+
+  div:first-child { float: left; }
+  h4 { margin: 20px 0 10px 0; }
+  img { width: 100%; }
+
+  a:hover img { opacity: .8; }
+}
+
+
+/* Gems List */
+
+.gems-list {
+  li {
+    box-shadow: 0 4px 8px -3px #d8d8d8;
+    width: 27%;
+    height: 160px;
+    background: none repeat scroll 0 0 white;
+    margin: 10px 1% 10px 1%;
+    padding: 2%;
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+    @include clearfix;
+  }
+
+  h4 {
+    font-weight: normal;
+    margin: 0 0 7px 0;
+  }
+}
