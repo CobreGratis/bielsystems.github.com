@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+
+/* ====================
+Help
+==================== */
+
+#help-header {
+  background-color: #fff;
+  padding: 8px 15px 8px 15px;
+  position: fixed;
+  left:2px;
+  top:2px;
+  z-index: 999;
+
+  .logo {
+    width: 150px;
+    float: left;
+  }
+}
+
+.custom-help {
+  background: #efeff0;
+
+  iframe {
+    width: 100%;
+    margin: 0;
+  }
+}
