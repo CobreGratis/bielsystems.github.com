@@ -231,58 +231,6 @@ Cover
 
 
 /* ====================
-Cliente Feliz
-==================== */
-
-#cliente-feliz,
-#happy-costumer {
-  background: #efefef url("/images/bg-time.png") top center no-repeat;
-  text-align: center;
-  padding: 60px 0 1px 0;
-  @include clearfix;
-}
-
-.videothumbs {
-  margin-bottom: 30px;
-
-  li {
-    box-shadow: 0 4px 8px -3px #d8d8d8;
-    width: 24%;
-    background: none repeat scroll 0 0 white;
-    margin: 0 3% 30px 3%;
-    padding: 10px;
-    display: inline-block;
-    font-size: 14px;
-    opacity: 1;
-
-    img {
-      width: 100%;
-      display: block;
-      &:hover { opacity: .4; }
-    }
-
-    &:hover {
-      background: url("/images/play.jpg") no-repeat white;
-      background-size: 100%;
-    }
-  }
-
-  h3 {
-    margin: 10px 0 0 0;
-    font-size: 14px;
-    color: $he_red;
-  }
-
-  p {
-    font-size: $font-small;
-    margin: 2px 0 0 0;
-    color: #8c8c8c;
-    display: block;
-  }
-}
-
-
-/* ====================
 Sobre Nós
 ==================== */
 
