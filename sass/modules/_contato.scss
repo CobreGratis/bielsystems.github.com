@@ -16,7 +16,7 @@ Contact
     li { display: inline-block; }
   }
 
-  input[type="text"] {
+  input[type="text"], input[type="email"] {
     border-radius: 4px;
     width: 428px;
     height: 50px;
