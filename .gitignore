@@ -6,3 +6,4 @@ _backup
 /start
 .gems
 spec/_posts/*
+.sass-cache
