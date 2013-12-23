@@ -169,117 +169,22 @@ Process (Mágica)
   .hide-content {
     margin-top: 10px;
 
+
     a.show-more {
       cursor: pointer;
     }
 
-    div {
+    div.show-content {
       margin-top: 10px;
+      background: #fff;
+      border: 1px solid $light-grey2;
+      padding: 10px;
 
       iframe {
+        width: 100%;
         max-width: 400px;
+        min-height: 200px;
       }
     }
   }
 }
-
-
-.m-det {
-  text-decoration: underline;
-  font-weight: 300 !important;
-  font-size: $font-small;
-  margin-left: 7px;
-  color: #8c8c8c;
-  cursor: pointer;
-}
-
-
-/* Modal */
-
-#modalBg {
-	width: 100%;
-  height: 100%;
-  background: url("/images/modal-bg.png");
-	position: fixed;
-	left: 0; top: 0;
-	float: left;
-	z-index: 9000;
-  display: none;
-}
-
-.modalClose {
-	width: 30px; height: 30px;
-  background: url("/images/x2.png");
-	position: absolute;
-	right: -12px; top: -12px;
-	text-indent: -9999px;
-	outline: none;
-  cursor: pointer;
-	float: left;
-
-  &:hover { opacity: .8; }
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (min--moz-device-pixel-ratio: 1.5),
-  only screen and (min-resolution: 240dpi) {
-  .modalClose {
-    background: url("/images/x2@2x.png") left no-repeat;
-    background-size: 30px 30px;
-  }
-
-  .video { width: 90%; }
-}
-
-.modalBox {
-  box-shadow: 0 0 75px #450000;
-	width: 460px;
-  background: #fff;
-	position: fixed;
-  border: 5px solid $grey1;
-	top: 30px; left: 50%;
-	z-index: 9999;
-	margin-left: -255px;
-	padding: 15px 20px 20px 20px;
-  display: none;
-
-  h4 {
-    font-size: 24px;
-    margin: 0;
-    color: $he_red;
-  }
-}
-
-.modalDay {
-  font-weight: 300;
-  margin: 0 0 20px 0;
-  font-size: 14px;
-  display: block;
-  color: #8c8c8c;
-}
-
-.video,
-.modalEntry iframe {
-  width: 100%;
-  min-height: 225px;
-  display: block;
-  margin: 20px 0 20px 0;
-}
-
-.modalEntry p {
-  height: auto;
-  border: 1px solid $grey1;
-  margin: -1px 0 0 0;
-  font-size: $font-small;
-  line-height: 17px;
-  padding: 7px 10px 7px 10px;
-
-  strong {
-    margin: 0 !important;
-    padding: 0 !important;
-    line-height: 17px;
-  }
-}
-
-.modalEntry p:nth-child(even) { background: #fafafa; }
-.modalEntry p:nth-child(odd) { background: #fdfdfd; }
