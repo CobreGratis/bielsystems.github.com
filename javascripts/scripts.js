@@ -219,3 +219,24 @@ $(document).ready(function(){
   });
 });
 
+
+
+
+
+// Show Hide div
+
+$(document).ready(function(){
+  $('.hide-content').addClass("hidden");
+
+  $('.hide-content').click(function() {
+      var $this = $(this);
+
+      if ($this.hasClass("hidden")) {
+          $(this).removeClass("hidden").addClass("visible");
+
+      } else {
+          $(this).removeClass("visible").addClass("hidden");
+      }
+  });
+});
+

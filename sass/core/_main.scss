@@ -260,7 +260,7 @@ Services
     width: 30%;
     margin-top: 50px;
     float: right;
- 
+
     li {
       width: 92%;
       padding: 4%;
@@ -302,7 +302,7 @@ Privacy
     list-style-type: circle;
     margin: 10px 0 0 30px;
   }
-  
+
   li:first-child { margin-top: 0 !important; }
 }
 
@@ -351,7 +351,7 @@ footer {
     font-size: $font-small;
     float: left;
   }
-  
+
   address span { display: block; }
 
   h3 {
@@ -406,4 +406,15 @@ footer {
 
 @media only screen and (min-width: 686px) {
   #menu2 { display: block !important; }
+}
+
+
+
+
+.hidden>div {
+  display:none;
+}
+
+.visible>div {
+  display:block;
 }

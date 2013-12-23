@@ -33,10 +33,9 @@ Process (Mágica)
 }
 
 #process-info {
+  margin-top: 30px;
   width: 100%;
   position: relative;
-  margin-bottom: 30px;
-  float: left;
 
   img { width: 55%; }
 
@@ -123,24 +122,25 @@ Process (Mágica)
 /* Process Entry */
 
 #process-entry {
-  margin-bottom: 30px;
+  display: block;
+  margin: 40px 0 60px;
   @include clearfix;
 }
 
 .process-column {
-  width: 43%;
-  height: 410px;
-  margin: 0 0 20px 0;
-  background: $light-grey1;
-  padding: 3%;
+  width: 100%;
+  height: 100%;
+  margin: 0 0 30px 0;
+
   text-align: left;
 
   h3 {
     font-weight: 300;
     text-transform: uppercase;
-    font-size: 19px;
+    font-size: 16px;
     margin: 15px 0 0 0;
     color: #b20000;
+    margin-bottom: 10px;
   }
 
   strong,
@@ -148,22 +148,41 @@ Process (Mágica)
     font-weight: bold;
     display: inline-block;
     color: rgb(71, 60, 60);
-    
+
     &:hover { opacity: .8; }
   }
-
-  strong { margin: 20px 0 5px 0; }
 
   strong a {
     text-decoration: underline;
     cursor: pointer;
   }
+
+  ul {
+    li {
+      background: $light-grey1;
+      border: 1px solid $grey2;
+      padding: 2%;
+      margin-top: -1px;
+    }
+  }
+
+  .hide-content {
+    margin-top: 10px;
+
+    a.show-more {
+      cursor: pointer;
+    }
+
+    div {
+      margin-top: 10px;
+
+      iframe {
+        max-width: 400px;
+      }
+    }
+  }
 }
 
-.left-column { float: left; }
-.right-column { float: right; }
-
-.bottom-column { height: 300px; }
 
 .m-det {
   text-decoration: underline;
