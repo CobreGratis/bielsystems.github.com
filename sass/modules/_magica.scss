@@ -169,9 +169,14 @@ Process (Mágica)
   .hide-content {
     margin-top: 10px;
 
-
     a.show-more {
+      padding: 5px;
       cursor: pointer;
+      font-size: 1.3em;
+      margin-left: -5px;
+      color: $grey2;
+
+      &:hover {color: $he_red}
     }
 
     div.show-content {
