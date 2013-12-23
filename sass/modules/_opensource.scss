@@ -10,6 +10,7 @@ Open Source
   line-height: 23px;
   padding-top: 45px;
   padding-bottom: 35px;
+  @include clearfix;
 
   h4 {
     font-weight: normal;
