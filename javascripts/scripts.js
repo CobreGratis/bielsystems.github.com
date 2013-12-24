@@ -123,8 +123,10 @@ var App = {
     });
 
     $(window).scroll(function(){
-      var posX = $(window).scrollTop() - ($(window).scrollTop() * 40/100) + "px";
-      $("#home").css({backgroundPosition: "50% " + posX });
+      if ($(window).width() > 960) {
+        var posX = $(window).scrollTop() - ($(window).scrollTop() * 40/100) + "px";
+        $("#home").css({backgroundPosition: "50% " + posX });
+      }
     });
 
     if($("section#cloud").size() > 0) {

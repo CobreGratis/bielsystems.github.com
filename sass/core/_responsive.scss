@@ -33,7 +33,11 @@ Media Queries for Tablets
 
   /* Home */
 
-  #home { padding-top: 150px; }
+  #home {
+    background-position-y: 60px;
+    background-size: auto 1421px;
+    padding-top: 150px;
+  }
 
   .services-home li {
     width: 90%;
