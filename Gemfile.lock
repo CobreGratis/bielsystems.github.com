@@ -51,6 +51,7 @@ GEM
     pygments.rb (0.5.2)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    rake (10.1.1)
     rdiscount (1.6.8)
     redcarpet (2.2.2)
     rspec (2.14.1)
@@ -87,6 +88,7 @@ DEPENDENCIES
   maruku (= 0.6.1)
   nokogiri (~> 1.6.0)
   pry (~> 0.9.12.4)
+  rake
   rdiscount (= 1.6.8)
   redcarpet (= 2.2.2)
   rspec (~> 2.14.1)
