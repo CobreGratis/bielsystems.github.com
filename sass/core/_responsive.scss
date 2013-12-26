@@ -117,6 +117,20 @@ Media Queries for Tablets
   }
 
 
+  /* User Projects */ 
+
+  .projects-worked {
+
+    li {
+      width: 100%;
+      height: auto;
+      background: red;
+      margin: 0 0 50px 0;
+    }
+
+  } 
+
+
   /* Mailing page*/
 
   .cover-mailing-page { margin-top: 20px; }
@@ -587,8 +601,6 @@ Media Queries with adjustments for Smartphones
   .projects-worked {
     width: 100%;
     margin-bottom: 0;
-    
-    img { width: 280px; }
   }
   
   #mailing {
