@@ -141,9 +141,7 @@ User Profile
     padding: 10px 0 15px 0;
   }
 
-  li:first-child {
-    border-top: none;
-  }
+  li:first-child { border-top: none; }
 
   h3 a {
     margin: 0 0 10px 0;
@@ -164,9 +162,7 @@ User Profile
 
 .projects-worked {
   width: 60%;
-  margin-bottom: 60px;
   float: left;
-
 
   h2 {
     font-size: $font-big;
@@ -175,13 +171,14 @@ User Profile
   }
 
   img {
-    width: 100%;
-    margin: 20px 0 20px 0;
+    width: 98%;
+    border: 1px solid $light-grey2;
+    padding: 1%
   }
 
   h3 {
     text-transform: none;
-    margin-bottom: 0;
+    margin: 15px 0 0 0;
     font-size: $font-large;
     color: #000;
   }
