@@ -15,6 +15,7 @@ User Profile
   border-bottom: 1px solid #fff;
   padding: 135px 0 35px 0;
   @include clearfix;
+  
 
   h2 {
     font: 900 42px 'Lato', sans-serif;
@@ -129,17 +130,26 @@ User Profile
   float: right;
 
   h2 {
-    font-size: 30px;
+    font-size: $font-big;
     font-weight: 900;
+    margin-bottom: 15px;
   }
 
-  li { margin: 35px 0 0 0; }
-  h3 { margin:0 0 10px 0; }
+  li {
+    border-top: 1px solid $light-grey2;
+    margin: 0;
+    padding: 10px 0 15px 0;
+  }
 
-  a {
-    font-size: 1.4em;
-    font-weight: 400;
-    color: #d92727;
+  li:first-child {
+    border-top: none;
+  }
+
+  h3 a {
+    margin: 0 0 10px 0;
+    font-size: $font-large;
+    
+    &:hover { opacity: .8; }
   }
 
   p {
@@ -157,8 +167,9 @@ User Profile
   margin-bottom: 60px;
   float: left;
 
+
   h2 {
-    font-size: 30px;
+    font-size: $font-big;
     font-weight: 900;
     margin-bottom: 10px;
   }
@@ -169,11 +180,10 @@ User Profile
   }
 
   h3 {
-    font-size: 1.4em;
-    font-weight: 400;
-    color: #d92727;
     text-transform: none;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    font-size: $font-large;
+    color: #000;
   }
 
   p {
