@@ -22,5 +22,5 @@ In the stylesheets folder we have just the generated files by Compass.
 
 ## Import blogposts
 ```sh
-$ bin/import_blogposts
+$ rake import:blogposts
 ```
