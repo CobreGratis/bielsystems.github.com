@@ -5,14 +5,8 @@ http://helabs.com.br
 
 ## Running
 
-1. Start Jekyll
 ```sh
-$ jekyll -w serve
-```
-
-2. Start Compass
-```sh
-$ compass watch
+$ rake server
 ```
 
 ## Editing
