@@ -7,3 +7,4 @@ _backup
 .gems
 spec/_posts/*
 .sass-cache
+.bundle
