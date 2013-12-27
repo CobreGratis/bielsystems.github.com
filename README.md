@@ -3,10 +3,17 @@ Site da HE:labs
 
 http://helabs.com.br
 
-## Running
+## Running Server
 
 ```sh
-$ rake server
+$ bundle exec jekyll serve -w
+
+```
+
+## Running SASS+Compass
+```sh
+$ compass watch
+
 ```
 
 ## Editing
@@ -19,6 +26,7 @@ In the stylesheets folder we have just the generated files by Compass.
 The thumb size is 800x645 and please, export it using .jpg as extension.
 
 ## Import blogposts
+
 ```sh
 $ rake import:blogposts
 ```
