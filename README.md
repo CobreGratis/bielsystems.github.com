@@ -7,16 +7,14 @@ http://helabs.com.br
 
 ```sh
 $ bundle exec jekyll serve -w
-
 ```
 
 ## Running SASS+Compass
 ```sh
 $ compass watch
-
 ```
 
-## Editing
+## Editing CSS
 
 You can edit the SCSS files in the sass folder.
 In the stylesheets folder we have just the generated files by Compass.
