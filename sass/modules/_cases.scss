@@ -6,7 +6,6 @@ Cases
 ==================== */
 
 #cases {
-  display: none;
 
   li {
     width: 100%;
@@ -64,6 +63,7 @@ Cases
     color: #fff;
     text-decoration: none;
     margin: 10px 0 0 0;
+    display: none;
 
     &:hover { opacity: .8; }
   }
