@@ -18,7 +18,8 @@ User Profile
   
 
   h2 {
-    font: 900 42px 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: $font-big;
     color: #000;
   }
 }
@@ -130,7 +131,7 @@ User Profile
   float: right;
 
   h2 {
-    font-size: $font-big;
+    font-size: $font-large;
     font-weight: 900;
     margin-bottom: 15px;
   }
@@ -145,7 +146,7 @@ User Profile
 
   h3 a {
     margin: 0 0 10px 0;
-    font-size: $font-large;
+    font-size: $font-medium;
     
     &:hover { opacity: .8; }
   }
@@ -165,7 +166,7 @@ User Profile
   float: left;
 
   h2 {
-    font-size: $font-big;
+    font-size: $font-large;
     font-weight: 900;
     margin-bottom: 25px;
   }
@@ -186,7 +187,7 @@ User Profile
   h3 {
     text-transform: none;
     margin: 15px 0 0 0;
-    font-size: $font-large;
+    font-size: $font-medium2;
     color: #000;
   }
 
