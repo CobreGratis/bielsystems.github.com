@@ -4,25 +4,27 @@
 @import "core/variables";
 @import "core/main";
 
-// Modules
+// Global nav
 @import "modules/home";
 @import "modules/magica";
 @import "modules/clientefeliz";
 @import "modules/sobrenos";
+@import "modules/valores";
 @import "modules/time";
-@import "modules/jobs";
-@import "modules/opensource";
 @import "modules/profile";
 @import "modules/trabalhos";
-@import "modules/help";
+@import "modules/contato";
+
+// Secondary Pages
+@import "modules/opensource";
 @import "modules/apoios";
 @import "modules/mailing";
-@import "modules/contato";
 @import "modules/mediakit";
+@import "modules/help";
+@import "modules/jobs";
 
 // Responsive
 @import "core/responsive";
-
 
 // Plugins
 @import "plugins/prettyPhoto";
