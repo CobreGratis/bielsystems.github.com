@@ -57,6 +57,36 @@ Media Queries for Tablets
   }
 
   #cover-mailing { margin-top: 80px; }
+  
+  
+  /* ====================
+  Sobre Nós
+  ==================== */
+
+  #conheca {
+    background: #efefef url("/images/bg-time.png") top center no-repeat;
+    padding: 60px 0 1px 0;
+    @include clearfix;
+  }
+
+  .videothumbs2 {
+    width: 100%;
+
+    li {
+      width: 42%;
+      margin: 0 2% 20px 2%;
+      display: inline-block;
+      float: none;
+    }
+
+  }
+
+  .about-text {
+    width: 100%;
+    border-top: 1px solid $grey2;
+    padding: 40px 0 30px 0;
+    float: left;
+  }
 
 
   /* Profile */
