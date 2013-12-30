@@ -8,12 +8,13 @@ Mission, Vision and Values.
 #valores {
   background: #fafafa;
   padding: 5px 0 30px 0;
-  
   @include clearfix;
   
-  li {
+  ul { width: 47%; }
+  
+  .column-01 { float: left; }
+  .column-02 { float: right; }
 
-  }
   h3 {
     text-transform: uppercase;
     margin: 40px 0 10px 0;
