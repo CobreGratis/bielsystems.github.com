@@ -78,7 +78,7 @@ var App = {
   InterfaceActions: function() {
 
     // Eduardo's easter egg
-    $("img[src='/images/time/time-eduardo.jpg']").on("hover", function() {
+    $("img[src='/images/time/time-eduardo.jpg']").hover(function() {
       $(this).attr("src", "/images/time/time-eduardo.gif");
     });
 

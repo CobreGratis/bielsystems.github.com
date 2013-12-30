@@ -14,6 +14,11 @@ $ bundle exec jekyll serve -w
 $ compass watch
 ```
 
+## After editing JS files before push (this is a workaround and will be fixed :)
+```sh
+$ ./build.sh
+```
+
 ## Editing CSS
 
 You can edit the SCSS files in the sass folder.
