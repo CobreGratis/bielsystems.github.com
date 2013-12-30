@@ -1,25 +1,31 @@
 // Console
 
-if(typeof(console) == 'undefined') console = { log : function(){} };
-if(typeof(console.log) != 'function') console.log = function(){};
+if (typeof(console) == 'undefined') console = {
+  log: function() {}
+};
+if (typeof(console.log) != 'function') console.log = function() {};
 
 // Collapse Plugin
 
 (function($) {
-$.fn.collapsable = function(options) {
-  // iterate and reformat each matched element
-  return this.each(function() {
-    // cache this:
-    var obj = $(this);
-    var tree = obj.next('.navigation');
-    obj.click(function(){
-      if( obj.is(':visible') ){tree.toggle();}
+  $.fn.collapsable = function(options) {
+    // iterate and reformat each matched element
+    return this.each(function() {
+      // cache this:
+      var obj = $(this);
+      var tree = obj.next('.navigation');
+      obj.click(function() {
+        if (obj.is(':visible')) {
+          tree.toggle();
+        }
+      });
+      $(window).resize(function() {
+        if ($(window).width() <= 570) {
+          tree.attr('style', '');
+        };
+      });
     });
-    $(window).resize(function(){
-      if ( $(window).width() <= 570 ){tree.attr('style','');};
-    });
-  });
-};
+  };
 })(jQuery);
 
 
@@ -28,57 +34,74 @@ $.fn.collapsable = function(options) {
 var App = {
 
   StartApp: function() {
-      try {
-        this.Modal();
-        this.InterfaceActions();
-      } catch (e) {
-        alert('Existem erros no script.');
-        console.log('Error: ' + e);
-      }
+    this.Modal();
+    this.InterfaceActions();
   },
 
-	Modal: function() {
+  Modal: function() {
 
-		var $modalBg = $("#modalBg");
-		var $modalBox = $(".modalBox");
+    var
+      $modalBg = $("#modalBg"),
+      $modalBox = $(".modalBox")
+    ;
 
-		$('.modalBox').append('<span class="modalClose">Fechar</span>');
+    $('.modalBox').append('<span class="modalClose">Fechar</span>');
 
-		function EnableModal(){
-      $('body').css({'overflow':'hidden'});
-			$modalBg.show();
-		}
+    function EnableModal() {
+      $('body').css({
+        'overflow': 'hidden'
+      });
+      $modalBg.show();
+    }
 
-		function DisableModal(){
-			$modalBg.fadeOut();
-			$modalBox.fadeOut();
+    function DisableModal() {
+      $modalBg.fadeOut();
+      $modalBox.fadeOut();
       $("body").css("overflow", "visible");
-		}
+    }
 
     // Trigger 01
-		$('.modalTrigger').click(function() {
-			EnableModal();
-			$(this).parent().parent().find('.modalBox').fadeIn();
-		});
+    $('.modalTrigger').click(function() {
+      EnableModal();
+      $(this).parent().parent().find('.modalBox').fadeIn();
+    });
 
     // Trigger 02
-		$('.m-det').click(function() {
-			EnableModal();
-			$(this).parent().find('.modalBox').fadeIn();
-		});
+    $('.m-det').click(function() {
+      EnableModal();
+      $(this).parent().find('.modalBox').fadeIn();
+    });
 
-		$modalBg.mouseup(function() {
-			DisableModal();
-		});
+    $modalBg.mouseup(function() {
+      DisableModal();
+    });
 
-		$('.modalClose').click(function() {
-			DisableModal();
-		});
+    $('.modalClose').click(function() {
+      DisableModal();
+    });
 
   }, // Modal
 
   InterfaceActions: function() {
 
+    // Eduardo's easter egg
+    $("img[src='/images/time/time-eduardo.jpg']").on("hover", function() {
+      $(this).attr("src", "/images/time/time-eduardo.gif");
+    });
+
+    //
+    $('.hide-content').addClass("hidden");
+
+    $('.hide-content').click(function() {
+      var $this = $(this);
+
+      if ($this.hasClass("hidden")) {
+        $(this).removeClass("hidden").addClass("visible");
+
+      } else {
+        $(this).removeClass("visible").addClass("hidden");
+      }
+    });
 
     /* Menu: Current Page */
 
@@ -94,30 +117,30 @@ var App = {
 
     /* Menu: Mobile */
 
-    $("#menu-trigger").click(function(){
+    $("#menu-trigger").click(function() {
       $("#menu2").toggle();
     });
 
-		$('.slide-trigger').collapsable();
+    $('.slide-trigger').collapsable();
 
 
     /* PrettyPhoto */
 
-		$("a[rel^='prettyPhoto']").prettyPhoto({
-			deeplinking: false,
-      changepicturecallback: function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto({
+      deeplinking: false,
+      changepicturecallback: function() {
         var viewportWidth = $('body').innerWidth();
         if (viewportWidth < 1025) {
-            $(".pp_pic_holder.pp_default").css("top",window.pageYOffset+"px");
+          $(".pp_pic_holder.pp_default").css("top", window.pageYOffset + "px");
         }
       }
-		});
+    });
 
 
     /* External Links */
 
     $("a[rel^='external']").each(function() {
-      $(this).attr("target","_blank");
+      $(this).attr("target", "_blank");
     });
 
 
@@ -128,31 +151,32 @@ var App = {
       axis: 'y'
     });
 
-    $(window).scroll(function(){
+    $(window).scroll(function() {
       if ($(window).width() > 960) {
-        var posX = $(window).scrollTop() - ($(window).scrollTop() * 40/100) + "px";
-        $("#home").css({backgroundPosition: "50% " + posX });
+        var posX = $(window).scrollTop() - ($(window).scrollTop() * 40 / 100) + "px";
+        $("#home").css({
+          backgroundPosition: "50% " + posX
+        });
       }
     });
 
-    if($("section#cloud").size() > 0) {
+    if ($("section#cloud").size() > 0) {
 
-      var $slider = $("ul.step-list");
+      var
+      $slider = $("ul.step-list"),
+        i = 1;
 
-      var i = 1;
-
-      function changeActive(){
-        $("ul.nav-slider a").removeClass("active");
-        $("ul.nav-slider a").eq(i - 1).addClass("active");
+      function changeActive() {
+        $("ul.nav-slider a").removeClass("active").eq(i - 1).addClass("active");
       }
 
-      function animateSlider(index){
+      function animateSlider(index) {
         $slider.animate({
           left: "-" + 930 * i + "px"
         }, 1000);
       }
 
-      $("ul.nav-slider li").click(function(e){
+      $("ul.nav-slider li").click(function(e) {
         e.preventDefault();
         i = $(this).index();
         animateSlider(i);
@@ -161,9 +185,9 @@ var App = {
         console.log(i);
       });
 
-      $("#next").click(function(e){
+      $("#next").click(function(e) {
         e.preventDefault();
-        if(i <= 2) {
+        if (i <= 2) {
           i++;
           console.log("menor");
           $slider.animate({
@@ -179,16 +203,16 @@ var App = {
         changeActive();
       });
 
-      $("#prev").click(function(e){
+      $("#prev").click(function(e) {
         e.preventDefault();
-        if(i > 1) {
+        if (i > 1) {
           $slider.animate({
             left: "+=930px"
           }, 1000);
           i--;
         } else if (i <= 1) {
           $slider.animate({
-            left: "-="+ 930 * 2 +"px"
+            left: "-=" + 930 * 2 + "px"
           }, 1000);
           i = 5;
         }
@@ -196,15 +220,19 @@ var App = {
       });
     }
 
-    if($("section#cliente").size() > 0) {
+    if ($("section#cliente").size() > 0) {
 
-      link = $(".js-client-videos-chooser a")
-      iframe = $(".js-client-videos iframe");
+      var
+        link = $(".js-client-videos-chooser a"),
+        iframe = $(".js-client-videos iframe")
+      ;
+
       iframe.hide();
       iframe.eq(0).show();
+
       link.eq(0).addClass("selected");
-      link.click(function(e){
-        clicked = $(this).index();
+      link.click(function(e) {
+        var clicked = $(this).index();
         link.removeClass("selected");
         $(this).addClass("selected");
         iframe.hide();
@@ -217,30 +245,6 @@ var App = {
 
 } // Var Site
 
-jQuery(function(){
-	App.StartApp();
+jQuery(function() {
+  App.StartApp();
 });
-
-$(document).ready(function(){
-  $("img[src='/images/time/time-eduardo.jpg']").on("hover", function(){
-    $(this).attr("src", "/images/time/time-eduardo.gif");
-  });
-});
-
-// Show Hide div
-
-$(document).ready(function(){
-  $('.hide-content').addClass("hidden");
-
-  $('.hide-content').click(function() {
-      var $this = $(this);
-
-      if ($this.hasClass("hidden")) {
-          $(this).removeClass("hidden").addClass("visible");
-
-      } else {
-          $(this).removeClass("visible").addClass("hidden");
-      }
-  });
-});
-
