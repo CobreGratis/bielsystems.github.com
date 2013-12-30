@@ -60,15 +60,17 @@ Sobre Nós
 .about-text {
   width: 38%;
   float: right;
-}
+  h4 {
+    text-transform: uppercase;
+    margin: 40px 0 10px 0;
+    font-weight: 300;
+    font-size: $font-large;
+  }
 
-.about-text h4 {
-  text-transform: uppercase;
-  margin: 40px 0 10px 0;
-  font-weight: 300;
-  font-size: $font-large;
-}
+  h4:first-child { margin-top: 0; }
 
-.about-text h4:first-child {
-  margin-top: 0;
+  p {
+    font-size: $font-medium2;
+    line-height: 27px;
+  }
 }
