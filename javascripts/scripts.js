@@ -38,7 +38,7 @@ var App = {
       $modalBox = $(".modalBox")
     ;
 
-    $('.modalBox').append('<span class="modalClose">Fechar</span>');
+    $modalBox.append('<span class="modalClose">Fechar</span>');
 
     function EnableModal() {
       $('body').css({
