@@ -227,10 +227,6 @@ $(document).ready(function(){
   });
 });
 
-
-
-
-
 // Show Hide div
 
 $(document).ready(function(){
