@@ -1,10 +1,3 @@
-// Console
-
-if (typeof(console) == 'undefined') console = {
-  log: function() {}
-};
-if (typeof(console.log) != 'function') console.log = function() {};
-
 // Collapse Plugin
 
 (function($) {
@@ -182,14 +175,12 @@ var App = {
         animateSlider(i);
         i = $(this).index() + 1;
         changeActive();
-        console.log(i);
       });
 
       $("#next").click(function(e) {
         e.preventDefault();
         if (i <= 2) {
           i++;
-          console.log("menor");
           $slider.animate({
             left: "-=930px"
           }, 1000);
