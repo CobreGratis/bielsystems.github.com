@@ -7,6 +7,22 @@ Mission, Vision and Values.
 
 #valores {
   background: #fafafa;
-  padding-bottom: 40px;
+  padding: 5px 0 30px 0;
+  
   @include clearfix;
+  
+  li {
+
+  }
+  h3 {
+    text-transform: uppercase;
+    margin: 40px 0 10px 0;
+    font-weight: 300;
+    font-size: $font-large;
+    color: #000;
+  }
+  p {
+    font-size: $font-medium2;
+    line-height: 27px;
+  }
 }
