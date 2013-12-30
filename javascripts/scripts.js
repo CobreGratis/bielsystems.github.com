@@ -104,7 +104,13 @@ var App = {
     /* PrettyPhoto */
 
 		$("a[rel^='prettyPhoto']").prettyPhoto({
-			deeplinking: false
+			deeplinking: false,
+      changepicturecallback: function(){
+        var viewportWidth = $('body').innerWidth();
+        if (viewportWidth < 1025) {
+            $(".pp_pic_holder.pp_default").css("top",window.pageYOffset+"px");
+        }
+      }
 		});
 
 
