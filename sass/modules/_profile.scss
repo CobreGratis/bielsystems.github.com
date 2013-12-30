@@ -29,10 +29,9 @@ User Profile
   float: left;
 
   p {
+    font-size: $font-medium2;
+    line-height: 27px;
     text-align: left;
-    line-height: 1.8em;
-    font-size: 1.2em;
-    color: #474747;
   }
 
   .job-title {
