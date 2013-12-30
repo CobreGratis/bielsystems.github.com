@@ -162,8 +162,8 @@ Process (Mágica)
       padding: 2%;
       margin-top: -1px;
     }
-    li:nth-child(even) {background: $light-grey1}
-    li:nth-child(odd) {background: $light-grey2}
+    li:nth-child(even) {background: $light-grey1; }
+    li:nth-child(odd) {background: $light-grey2; }
   }
 
   .hide-content {

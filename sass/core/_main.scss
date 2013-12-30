@@ -236,7 +236,7 @@ Services
 
 .services {
   background: #fafafa;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid $grey1;
   padding-bottom: 40px;
   @include clearfix;
 
@@ -277,8 +277,8 @@ Services
 
 .last-serv { border-bottom: none; }
 
-.services:nth-child(even) {background: #f4f4f4}
-.services:nth-child(odd) {background: #fafafa}
+.services:nth-child(even) {background: $light-grey1; }
+.services:nth-child(odd) {background: $light-grey2; }
 
 .services-text {
   width: 60%;
