@@ -66,21 +66,22 @@ Contact
 }
 
 .contact-send {
-  font-size: 17px;
+  font-size: $font-medium2;
   line-height: 26px;
   margin: 40px 0 30px 0;
 }
 
-span.error {
+label.error {
   @include round_borders (4px);
   background: #ffe0de;
   padding: 8px 10px;
   position: absolute;
   right: -10px;
-  top: -26px;
+  top: 0;
   font-size: $font-small;
   margin: 10px 0 0 10px;
   font-weight: bold;
   color: $he_red;
   display: inline-block;
+  cursor: default;
 }
