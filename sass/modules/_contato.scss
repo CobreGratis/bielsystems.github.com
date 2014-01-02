@@ -16,7 +16,7 @@ Contact
 
   input[type="text"],
   input[type="email"] {
-    border-radius: 4px;
+    @include round_borders (4px);
     width: 428px;
     height: 50px;
     background-color: $light-grey2;
@@ -30,7 +30,7 @@ Contact
   }
 
   textarea {
-    border-radius: 4px;
+    @include round_borders (4px);
     width: 428px; max-width: 428px; min-width: 428px;
     height: 80px; max-height: 400px; min-height: 80px;
     background-color: $light-grey2;
@@ -44,7 +44,7 @@ Contact
   }
 
   button {
-    border-radius: 4px;
+    @include round_borders (4px);
     width: 220px;
     height: 50px;
     line-height: 50px;
