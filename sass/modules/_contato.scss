@@ -48,7 +48,7 @@ Contact
     width: 220px;
     height: 50px;
     line-height: 50px;
-    font: normal 19px $sans_serif;
+    font: normal $font-medium2 $sans_serif;
     padding: 0 15px 0 15px;
     background: $he_red;
     display: inline-block;
@@ -68,14 +68,14 @@ Contact
   margin: 40px 0 30px 0;
 }
 
-span.error {
+span.contact-error {
   @include round_borders (4px);
   background: #ffe0de;
   padding: 8px 10px;
   position: absolute;
   right: -10px;
   top: -10px;
-  font-size: 12px;
+  font-size: $font-small;
   margin: 10px 0 0 10px;
   font-weight: bold;
   color: $he_red;
