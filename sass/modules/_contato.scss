@@ -69,6 +69,7 @@ Contact
 }
 
 span.error {
+  @include round_borders (4px);
   background: #ffe0de;
   padding: 8px 10px;
   position: absolute;

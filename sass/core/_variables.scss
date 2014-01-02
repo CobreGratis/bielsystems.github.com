@@ -65,3 +65,9 @@ $he_red: #b80606;
   -ms-animation-timing-function: ease-in;
   -o-animation-timing-function: ease-in;
 }
+
+@mixin round_borders ($radius) {
+  border-radius: $radius;
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
