@@ -248,9 +248,18 @@ Privacy
 }
 
 
-/* ====================
-Footer
-==================== */
+
+/* Bottom Nav */
+
+.bottom-nav {
+  border-top: 1px solid #eaeaea;
+  padding: 15px 0 15px 0;
+  background: $light-grey2;
+  clear: both;
+}
+
+
+/* Footer */
 
 footer {
   border-top: 1px solid #fff;
