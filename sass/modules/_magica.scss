@@ -147,8 +147,6 @@ Process (Mágica)
     font-weight: bold;
     display: inline-block;
     color: rgb(71, 60, 60);
-
-    &:hover { opacity: .8; }
   }
 
   strong a {
@@ -180,6 +178,7 @@ Process (Mágica)
     }
 
     .show-content {
+      border-radius: 4px ;
       margin-top: 10px;
       background: #fff;
       border: 1px solid $grey2;
@@ -190,6 +189,7 @@ Process (Mágica)
         width: 100%;
         max-width: 400px;
         min-height: 200px;
+        margin-bottom: 20px;
       }
       
     } // div.show-content
