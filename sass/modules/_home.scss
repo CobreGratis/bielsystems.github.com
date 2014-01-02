@@ -21,7 +21,7 @@ Home
 
   h3 {
     margin: 25px 0 5px 0;
-    font-size: 38px;
+    font-size: $font-big;
   }
 }
 
@@ -33,7 +33,7 @@ Home
 }
 
 .logo-tip-trigger {
-  font-size: 26px;
+  font-size: $font-large;
   text-decoration: none;
   border-bottom: 1px dotted #fff;
   position: relative;
@@ -125,7 +125,7 @@ Home
     padding: 10px;
     left: 50%;
     margin-left: -61px;
-    font-size: 14px;
+    font-size: $font-medium;
     color: #fff;
     text-align: center;
     background: #222;
@@ -192,7 +192,7 @@ Home
 
   p {
     font-family: 'lato';
-    font-size: 17px;
+    font-size: $font-medium2;
     line-height: 24px;
     margin: 0 !important;
   }

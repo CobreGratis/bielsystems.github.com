@@ -23,7 +23,7 @@ Cliente Feliz
     margin: 0 3% 30px 3%;
     padding: 10px;
     display: inline-block;
-    font-size: 14px;
+    font-size: $font-medium;
     opacity: 1;
 
     img {
@@ -40,7 +40,7 @@ Cliente Feliz
 
   h3 {
     margin: 10px 0 0 0;
-    font-size: 14px;
+    font-size: $font-medium;
     color: $he_red;
   }
 

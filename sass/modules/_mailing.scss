@@ -29,7 +29,7 @@ Mailing
     font-weight: 300;
     text-transform: uppercase;
     margin: 5px 0 20px 0;
-    font-size: 24px;
+    font-size: $font-large;
 
     strong {
       font-weight: 300 !important;
@@ -70,7 +70,7 @@ Mailing
   }
 
   li {
-    font-size: 14px;
+    font-size: $font-medium;
     margin: 0 7px 0 7px;
     display: inline;
   }
@@ -91,11 +91,11 @@ Mailing
   
   .display_archive {
     .campaign {
-      font-size: 14px;
+      font-size: $font-medium;
       margin-bottom: 30px;
 
       a {
-        font-size: 16px;
+        font-size: $font-medium2;
         text-decoration: none;
 
         &:hover { opacity: .8; }

@@ -18,13 +18,13 @@ Jobs
     float: left;
 
     h3 {
-      font-size: 23px;
+      font-size: $font-large;
       line-height: 27px;
       margin: 0 0 20px 0;
     }
 
     p {
-      font-size: 16px;
+      font-size: $font-medium2;
       line-height: 26px;
     }
   }
@@ -58,15 +58,14 @@ Jobs
   .column02 { float: right; }
 
   h4 {
-    font-size: 1.8em;
+    font-size: $font-large;
     font-weight: 700;
-    line-height: 1.6em;
     color: #000;
-    margin: 0;
+    margin: 0 0 5px 0;
   }
 
   p {
-    font-size: 14px;
+    font-size: $font-medium;
     line-height: 23px;
   }
 
@@ -94,12 +93,12 @@ Jobs
   text-align: center;
 
   h3 {
-    font-size: 23px;
+    font-size: $font-large;
     margin: 0 0 5px 0;
   }
 
   p {
-    font-size: 14px;
+    font-size: $font-medium;
     line-height: 23px;
   }
 
@@ -111,13 +110,13 @@ Jobs
 
 .job-description {
   font-family: $sans_serif;
-  font-size: 14px;
+  font-size: $font-medium;
   line-height: 23px;
   margin-bottom: 40px;
 
   h3 {
     margin: 0 0 15px 0;
-    font-size: 24px;
+    font-size: $font-large;
   }
 }
 

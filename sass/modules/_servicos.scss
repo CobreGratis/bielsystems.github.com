@@ -39,7 +39,7 @@ Serviços
 
     h5 {
       margin: 10px 0 0 0;
-      font-size: 14px;
+      font-size: $font-medium;
       color: $he_red;
     }
   }
@@ -54,6 +54,6 @@ Serviços
   width: 60%;
   position: relative;
   line-height: 28px;
-  font-size: 17px;
+  font-size: $font-medium2;
   float: left;
 }

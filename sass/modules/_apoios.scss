@@ -22,7 +22,7 @@ Apoios
   p {
     margin: 10px 0 0 0;
     font-weight: bold;
-    font-size: 14px;
+    font-size: $font-medium;
     color: $he_red;
   }
 
@@ -36,7 +36,7 @@ Apoios
     padding: 10px;
     text-align: center;
     display: inline-block;
-    font-size: 14px;
+    font-size: $font-medium;
 
     img {
       width: 100%;

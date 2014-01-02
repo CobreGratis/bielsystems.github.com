@@ -14,7 +14,7 @@ Open Source
 
   h4 {
     font-weight: normal;
-    font-size: 23px;
+    font-size: $font-large;
   }
 
   p { margin: 0; }
@@ -61,7 +61,7 @@ Open Source
     padding: 2%;
     float: left;
     text-align: left;
-    font-size: 14px;
+    font-size: $font-medium;
     line-height: 21px;
     @include clearfix;
   }

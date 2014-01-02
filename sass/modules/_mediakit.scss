@@ -9,7 +9,7 @@ Media Kit
   width: 80%;
   position: relative;
   line-height: 28px;
-  font-size: 17px;
+  font-size: $font-medium2;
   margin-right: auto;
   margin-left: auto;
   text-align:center;
@@ -36,7 +36,7 @@ Media Kit
 
   h3 {
     font-weight: 500;
-    font-size: 34px;
+    font-size: $font-big;
     margin-top: 35px;
     margin-bottom: 35px;
     color: #990000;
@@ -60,7 +60,7 @@ Media Kit
     background-image: url("/images/bt_download.png");
     text-decoration: none;
     text-align: left;
-    font-size: 14px;
+    font-size: $font-medium;
     font-weight: lighter;
     color: #fff;
     display: block;
@@ -89,7 +89,7 @@ Media Kit
 
   h3 {
     font-weight: 500;
-    font-size: 34px;
+    font-size: $font-big;
     margin-top: 50px;
     margin-bottom: 15px;
     color: #990000;
@@ -135,7 +135,7 @@ Media Kit
   display: block;
   width: 100px;
   height: 30px;
-  font-size: 18px;
+  font-size: $font-medium2;
   font-weight: lighter;
   color: transparent;
   margin-top: 20px;
@@ -158,7 +158,7 @@ Media Kit
 
   h3 {
     font-weight: 500;
-    font-size: 34px;
+    font-size: $font-big;
     margin-top: 50px;
     margin-bottom: 15px;
     color: #990000;

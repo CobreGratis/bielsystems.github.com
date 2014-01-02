@@ -173,7 +173,7 @@ Cover
     font-weight: 300;
     text-transform: uppercase;
     margin: 10px 0 0 0;
-    font-size: 24px;
+    font-size: $font-large;
   }
 
   ul { margin: 30px 0 0 0; }
@@ -266,7 +266,7 @@ footer {
   width: 100%;
   background-color: $grey4;
   padding: 30px 0 85px 0;
-  font-size: 14px;
+  font-size: $font-medium;
   position: relative;
   clear: both;
 

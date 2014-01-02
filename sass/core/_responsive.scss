@@ -231,7 +231,7 @@ Media Queries for Smartphones
       padding: 0 3% 0 3%;
       background: $grey4;
       text-transform: none;
-      font-size: 14px;
+      font-size: $font-medium;
       color: #fff;
       display: !important;
       float: left;
@@ -274,7 +274,7 @@ Media Queries for Smartphones
       line-height: 47px;
     }
 
-    h3 { font-size: 23px; }
+    h3 { font-size: $font-large; }
 
     .home-button { display: none; }
   }
@@ -303,7 +303,7 @@ Media Queries for Smartphones
     }
 
     p {
-      font-size: 17px;
+      font-size: $font-medium2;
       margin: 10px 0 0 0;
     }
   }
@@ -319,7 +319,7 @@ Media Queries for Smartphones
     }
 
     .sup {
-      font-size: 17px;
+      font-size: $font-medium2;
       margin: 10px 0 0 0;
     }
 
@@ -342,7 +342,7 @@ Media Queries for Smartphones
     height: auto;
     padding: 15px !important;
     text-align: center;
-    font-size: 16px;
+    font-size: $font-medium2;
   }
 
   #time .red-button { margin-bottom: 40px; }
@@ -421,7 +421,7 @@ Media Queries for Smartphones
     margin-bottom: 40px;
 
     li {
-      font-size: 14px;
+      font-size: $font-medium;
       line-height: 22px;
     }
   }
@@ -447,7 +447,7 @@ Media Queries for Smartphones
       }
 
       p {
-        font-size: 14px;
+        font-size: $font-medium;
         height: 70px;
       }
 
@@ -471,17 +471,17 @@ Media Queries for Smartphones
     width: 100%;
 
     p {
-      font-size: 14px;
+      font-size: $font-medium;
       line-height: 23px;
     }
 
-    .job-title { font-size: 14px; }
+    .job-title { font-size: $font-medium; }
   }
 
   .profile-picture img { display: none; }
   .profile-cote { padding: 35px 0 40px 0; }
   .cote p { font: 700 30px 'lato', sans-serif; }
-  .signature { font-size: 16px; }
+  .signature { font-size: $font-medium2; }
 
   .photo-bio {
     width: 100%;
@@ -739,7 +739,7 @@ Media Queries with more adjustments for Smartphones
       line-height: 25px;
     }
 
-    p { font-size: 14px; }
+    p { font-size: $font-medium; }
   }
 
 
