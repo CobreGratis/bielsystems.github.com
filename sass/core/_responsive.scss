@@ -337,7 +337,7 @@ Media Queries for Smartphones
   /* Red Button */
 
   .red-button {
-    border-radius: 12px;
+    @include round_borders (12px);
     width: 250px;
     height: auto;
     padding: 15px !important;

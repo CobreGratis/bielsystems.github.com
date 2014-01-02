@@ -88,7 +88,7 @@ Nav
   }
 
   a {
-    border-radius: 2px;
+    @include round_borders (2px);
     height: 36px;
     border: 1px solid #fff;
     line-height: 36px;
@@ -128,7 +128,7 @@ Nav
 /* Mobile Menu */
 
 #menu-trigger {
-  border-radius: 4px;
+  @include round_borders (4px);
   height: 36px;
   line-height: 36px;
   padding: 0 10px 0 10px;
@@ -192,7 +192,7 @@ Cover
 .open-developer,
 .open-designer {
   box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
-  border-radius: 40px;
+  @include round_borders (40px);
   width: 140px;
   height: 50px;
   background: #fff;
@@ -282,7 +282,7 @@ footer {
 }
 
 .tel {
-  border-radius: 2px;
+  @include round_borders (2px);
   height: 25px;
   line-height: 25px;
   background-color: rgba(0, 0, 0, 0.4);

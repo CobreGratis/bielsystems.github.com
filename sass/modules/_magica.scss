@@ -178,7 +178,7 @@ Process (Mágica)
     }
 
     .show-content {
-      border-radius: 4px ;
+      @include round_borders (4px);
       margin-top: 10px;
       background: #fff;
       border: 1px solid $grey2;

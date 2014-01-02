@@ -17,7 +17,7 @@ Trabalhos
   li:nth-child(even) { background: #fff; }
 
   .case-thumb {
-    border-radius: 5px;
+    @include round_borders (4px);
     border-top-right-radius: 5px;
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
@@ -30,7 +30,7 @@ Trabalhos
     img {
       border: 1px solid $grey2;
       border-bottom: none;
-      border-radius: 2px;
+      @include round_borders (2px);
       width: 99.6%;
       float: left;
     }
@@ -40,7 +40,7 @@ Trabalhos
 .browser-nav {
   border: 1px solid $grey2;
   background: #fff;
-  border-radius: 2px;
+  @include round_borders (2px);
   margin-bottom: 5px;
   height: 25px;
 }
@@ -54,7 +54,7 @@ Trabalhos
 .case-info {
   a {
     border-bottom: 2px solid #880505;
-    border-radius: 4px;
+    @include round_borders (4px);
     height: 40px;
     line-height: 40px;
     background: $he_red;
