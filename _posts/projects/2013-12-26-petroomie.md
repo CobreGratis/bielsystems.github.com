@@ -4,5 +4,5 @@ category: projects
 slug: petroomie
 name: PetRoomie
 image: /images/projects/petroomie.jpg
-description: Site que oferece hospedagem e serviços para pets.
+description: Serviço que oferece hospedagem e serviços para pets.
 ---
