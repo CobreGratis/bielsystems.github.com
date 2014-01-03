@@ -142,16 +142,9 @@ Process (Mágica)
     margin-bottom: 15px;
   }
 
-  strong,
-  strong a {
-    font-weight: bold;
-    display: inline-block;
-    color: rgb(71, 60, 60);
-  }
-
-  strong a {
-    text-decoration: underline;
-    cursor: pointer;
+  h4 {
+    font-size: $font-medium2;
+    margin: 0 0 3px 0;
   }
 
   ul {
@@ -160,6 +153,7 @@ Process (Mágica)
       padding: 2%;
       margin-top: -1px;
     }
+
     li:nth-child(even) {background: $light-grey1; }
     li:nth-child(odd) {background: $light-grey2; }
   }
@@ -178,6 +172,7 @@ Process (Mágica)
     }
 
     .show-content {
+      box-shadow: 0 0 10px $grey2;
       @include round_borders (4px);
       margin-top: 10px;
       background: #fff;
