@@ -4,5 +4,5 @@ category: projects
 slug: meudoutor
 name: Meu Doutor
 image: /images/projects/meudoutor.jpg
-description: Cadastro de médicos voluntários e agendamento de consultas.
+description: Serviço para cadastro de médicos voluntários e agendamento de consultas.
 ---
