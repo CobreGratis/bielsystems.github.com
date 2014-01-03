@@ -1,10 +1,10 @@
 .DS_Store
-_site
-_backup
-/serve
-/server/
+_site/
+_backup/
+server/
+serve/
 /start
 .gems
 spec/_posts/*
-.sass-cache
-.bundle
+.sass-cache/
+.bundle/
