@@ -59,8 +59,11 @@ Trabalho / Work
   height: 25px;
 }
 
-.odd-work .work-thumb { float: left; }
-.even-work .work-thumb { float: right; }
+.odd-work .work-thumb,
+.odd-work .work-thumb-mobile { float: left; }
+
+.even-work .work-thumb,
+.even-work .work-thumb-mobile { float: right; }
 
 .odd-work .work-info { margin-left: 450px; }
 .even-work .work-info { margin-right: 450px; }
