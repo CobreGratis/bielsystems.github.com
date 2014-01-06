@@ -26,7 +26,7 @@ In the stylesheets folder we have just the generated files by Compass.
 
 ## Adding A Project To Your Profile
 
-The thumb size is 800x645 and please, export it using .jpg as extension.
+The thumb size is 800x465 and please, export it using .jpg as extension.
 
 ## Import blogposts
 
