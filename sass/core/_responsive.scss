@@ -169,7 +169,7 @@ Media Queries for Tablets
   /* Work */
 
   .browser-nav { height: 15px; }
-
+  
   #work .work-thumb,
   #work .work-thumb-mobile { width: 250px; }
 
@@ -498,7 +498,8 @@ Media Queries for Smartphones
   #work {
     text-align: center;
 
-    .work-thumb {
+    .work-thumb,
+    .work-thumb-mobile {
       width: 60%;
       margin-bottom: 25px;
       display: inline-block;
@@ -647,8 +648,9 @@ Media Queries with adjustments for Smartphones
 
 
   /* works */
-
-  #works .work-thumb { width: 96%; }
+  
+  #work .work-thumb,
+  #work .work-thumb-mobile { width: 96%; }
 
   .work-info h3 {
     font-size: 28px;
