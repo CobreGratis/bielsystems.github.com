@@ -169,7 +169,9 @@ Media Queries for Tablets
   /* Work */
 
   .browser-nav { height: 15px; }
-  #work .work-thumb { width: 250px; }
+
+  #work .work-thumb,
+  #work .work-thumb-mobile { width: 250px; }
 
   .odd-work .work-info { margin-left: 300px; }
   .even-work .work-info { margin-right: 300px; }
