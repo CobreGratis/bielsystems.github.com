@@ -2,10 +2,10 @@
 
 
 /* ====================
-Trabalhos
+Trabalho / Work
 ==================== */
 
-#cases {
+#work {
 
   li {
     width: 100%;
@@ -16,7 +16,7 @@ Trabalhos
   li:nth-child(odd) { background: $light-grey1; }
   li:nth-child(even) { background: #fff; }
 
-  .case-thumb {
+  .work-thumb {
     @include round_borders (4px);
     border-top-right-radius: 5px;
     border-bottom-left-radius: 2px;
@@ -45,13 +45,13 @@ Trabalhos
   height: 25px;
 }
 
-.odd-case .case-thumb { float: left; }
-.even-case .case-thumb { float: right; }
+.odd-work .work-thumb { float: left; }
+.even-work .work-thumb { float: right; }
 
-.odd-case .case-info { margin-left: 450px; }
-.even-case .case-info { margin-right: 450px; }
+.odd-work .work-info { margin-left: 450px; }
+.even-work .work-info { margin-right: 450px; }
 
-.case-info {
+.work-info {
   a {
     border-bottom: 2px solid #880505;
     @include round_borders (4px);

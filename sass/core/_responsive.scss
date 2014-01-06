@@ -166,13 +166,13 @@ Media Queries for Tablets
   }
 
 
-  /* Cases */
+  /* Work */
 
   .browser-nav { height: 15px; }
-  #cases .case-thumb { width: 250px; }
+  #work .work-thumb { width: 250px; }
 
-  .odd-case .case-info { margin-left: 300px; }
-  .even-case .case-info { margin-right: 300px; }
+  .odd-work .work-info { margin-left: 300px; }
+  .even-work .work-info { margin-right: 300px; }
 
 
   /* Media Kit */
@@ -489,21 +489,21 @@ Media Queries for Smartphones
   }
 
 
-  /* Trabalhos */
+  /* Work */
 
   .browser-nav { height: 20px; }
 
-  #cases {
+  #work {
     text-align: center;
 
-    .case-thumb {
+    .work-thumb {
       width: 60%;
       margin-bottom: 25px;
       display: inline-block;
       float: none;
     }
 
-    .case-info {
+    .work-info {
       text-align: left;
       margin: 0;
     }
@@ -644,11 +644,11 @@ Media Queries with adjustments for Smartphones
   }
 
 
-  /* Cases */
+  /* works */
 
-  #cases .case-thumb { width: 96%; }
+  #works .work-thumb { width: 96%; }
 
-  .case-info h3 {
+  .work-info h3 {
     font-size: 28px;
   }
 
