@@ -272,8 +272,8 @@ Media Queries for Smartphones
     padding-top: 125px;
 
     h2 {
-      font-size: 45px;
-      line-height: 47px;
+      font-size: $font-big !important;
+      line-height: 40px !important;
     }
 
     h3 { font-size: $font-large; }
@@ -700,6 +700,8 @@ Media Queries with more adjustments for Smartphones
 
    h3 { font-size: 24px; }
   }
+  
+  .icons a img { width: 50px; }
 
   .red-button { max-width: 220px; }
 
