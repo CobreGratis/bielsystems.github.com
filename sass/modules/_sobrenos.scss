@@ -20,24 +20,20 @@ Sobre Nós
   li {
     box-shadow: 0 4px 8px -3px #d8d8d8;
     width: 42%;
-    background: none repeat scroll 0 0 white;
+    background: #fff url("/images/play.jpg") no-repeat;
+    background-size: 100%;
     margin: 0 20px 30px 0;
     padding: 10px;
     font-size: $font-medium;
-    opacity: 1;
     float: left;
-
-    &:hover {
-      background: url("/images/play.jpg") no-repeat white;
-      background-size: 100%;
-    }
   }
 
   img {
     width: 100%;
     display: block;
+    opacity: .7;
 
-    &:hover { opacity: .5; }
+    &:hover { opacity: 1; }
   }
 
   h3 {

@@ -19,7 +19,8 @@ Cliente Feliz
   li {
     box-shadow: 0 4px 8px -3px #d8d8d8;
     width: 24%;
-    background: none repeat scroll 0 0 white;
+    background: #fff url("/images/play.jpg") no-repeat;
+    background-size: 100%;
     margin: 0 3% 30px 3%;
     padding: 10px;
     display: inline-block;
@@ -29,12 +30,19 @@ Cliente Feliz
     img {
       width: 100%;
       display: block;
-      &:hover { opacity: .4; }
-    }
+      opacity: .7;
 
-    &:hover {
-      background: url("/images/play.jpg") no-repeat white;
-      background-size: 100%;
+      &:hover { opacity: 1; }
+    }
+  }
+  
+  .more-videos {
+    background-image: none;
+
+    img {
+      opacity: 1;
+
+      &:hover { opacity: .7; }
     }
   }
 
