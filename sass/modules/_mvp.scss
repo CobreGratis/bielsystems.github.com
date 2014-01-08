@@ -6,5 +6,9 @@ Services - MVP
 ==================== */
 
 #cover-banner iframe {
-  margin-top: 40px;
+  box-shadow: 0 0 10px #333;
+  border: 1px solid #fff;
+  background: $light-grey2;
+  padding: 7px;
+  margin-top: 45px;
 }
