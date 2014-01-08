@@ -149,6 +149,15 @@ Nav
 
 
 /* ====================
+Breadcrumbs
+==================== */
+
+#breadcrumbs {
+  
+}
+
+
+/* ====================
 Cover
 ==================== */
 
@@ -181,6 +190,13 @@ Cover
   li {
     margin: 0 10px 0 10px;
     display: inline-block;
+  }
+  
+  iframe {
+    box-shadow: 0 0 10px #333;
+    background: #fff;
+    border: 7px solid #fff;
+    margin-top: 45px;
   }
 }
 
