@@ -5,3 +5,41 @@
 Services - MVP
 ==================== */
 
+#mvp {
+
+  h3 {
+    margin: 50px 0 40px 0;
+    font-size: $font-big;
+    text-align: center;
+
+    strong {
+      font-size: $font-large;
+      color: $grey3;
+    }
+  }
+}
+
+.mvp-projects {
+  text-align: center;
+  
+  li {
+    width: 31%;
+    margin: 0 1% 30px 1%;
+    display: inline-block;
+  }
+
+  img {
+    width: 97%;
+    border: 1px solid $light-grey2;
+    padding: 1%
+  }
+
+  a:hover img { opacity: .7; }
+
+  h4 {
+    text-transform: none;
+    margin: 15px 0 0 0;
+    font-size: $font-medium2;
+    color: #000;
+  }
+}
