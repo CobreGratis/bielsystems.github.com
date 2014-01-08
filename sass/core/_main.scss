@@ -153,7 +153,30 @@ Breadcrumbs
 ==================== */
 
 #breadcrumbs {
-  
+  width: 100%;
+  padding: 10px 0 12px 0;
+  background: #9b0505;
+  border-bottom: 1px solid #da0909;
+  margin-top: 80px;
+  margin-bottom: -80px;
+
+  li {
+    margin-right: 15px;
+    display: inline-block;
+    font-size: $font-small;
+    color: #fff;
+  }
+
+  a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #ffc2c2;
+
+    &:hover {
+      text-decoration: underline;
+      color: #fff;
+    }
+  }
 }
 
 
