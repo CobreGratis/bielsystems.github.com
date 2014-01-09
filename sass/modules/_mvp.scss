@@ -5,15 +5,12 @@
 Services - MVP
 ==================== */
 
-.cover-mvp {
-  background: #222 !important;
-  border-bottom: 10px solid $grey2;
-}
+.cover-mvp { background: #222 url('/images/mvp-page/pattern.png') !important; }
 
 #mvp {
 
   h3 {
-    margin: 55px 0 45px 0;
+    margin: 55px 0 40px 0;
     font-size: $font-big;
     text-align: center;
 
@@ -54,4 +51,63 @@ Services - MVP
     &:hover img { opacity: .7; }
   }
 
+}
+
+
+/* Como Funciona */
+
+#mvp-steps {
+  overflow: hidden;
+  background: $he_red;
+  border-bottom: 10px solid $grey2;
+  border-top: 1px solid #e50b0b;
+  padding: 25px 0 40px 0;
+  text-align: center;
+}
+
+#mvp-steps li {
+  padding-top: 100px;
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 21px;
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 2%;
+  margin-left: 2%;
+  display: inline-block;
+  position: relative;
+}
+
+#mvp-steps li.last-child { margin-right: 0; }
+
+#mvp-steps li.idea {
+  width: 130px;
+  background: url('/images/mvp-page/mvp_idea_step.png') center 18px no-repeat;
+}
+
+#mvp-steps li.product {
+  width: 130px;
+  background: url('/images/mvp-page/comunicacao/step1.png') center 18px no-repeat;
+}
+
+#mvp-steps li.staff {
+  width: 120px;
+  background: url('/images/mvp-page/mvp_staff_step.png') center 16px no-repeat;
+}
+
+#mvp-steps li.time {
+  width: 110px;
+  background: url('/images/mvp-page/mvp_time_step.png') center 16px no-repeat;
+}
+
+#mvp-steps li.money {
+  width: 110px;
+  background: url('/images/mvp-page/mvp_money_step.png') center 23px no-repeat;
+}
+
+#mvp-steps li.result {
+  width: 100px;
+  background: url('/images/mvp-page/mvp_result_step.png') center 24px no-repeat;
 }
