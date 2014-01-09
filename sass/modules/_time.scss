@@ -89,3 +89,29 @@ Team
 .soundcloud { background-position: -52px 0; }
 .github { background-position: -78px 0; }
 .behance { background-position: -104px 0; }
+
+
+/* Open Source link */
+
+.open-source-link {
+  height: 30px;
+  line-height: 30px !important;
+  background: url("/images/icons/open-source.png") left no-repeat;
+  padding: 0 0 0 40px;
+  font: normal 16px $sans_serif;
+  margin: 20px 0 0 0;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+
+  &:hover { opacity: .8; }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 240dpi) {
+  .open-source-link {
+    background: url("/images/icons/open-source@2x.png") left no-repeat;
+    background-size: 30px 30px;
+  }
+}
