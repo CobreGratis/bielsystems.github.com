@@ -536,6 +536,15 @@ Media Queries for Smartphones
 
   /* MVP Projects */
 
+  #mvp {
+
+    h3 {
+      font-size: $font-large;
+
+      strong { font-size: $font-medium2; }
+    }
+  }
+
   .mvp-projects li { width: 46%; }
 
 
