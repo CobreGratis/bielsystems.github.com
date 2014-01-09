@@ -57,10 +57,11 @@ Services - MVP
 /* Como Funciona */
 
 #mvp-steps {
+  box-shadow: 0 -7px 15px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   background: $he_red;
   border-bottom: 10px solid $grey2;
-  border-top: 1px solid #e50b0b;
+  border-top: 1px solid #ea0b0b;
   padding: 25px 0 40px 0;
   text-align: center;
 }
