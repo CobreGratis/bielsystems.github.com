@@ -112,3 +112,33 @@ Services - MVP
   width: 100px;
   background: url('/images/mvp-page/mvp_result_step.png') center 24px no-repeat;
 }
+
+/*-*/
+
+#mvp-steps li.plus:after {
+  width: 22px;
+  height: 22px;
+  content: '';
+  display: block;
+  background: url('/images/mvp-page/plus.png') 0 0 no-repeat;
+}
+
+#mvp-steps li.equal:after {
+  width: 23px;
+  height: 15px;
+  content: '';
+  display: block;
+  background: url('/images/mvp-page/equal.png') 0 0 no-repeat;
+}
+
+#mvp-steps li.plus:after,
+#mvp-steps li.equal:after {
+  position: absolute;
+  right: -50px;
+  top: 35px;
+}
+
+#mvp-steps li.plus:after { right: -20px; }
+#mvp-steps li.staff:after { right: -52px; }
+#mvp-steps li.time:after { right: -40px; }
+#mvp-steps li.money:after { right: -40px; }
