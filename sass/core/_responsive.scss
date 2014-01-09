@@ -177,6 +177,11 @@ Media Queries for Tablets
   .even-work .work-info { margin-right: 300px; }
 
 
+  /* MVP Projects */
+
+  .mvp-projects li { width: 30%; }
+
+
   /* Media Kit */
 
   .responsive_option {
@@ -529,6 +534,11 @@ Media Queries for Smartphones
   }
 
 
+  /* MVP Projects */
+
+  .mvp-projects li { width: 46%; }
+
+
   /* Mailing page*/
 
   .cover-mailing-page {
@@ -762,6 +772,15 @@ Media Queries with more adjustments for Smartphones
     }
 
     p { font-size: $font-medium; }
+  }
+
+
+  /* MVP Projects */
+
+  .mvp-projects li {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
   }
 
 
