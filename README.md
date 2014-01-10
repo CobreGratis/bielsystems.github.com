@@ -14,6 +14,15 @@ $ bundle exec jekyll serve -w
 $ compass watch
 ```
 
+## Problem with SASS+Git
+
+The Git have a problem with SASS. So when you have a conflict in the generated file by SASS+Compass (stylesheets/style.css), please do not fix this conflict, just delete this conflicted file and generate a new. So you can run this:
+
+```sh
+$ git add stylesheets/style.css
+$ git rebase --continue
+```
+
 ## After editing JS files before push (this is a workaround and will be fixed :)
 ```sh
 $ ./build.sh
