@@ -5,64 +5,79 @@
 Services - MVP
 ==================== */
 
-.cover-mvp { background: #222 url('/images/mvp-page/pattern.png') !important; }
+#cover-mvp {
+  background: #222 url('/images/mvp-page/pattern.jpg');
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-top: 80px;
+  padding: 60px 0 55px 0;
+  border-bottom: 10px solid $grey2;
+  color: #fff;
 
-#mvp {
-
-  h3 {
-    margin: 55px 0 40px 0;
-    font-size: $font-big;
+  h2 {
+    text-transform: uppercase;
     text-align: center;
-
-    strong {
-      font-weight: 300;
-      font-size: $font-large;
-      color: $grey3;
-    }
+    font-weight: bold;
+    font-size: 62px;
+    line-height: 65px;
+    color: #fff;
   }
+
+  .description {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+    font-size: $font-large;
+  }
+  
 }
 
-.mvp-projects {
-  text-align: center;
+
+/* Cover Entry */
+
+#cover-entry {
+  margin: 60px 0 0 0;
+  text-align: left;
+  @include clearfix;
+
+  .column-01,
+  .column-02 { width: 46%; }
+
+  .column-01 {
+    border-top: 1px dashed $grey3;
+    padding: 35px 0 0 0;
+    float: left;
+
+    h3 {
+      font-size: $font-large;
+      margin: 0 0 15px 0;
+    }
+
+    p {
+      font-size: $font-medium2;
+      line-height: 26px;
+    }
+  }
+
+  .column-02 {
+    float: right;
   
-  li {
-    width: 22%;
-    margin: 0 1% 50px 1%;
-    display: inline-block;
+    iframe {
+      width: 98%;
+      padding: 1%;
+      box-shadow: 0 0 12px #111;
+      background: $grey3;
+    }
   }
-
-  img {
-    width: 97%;
-    border: 1px solid $light-grey2;
-    padding: 1%
-  }
-
-  h4 {
-    text-transform: none;
-    margin: 15px 0 0 0;
-    font-size: $font-medium2;
-    color: #000;
-  }
-
-  a {
-    text-decoration: none;
-    h4 { color: $he_red; }
-
-    &:hover img { opacity: .7; }
-  }
-
+  
 }
 
 
 /* Como Funciona */
 
 #mvp-steps {
-  box-shadow: 0 -7px 15px rgba(0, 0, 0, 0.3);
+  margin-top: 47px;
   overflow: hidden;
-  background: $he_red;
-  border-bottom: 10px solid $grey2;
-  border-top: 1px solid #ea0b0b;
-  padding: 25px 0 40px 0;
   text-align: center;
 }
 
@@ -134,11 +149,68 @@ Services - MVP
 #mvp-steps li.plus:after,
 #mvp-steps li.equal:after {
   position: absolute;
-  right: -50px;
+  right: -20px;
   top: 35px;
 }
 
-#mvp-steps li.plus:after { right: -20px; }
+#mvp-steps li.plus:after {
+  top: 41px;
+}
+
+#mvp-steps li.equal:after {
+  right: -20px;
+  top: 46px;
+}
+
 #mvp-steps li.staff:after { right: -52px; }
 #mvp-steps li.time:after { right: -40px; }
 #mvp-steps li.money:after { right: -40px; }
+
+
+/* Projects */
+
+#mvp {
+
+  h3 {
+    margin: 55px 0 40px 0;
+    font-size: $font-big;
+    text-align: center;
+
+    strong {
+      font-weight: 300;
+      font-size: $font-large;
+      color: $grey3;
+    }
+  }
+}
+
+.mvp-projects {
+  text-align: center;
+  
+  li {
+    width: 22%;
+    margin: 0 1% 50px 1%;
+    display: inline-block;
+  }
+
+  img {
+    width: 97%;
+    border: 1px solid $light-grey2;
+    padding: 1%
+  }
+
+  h4 {
+    text-transform: none;
+    margin: 15px 0 0 0;
+    font-size: $font-medium2;
+    color: #000;
+  }
+
+  a {
+    text-decoration: none;
+    h4 { color: $he_red; }
+
+    &:hover img { opacity: .7; }
+  }
+
+}

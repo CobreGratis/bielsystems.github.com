@@ -157,9 +157,9 @@ Breadcrumbs
   width: 100%;
   padding: 10px 0 12px 0;
   background: $he_red;
-  border-bottom: 1px solid #ea0b0b;
+  border-bottom: 1px solid #ff1717;
   margin-top: 80px;
-  margin-bottom: -80px;
+  margin-bottom: -81px;
   position: relative;
   z-index: 1000;
 
@@ -216,13 +216,6 @@ Cover
   li {
     margin: 0 10px 0 10px;
     display: inline-block;
-  }
-  
-  iframe {
-    box-shadow: 0 0 12px #111;
-    background: $grey3;
-    border: 7px solid $grey3;
-    margin-top: 40px;
   }
 }
 
