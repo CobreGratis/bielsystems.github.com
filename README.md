@@ -23,7 +23,10 @@ $ git add stylesheets/style.css
 $ git rebase --continue
 ```
 
-## After editing JS files before push (this is a workaround and will be fixed :)
+## Editing JS
+
+After editing JS files before push (this is a workaround and will be fixed :)
+
 ```sh
 $ ./build.sh
 ```
