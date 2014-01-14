@@ -3,9 +3,9 @@
 
   {% include head.html %}
 
-  <body>     
+  <body>
 
-    {% include header.html %}
+    {% include header_pt.html %}
 
     <section id="profile">
       <div class="containner">
@@ -24,7 +24,7 @@
           {% for line in page.bio %}
             <p>{{ line }}</p>
           {% endfor %}
-         
+
           <ul class="social-links">
             {% if page.twitter %}<li><a href="https://twitter.com/{{ page.twitter }}" class="profile-twitter">@{{ page.twitter }}</a></li>{% endif %}
             {% if page.dribbble %}<li><a href="http://dribbble.com/{{ page.dribbble }}" class="profile-dribbble">{{ page.dribbble }}</a></li>{% endif %}
@@ -91,7 +91,7 @@
       </div>
     </section> <!-- /related-content -->
 
-    {% include footer.html %}
+    {% include footer_pt.html %}
 
   </body>
 </html>

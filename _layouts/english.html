@@ -2,38 +2,8 @@
 <html lang='pt'>
 {% include head.html %}
 <body>
-  <header class="default">
-    <div class="containner">
-
-      <h1>
-        <a href="/en/" title="Back to Home">
-          <img class="logo" src="/images/logo.png" alt="HE:labs">
-        </a>
-      </h1>
-
-      <a class="languages" href="/">
-        Versão em PT/BR
-      </a>
-
-      <nav id="menu2">
-        <ul class="global-menu">
-          <li><a href="/en/magic">Magic</a></li>
-          <li><a href="/en/happy-customers">HE:<span class="doispontos">❤</span></a></li>
-          <li><a href="/en/about-us">About Us</a></li>
-          <li><a href="/en/our-team">Team</a></li>
-          <li><a href="/en/community">Community</a></li>
-          <li><a href="/en/work">Work</a></li>
-          <li><a href="/en/contact">Hire us</a></li>
-        </ul>
-      </nav>
-
-      <a id="menu-trigger">
-        Menu
-      </a>
-
-    </div>
-  </header>
+  {% include header_en.html %}
   {{ content }}
-  {% include en_footer.html %}
+  {% include footer_en.html %}
 </body>
 </html>
