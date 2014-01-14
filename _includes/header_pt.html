@@ -7,7 +7,7 @@
       </a>
     </h1>
 
-    <a class="languages" href="/en/">
+    <a class="languages" href="{% if page.en %}{{ page.en }}{% else %}/en{% endif %}">
       EN Version
     </a>
 
