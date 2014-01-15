@@ -1,0 +1,17 @@
+{
+  "name": "HElabs",
+  "description": "HElabs",
+  "version": "1.0.0",
+  "private": false,
+  "author": "HE:labs",
+  "dependencies": {
+    "grunt": "latest",
+    "grunt-cli": "latest",
+    "grunt-bower-task": "latest"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-uglify": "latest"
+  }
+}

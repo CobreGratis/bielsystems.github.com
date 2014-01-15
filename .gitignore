@@ -6,5 +6,7 @@ serve/
 /start
 .gems
 spec/_posts/*
+<<<<<<< HEAD
 .sass-cache/
 .bundle/
+node_modules/
