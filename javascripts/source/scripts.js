@@ -83,8 +83,6 @@ var App = {
     });
 
     // contact form
-    $("#budget").mask("R$ ?999999");
-
     $("#phone").focusout(function(){
       var phone, element;
       element = $(this);
@@ -109,7 +107,6 @@ var App = {
         Field19: "Sobrenome é obrigatório",
         Field3: "Email inválido",
         Field16: "Telefone é obrigatório",
-        Field21: "Orçamento é obrigatório",
         Field5: "Resumo do projeto é obrigatório"
       }
     });
