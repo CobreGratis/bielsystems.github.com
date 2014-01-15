@@ -18,7 +18,7 @@ To use Grunt you'll need Node.js installed. You can get Node on the [website](ht
 After installing Node you'll need to install ```grunt-cli``` npm package: ```npm install -g grunt-cli```.
 You can also follow along the [Getting Started guide](http://gruntjs.com/getting-started).
 
-Then after setting things up, run: npm install on the folder of the project. This will download the grunt dependencies.
+Then after setting things up, run: ```npm install``` on the folder of the project. This will download the grunt dependencies.
 
 ### Usage
 
