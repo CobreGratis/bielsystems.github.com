@@ -11,7 +11,7 @@ module.exports = function(grunt) {
         }
       },
       js: {
-        files: ['javascripts/**'],
+        files: ['javascripts/source/**'],
         tasks: ['uglify'],
         options: {
           livereload: true
@@ -31,7 +31,7 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-          'javascripts/application.min.js': ['javascripts/source/**.js']
+          'javascripts/application.min.js': ['javascripts/source/{,*/,**/}*.js']
         }
       }
     }
