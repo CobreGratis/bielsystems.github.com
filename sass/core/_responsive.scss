@@ -722,23 +722,28 @@ Media Queries for Smartphones
   }
 
 
-  /* TaLk to us */
-  
-  #talk-to-us {
-    form { width: auto; }
+  /* Talk to us */
 
-    input[type="text"] {
-      width: 94%;
-      padding: 0 3% 0 3%;
+  #talk-to-us {
+    width: auto;
+
+    input[type="text"],
+    input[type="email"] {
+      width: 96%;
+      padding: 0 2% 0 2%;
     }
 
     textarea {
-      width: 94%;
-      max-width: 94%;
-      min-width: 94%;
-      padding: 3%;
+      width: 96% !important;
+      min-width: 96% !important;
+      padding: 2%;
     }
+
+    button { width: 200px; }
   }
+
+  label.error { right: 10px; }
+
 
 
   /* Media Kit */
