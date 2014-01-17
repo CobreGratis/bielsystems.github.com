@@ -584,9 +584,7 @@ Media Queries for Smartphones
   }
   
   #cover-entry {
-    margin: 59px 0 0 0;
-    text-align: left;
-    @include clearfix;
+    margin: 45px 0 0 0;
 
     .column-01,
     .column-02 { width: 100%; }
@@ -597,6 +595,34 @@ Media Queries for Smartphones
       margin-top: 35px;
     }
     
+  }
+  
+  #mvp-steps {
+    margin-left: 0;
+    margin-top: 38px;
+  }
+
+  #mvp-steps li {
+    width: 100%;
+    display: inline-block;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    float: none;
+
+    img {
+      width: 70px;
+    }
+
+    p {
+      min-height: auto;
+      font-size: $font-small;
+    }
+  }
+
+  .plus-icon,
+  .equal-icon {
+    width: 100% !important;
+    margin: 10px 0 0 0;
   }
 
   #mvp {
