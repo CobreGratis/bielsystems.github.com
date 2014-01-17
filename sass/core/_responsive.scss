@@ -578,6 +578,22 @@ Media Queries for Smartphones
 
 
   /* MVP */
+  
+  #cover-entry {
+    margin: 59px 0 0 0;
+    text-align: left;
+    @include clearfix;
+
+    .column-01,
+    .column-02 { width: 100%; }
+    
+    .column-01 {
+      border-top: none;
+      padding: 0;
+      margin-top: 35px;
+    }
+    
+  }
 
   #mvp {
 
