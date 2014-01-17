@@ -188,12 +188,32 @@ Media Queries for Tablets
       line-height: 35px;
     }
 
-    .description {
-      font-size: $font-medium2;
-    }
+    .description { font-size: $font-medium2; }
 
   }
   
+  #mvp-steps {
+    margin-left: 0 !important;
+    margin-top: 30px;
+  }
+
+  #mvp-steps li {
+    width: 135px;
+
+    img { width: 60%; }
+
+    p {
+      min-height: 35px;
+      font-size: $font-small;
+      line-height: 17px;
+    }
+  }
+
+  .plus-icon,
+  .equal-icon {
+    margin-top: 32px;
+  }
+
   #cover-entry {
     .column-01 {
 
@@ -585,14 +605,22 @@ Media Queries for Smartphones
   
   #cover-entry {
     margin: 45px 0 0 0;
-
-    .column-01,
-    .column-02 { width: 100%; }
     
     .column-01 {
+      width: 100%;
       border-top: none;
       padding: 0;
       margin-top: 35px;
+    }
+    
+    .column-02 {
+      width: 80%;
+      padding: 0 10% 0 10%;
+      
+      iframe {
+        height: auto;
+        min-height: 240px;
+      }
     }
     
   }
@@ -609,14 +637,8 @@ Media Queries for Smartphones
     margin-right: 0 !important;
     float: none;
 
-    img {
-      width: 70px;
-    }
-
-    p {
-      min-height: auto;
-      font-size: $font-small;
-    }
+    img { width: 70px; }
+    p { min-height: auto; }
   }
 
   .plus-icon,
