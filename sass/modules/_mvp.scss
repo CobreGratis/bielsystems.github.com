@@ -36,7 +36,7 @@ Services - MVP
 /* Cover Entry */
 
 #cover-entry {
-  margin: 60px 0 0 0;
+  margin: 52px 0 0 0;
   text-align: left;
   @include clearfix;
 
@@ -94,95 +94,63 @@ Services - MVP
 /* Como Funciona */
 
 #mvp-steps {
-  margin-top: 47px;
+  margin-left: 92px;
+  margin-top: 25px;
   overflow: hidden;
   text-align: center;
 }
 
 #mvp-steps li {
-  padding-top: 100px;
-  font-size: 14px;
-  color: #fff;
+  width: 150px;
   text-transform: uppercase;
   line-height: 21px;
   font-family: 'Lato', Helvetica, sans-serif;
   font-weight: 700;
   text-align: center;
-  margin-right: 2%;
-  margin-left: 2%;
-  display: inline-block;
   position: relative;
+  float: left;
+
+  img {
+    width: 80%;
+    margin-bottom: -15px;
+  }
+
+  p {
+    min-height: 40px;
+    font-size: $font-medium;
+    color: #fff;
+    margin: 0;
+  }
 }
 
-#mvp-steps li.last-child { margin-right: 0; }
-
-#mvp-steps li.idea {
-  width: 130px;
-  background: url('/images/mvp-page/mvp_idea_step.png') center 18px no-repeat;
+.plus-icon,
+.equal-icon {
+  width: 20px !important;
+  color: $he_red;
+  font-size: $font-big;
+  font-weight: bold;
+  margin-top: 55px;
 }
 
-#mvp-steps li.product {
-  width: 130px;
-  background: url('/images/mvp-page/comunicacao/step1.png') center 18px no-repeat;
+.plus-01 {
+  margin-left: -20px;
+  margin-right: 10px;
 }
 
-#mvp-steps li.staff {
-  width: 120px;
-  background: url('/images/mvp-page/mvp_staff_step.png') center 16px no-repeat;
+.plus-02 {
+  margin-left: 10px;
+  margin-right: -15px;
 }
 
-#mvp-steps li.time {
-  width: 110px;
-  background: url('/images/mvp-page/mvp_time_step.png') center 16px no-repeat;
+.plus-03 {
+  margin-left: -15px;
+  margin-right: -5px;
 }
 
-#mvp-steps li.money {
-  width: 110px;
-  background: url('/images/mvp-page/mvp_money_step.png') center 23px no-repeat;
+.equal-icon {
+  margin-right: -15px;
+  margin-left: -5px;
 }
-
-#mvp-steps li.result {
-  width: 100px;
-  background: url('/images/mvp-page/mvp_result_step.png') center 24px no-repeat;
-}
-
-/*-*/
-
-#mvp-steps li.plus:after {
-  width: 22px;
-  height: 22px;
-  content: '';
-  display: block;
-  background: url('/images/mvp-page/plus.png') 0 0 no-repeat;
-}
-
-#mvp-steps li.equal:after {
-  width: 23px;
-  height: 15px;
-  content: '';
-  display: block;
-  background: url('/images/mvp-page/equal.png') 0 0 no-repeat;
-}
-
-#mvp-steps li.plus:after,
-#mvp-steps li.equal:after {
-  position: absolute;
-  right: -20px;
-  top: 35px;
-}
-
-#mvp-steps li.plus:after {
-  top: 41px;
-}
-
-#mvp-steps li.equal:after {
-  right: -20px;
-  top: 46px;
-}
-
-#mvp-steps li.staff:after { right: -52px; }
-#mvp-steps li.time:after { right: -40px; }
-#mvp-steps li.money:after { right: -40px; }
 
 
 /* Projects */
