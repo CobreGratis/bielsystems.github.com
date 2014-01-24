@@ -23,12 +23,21 @@ body {
 Max Width, 960px
 Media Queries for Tablets
 ------------------------------------------------------------------------------*/
+@media only screen and (min-width: 687px) {
+  #menu2 { display: block !important; }
+}
 
 @media (max-width: 960px) {
 
   .containner { width: 700px; }
   header.default .logo { width: 155px; }
-  #menu2 { margin-top: 8px; }
+
+  #menu2 { 
+    margin-top: 8px;
+    a {
+      padding: 0 5px;
+    }
+  }
 
 
   /* Home */
@@ -948,5 +957,5 @@ Media Queries with more adjustments for Smartphones
 /* Fix Mobile Menu */
 
 @media only screen and (min-width: 686px) {
-  #menu2 { display: block !important; }
+  
 }
