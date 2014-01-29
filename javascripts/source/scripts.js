@@ -173,10 +173,23 @@ var App = {
       axis: 'y'
     });
 
-    $('#process-info').localScroll({
+    //Page Magic
+    var process_info = $('#process-info'),
+    link_magic = process_info.find('a');
+    process_info.localScroll({
       duration: 1000,
       offset: -90,
       axis: 'y'
+    });
+
+    //To directly access the link.
+    $(document).ready(function(){
+      var hashname = window.location.hash;
+      link_magic.each(function(){
+        if( hashname === this.hash){
+          $(this).click();
+        }
+      });
     });
 
     $(window).scroll(function() {
