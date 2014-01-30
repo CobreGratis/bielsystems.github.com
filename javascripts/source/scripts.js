@@ -168,7 +168,7 @@ var App = {
 
     /* General */
 
-    $('nav, .advice, header, #right, #single-page, #process-info').localScroll({
+    $('nav, .advice, header, #right, #single-page').localScroll({
       duration: 1000,
       axis: 'y'
     });
