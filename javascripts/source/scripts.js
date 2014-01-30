@@ -173,6 +173,12 @@ var App = {
       axis: 'y'
     });
 
+    $('#process-info').localScroll({
+      duration: 1000,
+      axis: 'y',
+      hash: true
+    });
+
     $(window).scroll(function() {
       if ($(window).width() > 960) {
         var posX = $(window).scrollTop() - ($(window).scrollTop() * 40 / 100) + "px";
