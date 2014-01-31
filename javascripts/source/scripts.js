@@ -25,7 +25,42 @@
 // Functions
 
 var App = {
-
+  I18n: {
+    _translations: {
+      en: {
+        Field18: "First name is required",
+        Field19: "Last name is required",
+        Field3: "Email is required",
+        Field16: "Phone number is required",
+        Field5: "Message is required"
+      },
+      pt: {
+        Field18: "Nome é obrigatório",
+        Field19: "Sobrenome é obrigatório",
+        Field3: "Email inválido",
+        Field16: "Telefone é obrigatório",
+        Field5: "Resumo do projeto é obrigatório"
+      }
+    },
+    defaultLocale: "pt",
+    getCurrentLocale: function() {
+      var locale = location.pathname.split('/')[1];
+      if (this._translations.hasOwnProperty(locale)) {
+        return locale;
+      } else {
+        return this.defaultLocale;
+      }
+    },
+    t: function(field) {
+      var currentLocale = this.getCurrentLocale();
+      var translation = this._translations[currentLocale][field];
+      if (translation) {
+        return translation;
+      } else {
+        return "Missing translation for '" + field + "' with locale '" + currentLocale + "'";
+      }
+    }
+  },
   StartApp: function() {
     this.Modal();
     this.InterfaceActions();
@@ -103,11 +138,11 @@ var App = {
         }
       },
       messages: {
-        Field18: "Nome é obrigatório",
-        Field19: "Sobrenome é obrigatório",
-        Field3: "Email inválido",
-        Field16: "Telefone é obrigatório",
-        Field5: "Resumo do projeto é obrigatório"
+        Field18: App.I18n.t('Field18'),
+        Field19: App.I18n.t('Field19'),
+        Field3: App.I18n.t('Field3'),
+        Field16: App.I18n.t('Field16'),
+        Field5: App.I18n.t('Field5')
       }
     });
 
