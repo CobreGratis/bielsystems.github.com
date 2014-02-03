@@ -41,7 +41,12 @@ module NewProfileTask
       new_profile   = ERB.new(File.read('templates/new_profile.yml.erb'))
       template_vars = OpenStruct.new(vars)
 
-      puts new_profile.result(template_vars.instance_eval { binding })
+      post_file_name = Time.now.strftime('%Y-%m-%d')
+      post_file_name << "-#{vars[:parameterized_name]}"
+
+      File.open("_posts/time/#{post_file_name}.html", 'w') do |f|
+        f.puts new_profile.result(template_vars.instance_eval { binding })
+      end
     end
 
     def ask(question, opts = {default_value: nil})
