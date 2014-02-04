@@ -56,3 +56,8 @@ The thumb size is 800x465 and please, export it using .jpg as extension.
 ```sh
 $ rake import:blogposts
 ```
+
+## Creating your profile
+
+Run `rake new_profile` task to generate some basic structure for the "blog post"
+associated with your profile.

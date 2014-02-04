@@ -30,9 +30,11 @@ pt: /nosso-time
           </p>
           <ul class="social-icons">
             {% for sa in person.social_accounts %}
-              <li>
-                <a class="{{ sa.provider }}" href="http://{{ sa.provider }}.com/{{ sa.username }}" rel="external" title="{{ sa.provider | capitalize }} of {{ person.full_name }}">{{ sa.provider | capitalize }}</a>
-              </li>
+              {% if sa.username %}
+                <li>
+                  <a class="{{ sa.provider }}" href="http://{{ sa.provider }}.com/{{ sa.username }}" rel="external" title="{{ sa.provider | capitalize }} of {{ person.full_name }}">{{ sa.provider | capitalize }}</a>
+                </li>
+              {% endif %}
             {% endfor %}
           </ul>
         </li>

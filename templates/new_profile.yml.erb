@@ -1,0 +1,37 @@
+---
+layout: team
+title: Web Software Development
+description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web, aplicativos web, SaaS e Cloud Computing.
+category: time
+# TODO: Remove the line below to skip the link to the user profile page or remove this comment
+permalink: "/nosso-time/<%= parameterized_name %>"
+image: "<%= image %>"
+full_name: <%= full_name  %>
+job_title: <%= job_title %><% if job_cool %>
+job_cool: <%= job_cool %><% end %><% social_accounts.each do |network, handle| %>
+<%= network %>: <%= handle %><% end %>
+social_accounts:<% social_accounts.each do |network, handle| %>
+- provider: <%= network %>
+  username: <%= handle %><% end %>
+# TODO: Uncomment to add your bio
+# bio:
+#   - I'm awesome!
+#   - Seriously, ask my mom ;)
+#
+# TODO: Uncomment to add a quote
+# quote:
+#   content: Design is how it works.
+#   author: Steve Jobs
+#
+# TODO: Blogposts go here
+# blogposts:
+# - title: Redesign do Startupdev
+#   url: "/blog/2013/11/26/startupdev-novo-design"
+# ...
+#
+# TODO: Projects go here
+# projects:
+# - donacegonha
+# - rsvp
+# ...
+---
