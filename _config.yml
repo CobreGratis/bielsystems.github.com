@@ -1,5 +1,20 @@
 safe: true
 lsi: false
 pygments: true
-exclude: ['docs', 'README', 'Gemfile', 'Gemfile.lock', 'CNAME', 'spec', 'lib', 'bin', 'sass', 'config.rb', 'Rakefile', 'templates']
+exclude:
+- 'bin'
+- 'changelog.txt'
+- 'CNAME'
+- 'config.rb'
+- 'docs'
+- 'Gemfile'
+- 'Gemfile.lock'
+- 'Gruntfile.js'
+- 'lib'
+- 'package.json'
+- 'Rakefile'
+- 'README.md'
+- 'sass'
+- 'spec'
+- 'templates'
 permalink: pretty
