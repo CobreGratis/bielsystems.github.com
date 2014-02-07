@@ -3,7 +3,6 @@ lsi: false
 pygments: true
 exclude:
 - 'docs'
-- 'README'
 - 'Gemfile'
 - 'Gemfile.lock'
 - 'CNAME'
@@ -16,4 +15,6 @@ exclude:
 - 'templates'
 - 'Gruntfile.js'
 - 'changelog.txt'
+- 'package.json'
+- 'README.md'
 permalink: pretty
