@@ -64,6 +64,7 @@ var App = {
   StartApp: function() {
     this.Modal();
     this.InterfaceActions();
+    this.UserNavigation.init();
   },
 
   Modal: function() {
@@ -109,7 +110,34 @@ var App = {
     });
 
   }, // Modal
+  UserNavigation: {
+    init: function() {
+      if (!window.sessionStorage) { return }
 
+      var userNavigation = this;
+
+      $(function() {
+        userNavigation.pushData(window.location.pathname);
+        $('input[name=Field27]').val(userNavigation.getPaths().join('\n'));
+
+        $('#talk-to-us').submit(function() {
+          userNavigation.clear();
+        });
+      });
+    },
+    pushData: function(url) {
+      var data = this.getPaths() || [];
+      data.push(url);
+      sessionStorage.setItem('user-navigation', JSON.stringify(data));
+      return data;
+    },
+    clear: function() {
+      sessionStorage.clear();
+    },
+    getPaths: function() {
+      return JSON.parse(sessionStorage.getItem('user-navigation'));
+    }
+  },
   InterfaceActions: function() {
 
     // Eduardo's easter egg
