@@ -49,7 +49,22 @@ In the stylesheets folder we have just the generated files by Grunt/Compass.
 
 ## Adding A Project To Your Profile
 
-The thumb size is 800x465 and please, export it using .jpg as extension.
+* Check if the project exists inside ```_posts/projects``` folder. If it's there jump to the last step.
+* Put a screenshot of the project with 800x465 size and .jpg extension into the ```images/projects/``` folder.
+* Create a file with the following name format ```_posts/projects/YYYY-MM-DD-project-name.md```.
+* Fill project file with the following information:
+```yaml
+---
+layout: projects
+category: projects
+slug: project-name
+name: Project Name
+image: /images/projects/project-name.jpg
+description: Description about the project.
+---
+```
+
+* Open your profile page file. It's inside ```_posts/time```. Add project slug under ```projects``` property.
 
 ## Import blogposts
 
