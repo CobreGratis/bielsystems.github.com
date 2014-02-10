@@ -31,14 +31,14 @@ var App = {
         Field18: "First name is required",
         Field19: "Last name is required",
         Field3: "Email is required",
-        Field16: "Phone number is required",
+        Field16: "Skype username or phone is required",
         Field5: "Message is required"
       },
       pt: {
         Field18: "Nome é obrigatório",
         Field19: "Sobrenome é obrigatório",
         Field3: "Email inválido",
-        Field16: "Telefone é obrigatório",
+        Field16: "Usuário no Skype ou telefone é obrigatório",
         Field5: "Resumo do projeto é obrigatório"
       }
     },
@@ -116,19 +116,6 @@ var App = {
     $("img[src='/images/time/time-eduardo.jpg']").hover(function() {
       $(this).attr("src", "/images/time/time-eduardo.gif");
     });
-
-    // contact form
-    $("#phone").focusout(function(){
-      var phone, element;
-      element = $(this);
-      element.unmask();
-      phone = element.val().replace(/\D/g, '');
-      if(phone.length > 10) {
-          element.mask("(99) 99999-999?9");
-      } else {
-          element.mask("(99) 9999-9999?9");
-      }
-    }).trigger('focusout');
 
     $("#talk-to-us").validate({
       rules: {
