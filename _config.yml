@@ -19,9 +19,6 @@ exclude:
 - 'templates'
 permalink: pretty
 
-
-
-
 ### MVP infos
 mvp:
   number_of_projects: 65
