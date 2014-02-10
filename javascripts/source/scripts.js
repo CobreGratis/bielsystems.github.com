@@ -119,6 +119,10 @@ var App = {
       $(function() {
         userNavigation.pushData(window.location.pathname);
         $('input[name=Field27]').val(userNavigation.getPaths().join('\n'));
+
+        $('#talk-to-us').submit(function() {
+          userNavigation.clear();
+        });
       });
     },
     pushData: function(url) {
