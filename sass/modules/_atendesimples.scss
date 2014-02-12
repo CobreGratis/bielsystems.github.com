@@ -284,3 +284,20 @@
     }
   }
 }
+
+ol.list{
+  background: #efefef;
+  border: 1px solid #e0e0e0;
+  counter-reset: item;
+  padding: 1em;
+  li{
+    display: block;
+    font-size: .8em;
+    list-style: decimal;
+    &:before {
+      content: counter(item) " - ";
+      counter-increment: item;
+      font-weight: bold;
+    }
+  }
+}
