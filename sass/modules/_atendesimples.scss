@@ -1,0 +1,303 @@
+@charset "utf-8";
+
+//
+// Pattern
+// =========================
+
+.atendesimples{
+  font-family: 'Lato', sans-serif;
+  .containner{
+   box-sizing: border-box;
+    &:after {
+      content:"";
+      display:table;
+      clear:both;
+    }
+  }
+}
+
+// Header
+.hero-header{
+  margin-top: 80px;
+  padding: 50px 0;
+
+  .imac{
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+
+  .testimonials-featured{
+    float: left;
+    width: 50%;
+
+    .quotes{
+      font-size: 20px;
+      font-style: italic;
+      font-weight: lighter;
+      line-height: 1.6;
+      margin: 3em 0 0;
+
+      &:before{
+        background: url('../../images/works/atendesimples/aspa1.png') no-repeat scroll top left;
+        width: 35px;
+        height: 28px;
+        content:"";
+        float:left;
+        margin-right:5px;
+      }
+      &:after{
+        background: url('../../images/works/atendesimples/aspa2.png') no-repeat scroll top left;
+        width: 35px;
+        height: 28px;
+        content:"";
+        display: inline-block;
+        margin-left:5px;
+      }
+    }
+
+    .author{
+      color: #FFFFFF;
+      display: block;
+      float: right;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 2em;
+      text-align: right;
+      width: 100%;
+
+      img{
+        float:right;
+        margin-left: 20px;
+        margin-top: -10px;
+      }
+
+      span{
+        font-weight:lighter;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .base-hero{
+    float: left;
+    width: 100%;
+    height: 60px;
+    margin-top: 8px;
+    line-height: 60px;
+    text-align: right;
+    font-size: 16px;
+
+    .link{
+      background-color: rgba(#000, 0.05);
+      float: right;
+      height: 60px;
+      position: relative;
+      min-width: 80px;
+      padding: 0 20px;
+      line-height: 60px;
+      a{
+        color:white;
+        text-decoration:none;
+        float: left;
+      }
+
+      &:after{
+        background: url('../../images/works/atendesimples/link.png') no-repeat center;
+        content: '';
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        float: right;
+        margin-top: 20px;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+// Steps
+.steps{
+  font-size: 18px;
+  line-height: 30px;
+  &:after {
+    content:"";
+    display:table;
+    clear:both;
+  }
+  .stage {
+    box-sizing: border-box;
+    background-color: #fafafa;
+    padding: 60px 0;
+    font-weight: 300;
+
+    h2{
+      margin-bottom: 20px;
+    }
+
+    &:nth-child(even){
+      background-color: #fff;
+
+      .col-img {
+        float: right;
+        margin-right: 0;
+        margin-left: 4%;
+      }
+    }
+
+    .col{
+      float: left;
+      width: 48%;
+      margin-right: 4%;
+
+      &:last-child{
+        margin-right: 0;
+      }
+
+      .icon-stege{
+        display: block;
+        margin: 0 auto;
+      }
+
+      &.col-img{
+        img{
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+.testimonials{
+  font-size: 22px;
+  box-sizing: border-box;
+  padding: 60px 0 0;
+
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+  }
+
+  .testimony{
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #F1F1F1;
+    padding-top: 12px;
+
+    .quote{
+      font-size: 22px;
+      font-style: italic;
+      font-weight: 300;
+      margin-bottom: 15px;
+
+      &:before{
+        background: url('../../images/works/atendesimples/aspa1-black.png') no-repeat scroll top left;
+        width: 35px;
+        height: 28px;
+        content:"";
+        float:left;
+        margin-right:5px;
+      }
+      &:after{
+        background: url('../../images/works/atendesimples/aspa2-black.png') no-repeat scroll top left;
+        width: 35px;
+        height: 28px;
+        content:"";
+        display: inline-block;
+        margin-left:5px;
+        margin-bottom: -10px;
+      }
+    }
+
+    .author{
+      text-align: right;
+      font-size: 16px;
+      font-weight: bold;
+      opacity: 0.75;
+    }
+  }
+}
+
+.case-logos {
+  display: block;
+  margin: 30px auto 40px;
+}
+
+//
+// Layout
+// =========================
+
+// Header
+#cover-banner-atendesimples {
+  background: url('../../images/works/atendesimples/atendesimples_bg.jpg') center bottom ;
+  background-size:cover;
+  height: 630px;
+  color:#fff;
+
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  h2 {
+    color: #FFFFFF;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+  }
+}
+
+#atendesimples-steps{
+  .stage {
+    &.head{
+      .lead{
+        font-size: 25px;
+        line-height: 34px;
+        font-weight: 300;
+        margin-bottom: 0;
+        img{
+          float: left;
+          margin-right: 20px;
+        }
+      }
+    }
+    #topics {
+      background: none repeat scroll 0 0 rgba(#000, 0);
+      padding: 0 !important;
+      text-align: left;
+      list-style-type: disc !important;
+      margin-left: 20px;
+      margin-bottom: 20px;
+      li{
+        list-style-type: disc !important;
+        padding:0px !important;
+        background:transparent;
+      }
+    }
+  }
+}
+
+ol.list{
+  background: #efefef;
+  border: 1px solid #e0e0e0;
+  counter-reset: item;
+  padding: 1em;
+  li{
+    display: block;
+    font-size: .8em;
+    list-style: decimal;
+    &:before {
+      content: counter(item) " - ";
+      counter-increment: item;
+      font-weight: bold;
+    }
+  }
+}
