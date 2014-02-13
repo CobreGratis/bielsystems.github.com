@@ -98,3 +98,9 @@ Trabalho / Work
     margin: 0 0 15px 0;
   }
 }
+
+a.more{
+  @include red_gradient;
+  color: #fff;
+  display: inline-block;
+}
