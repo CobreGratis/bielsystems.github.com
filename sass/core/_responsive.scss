@@ -32,7 +32,7 @@ Media Queries for Tablets
   .containner { width: 700px; }
   header.default .logo { width: 155px; }
 
-  #menu2 { 
+  #menu2 {
     margin-top: 8px;
     a {
       padding: 0 5px;
@@ -66,8 +66,8 @@ Media Queries for Tablets
   }
 
   #cover-mailing { margin-top: 80px; }
-  
-  
+
+
   /* Sobre Nós */
 
   #conheca {
@@ -99,7 +99,7 @@ Media Queries for Tablets
   /* Profile */
 
   #profile { padding-top: 120px; }
-  
+
   .social-links {
     margin: 0;
 
@@ -147,7 +147,7 @@ Media Queries for Tablets
   }
 
 
-  /* User Projects */ 
+  /* User Projects */
 
   .projects-worked {
 
@@ -157,7 +157,7 @@ Media Queries for Tablets
       margin: 0 0 50px 0;
     }
 
-  } 
+  }
 
 
   /* Mailing page*/
@@ -178,7 +178,7 @@ Media Queries for Tablets
   /* Work */
 
   .browser-nav { height: 15px; }
-  
+
   #work .work-thumb,
   #work .work-thumb-mobile { width: 250px; }
 
@@ -200,7 +200,7 @@ Media Queries for Tablets
     .description { font-size: $font-medium2; }
 
   }
-  
+
   #mvp-steps {
     margin-left: 0 !important;
     margin-top: 30px;
@@ -253,6 +253,15 @@ Media Queries for Tablets
 
   .mvp-projects li { width: 30%; }
 
+
+  /* Work MVP*/
+
+  #work-mvp {
+    h3 {
+      font-size: 28px;
+      line-height: 40px;
+    }
+  }
 
   /* Media Kit */
 
@@ -359,7 +368,7 @@ Media Queries for Smartphones
   }
 
   .logo-tip-trigger { font-size: 19px; }
-  
+
   .icons {
     li {
       text-align:center;
@@ -369,8 +378,8 @@ Media Queries for Smartphones
 
     a img { width: 40px; }
   }
-  
-  
+
+
   /* Breadcrumbs */
 
   #breadcrumbs {
@@ -393,7 +402,7 @@ Media Queries for Smartphones
       font-size: $font-medium2;
       margin: 10px 0 0 0;
     }
-    
+
     iframe {
       width: 98%;
       height: auto;
@@ -464,10 +473,10 @@ Media Queries for Smartphones
     padding: 0 10% 0 10%;
     margin-top: 20px;
   }
-  
-  
+
+
   /* Valores */
-  
+
   #valores {
     .column-01,
     .column-02 { width: 100%; }
@@ -480,7 +489,7 @@ Media Queries for Smartphones
 
 
   /* Jobs */
-  
+
   .he-enviroment {
     article,
     img { width: 100%; }
@@ -526,7 +535,7 @@ Media Queries for Smartphones
 
   #time {
     padding-bottom: 20px !important;
-    
+
     ul {
       > li {
         width: 29%;
@@ -606,34 +615,48 @@ Media Queries for Smartphones
   }
 
 
+  /* Work MVP*/
+
+  #work-mvp {
+    h3 {
+      font-size: 22px;
+      line-height: 40px;
+    }
+
+    ul {
+      margin: 50px 0  0 10%;
+    }
+  }
+
+
   /* MVP */
-  
+
   #cover-mvp {
     margin-top: 60px;
   }
-  
+
   #cover-entry {
     margin: 45px 0 0 0;
-    
+
     .column-01 {
       width: 100%;
       border-top: none;
       padding: 0;
       margin-top: 35px;
     }
-    
+
     .column-02 {
       width: 80%;
       padding: 0 10% 0 10%;
-      
+
       iframe {
         height: auto;
         min-height: 240px;
       }
     }
-    
+
   }
-  
+
   #mvp-steps {
     margin-left: 0;
     margin-top: 38px;
@@ -793,7 +816,7 @@ Media Queries with adjustments for Smartphones
     width: 100%;
     margin-bottom: 0;
   }
-  
+
   #mailing {
     li div { margin-left: 90px; }
     img { width: 70px; }
@@ -808,12 +831,34 @@ Media Queries with adjustments for Smartphones
 
 
   /* works */
-  
+
   #work .work-thumb,
   #work .work-thumb-mobile { width: 96%; }
 
   .work-info h3 {
     font-size: 28px;
+  }
+
+
+  /* Work MVP*/
+
+  #work-mvp {
+    padding: 40px 0;
+
+    h3 {
+      font-size: 22px;
+      line-height: 38px;
+    }
+
+    ul {
+      margin: 30px 0  0 5%;
+    }
+
+    li {
+      text-align: center;
+      margin: 0 1% 25px;
+      width: 45%;
+    }
   }
 
 
@@ -850,8 +895,8 @@ Media Queries with more adjustments for Smartphones
 ------------------------------------------------------------------------------*/
 
 @media (max-width: 481px) {
-  
-  
+
+
   #home {
     h2 {
       font-size: 45px;
@@ -860,7 +905,7 @@ Media Queries with more adjustments for Smartphones
 
    h3 { font-size: 24px; }
   }
-  
+
   .icons a img { width: 50px; }
 
   .red-button { max-width: 220px; }
@@ -898,7 +943,7 @@ Media Queries with more adjustments for Smartphones
   .thumbs { display: none; }
 
   /*-*/
-  
+
   #cover-banner {
     h2 {
       font-size: 22px;
@@ -906,6 +951,32 @@ Media Queries with more adjustments for Smartphones
     }
 
     p { font-size: $font-medium; }
+  }
+
+
+  /* Work MVP*/
+
+  #work-mvp {
+    padding: 20px 0;
+
+    h3 {
+      font-size: 18px;
+      line-height: 30px;
+    }
+
+    ul {
+      margin: 20px 0 0 0;
+    }
+
+    li {
+      display: block;
+      width: 80%;
+      margin: 0 auto 10px;
+      border-radius: 4px;
+      background: $grey1;
+      padding: 10px 0;
+      text-align: center;
+    }
   }
 
 
@@ -957,5 +1028,5 @@ Media Queries with more adjustments for Smartphones
 /* Fix Mobile Menu */
 
 @media only screen and (min-width: 686px) {
-  
+
 }
