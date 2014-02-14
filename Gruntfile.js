@@ -31,7 +31,16 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-          'javascripts/application.min.js': ['javascripts/source/{,*/,**/}*.js']
+          'javascripts/application.min.js': [
+            'javascripts/source/jquery.localScroll.js',
+            'javascripts/source/jquery.maskedinput.js',
+            'javascripts/source/jquery.prettyPhoto.js',
+            'javascripts/source/jquery.scrollTo.js',
+            'javascripts/source/jquery.tipTip.js',
+            'javascripts/source/jquery.validate.js',
+            'javascripts/source/instantclick.min.js',
+            'javascripts/source/scripts.js'
+          ]
         }
       }
     }

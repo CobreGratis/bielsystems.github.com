@@ -1,44 +1,3 @@
-<<<<<<< HEAD
-// Collapse Plugin
-
-(function($) {
-  $.fn.collapsable = function(options) {
-    // iterate and reformat each matched element
-    return this.each(function() {
-      // cache this:
-      var obj = $(this);
-      var tree = obj.next('.navigation');
-      obj.click(function() {
-        if (obj.is(':visible')) {
-          tree.toggle();
-        }
-      });
-      $(window).resize(function() {
-        if ($(window).width() <= 570) {
-          tree.attr('style', '');
-        }
-      });
-    });
-  };
-
-  $('#work-mvp').prepend('<a class="more" href="">&raquo;</a>');
-
-  $('#work-mvp .more').on('click', function(e) {
-    e.preventDefault();
-
-    $(this).parent().toggleClass('expanded');
-
-    $('html, body').stop().animate({
-      'scrollTop': $('#work-mvp').offset().top
-    }, 900, 'swing');
-  });
-})(jQuery);
-
-
-=======
->>>>>>> goes back to use jquery 1.11 as jQuery 2.x has the same API as jQuery 1.x, but does not support Internet Explorer 6, 7, or 8
-// Functions
-
 var App = {
   I18n: {
     _translations: {
@@ -357,6 +316,20 @@ var App = {
         e.preventDefault();
       });
     }
+
+
+    $('#work-mvp').prepend('<a class="more" href="">&raquo;</a>');
+
+    $('#work-mvp .more').on('click', function(e) {
+      e.preventDefault();
+
+      $(this).parent().toggleClass('expanded');
+
+      $('html, body').stop().animate({
+        'scrollTop': $('#work-mvp').offset().top
+      }, 900, 'swing');
+    });
+
   }
 
 
@@ -365,4 +338,3 @@ var App = {
 jQuery(function() {
   App.StartApp();
 });
-
