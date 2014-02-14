@@ -1,11 +1,10 @@
 @charset "utf-8";
 
-//
-// Pattern
-// =========================
+/* ====================
+Case: AtendeSimples
+==================== */
 
-
-// Header
+/* Header */
 
 #cover-banner-atendesimples {
   width: 100%;
@@ -32,63 +31,7 @@
     float: left;
   }
 
-  .testimonials-featured {
-    width: 47%;
-    float: right;
-
-    .quotes {
-      font-size: 20px;
-      font-style: italic;
-      font-weight: lighter;
-      line-height: 1.6;
-      margin: 3em 0 0;
-
-      &:before {
-        background: url('/images/works/atendesimples/aspa1.png') no-repeat scroll top left;
-        width: 35px;
-        height: 28px;
-        content: "";
-        float: left;
-        margin-right: 5px;
-      }
-
-      &:after {
-        background: url('/images/works/atendesimples/aspa2.png') no-repeat scroll top left;
-        width: 35px;
-        height: 28px;
-        content:"";
-        display: inline-block;
-        margin-left:5px;
-      }
-    }
-
-    .author {
-      color: #fff;
-      display: block;
-      float: right;
-      font-size: 18px;
-      font-weight: bold;
-      margin-top: 2em;
-      text-align: right;
-      width: 100%;
-
-      img {
-        float:right;
-        margin-left: 20px;
-        margin-top: -10px;
-      }
-
-      span {
-        font-weight:lighter;
-        font-size: 14px;
-      }
-    }
-  }
-
 }
-
-
-/* Base Hero */
 
 .base-hero {
   width: 100%;
@@ -128,8 +71,61 @@
   }
 }
 
+.testimonials-featured {
+  width: 47%;
+  float: right;
 
-// Steps
+  .quotes {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 1.6;
+    margin: 3em 0 0;
+
+    &:before {
+      background: url('/images/works/atendesimples/aspa1.png') no-repeat scroll top left;
+      width: 35px;
+      height: 28px;
+      content: "";
+      float: left;
+      margin-right: 5px;
+    }
+
+    &:after {
+      background: url('/images/works/atendesimples/aspa2.png') no-repeat scroll top left;
+      width: 35px;
+      height: 28px;
+      content:"";
+      display: inline-block;
+      margin-left:5px;
+    }
+  }
+
+  .author {
+    color: #fff;
+    display: block;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2em;
+    text-align: right;
+    width: 100%;
+
+    img {
+      float:right;
+      margin-left: 20px;
+      margin-top: -10px;
+    }
+
+    span {
+      font-weight:lighter;
+      font-size: 14px;
+    }
+  }
+}
+
+
+/* Sections */
 
 .stage-head {
   background-color: $light-grey1;
@@ -195,6 +191,9 @@
   }
 }
 
+
+/* Testimonials */
+
 .testimonials {
   font-size: 22px;
 
@@ -207,9 +206,8 @@
     font-weight: 300;
     margin-bottom: 30px;
     margin-top: 30px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #F1F1F1;
-    padding-top: 12px;
+    padding: 15px 0 30px 0;
+    border-bottom: 1px solid #f1f1f1;
 
     .quote {
       font-size: 22px;
@@ -252,9 +250,7 @@
 }
 
 
-//
-// Layout
-// =========================
+/* List */
 
 .list {
   border-radius: 4px;
@@ -269,7 +265,7 @@
     list-style: decimal;
 
     &:before {
-      content: counter(item) " - ";
+      content: counter(item) "-";
       counter-increment: item;
       font-weight: bold;
     }
