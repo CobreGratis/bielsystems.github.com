@@ -335,6 +335,8 @@ var App = {
 
 } // Var Site
 
+InstantClick.init(true);
+
 jQuery(function() {
   App.StartApp();
 });
