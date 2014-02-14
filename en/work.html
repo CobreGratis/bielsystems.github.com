@@ -147,8 +147,18 @@ pt: /trabalho
       </div>
     </li>
   </ul>
-
 </section> <!-- /works -->
+
+<section id="work-mvp">
+  <div class="containner">
+    <h3>Besides to the above projects, we have developed more than {{ site.mvp.number_of_projects }} projects with HE:labs MVP service</h3>
+    <ul>
+      {% for project in site.mvp.projects %}
+      <li><a href="{{ project.url }}" title="{{ project.name }}" target="_blank">{{ project.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section> <!-- /works MVP -->
 
 <div class="bottom-nav">
   <a class="red-button" href="/en/contact">
