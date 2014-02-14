@@ -4,36 +4,37 @@
 // Pattern
 // =========================
 
-.atendesimples {
-  font-family: 'Lato', sans-serif;
-
-  .containner {
-   box-sizing: border-box;
-
-    &:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-  }
-}
-
 
 // Header
 
-.hero-header {
+#cover-banner-atendesimples {
+  width: 100%;
+  background: url('../../images/works/atendesimples/atendesimples_bg.jpg') center bottom ;
+  background-size: cover;
   margin-top: 80px;
-  padding: 50px 0;
+  padding: 50px 0 70px 0;
+  position: absolute;
+  color: #fff;
+  @include clearfix;
+
+  a { text-decoration: none; }
+
+  h2 {
+    font-size: $font-big;
+    margin: 20px 0 50px 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
 
   .imac {
-    float: left;
     width: 50%;
     text-align: center;
+    float: left;
   }
 
   .testimonials-featured {
-    float: left;
-    width: 50%;
+    width: 47%;
+    float: right;
 
     .quotes {
       font-size: 20px;
@@ -61,7 +62,7 @@
       }
     }
 
-    .author{
+    .author {
       color: #fff;
       display: block;
       float: right;
@@ -84,40 +85,45 @@
     }
   }
 
-  .base-hero {
-    float: left;
-    width: 100%;
+}
+
+
+/* Base Hero */
+
+.base-hero {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: right;
+  font-size: $font-medium2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  float: left;
+
+  .link {
+    background-color: rgba(#000, 0.05);
+    float: right;
     height: 60px;
-    margin-top: 8px;
+    min-width: 80px;
+    padding: 0 20px;
     line-height: 60px;
-    text-align: right;
-    font-size: 16px;
 
-    .link{
-      background-color: rgba(#000, 0.05);
+    a {
+      color:white;
+      text-decoration: none;
+      float: left;
+    }
+
+    &:after {
+      background: url('../../images/works/atendesimples/link.png') no-repeat center;
+      content: '';
+      display: inline-block;
+      height: 20px;
+      width: 20px;
       float: right;
-      height: 60px;
-      position: relative;
-      min-width: 80px;
-      padding: 0 20px;
-      line-height: 60px;
-
-      a {
-        color:white;
-        text-decoration: none;
-        float: left;
-      }
-
-      &:after{
-        background: url('../../images/works/atendesimples/link.png') no-repeat center;
-        content: '';
-        display: inline-block;
-        height: 20px;
-        width: 20px;
-        float: right;
-        margin-top: 20px;
-        margin-left: 10px;
-      }
+      margin-top: 20px;
+      margin-left: 10px;
     }
   }
 }
@@ -125,21 +131,32 @@
 
 // Steps
 
-.steps {
-  font-size: 18px;
-  line-height: 30px;
+.stage-head {
+  background-color: $light-grey1;
+  padding: 50px 0 50px 0;
+  font-size: $font-large;
+  line-height: 34px;
+  font-weight: 300;
+  margin-bottom: 0;
 
-  &:after {
-    content:"";
-    display:table;
-    clear:both;
+  img {
+    float: left;
+    margin-right: 20px;
   }
+}
+
+#atendesimples-steps {
+  width: 100%;
+  font-size: $font-medium2;
+  line-height: 28px;
+  margin-top: 790px;
+  float: left;
 
   .stage {
-    box-sizing: border-box;
-    background-color: #fafafa;
+    background-color: $light-grey1;
     padding: 60px 0;
     font-weight: 300;
+    @include clearfix;
 
     h2 { margin-bottom: 20px; }
 
@@ -239,65 +256,7 @@
 // Layout
 // =========================
 
-// Header
-
-#cover-banner-atendesimples {
-  background: url('../../images/works/atendesimples/atendesimples_bg.jpg') center bottom ;
-  background-size: cover;
-  height: 630px;
-  color: #fff;
-
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  h2 {
-    color: #fff;
-    font-size: 33px;
-    font-weight: bold;
-    margin-bottom: 1em;
-    margin-top: 2em;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-  }
-}
-
-#atendesimples-steps {
-  .stage {
-    &.head {
-      .lead {
-        font-size: 25px;
-        line-height: 34px;
-        font-weight: 300;
-        margin-bottom: 0;
-
-        img {
-          float: left;
-          margin-right: 20px;
-        }
-      }
-    }
-
-    #topics {
-      background: none repeat scroll 0 0 rgba(#000, 0);
-      padding: 0 !important;
-      text-align: left;
-      list-style-type: disc !important;
-      margin-left: 20px;
-      margin-bottom: 20px;
-
-      li{
-        list-style-type: disc !important;
-        padding: 0 !important;
-        background: transparent;
-      }
-    }
-  }
-}
-
-.list {
+ol.list {
   background: #efefef;
   border: 1px solid #e0e0e0;
   counter-reset: item;
