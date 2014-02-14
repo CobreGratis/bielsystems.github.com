@@ -131,6 +131,7 @@ Case: AtendeSimples
   background-color: $light-grey1;
   padding: 50px 0 50px 0;
   font-size: $font-large;
+  margin-top: 790px;
   line-height: 34px;
   font-weight: 300;
   margin-bottom: 0;
@@ -146,8 +147,7 @@ Case: AtendeSimples
 #atendesimples-steps {
   width: 100%;
   font-size: $font-medium2;
-  line-height: 28px;
-  margin-top: 790px;
+  line-height: 26px;
   float: left;
 
   .stage {
@@ -189,6 +189,10 @@ Case: AtendeSimples
 
     }
   }
+}
+
+.topics li {
+  list-style-type: circle !important;
 }
 
 
@@ -265,7 +269,7 @@ Case: AtendeSimples
     list-style: decimal;
 
     &:before {
-      content: counter(item) "-";
+      content: counter(item) " - ";
       counter-increment: item;
       font-weight: bold;
     }
