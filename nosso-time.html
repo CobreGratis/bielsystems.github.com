@@ -19,7 +19,7 @@ en: /en/our-team
     <ul>
       {% for person in site.categories.time reversed %}
         <li>
-          {% if person.permalink %}<a href="{{ person.permalink }}">{% endif %}
+          {% if person.permalink %}<a href="{{ person.permalink }}" data-instant>{% endif %}
             <img src="{{ person.image }}" alt="{{ person.full_name }}">
             <h3>{{ person.full_name }}</h3>
             <p>{{ person.job_title }}</p>
@@ -37,7 +37,7 @@ en: /en/our-team
         </li>
       {% endfor %}
     	<li class="voce">
-    	  <a href="/jobs">
+    	  <a href="/jobs" data-instant>
     		  <img src="/images/time/time-voce.jpg" alt="Você">
     	  </a>
   		  <h3>Você</h3>
@@ -76,7 +76,7 @@ en: /en/our-team
 </div> <!-- /videothumbs -->
 
 <div class="bottom-nav">
-  <a class="red-button" href="/comunidade">
+  <a class="red-button" href="/comunidade" data-instant>
 	  Apoio à comunidade
   </a>
 </div>
