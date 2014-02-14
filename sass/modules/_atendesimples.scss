@@ -188,19 +188,18 @@
           margin: 0 auto;
         }
       }
+
     }
   }
 }
 
 .testimonials {
   font-size: 22px;
-  box-sizing: border-box;
-  padding: 60px 0 0;
 
   h2 {
     text-align: center;
     text-transform: uppercase;
-    margin: 10px;
+    margin: 80px 0 0 0;
   }
 
   .testimony {
@@ -256,15 +255,16 @@
 // Layout
 // =========================
 
-ol.list {
-  background: #efefef;
-  border: 1px solid #e0e0e0;
+.list {
+  border-radius: 4px;
+  background: $light-grey2;
+  border: 1px solid $grey2;
   counter-reset: item;
   padding: 1em;
 
   li {
     display: block;
-    font-size: .8em;
+    font-size: $font-medium;
     list-style: decimal;
 
     &:before {
