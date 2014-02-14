@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Collapse Plugin
 
 (function($) {
@@ -34,6 +35,8 @@
 })(jQuery);
 
 
+=======
+>>>>>>> goes back to use jquery 1.11 as jQuery 2.x has the same API as jQuery 1.x, but does not support Internet Explorer 6, 7, or 8
 // Functions
 
 var App = {
@@ -74,10 +77,34 @@ var App = {
     }
   },
   StartApp: function() {
+    this.CollapsePlugin();
     this.Modal();
     this.InterfaceActions();
     this.UserNavigation.init();
   },
+
+  CollapsePlugin: function() {
+    $.fn.collapsable = function(options) {
+      // iterate and reformat each matched element
+      return this.each(function() {
+        // cache this:
+        var obj = $(this);
+        var tree = obj.next('.navigation');
+        obj.click(function() {
+          if (obj.is(':visible')) {
+            tree.toggle();
+          }
+        });
+        $(window).resize(function() {
+          if ($(window).width() <= 570) {
+            tree.attr('style', '');
+          }
+        });
+      });
+    }
+  },
+
+  // Collapse Plugin
 
   Modal: function() {
 
@@ -124,7 +151,9 @@ var App = {
   }, // Modal
   UserNavigation: {
     init: function() {
-      if (!window.sessionStorage) { return }
+      if (!window.sessionStorage) {
+        return;
+      }
 
       var userNavigation = this;
 
@@ -336,3 +365,4 @@ var App = {
 jQuery(function() {
   App.StartApp();
 });
+
