@@ -18,3 +18,244 @@ exclude:
 - 'spec'
 - 'templates'
 permalink: pretty
+
+
+
+
+### MVP infos
+mvp:
+  number_of_projects: 65
+
+  projects:
+    -
+      name: MyHumble
+      url: "http://www.myhumble.com.br"
+      image: /images/projetos/mvp/my-humble.jpg
+    -
+      name: Perfil Plug
+      url: "http://www.perfilplug.com"
+      image: /images/projetos/mvp/perfilplug.jpg
+    -
+      name: Assed & Cavalcante
+      url: "http://www.assedcavalcante.com.br/"
+      image: /images/projetos/mvp/assed-cavalcante.jpg
+    -
+      name: Sala de Ideias
+      url: "http://www.saladeideias.com.br/"
+      image: /images/projetos/mvp/saladeideias.jpg
+    -
+      name: Niili
+      url: "http://www.niili.com.br/"
+      image: /images/projetos/mvp/niili.jpg
+    -
+      name: Samba Ads
+      url: "#"
+      image: /images/projetos/mvp/sambaads.jpg
+    -
+      name: Sou do Esporte
+      url: http://www.soudoesporte.com.br
+      image: /images/projetos/mvp/soudoesporte.jpg
+    -
+      name: Seu Orientador
+      url: http://www.seuorientador.com.br
+      image: /images/projetos/mvp/seuorientador.jpg
+    -
+      name: BRtrax
+      url: http://app.brtrax.com
+      image: /images/projetos/mvp/brtrax.jpg
+    -
+      name: RIO EM FOCO
+      url: http://www.rioemfoco.com.br
+      image: /images/projetos/mvp/rioemfoco.jpg
+    -
+      name: Dunno
+      url: http://www.dunno.vc
+      image: /images/projetos/mvp/dunno.jpg
+    -
+      name: Vita Corporativa
+      url: "http://www.vitacorporativa.com.br/"
+      image: /images/projetos/mvp/vitacorporativa.jpg
+    -
+      name: Alugue Campo e Praia
+      url: http://www.aluguecampoepraia.com.br/
+      image: /images/projetos/mvp/alugue-campo-e-praia.jpg
+    -
+      name: Timeeline
+      url: http://www.timeeline.com/
+      image: /images/projetos/mvp/timeeline.jpg
+    -
+      name: Meu Baby Chá
+      url: http://www.meubabycha.com.br/
+      image: /images/projetos/mvp/meu-baby-cha.jpg
+    -
+      name: Tempo Eh Dinheiro
+      url: http://www.tempoehdinheiro.com.br/
+      image: /images/projetos/mvp/tempo-eh-dinheiro.jpg
+    -
+      name: "Click&amp;Movimento"
+      url: http://www.clickemovimento.com.br
+      image: /images/projetos/mvp/clickemovimento.jpg
+    -
+      name: MIIDAH
+      url: http://app.miidah.com
+      image: /images/projetos/mvp/miidah.jpg
+    -
+      name: GiftBar
+      url: http://app.giftbar.com.br/
+      image: /images/projetos/mvp/giftbar.jpg
+    -
+      name: Xtools
+      url: "#"
+      image: /images/projetos/mvp/xtools.jpg
+    -
+      name: Cuponizando
+      url: http://ofertas.cuponizando.com.br/
+      image: /images/projetos/mvp/cuponizando.jpg
+    -
+      name: Innterpretti
+      url: http://www.innterpretti.com.br/
+      image: /images/projetos/mvp/innterpretti.jpg
+    -
+      name: Orçamento Rápido
+      url: http://app.orcamentorapido.com.br/
+      image: /images/projetos/mvp/orcamento-rapido.jpg
+    -
+      name: Incrível MEMO
+      url: http://incrivelmemo.com.br/
+      image: /images/projetos/mvp/memo.jpg
+    -
+      name: Mo Recipes
+      url: http://morecipes.com.br/
+      image: /images/projetos/mvp/morecipes.jpg
+    -
+      name: Horus
+      url: "#"
+      image: /images/projetos/mvp/horus.jpg
+    -
+      name: managerbook
+      url: http://managerbook.com.br/
+      image: /images/projetos/mvp/managerbook.jpg
+    -
+      name: Feedback Machine
+      url: http://app.feedback-machine.com/
+      image: /images/projetos/mvp/feedback-machine.jpg
+    -
+      name: Hintask
+      url: http://hintask.com/
+      image: /images/projetos/mvp/hintask.jpg
+    -
+      name: Shop My Shop
+      url: "#"
+      image: /images/projetos/mvp/shopmyshop.jpg
+    -
+      name: SMB Challenge
+      url: http://smbchallenge.com/
+      image: /images/projetos/mvp/smbchallenge.jpg
+    -
+      name: neighbourz
+      url: http://app.neighbourz.com
+      image: /images/projetos/mvp/neighbourz.jpg
+    -
+      name: hospedfácil
+      url: "#"
+      image: /images/projetos/mvp/hospedfacil.jpg
+    -
+      name: Landing Commerce
+      url: http://app.landingcommerce.com.br/
+      image: /images/projetos/mvp/landing-commerce.jpg
+    -
+      name: Mamãe eu Kero
+      url: http://www.mamaeeukero.com.br/
+      image: /images/projetos/mvp/mamaeeukero.jpg
+    -
+      name: WEBSIMULADO
+      url: http://www.websimulado.com.br/
+      image: /images/projetos/mvp/websimulado.jpg
+    -
+      name: Alik
+      url: http://www.alik.com.br/
+      image: /images/projetos/mvp/alik.jpg
+    -
+      name: NoTrombone
+      url: http://www.notrombone.com/
+      image: /images/projetos/mvp/no-trambone.jpg
+    -
+      name: Editora TIL
+      url: "#"
+      image: /images/projetos/mvp/no-screen.jpg
+    -
+      name: Game Quiz
+      url: http://apps.facebook.com/gamequizbr/
+      image: /images/projetos/mvp/gamequiz.jpg
+    -
+      name: Given 2 You
+      url: http://www.gv2u.com.br/
+      image: /images/projetos/mvp/given2you.jpg
+    -
+      name: Sparkel
+      url: "#"
+      image: /images/projetos/mvp/sparkel.jpg
+    -
+      name: Estou Jogando
+      url: http://estoujogando.com.br/
+      image: /images/projetos/mvp/estou-jogando.jpg
+    -
+      name: Shopping Passion
+      url: "#"
+      image: /images/projetos/mvp/shopping-passion.jpg
+    -
+      name: LetsEvo
+      url: http://www.designoteca.com/
+      image: /images/projetos/mvp/letsevo.jpg
+    -
+      name: Netadvocacia
+      url: http://www.netadvocacia.com.br/
+      image: /images/projetos/mvp/netadvocacia.jpg
+    -
+      name: Ultrapasse
+      url: "http://www.ultrapasseweb.com/"
+      image: /images/projetos/mvp/ultrapasse.jpg
+    -
+      name: Publication of Labels
+      url: "#"
+      image: /images/projetos/mvp/pol.jpg
+    -
+      name: Turbotaxi
+      url: "#"
+      image: /images/projetos/mvp/turbotaxi.jpg
+    -
+      name: Propsharely
+      url: "http://www.propsharely.com/"
+      image: /images/projetos/mvp/propsharely.jpg
+    -
+      name: LMT
+      url: https://www.likemytip.com.br/
+      image: /images/projetos/mvp/likemytip.jpg
+    -
+      name: Zupty
+      url: http://www.zupty.com/
+      image: /images/projetos/mvp/zupty.jpg
+    -
+      name: Amigo não se Compra
+      url: http://www.amigonaosecompra.com.br/
+      image: /images/projetos/mvp/amigo-nao-se-compra.jpg
+    -
+      name: Sabtudo
+      url: "http://www.sabtudo.com.br/"
+      image: /images/projetos/mvp/sabtudo.jpg
+    -
+      name: Safe Tracking
+      url: http://safetracking.com.br/
+      image: /images/projetos/mvp/safe-tracking.jpg
+    -
+      name: ContaCal
+      url: http://app.contacal.com.br/
+      image: /images/projetos/mvp/contacal.jpg
+    -
+      name: Rank Monitor
+      url: "#"
+      image: /images/projetos/mvp/rank-monitor.jpg
+    -
+      name: Ideias
+      url: "#"
+      image: /images/projetos/mvp/ideias.jpg
