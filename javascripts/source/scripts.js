@@ -15,10 +15,22 @@
       $(window).resize(function() {
         if ($(window).width() <= 570) {
           tree.attr('style', '');
-        };
+        }
       });
     });
   };
+
+  $('#work-mvp').prepend('<a class="more" href="">&raquo;</a>');
+
+  $('#work-mvp .more').on('click', function(e) {
+    e.preventDefault();
+
+    $(this).parent().toggleClass('expanded');
+
+    $('html, body').stop().animate({
+      'scrollTop': $('#work-mvp').offset().top
+    }, 900, 'swing');
+  });
 })(jQuery);
 
 

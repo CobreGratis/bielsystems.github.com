@@ -386,7 +386,7 @@ Media Queries for Smartphones
   /* Breadcrumbs */
 
   #breadcrumbs {
-    margin-top: 60px;
+    margin-top: 78px;
     margin-bottom: -60px;
   }
 
@@ -960,7 +960,60 @@ Media Queries with more adjustments for Smartphones
   /* Work MVP*/
 
   #work-mvp {
-    padding: 20px 0;
+    padding: 20px 0 35px;
+    position: relative;
+
+    .more {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      display: block;
+      font-size: 18px;
+      line-height: 18px;
+      margin: 0 0 0 -10px;
+      padding: 0 7px 4px;
+      border-radius: 0 8px 8px 0;
+      background: #e8e8e8;
+      text-align: center;
+      color: #b80606;
+      border: none;
+      text-decoration: none;
+
+      /* Safari */
+      -webkit-transform: rotate(90deg);
+
+      /* Firefox */
+      -moz-transform: rotate(90deg);
+
+      /* IE */
+      -ms-transform: rotate(90deg);
+
+      /* Opera */
+      -o-transform: rotate(90deg);
+
+      /* Internet Explorer */
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+    }
+
+    &.expanded {
+      li:nth-child(n+6) { display: block; }
+      .more {
+        /* Safari */
+        -webkit-transform: rotate(-90deg);
+
+        /* Firefox */
+        -moz-transform: rotate(-90deg);
+
+        /* IE */
+        -ms-transform: rotate(-90deg);
+
+        /* Opera */
+        -o-transform: rotate(-90deg);
+
+        /* Internet Explorer */
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+      }
+    }
 
     h3 {
       font-size: 18px;
@@ -979,6 +1032,10 @@ Media Queries with more adjustments for Smartphones
       background: $grey1;
       padding: 10px 0;
       text-align: center;
+
+      &:nth-child(n+6) {
+        display: none;
+      }
     }
   }
 
