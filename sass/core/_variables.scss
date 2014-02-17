@@ -48,26 +48,20 @@ $he_red: #b80606;
 }
 
 @mixin fade_effect {
-  -webkit-animation-duration: .4s;
-  -moz-animation-duration: .4s;
-  -ms-animation-duration: .4s;
-  -o-animation-duration: .4s;
-  animation-duration: .4s;
-  -moz-animation-name: slidein;
-  -webkit-animation-name: slidein;
-  -webkit-animation-fill-mode: both;
-  -moz-animation-fill-mode: both;
-  -ms-animation-fill-mode: both;
-  -o-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-timing-function: ease-in;
-  -moz-animation-timing-function: ease-in;
-  -ms-animation-timing-function: ease-in;
-  -o-animation-timing-function: ease-in;
+  @include vendor-prefix(animation-duration, .4s);
+  @include vendor-prefix(animation-name, slidein);
+  @include vendor-prefix(animation-fill-mode, both);
+  @include vendor-prefix(animation-timing-function, ease-in);
 }
 
 @mixin round_borders ($radius) {
-  border-radius: $radius;
-  -moz-border-radius: $radius;
-  -webkit-border-radius: $radius;
+  @include vendor-prefix(border-radius, $radius);
+}
+
+@mixin vendor-prefix($name, $argument) {
+  -webkit-#{$name}: #{$argument};
+  -ms-#{$name}: #{$argument};
+  -moz-#{$name}: #{$argument};
+  -o-#{$name}: #{$argument};
+  #{$name}: #{$argument};
 }

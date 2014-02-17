@@ -32,6 +32,7 @@ module.exports = function(grunt) {
       my_target: {
         files: {
           'javascripts/application.min.js': [
+            'javascripts/source/pace.js',
             'javascripts/source/jquery.localScroll.js',
             'javascripts/source/jquery.maskedinput.js',
             'javascripts/source/jquery.prettyPhoto.js',
