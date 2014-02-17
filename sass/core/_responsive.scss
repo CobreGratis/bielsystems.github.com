@@ -30,7 +30,10 @@ Media Queries for Tablets
 @media (max-width: 960px) {
 
   .containner { width: 700px; }
-  header.default .logo { width: 155px; }
+  header.default .logo {
+    width: 110px;
+    margin: 8px 0 10px;
+  }
 
   #menu2 {
     margin-top: 8px;
@@ -342,7 +345,7 @@ Media Queries for Smartphones
   .languages {
     background: none;
     padding: 0;
-    right: 95px; top: 19px;
+    right: 95px; top: 28px;
     color: $grey3;
 
     &:hover {
