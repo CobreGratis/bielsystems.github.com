@@ -57,10 +57,19 @@
 	font-weight: lighter;
 	text-transform: none;
   }
-  a{
-  	margin: 20px 0 20px 0;
-  	text-decoration: none;
-  	color: #fff;
+  .link{
+  	margin: 20px 0 0 0;
+  	a{
+  		margin:0;
+  		padding:0;
+  		margin-left:10px;
+  		text-decoration: none;
+  		color: #fff;
+  	}
+  	img{
+  		display:block;
+  		float:left;  	
+  	}
   }
 }
 
