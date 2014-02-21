@@ -284,17 +284,6 @@ Media Queries for Tablets
   .bt_download,
   #font_show,
   .box_colors_show { display:none; }
-  
-  
-  /* AtendeSimples */
- 
-  .col-img {
-    width: 30%;
-
-    img { width: 50% !important; }
-  }
-
-  .col {  width: 58%; }
 
 }
 
@@ -626,7 +615,7 @@ Media Queries for Smartphones
   }
 
 
-  /* Work MVP*/
+  /* Work MVP */
 
   #work-mvp {
     h3 {
@@ -726,6 +715,21 @@ Media Queries for Smartphones
     font-size: 30px;
     color: $he_red;
   }
+
+
+  /* AtendeSimples */
+ 
+  .col-img {
+    width: 100% !important;
+    text-align: center !important;
+    
+    img {
+      width: 120px !important;
+      margin-bottom: 30px;
+    }
+  }
+  
+  .col {  width: 100% !important; }
 
 
   /* Footer */
