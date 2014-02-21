@@ -22,7 +22,7 @@ Then after setting things up, run: ```npm install``` on the folder of the projec
 
 ### Usage
 
-Run ```sh grunt watch```on the folder of the project to start Grunt. It will watch for any changes on the files in the ```sass/``` folder and any javascript files on the ```javascripts/source``` folder. The css will be compiled into ```stylesheets/style.css``` and the javascript will be concatenated and minified into ```javascripts/application.min.js```.
+Run ```grunt watch```on the folder of the project to start Grunt. It will watch for any changes on the files in the ```sass/``` folder and any javascript files on the ```javascripts/source``` folder. The css will be compiled into ```stylesheets/style.css``` and the javascript will be concatenated and minified into ```javascripts/application.min.js```.
 
 **DO NOT ALTER THESE COMPILED FILES AND COMMIT THEM, ALWAYS USE THE COMPILER FIRST! DO YOU HEAR ME?!**
 
