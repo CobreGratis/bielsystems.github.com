@@ -229,17 +229,15 @@ Case: AtendeSimples
   }
 
   .testimony {
-    font-weight: 300;
     margin-bottom: 30px;
     margin-top: 20px;
     padding: 10px 0 20px 0;
     border-bottom: 1px solid #f1f1f1;
 
     .quote {
-      font-size: $font-large;
-      line-height: 32px;
+      font: $font-large Georgia, serif;
+      line-height: 34px;
       font-style: italic;
-      font-weight: 300;
       margin-bottom: 15px;
 
       &:before {
@@ -264,9 +262,8 @@ Case: AtendeSimples
 
     .author {
       text-align: right;
-      font-size: 16px;
-      font-weight: bold;
-      opacity: 0.75;
+      font-size: $font-medium2;
+      color: $grey3;
     }
   }
 }
