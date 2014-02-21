@@ -70,7 +70,7 @@ description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web,
   <div class="containner">
 
     <h3>
-      + de 65 projetos entregues com sucesso!<br>
+      + de {{ site.mvp.number_of_projects }} projetos entregues com sucesso!<br>
       <strong>Conheça alguns...</strong>
     </h3>
 
@@ -268,6 +268,22 @@ description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web,
         <h4>Alik</h4>
       </li>
     </ul>
+
+  <article class="testimonials">
+    <div class="grid">
+      <h3>Depoimentos</h3>
+      <div id="testimonials_gallery">
+        <ul>
+          {% for testimonial in site.mvp.testimonials %}
+          <li>
+            <p>"{{ testimonial.description }}"</p>
+            <p class="client_name">{{ testimonial.name }} - {{ testimonial.company }}</p>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </article>
 
   </div>
 </section> <!-- /mvp -->
