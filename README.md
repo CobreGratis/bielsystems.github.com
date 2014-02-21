@@ -28,11 +28,6 @@ Run ```sh grunt watch```on the folder of the project to start Grunt. It will wat
 
 Alternatively, if you don't have Node.js installed you can still use Compass to compile the css, but the javascript process will need to be done by hand.
 
-## Running SASS+Compass
-```sh
-$ compass watch
-```
-
 ## Problem with SASS+Git
 
 The Git have a problem with SASS. So when you have a conflict in the generated file by SASS+Compass (stylesheets/style.css), please do not fix this conflict, just delete this conflicted file and generate a new. So you can run this:
