@@ -337,7 +337,7 @@ var App = {
 
 InstantClick.on('change', function() {
   _gaq.push("_trackPageview", window.location.href);
-  if (CE2) {
+  if (typeof(CE2) !== "undefined") {
     CE2.userMain();
   }
 
