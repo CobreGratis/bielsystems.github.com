@@ -38,7 +38,7 @@
 }
 
 #cases-banner{
-  margin-top:0;
+  margin-top:80px; /* se voltar com a navegação superior passa esse margin top para a classe #cases-menu */
   text-align: left;
   min-height: 340px;
   border-bottom: 10px solid #dddddd;
