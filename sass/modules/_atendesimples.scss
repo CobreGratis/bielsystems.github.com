@@ -155,29 +155,51 @@ Case: AtendeSimples
   .stage {
     border-top: 1px solid $grey1;
     border-bottom: 1px solid $grey1;
-    background-color: $light-grey1;
-    padding: 60px 0;
+    padding: 60px 0 40px 0;
     @include clearfix;
 
-    h2 { margin-bottom: 20px; }
+    h2 {
+      margin-bottom: 20px;
+      line-height: 31px;
+    }
 
-    &:nth-child(even){
+    &:nth-child(odd){
       background-color: #fff;
 
       .col-img {
-        float: right;
-        margin-right: 0;
+        margin-right: 4%;
+        text-align: right;
+        float: left; 
+      }
+
+      .col { float: right; }
+
+    }
+    
+    &:nth-child(even){
+      background-color: $light-grey1;
+
+      .col-img {
         margin-left: 4%;
+        text-align: left;
+        float: right; 
+      }
+
+      .col { float: left; }
+
+    }   
+
+    .col-img {
+      width: 40%;
+
+      img {
+        width: 70% !important;
       }
     }
 
     .col {
-      float: left;
       width: 48%;
-      margin-right: 4%;
 
-      &:last-child { margin-right: 0; }
-      
       h3 { margin-bottom: 10px; }
 
       .icon-stege {
@@ -185,14 +207,8 @@ Case: AtendeSimples
         margin: 0 auto;
       }
 
-      &.col-img {
-        img {
-          display: block;
-          margin: 0 auto;
-        }
-      }
-
     } // .col
+
   } // .stage
 } // #atendesimples-steps
 
