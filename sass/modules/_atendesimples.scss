@@ -8,7 +8,7 @@ Case: AtendeSimples
 
 #cover-banner-atendesimples {
   width: 100%;
-  background: url('/images/works/atendesimples/atendesimples_bg.jpg') center bottom ;
+  background: url('/images/works/atendesimples/atendesimples_bg.jpg') center bottom;
   background-size: cover;
   margin-top: 80px;
   padding: 50px 0 70px 0;
@@ -95,9 +95,9 @@ Case: AtendeSimples
       background: url('/images/works/atendesimples/aspa2.png') no-repeat scroll top left;
       width: 35px;
       height: 28px;
-      content:"";
+      content: "";
       display: inline-block;
-      margin-left:5px;
+      margin-left: 5px;
     }
   }
 
@@ -118,7 +118,7 @@ Case: AtendeSimples
     }
 
     span {
-      font-weight:lighter;
+      font-weight: lighter;
       font-size: 14px;
     }
   }
@@ -128,7 +128,8 @@ Case: AtendeSimples
 /* Sections */
 
 .stage-head {
-  background-color: $light-grey1;
+  background-color: $light-grey2;
+  border-bottom: 10px solid $grey1;
   padding: 50px 0 50px 0;
   font-size: $font-large;
   line-height: 34px;
@@ -150,6 +151,8 @@ Case: AtendeSimples
   float: left;
 
   .stage {
+    border-top: 1px solid $grey1;
+    border-bottom: 1px solid $grey1;
     background-color: $light-grey1;
     padding: 60px 0;
     font-weight: 300;
