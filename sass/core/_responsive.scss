@@ -23,9 +23,6 @@ body {
 Max Width, 960px
 Media Queries for Tablets
 ------------------------------------------------------------------------------*/
-@media only screen and (min-width: 687px) {
-  #menu2 { display: block !important; }
-}
 
 @media (max-width: 960px) {
 
@@ -163,7 +160,7 @@ Media Queries for Tablets
   }
 
 
-  /* Mailing page*/
+  /* Mailing page */
 
   .cover-mailing-page { margin-top: 20px; }
 
@@ -257,7 +254,7 @@ Media Queries for Tablets
   .mvp-projects li { width: 30%; }
 
 
-  /* Work MVP*/
+  /* Work MVP */
 
   #work-mvp {
     h3 {
@@ -287,6 +284,17 @@ Media Queries for Tablets
   .bt_download,
   #font_show,
   .box_colors_show { display:none; }
+  
+  
+  /* AtendeSimples */
+ 
+  .col-img {
+    width: 30%;
+
+    img { width: 50% !important; }
+  }
+
+  .col {  width: 58%; }
 
 }
 
@@ -1089,6 +1097,6 @@ Media Queries with more adjustments for Smartphones
 
 /* Fix Mobile Menu */
 
-@media only screen and (min-width: 686px) {
-
+@media only screen and (min-width: 687px) {
+  #menu2 { display: block !important; }
 }
