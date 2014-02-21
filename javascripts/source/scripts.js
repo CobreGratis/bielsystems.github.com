@@ -335,8 +335,11 @@ var App = {
 
 } // Var Site
 
-InstantClick.init(true);
-
-jQuery(function() {
-  App.StartApp();
+InstantClick.on('change', function() {
+  _gaq.push("_trackPageview", window.location.href);
+  $(function() {
+    App.StartApp();
+  });
 });
+
+InstantClick.init();
