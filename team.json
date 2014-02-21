@@ -1,0 +1,9 @@
+---
+---
+{
+  "team": [
+  {% for person in site.categories.time reversed %}
+  {"full_name": "{{ person.full_name }}", "job_title": "{{ person.job_title }}", "slug": "{{ person.slug }}"},
+  {% endfor %}
+  ]
+}
