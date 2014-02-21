@@ -70,8 +70,8 @@ Case: AtendeSimples
       margin-top: 20px;
       margin-left: 10px;
     }
-  }
-}
+  } // .link
+} // .base-hero
 
 .testimonials-featured {
   width: 47%;
@@ -123,8 +123,8 @@ Case: AtendeSimples
       font-weight: lighter;
       font-size: 14px;
     }
-  }
-}
+  } // .author
+} // .testimonials-featured
 
 
 /* Sections */
@@ -191,13 +191,11 @@ Case: AtendeSimples
         }
       }
 
-    }
-  }
-}
+    } // .col
+  } // .stage
+} // #atendesimples-steps
 
-.topics li {
-  list-style-type: circle !important;
-}
+.topics li { list-style-type: circle !important; }
 
 
 /* Testimonials */
