@@ -263,6 +263,16 @@ Media Queries for Tablets
     }
   }
 
+
+  /* AtendeSimples */
+  
+  .stage-head {
+    font-size: $font-medium2;
+    line-height: 28px;
+    font-weight: normal;
+  }
+
+
   /* Media Kit */
 
   .responsive_option {
@@ -730,6 +740,21 @@ Media Queries for Smartphones
   }
   
   .col {  width: 100% !important; }
+
+  .stage-head {
+    .column-img {
+      width: 100% !important;
+      text-align: center !important;      
+      float: none !important;   
+  
+      img {
+        width: 120px !important;
+        margin-bottom: 30px;
+      }
+    }
+
+    p { margin: 0 !important; }
+  }
 
 
   /* Footer */
