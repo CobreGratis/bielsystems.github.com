@@ -67,22 +67,23 @@ en: /en/about-us
     <h3>Antigos Membros</h3>
     <div class="team_table">
       <table >
-          <tr>
-              <td>
-                  <div class="id-thumbs">
-                  </div>
-                  <span>Nome</span>
-                  <p>Job</p>
-              </td>
-          </tr>
-          <tr>
-              <td >
-                <div class="id-thumbs">
-                </div>
-                  <span>Nome</span>
-                  <p>Job</p>
-              </td>
-          </tr>
+        {% for person in site.categories.time %}
+          {% for team_member in page.old_team %}
+            {% for sa in person.social_accounts %}
+              {% if sa.provider == 'github' and sa.username == team_member.github  %}
+                <tr>
+                    <td>
+                        <div class="id-thumbs">
+                          <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
+                        </div>
+                        <span>{{ person.full_name }}</span>
+                        <p>{{ person.job_title }}</p>
+                    </td>
+                </tr>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        {% endfor %}
       </table>
     </div>
   </div> <!-- /about-text -->
