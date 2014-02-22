@@ -62,7 +62,7 @@
             <ul>
               {% for blogpost in page.blogposts %}
                 <li>
-                  <h3><a href="{{ blogpost.url }}">{{ blogpost.title }}</a></h3>
+                  <h3><a href="{{ blogpost.url }}" data-no-instant>{{ blogpost.title }}</a></h3>
                 </li>
               {% endfor %}
             </ul>
