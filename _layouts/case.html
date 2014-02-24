@@ -43,6 +43,8 @@ en: /en/about-us
     <p>{{ page.customer_experience }}</p>-->
   </div>
   <div class="side-text">
+
+    {% if page.current_team %}
     <h3>Time atual</h3>
     <div class="team_table">
       <table >
@@ -67,6 +69,9 @@ en: /en/about-us
         {% endfor %}
       </table>
     </div>
+    {% endif %}
+
+    {% if page.old_team %}
     <h3>Antigos Membros</h3>
     <div class="team_table">
       <table >
@@ -91,6 +96,8 @@ en: /en/about-us
         {% endfor %}
       </table>
     </div>
+    {% endif %}
+
   </div> <!-- /about-text -->
 </div>
 
