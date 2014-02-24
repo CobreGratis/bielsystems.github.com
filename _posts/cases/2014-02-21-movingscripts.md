@@ -2,6 +2,7 @@
 layout: case
 category: case
 permalink: '/cases/movingscripts'
+en: '/en/cases/movingscripts'
 name: Moving Scripts
 project_kind: Comunidade criativa com foco na criação de roteiros.
 image: /images/projects/movingscripts.jpg
@@ -12,9 +13,9 @@ about: Moving Script é uma comunidade aberta onde, com um sistema de votação 
 
 status: O projeto está no ar e sendo usado por pessoas de todo o mundo que gostam de escrever e ler roteiros.
 
-what_has_been_done: Esse projeto continua sendo desenvolvido pela nossa equipe.
+what_has_been_done: Este projeto continua sendo desenvolvido pela nossa equipe.
 
-customer_experience: ---aguardando depoimento---
+customer_experience:
 
 current_team:
   - github: guiloyins
