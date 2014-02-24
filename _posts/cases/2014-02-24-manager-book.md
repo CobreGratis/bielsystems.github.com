@@ -2,6 +2,7 @@
 layout: case
 category: case
 permalink: '/cases/manager-book'
+en: '/cases/en/manager-book'
 name: Manager Book
 project_kind: Indicadores de desempenho e eficiência para empresas.
 image: /images/cases/managerbook.jpg
