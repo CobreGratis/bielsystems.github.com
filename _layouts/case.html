@@ -52,11 +52,13 @@ en: /en/about-us
               {% if sa.provider == 'github' and sa.username == team_member.github  %}
                 <tr>
                     <td>
-                        <div class="id-thumbs">
-                          <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
-                        </div>
-                        <span>{{ person.full_name }}</span>
-                        <p>{{ person.job_title }}</p>
+                        <a href="{{ person.permalink }}">
+                          <div class="id-thumbs">
+                            <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
+                          </div>
+                          <span>{{ person.full_name }}</span>
+                          <p>{{ person.job_title }}</p>
+                        </a>
                     </td>
                 </tr>
               {% endif %}
@@ -74,11 +76,13 @@ en: /en/about-us
               {% if sa.provider == 'github' and sa.username == team_member.github  %}
                 <tr>
                     <td>
-                        <div class="id-thumbs">
-                          <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
-                        </div>
-                        <span>{{ person.full_name }}</span>
-                        <p>{{ person.job_title }}</p>
+                        <a href="{{ person.permalink }}">
+                          <div class="id-thumbs">
+                            <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
+                          </div>
+                          <span>{{ person.full_name }}</span>
+                          <p>{{ person.job_title }}</p>
+                        </a>
                     </td>
                 </tr>
               {% endif %}
