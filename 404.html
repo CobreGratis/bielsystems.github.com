@@ -100,8 +100,52 @@
     #error-page img {
       margin: auto;
       display: block;
-      text-align: center;
       width: 200px;
+    }
+
+    @media only screen and (max-width: 686px) {
+
+      #error-page .hero {
+        padding: 40px 0 60px;
+      }
+
+      #error-page h1 {
+        font-size: 100px;
+      }
+
+      #error-page #content {
+        margin: 20px 0 30px;
+      }
+
+      #error-page #content section {
+        width: 100%;
+        float: none;
+      }
+
+      #error-page #content section.pt {
+        text-align: left;
+        padding-right: 0;
+        padding-left: 10%;
+      }
+
+      #error-page #content section.en {
+        text-align: left;
+        margin-top: 60px;
+        padding-left: 10%;
+      }
+
+      #error-page h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+      }
+
+      #error-page ul {
+        margin-top: 20px;
+      }
+
+      #error-page section.en ul { margin-left: 0; }
+
+      #error-page section.pt ul { margin-right: 0; }
     }
   </style>
 </head>
