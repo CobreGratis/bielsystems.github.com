@@ -44,57 +44,57 @@ description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web,
   <div class="side-text">
 
     {% if page.current_team %}
-    <h3>Time atual</h3>
-    <div class="team_table">
-      <table >
-        {% for person in site.categories.time %}
-          {% for team_member in page.current_team %}
-            {% for sa in person.social_accounts %}
-              {% if sa.provider == 'github' and sa.username == team_member.github  %}
-                <tr>
-                    <td>
-                        <a href="{{ person.permalink }}">
-                          <div class="id-thumbs">
-                            <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
-                          </div>
-                          <span>{{ person.full_name }}</span>
-                          <p>{{ person.job_title }}</p>
-                        </a>
-                    </td>
-                </tr>
-              {% endif %}
+      <h3>Time atual</h3>
+      <div class="team_table">
+        <table >
+          {% for person in site.categories.time %}
+            {% for team_member in page.current_team %}
+              {% for sa in person.social_accounts %}
+                {% if sa.provider == 'github' and sa.username == team_member.github  %}
+                  <tr>
+                      <td>
+                          <a href="{{ person.permalink }}">
+                            <div class="id-thumbs">
+                              <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
+                            </div>
+                            <span>{{ person.full_name }}</span>
+                            <p>{{ person.job_title }}</p>
+                          </a>
+                      </td>
+                  </tr>
+                {% endif %}
+              {% endfor %}
             {% endfor %}
           {% endfor %}
-        {% endfor %}
-      </table>
-    </div>
+        </table>
+      </div>
     {% endif %}
 
     {% if page.old_team %}
-    <h3>Antigos Membros</h3>
-    <div class="team_table">
-      <table >
-        {% for person in site.categories.time %}
-          {% for team_member in page.old_team %}
-            {% for sa in person.social_accounts %}
-              {% if sa.provider == 'github' and sa.username == team_member.github  %}
-                <tr>
-                    <td>
-                        <a href="{{ person.permalink }}">
-                          <div class="id-thumbs">
-                            <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
-                          </div>
-                          <span>{{ person.full_name }}</span>
-                          <p>{{ person.job_title }}</p>
-                        </a>
-                    </td>
-                </tr>
-              {% endif %}
+      <h3>Antigos Membros</h3>
+      <div class="team_table">
+        <table >
+          {% for person in site.categories.time %}
+            {% for team_member in page.old_team %}
+              {% for sa in person.social_accounts %}
+                {% if sa.provider == 'github' and sa.username == team_member.github  %}
+                  <tr>
+                      <td>
+                          <a href="{{ person.permalink }}">
+                            <div class="id-thumbs">
+                              <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
+                            </div>
+                            <span>{{ person.full_name }}</span>
+                            <p>{{ person.job_title }}</p>
+                          </a>
+                      </td>
+                  </tr>
+                {% endif %}
+              {% endfor %}
             {% endfor %}
           {% endfor %}
-        {% endfor %}
-      </table>
-    </div>
+        </table>
+      </div>
     {% endif %}
 
   </div> <!-- /about-text -->
