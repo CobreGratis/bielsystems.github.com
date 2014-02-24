@@ -16,67 +16,100 @@
 
   <style type="text/css" rel="stylesheet">
 
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
     #error-page {
       font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       font-size: 14px;
       background: #fff;
       line-height: 23px;
       color: #333;
-      padding: 3% 3% 0 3%;
+      padding: 0;
+      margin: 0;
+      padding-bottom: 60px;
+    }
+
+    #error-page .hero {
+      background: #b80606;
+      padding: 100px 0 120px;
+      width: 100%;
     }
 
     #error-page h1 {
-      font-size: 80px;
+      margin: 0;
       font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      line-height: 31px;
-      color: #000;
-      font-weight: 300;
-      width: 100%;
+      font-size: 180px;
+      letter-spacing: 0.20em;
+      color: #fff;
+      font-weight: 500;
       text-align: center;
     }
 
     #error-page #content {
-      margin-top: 100px;
-      margin-bottom: 100px;
+      margin: 40px 0 80px;
       width: 100%;
       overflow: auto;
     }
 
-
     #error-page #content section {
-      width: 40%;
+      width: 50%;
       float: left;
     }
 
     #error-page #content section.pt {
       text-align: right;
-      padding-right: 60px
+      padding-right: 30px
     }
 
     #error-page #content section.en {
       text-align: left;
-      padding-left: 60px
+      padding-left: 30px
     }
 
     #error-page h2 {
-      font-size: 18px;
-      color: #999 !important;
+      font-size: 20px;
+      color: #8d8d8d !important;
       font-weight: normal;
+      margin-bottom: 30px;
     }
 
-    #error-page ul { margin-top: 20px; }
+    #error-page ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      margin-top: 30px;
+    }
+
+    #error-page section.en ul { margin-left: 20px; }
+
+    #error-page section.pt ul { margin-right: 20px; }
 
     #error-page a {
       text-decoration: none;
       color: #b80606;
+      margin-bottom: 10px;
+      display: block;
     }
 
     #error-page a:hover { opacity: .8; }
+
+    #error-page img {
+      margin: auto;
+      display: block;
+      text-align: center;
+      width: 200px;
+    }
   </style>
 </head>
 
 <body id="error-page">
-  <h1>404</h1>
+  <div class="hero">
+    <h1>404</h1>
+  </div>
 
   <div id="content">
     <section class="pt">
@@ -120,8 +153,8 @@
         <li><a href="/en/mediakit">Media Kit</a></li>
         <li><a href="/blog">Blog</a></li>
       </ul>
+    </section>
   </div> <!-- /content -->
   <img src="/images/logo-helabs.jpg" width="200" alt="HE:labs">
 </body>
-
 </html>
