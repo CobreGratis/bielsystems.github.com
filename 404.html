@@ -21,9 +21,44 @@
       font-size: 14px;
       background: #fff;
       line-height: 23px;
-    	color: #333;
+      color: #333;
       padding: 3% 3% 0 3%;
     }
+
+    #error-page h1 {
+      font-size: 55px;
+      line-height: 31px;
+      color: #000;
+      font-weight: 300;
+      width: 100%;
+      text-align: center;
+    }
+
+    #error-page #content {
+      margin-top: 60px;
+      margin-bottom: 100px;
+      width: 100%;
+      overflow: auto;
+    }
+
+
+    #error-page #content section {
+      width: 50%;
+      float: left;
+    }
+
+
+
+    #error-page h2 {
+      font-size: 18px;
+      color: #999 !important;
+      font-weight: normal;
+    }
+
+
+    #error-page ul { margin-top: 20px; }
+
+
 
     #error-page a {
       text-decoration: none;
@@ -32,122 +67,57 @@
 
     #error-page a:hover { opacity: .8; }
 
-    #error-page #content {
-      margin-bottom: 120px;
-      width: 45%;
-      float: left;
-    }
-
-    #error-page #content .english {
-      margin-top: 110px;
-    }
-
-    #error-page h1 {
-      font-size: 35px;
-      line-height: 31px;
-      margin: 30px 0 15px 0;
-      color: #000;
-    }
-
-    #error-page h1 strong {
-      font-size: 18px;
-      color: #999 !important;
-      font-weight: normal;
-    }
-
-    #error-page ul { margin-top: 20px; }
-
-    .back-button {
-      text-align: center;
-      border-radius: 4px;
-      height: 40px;
-      line-height: 40px;
-      text-decoration: none;
-      border: 1px solid #e3e3e3;
-      padding: 0 10px 0 10px;
-      background: #fff;
-      position: relative;
-      margin-top: 20px;
-      font-size: 15px;
-      left: 0;
-      top: 0;
-      float: left;
-    }
-
-    .back-button:hover {
-      border:1px solid #b80606;
-      color: #b80606;
-      text-decoration: none;
-    }
-
   </style>
 
 </head>
 
 <body id="error-page">
+  <h1>404</h1>
 
   <div id="content">
+    <section class="pt">
+      <h2>Página não encontrada.</h2>
+      <p>
+        A página requisitada não existe.<br>
+        Você provavelmente deve estar procurando por:
+      </p>
 
-    <img src="/images/logo-helabs.jpg" width="200" alt="HE:labs">
+      <ul>
+        <li><a href="/">Página Inicial &mdash; HE:labs</a></li>
+        <li><a href="/magica">Mágica</a></li>
+        <li><a href="/cliente-feliz">Clientes</a></li>
+        <li><a href="/sobre-nos">Sobre Nós</a></li>
+        <li><a href="/nosso-time">Time</a></li>
+        <li><a href="/trabalho">Trabalho</a></li>
+        <li><a href="/opensource">Open Source</a></li>
+        <li><a href="/comunidade">Comunidade</a></li>
+        <li><a href="/mailing">Mailing</a></li>
+        <li><a href="/midiakit">Media Kit</a></li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+    </section>
 
-    <h1>
-      Error 404.<br>
-      <strong>Página não encontrada.</strong>
-    </h1>
+    <section class="en">
+      <h2>Page not found.</h2>
+      <p>
+        The page you are looking for has not been found.<br>
+        You may be looking for:
+      </p>
 
-    <p>
-      A página requisitada não existe.<br>
-      Você provavelmente deve estar procurando por:
-    </p>
-
-    <ul>
-      <li><a href="/">Página Inicial &mdash; HE:labs</a></li>
-      <li><a href="/magica">Mágica</a></li>
-      <li><a href="/cliente-feliz">Clientes</a></li>
-      <li><a href="/sobre-nos">Sobre Nós</a></li>
-      <li><a href="/nosso-time">Time</a></li>
-      <li><a href="/trabalho">Trabalho</a></li>
-      <li><a href="/opensource">Open Source</a></li>
-      <li><a href="/comunidade">Comunidade</a></li>
-      <li><a href="/mailing">Mailing</a></li>
-      <li><a href="/midiakit">Media Kit</a></li>
-      <li><a href="/blog">Blog</a></li>
-    </ul>
-
-    <a href="http://www.helabs.com.br" class="back-button">&laquo; Home</a>
-
+      <ul>
+        <li><a href="/en/">Home &mdash; HE:labs</a></li>
+        <li><a href="/en/magic">Magic</a></li>
+        <li><a href="/en/happy-customers">Our customers</a></li>
+        <li><a href="/en/about-us">About us</a></li>
+        <li><a href="/en/our-team">Team</a></li>
+        <li><a href="/en/work">Work</a></li>
+        <li><a href="/en/opensource">Open Source</a></li>
+        <li><a href="/en/community">Community</a></li>
+        <li><a href="/en/mediakit">Media Kit</a></li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
   </div> <!-- /content -->
-
-
-  <div id="content" class="english">
-
-    <h1>
-      Error 404.<br>
-      <strong>Page not found.</strong>
-    </h1>
-
-    <p>
-      The page you are looking for has not been found.<br>
-      You may be looking for:
-    </p>
-
-    <ul>
-      <li><a href="/en/">Home &mdash; HE:labs</a></li>
-      <li><a href="/en/magic">Magic</a></li>
-      <li><a href="/en/happy-customers">Our customers</a></li>
-      <li><a href="/en/about-us">About us</a></li>
-      <li><a href="/en/our-team">Team</a></li>
-      <li><a href="/en/work">Work</a></li>
-      <li><a href="/en/opensource">Open Source</a></li>
-      <li><a href="/en/community">Community</a></li>
-      <li><a href="/en/mediakit">Media Kit</a></li>
-      <li><a href="/blog">Blog</a></li>
-    </ul>
-
-    <a href="http://www.helabs.com.br/en/" class="back-button">&laquo; Home</a>
-
-  </div> <!-- /content -->
-
+  <img src="/images/logo-helabs.jpg" width="200" alt="HE:labs">
 </body>
 
 </html>
