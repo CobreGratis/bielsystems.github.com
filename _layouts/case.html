@@ -2,7 +2,6 @@
 layout: default
 title:  Cases - Web Software Development
 description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web, aplicativos web, SaaS e Cloud Computing.
-en: /en/about-us/
 ---
 <!--
 <div id= "cases-menu">
@@ -39,8 +38,16 @@ en: /en/about-us/
     <p>{{ page.status }}</p>
     <h3>O que foi feito até agora</h3>
     <p>{{ page.what_has_been_done }}</p>
-    <!--<h3>O que o cliente achou</h3>
-    <p>{{ page.customer_experience }}</p>-->
+
+    {% if page.video_id %}
+      <iframe width='100%' height='420' src='http://www.youtube.com/embed/{{ page.video_id }}' frameborder='0' allowfullscreen></iframe>
+    {% endif %}
+
+    {% if page.customer_experience %}
+      <h3>O que o cliente achou</h3>
+      <p>{{ page.customer_experience }}</p>
+    {% endif %}
+
   </div>
   <div class="side-text">
 
