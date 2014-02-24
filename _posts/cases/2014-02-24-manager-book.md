@@ -16,7 +16,7 @@ status: O projeto está no ar e sendo usado por diversas empresas.
 
 what_has_been_done: Esse projeto nasceu como um MVP pelo Startup:DEV, teve seu desenvolvimento continuado, e hoje está concluído. É um bom exemplo de alguém que lançou sua ideia com a gente e escolheu manter seu projeto nas mãos dos nossos profissionais.
 
-customer_experience: ---aguardando depoimento---
+customer_experience: O que mais me encantou em todo esse processo junto da HE:labs é que eles não só são muito bons tecnicamente, como também contribuem muito com idéias e soluções interessantes para as nossas necessidades. Eu estou muito satisfeito, muito feliz trabalhando junto com a turma da HE:labs - Marcelo Vieira, sócio fundador na Manager Book.
 
 old_team:
   - github: maurogeorge
