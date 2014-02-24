@@ -1,7 +1,7 @@
 ---
-layout: case
+layout: case-en
 category: case
-permalink: '/cases/en/manager-book'
+permalink: '/en/cases/manager-book'
 pt: '/cases/manager-book'
 name: Manager Book
 project_kind: Performance and efficiency indicators for businesses.
