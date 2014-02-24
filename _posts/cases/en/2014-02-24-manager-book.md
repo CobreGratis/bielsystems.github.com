@@ -16,7 +16,7 @@ status: The project is finished, online, and has been used for various companies
 
 what_has_been_done: This project has started as a MVP project at Startup:DEV, and then continued development, so now it's finished. It's a good example of someone who launched his idea and chose to continue with us.
 
-customer_experience: ---aguardando depoimento---
+customer_experience: What's most delightful about HE:labs, besides their technical know-how, was the spirit of working collaboratively with very interesting ideas and solutions for our needs. I'm very pleased and happy to work with the guys at HE:labs - Marcelo Vieira, a founding partner in the Book Manager.
 
 old_team:
   - github: maurogeorge
