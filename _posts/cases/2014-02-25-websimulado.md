@@ -4,7 +4,7 @@ category: case
 permalink: '/cases/websimulado'
 en: '/en/cases/websimulado'
 name: Web Simulado
-project_kind: Plataforma para estudantes de concursos públicos.
+project_kind: E-learning
 image: /images/projects/websimulado.jpg
 project_url: http://www.websimulado.com.br/
 video_id:
