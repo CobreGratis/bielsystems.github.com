@@ -9,11 +9,11 @@ image: /images/projects/petroomie.jpg
 project_url: http://petroomie.com.br/
 short_description: People interested in hosting their pets, or extra services, can use the Pet Roomie to find people to do this.
 
-about: A PetRoomie é uma comunidade que oferece serviços pro seu pet. Os serviços variam desde hotéis, babás, adestramento, passeio, banho e tosa.
+about: PetRoomie is a community for pet lovers that offers pet services. There’s a wide range of services available, from overnight boarding, spas, grooming and petsitting to training and pet walkers.
 
-status: O projeto já está finalizado, online, e já tem um grande número de usuários.
+status: The project is finished, online, and has been used by many users.
 
-what_has_been_done: Este foi um projeto de desenvolvimento continuado que, depois de entregue, contratou também o Help para pequenas atualizações.
+what_has_been_done: This web application was a continued development project, that after launch, also contracted HE:help for small updates.
 
 customer_experience:
 
