@@ -1,7 +1,7 @@
 ---
 layout: case-en
 category: case
-permalink: '/cases/pet-roomie'
+permalink: '/en/cases/pet-roomie'
 pt: '/cases/pet-roomie'
 name: Pet Roomie
 project_kind: Services for pets
