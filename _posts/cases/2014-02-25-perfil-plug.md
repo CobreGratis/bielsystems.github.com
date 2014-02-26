@@ -7,6 +7,7 @@ name: Perfil Plug
 project_kind:
 image: /images/projects/perfilplug.jpg
 project_url: http://perfilplug.com/
+display_url: perfilplug.com
 short_description: Com o Perfil Plug é possível montar seu perfil de consumidor e ganhar Plug$ (moeda interna) para trocá-los por prêmios, como vale-presentes em diversas lojas conhecidas!
 
 about: Com o Perfil Plug é possível montar seu perfil de consumidor e ganhar Plug$ (moeda interna) para trocá-los por prêmios, como vale-presentes em diversas lojas conhecidas!

@@ -7,6 +7,7 @@ name: Sala de Ideias
 project_kind:
 image: /images/projects/saladeideias.jpg
 project_url: http://www.saladeideias.com.br/
+display_url: saladeideias.com.br
 short_description: Sala de Ideias é uma plataforma online criada por psicólogos para lhe inspirar a ter uma vida com mais satisfação e equilíbrio.
 
 about: Sala de Ideias é uma plataforma online criada por psicólogos para lhe inspirar a ter uma vida com mais satisfação e equilíbrio. Conhecimentos e experiências são compartilhadas semanalmente através de textos.

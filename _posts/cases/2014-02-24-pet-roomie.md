@@ -7,6 +7,7 @@ name: Pet Roomie
 project_kind: Serviços para animais de estimação
 image: /images/projects/petroomie.jpg
 project_url: http://petroomie.com.br/
+display_url: petroomie.com.br
 short_description: Pessoas interessadas em contratar hospedagem e serviços para seus pets podem usar o Pet Roomie para encontrar pessoas interessadas em cuidar do seu bichinho.
 
 about: A PetRoomie é uma comunidade que oferece serviços pro seu pet. Os serviços variam desde hotéis, babás, adestramento, passeio, banho e tosa.

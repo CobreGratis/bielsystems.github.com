@@ -1,3 +1,10 @@
+@charset "utf-8";
+
+
+/* ====================
+Cases
+==================== */
+
 
 
 *, *:before, *:after {
@@ -5,9 +12,12 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+
+
 section.hero {
   margin-top: 80px;
-  height: 300px;
+  overflow: auto;
   background: $he_red;
 
   article {
@@ -24,27 +34,41 @@ section.hero {
     }
 
     span {
-      margin-top: 10px;
-      font-size: 18px;
-      letter-spacing: 0.04em;
-      font-weight: 100;
       display: block;
+      margin-top: 15px;
+      font-size: 16px;
+      letter-spacing: 0.03em;
+      font-weight: 100;
       color: rgba( 255, 255, 255, 0.7 );
     }
 
     a.btn {
+      display: inline-block;
       margin-top: 35px;
+      padding: 12px 50px;
+      font-size: 16px;
+      font-weight: 500;
+      color: $he_red;
+      text-decoration: none;
       background: #fff;
       border-radius: 4px;
-      color: $he_red;
-      display: inline-block;
-      text-decoration: none;
-      font-weight: 500;
-      font-size: 16px;
-      padding: 12px 50px;
 
-      &:hover {
-        opacity: 0.95;
+      &:hover { opacity: 0.95; }
+    }
+
+    figure {
+      background: image-url('/images/cases/browser.png') no-repeat;
+      width:460px;
+      height:260px;
+      overflow: hidden;
+      float:right;
+      margin: 0;
+      padding: 0;
+
+      img{
+        display:block;
+        margin-top: 26px;
+        width: 100%;
       }
     }
   }
@@ -56,26 +80,26 @@ section.hero {
 section.main-infos {
   width: 100%;
   padding: 50px 0;
-  overflow: hidden;
+  overflow: auto;
 
   article, aside {
     float: left;
 
     h3 {
-      text-transform: uppercase;
+      margin-bottom: 25px;
       color: $he_red;
       font-size: 19px;
       letter-spacing: 0.04em;
       word-spacing: 0.1em;
       font-weight: 500;
-      margin-bottom: 25px;
+      text-transform: uppercase;
     }
 
     p {
+      margin-top: 15px;
+      color: $grey4;
       font-size: 16px;
       line-height: 28px;
-      color: $grey4;
-      margin-top: 15px;
     }
   }
 
@@ -89,10 +113,6 @@ section.main-infos {
   }
 }
 
-
-
-
-
 section.main-infos aside ul {
   margin:0px;
   padding:0px;
@@ -102,22 +122,14 @@ section.main-infos aside ul {
     margin-bottom: 10px;
     padding: 0;
 
-
     figure {
       width: 50px;
-
       float: left;
       margin: 0;
       padding: 0;
       margin-right: 15px;
-
-      img {
-        margin: 0;
-        padding: 0;
-      }
     }
   }
-
 
   a {
     display: block;
@@ -125,32 +137,41 @@ section.main-infos aside ul {
     overflow: auto;
 
     &:hover {
-      background: #fafafa;
+      opacity: 0.9;
     }
   }
 
-  span{
+  span {
+    margin: 0;
     color: $he_red;
     font-size:14px;
     font-weight: 300;
-    margin: 0;
   }
-  p{
-    font-size:12px;
-    color: $grey4;
-    font-weight: 300;
-    margin-bottom: 0;
+
+  p {
     margin: 0;
+    color: $grey4;
+    font-size:12px;
+    font-weight: 300;
   }
 }
 
 
 
 section.client {
-  background: #f4f4f4;
-  padding: 60px 0;
+  background: #F7F7F7;
+  padding: 40px 0 80px;
   width: 100%;
   overflow: hidden;
+
+  h3 {
+    text-transform: uppercase;
+    color: $he_red;
+    font-size: 19px;
+    letter-spacing: 0.04em;
+    word-spacing: 0.1em;
+    font-weight: 500;
+  }
 
   article {
     float: left;
@@ -159,35 +180,47 @@ section.client {
   article.video {
     width: 40%;
 
-    h3 {
-      text-transform: uppercase;
-      color: $he_red;
-      font-size: 19px;
-      letter-spacing: 0.04em;
-      word-spacing: 0.1em;
-      font-weight: 500;
-      margin-bottom: 25px;
+    .video-thumb {
+      box-shadow: 0 4px 8px -3px #d8d8d8;
+      width: 95%;
+      background: #fff url("/images/play.jpg") no-repeat;
+      background-size: 100%;
+      margin: 0;
+      padding: 10px;
+      display: inline-block;
+      opacity: 1;
+      margin-top: 30px;
+
+      img {
+        width: 100%;
+        display: block;
+        opacity: .7;
+
+        &:hover { opacity: 1; }
+      }
     }
   }
 
   article.testimonial {
-    padding: 60px;
+    padding: 0 50px;
     width: 60%;
+    margin-top: 30px;
 
-    em {
+    i {
       font-size: 16px;
-      line-height: 32px;
+      line-height: 34px;
       color: $grey3;
       margin-top: 30px;
       text-align: justify;
       font-style: italic;
       display: block;
+      font-weight: lighter;
       text-align: center;
     }
 
-    b {
+    em {
       margin-top: 20px;
-      color: $grey3;
+      color: rgba( $he_red, 0.8 );
       display: block;
       text-align: center;
     }
@@ -195,72 +228,6 @@ section.client {
 }
 
 
-
-
-
-
-
-
-
-
-
-.browser-square{
-	background: image-url('/images/cases/browser.png') no-repeat;
-	width:510px;
-	height:340px;
-	float:right;
-	margin-left: 30px;
-	margin-bottom: 20px;
-	img{
-		display:block;
-    width: 500px;
-		margin: 35px auto 0 auto;
-	}
-}
-
-.cases-text{
-	width:65%;
-	float:left;
-	margin: 30px 0;
-	h3{
-		text-transform: uppercase;
-		color: #b80606;
-		font-size: 20px;
-		font-weight: 400;
-		margin:24px 0;
-		padding-bottom: 10px;
-		border-bottom: #dddddd 1px solid;
-	}
-}
-
-.side-text {
-  width: 30%;
-  float: right;
-  margin: 30px 0;
-  h3{
-  	text-transform: uppercase;
-  	color: #b80606;
-  	font-size: 20px;
-  	font-weight: 400;
-  	margin:24px 0;
-  	padding-bottom: 10px;
-  	border-bottom: #dddddd 1px solid;
-  }
-
-
-  p {
-    font-size: $font-medium2;
-    line-height: 27px;
-  }
-}
-
-.id-thumbs{
-	width:50px;
-	height:50px;
-	background-color:#cccccc;
-	float:left;
-	margin-right: 10px;
-}
 
 
 

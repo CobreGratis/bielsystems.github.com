@@ -7,6 +7,7 @@ name: Early Shares
 project_kind: Crowdfunding Plataform
 image: /images/projects/earlyshares.jpg
 project_url: http://www.earlyshares.com/
+display_url: earlyshares.com
 video_id: LiE2cPQSgtc
 short_description: Early Shares é um serviço de financiamento coletivo pela internet que conecta empresários que procuram vender participações do seu negócio com pessoas que querem se transformar em investidor.
 

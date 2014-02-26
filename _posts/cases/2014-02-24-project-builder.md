@@ -7,6 +7,7 @@ name: Project Builder
 project_kind: Software para Gerenciamento de Projetos
 image: /images/projects/projectbuilder.jpg
 project_url: http://www.projectbuilder.com.br/
+display_url: projectbuilder.com.br
 short_description: Project Builder é um SaaS de gerenciamento de projetos que ajuda a utilizar as melhores práticas do PMI. Gerencie tarefas e prazos entre equipes e colabore em tempo real.
 
 about: Project Builder é um SaaS de gerenciamento de projetos que ajuda a utilizar as melhores práticas do PMI. Gerencie tarefas e prazos entre equipes e colabore em tempo real.
