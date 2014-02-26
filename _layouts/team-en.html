@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang='pt'>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header_en.html %}
+
+    <section id="profile">
+      <div class="containner">
+
+        <article class="mini-bio">
+          <h2>{{ page.full_name }}</h2>
+
+          <p class="job-title">
+            {% if page.job_cool %}
+              {{ page.job_cool }}
+            {% else %}
+              {{ page.job_title }}
+            {% endif %}
+          </p>
+
+          {% for line in page.bio %}
+            <p>{{ line }}</p>
+          {% endfor %}
+
+          <ul class="social-links">
+            {% if page.twitter %}<li><a href="https://twitter.com/{{ page.twitter }}" class="profile-twitter">@{{ page.twitter }}</a></li>{% endif %}
+            {% if page.dribbble %}<li><a href="http://dribbble.com/{{ page.dribbble }}" class="profile-dribbble">{{ page.dribbble }}</a></li>{% endif %}
+            {% if page.github %}<li><a href="https://github.com/{{ page.github }}" class="profile-github">{{ page.github }}</a></li>{% endif %}
+            {% if page.facebook %}<li><a href="https://www.facebook.com/{{ page.facebook }}" class="profile-facebook">{{ page.full_name }}</a></li>{% endif %}
+          </ul>
+        </article>
+
+        <aside class="photo-bio">
+          <div class="profile-picture">
+            <img src="{{ page.image }}" alt="{{ page.full_name }}">
+          </div>
+        </aside>
+
+      </div>
+    </section> <!-- /profile -->
+
+    {% if page.quote %}
+      <section class="profile-cote">
+        <div class="containner">
+          <div class="cote">
+            <p>"{{ page.quote.content }}"</p>
+            <p class="signature">&mdash; {{ page.quote.author }}</p>
+          </div>
+        </div>
+      </section>
+    {% endif %}
+
+    <section id="related-content">
+      <div class="containner">
+
+        {% if page.blogposts %}
+          <article class="blog-posts">
+            <h2>Posts no Blog</h2>
+            <ul>
+              {% for blogpost in page.blogposts %}
+                <li>
+                  <h3><a href="{{ blogpost.url }}" data-no-instant>{{ blogpost.title }}</a></h3>
+                </li>
+              {% endfor %}
+            </ul>
+          </article>
+        {% endif %}
+
+        {% if page.projects %}
+          <section class="projects-worked">
+            <h2>Projetos</h2>
+            <ul>
+              {% for slug in page.projects %}
+                <li>
+                  {% for project in site.categories.projects %}
+                    {% if project.slug == slug %}
+                      <img src="{{ project.image }}" alt="{{ project.name }}">
+                      <h3>{{ project.name }}</h3>
+                      <p>{{ project.description }}</p>
+                    {% endif %}
+                  {% endfor %}
+                </li>
+              {% endfor %}
+            </ul>
+          </section> <!-- /projects-worked -->
+        {% endif %}
+
+      </div>
+    </section> <!-- /related-content -->
+
+    {% include footer_en.html %}
+
+  </body>
+</html>
