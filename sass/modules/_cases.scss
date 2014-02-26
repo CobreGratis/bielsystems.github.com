@@ -7,7 +7,7 @@ Cases
 
 section.hero {
   margin-top: 80px;
-  overflow: auto;
+  overflow: hidden;
   background: $he_red;
 
   article {
@@ -71,7 +71,7 @@ section.hero {
 section.main-infos {
   width: 100%;
   padding: 50px 0;
-  overflow: auto;
+  overflow: hidden;
 
   article, aside {
     float: left;
