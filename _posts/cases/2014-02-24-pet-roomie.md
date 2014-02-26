@@ -17,7 +17,7 @@ what_has_been_done: Este foi um projeto de desenvolvimento continuado que, depoi
 
 customer_experience:
 
-old_team:
+project_team:
   - github: matheusbras
   - github: maurogeorge
   - github: yogodoshi

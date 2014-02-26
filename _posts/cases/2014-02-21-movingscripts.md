@@ -17,7 +17,7 @@ what_has_been_done: Este projeto continua sendo desenvolvido pela nossa equipe.
 
 customer_experience:
 
-current_team:
+project_team:
   - github: guiloyins
   - github: aluisioazevedo
 ---

@@ -18,7 +18,7 @@ what_has_been_done: Esse projeto nasceu como um MVP pelo Startup:DEV, teve seu d
 
 customer_experience:
 
-old_team:
+project_team:
   - github: maurogeorge
   - github: matheusbras
   - github: FlaviaFortes

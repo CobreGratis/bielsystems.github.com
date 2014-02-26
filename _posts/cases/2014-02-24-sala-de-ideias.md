@@ -17,7 +17,7 @@ what_has_been_done: Esse projeto passou pelo HE:labs MVP para ser lançado e hoj
 
 customer_experience:
 
-old_team:
+project_team:
   - github: FlaviaFortes
   - github: souzagomes1989
 ---

@@ -3,19 +3,8 @@ layout: default
 title:  Cases - Web Software Development
 description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web, aplicativos web, SaaS e Cloud Computing.
 ---
+
 <!--
-<div id= "cases-menu">
-  <div class="containner">
-    <div class="cases-prev">
-      <img src="/images/cases/arrow_before.png">
-      <a href="prev">PREV</a>
-    </div>
-    <div class="cases-next">
-      <img src="/images/cases/arrow_after.png">
-      <a href="next">NEXT</a>
-    </div>
-  </div>
-</div> -->
 <div id="cases-banner">
   <div class="containner">
     <div class="browser-square">
@@ -29,82 +18,75 @@ description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web,
       <a href="{{ page.project_url }}" target="_blank">Ver site.</a>
     </div>
 </div>
-</div>
-<div class="containner">
-  <div class="cases-text">
-    <h3>Sobre o projeto</h3>
-    <p>{{ page.about }}</p>
-    <h3>Status</h3>
-    <p>{{ page.status }}</p>
-    <h3>O que foi feito até agora</h3>
-    <p>{{ page.what_has_been_done }}</p>
 
-    {% if page.video_id %}
-      <iframe width='100%' height='420' src='http://www.youtube.com/embed/{{ page.video_id }}' frameborder='0' allowfullscreen></iframe>
-    {% endif %}
+ -->
 
-    {% if page.customer_experience %}
-      <h3>O que o cliente achou</h3>
-      <p>{{ page.customer_experience }}</p>
-    {% endif %}
-
+<section class="hero">
+  <div class="containner">
+    <article>
+      <h2>{{ page.name }}</h2>
+      <span>{{ page.project_kind }}</span>
+      <a href="{{ page.project_url }}" target="_blank" class="btn">earlyshares.com</a>
+    </article>
+    <article>
+<!--       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, odit,ores delectus. Sed, maiores, non quibusdam cupiditate hic quis modi odio sint reiciendis perspiciatis beatae atque nulla!</p> -->
+    </article>
   </div>
-  <div class="side-text">
+</section>
 
-    {% if page.current_team %}
-      <h3>Time atual</h3>
-      <div class="team_table">
-        <table >
+<section class="main-infos">
+  <div class="containner">
+    <article>
+      <h3>Sobre o Projeto</h3>
+      <p>{{ page.about }}</p>
+      <p>{{ page.status }}</p>
+      <p>{{ page.what_has_been_done }}</p>
+    </article>
+    <aside>
+      {% if page.project_team %}
+        <h3>Time</h3>
+        <ul>
           {% for person in site.categories.time %}
-            {% for team_member in page.current_team %}
+            {% for team_member in page.project_team %}
               {% for sa in person.social_accounts %}
                 {% if sa.provider == 'github' and sa.username == team_member.github  %}
-                  <tr>
-                      <td>
-                          <a href="{{ person.permalink }}">
-                            <div class="id-thumbs">
-                              <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
-                            </div>
-                            <span>{{ person.full_name }}</span>
-                            <p>{{ person.job_title }}</p>
-                          </a>
-                      </td>
-                  </tr>
+                  <li>
+                      <a href="{{ person.permalink }}">
+                        <figure>
+                          <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
+                        </figure>
+                        <span>{{ person.full_name }}</span>
+                        <p>{{ person.job_title }}</p>
+                      </a>
+                  </li>
                 {% endif %}
               {% endfor %}
             {% endfor %}
           {% endfor %}
-        </table>
-      </div>
-    {% endif %}
+        </ul>
+      {% endif %}
+    </aside>
+  </div>
+</section>
+<section class="client">
+  <div class="containner">
+    <article class="video">
+      {% if page.video_id %}
+        <h3>O que o cliente achou</h3>
+        <iframe width='100%' height='420' src='http://www.youtube.com/embed/{{ page.video_id }}' frameborder='0' allowfullscreen></iframe>
+      {% endif %}
+    </article>
+    <article class="testimonial">
+      {% if page.customer_experience %}
+        <em>{{ page.customer_experience }}</em>
+        <b>{{ page.customer_name }}</b>
+      {% endif %}
+    </article>
+  </div>
+</section>
 
-    {% if page.old_team %}
-      <h3>Antigos Membros</h3>
-      <div class="team_table">
-        <table >
-          {% for person in site.categories.time %}
-            {% for team_member in page.old_team %}
-              {% for sa in person.social_accounts %}
-                {% if sa.provider == 'github' and sa.username == team_member.github  %}
-                  <tr>
-                      <td>
-                          <a href="{{ person.permalink }}">
-                            <div class="id-thumbs">
-                              <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
-                            </div>
-                            <span>{{ person.full_name }}</span>
-                            <p>{{ person.job_title }}</p>
-                          </a>
-                      </td>
-                  </tr>
-                {% endif %}
-              {% endfor %}
-            {% endfor %}
-          {% endfor %}
-        </table>
-      </div>
-    {% endif %}
 
-  </div> <!-- /about-text -->
-</div>
+
+
+
 

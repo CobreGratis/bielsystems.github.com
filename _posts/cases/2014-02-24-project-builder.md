@@ -17,6 +17,6 @@ what_has_been_done: Este projeto teve como foco, a melhoria da experiência de u
 
 customer_experience:
 
-old_team:
+project_team:
   - github: aluisioazevedo
 ---

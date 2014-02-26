@@ -4,7 +4,7 @@ category: case
 permalink: '/cases/early-shares'
 en: '/en/cases/early-shares'
 name: Early Shares
-project_kind: Crowdfunding
+project_kind: Crowdfunding Plataform
 image: /images/projects/earlyshares.jpg
 project_url: http://www.earlyshares.com/
 video_id: LiE2cPQSgtc
@@ -18,7 +18,7 @@ what_has_been_done: Esse projeto nasceu como um MVP pelo Startup:DEV, teve seu d
 
 customer_experience:
 
-old_team:
+project_team:
   - github: aneziocampos
   - github: thiagogabriel
   - github: thiagonzalez
