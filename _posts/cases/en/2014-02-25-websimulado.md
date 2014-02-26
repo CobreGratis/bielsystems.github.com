@@ -1,13 +1,22 @@
 ---
 layout: case-en
 category: case
+
 permalink: '/en/cases/websimulado'
 pt: '/cases/websimulado'
+
 name: Web Simulado
 project_kind: E-learning
 image: /images/projects/websimulado.jpg
+
 project_url: http://www.websimulado.com.br/
+display_url: websimulado.com.br
+
 video_id:
+video_image:
+
+
+
 short_description: Web Simulado is an online portal helping serious students pass admission exams for Brazilian public school and public services. It offers real-life simulations with timed exams, scoring and rankings. At the end there are recommendations that informs where you can improve.
 
 about: Web Simulado is an online portal helping serious students pass admission exams for Brazilian public school and public services. It offers real-life simulations with timed exams, scoring and rankings. At the end there are recommendations that informs where you can improve.
@@ -16,9 +25,15 @@ status: The project is finished, online, and has been used by many students.
 
 what_has_been_done: This project has started as a MVP project at Startup:DEV, and then continued development, so now it's finished. It's a good example of someone who launched his idea and chose to continue with us.
 
+
+
 customer_experience:
 
-old_team:
+customer_name:
+
+
+
+project_team:
   - github: maurogeorge
   - github: matheusbras
   - github: FlaviaFortes

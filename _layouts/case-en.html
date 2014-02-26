@@ -3,107 +3,76 @@ layout: english
 title:  Cases - Web Software Development
 description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web, aplicativos web, SaaS e Cloud Computing.
 ---
-<!--
-<div id= "cases-menu">
+
+<section class="hero">
   <div class="containner">
-    <div class="cases-prev">
-      <img src="/images/cases/arrow_before.png">
-      <a href="prev">PREV</a>
-    </div>
-    <div class="cases-next">
-      <img src="/images/cases/arrow_after.png">
-      <a href="next">NEXT</a>
-    </div>
+    <article>
+      <h2>{{ page.name }}</h2>
+      <span>{{ page.project_kind }}</span>
+      <a href="{{ page.project_url }}" target="_blank" class="btn">{{ page.display_url }}</a>
+    </article>
+    <article>
+      <figure>
+        <img src="{{ page.image }}">
+      </figure>
+    </article>
   </div>
-</div> -->
-<div id="cases-banner">
+</section>
+
+<section class="main-infos">
   <div class="containner">
-    <div class="browser-square">
-      <img src="{{ page.image }}">
-    </div>
-    <h2>{{ page.name }}</h2>
-    <span>{{ page.project_kind }}</span>
-    <p>{{ page.short_description }}</p>
-    <div class="link">
-      <img src="/images/cases/link_ico.png">
-      <a href="{{ page.project_url }}" target="_blank">Go to site.</a>
-    </div>
-</div>
-</div>
-<div class="containner">
-  <div class="cases-text">
-    <h3>About the project</h3>
-    <p>{{ page.about }}</p>
-    <h3>Status</h3>
-    <p>{{ page.status }}</p>
-    <h3>What has been done</h3>
-    <p>{{ page.what_has_been_done }}</p>
+    <article>
+      <h3>About the project</h3>
+      <p>{{ page.about }}</p>
+      <p>{{ page.status }}</p>
+      <p>{{ page.what_has_been_done }}</p>
+    </article>
+    <aside>
+      {% if page.project_team %}
+        <h3>Team</h3>
+        <ul>
+          {% for person in site.categories.time %}
+            {% for team_member in page.project_team %}
+              {% for sa in person.social_accounts %}
+                {% if sa.provider == 'github' and sa.username == team_member.github  %}
+                  <li>
+                      <a href="{{ person.permalink }}">
+                        <figure>
+                          <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
+                        </figure>
+                        <span>{{ person.full_name }}</span>
+                        <p>{{ person.job_title }}</p>
+                      </a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </aside>
+  </div>
+</section>
 
-    {% if page.video_id %}
-      <iframe width='100%' height='420' src='http://www.youtube.com/embed/{{ page.video_id }}' frameborder='0' allowfullscreen></iframe>
-    {% endif %}
-
-    {% if page.customer_experience %}
+{% if page.video_id or page.customer_experience %}
+  <section class="client">
+    <div class="containner">
       <h3>Customer experience</h3>
-      <p>{{ page.customer_experience }}</p>
-    {% endif %}
-  </div>
-  <div class="side-text">
+      {% if page.video_id %}
+        <article class="video">
+          <div class="video-thumb">
+            <a href="http://www.youtube.com/watch?feature=player_embedded&v={{ page.video_id }}" rel="prettyPhoto">
+            <img src="{{ page.video_image }}">
+          </div>
+        </article>
+      {% endif %}
 
-    {% if page.current_team %}
-      <h3>Current team</h3>
-      <div class="team_table">
-        <table >
-          {% for person in site.categories.time %}
-            {% for team_member in page.current_team %}
-              {% for sa in person.social_accounts %}
-                {% if sa.provider == 'github' and sa.username == team_member.github  %}
-                  <tr>
-                      <td>
-                          <a href="{{ person.permalink }}">
-                            <div class="id-thumbs">
-                              <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
-                            </div>
-                            <span>{{ person.full_name }}</span>
-                            <p>{{ person.job_title }}</p>
-                          </a>
-                      </td>
-                  </tr>
-                {% endif %}
-              {% endfor %}
-            {% endfor %}
-          {% endfor %}
-        </table>
-      </div>
-    {% endif %}
-
-    {% if page.old_team %}
-      <h3>Old team</h3>
-      <div class="team_table">
-        <table >
-          {% for person in site.categories.time %}
-            {% for team_member in page.old_team %}
-              {% for sa in person.social_accounts %}
-                {% if sa.provider == 'github' and sa.username == team_member.github  %}
-                  <tr>
-                      <td>
-                          <a href="{{ person.permalink }}">
-                            <div class="id-thumbs">
-                              <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
-                            </div>
-                            <span>{{ person.full_name }}</span>
-                            <p>{{ person.job_title }}</p>
-                          </a>
-                      </td>
-                  </tr>
-                {% endif %}
-              {% endfor %}
-            {% endfor %}
-          {% endfor %}
-        </table>
-      </div>
-    {% endif %}
-
-  </div> <!-- /about-text -->
-</div>
-
+      {% if page.customer_experience %}
+        <article class="testimonial">
+          <i>{{ page.customer_experience }}</i>
+          <em>{{ page.customer_name }}</em>
+        </article>
+      {% endif %}
+    </div>
+  </section>
+{% endif %}

@@ -1,12 +1,21 @@
 ---
 layout: case-en
 category: case
+
 permalink: '/en/cases/movingscripts'
 pt: '/cases/movingscripts'
+
 name: Moving Scripts
 project_kind: Creative community focused on creating screenplays.
 image: /images/projects/movingscripts.jpg
+
 project_url: http://www.movingscripts.com
+display_url: movingscripts.com
+
+video_id:
+video_image:
+
+
 
 short_description: Moving Scripts is an open community that inspires writers to create, share and get feedback for their screenplays.
 
@@ -16,10 +25,15 @@ status: The project is online and is being used by people all over the world who
 
 what_has_been_done: This project is still under development by our team.
 
+
+
 customer_experience:
 
-current_team:
+customer_name:
+
+
+
+project_team:
   - github: guiloyins
   - github: aluisioazevedo
 ---
-
