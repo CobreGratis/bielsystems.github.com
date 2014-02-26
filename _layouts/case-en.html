@@ -9,7 +9,7 @@ description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web,
     <article>
       <h2>{{ page.name }}</h2>
       <span>{{ page.project_kind }}</span>
-      <a href="{{ page.project_url }}" target="_blank" class="btn">{{ page.display_url }}</a>
+      <a href="{{ page.project_url }}" target="_blank" class="btn-web">{{ page.display_url }}</a>
     </article>
     <article>
       <figure>
@@ -26,6 +26,7 @@ description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web,
       <p>{{ page.about }}</p>
       <p>{{ page.status }}</p>
       <p>{{ page.what_has_been_done }}</p>
+      <a href="{{ page.project_url }}" target="_blank" class="btn-mobile">{{ page.display_url }}</a>
     </article>
     <aside>
       {% if page.project_team %}

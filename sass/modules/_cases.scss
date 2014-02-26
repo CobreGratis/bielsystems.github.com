@@ -32,7 +32,7 @@ section.hero {
       color: rgba( 255, 255, 255, 0.7 );
     }
 
-    a.btn {
+    a.btn-web {
       display: inline-block;
       margin-top: 35px;
       padding: 12px 50px;
@@ -91,6 +91,10 @@ section.main-infos {
       color: $grey4;
       font-size: 16px;
       line-height: 28px;
+    }
+
+    a.btn-mobile {
+      display: none;
     }
   }
 
@@ -196,7 +200,6 @@ section.client {
     width: 60%;
 
     i {
-
       display: block;
       font-size: 16px;
       line-height: 34px;
