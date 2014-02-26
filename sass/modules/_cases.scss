@@ -5,16 +5,6 @@
 Cases
 ==================== */
 
-
-
-*, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-
-
 section.hero {
   margin-top: 80px;
   overflow: auto;
@@ -76,6 +66,7 @@ section.hero {
 
 
 
+/* Main Information */
 
 section.main-infos {
   width: 100%;
@@ -157,10 +148,11 @@ section.main-infos aside ul {
 }
 
 
+/* Testimonials */
 
 section.client {
   background: #F7F7F7;
-  padding: 40px 0 80px;
+  padding: 50px 0 80px;
   width: 100%;
   overflow: hidden;
 
@@ -173,12 +165,11 @@ section.client {
     font-weight: 500;
   }
 
-  article {
-    float: left;
-  }
+  article { float: left; }
 
   article.video {
     width: 40%;
+    margin-top: 40px;
 
     .video-thumb {
       box-shadow: 0 4px 8px -3px #d8d8d8;
@@ -189,7 +180,6 @@ section.client {
       padding: 10px;
       display: inline-block;
       opacity: 1;
-      margin-top: 30px;
 
       img {
         width: 100%;
@@ -202,32 +192,28 @@ section.client {
   }
 
   article.testimonial {
-    padding: 0 50px;
+    margin-top: 10px;
     width: 60%;
-    margin-top: 30px;
 
     i {
+
+      display: block;
       font-size: 16px;
       line-height: 34px;
       color: $grey3;
-      margin-top: 30px;
-      text-align: justify;
       font-style: italic;
-      display: block;
       font-weight: lighter;
       text-align: center;
+      width: 80%;
+      margin: auto;
+      margin-top: 30px;
     }
 
     em {
       margin-top: 20px;
-      color: rgba( $he_red, 0.8 );
       display: block;
+      color: rgba( $he_red, 0.8 );
       text-align: center;
     }
   }
 }
-
-
-
-
-
