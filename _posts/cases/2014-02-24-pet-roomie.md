@@ -33,7 +33,6 @@ customer_name:
 
 project_team:
   - github: matheusbras
-  - github: maurogeorge
   - github: yogodoshi
   - github: marcioj
   - github: FlaviaFortes
