@@ -933,11 +933,12 @@ Media Queries for Smartphones
       i {
         width: 90%;
         margin-top: 10px;
+        text-align: left;
       }
 
       em {
-        margin: 10px 0 0;
-        text-align: center;
+        margin: 10px 0 0 5%;
+        text-align: left;
       }
     }
   }
