@@ -267,8 +267,6 @@ Media Queries for Tablets
   /* AtendeSimples */
 
 
-
-
   #cover-banner-atendesimples {
     padding-top: 30px;
 
@@ -328,30 +326,11 @@ Media Queries for Tablets
     }
   }
 
-
-
-
-
   .stage-head {
     font-size: $font-medium2;
     line-height: 28px;
     font-weight: normal;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   /* Project page - Cases */
@@ -909,6 +888,41 @@ Media Queries for Smartphones
 
 
   /* AtendeSimples */
+
+  #cover-banner-atendesimples {
+    margin-top: 60px;
+
+    h2 {
+      font-size: $font-medium2;
+      line-height: 30px;
+      margin: 30px 0;
+    }
+
+    .imac {
+      float: none;
+      width: 60%;
+      margin: auto;
+
+      img {width: 100%;}
+    }
+  }
+
+  .testimonials-featured {
+
+    p.quotes {
+      font-size: 16px;
+    }
+
+    .author {
+      margin: 15px 0 10px;
+
+      p {
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+      }
+    }
+  }
 
   .col-img {
     width: 100% !important;
