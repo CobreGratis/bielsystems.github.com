@@ -357,16 +357,17 @@ Media Queries for Tablets
 
       i {
         display: block;
+        margin: 20px 0 0 40px;
         font-size: 14px;
         line-height: 28px;
         width: 85%;
-        margin-top: 20px;
         text-align: justify;
       }
 
       em {
         margin: 10px 0 0 40px;
         text-align: left;
+        font-size: 13px;
       }
     }
   }
@@ -931,13 +932,14 @@ Media Queries for Smartphones
       margin-top: 20px;
 
       i {
-        width: 90%;
-        margin-top: 10px;
+        width: 100%;
+        margin: 0;
+        line-height: 26px;
         text-align: left;
       }
 
       em {
-        margin: 10px 0 0 5%;
+        margin: 10px 0 0;
         text-align: left;
       }
     }
