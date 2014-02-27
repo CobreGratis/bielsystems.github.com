@@ -25,9 +25,10 @@ what_has_been_done: Esse projeto nasceu como um MVP pelo Startup:DEV, teve seu d
 
 
 
-customer_experience:
+customer_experience: My experience with HE:labs was great and the project was a huge success. What you guys did and your skills in web development make any task seem easy, which is amazing when dealing with web development companies. That is pretty impressive for all standards.
 
-customer_name:
+
+customer_name: Maurice Lopes, Early Shares.
 
 
 

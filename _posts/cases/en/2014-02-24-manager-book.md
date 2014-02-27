@@ -5,7 +5,7 @@ category: case
 permalink: '/en/cases/manager-book'
 pt: '/cases/manager-book'
 
-name: Manager Book
+name: ManagerBook
 project_kind: Performance Indicators for Businesses.
 image: /images/cases/managerbook.jpg
 
@@ -27,7 +27,7 @@ what_has_been_done: This project has started as a MVP project at Startup:DEV, an
 
 customer_experience: What's most delightful about HE:labs, besides their technical know-how, was the spirit of working collaboratively with very interesting ideas and solutions for our needs. I'm very pleased and happy to work with the guys at HE:labs.
 
-customer_name: Marcelo Vieira, a founding partner in the Book Manager.
+customer_name: Marcelo Vieira, founding partner at ManagerBook.
 
 
 

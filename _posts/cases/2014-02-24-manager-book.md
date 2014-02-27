@@ -5,7 +5,7 @@ category: case
 permalink: '/cases/manager-book'
 en: '/en/cases/manager-book'
 
-name: Manager Book
+name: ManagerBook
 project_kind: Plataforma de Indicadores de Desempenho.
 image: /images/cases/managerbook.jpg
 
@@ -27,7 +27,7 @@ what_has_been_done: Esse projeto nasceu como um MVP pelo Startup:DEV, teve seu d
 
 customer_experience: O que mais me encantou em todo esse processo junto da HE:labs é que eles não só são muito bons tecnicamente, como também contribuem muito com idéias e soluções interessantes para as nossas necessidades. Eu estou muito satisfeito, muito feliz trabalhando junto com a turma da HE:labs.
 
-customer_name: Marcelo Vieira, sócio fundador na Manager Book.
+customer_name: Marcelo Vieira, sócio fundador na ManagerBook.
 
 
 

@@ -25,9 +25,9 @@ what_has_been_done: This project has started as a MVP project to be released and
 
 
 
-customer_experience:
+customer_experience: HE:labs was the company that gave us the fastest time within the market, without compromising quality. Getting a project online in just three days, it really is a mission beyond the expected, we have never seen it before. The work was perfect, they were able to capture and build everything that we wanted to our project.
 
-customer_name:
+customer_name: Fabiane Gori e Helena Cardoso, founders of Sala de Ideias.
 
 
 

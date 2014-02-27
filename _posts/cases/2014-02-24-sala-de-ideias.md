@@ -25,9 +25,9 @@ what_has_been_done: Esse projeto passou pelo HE:labs MVP para ser lançado e hoj
 
 
 
-customer_experience:
+customer_experience: A HE:labs foi a empresa que nos deu o prazo mais rápido dentro do mercado, sem perder a qualidade. Colocar um site funcionando em apenas três dias, realmente é uma missão alem do esperado, a gente nunca viu isso antes. O trabalho foi perfeito, eles conseguiram captar e desenvolver tudo que a gente queria passar para o nosso projeto.
 
-customer_name:
+customer_name: Fabiane Gori e Helena Cardoso, fundadoras do Sala de Ideias.
 
 
 
