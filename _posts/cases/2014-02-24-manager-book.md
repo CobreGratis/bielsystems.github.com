@@ -6,18 +6,16 @@ permalink: '/cases/manager-book'
 en: '/en/cases/manager-book'
 
 name: Manager Book
-project_kind: Plataforma de Indicadores de Desempenho
+project_kind: Plataforma de Indicadores de Desempenho.
 image: /images/cases/managerbook.jpg
 
-project_url: http://managerbook.com.br/
+project_url: http://managerbook.com.br
 display_url: managerbook.com.br
 
 video_id: vZfu7rP5JRo
 video_image: /images/customers/marcelo-vieira.jpg
 
 
-
-short_description: O Managerbook é uma Rede Social de Indicadores. Um sistema na internet (SaaS) orientado para a Gestão por Indicadores-Chave de Desempenho de Redes de Franquias, sua respectiva análise automatizada, compartilhamento social destas informações com os franqueados e consolidação do desempenho da Rede através de Rankings configuráveis.
 
 about: O ManagerBook é uma ferramenta para facilitar o compartilhamento dos indicadores de desempenho e eficiência de empresas. Conecta toda equipe em uma mesma direção e compartilha com ela todo o conhecimento da empresa.
 

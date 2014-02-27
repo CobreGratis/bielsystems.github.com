@@ -6,7 +6,7 @@ permalink: '/en/cases/pet-roomie'
 pt: '/cases/pet-roomie'
 
 name: Pet Roomie
-project_kind: Services for pets
+project_kind: Services for Pets.
 image: /images/projects/petroomie.jpg
 
 project_url: http://petroomie.com.br
@@ -16,8 +16,6 @@ video_id:
 video_image:
 
 
-
-short_description: People interested in hosting their pets, or extra services, can use the Pet Roomie to find people to do this.
 
 about: PetRoomie is a community for pet lovers that offers pet services. There’s a wide range of services available, from overnight boarding, spas, grooming and petsitting to training and pet walkers.
 

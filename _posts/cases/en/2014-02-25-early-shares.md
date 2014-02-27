@@ -6,18 +6,16 @@ permalink: '/en/cases/early-shares'
 pt: '/cases/early-shares'
 
 name: Early Shares
-project_kind: Crowdfunding
+project_kind: Crowdfunding Plataform.
 image: /images/projects/earlyshares.jpg
 
-project_url: http://www.earlyshares.com/
+project_url: http://www.earlyshares.com
 display_url: earlyshares.com
 
 video_id: LiE2cPQSgtc
 video_image: /images/customers/maurice-lopes.jpg
 
 
-
-short_description: Early Shares is an online equity crowd-funding service that turns anyone into an investor by connecting them with business owners looking to fund and sell a stake of their company.
 
 about: Early Shares is an online equity crowd-funding service that turns anyone into an investor by connecting them with business owners looking to fund and sell a stake of their company.
 

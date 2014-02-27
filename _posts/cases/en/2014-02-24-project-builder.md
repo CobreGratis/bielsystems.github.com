@@ -6,7 +6,7 @@ permalink: '/en/cases/project-builder'
 pt: '/cases/project-builder'
 
 name: Project Builder
-project_kind: Project Management Software
+project_kind: Project Management Software.
 image: /images/projects/projectbuilder.jpg
 
 project_url: http://www.projectbuilder.com.br
@@ -16,8 +16,6 @@ video_id:
 video_image:
 
 
-
-short_description: Project Builder is a project management SaaS to help manage your projects following PMI’s best practices. Manage tasks and deadlines between teams and collaborate in real time.
 
 about: Project Builder is a project management SaaS to help manage your projects following PMI’s best practices. Manage tasks and deadlines between teams and collaborate in real time.
 

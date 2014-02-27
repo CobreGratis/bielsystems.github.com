@@ -6,7 +6,7 @@ permalink: '/cases/movingscripts'
 en: '/en/cases/movingscripts'
 
 name: Moving Scripts
-project_kind: Comunidade criativa com foco na criação de roteiros.
+project_kind: Comunidade criativa para publicação de roteiros.
 image: /images/projects/movingscripts.jpg
 
 project_url: http://www.movingscripts.com
@@ -16,8 +16,6 @@ video_id:
 video_image:
 
 
-
-short_description: Moving Script é uma comunidade aberta onde, com um sistema de votação e um tema por semana, roteristas criam, compartilham e passam feedback.
 
 about: Moving Script é uma comunidade aberta onde, com um sistema de votação e um tema por semana, roteristas criam, compartilham e passam feedback. Assim a comunidade pode ver se suas idéias tem condições de ser comercializadas.
 

@@ -6,10 +6,10 @@ permalink: '/en/cases/manager-book'
 pt: '/cases/manager-book'
 
 name: Manager Book
-project_kind: Performance and efficiency indicators for businesses.
+project_kind: Performance Indicators for Businesses.
 image: /images/cases/managerbook.jpg
 
-project_url: http://managerbook.com.br/
+project_url: http://managerbook.com.br
 display_url: managerbook.com.br
 
 video_id: vZfu7rP5JRo
@@ -17,9 +17,7 @@ video_image: /images/customers/marcelo-vieira.jpg
 
 
 
-short_description: Managerbook is a Social Indicators Network. An internet system (SaaS) for indicators management by performance keys for Franchise, automated analysis, social sharing with franchisees and network performance consolidation through configurable Rankings.
-
-about: ManagerBook is a online collaborative tool that allows businesses to share their KPIs internally so that everyone is on the same page and shares essential business knowledge more effectively.
+about: ManagerBook is a online collaborative tool that allows businesses to share their KPIs internally so that everyone is on the same page and shares essencial business knowledge more effectively.
 
 status: The project is finished, online, and has been used for various companies.
 

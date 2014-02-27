@@ -17,8 +17,6 @@ video_image:
 
 
 
-short_description: Perfil Plug is a free points and rewards web destination. By registering, users win virtual currency that can be redeemed across popular local retailers.
-
 about: Perfil Plug is a free points and rewards web destination. By registering, users win virtual currency that can be redeemed across popular local retailers.
 
 status: The project is finished, online, and has been used for various users.
