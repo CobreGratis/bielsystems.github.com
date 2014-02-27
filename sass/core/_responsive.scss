@@ -266,11 +266,92 @@ Media Queries for Tablets
 
   /* AtendeSimples */
 
+
+
+
+  #cover-banner-atendesimples {
+    padding-top: 30px;
+
+    h2 {
+      font-size: $font-large;
+      line-height: 38px;
+      letter-spacing: 0.04em;
+      word-spacing: 0.1em;
+    }
+
+    .imac {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .testimonials-featured {
+    float: none;
+    width: 100%;
+
+    p.quotes {
+      margin: 0 auto;
+      width: 90%;
+      display: block;
+      text-align: center;
+
+      &:before, &:after { display: none; }
+    }
+
+    .author {
+      margin: 0 0 20px;
+
+      p {
+        float: none;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 1em;
+      }
+    }
+  }
+
+  .base-hero {
+    height: 40px;
+
+    .link {
+      float: none;
+      height: 40px;
+      background: none;
+
+      a {
+        text-align: center;
+        display: block;
+        line-height: 0;
+      }
+
+      &:after { display: none; }
+    }
+  }
+
+
+
+
+
   .stage-head {
     font-size: $font-medium2;
     line-height: 28px;
     font-weight: normal;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   /* Project page - Cases */
