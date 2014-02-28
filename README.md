@@ -24,7 +24,7 @@ Then after setting things up, run: ```npm install``` on the folder of the projec
 
 Run ```grunt watch```on the folder of the project to start Grunt. It will watch for any changes on the files in the ```sass/``` folder and any javascript files on the ```javascripts/source``` folder. The css will be compiled into ```stylesheets/style.css``` and the javascript will be concatenated and minified into ```javascripts/application.min.js```.
 
-#### Do not alter these compiled and commit them, always use the compiler first! Do you hear me?
+**DO NOT ALTER THESE COMPILED FILES AND COMMIT THEM, ALWAYS USE THE COMPILER FIRST! DO YOU HEAR ME?!**
 
 Alternatively, if you don't have Node.js installed you can still use Compass to compile the css, but the javascript process will need to be done by hand.
 
