@@ -324,6 +324,10 @@ Media Queries for Tablets
     font-weight: normal;
   }
 
+  section.testimonials blockquote {
+    width: 100%;
+  }
+
 
   /* Project page - Cases */
 
@@ -939,6 +943,32 @@ Media Queries for Smartphones
     }
 
     p { margin: 0 !important; }
+  }
+
+  section.testimonials {
+    h2 {
+      margin: 30px 0;
+    }
+
+    blockquote {
+      padding: 30px 0;
+
+      i {
+        font-size: 15px;
+        line-height: 28px;
+        text-align: left;
+
+        &:before, &:after {
+          display: none;
+        }
+      }
+
+      em {
+        margin-top: 15px;
+        font-size: 14px;
+        text-align: left;
+      }
+    }
   }
 
 
