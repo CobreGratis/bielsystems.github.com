@@ -176,58 +176,7 @@ Case: AtendeSimples
 .topics li { list-style-type: circle !important; }
 
 
-/* Testimonials */
 
-.testimonials {
-
-  h2 {
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: $font-big;
-    margin: 50px 0 20px 0;
-    float: left;
-  }
-
-  .testimony {
-    margin-bottom: 30px;
-    margin-top: 20px;
-    padding: 10px 0 20px 0;
-    border-bottom: 1px solid #f1f1f1;
-
-    .quote {
-      font: $font-large Georgia, serif;
-      line-height: 34px;
-      font-style: italic;
-      margin-bottom: 15px;
-
-      &:before {
-        background: url('/images/works/atendesimples/aspa1-black.png') no-repeat scroll top left;
-        width: 35px;
-        height: 28px;
-        content: "";
-        float: left;
-        margin-right: 5px;
-      }
-
-      &:after {
-        background: url('/images/works/atendesimples/aspa2-black.png') no-repeat scroll top left;
-        width: 35px;
-        height: 28px;
-        content: "";
-        display: inline-block;
-        margin-left: 5px;
-        margin-bottom: -10px;
-      }
-    }
-
-    .author {
-      text-align: right;
-      font-size: $font-medium2;
-      color: $grey3;
-    }
-  }
-}
 
 .case-logos {
   display: block;
@@ -253,6 +202,92 @@ Case: AtendeSimples
       content: counter(item) " - ";
       counter-increment: item;
       font-weight: bold;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Testimonials */
+
+
+section.testimonials {
+  padding: 60px 0;
+  background: #fafafa;
+  display: block;
+
+  h2 {
+    width: 100%;
+    margin: 50px 0 40px 0;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: $font-large;
+    color: #2271B3;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    word-spacing: 0.1em;
+  }
+
+  blockquote {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 50px 0;
+    border-bottom: 1px solid #f1f1f1;
+
+    i {
+      width: 100%;
+      display: block;
+      font-size: $font-medium2;
+      line-height: 34px;
+      text-align: center;
+
+      &:before, &:after {
+        width: 25px;
+        height: 20px;
+        content: "";
+        display: inline-block;
+      }
+
+      &:before {
+        background: url('/images/works/atendesimples/quote_left_black.png') no-repeat scroll top left;
+        margin-right: 10px;
+      }
+
+      &:after {
+        background: url('/images/works/atendesimples/quote_right_black.png') no-repeat scroll top left;
+        margin-left: 10px;
+      }
+    }
+
+    em {
+      margin-top: 20px;
+      display: block;
+      text-align: center;
+      font-size: 16px;
+      color: $grey3;
+    }
+
+    &:last-child {
+      border-bottom: none;
     }
   }
 }
