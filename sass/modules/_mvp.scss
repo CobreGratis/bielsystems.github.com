@@ -171,6 +171,7 @@ Services - MVP
 /* Projects */
 
 #mvp {
+  display: none;
 
   h3 {
     margin: 55px 0 40px 0;
@@ -221,7 +222,6 @@ Services - MVP
 
 .testimonials-mvp {
   width: 100%;
-  margin: 60px 0 0 0;
   border-top: 10px solid $light-grey2;
   @include clearfix;
 
