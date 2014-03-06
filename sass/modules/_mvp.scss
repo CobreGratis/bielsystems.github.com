@@ -257,12 +257,25 @@ Services - MVP
 /* Contact */
 
 #contact {
-  background: $light-grey1;
   border-top: 10px solid $light-grey2;
-  
+  background: $grey1;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $grey1), color-stop(100%, #fff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, $grey1 0%, #fff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, $grey1 0%, #fff 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, $grey1 0%, #fff 100%); /* IE10+ */
+  background: linear-gradient(top bottom, $grey1 0%, #fff 100%); /* W3C */
+
+  padding-top: 60px;
+
   h3 {
-    margin: 55px 0 40px 0;
-    font-size: 36px;
+    text-shadow: 0 1px 0 #fff;
+    margin: 0 0 40px 0;
+    font-size: $font-big;
+    text-transform: uppercase;
     text-align: center;
+  }
+  
+  input[type="text"] {
+    background: #fff;
   }
 }
