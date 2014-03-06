@@ -90,120 +90,90 @@ Case: AtendeSimples
 
 
 
+/* Steps */
 
-/* Sections */
 
-.stage-head {
-  background-color: $light-grey2;
-  border-bottom: 3px solid $grey1;
-  padding: 40px 0;
+section#atendesimples-steps {
+  width: 100%;
+  overflow: hidden;
 
-  p {
-    width: 90%;
-    margin: auto;
-    font-size: 18px;
-    line-height: 32px;
+  aside {
+    background-color: $light-grey2;
+    border-bottom: 2px solid $grey1;
+    padding: 40px 0;
 
-    strong {
-      margin-right: 10px;
-      color: #026ec7;
-      font-weight: 600;
+    p {
+      width: 65%;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 32px;
+
+      b {
+        margin-right: 10px;
+        color: #026ec7;
+      }
     }
   }
-}
 
-
-#atendesimples-steps {
-  width: 100%;
-  font-size: $font-medium2;
-  line-height: 26px;
-  float: left;
-
-  .stage {
+  article {
+    overflow: hidden;
     border-top: 1px solid $grey1;
     border-bottom: 1px solid $grey1;
-    padding: 60px 0 40px 0;
-    @include clearfix;
+    padding: 60px 0;
+  }
 
-    h2 {
-      margin-bottom: 20px;
-      line-height: 31px;
-    }
-
-    &:nth-child(odd){
-      background-color: #fff;
-
-      .col-img {
-        margin-right: 4%;
-        text-align: right;
-        float: left;
-      }
-
-      .col { float: right; }
-
-    }
-
-    &:nth-child(even){
-      background-color: $light-grey1;
-
-      .col-img {
-        margin-left: 4%;
-        text-align: left;
-        float: right;
-      }
-
-      .col { float: left; }
-
-    }
-
-    .col-img {
-      width: 40%;
-
-      img {
-        width: 70%;
-      }
-    }
+  article:nth-child(even) {
+    background-color: $light-grey1;
 
     .col {
-      width: 48%;
-
-      h3 { margin-bottom: 10px; }
-
-      .icon-stege {
-        display: block;
-        margin: 0 auto;
-      }
-
-    } // .col
-
-  } // .stage
-} // #atendesimples-steps
-
-.topics li { list-style-type: circle !important; }
-
-
-
-
-/* List */
-
-.list {
-  border-radius: 4px;
-  background: $light-grey2;
-  border: 1px solid $grey2;
-  counter-reset: item;
-  padding: 1em;
-
-  li {
-    display: block;
-    font-size: $font-medium;
-    list-style: decimal;
-
-    &:before {
-      content: counter(item) " - ";
-      counter-increment: item;
-      font-weight: bold;
+      width: 40%;
+      float: left;
     }
   }
+
+  article:nth-child(odd) {
+    background-color: #fff;
+
+    .col {
+      width: 40%;
+      float: right;
+    }
+  }
+
+  article:nth-child(odd):before {
+    content: '';
+    float: left;
+    margin-left: 20%;
+    width: 240px;
+    height: 290px;
+    background: url('/images/works/atendesimples/step_images_sprite.png');
+  }
+
+  article:nth-child(even):after {
+    content: '';
+    display: inline-block;
+    width: 250px;
+    height: 285px;
+
+    background: url('/images/works/atendesimples/step_images_sprite.png');
+    background-position: 0 -295px;
+  }
+
+  // article:nth-child(3):after {
+  //   background-position: 0 -470px;
+  // }
+
+  // article:nth-child(4):before {
+  //   background-position: 0 -660px;
+  // }
+
+  // article:nth-child(5):after {
+  //   background-position: 0 -880px;
+  // }
+
+  //  article:nth-child(6):before {
+  //   background-position: 0 -1090px;
+  // }
 }
 
 
