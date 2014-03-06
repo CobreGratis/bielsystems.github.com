@@ -318,14 +318,36 @@ Media Queries for Tablets
     }
   }
 
-  .stage-head {
-    p {
-      width: 100%;
-      margin: auto;
-      font-size: 16px;
-      line-height: 30px;
+  section#atendesimples-steps aside p {
+    width: 100%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  section#atendesimples-steps  {
+
+    article { padding: 30px 0; }
+
+    article h2, h3 { text-align: center; }
+
+    article:nth-child(even), article:nth-child(odd) .col { float: none; }
+
+    article:nth-child(2), article:nth-child(3), article:nth-child(4), article:nth-child(5), article:nth-child(6), article:nth-child(7) {
+
+      section {
+        .col { width: 100%; }
+      }
+
+      section:after, section:before {
+        margin: 20px auto;
+        display: block;
+      }
+
+      section:after { display: none; }
     }
   }
+
 
   section.testimonials blockquote {
     width: 100%;
@@ -921,30 +943,18 @@ Media Queries for Smartphones
     }
   }
 
-  .col-img {
-    width: 100% !important;
-    text-align: center !important;
+  section#atendesimples-steps  {
 
-    img {
-      width: 120px !important;
-      margin-bottom: 30px;
+    article h2, h3 { text-align: left; }
+
+    article h2 { font-size: 26px; }
+
+    article p { font-size: 16px; line-height: 26px; }
+
+    article:nth-child(2), article:nth-child(3), article:nth-child(4), article:nth-child(5), article:nth-child(6), article:nth-child(7) {
+
+      section:after, section:before { display: none; }
     }
-  }
-
-  .col {  width: 100% !important; }
-
-  .stage-head {
-    .column-img {
-      width: 100% !important;
-      text-align: center !important;
-      float: none !important;
-
-      img {
-        display: none;
-      }
-    }
-
-    p { margin: 0 !important; }
   }
 
   section.testimonials {
@@ -1427,6 +1437,21 @@ Media Queries with more adjustments for Smartphones
       max-width: auto;
       padding: 10px 40px;
       margin-top: 20px;
+    }
+  }
+
+  section#atendesimples-steps aside {
+    padding: 20px 0;
+
+    p {
+      font-size: 14px;
+      line-height: 26px;
+
+      b {
+        margin-right: 0;
+        width: 100%;
+        display: block;
+      }
     }
   }
 
