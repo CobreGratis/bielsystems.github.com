@@ -11,7 +11,7 @@ describe Blogpost do
     end
   end
 
-  describe '#export_to' do    
+  describe '#export_to' do
     let(:spec_directory) { File.dirname __FILE__ }
     let(:post_file)      { File.join(spec_directory, '_posts', fixture_name) }
     let(:site)           { Jekyll::Site.new(Jekyll.configuration({})) }
@@ -23,10 +23,10 @@ describe Blogpost do
 
     before :each do
       # copy fixture to _posts directory
-      fixture_file = File.join(spec_directory, 'fixtures', fixture_name)
+      fixture_file = File.join(spec_directory, 'fixtures', '_posts', 'time', fixture_name)
       FileUtils.cp fixture_file, File.join(spec_directory, '_posts')
     end
-    
+
     context "person has blogposts" do
       let(:fixture_name)   { '2011-10-11-mauro-george.html' }
 
