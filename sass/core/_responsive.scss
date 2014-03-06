@@ -426,6 +426,9 @@ Media Queries for Tablets
 
 
   /* Media Kit */
+  .midiakit_wrap p{
+    max-width: 80%;
+  }
 
   .responsive_option {
     display: block;
@@ -1093,6 +1096,9 @@ Media Queries for Smartphones
 
 
   /* Media Kit */
+  .midiakit_wrap p{
+    max-width: 80%;
+  }
 
   .box_colors { height: auto; }
 
@@ -1177,6 +1183,10 @@ Media Queries with adjustments for Smartphones
 
 
   /* Media Kit */
+
+  .midiakit_wrap p{
+    max-width: 100%;
+  }
 
   .resizeble_img {
     width: 300px;
@@ -1410,19 +1420,28 @@ Media Queries with more adjustments for Smartphones
 
   /* Media Kit */
 
+  .midiakit_wrap p{
+    max-width: 100%;
+  }
+
   .box_colors { height: auto; }
   .responsive_option { display: block; }
   .box_download { height: auto; }
 
   #font_show,
   .box_fonts,
-  .font_show_img,
   .box_colors,
   .bt_download { display: none; }
+
 
   .resizeble_img {
     width: 250px;
     height: 101px;
+  }
+
+  .font_show_img {
+    width:280px;
+    height: auto;
   }
 
 }
