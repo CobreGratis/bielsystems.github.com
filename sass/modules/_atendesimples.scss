@@ -178,10 +178,7 @@ Case: AtendeSimples
 
 
 
-.case-logos {
-  display: block;
-  margin: 30px auto 40px;
-}
+
 
 
 /* List */
@@ -290,3 +287,34 @@ section.testimonials {
     }
   }
 }
+
+
+
+/* Company Logos */
+
+section.company-logos {
+  background: #fafafa;
+  overflow: hidden;
+  padding: 0 0 60px;
+
+  figure {
+    width: 475px;
+    display: block;
+    margin: 0 auto;
+
+    img {
+      float: left;
+    }
+
+    img:first-child {
+      margin-right: 35px;
+    }
+
+    img:last-child {
+      border-left: 1px solid $grey2;
+      padding-left: 35px;
+    }
+  }
+}
+
+

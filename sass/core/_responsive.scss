@@ -282,7 +282,7 @@ Media Queries for Tablets
       margin: 30px auto 0;
       width: 50%;
       display: block;
-      height: 220px;
+      height: 280px;
 
       img {
         width: 100%;
@@ -970,6 +970,8 @@ Media Queries for Smartphones
       }
     }
   }
+
+  section.company-logos { display: none; }
 
 
   /* Project page - Cases */
