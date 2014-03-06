@@ -30,6 +30,23 @@ Services - MVP
     font-size: $font-large;
   }
   
+  a {
+    border: 1px solid #ff1717;
+    @include round_borders (4px);
+    height: 60px;
+    line-height: 60px;
+    background: $he_red;
+    padding: 0 20px;
+    margin-top: 51px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: $font-medium2;
+    color: #fff;
+
+    &:hover { background: #c10808; }
+  }
+  
 }
 
 
