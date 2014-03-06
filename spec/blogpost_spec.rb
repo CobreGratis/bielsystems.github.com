@@ -23,12 +23,12 @@ describe Blogpost do
 
     before :each do
       # copy fixture to _posts directory
-      fixture_file = File.join(spec_directory, 'fixtures', '_posts', 'time', fixture_name)
-      FileUtils.cp fixture_file, File.join(spec_directory, '_posts')
+      fixture_file = File.join(spec_directory, 'fixtures', '_posts', fixture_name)
+      FileUtils.copy_file fixture_file, File.join(spec_directory, '_posts', fixture_name)
     end
 
     context "person has blogposts" do
-      let(:fixture_name)   { '2011-10-11-mauro-george.html' }
+      let(:fixture_name)   { 'time/2011-10-11-mauro-george.html' }
 
       subject(:blogpost) { Blogpost.new('New blogpost', 'http://some.url', 'Mauro George') }
 
@@ -49,7 +49,27 @@ describe Blogpost do
     end
 
     context "person has no blogposts" do
-      let(:fixture_name)   { '2011-12-11-aluisio-azevedo.html' }
+      let(:fixture_name)   { 'time/2011-12-11-aluisio-azevedo.html' }
+
+      subject(:blogpost) { Blogpost.new('New blogpost', 'http://some.url', 'Aluisio Azevedo') }
+
+      it "adds new blogpost" do
+        blogpost.export_to post_file
+
+        expect(post.data['blogposts'][0]['url']).to eq("http://some.url")
+        expect(post.data['blogposts'][0]['title']).to eq("New blogpost")
+      end
+
+
+      it "updates blogposts count" do
+        blogpost.export_to(post_file)
+
+        expect(post.data['blogposts']).to have(1).blogposts
+      end
+    end
+
+    pending "english profile page" do
+      let(:fixture_name)   { 'time/en/2011-12-11-aluisio-azevedo.html' }
 
       subject(:blogpost) { Blogpost.new('New blogpost', 'http://some.url', 'Aluisio Azevedo') }
 
