@@ -12,7 +12,6 @@ Services - MVP
   margin-top: 80px;
   padding: 60px 0 55px 0;
   border-bottom: 10px solid $grey2;
-
   color: #fff;
 
   h2 {
@@ -217,4 +216,20 @@ Services - MVP
     &:hover img { opacity: .7; }
   }
 
+}
+
+
+/* Contact */
+
+#contact {
+  margin: 40px 0 0 0;
+  background: $light-grey1;
+  border-top: 10px solid $light-grey2;
+  padding: 40px 0 0 0;
+  
+  h3 {
+    margin: 0 0 20px 0;
+    font-size: 36px;
+    text-align: center;
+  }
 }
