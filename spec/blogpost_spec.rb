@@ -68,23 +68,46 @@ describe Blogpost do
       end
     end
 
-    pending "english profile page" do
-      let(:fixture_name)   { 'time/en/2011-12-11-aluisio-azevedo.html' }
+    context "english profile" do
+      context "with no blogposts" do
+        let(:fixture_name)   { 'time/en/2011-12-11-aluisio-azevedo.html' }
 
-      subject(:blogpost) { Blogpost.new('New blogpost', 'http://some.url', 'Aluisio Azevedo') }
+        subject(:blogpost) { Blogpost.new('New blogpost', 'http://some.url', 'Aluisio Azevedo') }
 
-      it "adds new blogpost" do
-        blogpost.export_to post_file
+        it "adds new blogpost" do
+          blogpost.export_to post_file
 
-        expect(post.data['blogposts'][0]['url']).to eq("http://some.url")
-        expect(post.data['blogposts'][0]['title']).to eq("New blogpost")
+          expect(post.data['blogposts'][0]['url']).to eq("http://some.url")
+          expect(post.data['blogposts'][0]['title']).to eq("New blogpost")
+        end
+
+
+        it "updates blogposts count" do
+          blogpost.export_to(post_file)
+
+          expect(post.data['blogposts']).to have(1).blogposts
+        end
       end
 
+      context "with blogposts" do
+        let(:fixture_name)   { 'time/en/2011-10-11-mauro-george.html' }
 
-      it "updates blogposts count" do
-        blogpost.export_to(post_file)
+        subject(:blogpost) { Blogpost.new('New blogpost', 'http://some.url', 'Mauro George') }
 
-        expect(post.data['blogposts']).to have(1).blogposts
+        it "appends new blogpost" do
+          blogpost.export_to post_file
+
+          expect(post.data['blogposts'][-1]['url']).to eq("http://some.url")
+          expect(post.data['blogposts'][-1]['title']).to eq("New blogpost")
+        end
+
+        it "updates blogposts count" do
+          expect { blogpost.export_to(post_file) }.to change{ post.data['blogposts'].count }.from(2).to(3)
+        end
+
+        it "does not add blogpost if it already exists" do
+          expect { 2.times { blogpost.export_to(post_file) } }.to change{ post.data['blogposts'].count }.by(1)
+        end
       end
     end
   end
