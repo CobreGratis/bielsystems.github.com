@@ -17,6 +17,7 @@ exclude:
 - 'sass'
 - 'spec'
 - 'templates'
+- 'Procfile'
 permalink: pretty
 
 ### MVP infos

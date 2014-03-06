@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.1.0'
 
 gem 'rake'
+gem 'foreman',    '0.63.0'
 gem 'RedCloth',   '= 4.2.9'
 gem 'jekyll',     '= 1.4.2'
 gem 'kramdown',   '= 1.2.0'
