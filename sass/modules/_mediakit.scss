@@ -5,17 +5,68 @@
 Media Kit
 ==================== */
 
-.services-text2 {
-  width: 80%;
-  position: relative;
-  line-height: 28px;
-  font-size: $font-medium2;
-  margin-right: auto;
-  margin-left: auto;
-  text-align:center;
-  background-color: #fff;
-  padding: 0 40px 0 40px;
-  margin-bottom: 0;
+.midiakit_wrap {
+width: 80%;
+position: relative;
+font-size: 17px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+background-color: #FFF;
+padding: 0 auto 0 auto;
+margin-bottom: 0;
+  img {
+  margin-top: 20px;
+  }
+
+  h3 {
+  font-weight: 500;
+  font-size: 36px;
+  margin: 55px auto 20px auto;
+  color: #900;
+  text-transform: uppercase;
+  }
+
+  p {
+  font: normal 17px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  line-height: 27px;
+  margin: 15px auto 15px auto;
+  max-width: 60%;
+  }
+
+  ul.paleta {
+  margin: 20px auto 20px auto;
+    li {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    display: inline-block;
+    }
+    p{
+      margin: 60px 15px 0 15px;
+    }
+    li.red1{
+      background-color: #330000;
+      color: #330000;
+    }
+    li.red2{
+      background-color: #660000;
+      color: #660000;
+    }
+    li.red3{
+      background-color: #990000;
+      color: #990000;
+    }
+    li.red4{
+      background-color: #cc3333;
+      color: #cc3333;
+    }
+    li.red1:hover, li.red2:hover, li.red3:hover, li.red4:hover{
+      p{
+        color: #fff;
+      }
+    }
+  }
 }
 
 .midiakit-text p {
