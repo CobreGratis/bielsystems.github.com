@@ -272,26 +272,7 @@ mvp:
       company: "Horus"
       description: "O serviço prestado pela Startup DEV superou nossas expectativas. Conseguimos priorizar exatamente os pontos mais importantes nesta primeira etapa. Temos certeza que produto desenvolvido com qualidade e agilidade foi um ótimo primeiro passo para o nosso projeto! Obrigado pela experiência."
     -
-      name: "José Roberto H. da Gama"
-      company: "NetAdvocacia"
-      description: "Os aconselhamentos técnicos fizeram toda a diferença, pois a sensação ao final foi de ter recebido mais do que havia sido planejado e contratado."
-    -
-      name: "Kauê Linden"
-      company: "Game Guiz"
-      description: "O processo foi uma verdadeira aula de como organizar projetos ligados ao desenvolvimento de software"
-    -
-      name: "Amure Pinho"
-      company: "Amigo Não Se Compra / SyncMobile"
-      description: "O conhecimento técnico e a habilidade do time em entender o projeto e desenhar o MVP não só garante a entrega do projeto dentro do prazo excepcional como torna o produto mais inteligente."
-    -
-      name: "Andre Diamand"
-      company: "Zupty / VentureOne"
-      description: "A equipe do Startup DEV não tráz somente o software amado em 3 dias, neste período eles nos ensinam na prática o que é um projeto LEAN de verdade, tocado com muita qualidade e capricho."
-    -
-      name: "Pablo Braga"
-      company: "Safetracking / Sidetech"
-      description: "O sistema de pontos te dá flexibilidade para definir o que é realmente prioritário e você pode desenvolver o restante posteriormente, quando os clientes ou investidores se interessarem pelo seu projeto."
-
+ 
   testimonials-en:
     -
       name: "Matheus Diaz e Ronnie Possatti"
