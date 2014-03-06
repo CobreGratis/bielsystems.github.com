@@ -53,7 +53,10 @@ Services - MVP
 /* Cover Entry */
 
 #cover-entry {
-  margin: 59px 0 0 0;
+  margin: 1px 0 0 0;
+  background: $light-grey1;
+  border-bottom: 5px solid $light-grey2;
+  padding: 50px 0 40px 0;
   text-align: left;
   @include clearfix;
 
@@ -61,8 +64,6 @@ Services - MVP
   .column-02 { width: 46%; }
 
   .column-01 {
-    border-top: 1px dashed $grey3;
-    padding: 35px 0 0 0;
     float: left;
 
     h3 {
@@ -88,9 +89,7 @@ Services - MVP
       font-size: $font-medium2;
       color: #fff;
 
-      &:hover {
-        background: #c10808;
-      }
+      &:hover { background: #c10808; }
     }
   }
 
@@ -100,8 +99,7 @@ Services - MVP
     iframe {
       width: 98%;
       padding: 1%;
-      box-shadow: 0 0 12px #111;
-      background: $grey3;
+      background: $grey2;
     }
   }
   
