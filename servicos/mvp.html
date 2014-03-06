@@ -274,20 +274,24 @@ description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web,
       </li>
     </ul>
 
-    <section class="testimonials">
-      <h3>Depoimentos</h3>
-      <ul>
-        {% for testimonial in site.mvp.testimonials %}
-        <li>
-          <p>"{{ testimonial.description }}"</p>
-          <p class="client_name">{{ testimonial.name }} - {{ testimonial.company }}</p>
-        </li>
-        {% endfor %}
-      </ul>
-    </section>
-
   </div>
 </section> <!-- /mvp -->
+
+<section class="testimonials-mvp">
+  <div class="containner">
+
+    <h3>Depoimentos</h3>
+    <ul>
+      {% for testimonial in site.mvp.testimonials %}
+      <li>
+        <p>"{{ testimonial.description }}"</p>
+        <p class="client-name">{{ testimonial.name }} - {{ testimonial.company }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+</section>
 
 <section id="contact">
   <div class="containner">
