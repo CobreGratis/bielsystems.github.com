@@ -319,9 +319,12 @@ Media Queries for Tablets
   }
 
   .stage-head {
-    font-size: $font-medium2;
-    line-height: 28px;
-    font-weight: normal;
+    p {
+      width: 100%;
+      margin: auto;
+      font-size: 16px;
+      line-height: 30px;
+    }
   }
 
   section.testimonials blockquote {
@@ -937,8 +940,7 @@ Media Queries for Smartphones
       float: none !important;
 
       img {
-        width: 120px !important;
-        margin-bottom: 30px;
+        display: none;
       }
     }
 

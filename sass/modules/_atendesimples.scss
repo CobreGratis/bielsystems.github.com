@@ -88,24 +88,30 @@ Case: AtendeSimples
 
 
 
+
+
+
 /* Sections */
 
 .stage-head {
   background-color: $light-grey2;
-  border-bottom: 5px solid $grey1;
-  padding: 50px 0 50px 0;
-  font-size: $font-large;
-  line-height: 34px;
-  font-weight: 300;
-  margin-bottom: 0;
+  border-bottom: 3px solid $grey1;
+  padding: 40px 0;
 
-  p { margin: 0 0 0 150px; }
+  p {
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 32px;
 
-  img {
-    width: 120px;
-    float: left;
+    strong {
+      margin-right: 10px;
+      color: #026ec7;
+      font-weight: 600;
+    }
   }
 }
+
 
 #atendesimples-steps {
   width: 100%;
@@ -174,9 +180,6 @@ Case: AtendeSimples
 } // #atendesimples-steps
 
 .topics li { list-style-type: circle !important; }
-
-
-
 
 
 
