@@ -13,7 +13,7 @@ $ bundle exec jekyll serve -w
 
 ### Installation
 
-To use Grunt you'll need Node.js installed. You can get Node on the [website](http://nodejs.org) or installing via ```brew install node``
+To use Grunt you'll need Node.js installed. You can get Node on the [website](http://nodejs.org) or installing via `brew install node`
 
 After installing Node you'll need to install ```grunt-cli``` npm package: ```npm install -g grunt-cli```.
 You can also follow along the [Getting Started guide](http://gruntjs.com/getting-started).
@@ -41,6 +41,14 @@ $ git rebase --continue
 
 You can edit the SCSS files in the sass folder.
 In the stylesheets folder we have just the generated files by Grunt/Compass.
+
+## Using foreman
+
+If you already have installed all dependencies you can run the project with foreamn.
+
+```bash
+$ foreman start
+```
 
 ## Adding A Project To Your Profile
 
