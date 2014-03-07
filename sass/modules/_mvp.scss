@@ -226,11 +226,15 @@ Services - MVP
   @include clearfix;
 
   li {
-    width: 29%;
-    height: 330px;
+    width: 25%;
+    height: 235px;
     margin: 0 2% 30px 2%;
+    padding: 2%;
     float: left;
   }
+  
+  li:nth-child(even) {background: $light-grey1; }
+  li:nth-child(odd) {background: $light-grey2; }
   
   h3 {
     margin: 55px 0 40px 0;
@@ -239,9 +243,11 @@ Services - MVP
   }
   
   p {
-    font-size: $font-large;
-    line-height: 33px;
-    margin: 0 0 10px 0;
+    font-size: 19px;
+    font-style: italic;
+    font-family: Georgia, serif;
+    line-height: 26px;
+    margin: 0 0 12px 0;
   }
 }
 
