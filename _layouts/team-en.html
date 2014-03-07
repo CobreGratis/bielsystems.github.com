@@ -17,18 +17,24 @@ description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web,
         <article class="mini-bio">
           <h2>{{ page.full_name }}</h2>
 
-          <p class="job-title">
+          <h3 class="job-title">
             {% if page.job_cool %}
               {{ page.job_cool }}
             {% else %}
               {{ page.job_title }}
             {% endif %}
-          </p>
+          </h3>
 
           {% for line in page.bio %}
             <p>{{ line }}</p>
           {% endfor %}
 
+          {% if page.skills %}
+          <h3>Skills</h3>
+          <div class="skill-list">{% for skill in page.skills %}<span class="skill-tag">{{ skill }}</span>{% endfor %}</div>
+          {% endif %}
+
+          <h3>Social</h3>
           <ul class="social-links">
             {% if page.twitter %}<li><a href="https://twitter.com/{{ page.twitter }}" class="profile-twitter">@{{ page.twitter }}</a></li>{% endif %}
             {% if page.dribbble %}<li><a href="http://dribbble.com/{{ page.dribbble }}" class="profile-dribbble">{{ page.dribbble }}</a></li>{% endif %}
