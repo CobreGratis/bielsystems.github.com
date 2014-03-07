@@ -7,7 +7,7 @@ en: '/en/cases/atende_simples'
 
 name: Atende Simples
 project_kind: Plataforma para facilitar o atendimento ao cliente.
-image: /images/projects/websimulado.jpg
+image: /images/projects/atendesimples.jpg
 
 project_url: http://www.atendesimples.com/
 display_url: atendesimples.com
@@ -32,8 +32,6 @@ customer_name:
 
 
 project_team:
-  - github: maurogeorge
-  - github: matheusbras
-  - github: FlaviaFortes
-  - github: beatrizcp87
+  - github: eduardofiorezi
+  - github: dirs
 ---
