@@ -227,8 +227,8 @@ Services - MVP
 
   li {
     width: 29%;
-    height: 140px;
-    margin: 0 2% 25px 2%;
+    height: 330px;
+    margin: 0 2% 30px 2%;
     float: left;
   }
   
@@ -239,7 +239,8 @@ Services - MVP
   }
   
   p {
-    line-height: 22px;
+    font-size: $font-large;
+    line-height: 33px;
     margin: 0 0 10px 0;
   }
 }
@@ -248,7 +249,6 @@ Services - MVP
   font-weight: bold;
   font-family: 'Lato', sans-serif;
   font-size: $font-medium;
-  margin: 0;
   color: $grey3;
 }
 
