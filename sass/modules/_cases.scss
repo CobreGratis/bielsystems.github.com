@@ -5,10 +5,11 @@
 Cases
 ==================== */
 
-section.hero {
+.hero {
   margin-top: 80px;
   overflow: hidden;
   background: $he_red;
+  border-bottom: 10px solid $light-grey2;
 
   article {
     margin-top: 50px;
@@ -16,102 +17,96 @@ section.hero {
     float: left;
 
     h2 {
-      font-size: 62px;
-      line-height: 70px;
-      letter-spacing: 0.02em;
-      font-weight: 700;
+      font-size: 48px;
       color: #fff;
     }
 
-    span {
-      display: block;
-      margin-top: 15px;
-      font-size: 16px;
-      letter-spacing: 0.03em;
-      font-weight: 100;
-      color: rgba( 255, 255, 255, 0.7 );
+    p {
+      margin-top: 12px;
+      font-size: $font-medium2;
+      color: #fff;
     }
 
-    a.btn-web {
-      display: inline-block;
-      margin-top: 35px;
-      padding: 12px 50px;
-      font-size: 16px;
+    .btn-web {
+      border-radius: 4px;
+      background: #fff;
+      height: 50px;
+      line-height: 50px;
+      margin-top: 20px;
+      font-size: $font-medium2;
       font-weight: 500;
       color: $he_red;
+      display: inline-block;
+      padding: 0 25px 0 25px;
       text-decoration: none;
-      background: #fff;
-      border-radius: 4px;
 
-      &:hover { opacity: 0.95; }
+      &:hover { opacity: .9; }
     }
 
     figure.browser-frame {
       background: image-url('/images/cases/browser.png') no-repeat;
-      width:460px;
-      height:260px;
+      width: 460px;
+      height: 260px;
       overflow: hidden;
-      float:right;
+      float: right;
       margin: 0;
       padding: 0;
 
-      img{
-        display:block;
+      img { 
+        display: block;
         margin-top: 26px;
         width: 100%;
       }
-    }
-  }
-}
-
+    } // figure
+  } // div
+} // .hero
 
 
 /* Main Information */
 
-section.main-infos {
+.main-infos {
   width: 100%;
   padding: 50px 0;
   overflow: hidden;
 
-  article, aside {
-    float: left;
+  article,
+  aside {
 
     h3 {
       margin-bottom: 25px;
       color: $he_red;
-      font-size: 19px;
-      letter-spacing: 0.04em;
-      word-spacing: 0.1em;
-      font-weight: 500;
+      font-size: $font-large;
+      border-bottom: 1px solid $grey2;
+      padding-bottom: 10px;
+      font-weight: 300;
       text-transform: uppercase;
     }
 
     p {
       margin-bottom: 15px;
       color: $grey4;
-      font-size: 16px;
+      font-size: $font-medium2;
       line-height: 28px;
     }
 
-    a.btn-mobile {
-      display: none;
-    }
+    .btn-mobile { display: none; }
   }
 
   article {
     width: 65%;
-    margin-right: 5%;
+    float: left;
   }
 
   aside {
     width: 30%;
+    float: right;
   }
 }
 
-section.main-infos aside ul {
+.main-infos aside ul {
   margin:0px;
   padding:0px;
-  width:100%;
+  width: 100%;
 
   li {
     margin-bottom: 10px;
@@ -131,30 +126,26 @@ section.main-infos aside ul {
     text-decoration: none;
     overflow: auto;
 
-    &:hover {
-      opacity: 0.9;
-    }
+    &:hover { opacity: .9; }
   }
 
-  span {
-    margin: 0;
+  h4 {
+    margin: 5px 0 -2px 0;
     color: $he_red;
-    font-size:14px;
-    font-weight: 300;
+    font-size: $font-medium;
   }
 
   p {
     margin: 0;
     color: $grey4;
-    font-size:12px;
-    font-weight: 300;
+    font-size: $font-small;
   }
 }
 
 
 /* Testimonials */
 
-section.client {
+.client {
   background: #F7F7F7;
   padding: 50px 0 80px;
   width: 100%;
@@ -171,7 +162,7 @@ section.client {
 
   article { float: left; }
 
-  article.video {
+  .video {
     width: 40%;
     margin-top: 40px;
 
@@ -192,10 +183,10 @@ section.client {
 
         &:hover { opacity: 1; }
       }
-    }
-  }
+    } // .video-thumb
+  } // .video
 
-  article.testimonial {
+  .testimonial {
     margin-top: 10px;
     width: 60%;
 
@@ -217,5 +208,5 @@ section.client {
       color: rgba( $he_red, 0.8 );
       text-align: left;
     }
-  }
-}
+  } // .testimonial
+} // .client
