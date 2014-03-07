@@ -70,16 +70,13 @@ Trabalho / Work
 
 .work-info {
   a {
-    border-bottom: 2px solid #880505;
     @include round_borders (4px);
-    height: 40px;
-    line-height: 40px;
     background: $he_red;
-    padding: 0 10px 0 10px;
+    padding: 12px 30px;
     display: inline-block;
     color: #fff;
     text-decoration: none;
-    margin: 10px 0 0 0;
+    margin: 10px 10px 0 0;
     display: none;
 
     &:hover { opacity: .8; }
@@ -99,7 +96,7 @@ Trabalho / Work
   }
 }
 
-a.more{
+a.more {
   @include red_gradient;
   color: #fff;
   display: inline-block;
