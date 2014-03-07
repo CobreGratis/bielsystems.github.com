@@ -180,38 +180,16 @@ description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web,
 
     <h3>Depoimentos de nossos clientes</h3>
     <ul>
+      {% for testimonial in site.mvp.testimonials %}
       <li>
-        <p>"É muito difícil encontrar uma equipe que consiga agregar real valor para o serviço. Valor este que está na energia e empenho de se trabalhar com paixão"</p>
-        <span class="client-name">Matheus Diaz e Ronnie Possatti - Horus</span>
+        <p>"{{ testimonial.description }}"</p>
+        <span class="client-name">{{ testimonial.name }} - {{ testimonial.company }}</span>
       </li>
-      <li>
-        <p>"Superou nossas expectativas. Conseguimos priorizar exatamente os pontos mais importantes nesta primeira etapa."</p>
-        <span class="client-name">Matheus Diaz e Ronnie Possatti - Horus</span>
-      </li>
-      <li>
-        <p>"Superou nossas expectativas. Conseguimos priorizar exatamente os pontos mais importantes nesta primeira etapa."</p>
-        <span class="client-name">Matheus Diaz e Ronnie Possatti - Horus</span>
-      </li>
-      <li>
-        <p>"Superou nossas expectativas. Conseguimos priorizar exatamente os pontos mais importantes nesta primeira etapa."</p>
-        <span class="client-name">Matheus Diaz e Ronnie Possatti - Horus</span>
-      </li>
-      <li>
-        <p>"Superou nossas expectativas. Conseguimos priorizar exatamente os pontos mais importantes nesta primeira etapa."</p>
-        <span class="client-name">Matheus Diaz e Ronnie Possatti - Horus</span>
-      </li>
-      <li>
-        <p>"Superou nossas expectativas. Conseguimos priorizar exatamente os pontos mais importantes nesta primeira etapa."</p>
-        <span class="client-name">Matheus Diaz e Ronnie Possatti - Horus</span>
-      </li>
-      <li>
-        <p>"O sistema defini o que é realmente prioritário e você pode desenvolver o restante posteriormente, quando os clientes ou investidores se interessarem pelo projeto."</p>
-        <span class="client-name">Matheus Diaz e Ronnie Possatti - Horus</span>
-      </li>
+      {% endfor %}
     </ul>
 
   </div>
-</section>
+</section> <!-- /testimonials-mvp -->
 
 <section id="contact">
   <div class="containner">
