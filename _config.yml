@@ -260,17 +260,33 @@ mvp:
 
   testimonials:
     -
-      name: "Milton Menezes"
-      company: "Vita Corporativa"
-      description: "O que mais me chamou a atenção foi a forma focada e objetiva que a equipe trabalhou desde a primeira Etapa da reunião sobre o Projeto. Os tempos definidos foram cumpridos rigorosamente, quase cronometrados. As sugestões apresentadas, quando cada um apresentou suas telas, ajudaram a enriquecer o sistema, mesmo não sendo aplicadas, pois acabam mantendo o pensamento 'aquecido' sobre o melhor funcionamento do Sistema."
-    -
       name: "Lucas Boscacci Lima"
       company: "Dunno"
-      description: "Depois de uma semana do trabalho feito, muita coisa acontece, mas fica a lembrança memorável do trabalho com a equipe da HE Labs. Agradeço pela seriedade e emprenho apresentado nos 3 dias do Startup Dev. Pela minha experiência, no cenário atual de desenvolvimento de aplicações, é muito difícil encontrar a qualidade do serviço de vocês. Ainda mais difícil é encontrar uma equipe que consiga agregar real valor para o serviço. Valor este que está na energia e empenho de se trabalhar com paixão"
+      description: "Agradeço pela seriedade e emprenho. É muito difícil encontrar uma equipe que consiga agregar real valor para o serviço. Valor este que está na energia e empenho de se trabalhar com paixão"
     -
       name: "Matheus Diaz e Ronnie Possatti"
       company: "Horus"
-      description: "O serviço prestado pela Startup DEV superou nossas expectativas. Conseguimos priorizar exatamente os pontos mais importantes nesta primeira etapa. Temos certeza que produto desenvolvido com qualidade e agilidade foi um ótimo primeiro passo para o nosso projeto! Obrigado pela experiência."
+      description: "Superou nossas expectativas. Conseguimos priorizar exatamente os pontos mais importantes nesta primeira etapa."
+    -
+      name: "José Roberto H. da Gama"
+      company: "NetAdvocacia"
+      description: "Os aconselhamentos técnicos fizeram toda a diferença, a sensação ao final foi de ter recebido mais do que havia sido planejado e contratado."
+    -
+      name: "Kauê Linden"
+      company: "Game Guiz"
+      description: "O processo foi uma verdadeira aula de como organizar projetos ligados ao desenvolvimento de software."
+    -
+      name: "Amure Pinho"
+      company: "Amigo Não Se Compra / SyncMobile"
+      description: "O conhecimento técnico e a habilidade do time em entender o projeto e desenhar o MVP torna o produto mais inteligente."
+    -
+      name: "Andre Diamand"
+      company: "Zupty / VentureOne"
+      description: "Não é só software amado em 3 dias, eles nos ensinam na prática o que é um projeto lean de verdade, tocado com muita qualidade e capricho."
+    -
+      name: "Pablo Braga"
+      company: "Safetracking / Sidetech"
+      description: "O sistema defini o que é realmente prioritário e você pode desenvolver o restante posteriormente, quando os clientes ou investidores se interessarem pelo projeto."
  
   testimonials-en:
     -
