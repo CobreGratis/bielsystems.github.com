@@ -30,8 +30,12 @@ description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web,
           {% endfor %}
 
           {% if page.skills %}
-          <h3>Skills</h3>
-          <div class="skill-list">{% for skill in page.skills %}<span class="skill-tag">{{ skill }}</span>{% endfor %}</div>
+            <h3>Skills</h3>
+            <ul class="skill-list">
+              {% for skill in page.skills %}
+                <li class="skill-tag">{{ skill }}</li>
+              {% endfor %}
+            </ul>
           {% endif %}
 
           <h3>Social</h3>
