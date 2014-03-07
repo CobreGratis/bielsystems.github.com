@@ -1,5 +1,5 @@
 ---
-layout: case
+layout: case-en
 category: case
 
 permalink: '/en/cases/atende_simples'
