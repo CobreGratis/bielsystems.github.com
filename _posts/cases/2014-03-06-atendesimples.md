@@ -37,5 +37,6 @@ project_team:
   - github: beatrizcp87
   - github: krystalcampioni
   - github: aluisioazevedo
+  - github: guiloyins
 
 ---
