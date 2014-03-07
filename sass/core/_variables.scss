@@ -55,7 +55,7 @@ $atende_simples: #2271B3;
   @include vendor-prefix(animation-timing-function, ease-in);
 }
 
-@mixin round_borders ($radius) {
+@mixin round_borders($radius) {
   @include vendor-prefix(border-radius, $radius);
 }
 
