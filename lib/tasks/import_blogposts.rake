@@ -24,6 +24,11 @@ def import_blogposts!
     Dir.glob('*.html').map { |f| File.absolute_path f }
   end
 
+  # get absolute filenames of _posts/time/en/*.html files
+  time_files += Dir.chdir(File.join('_posts', 'time', 'en')) do
+    Dir.glob('*.html').map { |f| File.absolute_path f }
+  end
+
   # initiate Jekyll site
   site = Jekyll::Site.new(Jekyll.configuration({}))
 
@@ -33,8 +38,10 @@ def import_blogposts!
       Jekyll::Post.new(site, Dir.pwd, '', "time/#{File.basename(time_file)}").data['full_name']
     )
 
+    language = 'en/' if time_file.include? '/en/'
+
     if data.include? person_name
-      puts "Exporting blogposts of #{person_name}".green
+      puts "Exporting blogposts of #{language}#{person_name}".green
 
       data[person_name].each do |blogpost|
         blogpost.export_to time_file
