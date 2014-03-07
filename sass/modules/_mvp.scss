@@ -176,10 +176,12 @@ Services - MVP
     margin: 55px 0 40px 0;
     font-size: $font-big;
     text-align: center;
+    text-transform: uppercase;
 
     strong {
       font-weight: 300;
       font-size: $font-large;
+      text-transform: none;
       color: $grey3;
     }
   }
@@ -238,8 +240,9 @@ Services - MVP
   
   h3 {
     margin: 55px 0 40px 0;
-    font-size: 36px;
+    font-size: $font-big;
     text-align: center;
+    text-transform: uppercase;    
   }
   
   p {
