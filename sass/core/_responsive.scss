@@ -367,7 +367,7 @@ Media Queries for Tablets
 
   /* Project page - Cases */
 
-  section.hero {
+  section.case-hero {
     article {
       margin-top: 30px;
       width: 100%;
@@ -379,7 +379,7 @@ Media Queries for Tablets
         text-align: center;
       }
 
-      span {
+      p {
         font-size: 14px;
         text-align: center;
       }
@@ -1001,7 +1001,7 @@ Media Queries for Smartphones
 
   /* Project page - Cases */
 
-  section.hero {
+  section.case-hero {
     margin-top: 60px;
 
     article {
@@ -1011,7 +1011,7 @@ Media Queries for Smartphones
         line-height: 56px;
       }
 
-      span {
+      p {
         font-size: 13px;
         margin-top: 10px;
       }
