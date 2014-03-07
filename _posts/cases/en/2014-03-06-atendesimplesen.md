@@ -34,7 +34,7 @@ customer_name:
 project_team:
   - github: eduardofiorezi
   - github: dirs
-  - github: beatrizcp87
   - github: krystalcampioni
   - github: aluisioazevedo
+  - github: guiloyins
 ---
