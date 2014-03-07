@@ -37,7 +37,7 @@ Case: AtendeSimples
   }
 
   blockquote {
-    margin-top: 70px;
+    margin-top: 50px;
 
     i {
       font-size: 20px;
@@ -83,6 +83,17 @@ Case: AtendeSimples
     text-decoration: none;
 
     &:hover { opacity: 0.95; }
+  }
+
+  b {
+    display: block;
+    margin-top: 35px;
+    font-weight: 400;
+    color: #a7c4e2;
+
+    span {
+      color: #cadcea;
+    }
   }
 }
 

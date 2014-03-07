@@ -316,6 +316,8 @@ Media Queries for Tablets
       max-width: 180px;
       display: block;
     }
+
+    b { text-align: center; }
   }
 
   section#atendesimples-steps aside p {
@@ -941,6 +943,8 @@ Media Queries for Smartphones
       font-size: $font-medium;
       max-width: 160px;
     }
+
+    b { font-size: 13px; line-height: 22px;}
   }
 
   section#atendesimples-steps  {
