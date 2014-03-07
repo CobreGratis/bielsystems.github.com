@@ -46,7 +46,7 @@ section.hero {
       &:hover { opacity: 0.95; }
     }
 
-    figure {
+    figure.browser-frame {
       background: image-url('/images/cases/browser.png') no-repeat;
       width:460px;
       height:260px;

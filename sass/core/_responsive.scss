@@ -388,7 +388,7 @@ Media Queries for Tablets
         display: none;
       }
 
-      figure {
+      figure.browser-frame {
         margin: auto;
         float: none;
         display: block;
@@ -1016,7 +1016,7 @@ Media Queries for Smartphones
         margin-top: 10px;
       }
 
-      figure {
+      figure.browser-frame {
         display: none;
       }
     }
