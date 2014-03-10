@@ -1,9 +1,9 @@
 ---
-layout: case
+layout: case-en
 category: case
 
-permalink: '/cases/espn-mobile'
-pt: '/en/cases/espn-mobile'
+permalink: '/en/cases/espn-mobile'
+pt: '/cases/espn-mobile'
 
 name: ESPN Mobile
 project_kind: Mobile version of ESPN.com.br
