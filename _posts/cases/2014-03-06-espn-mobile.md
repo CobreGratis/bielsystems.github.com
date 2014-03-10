@@ -21,7 +21,7 @@ about: A versão mobile do ESPN.com.br foi criada para facilitar o acesso ao con
 
 status: O projeto está no ar e sendo usado pelos fãs do esporte.
 
-what_has_been_done: O projeto começou como um projeto continuado e foi ao ar já na segunda semana. Depos disso, tivemos iterações baseadas nos feedbacks dos usuários.
+what_has_been_done: O projeto começou como um projeto continuado e foi ao ar já na segunda semana. Depois disso, tivemos iterações baseadas nos feedbacks dos usuários.
 
 
 
