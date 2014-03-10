@@ -263,6 +263,22 @@ Media Queries for Tablets
   }
 
 
+  /* Work Second Level */
+
+  #work-more ul li {
+    width: 47%;
+    margin: 0 20px 40px 0;
+  }
+
+  #work-more ul li:nth-child(2n+2) {
+    margin-right: 0;
+  }
+
+  #work-more ul li:nth-child(3n+3) {
+    margin: 0 20px 40px 0;
+  }
+
+
   /* Work MVP */
 
   #work-mvp {
@@ -829,6 +845,37 @@ Media Queries for Smartphones
   }
 
 
+  /* Work Second Level */
+
+  #work-more {
+    padding: 20px 0;
+
+    ul {
+      width: 80%;
+
+      li {
+        width: 100%;
+        float: none;
+        margin: 30px auto;
+
+        img {
+          width: 80%;
+          padding: 0;
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  #work-more ul li:nth-child(2n+2) {
+    margin: 30px auto;
+  }
+
+  #work-more ul li:nth-child(3n+3) {
+    margin: 30px auto;
+  }
+
+
   /* Work MVP */
 
   #work-mvp {
@@ -1235,6 +1282,13 @@ Media Queries with adjustments for Smartphones
 
   .work-info h3 {
     font-size: 28px;
+  }
+
+
+  /* Work Second Level */
+
+  #work-more ul li img {
+    width: 90%;
   }
 
 

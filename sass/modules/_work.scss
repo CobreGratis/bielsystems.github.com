@@ -105,6 +105,48 @@ a.more {
 
 
 /* ====================
+Trabalho / Work Second Level
+==================== */
+
+#work-more {
+  padding: 60px 0 20px;
+  border-top: 1px solid $grey1;
+  overflow: hidden;
+
+  ul {
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+
+    li {
+      float: left;
+      width: 30%;
+      margin: 0 45px 40px 0;
+
+      img {
+        border: 1px solid $light-grey2;
+        padding: 1%;
+        width: 98%;
+        height: 160px;
+        overflow: hidden;
+        display: block;
+      }
+
+      h4 {
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  ul li:nth-child(3n+3) {
+    margin-right: 0;
+  }
+}
+
+
+
+/* ====================
 Trabalho / Work MVP
 ==================== */
 
