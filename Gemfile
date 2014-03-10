@@ -9,6 +9,8 @@ gem 'jekyll',     '= 1.4.3'
 gem 'kramdown',   '= 1.3.2'
 gem 'maruku',     '= 0.7.1'
 gem 'rdiscount',  '= 2.1.7'
+gem 'guard-jekyll-plus', '1.4.10'
+gem 'guard-compass', '0.0.8'
 
 gem 'jekyll_ext', '= 0.1.4'
 gem 'haml',       '= 4.0.5'
