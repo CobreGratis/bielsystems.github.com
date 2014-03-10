@@ -5,17 +5,130 @@
 Media Kit
 ==================== */
 
-.services-text2 {
-  width: 80%;
-  position: relative;
-  line-height: 28px;
-  font-size: $font-medium2;
-  margin-right: auto;
-  margin-left: auto;
-  text-align:center;
-  background-color: #fff;
-  padding: 0 40px 0 40px;
-  margin-bottom: 0;
+.midiakit_wrap {
+width: 80%;
+position: relative;
+font-size: 17px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+background-color: #FFF;
+padding: 0 auto 0 auto;
+margin-bottom: 0;
+
+  a {
+    border-bottom: 2px solid #880505;
+    @include round_borders (4px);
+    height: 40px;
+    line-height: 40px;
+    background: $he_red;
+    padding: 0 10px 0 10px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0 0 0;
+    display: none;
+
+    &:hover { opacity: .8; }
+  }
+
+  a.more {
+    background: #B80606;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #B80606), color-stop(100%, #9B0505));
+    background: -webkit-linear-gradient(top, #B80606 0%, #9B0505 100%);
+    background: -o-linear-gradient(top, #b80606 0%, #9b0505 100%);
+    background: -ms-linear-gradient(top, #b80606 0%, #9b0505 100%);
+    background: linear-gradient(top bottom, #b80606 0%, #9b0505 100%);
+    color: #FFF;
+    display: inline-block;
+  }
+
+  img {
+  margin-top: 20px;
+  }
+
+  h3 {
+  font-weight: 500;
+  font-size: 36px;
+  margin: 55px auto 20px auto;
+  color: #900;
+  text-transform: uppercase;
+  }
+
+  p {
+  font: normal 17px "Open Sans",Arial,"Helvetica Neue",Helvetica,sans-serif;
+  line-height: 27px;
+  margin: 15px auto 15px auto;
+  max-width: 60%;
+  }
+
+  ul.paleta {
+  margin: 10px auto 20px auto;
+    li {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5px;
+    }
+    p{
+      margin: 60px 15px 0 15px;
+    }
+    li.red1{
+      background-color: #330000;
+      color: #330000;
+    }
+    li.red2{
+      background-color: #660000;
+      color: #660000;
+    }
+    li.red3{
+      background-color: #990000;
+      color: #990000;
+    }
+    li.red4{
+      background-color: #cc3333;
+      color: #cc3333;
+    }
+    li.grey1{
+      background-color: #333333;
+      color: #333333;
+    }
+    li.grey2{
+      background-color: #666666;
+      color: #666666;
+    }
+    li.grey3{
+      background-color: #999999;
+      color: #999999;
+    }
+    li.red1:hover, li.red2:hover, li.red3:hover, li.red4:hover, li.grey1:hover, li.grey2:hover, li.grey3:hover,{
+      p{
+        color: #fff;
+      }
+    }
+  }
+
+  ul.downloads{
+    margin: 10px auto 60px auto;
+
+    li{
+      vertical-align: top;
+      margin: 10px 5px 10px 5px;
+      height: auto;
+      width: 35%; 
+      border: 1px dashed #ccc;
+      display: inline-block;
+      padding-bottom:20px;
+      span{
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 70%;
+        margin: 20px auto 0 auto;
+        display: block;
+      }
+    }
+  }
 }
 
 .midiakit-text p {

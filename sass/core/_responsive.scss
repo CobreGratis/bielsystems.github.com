@@ -467,6 +467,14 @@ Media Queries for Tablets
 
   /* Media Kit */
 
+  .midiakit_wrap {
+
+    p{
+    max-width: 80%;
+    }
+
+  }
+
   .responsive_option {
     display: block;
     margin-left: auto;
@@ -486,6 +494,10 @@ Media Queries for Tablets
   .bt_download,
   #font_show,
   .box_colors_show { display:none; }
+  ul.downloads li{
+    width: 350px;
+  }
+
 
 }
 
@@ -1151,6 +1163,20 @@ Media Queries for Smartphones
 
   /* Media Kit */
 
+  .midiakit_wrap {
+
+    p{
+    max-width: 80%;
+    }
+
+    ul.downloads {
+      li{
+      width: 300px;
+      }
+    }
+
+  }
+
   .box_colors { height: auto; }
 
   .responsive_option {
@@ -1167,6 +1193,7 @@ Media Queries for Smartphones
    #font_show,
   .box_colors_show,
   .bt_download { display: none; }
+
 
 }
 
@@ -1235,6 +1262,21 @@ Media Queries with adjustments for Smartphones
 
   /* Media Kit */
 
+
+  .midiakit_wrap {
+
+    p{
+    max-width: 100%;
+    }
+
+    ul.downloads {
+      li{
+      width: 70%;
+      }
+    }
+
+  }
+
   .resizeble_img {
     width: 300px;
     height: 121px;
@@ -1256,6 +1298,9 @@ Media Queries with adjustments for Smartphones
   #font_show,
   .box_colors_show,
   .bt_download { display: none; }
+  ul.downloads li{
+    width: 300px;
+  }
 
 }
 
@@ -1482,21 +1527,39 @@ Media Queries with more adjustments for Smartphones
 
   /* Media Kit */
 
+  .midiakit_wrap {
+
+    p{
+    max-width: 100%;
+    }
+
+    ul.downloads {
+      li{
+      width: 80%;
+      }
+    }
+
+  }
+
   .box_colors { height: auto; }
   .responsive_option { display: block; }
   .box_download { height: auto; }
 
   #font_show,
   .box_fonts,
-  .font_show_img,
   .box_colors,
   .bt_download { display: none; }
+
 
   .resizeble_img {
     width: 250px;
     height: 101px;
   }
 
+  .font_show_img {
+    width:280px;
+    height: auto;
+  }
 }
 
 
