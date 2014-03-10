@@ -18,6 +18,10 @@ exclude:
 - 'spec'
 - 'templates'
 - 'Procfile'
+- 'Guardfile'
+- '.sass-cache'
+- 'node_modules'
+
 permalink: pretty
 
 ### MVP infos
@@ -287,7 +291,7 @@ mvp:
       name: "Pablo Braga"
       company: "Safetracking / Sidetech"
       description: "O sistema defini o que é realmente prioritário e você pode desenvolver o restante posteriormente, quando os clientes ou investidores se interessarem pelo projeto."
- 
+
   testimonials-en:
     -
       name: "Matheus Diaz e Ronnie Possatti"

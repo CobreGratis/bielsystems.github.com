@@ -5,11 +5,17 @@ http://helabs.com.br
 
 ## Running Server
 
+Running foreman will start the jekyll server, will compile your sass files and compile your javascripts.
+
 ```sh
-$ bundle exec jekyll serve -w
+$ foreman start
 ```
 
-## Using Grunt to compile SASS and minify the JS
+## Compiling SASS
+
+When using Foreman to run the server it will also start a Guard process that will watch for changes on the files in the `sass` folder and compile them. No need to run `compass watch` or Grunt.
+
+## Using Grunt to minify the JS
 
 ### Installation
 
@@ -20,13 +26,7 @@ You can also follow along the [Getting Started guide](http://gruntjs.com/getting
 
 Then after setting things up, run: ```npm install``` on the folder of the project. This will download the grunt dependencies.
 
-### Usage
-
-Run ```grunt watch```on the folder of the project to start Grunt. It will watch for any changes on the files in the ```sass/``` folder and any javascript files on the ```javascripts/source``` folder. The css will be compiled into ```stylesheets/style.css``` and the javascript will be concatenated and minified into ```javascripts/application.min.js```.
-
-**DO NOT ALTER THESE COMPILED FILES AND COMMIT THEM, ALWAYS USE THE COMPILER FIRST! DO YOU HEAR ME?!**
-
-Alternatively, if you don't have Node.js installed you can still use Compass to compile the css, but the javascript process will need to be done by hand.
+### DO NOT ALTER THESE COMPILED FILES AND COMMIT THEM, ALWAYS USE THE COMPILER FIRST! DO YOU HEAR ME?!**
 
 ## Problem with SASS+Git
 
@@ -41,14 +41,6 @@ $ git rebase --continue
 
 You can edit the SCSS files in the sass folder.
 In the stylesheets folder we have just the generated files by Grunt/Compass.
-
-## Using foreman
-
-If you already have installed all dependencies you can run the project with foreamn.
-
-```bash
-$ foreman start
-```
 
 ## Adding A Project To Your Profile
 

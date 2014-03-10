@@ -1,2 +1,2 @@
-web: bundle exec jekyll serve -w
+web: bundle exec guard
 grunt: grunt watch
