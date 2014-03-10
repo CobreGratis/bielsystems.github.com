@@ -6,10 +6,14 @@ http://helabs.com.br
 ## Running Server
 
 ```sh
-$ bundle exec jekyll serve -w
+$ bundle exec guard
 ```
 
-## Using Grunt to compile SASS and minify the JS
+## Compiling SASS
+
+Run ```$ bundle exec guard``` to start a Guard process that will start the Jekyll server, watch for changes on the files in the `sass` folder and compile them. No need to run `compass watch` or Grunt if you are just messing with sass files.
+
+## Using Grunt to minify the JS
 
 ### Installation
 
@@ -22,11 +26,11 @@ Then after setting things up, run: ```npm install``` on the folder of the projec
 
 ### Usage
 
-Run ```grunt watch```on the folder of the project to start Grunt. It will watch for any changes on the files in the ```sass/``` folder and any javascript files on the ```javascripts/source``` folder. The css will be compiled into ```stylesheets/style.css``` and the javascript will be concatenated and minified into ```javascripts/application.min.js```.
+Run ```grunt watch```on the folder of the project to start Grunt. It will watch for any changes on the files in the ```javascripts/source``` folder. The javascript will be concatenated and minified into ```javascripts/application.min.js```.
 
 **DO NOT ALTER THESE COMPILED FILES AND COMMIT THEM, ALWAYS USE THE COMPILER FIRST! DO YOU HEAR ME?!**
 
-Alternatively, if you don't have Node.js installed you can still use Compass to compile the css, but the javascript process will need to be done by hand.
+Alternatively, if you don't have Node.js installed you can still use Compass to compile the css, but the javascript process will need to be done manually.
 
 ## Problem with SASS+Git
 
@@ -41,14 +45,6 @@ $ git rebase --continue
 
 You can edit the SCSS files in the sass folder.
 In the stylesheets folder we have just the generated files by Grunt/Compass.
-
-## Using foreman
-
-If you already have installed all dependencies you can run the project with foreamn.
-
-```bash
-$ foreman start
-```
 
 ## Adding A Project To Your Profile
 
