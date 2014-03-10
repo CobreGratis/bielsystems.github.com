@@ -2,8 +2,8 @@
 layout: case-en
 category: case
 
-permalink: '/en/cases/early-shares'
-pt: '/cases/early-shares'
+permalink: '/en/work/early-shares'
+pt: '/trabalho/early-shares'
 
 name: Early Shares
 project_kind: Crowdfunding Plataform.

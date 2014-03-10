@@ -2,8 +2,8 @@
 layout: case
 category: case
 
-permalink: '/cases/pet-roomie'
-en: '/en/cases/pet-roomie'
+permalink: '/trabalho/pet-roomie'
+en: '/en/work/pet-roomie'
 
 name: Pet Roomie
 project_kind: Serviços para Animais de Estimação.

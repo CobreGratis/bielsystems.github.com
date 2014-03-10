@@ -2,8 +2,8 @@
 layout: case-en
 category: case
 
-permalink: '/en/cases/movingscripts'
-pt: '/cases/movingscripts'
+permalink: '/en/work/movingscripts'
+pt: '/trabalho/movingscripts'
 
 name: Moving Scripts
 project_kind: Creative community for publishing screenplays.

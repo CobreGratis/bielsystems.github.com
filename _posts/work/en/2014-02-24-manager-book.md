@@ -2,8 +2,8 @@
 layout: case-en
 category: case
 
-permalink: '/en/cases/manager-book'
-pt: '/cases/manager-book'
+permalink: '/en/work/manager-book'
+pt: '/trabalho/manager-book'
 
 name: ManagerBook
 project_kind: Performance Indicators for Businesses.

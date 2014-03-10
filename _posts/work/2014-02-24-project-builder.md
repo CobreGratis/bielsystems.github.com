@@ -2,8 +2,8 @@
 layout: case
 category: case
 
-permalink: '/cases/project-builder'
-en: '/en/cases/project-builder'
+permalink: '/trabalho/project-builder'
+en: '/en/work/project-builder'
 
 name: Project Builder
 project_kind: Software para Gerenciamento de Projetos.
