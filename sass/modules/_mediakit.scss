@@ -53,11 +53,11 @@ Media Kit
   display: inline-block;
   margin-right: 10px;
   margin-left: 10px;
-  
+
   a {
     width: 300px;
     height: 60px;
-    background-image: url("/images/bt_download.png");
+    background-image: url("/images/midia-kit/bt_download.png");
     text-decoration: none;
     text-align: left;
     font-size: $font-medium;
@@ -181,7 +181,7 @@ Media Kit
   img {
     border-bottom: dashed 1px #ccc;
     margin-bottom: 10px;
-  }  
+  }
 }
 
 .font_show_img { display:none; }
