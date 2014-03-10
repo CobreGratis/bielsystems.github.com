@@ -4,15 +4,17 @@ title:  Cases - Web Software Development
 description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web, aplicativos web, SaaS e Cloud Computing.
 ---
 
-<section class="hero">
+<section class="case-hero">
   <div class="containner">
     <article>
       <h2>{{ page.name }}</h2>
-      <span>{{ page.project_kind }}</span>
-      <a href="{{ page.project_url }}" target="_blank" class="btn-web">{{ page.display_url }}</a>
+      <p>{{ page.project_kind }}</p>
+      <a href="{{ page.project_url }}" target="_blank" class="btn-web">
+        {{ page.display_url }}
+      </a>
     </article>
     <article>
-      <figure>
+      <figure class="browser-frame">
         <img src="{{ page.image }}">
       </figure>
     </article>
@@ -30,20 +32,20 @@ description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web,
     </article>
     <aside>
       {% if page.project_team %}
-        <h3>Time</h3>
+        <h3>Equipe</h3>
         <ul>
           {% for person in site.categories.time %}
             {% for team_member in page.project_team %}
               {% for sa in person.social_accounts %}
                 {% if sa.provider == 'github' and sa.username == team_member.github  %}
                   <li>
-                      <a href="{{ person.permalink }}">
-                        <figure>
-                          <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
-                        </figure>
-                        <span>{{ person.full_name }}</span>
-                        <p>{{ person.job_title }}</p>
-                      </a>
+                    <a href="{{ person.permalink }}">
+                      <figure>
+                        <img src="{{ person.image }}" alt="{{ person.full_name }}" width="50" height="50" />
+                      </figure>
+                      <h4>{{ person.full_name }}</h4>
+                      <p>{{ person.job_title }}</p>
+                    </a>
                   </li>
                 {% endif %}
               {% endfor %}

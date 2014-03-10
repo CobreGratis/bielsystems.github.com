@@ -8,7 +8,7 @@ Case: AtendeSimples
 
 #hero-atendesimples {
   width: 100%;
-  background: url('/images/works/atendesimples/atendesimples_bg.jpg') center center;
+  background: $atende_simples url('/images/works/atendesimples/atendesimples_bg.png') center center;
   background-size: cover;
   margin-top: 80px;
   padding: 50px 0 0 0;
@@ -37,7 +37,7 @@ Case: AtendeSimples
   }
 
   blockquote {
-    margin-top: 70px;
+    margin-top: 50px;
 
     i {
       font-size: 20px;
@@ -77,159 +77,200 @@ Case: AtendeSimples
     padding: 12px 50px;
     background: #fff;
     border-radius: 4px;
-    color: #2271B3;
+    color: $atende_simples;
     font-size: $font-medium;
     font-weight: 500;
     text-decoration: none;
 
     &:hover { opacity: 0.95; }
   }
-}
 
+  b {
+    display: block;
+    margin-top: 35px;
+    font-weight: 400;
+    color: #a7c4e2;
 
-
-/* Sections */
-
-.stage-head {
-  background-color: $light-grey2;
-  border-bottom: 5px solid $grey1;
-  padding: 50px 0 50px 0;
-  font-size: $font-large;
-  line-height: 34px;
-  font-weight: 300;
-  margin-bottom: 0;
-
-  p { margin: 0 0 0 150px; }
-
-  img {
-    width: 120px;
-    float: left;
+    span {
+      color: #cadcea;
+    }
   }
 }
 
-#atendesimples-steps {
-  width: 100%;
-  font-size: $font-medium2;
-  line-height: 26px;
-  float: left;
 
-  .stage {
+
+/* Steps */
+
+section#atendesimples-steps {
+  width: 100%;
+  overflow: hidden;
+
+  aside {
+    background-color: $light-grey2;
+    border-bottom: 2px solid $grey1;
+    padding: 40px 0;
+
+    p {
+      width: 85%;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 32px;
+
+      b {
+        margin-right: 10px;
+        color: $atende_simples;
+      }
+    }
+  }
+
+  article {
+    overflow: hidden;
     border-top: 1px solid $grey1;
     border-bottom: 1px solid $grey1;
-    padding: 60px 0 40px 0;
-    @include clearfix;
+    padding: 60px 0;
 
     h2 {
       margin-bottom: 20px;
-      line-height: 31px;
-    }
+      font-size: 30px;
+      color: $atende_simples;
 
-    &:nth-child(odd){
-      background-color: #fff;
-
-      .col-img {
-        margin-right: 4%;
-        text-align: right;
-        float: left;
-      }
-
-      .col { float: right; }
-
-    }
-
-    &:nth-child(even){
-      background-color: $light-grey1;
-
-      .col-img {
-        margin-left: 4%;
-        text-align: left;
-        float: right;
-      }
-
-      .col { float: left; }
-
-    }
-
-    .col-img {
-      width: 40%;
-
-      img {
-        width: 70%;
-      }
-    }
-
-    .col {
-      width: 48%;
-
-      h3 { margin-bottom: 10px; }
-
-      .icon-stege {
+      b {
         display: block;
-        margin: 0 auto;
+        margin-top: 5px;
       }
+    }
 
-    } // .col
+    h3 {
+      margin-bottom: 20px;
+    }
 
-  } // .stage
-} // #atendesimples-steps
+    p {
+      margin-top: 10px;
+      font-size: $font-medium2;
+      line-height: 30px;
+    }
 
-.topics li { list-style-type: circle !important; }
+    ul.topics li { font-size: 16px; list-style-type: circle !important; }
+  }
 
+  article:nth-child(even) {
+    background-color: $light-grey1;
 
+    .col { float: left; }
+  }
 
+  article:nth-child(odd) {
+    background-color: #fff;
 
-.case-logos {
-  display: block;
-  margin: 30px auto 40px;
-}
+    .col { float: right; }
+  }
 
+  article:nth-child(odd) section:before, article:nth-child(even) section:after {
+    content: '';
+    display: inline-block;
+    background: url('/images/works/atendesimples/step_images_sprite.png');
+  }
 
-/* List */
+  article:nth-child(2) section {
 
-.list {
-  border-radius: 4px;
-  background: $light-grey2;
-  border: 1px solid $grey2;
-  counter-reset: item;
-  padding: 1em;
+    .col { width: 60%; }
 
-  li {
-    display: block;
-    font-size: $font-medium;
-    list-style: decimal;
+    &:after {
+      margin-left: 60px;
+      width: 250px;
+      height: 285px;
+      background-position: 0 0;
+    }
+  }
+
+  article:nth-child(3) section {
+
+    .col { width: 60%; }
 
     &:before {
-      content: counter(item) " - ";
-      counter-increment: item;
-      font-weight: bold;
+      margin: 40px 40px 0;
+      width: 240px;
+      height: 165px;
+      background-position: 0 -295px;
+    }
+  }
+
+  article:nth-child(4) section {
+
+    .col { width: 60%; }
+
+    &:after {
+      margin: 120px 0 0 70px;
+      width: 270px;
+      height: 190px;
+      background-position: 0 -468px;
+    }
+  }
+
+  article:nth-child(5) section {
+
+    .col { width: 60%; }
+
+    &:before {
+      margin-top: 40px;
+      width: 270px;
+      height: 210px;
+      background-position: 0 -660px;
+    }
+  }
+
+  article:nth-child(6) section {
+
+    .col { width: 65%; }
+
+    &:after {
+      margin: 20px 0 0 60px;
+      width: 240px;
+      height: 200px;
+      background-position: 0 -880px;
+    }
+  }
+
+  article:nth-child(7) section {
+
+    .col { width: 65%; }
+
+    .list {
+      border-radius: 4px;
+      background: $light-grey2;
+      border: 1px solid $grey2;
+      counter-reset: item;
+      padding: 20px;
+
+      li {
+        display: block;
+        font-size: $font-medium;
+        list-style: decimal;
+        margin-bottom: 5px;
+
+        &:before {
+          content: counter(item) " - ";
+          counter-increment: item;
+          font-weight: bold;
+          color: $atende_simples;
+        }
+      }
+    }
+
+    &:before {
+      width: 250px;
+      height: 370px;
+      background-position: 0 -1080px;
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 /* Testimonials */
 
-
 section.testimonials {
-  padding: 60px 0;
+  padding: 0 0 50px;
   background: #fafafa;
   display: block;
 
@@ -240,8 +281,8 @@ section.testimonials {
     text-align: center;
     text-transform: uppercase;
     font-size: $font-large;
-    color: #2271B3;
-    font-weight: 500;
+    color: $atende_simples;
+    font-weight: 600;
     letter-spacing: 0.04em;
     word-spacing: 0.1em;
   }
@@ -291,3 +332,34 @@ section.testimonials {
     }
   }
 }
+
+
+
+/* Company Logos */
+
+section.company-logos {
+  background: #fafafa;
+  overflow: hidden;
+  padding: 0 0 60px;
+
+  figure {
+    width: 475px;
+    display: block;
+    margin: 0 auto;
+
+    img {
+      float: left;
+    }
+
+    img:first-child {
+      margin-right: 35px;
+    }
+
+    img:last-child {
+      border-left: 1px solid $grey2;
+      padding-left: 35px;
+    }
+  }
+}
+
+

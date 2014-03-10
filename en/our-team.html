@@ -17,17 +17,20 @@ pt: /nosso-time/
   <div class="containner">
 
     <ul>
-      {% for person in site.categories.time reversed %}
+      {% for person in site.categories.team reversed %}
         <li>
-          <img src="{{ person.image }}" alt="{{ person.full_name }}">
-          <h3>{{ person.full_name }}</h3>
-          <p>
-            {% if person.job_title_en %}
-              {{ person.job_title_en }}
-            {% else %}
-              {{ person.job_title }}
-            {% endif %}
-          </p>
+          {% if person.permalink %}<a href="{{ person.permalink }}">{% endif %}
+            <img src="{{ person.image }}" alt="{{ person.full_name }}">
+            <h3>{{ person.full_name }}</h3>
+            <p>
+              {% if person.job_title_en %}
+                {{ person.job_title_en }}
+              {% else %}
+                {{ person.job_title }}
+              {% endif %}
+            </p>
+          {% if person.permalink %}</a>{% endif %}
+
           <ul class="social-icons">
             {% for sa in person.social_accounts %}
               {% if sa.username %}

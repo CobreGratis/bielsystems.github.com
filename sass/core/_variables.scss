@@ -23,6 +23,7 @@ $light-grey2: #f4f4f4;
 
 $he_red: #b80606;
 
+$atende_simples: #2271B3;
 
 /* Mixins */
 
@@ -54,7 +55,7 @@ $he_red: #b80606;
   @include vendor-prefix(animation-timing-function, ease-in);
 }
 
-@mixin round_borders ($radius) {
+@mixin round_borders($radius) {
   @include vendor-prefix(border-radius, $radius);
 }
 

@@ -260,66 +260,34 @@ mvp:
 
   testimonials:
     -
-      name: "Sabine Bolonhini"
-      company: "Sou do Esporte"
-      description: "Muito obrigada pelo envolvimento de vocês!   Muito mais do que desenvolver um software, vocês concretizaram o primeiro passo de um sonho nosso!  Parabéns pelo trabalho! Estamos muito satisfeitas!"
-    -
-      name: "Mauro Ribeiro"
-      company: "Miidah"
-      description: "O resultado do Startup DEV superou nossas expectativas. Além da entrega no prazo, sistema funcionando sem erros, etc, a 'visão' da equipe da HE:labs apresentada no primeiro dia de desenvolvimento do Startup DEV contribuiu muito para melhorarmos o projeto inicial de MVP que tínhamos."
-    -
-      name: "Prof. Darwin Ianuskiewtz"
-      company: "Seu Orientador"
-      description: "Agradeço a atenção de toda a equipe e o tratamento profissional que permitiu que  a seriedade e comprometimento proporcionasse o bom desenvolvimento da proposta."
-    -
-      name: "Milton Menezes"
-      company: "Vita Corporativa"
-      description: "O que mais me chamou a atenção foi a forma focada e objetiva que a equipe trabalhou desde a primeira Etapa da reunião sobre o Projeto. Os tempos definidos foram cumpridos rigorosamente, quase cronometrados. As sugestões apresentadas, quando cada um apresentou suas telas, ajudaram a enriquecer o sistema, mesmo não sendo aplicadas, pois acabam mantendo o pensamento 'aquecido' sobre o melhor funcionamento do Sistema."
-    -
       name: "Lucas Boscacci Lima"
       company: "Dunno"
-      description: "Depois de uma semana do trabalho feito, muita coisa acontece, mas fica a lembrança memorável do trabalho com a equipe da HE Labs. Agradeço pela seriedade e emprenho apresentado nos 3 dias do Startup Dev. Pela minha experiência, no cenário atual de desenvolvimento de aplicações, é muito difícil encontrar a qualidade do serviço de vocês. Ainda mais difícil é encontrar uma equipe que consiga agregar real valor para o serviço. Valor este que está na energia e empenho de se trabalhar com paixão"
+      description: "É muito difícil encontrar uma equipe que consiga agregar real valor para o serviço. Valor este que está na energia e empenho de se trabalhar com paixão"
     -
       name: "Matheus Diaz e Ronnie Possatti"
       company: "Horus"
-      description: "O serviço prestado pela Startup DEV superou nossas expectativas. Conseguimos priorizar exatamente os pontos mais importantes nesta primeira etapa. Temos certeza que produto desenvolvido com qualidade e agilidade foi um ótimo primeiro passo para o nosso projeto! Obrigado pela experiência."
-    -
-      name: "Rodrigo Soares"
-      company: "Hintask"
-      description: "Só temos a agradecer ao Startup DEV. A equipe de desenvolvimento foi extremamente profissional e conseguiu superar todas expectativas. Em 48 horas ter um protótipo completamente funcional com um design de primeira linha é algo monstruoso. Parabéns!"
+      description: "Superou nossas expectativas. Conseguimos priorizar exatamente os pontos mais importantes nesta primeira etapa."
     -
       name: "José Roberto H. da Gama"
       company: "NetAdvocacia"
-      description: "Minha experiência com o Startup DEV foi ótima. O trabalho foi objetivo, entregue dentro do prazo e com qualidade.  Além do mais, os aconselhamentos técnicos fizeram toda a diferença, pois a sensação ao final foi de ter recebido mais do que havia sido planejado e contratado."
+      description: "Os aconselhamentos técnicos fizeram toda a diferença, a sensação ao final foi de ter recebido mais do que havia sido planejado e contratado."
     -
       name: "Kauê Linden"
       company: "Game Guiz"
-      description: "Desenvolver nosso projeto através do Startup DEV foi a forma mais rápida que encontrei de colocar o projeto que idealizamos no ar. Além de sair satisfeito com meu projeto no ar em  apenas 3 dias, o processo foi uma verdadeira aula de como organizar projetos ligados ao desenvolvimento de software. Recomendo e tenho certeza que vou recorrer em breve a outras rodadas"
+      description: "O processo foi uma verdadeira aula de como organizar projetos ligados ao desenvolvimento de software."
     -
       name: "Amure Pinho"
       company: "Amigo Não Se Compra / SyncMobile"
-      description: "O trabalho desenvolvido pela equipe do Startup DEV é fantástico. O conhecimento técnico e a habilidade do time em entender o projeto e desenhar o MVP não só garante a entrega do projeto dentro do prazo excepcional como torna o produto mais inteligente. Aprovadíssimo!"
-    -
-      name: "Diego Ivo"
-      company: "Rank Monitor"
-      description: "Com a ajuda do pessoal do Startup DEV, a Conversion conseguiu lançar no mercado uma ferramenta de SEO inovadora, simples e muito funcional. Nossa ferramenta teve milhões de pageviews, o que foi muito importante para nós."
+      description: "O conhecimento técnico e a habilidade do time em entender o projeto e desenhar o MVP torna o produto mais inteligente."
     -
       name: "Andre Diamand"
       company: "Zupty / VentureOne"
-      description: "A equipe do Startup DEV não tráz somente o software amado em 3 dias, neste período eles nos ensinam na prática o que é um projeto LEAN de verdade, tocado com muita qualidade e capricho."
+      description: "Não é só software amado em 3 dias, eles nos ensinam na prática o que é um projeto lean de verdade, tocado com muita qualidade e capricho."
     -
       name: "Pablo Braga"
       company: "Safetracking / Sidetech"
-      description: "A experiência da Sidetech com o Startup DEV foi muito boa. O formato proposto é bem produtivo, pois utiliza técnicas durante a reunião inicial que permite ter uma visão geral do projeto, antes mesmo de iniciar. O sistema de pontos te dá flexibilidade para definir o que é realmente prioritário e você pode desenvolver o restante posteriormente, quando os clientes ou investidores se interessarem pelo seu projeto. A equipe é super competente e o trabalho de desenvolvimento realmente foi feito em 48 horas."
-    -
-      name: "Joaquim Torres"
-      company: "ContaCal"
-      description: "O pessoal do Startup DEV foi essencial para a realização do ContaCal. Eles não só manjam muito de desenvolvimento de software como têm bastante experiência de negócios web, o que os torna ótimos parceiros para criação de MVP."
-    -
-      name: "Mario Sousa de Alencar"
-      company: "Shopping Passion"
-      description: "Posso afirmar que o Startup DEV são pessoas extremamente experientes prestando um excelente serviço para pessoas que desejam empreender na internet e não possuem o conhecimento tecnológico. Contudo, a metodologia utilizada é bastante eficiente para empreendedores que já possuam o MVP bem definido, para que de fato, a ideia possa ser transformada em um protótipo a ser testado."
-
+      description: "O sistema defini o que é realmente prioritário e você pode desenvolver o restante posteriormente, quando os clientes ou investidores se interessarem pelo projeto."
+ 
   testimonials-en:
     -
       name: "Matheus Diaz e Ronnie Possatti"

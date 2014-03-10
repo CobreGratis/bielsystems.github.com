@@ -53,7 +53,10 @@ Services - MVP
 /* Cover Entry */
 
 #cover-entry {
-  margin: 59px 0 0 0;
+  margin: 1px 0 0 0;
+  background: $light-grey1;
+  border-bottom: 5px solid $light-grey2;
+  padding: 50px 0 40px 0;
   text-align: left;
   @include clearfix;
 
@@ -61,8 +64,6 @@ Services - MVP
   .column-02 { width: 46%; }
 
   .column-01 {
-    border-top: 1px dashed $grey3;
-    padding: 35px 0 0 0;
     float: left;
 
     h3 {
@@ -88,9 +89,7 @@ Services - MVP
       font-size: $font-medium2;
       color: #fff;
 
-      &:hover {
-        background: #c10808;
-      }
+      &:hover { background: #c10808; }
     }
   }
 
@@ -100,8 +99,7 @@ Services - MVP
     iframe {
       width: 98%;
       padding: 1%;
-      box-shadow: 0 0 12px #111;
-      background: $grey3;
+      background: $grey2;
     }
   }
   
@@ -112,7 +110,7 @@ Services - MVP
 
 #mvp-steps {
   margin-left: 92px;
-  margin-top: 38px;
+  margin-top: 18px;
   overflow: hidden;
   text-align: center;
 }
@@ -178,10 +176,12 @@ Services - MVP
     margin: 55px 0 40px 0;
     font-size: $font-big;
     text-align: center;
+    text-transform: uppercase;
 
     strong {
       font-weight: 300;
       font-size: $font-large;
+      text-transform: none;
       color: $grey3;
     }
   }
@@ -191,7 +191,7 @@ Services - MVP
   text-align: center;
   
   li {
-    width: 22%;
+    width: 31%;
     margin: 0 1% 50px 1%;
     display: inline-block;
   }
@@ -199,7 +199,7 @@ Services - MVP
   img {
     width: 97%;
     border: 1px solid $light-grey2;
-    padding: 1%
+    padding: 1%;
   }
 
   h4 {
@@ -219,17 +219,72 @@ Services - MVP
 }
 
 
+/* Testimonials */
+
+.testimonials-mvp {
+  width: 100%;
+  border-top: 10px solid $light-grey2;
+  padding-bottom: 20px;
+  @include clearfix;
+
+  li {
+    width: 25%;
+    height: 220px;
+    margin: 0 2% 30px 2%;
+    padding: 2%;
+    float: left;
+  }
+
+  li:nth-child(even) {background: $light-grey1; }
+  li:nth-child(odd) {background: $light-grey2; }
+  
+  h3 {
+    margin: 55px 0 50px 0;
+    font-size: $font-big;
+    text-align: center;
+    text-transform: uppercase;    
+  }
+  
+  p {
+    font-size: 19px;
+    font-style: italic;
+    font-family: Georgia, serif;
+    line-height: 26px;
+    margin: 0 0 12px 0;
+  }
+}
+
+.client-name {
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-size: $font-medium;
+  color: $grey3;
+}
+
+
+
 /* Contact */
 
 #contact {
-  margin: 40px 0 0 0;
-  background: $light-grey1;
   border-top: 10px solid $light-grey2;
-  padding: 40px 0 0 0;
-  
+  background: $grey1;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $grey1), color-stop(100%, #fff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, $grey1 0%, #fff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, $grey1 0%, #fff 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, $grey1 0%, #fff 100%); /* IE10+ */
+  background: linear-gradient(top bottom, $grey1 0%, #fff 100%); /* W3C */
+
+  padding-top: 60px;
+
   h3 {
-    margin: 0 0 20px 0;
-    font-size: 36px;
+    text-shadow: 0 1px 0 #fff;
+    margin: 0 0 40px 0;
+    font-size: $font-big;
+    text-transform: uppercase;
     text-align: center;
+  }
+  
+  input[type="text"] {
+    background: #fff;
   }
 }

@@ -253,6 +253,15 @@ Media Queries for Tablets
 
   .mvp-projects li { width: 30%; }
 
+  .testimonials-mvp {
+
+    li {
+      width: 96%;
+      height: auto;
+      margin: 0 0 25px 0;
+    }
+  }
+
 
   /* Work MVP */
 
@@ -282,7 +291,7 @@ Media Queries for Tablets
       margin: 30px auto 0;
       width: 50%;
       display: block;
-      height: 220px;
+      height: 280px;
 
       img {
         width: 100%;
@@ -316,18 +325,49 @@ Media Queries for Tablets
       max-width: 180px;
       display: block;
     }
+
+    b { text-align: center; }
   }
 
-  .stage-head {
-    font-size: $font-medium2;
-    line-height: 28px;
-    font-weight: normal;
+  section#atendesimples-steps aside p {
+    width: 100%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  section#atendesimples-steps  {
+
+    article { padding: 30px 0; }
+
+    article h2, h3 { text-align: center; }
+
+    article:nth-child(even), article:nth-child(odd) .col { float: none; }
+
+    article:nth-child(2), article:nth-child(3), article:nth-child(4), article:nth-child(5), article:nth-child(6), article:nth-child(7) {
+
+      section {
+        .col { width: 100%; }
+      }
+
+      section:after, section:before {
+        margin: 20px auto;
+        display: block;
+      }
+
+      section:after { display: none; }
+    }
+  }
+
+
+  section.testimonials blockquote {
+    width: 100%;
   }
 
 
   /* Project page - Cases */
 
-  section.hero {
+  section.case-hero {
     article {
       margin-top: 30px;
       width: 100%;
@@ -339,7 +379,7 @@ Media Queries for Tablets
         text-align: center;
       }
 
-      span {
+      p {
         font-size: 14px;
         text-align: center;
       }
@@ -348,7 +388,7 @@ Media Queries for Tablets
         display: none;
       }
 
-      figure {
+      figure.browser-frame {
         margin: auto;
         float: none;
         display: block;
@@ -924,39 +964,56 @@ Media Queries for Smartphones
       font-size: $font-medium;
       max-width: 160px;
     }
+
+    b { font-size: 13px; line-height: 22px;}
   }
 
-  .col-img {
-    width: 100% !important;
-    text-align: center !important;
+  section#atendesimples-steps  {
 
-    img {
-      width: 120px !important;
-      margin-bottom: 30px;
+    article h2, h3 { text-align: left; }
+
+    article h2 { font-size: 26px; }
+
+    article p { font-size: 16px; line-height: 26px; }
+
+    article:nth-child(2), article:nth-child(3), article:nth-child(4), article:nth-child(5), article:nth-child(6), article:nth-child(7) {
+
+      section:after, section:before { display: none; }
     }
   }
 
-  .col {  width: 100% !important; }
+  section.testimonials {
+    h2 {
+      margin: 30px 0;
+    }
 
-  .stage-head {
-    .column-img {
-      width: 100% !important;
-      text-align: center !important;
-      float: none !important;
+    blockquote {
+      padding: 30px 0;
 
-      img {
-        width: 120px !important;
-        margin-bottom: 30px;
+      i {
+        font-size: 15px;
+        line-height: 28px;
+        text-align: left;
+
+        &:before, &:after {
+          display: none;
+        }
+      }
+
+      em {
+        margin-top: 15px;
+        font-size: 14px;
+        text-align: left;
       }
     }
-
-    p { margin: 0 !important; }
   }
+
+  section.company-logos { display: none; }
 
 
   /* Project page - Cases */
 
-  section.hero {
+  section.case-hero {
     margin-top: 60px;
 
     article {
@@ -966,12 +1023,12 @@ Media Queries for Smartphones
         line-height: 56px;
       }
 
-      span {
+      p {
         font-size: 13px;
         margin-top: 10px;
       }
 
-      figure {
+      figure.browser-frame {
         display: none;
       }
     }
@@ -1438,6 +1495,21 @@ Media Queries with more adjustments for Smartphones
       max-width: auto;
       padding: 10px 40px;
       margin-top: 20px;
+    }
+  }
+
+  section#atendesimples-steps aside {
+    padding: 20px 0;
+
+    p {
+      font-size: 14px;
+      line-height: 26px;
+
+      b {
+        margin-right: 0;
+        width: 100%;
+        display: block;
+      }
     }
   }
 

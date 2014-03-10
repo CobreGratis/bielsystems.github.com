@@ -11,7 +11,7 @@ describe Blogpost do
     end
   end
 
-  describe '#export_to' do    
+  describe '#export_to' do
     let(:spec_directory) { File.dirname __FILE__ }
     let(:post_file)      { File.join(spec_directory, '_posts', fixture_name) }
     let(:site)           { Jekyll::Site.new(Jekyll.configuration({})) }
@@ -23,12 +23,12 @@ describe Blogpost do
 
     before :each do
       # copy fixture to _posts directory
-      fixture_file = File.join(spec_directory, 'fixtures', fixture_name)
-      FileUtils.cp fixture_file, File.join(spec_directory, '_posts')
+      fixture_file = File.join(spec_directory, 'fixtures', '_posts', fixture_name)
+      FileUtils.copy_file fixture_file, File.join(spec_directory, '_posts', fixture_name)
     end
-    
+
     context "person has blogposts" do
-      let(:fixture_name)   { '2011-10-11-mauro-george.html' }
+      let(:fixture_name)   { 'time/2011-10-11-mauro-george.html' }
 
       subject(:blogpost) { Blogpost.new('New blogpost', 'http://some.url', 'Mauro George') }
 
@@ -49,7 +49,7 @@ describe Blogpost do
     end
 
     context "person has no blogposts" do
-      let(:fixture_name)   { '2011-12-11-aluisio-azevedo.html' }
+      let(:fixture_name)   { 'time/2011-12-11-aluisio-azevedo.html' }
 
       subject(:blogpost) { Blogpost.new('New blogpost', 'http://some.url', 'Aluisio Azevedo') }
 
@@ -65,6 +65,49 @@ describe Blogpost do
         blogpost.export_to(post_file)
 
         expect(post.data['blogposts']).to have(1).blogposts
+      end
+    end
+
+    context "english profile" do
+      context "with no blogposts" do
+        let(:fixture_name)   { 'time/en/2011-12-11-aluisio-azevedo.html' }
+
+        subject(:blogpost) { Blogpost.new('New blogpost', 'http://some.url', 'Aluisio Azevedo') }
+
+        it "adds new blogpost" do
+          blogpost.export_to post_file
+
+          expect(post.data['blogposts'][0]['url']).to eq("http://some.url")
+          expect(post.data['blogposts'][0]['title']).to eq("New blogpost")
+        end
+
+
+        it "updates blogposts count" do
+          blogpost.export_to(post_file)
+
+          expect(post.data['blogposts']).to have(1).blogposts
+        end
+      end
+
+      context "with blogposts" do
+        let(:fixture_name)   { 'time/en/2011-10-11-mauro-george.html' }
+
+        subject(:blogpost) { Blogpost.new('New blogpost', 'http://some.url', 'Mauro George') }
+
+        it "appends new blogpost" do
+          blogpost.export_to post_file
+
+          expect(post.data['blogposts'][-1]['url']).to eq("http://some.url")
+          expect(post.data['blogposts'][-1]['title']).to eq("New blogpost")
+        end
+
+        it "updates blogposts count" do
+          expect { blogpost.export_to(post_file) }.to change{ post.data['blogposts'].count }.from(2).to(3)
+        end
+
+        it "does not add blogpost if it already exists" do
+          expect { 2.times { blogpost.export_to(post_file) } }.to change{ post.data['blogposts'].count }.by(1)
+        end
       end
     end
   end
