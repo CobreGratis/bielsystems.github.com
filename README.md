@@ -5,13 +5,15 @@ http://helabs.com.br
 
 ## Running Server
 
+Running foreman will start the jekyll server, will compile your sass files and compile your javascripts.
+
 ```sh
-$ bundle exec guard
+$ foreman start
 ```
 
 ## Compiling SASS
 
-Run ```$ bundle exec guard``` to start a Guard process that will start the Jekyll server, watch for changes on the files in the `sass` folder and compile them. No need to run `compass watch` or Grunt if you are just messing with sass files.
+When using Foreman to run the server it will also start a Guard process that will watch for changes on the files in the `sass` folder and compile them. No need to run `compass watch` or Grunt.
 
 ## Using Grunt to minify the JS
 
@@ -24,13 +26,7 @@ You can also follow along the [Getting Started guide](http://gruntjs.com/getting
 
 Then after setting things up, run: ```npm install``` on the folder of the project. This will download the grunt dependencies.
 
-### Usage
-
-Run ```grunt watch```on the folder of the project to start Grunt. It will watch for any changes on the files in the ```javascripts/source``` folder. The javascript will be concatenated and minified into ```javascripts/application.min.js```.
-
-**DO NOT ALTER THESE COMPILED FILES AND COMMIT THEM, ALWAYS USE THE COMPILER FIRST! DO YOU HEAR ME?!**
-
-Alternatively, if you don't have Node.js installed you can still use Compass to compile the css, but the javascript process will need to be done manually.
+### DO NOT ALTER THESE COMPILED FILES AND COMMIT THEM, ALWAYS USE THE COMPILER FIRST! DO YOU HEAR ME?!**
 
 ## Problem with SASS+Git
 
