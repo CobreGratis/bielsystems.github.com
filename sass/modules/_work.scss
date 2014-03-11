@@ -121,15 +121,36 @@ Trabalho / Work Second Level
     li {
       float: left;
       width: 30%;
-      margin: 0 45px 40px 0;
+      margin: 0 40px 40px 0;
 
-      img {
-        border: 1px solid $light-grey2;
-        padding: 1%;
-        width: 98%;
-        height: 160px;
-        overflow: hidden;
-        display: block;
+      .work-thumb {
+        @include round_borders (4px);
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        box-shadow: 0 0 7px #e2e2e2;
+        width: 100%;
+        background: $light-grey2;
+        border: 1px solid $grey2;
+        padding: 6px 5px 0 5px;
+
+        .browser-nav {
+          border: 1px solid $grey2;
+          background: #fff;
+          @include round_borders (2px);
+          margin-bottom: 5px;
+          height: 15px;
+        }
+
+        img {
+          @include round_borders (2px);
+          border-bottom: none;
+          padding: 0 1%;
+          width: 98%;
+          height: 160px;
+          overflow: hidden;
+          display: block;
+        }
       }
 
       h4 {
