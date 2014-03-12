@@ -191,7 +191,7 @@ Services - MVP
   text-align: center;
   
   li {
-    width: 31%;
+    width: 46%;
     margin: 0 1% 50px 1%;
     display: inline-block;
   }
@@ -212,8 +212,27 @@ Services - MVP
   a {
     text-decoration: none;
     h4 { color: $he_red; }
+    .about{
+      position: absolute;
+      visibility: hidden;
+      padding: 25px 0 10px 25px;
+      color: #fff;
+      font-size: 16px;
+      text-align: left;
+      z-index: 1;
+      background-color: rgba(0, 0, 0, 0.8);
+      min-width: 405px;
+      margin:5px;
+    }
 
-    &:hover img { opacity: .7; }
+    &:hover{ 
+      img{ 
+        opacity: .7; 
+      }
+      .about{
+        visibility: visible;
+      }
+    }
   }
 
 }
@@ -288,3 +307,100 @@ Services - MVP
     background: #fff;
   }
 }
+
+/* valores */
+
+#chamada{
+  margin-top: 40px;
+  .bubble{
+    border: 1px dashed #ccc;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    h2{
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+#value-entry {
+  display: block;
+  margin: 40px 0 60px;
+  @include clearfix;
+}
+
+.value-column {
+  width: 48%;
+  height: 100%;
+  margin: 0 0 30px auto ;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  &:first-child{
+    margin-right:20px;
+  }
+
+  h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: $font-large;
+    margin: 15px 0 10px 0;
+    color: $he_red;
+    margin-bottom: 15px;
+    padding-top: 20px;
+  }
+
+  h4 {
+    font-size: $font-medium2;
+    margin: 0 0 3px 0;
+  }
+
+  ul {
+    li {
+      border: 1px solid $grey1;
+      padding: 4%;
+      margin-top: -1px;
+    }
+
+    li:nth-child(even) {background: $light-grey1; }
+    li:nth-child(odd) {background: $light-grey2; }
+  }
+
+  .hide-content {
+    margin-top: 10px;
+
+    .show-more {
+      padding: 5px;
+      cursor: pointer;
+      font-size: 21px;
+      margin-left: -5px;
+      color: $grey2;
+
+      &:hover { color: $he_red; }
+    }
+
+    .show-content {
+      box-shadow: 0 0 10px $grey2;
+      @include round_borders (4px);
+      margin-top: 10px;
+      background: #fff;
+      border: 1px solid $grey2;
+      padding: 20px;
+      padding-bottom: 0;
+
+      iframe {
+        width: 100%;
+        max-width: 400px;
+        min-height: 200px;
+        margin-bottom: 20px;
+      }
+
+    } // div.show-content
+
+  } // .hide-content
+} // .process-column
+
+.hidden > div { display: none; }
+.visible > div { display: block; }
