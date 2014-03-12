@@ -9,3 +9,4 @@ spec/_posts/*
 .sass-cache/
 .bundle/
 node_modules/
+npm-debug.log
