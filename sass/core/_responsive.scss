@@ -902,8 +902,21 @@ Media Queries for Smartphones
     }
   }
 
-  .mvp-projects li { width: 46%; }
+  .mvp-projects li { 
+    width: 100%; 
+    .about{
+      width:85%;
+    }
+  }
 
+  .value-column{
+    width:100%;
+    display: block;
+    margin: 0 auto 0 auto;
+    &:first-child{
+      margin: 0 auto 0 auto;
+    }
+  }
 
   /* Mailing page*/
 
@@ -1461,6 +1474,10 @@ Media Queries with more adjustments for Smartphones
     width: 100%;
     margin-right: 0;
     margin-left: 0;
+    .about{
+      font-size: 12px;
+      padding: 10px;
+    }
   }
 
 
