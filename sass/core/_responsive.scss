@@ -250,8 +250,14 @@ Media Queries for Tablets
       }
     }
   }
-
-  .mvp-projects li { width: 30%; }
+  .mvp-projects li {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    .about{
+      width:670px;
+    }
+  }
 
   .testimonials-mvp {
 
