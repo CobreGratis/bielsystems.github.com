@@ -5,29 +5,77 @@
 Sobre Nós
 ==================== */
 
-section.mission-vision {
-  background: #efefef url("/images/bg-time.png") top center no-repeat;
-  padding: 60px 0 100px;
-  @include clearfix;
+#about-us {
 
-  article {
-    width: 50%;
-    float: left;
-    text-align: center;
+  section {
+
+    h3, h4 {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
     h3 {
-      margin: 10px 0 0 0;
-      font-size: $font-medium;
+      font-size: $font-big;
+      font-weight: 700;
+      color: #000;
+    }
+
+
+    h4 {
+      font-size: $font-large;
+      font-weight: 500;
       color: $he_red;
     }
 
-    p {
-      font-size: $font-small;
-      color: #8c8c8c;
-      margin: 2px 0 0 0;
+    em {
       display: block;
+      width: 80%;
+      margin: 30px auto;
+      font-size: 20px;
+      line-height: 38px;
+      font-weight: 300;
+      font-style: italic;
+      text-transform: none;
+      text-align: center;
+      color: $grey3;
+    }
+
+
+    p {
+      width: 70%;
+      margin: 20px auto;
+      font-size: $font-medium2;
+      line-height: 36px;
+      text-align: justify;
+      color: $grey3;
+    }
+  }
+
+  section:first-child {
+    background: $grey4;
+    padding: 100px 0;
+    @include clearfix;
+
+    article { width: 50%; float: left; }
+  }
+
+  section:last-child  {
+
+    article {
+      border-top: 1px solid $light-grey2;
+      padding: 60px 0 40px;
+
+      &:nth-child(even)  { background: $light-grey1; }
+      &:nth-child(odd)  { background: #fff; }
     }
   }
 }
+
+
+
+
+
 
 
 
@@ -77,23 +125,3 @@ section.mission-vision {
   }
 }
 
-
-/* About Text */
-
-.about-text {
-  width: 38%;
-  float: right;
-  h4 {
-    text-transform: uppercase;
-    margin: 40px 0 10px 0;
-    font-weight: 300;
-    font-size: $font-large;
-  }
-
-  h4:first-child { margin-top: 0; }
-
-  p {
-    font-size: $font-medium2;
-    line-height: 27px;
-  }
-}
