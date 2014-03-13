@@ -61,8 +61,8 @@ Sobre Nós
       width: 50%;
       float: left;
       padding-top: 140px;
-      height: 300px;
-      margin-top: 60px;
+      height: 240px;
+      margin-top: 40px;
       position: relative;
       @include clearfix;
 
@@ -82,13 +82,15 @@ Sobre Nós
     }
 
     article:first-child {
-      background: $atende_simples url('/images/about-us/mission-bg.png') center center;
+      background: $atende_simples url('/images/about-us/mission_image.png') center center;
       background-size: cover;
+      background-position: 0 20px;
     }
 
     article:last-child {
-      background: $atende_simples url('/images/about-us/vision-bg.png') center center;
+      background: $atende_simples url('/images/about-us/vision_image.png') center center;
       background-size: cover;
+      background-position: 0 20px;
     }
   }
 
@@ -105,7 +107,7 @@ Sobre Nós
       h4:before {
         content: '';
         display: block;
-        background: url('/images/about-us/sprite_icons.png');
+        background: url('/images/about-us/about_icons.png');
         height: 109px;
         width: 109px;
         margin: -50px auto 30px;
@@ -114,15 +116,19 @@ Sobre Nós
       &:nth-child(even)  { background: $light-grey1; }
       &:nth-child(odd)  { background: #fff; }
 
-      &:first-child {
-        h4:before {
-          margin-top: 60px;
-        }
-      }
+      &:first-child { h4:before { margin-top: 60px; } }
+      &:last-child { padding-bottom: 60px; }
 
-      &:last-child {
-        padding-bottom: 60px;
-      }
+
+      &:nth-of-type(2) { h4:before { background-position: 0 -110px; } }
+      &:nth-of-type(3) { h4:before { background-position: 0 -220px; } }
+      &:nth-of-type(4) { h4:before { background-position: 0 -330px; } }
+      &:nth-of-type(5) { h4:before { background-position: 0 -440px; } }
+      &:nth-of-type(6) { h4:before { background-position: 0 -550px; } }
+      &:nth-of-type(7) { h4:before { background-position: 0 -660px; } }
+      &:nth-of-type(8) { h4:before { background-position: 0 -770px; } }
+      &:nth-of-type(9) { h4:before { background-position: 0 -880px; } }
+      &:nth-of-type(10) { h4:before { background-position: 0 -990px; } }
     }
   }
 
