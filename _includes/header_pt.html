@@ -13,12 +13,12 @@
 
     <nav id="menu2">
       <ul>
-        <li><a href="/magica/">Mágica</a></li>
-        <li><a href="/cliente-feliz/">HE:<span class="doispontos">❤</span></a></li>
-        <li><a href="/sobre-nos/">Sobre nós</a></li>
-        <li><a href="/nosso-time/">Time</a></li>
-        <li><a href="/trabalho/">Trabalho</a></li>
-        <li><a href="/fale-conosco/">Fale Conosco</a></li>
+        <li><a id="menu-magica" href="/magica/">Mágica</a></li>
+        <li><a id="menu-he-love" href="/cliente-feliz/">HE:<span class="doispontos">❤</span></a></li>
+        <li><a id="menu-sobre-nos" href="/sobre-nos/">Sobre nós</a></li>
+        <li><a id="menu-nosso-time" href="/nosso-time/">Time</a></li>
+        <li><a id="menu-trabalho" href="/trabalho/">Trabalho</a></li>
+        <li><a id="menu-fale-conosco" href="/fale-conosco/">Fale Conosco</a></li>
       </ul>
     </nav>
 
@@ -28,3 +28,13 @@
 
   </div>
 </header>
+
+
+<script type="text/javascript">
+  mixpanel.track_links("#menu-magica", "Clicked - Menu Mágica");
+  mixpanel.track_links("#menu-he-love", "Clicked - Menu HE love");
+  mixpanel.track_links("#menu-sobre-nos", "Clicked - Menu Sobre nos");
+  mixpanel.track_links("#menu-nosso-time", "Clicked - Menu Nosso Time");
+  mixpanel.track_links("#menu-trabalho", "Clicked - Menu Trabalho");
+  mixpanel.track_links("#menu-fale-conosco", "Clicked - Menu Fale Conosco");
+</script>
