@@ -77,7 +77,11 @@ en: /en/happy-customers/
 </section> <!-- /clientefeliz -->
 
 <div class="bottom-nav">
-  <a class="red-button" href="/sobre-nos/">
+  <a class="red-button" id="cta-mp" href="/sobre-nos/">
     Conheça mais sobre nós
   </a>
 </div>
+
+<script type="text/javascript">
+  mixpanel.track_links("#cta-mp", "Clicked - Conheça mais sobre nós");
+</script>
