@@ -12,11 +12,12 @@ Sobre Nós
     h3, h4 {
       text-align: center;
       text-transform: uppercase;
-      letter-spacing: 0.06em;
+      letter-spacing: 0.04em;
+      margin: 0;
     }
 
     h3 {
-      font-size: $font-big;
+      font-size: 32px;
       font-weight: 700;
       color: #000;
     }
@@ -31,7 +32,7 @@ Sobre Nós
     em {
       display: block;
       width: 80%;
-      margin: 30px auto;
+      margin: 20px auto 0;
       font-size: 20px;
       line-height: 38px;
       font-weight: 300;
@@ -43,31 +44,47 @@ Sobre Nós
 
 
     p {
-      width: 70%;
-      margin: 20px auto;
+      width: 80%;
+      margin: 20px auto 0;
       font-size: $font-medium2;
       line-height: 36px;
-      text-align: justify;
+      text-align: left;
       color: $grey3;
     }
   }
 
   section:first-child {
     background: $grey4;
-    padding: 100px 0;
     @include clearfix;
 
-    article { width: 50%; float: left; }
+    article {
+      width: 50%;
+      float: left;
+      padding-top: 160px;
+      height: 300px;
+    }
+
+    article:first-child { background: #ccc; }
+    article:last-child { background: #000; }
   }
 
   section:last-child  {
 
     article {
       border-top: 1px solid $light-grey2;
-      padding: 60px 0 40px;
+      padding: 0 0 100px;
 
       &:nth-child(even)  { background: $light-grey1; }
       &:nth-child(odd)  { background: #fff; }
+
+      h4:before {
+        content: '';
+        display: block;
+        background: url('/images/about-us/sprite_icons.png');
+        height: 109px;
+        width: 109px;
+        margin: -50px auto 40px;
+      }
     }
   }
 }

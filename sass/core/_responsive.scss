@@ -96,6 +96,31 @@ Media Queries for Tablets
   }
 
 
+
+
+  /* Sobre Nós */
+
+  #about-us {
+
+    section {
+      em {
+        width: 100%;
+        margin-top: 20px;
+      }
+
+      p {
+        width: 100%;
+        margin-top: 20px;
+        text-align: left;
+      }
+    }
+  }
+
+
+
+
+
+
   /* Profile */
 
   #profile { padding-top: 120px; }
@@ -674,6 +699,46 @@ Media Queries for Smartphones
     &:hover {
       background: url("/images/play.jpg") no-repeat white;
       background-size: 100%;
+    }
+  }
+
+  /* Sobre Nós */
+
+  #about-us {
+
+    section {
+      h4 {
+        text-align: left;
+        font-size: 24px;
+      }
+
+      em {
+        width: 100%;
+        margin-top: 10px;
+        text-align: left;
+        font-size: 16px;
+        line-height: 30px;
+        font-style: normal;
+      }
+
+      p {
+        width: 100%;
+        margin-top: 15px;
+        text-align: left;
+        font-size: $font-medium;
+        line-height: 30px;
+      }
+    }
+
+    section:last-child  {
+
+      article {
+        padding: 40px 0 30px;
+
+        h4:before {
+          display: none;
+        }
+      }
     }
   }
 
