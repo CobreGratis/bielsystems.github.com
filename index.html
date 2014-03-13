@@ -20,43 +20,43 @@ en: /en/
 
       <ul class="icons">
         <li>
-          <a rel="external" title="Twitter HE:labs" href="http://www.twitter.com/helabs">
+          <a rel="external" title="Twitter HE:labs" class="social-twitter" href="http://www.twitter.com/helabs">
             <img src="/images/icons/twitter.png">
             <span>Twitter</span>
           </a>
         </li>
         <li>
-          <a rel="external" title="Github" href="https://github.com/Helabs/">
+          <a rel="external" title="Github" class="social-github" href="https://github.com/Helabs/">
             <img src="/images/icons/github.png">
             <span>Github</span>
           </a>
         </li>
         <li>
-          <a rel="external" title="Facebook" href="https://facebook.com/helabs/">
+          <a rel="external" title="Facebook" class="social-facebook" href="https://facebook.com/helabs/">
             <img src="/images/icons/facebook.png">
             <span>Facebook</span>
           </a>
         </li>
         <li>
-          <a rel="external" title="Youtube" href="http://www.youtube.com/user/helabsoficial">
+          <a rel="external" title="Youtube" class="social-youtube" href="http://www.youtube.com/user/helabsoficial">
             <img src="/images/icons/youtube.png">
             <span>Youtube</span>
           </a>
         </li>
         <li>
-          <a rel="external" title="Dribbble" href="http://dribbble.com/helabs">
+          <a rel="external" title="Dribbble" class="social-dribbble" href="http://dribbble.com/helabs">
             <img src="/images/icons/dribbble.png">
             <span>Dribbble</span>
           </a>
         </li>
         <li>
-          <a title="Blog" href="/blog/" data-no-instant>
+          <a title="Blog" class="social-blog" href="/blog/" data-no-instant>
             <img src="/images/icons/blog.png">
             <span>Blog</span>
           </a>
         </li>
         <li>
-          <a title="Mailing" href="/mailing/">
+          <a title="Mailing" class="social-mailing" href="/mailing/">
             <img src="/images/icons/mailing.png">
             <span>Mailing</span>
           </a>
@@ -78,7 +78,7 @@ en: /en/
         </li>
       </ul>
 
-      <a class="red-button" id="cta-mp" href="/magica/">
+      <a class="red-button" href="/magica/">
         Conheça nossa mágica!
       </a>
 
@@ -89,5 +89,25 @@ en: /en/
 
 
 <script type="text/javascript">
-  mixpanel.track_links("#cta-mp", "Clicked - conheça nossa mágica");
+  mixpanel.track_links(".red-button", "Clicked - Conheça nossa mágica");
+  mixpanel.track_links(".logo-tip-trigger", "Clicked - HE:Mobile");
+
+  mixpanel.track_links(".social-twitter", "Clicked - Twitter HE:labs");
+  mixpanel.track_links(".social-github", "Clicked - Github HE:labs");
+  mixpanel.track_links(".social-facebook", "Clicked - Facebook HE:labs");
+  mixpanel.track_links(".social-youtube", "Clicked - Youtube HE:labs");
+  mixpanel.track_links(".social-dribbble", "Clicked - Dribbble HE:labs");
+  mixpanel.track_links(".social-blog", "Clicked - Blog HE:labs");
+  mixpanel.track_links(".social-mailing", "Clicked - Mailing HE:labs");
 </script>
+
+
+
+
+
+
+
+
+
+
+

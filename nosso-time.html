@@ -53,19 +53,19 @@ en: /en/our-team/
 
     <ul>
       <li>
-        <a href="http://www.youtube.com/watch?feature=player_embedded&v=6KuOCJtfB9Q" rel="prettyPhoto">
+        <a href="http://www.youtube.com/watch?feature=player_embedded&v=6KuOCJtfB9Q" class="mp-video-dia-he" rel="prettyPhoto">
           <img src="/images/eventos/umdianaherio.jpg">
         </a>
         <h3>Um dia na HE:labs</h3>
       </li>
       <li>
-        <a href="http://www.youtube.com/watch?feature=player_embedded&v=uRIv37JZNtE" rel="prettyPhoto">
+        <a href="http://www.youtube.com/watch?feature=player_embedded&v=uRIv37JZNtE" class="mp-video-churrasco" rel="prettyPhoto">
           <img src="/images/eventos/churrasco.jpg">
         </a>
         <h3>Churrasco</h3>
       </li>
       <li>
-        <a href="http://www.youtube.com/watch?feature=player_embedded&v=kTJld0J7cp0" rel="prettyPhoto">
+        <a href="http://www.youtube.com/watch?feature=player_embedded&v=kTJld0J7cp0" class="mp-video-ano-novo" rel="prettyPhoto">
           <img src="/images/eventos/fimdeano.jpg">
         </a>
         <h3>Festa de Ano Novo</h3>
@@ -80,3 +80,11 @@ en: /en/our-team/
 	  Apoio à comunidade
   </a>
 </div>
+
+<script type="text/javascript">
+  mixpanel.track_links(".red-button", "Clicked - Apoio à comunidade");
+
+  mixpanel.track_links(".mp-video-dia-he", "Clicked - Video Um dia na HE");
+  mixpanel.track_links(".mp-video-churrasco", "Clicked - Video Churrasco");
+  mixpanel.track_links(".mp-video-ano-novo", "Clicked - Video Ano Novo");
+</script>
