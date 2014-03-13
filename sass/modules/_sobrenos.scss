@@ -54,18 +54,42 @@ Sobre Nós
   }
 
   section:first-child {
-    background: $grey4;
+    background-color: $he_red;
     @include clearfix;
 
     article {
       width: 50%;
       float: left;
-      padding-top: 160px;
+      padding-top: 140px;
       height: 300px;
+      margin-top: 60px;
+      position: relative;
+      @include clearfix;
+
+      h3 {
+        font-size: $font-big;
+        color: #fff;
+      }
+
+      p {
+        width: 400px;
+        margin: 20px auto 0;
+        color: #fff;
+        line-height: 28px;
+        text-align: center;
+        opacity: 0.85;
+      }
     }
 
-    article:first-child { background: #ccc; }
-    article:last-child { background: #000; }
+    article:first-child {
+      background: $atende_simples url('/images/about-us/mission-bg.png') center center;
+      background-size: cover;
+    }
+
+    article:last-child {
+      background: $atende_simples url('/images/about-us/vision-bg.png') center center;
+      background-size: cover;
+    }
   }
 
   section:nth-of-type(2) {

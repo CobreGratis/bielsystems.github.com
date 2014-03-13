@@ -85,6 +85,17 @@ Media Queries for Tablets
       }
     }
 
+    section:first-child {
+      article {
+        padding-top: 100px;
+        height: 260px;
+        margin-top: 60px;
+
+        p {
+          width: 80%;
+        }
+      }
+    }
 
     section:last-child {
       padding: 0 0 40px;
@@ -715,6 +726,39 @@ Media Queries for Smartphones
       }
     }
 
+    section:first-child {
+      article {
+        width: 100%;
+        float: none;
+
+        h3 {
+          text-align: left;
+          font-size: 32px;
+        }
+
+        p {
+          width: 90%;
+          margin: 10px 0;
+          text-align: left;
+        }
+
+        &:first-child {
+          padding: 100px 5% 60px;
+          background-position: 0 -10px;
+          height: auto;
+          margin-top: 40px;
+        }
+
+        &:last-child {
+          padding: 80px 5% 60px;
+          background-position: 0 -60px;
+          height: auto;
+          margin-top: 0px;
+          border-top: 2px solid $he_red;
+        }
+      }
+    }
+
     section:nth-of-type(2) {
 
       article {
@@ -1296,6 +1340,24 @@ Media Queries with adjustments for Smartphones
     padding: 17px 10px 10px 10px;
   	top: 5%;
   	margin-left: -145px;
+  }
+
+
+  #about-us {
+    section:first-child {
+      article {
+        &:first-child {
+          padding: 60px 5% 20px;
+          background-position: 0 0;
+        }
+
+        &:last-child {
+          padding: 40px 5%;
+          background-position: 0 0;
+          margin-top: 0px;
+        }
+      }
+    }
   }
 
 
