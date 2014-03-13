@@ -70,36 +70,6 @@ Media Queries for Tablets
 
   /* Sobre Nós */
 
-  #conheca {
-    background: #efefef url("/images/bg-time.png") top center no-repeat;
-    padding: 60px 0 1px 0;
-    @include clearfix;
-  }
-
-  .videothumbs2 {
-    width: 100%;
-
-    li {
-      width: 42%;
-      margin: 0 2% 20px 2%;
-      display: inline-block;
-      float: none;
-    }
-
-  }
-
-  .about-text {
-    width: 100%;
-    border-top: 1px solid $grey2;
-    padding: 40px 0 30px 0;
-    float: left;
-  }
-
-
-
-
-  /* Sobre Nós */
-
   #about-us {
 
     section {
@@ -114,10 +84,25 @@ Media Queries for Tablets
         text-align: left;
       }
     }
+
+
+    section:last-child {
+      padding: 0 0 40px;
+
+      .videothumbs2 {
+        margin-bottom: 20px;
+        padding-top: 30px;
+
+
+        li {
+          width: 42%;
+          margin: 0 2% 20px 2%;
+          display: inline-block;
+          float: none;
+        }
+      }
+    }
   }
-
-
-
 
 
 
@@ -730,13 +715,34 @@ Media Queries for Smartphones
       }
     }
 
-    section:last-child  {
+    section:nth-of-type(2) {
 
       article {
         padding: 40px 0 30px;
 
+        h3 {
+          margin-top: 20px;
+          text-align: left;
+        }
+
         h4:before {
           display: none;
+        }
+
+        &:first-child {
+          h4 {
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+
+    section:last-child {
+      .videothumbs2 {
+        li, li:last-child {
+          width: 80%;
+          margin: 15px auto;
+          display: block;
         }
       }
     }

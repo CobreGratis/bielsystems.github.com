@@ -68,14 +68,15 @@ Sobre Nós
     article:last-child { background: #000; }
   }
 
-  section:last-child  {
+  section:nth-of-type(2) {
 
     article {
       border-top: 1px solid $light-grey2;
       padding: 0 0 100px;
 
-      &:nth-child(even)  { background: $light-grey1; }
-      &:nth-child(odd)  { background: #fff; }
+      h3 {
+        margin-top: 50px;
+      }
 
       h4:before {
         content: '';
@@ -83,62 +84,64 @@ Sobre Nós
         background: url('/images/about-us/sprite_icons.png');
         height: 109px;
         width: 109px;
-        margin: -50px auto 40px;
+        margin: -50px auto 30px;
+      }
+
+      &:nth-child(even)  { background: $light-grey1; }
+      &:nth-child(odd)  { background: #fff; }
+
+      &:first-child {
+        h4:before {
+          margin-top: 60px;
+        }
+      }
+
+      &:last-child {
+        padding-bottom: 60px;
+      }
+    }
+  }
+
+  section:last-child {
+    padding: 0 0 60px;
+    background: $light-grey1;
+    overflow: hidden;
+
+    .videothumbs2 {
+      width: 100%;
+      margin-bottom: 30px;
+      padding-top: 50px;
+      border-top: 1px solid $light-grey2;
+
+      li {
+        box-shadow: 0 4px 8px -3px #d8d8d8;
+        width: 21%;
+        background: #fff url("/images/play.jpg") no-repeat;
+        background-size: 100%;
+        margin: 0 20px 30px 0;
+        padding: 10px;
+        float: left;
+
+        &:last-child { margin-right: 0; }
+      }
+
+      img {
+        width: 100%;
+        display: block;
+        opacity: .7;
+
+        &:hover { opacity: 1; }
+      }
+
+      h3 {
+        margin: 10px 0 0 0;
+        font-size: 14px;
+        color: $he_red;
+        text-transform: none;
+        font-weight: 400;
       }
     }
   }
 }
 
-
-
-
-
-
-
-
-
-#conheca {
-  background: #efefef url("/images/bg-time.png") top center no-repeat;
-  padding: 60px 0 1px 0;
-  @include clearfix;
-}
-
-.videothumbs2 {
-  width: 58%;
-  text-align: center;
-  margin-bottom: 30px;
-  float: left;
-
-  li {
-    box-shadow: 0 4px 8px -3px #d8d8d8;
-    width: 42%;
-    background: #fff url("/images/play.jpg") no-repeat;
-    background-size: 100%;
-    margin: 0 20px 30px 0;
-    padding: 10px;
-    font-size: $font-medium;
-    float: left;
-  }
-
-  img {
-    width: 100%;
-    display: block;
-    opacity: .7;
-
-    &:hover { opacity: 1; }
-  }
-
-  h3 {
-    margin: 10px 0 0 0;
-    font-size: $font-medium;
-    color: $he_red;
-  }
-
-  p {
-    font-size: $font-small;
-    color: #8c8c8c;
-    margin: 2px 0 0 0;
-    display: block;
-  }
-}
 
