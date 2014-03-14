@@ -2,8 +2,8 @@
 layout: case-en
 category: case
 
-permalink: '/en/work/sala-de-ideias'
-pt: '/trabalho/sala-de-ideias'
+permalink: '/en/works/sala-de-ideias'
+pt: '/trabalhos/sala-de-ideias'
 
 name: Sala de Ideias
 project_kind:

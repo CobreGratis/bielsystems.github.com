@@ -2,8 +2,8 @@
 layout: case
 category: case
 
-permalink: '/trabalho/websimulado'
-en: '/en/work/websimulado'
+permalink: '/trabalhos/websimulado'
+en: '/en/works/websimulado'
 
 name: Web Simulado
 project_kind: Plataforma para auxiliar estudantes.
