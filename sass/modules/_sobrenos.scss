@@ -22,7 +22,6 @@ Sobre Nós
       color: #000;
     }
 
-
     h4 {
       font-size: $font-large;
       font-weight: 500;
@@ -94,15 +93,11 @@ Sobre Nós
     }
   }
 
-  section:nth-of-type(2) {
+  section:last-child {
 
     article {
       border-top: 1px solid $light-grey2;
       padding: 0 0 100px;
-
-      h3 {
-        margin-top: 50px;
-      }
 
       h4:before {
         content: '';
@@ -130,45 +125,42 @@ Sobre Nós
       &:nth-of-type(9) { h4:before { background-position: 0 -880px; } }
       &:nth-of-type(10) { h4:before { background-position: 0 -990px; } }
     }
-  }
 
-  section:last-child {
-    padding: 0 0 60px;
-    background: $light-grey1;
-    overflow: hidden;
+    aside {
+      padding: 50px 0 90px;
+      overflow: hidden;
 
-    .videothumbs2 {
-      width: 100%;
-      margin-bottom: 30px;
-      padding-top: 50px;
-      border-top: 1px solid $light-grey2;
+      .videothumbs2 {
+        margin-top: 40px;
+        overflow: hidden;
 
-      li {
-        box-shadow: 0 4px 8px -3px #d8d8d8;
-        width: 21%;
-        background: #fff url("/images/play.jpg") no-repeat;
-        background-size: 100%;
-        margin: 0 20px 30px 0;
-        padding: 10px;
-        float: left;
+        li {
+          box-shadow: 0 4px 8px -3px #d8d8d8;
+          width: 20%;
+          background: #fff url("/images/play.jpg") no-repeat;
+          background-size: 100%;
+          margin: 0 35px 0 0;
+          padding: 10px;
+          float: left;
 
-        &:last-child { margin-right: 0; }
-      }
+          &:last-child { margin-right: 0; }
+        }
 
-      img {
-        width: 100%;
-        display: block;
-        opacity: .7;
+        img {
+          width: 100%;
+          display: block;
+          opacity: .7;
 
-        &:hover { opacity: 1; }
-      }
+          &:hover { opacity: 1; }
+        }
 
-      h3 {
-        margin: 10px 0 0 0;
-        font-size: 14px;
-        color: $he_red;
-        text-transform: none;
-        font-weight: 400;
+        h3 {
+          margin: 10px 0 0 0;
+          font-size: $font-medium;
+          color: $he_red;
+          text-transform: none;
+          font-weight: 600;
+        }
       }
     }
   }
