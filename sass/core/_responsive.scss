@@ -100,16 +100,9 @@ Media Queries for Tablets
     section:last-child {
       padding: 0 0 40px;
 
-      .videothumbs2 {
-        margin-bottom: 20px;
-        padding-top: 30px;
-
-
-        li {
-          width: 42%;
-          margin: 0 2% 20px 2%;
-          display: inline-block;
-          float: none;
+      aside {
+        .videothumbs2 li {
+          margin: 0 20px 0 0;
         }
       }
     }
@@ -765,15 +758,10 @@ Media Queries for Smartphones
       }
     }
 
-    section:nth-of-type(2) {
+    section:last-child {
 
       article {
         padding: 40px 0 30px;
-
-        h3 {
-          margin-top: 20px;
-          text-align: left;
-        }
 
         h4:before {
           display: none;
@@ -785,14 +773,22 @@ Media Queries for Smartphones
           }
         }
       }
-    }
 
-    section:last-child {
-      .videothumbs2 {
-        li, li:last-child {
-          width: 80%;
-          margin: 15px auto;
-          display: block;
+      aside {
+        padding: 40px 0;
+
+        h3 {
+          margin-left: 5%;
+          text-align: left;
+        }
+
+        .videothumbs2 {
+          margin-top: 0px;
+
+          li {
+            width: 30%;
+            margin: 30px 30px 0 0;
+          }
         }
       }
     }
@@ -1023,8 +1019,8 @@ Media Queries for Smartphones
     }
   }
 
-  .mvp-projects li { 
-    width: 100%; 
+  .mvp-projects li {
+    width: 100%;
     .about{
       width:85%;
     }
@@ -1374,6 +1370,15 @@ Media Queries with adjustments for Smartphones
           padding: 40px 5%;
           background-position: 0 0;
           margin-top: 0px;
+        }
+      }
+    }
+
+    section:last-child {
+      aside {
+
+        .videothumbs2 li {
+          margin: 20px 20px 0 0;
         }
       }
     }
