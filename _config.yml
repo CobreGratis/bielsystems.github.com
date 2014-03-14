@@ -30,6 +30,15 @@ mvp:
 
   projects:
     -
+      name: Social Fly
+      url: "http://www.socialfly.com.br/"
+    -
+      name: Mea Pets
+      url: "http://www.meapets.com.br/"
+    -
+      name: The Open Compass
+      url: "http://www.theopencompass.com/"
+    -
       name: MyHumble
       url: "http://www.myhumble.com.br"
       image: /images/projetos/mvp/my-humble.jpg
@@ -197,10 +206,6 @@ mvp:
       name: Sparkel
       url: "#"
       image: /images/projetos/mvp/sparkel.jpg
-    -
-      name: Estou Jogando
-      url: http://estoujogando.com.br/
-      image: /images/projetos/mvp/estou-jogando.jpg
     -
       name: Shopping Passion
       url: "#"
