@@ -70,30 +70,51 @@ Media Queries for Tablets
 
   /* Sobre Nós */
 
-  #conheca {
-    background: #efefef url("/images/bg-time.png") top center no-repeat;
-    padding: 60px 0 1px 0;
-    @include clearfix;
-  }
+  #about-us {
 
-  .videothumbs2 {
-    width: 100%;
+    section {
+      em {
+        width: 100%;
+        margin-top: 20px;
+      }
 
-    li {
-      width: 42%;
-      margin: 0 2% 20px 2%;
-      display: inline-block;
-      float: none;
+      p {
+        width: 100%;
+        margin-top: 20px;
+        text-align: left;
+      }
     }
 
+    section:first-child {
+      article {
+        padding-top: 100px;
+        height: 260px;
+        margin-top: 60px;
+
+        p {
+          width: 80%;
+        }
+      }
+    }
+
+    section:last-child {
+      padding: 0 0 40px;
+
+      .videothumbs2 {
+        margin-bottom: 20px;
+        padding-top: 30px;
+
+
+        li {
+          width: 42%;
+          margin: 0 2% 20px 2%;
+          display: inline-block;
+          float: none;
+        }
+      }
+    }
   }
 
-  .about-text {
-    width: 100%;
-    border-top: 1px solid $grey2;
-    padding: 40px 0 30px 0;
-    float: left;
-  }
 
 
   /* Profile */
@@ -683,6 +704,100 @@ Media Queries for Smartphones
     }
   }
 
+  /* Sobre Nós */
+
+  #about-us {
+
+    section {
+      h4 {
+        text-align: left;
+        font-size: 24px;
+      }
+
+      em {
+        width: 100%;
+        margin-top: 10px;
+        text-align: left;
+        font-size: 16px;
+        line-height: 30px;
+        font-style: normal;
+      }
+
+      p {
+        width: 100%;
+        margin-top: 15px;
+        text-align: left;
+        font-size: $font-medium;
+        line-height: 30px;
+      }
+    }
+
+    section:first-child {
+      article {
+        width: 100%;
+        float: none;
+
+        h3 {
+          text-align: left;
+          font-size: 32px;
+        }
+
+        p {
+          width: 90%;
+          margin: 10px 0;
+          text-align: left;
+        }
+
+        &:first-child {
+          padding: 100px 5% 60px;
+          background-position: 0 -10px;
+          height: auto;
+          margin-top: 40px;
+        }
+
+        &:last-child {
+          padding: 80px 5% 60px;
+          background-position: 0 -60px;
+          height: auto;
+          margin-top: 0px;
+          border-top: 2px solid $he_red;
+        }
+      }
+    }
+
+    section:nth-of-type(2) {
+
+      article {
+        padding: 40px 0 30px;
+
+        h3 {
+          margin-top: 20px;
+          text-align: left;
+        }
+
+        h4:before {
+          display: none;
+        }
+
+        &:first-child {
+          h4 {
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+
+    section:last-child {
+      .videothumbs2 {
+        li, li:last-child {
+          width: 80%;
+          margin: 15px auto;
+          display: block;
+        }
+      }
+    }
+  }
+
 
   /* Services Page */
 
@@ -1244,6 +1359,24 @@ Media Queries with adjustments for Smartphones
     padding: 17px 10px 10px 10px;
   	top: 5%;
   	margin-left: -145px;
+  }
+
+
+  #about-us {
+    section:first-child {
+      article {
+        &:first-child {
+          padding: 60px 5% 20px;
+          background-position: 0 0;
+        }
+
+        &:last-child {
+          padding: 40px 5%;
+          background-position: 0 0;
+          margin-top: 0px;
+        }
+      }
+    }
   }
 
 
