@@ -5,10 +5,11 @@
 Cases
 ==================== */
 
-section.case-hero {
+.case-hero {
   margin-top: 80px;
   overflow: hidden;
   background: $he_red;
+  border-bottom: 10px solid $light-grey2;
 
   article {
     margin-top: 50px;
@@ -56,9 +57,10 @@ section.case-hero {
         margin-top: 26px;
         width: 100%;
       }
-    }
-  }
-}
+
+    } // figure
+  } // div
+} // .case-hero
 
 
 /* Main Information */
@@ -74,17 +76,17 @@ section.case-hero {
     h3 {
       margin-bottom: 30px;
       color: $he_red;
-      font-size: 19px;
-      letter-spacing: 0.04em;
-      word-spacing: 0.1em;
-      font-weight: 500;
+      font-size: $font-large;
+      border-bottom: 1px solid $grey2;
+      padding-bottom: 10px;
+      font-weight: 300;
       text-transform: uppercase;
     }
 
     p {
       margin-bottom: 15px;
       color: $grey4;
-      font-size: 15px;
+      font-size: $font-medium2;
       line-height: 28px;
     }
 
@@ -103,8 +105,8 @@ section.case-hero {
 }
 
 .main-infos aside ul {
-  margin:0px;
-  padding:0px;
+  margin: 0;
+  padding: 0;
   width: 100%;
 
   li {
@@ -182,8 +184,8 @@ section.case-hero {
 
         &:hover { opacity: 1; }
       }
-    }
-  }
+    } // .video-thumb
+  } // .video
 
   .testimonial {
     margin-top: 10px;
@@ -207,5 +209,6 @@ section.case-hero {
       color: rgba( $he_red, 0.8 );
       text-align: left;
     }
-  }
-}
+
+  } // .testimonial
+} // .client
