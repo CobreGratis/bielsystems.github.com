@@ -161,9 +161,67 @@ pt: /trabalho/
   </ul>
 </section> <!-- /works -->
 
+
+<section id="work-more">
+  <div class="containner">
+    <ul>
+      <li>
+        <div class="work-thumb">
+          <div class="browser-nav"></div>
+          <img alt="ESPN API" src="/images/projects/espn-api.jpg">
+        </div>
+        <h4>ESPN API</h4>
+      </li>
+      <li>
+        <div class="work-thumb">
+          <div class="browser-nav"></div>
+          <img alt="Watch ESPN" src="/images/projects/espn-watch.jpg">
+        </div>
+        <h4>Watch ESPN</h4>
+      </li>
+      <li>
+        <div class="work-thumb">
+          <div class="browser-nav"></div>
+          <img alt="Shag" src="/images/projects/shag.jpg">
+        </div>
+        <h4>Shag</h4>
+      </li>
+      <li>
+        <div class="work-thumb">
+          <div class="browser-nav"></div>
+          <img alt="Coobo" src="/images/projects/coobo.jpg">
+        </div>
+        <h4>Coobo</h4>
+      </li>
+      <li>
+        <div class="work-thumb">
+          <div class="browser-nav"></div>
+          <img alt="Estou Jogando" src="/images/projects/estoujogando.jpg">
+        </div>
+        <h4>Estou Jogando</h4>
+      </li>
+      <li>
+        <div class="work-thumb">
+          <div class="browser-nav"></div>
+          <img alt="Like My Tip" src="/images/projects/likemytip.jpg">
+        </div>
+        <h4>Like My Tip</h4>
+      </li>
+      <li>
+        <div class="work-thumb">
+          <div class="browser-nav"></div>
+          <img alt="RSVP" src="/images/projects/rsvp.jpg">
+        </div>
+        <h4>RSVP</h4>
+      </li>
+    </ul>
+  </div>
+</section><!-- /works second level -->
+
+
 <section id="work-mvp">
   <div class="containner">
-    <h3>Besides to the above projects, we have developed more than {{ site.mvp.number_of_projects }} projects with HE:labs MVP service</h3>
+    <h3>Besides to the above projects, we have developed a total of more than {{ site.mvp.number_of_projects }} projects.</h3>
     <ul>
       {% for project in site.mvp.projects %}
       <li><a href="{{ project.url }}" title="{{ project.name }}" rel="external">{{ project.name }}</a></li>
