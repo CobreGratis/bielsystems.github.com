@@ -67,6 +67,8 @@ Media Queries for Tablets
 
   #cover-mailing { margin-top: 80px; }
 
+  /*cliente feliz */
+
 
   /* Sobre Nós */
 
@@ -689,7 +691,7 @@ Media Queries for Smartphones
   /* Cliente Feliz */
 
   .videothumbs li, .videothumbs2 li , .videothumbs li.quote{
-    width: 39%;
+    width: 80%;
 
     &:hover {
       background: url("/images/play.jpg") no-repeat white;
