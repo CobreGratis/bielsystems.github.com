@@ -690,12 +690,22 @@ Media Queries for Smartphones
 
   /* Cliente Feliz */
 
-  .videothumbs li, .videothumbs2 li , .videothumbs li.quote{
+  .videothumbs li, .videothumbs2 li {
     width: 80%;
 
     &:hover {
       background: url("/images/play.jpg") no-repeat white;
       background-size: 100%;
+    }
+  }
+  section#cliente-feliz{
+    .videothumbs li, .videothumbs2 li , .videothumbs li.quote{
+      width: 80%;
+
+      &:hover {
+        background: url("/images/play.jpg") no-repeat white;
+        background-size: 100%;
+      }
     }
   }
 
@@ -1501,7 +1511,20 @@ Media Queries with more adjustments for Smartphones
 
   .high-light-projects div:first-child { margin-bottom: 20px; }
 
-  .videothumbs li, .videothumbs li.quote, .videothumbs2 li { width: 90%; }
+  section#cliente-feliz{
+
+    .videothumbs li, .videothumbs li.quote, .videothumbs2 li { width: 90%; }
+    .videothumbs li img:hover, .videothumbs2 li img:hover{ opacity: 0.5; }
+
+    .videothumbs li:hover, .videothumbs2 li:hover {
+      background: url("/images/play.jpg") no-repeat white;
+      background-size: 100%;
+    }
+
+
+  }
+
+  .videothumbs li, .videothumbs2 li { width: 90%; }
   .videothumbs li img:hover, .videothumbs2 li img:hover{ opacity: 0.5; }
 
   .videothumbs li:hover, .videothumbs2 li:hover {
