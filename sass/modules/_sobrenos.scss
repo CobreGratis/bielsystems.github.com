@@ -166,3 +166,18 @@ Sobre Nós
   }
 }
 
+
+/* retina display */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 240dpi) {
+
+  #about-us section:last-child article h4:before{
+    background: url('/images/about-us/about_us_icons@2x.png');
+    height: 100px;
+    width: 100px;
+  }
+}
+
+/*retina*/
