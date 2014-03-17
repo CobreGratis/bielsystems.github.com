@@ -14,8 +14,6 @@ Cliente Feliz
 }
 
 .videothumbs {
-  margin-bottom: 30px;
-  vertical-align: top;
 
   li {
     box-shadow: 0 4px 8px -3px #d8d8d8;
@@ -27,6 +25,12 @@ Cliente Feliz
     display: inline-block;
     font-size: $font-medium;
     opacity: 1;
+    p{
+      margin-bottom: 15px;
+      color: #333;
+      font-size: 16px;
+      line-height: 24px;
+    }
 
     img {
       width: 100%;
@@ -36,29 +40,51 @@ Cliente Feliz
       &:hover { opacity: 1; }
     }
   }
-  li.quote {
+  .quote {
     text-align: left;
     box-shadow: none;
     width: 40%;
     background: transparent;
-    background-size: 100%;
     margin: 0 3% 30px 3%;
     padding: 10px;
     display: inline-block;
     font-size: $font-medium;
     opacity: 1;
+    vertical-align: top;
+    .testimonial{
+      font-style: italic;
+      font-family: Georgia, serif;
+    }
+    .project_case{
+      margin: 30px 20px 0 0;
+      text-decoration: none;
+      font-size: 14px;
+      display: inline-block;
+      a{
+        display: inline-block;
+      }
+      img{
+        height: 23px;
+        width: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+    }
+
     h3{
       font-weight: 300;
       text-transform: uppercase;
       font-size: 24px;
       color: #B80606;
-      margin:0;
+      margin:0 0 20px 0;
       padding:0;
     }
     span{
-      display: block;
       font-weight: bold;
-      margin: 20px 0 20px 0;
+      margin: 20px 0 40px 0;
+      font-size:  14px;
+      line-height: 16px;
       a{
         display: block;
         text-decoration: none;
