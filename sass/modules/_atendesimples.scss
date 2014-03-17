@@ -170,6 +170,7 @@ section#atendesimples-steps {
     display: inline-block;
     background: url('/images/works/atendesimples/step_images_sprite.png');
   }
+  
 
   article:nth-child(2) section {
 
@@ -361,5 +362,24 @@ section.company-logos {
     }
   }
 }
+
+/* retina display */
+
+  @media only screen and (min--moz-device-pixel-ratio: 2),
+
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+
+  only screen and (min-device-pixel-ratio: 2) {
+
+    article:nth-child(odd) section:before, article:nth-child(even) section:after {
+      content: '';
+      display: inline-block;
+      background: url('/images/works/atendesimples/step_images_sprite@2x.png');
+    }
+  }
+/*retina*/
+        
 
 
