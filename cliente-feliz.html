@@ -145,7 +145,31 @@ en: /en/happy-customers/
 
   </div>
 
+
 </section> <!-- /clientefeliz -->
+
+
+
+<!-- QUANDO HOUVER MAIS DEPOISMENTOS 
+
+<section class="testimonials-mvp">
+  <div class="containner">
+
+    <h3>+ Depoimentos:</h3>
+    <ul>
+      {% for testimonial in site.mvp.testimonials %}
+      <li>
+        <p>"{{ testimonial.description }}"</p>
+        <span class="client-name">{{ testimonial.name }} - {{ testimonial.company }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+
+  </div>
+</section>  /testimonials-mvp -->
+
+
+
 
 <div class="bottom-nav">
   <a class="red-button" href="/sobre-nos/">
