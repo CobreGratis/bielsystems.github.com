@@ -102,9 +102,9 @@ Sobre Nós
       h4:before {
         content: '';
         display: block;
-        background: url('/images/about-us/about_icons.png');
-        height: 109px;
-        width: 109px;
+        background: url('/images/about-us/about_us_icons.png');
+        height: 100px;
+        width: 100px;
         margin: -50px auto 30px;
       }
 
@@ -115,15 +115,15 @@ Sobre Nós
       &:last-child { padding-bottom: 60px; }
 
 
-      &:nth-of-type(2) { h4:before { background-position: 0 -110px; } }
-      &:nth-of-type(3) { h4:before { background-position: 0 -220px; } }
-      &:nth-of-type(4) { h4:before { background-position: 0 -330px; } }
-      &:nth-of-type(5) { h4:before { background-position: 0 -440px; } }
-      &:nth-of-type(6) { h4:before { background-position: 0 -550px; } }
-      &:nth-of-type(7) { h4:before { background-position: 0 -660px; } }
-      &:nth-of-type(8) { h4:before { background-position: 0 -770px; } }
-      &:nth-of-type(9) { h4:before { background-position: 0 -880px; } }
-      &:nth-of-type(10) { h4:before { background-position: 0 -990px; } }
+      &:nth-of-type(2) { h4:before { background-position: 0 -100px; } }
+      &:nth-of-type(3) { h4:before { background-position: 0 -200px; } }
+      &:nth-of-type(4) { h4:before { background-position: 0 -300px; } }
+      &:nth-of-type(5) { h4:before { background-position: 0 -400px; } }
+      &:nth-of-type(6) { h4:before { background-position: 0 -500px; } }
+      &:nth-of-type(7) { h4:before { background-position: 0 -600px; } }
+      &:nth-of-type(8) { h4:before { background-position: 0 -700px; } }
+      &:nth-of-type(9) { h4:before { background-position: 0 -800px; } }
+      &:nth-of-type(10) { h4:before { background-position: 0 -900px; } }
     }
 
     aside {
@@ -165,5 +165,4 @@ Sobre Nós
     }
   }
 }
-
 
