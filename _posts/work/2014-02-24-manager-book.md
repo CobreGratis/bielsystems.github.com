@@ -2,12 +2,12 @@
 layout: case
 category: case
 
-permalink: '/cases/manager-book'
-en: '/en/cases/manager-book'
+permalink: '/trabalhos/manager-book'
+en: '/en/works/manager-book'
 
 name: ManagerBook
 project_kind: Plataforma de Indicadores de Desempenho.
-image: /images/cases/managerbook.jpg
+image: /images/works/manager-book.jpg
 
 project_url: http://managerbook.com.br
 display_url: managerbook.com.br

@@ -2,8 +2,8 @@
 layout: case
 category: case
 
-permalink: '/cases/perfil-plug'
-en: '/en/cases/perfil-plug'
+permalink: '/trabalhos/perfil-plug'
+en: '/en/works/perfil-plug'
 
 name: Perfil Plug
 project_kind:
