@@ -15,10 +15,11 @@ Cliente Feliz
 
 .videothumbs {
   margin-bottom: 30px;
+  vertical-align: top;
 
   li {
     box-shadow: 0 4px 8px -3px #d8d8d8;
-    width: 24%;
+    width: 40%;
     background: #fff url("/images/play.jpg") no-repeat;
     background-size: 100%;
     margin: 0 3% 30px 3%;
@@ -33,6 +34,35 @@ Cliente Feliz
       opacity: .7;
 
       &:hover { opacity: 1; }
+    }
+  }
+  li.quote {
+    text-align: left;
+    box-shadow: none;
+    width: 40%;
+    background: transparent;
+    background-size: 100%;
+    margin: 0 3% 30px 3%;
+    padding: 10px;
+    display: inline-block;
+    font-size: $font-medium;
+    opacity: 1;
+    h3{
+      font-weight: 300;
+      text-transform: uppercase;
+      font-size: 24px;
+      color: #B80606;
+      margin:0;
+      padding:0;
+    }
+    span{
+      display: block;
+      font-weight: bold;
+      margin: 20px 0 20px 0;
+      a{
+        display: block;
+        text-decoration: none;
+      }
     }
   }
   
