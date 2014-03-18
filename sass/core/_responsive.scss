@@ -715,7 +715,13 @@ Media Queries for Smartphones
     }
   }
   section#cliente-feliz{
-    .videothumbs li, .videothumbs2 li , .videothumbs li.quote{
+    .videothumbs li.quote{
+      width: 80%;
+      &:hover{
+        background: transparent;
+      }
+    }
+    .videothumbs li, .videothumbs2 li {
       width: 80%;
 
       &:hover {
