@@ -3,6 +3,12 @@ Site da HE:labs
 
 http://helabs.com.br
 
+
+## Maintainers
+
+- [Aluisio Azevedo](https://github.com/aluisioazevedo)
+
+
 ## Running Server
 
 Running foreman will start the jekyll server, will compile your sass files and compile your javascripts.
