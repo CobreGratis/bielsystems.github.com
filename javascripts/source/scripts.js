@@ -336,11 +336,11 @@ var App = {
 } // Var Site
 
 InstantClick.on('change', function() {
-  if (typeof _gaq !== 'undefined') {
-    _gaq.push("_trackPageview", window.location.href);
-    if (typeof(CE2) !== "undefined") {
-      CE2.userMain();
-    }
+  if (typeof ga !== 'undefined') {
+    ga('send', 'pageview');
+  }
+  if (typeof(CE2) !== "undefined") {
+    CE2.userMain();
   }
 
   $(function() {
