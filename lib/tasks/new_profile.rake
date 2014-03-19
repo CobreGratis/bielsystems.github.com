@@ -38,7 +38,7 @@ module NewProfileTask
         }
       }
 
-      new_profile   = ERB.new(File.read('templates/new_profile.yml.erb'))
+      new_profile   = ERB.new(File.read('lib/templates/new_profile.yml.erb'))
       template_vars = OpenStruct.new(vars)
 
       post_file_name = Time.now.strftime('%Y-%m-%d')
