@@ -1,14 +1,11 @@
 source 'https://rubygems.org'
 
-ruby '2.1.1'
+ruby '2.1.0'
+
+gem 'github-pages', '16'
 
 gem 'rake'
 gem 'foreman',    '= 0.63.0'
-gem 'RedCloth',   '= 4.2.9'
-gem 'jekyll',     '= 1.4.3'
-gem 'kramdown',   '= 1.3.2'
-gem 'maruku',     '= 0.7.1'
-gem 'rdiscount',  '= 2.1.7'
 gem 'guard-jekyll-plus', '1.4.10'
 gem 'guard-compass', '0.0.8'
 
