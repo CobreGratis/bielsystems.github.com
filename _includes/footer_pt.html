@@ -2,7 +2,7 @@
   {% include offices.html %}
   <nav class="footer-links">
     <div class="containner">
-      <p>&copy; 2011/2014 HE:labs.</p>
+      <p>&copy; {{ site.time | date: '2011/%Y' }} HE:labs.</p>
       <ul>
         <li><a href="/opensource/">Open Source</a></li>
         <li><a href="/comunidade/">Comunidade</a></li>
@@ -14,5 +14,3 @@
     </div>
   </nav>
 </footer>
-
-{% include footer_scripts.html %}

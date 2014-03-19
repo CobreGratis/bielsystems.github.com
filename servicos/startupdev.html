@@ -1,5 +1,5 @@
 ---
-layout: startupdev
+layout: default
 title: Primeiro passo para o desenvolvimento do seu sistema web.
 description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web, aplicativos web, SaaS e Cloud Computing.
 ---
@@ -346,3 +346,15 @@ description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web,
 
   </div>
 </section> <!-- /contact -->
+
+<!-- Slider JS-->
+<script src="/javascripts/source/jquery.easing.1.3.js"></script>
+<script src="/javascripts/source/jquery.touchSwipe.min.js"></script>
+<script src="/javascripts/source/jquery.liquid-slider.min.js"></script>
+<script>
+/* If installing in the footer, you won't need $(function() {} */
+$(function(){
+  $('#slider-id').liquidSlider();
+  $('#slider-id2').liquidSlider();
+});
+</script>
