@@ -167,18 +167,41 @@ Home
 /* Services Home */
 
 .services-home {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 35px;
   text-align: center;
   @include clearfix;
 
+    .videothumbs2 {
+      overflow: hidden;
+      box-shadow: 0 4px 8px -3px #d8d8d8;
+      width: 100%;
+      background: #fff url("/images/play.jpg") no-repeat;
+      background-size: 100%;
+      margin: 0 35px 15px 0;
+      padding: 0;
+      float: left;
+      
+      &:last-child { 
+        margin-right: 0; 
+      }
+      img {
+        width: 100%;
+        display: block;
+        opacity: .7;
+
+        &:hover { opacity: 1; }
+      }
+    }
+
   li {
-    width: 26%;
+    width: 28%;
     background-color: #fff;
     display: inline-block;
     line-height: 20px;
-    padding: 30px 3% 0 3%;
+    padding: 30px 2% 0 2%;
     min-height: 225px;
+    vertical-align: top;
   }
 
   h4 {
