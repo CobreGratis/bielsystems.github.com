@@ -44,22 +44,9 @@
   <script src='//code.jquery.com/jquery-migrate-1.2.1.min.js' data-no-instant></script>
   <script type="text/javascript" src='http://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.03/jquery.cycle.all.min.js' data-no-instant></script>
 
-  <script type="text/javascript" data-no-instant>
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-16326763-1']);
-    _gaq.push(['_setDomainName', 'helabs.com.br']);
-    (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-    var paceOptions = {
-      restartOnRequestAfter: false
-    }
-  </script>
-
 
   {% include mixpanel.html %}
+
+  {% include google_analytics.html %}
 
 </head>
