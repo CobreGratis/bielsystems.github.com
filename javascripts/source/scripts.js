@@ -336,9 +336,11 @@ var App = {
 } // Var Site
 
 InstantClick.on('change', function() {
-  _gaq.push("_trackPageview", window.location.href);
-  if (typeof(CE2) !== "undefined") {
-    CE2.userMain();
+  if (typeof _gaq !== 'undefined') {
+    _gaq.push("_trackPageview", window.location.href);
+    if (typeof(CE2) !== "undefined") {
+      CE2.userMain();
+    }
   }
 
   $(function() {
