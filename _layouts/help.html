@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang='pt'>
   {% include head.html %}
-  <header id="help-header">
-    <a href="/" title="Pág. Inicial">
-      <img class="logo" src="/images/logo.png" alt="HE:labs">
-    </a>
-  </header>
   <body class="custom-help">
+    {% include google_analytics.html %}
+    <header id="help-header">
+      <a href="/" title="Pág. Inicial">
+        <img class="logo" src="/images/logo.png" alt="HE:labs">
+      </a>
+    </header>
     {{ content }}
   </body>
 </html>
