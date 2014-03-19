@@ -178,7 +178,7 @@ Home
       width: 100%;
       background: #fff url("/images/play.jpg") no-repeat;
       background-size: 100%;
-      margin: 0 35px 15px 0;
+      margin: 0 35px 20px 0;
       padding: 0;
       float: left;
       
@@ -195,7 +195,7 @@ Home
     }
 
   li {
-    width: 28%;
+    width: 29%;
     background-color: #fff;
     display: inline-block;
     line-height: 20px;
@@ -206,7 +206,7 @@ Home
 
   h4 {
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 22px;
     color: $grey4;
     margin: 0 0 15px 0;
@@ -222,6 +222,53 @@ Home
   }
 }
 
+/* nossos clientes */
+
+section#our-clients {
+  margin: 20px 0 0 0;
+  padding: 20px 0 20px 0;
+  background-color: #f4f4f4;
+  text-align: center;
+
+  h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: $grey3;
+    margin: 20px;
+  }
+  ul.box-clients{
+    width: 100%;
+    li{
+      width: 23%;
+      height: auto;
+      display: inline-block;
+      background-color: #fff;
+      box-shadow: 0 0 1px #ccc;
+      border-radius: 5px;
+      margin: 5px;
+      vertical-align: top;
+      hr{
+        border: 1px solid #f4f4f4;
+        border-bottom: 0;
+        border-left: 0;
+        border-right:0;
+        width: 100%;
+      }
+      img, a{
+        margin: 10px;
+        display:block;
+      }
+      img{
+        width:auto;
+        height: auto;
+      }
+      a{
+        text-decoration: none;
+        font-weight: lighter;
+      }
+    }
+  }
+}
 
 /* Red Button */
 
