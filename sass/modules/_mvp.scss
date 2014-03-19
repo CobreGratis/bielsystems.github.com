@@ -29,7 +29,7 @@ Services - MVP
     margin: 15px 0 20px 0;
     font-size: $font-large;
   }
-  
+
   a {
     border: 1px solid #ff1717;
     @include round_borders (4px);
@@ -46,7 +46,7 @@ Services - MVP
 
     &:hover { background: #c10808; }
   }
-  
+
 }
 
 
@@ -75,7 +75,7 @@ Services - MVP
       font-size: $font-medium2;
       line-height: 26px;
     }
-    
+
     a {
       box-shadow: 0 0 12px #111;
       @include round_borders (4px);
@@ -95,14 +95,14 @@ Services - MVP
 
   .column-02 {
     float: right;
-  
+
     iframe {
       width: 98%;
       padding: 1%;
       background: $grey2;
     }
   }
-  
+
 }
 
 
@@ -200,11 +200,12 @@ Services - MVP
 
 .mvp-projects {
   text-align: center;
-  
+
   li {
     width: 46%;
     margin: 0 1% 50px 1%;
     display: inline-block;
+    vertical-align: top;
   }
 
   img {
@@ -222,10 +223,9 @@ Services - MVP
 
   a {
     text-decoration: none;
+
     h4 { color: $he_red; }
     .about{
-      position: absolute;
-      visibility: hidden;
       padding: 25px 0 10px 25px;
       color: #fff;
       font-size: 16px;
@@ -233,12 +233,12 @@ Services - MVP
       z-index: 1;
       background-color: rgba(0, 0, 0, 0.8);
       min-width: 405px;
-      margin:5px;
+      margin: 5px;
     }
 
-    &:hover{ 
-      img{ 
-        opacity: .7; 
+    &:hover{
+      img{
+        opacity: .7;
       }
       .about{
         visibility: visible;
@@ -267,14 +267,14 @@ Services - MVP
 
   li:nth-child(even) {background: $light-grey1; }
   li:nth-child(odd) {background: $light-grey2; }
-  
+
   h3 {
     margin: 55px 0 50px 0;
     font-size: $font-big;
     text-align: center;
-    text-transform: uppercase;    
+    text-transform: uppercase;
   }
-  
+
   p {
     font-size: 19px;
     font-style: italic;
@@ -313,7 +313,7 @@ Services - MVP
     text-transform: uppercase;
     text-align: center;
   }
-  
+
   input[type="text"] {
     background: #fff;
   }
