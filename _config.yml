@@ -1,8 +1,6 @@
-safe: true
 lsi: false
 pygments: true
 exclude:
-- 'bin'
 - 'CNAME'
 - 'config.rb'
 - 'Gemfile'
@@ -20,3 +18,6 @@ exclude:
 - 'node_modules'
 
 permalink: pretty
+
+gems:
+  - jekyll-redirect-from
