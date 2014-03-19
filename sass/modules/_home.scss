@@ -8,7 +8,7 @@ Home
 #home {
   background-position: 0 80px;
   background-color: #660000;
-  padding: 125px 0 30px 0;
+  padding: 125px 0 40px 0;
   text-align: center;
 
   h2 {
@@ -16,13 +16,16 @@ Home
     text-transform: uppercase;
     font-weight: bold;
     line-height: 80px;
-    font-size: 62px;
+    font-size: 52px;
+    letter-spacing: 1px;
     color: #fff;
   }
 
   h3 {
     margin: 25px 0 5px 0;
     font-size: 24px;
+    font-weight: lighter;
+    letter-spacing: 1px;
   }
 }
 
@@ -98,16 +101,16 @@ Home
 .icons {
   width: 100%;
   text-align: center;
-  margin: 30px 0 0 0;
+  margin: 30px 0 20px 0;
 
   li {
     text-align: center;
     display: inline-block;
-    margin: 0 10px 0 10px;
+    margin: 0 5px 0 5px;
   }
 
   a img {
-    width: 50px;
+    width: 40px;
     display: inline-block;
     text-align: center;
     opacity: .8;
