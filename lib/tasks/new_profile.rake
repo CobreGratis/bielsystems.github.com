@@ -10,7 +10,7 @@ module NewProfileTask
   class << self
     def run
       # Required fields
-      while (name = ask('Your first and last names:')).nil?; end
+      while (name = ask('Your full name:')).nil?; end
       while (image = ask('URL to an image of you (tip: type in your email to get your gravatar image)')).nil?; end
       while (job_title = ask('Your job title:')).nil?; end
 
