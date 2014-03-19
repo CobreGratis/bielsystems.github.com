@@ -3,10 +3,8 @@ lsi: false
 pygments: true
 exclude:
 - 'bin'
-- 'changelog.txt'
 - 'CNAME'
 - 'config.rb'
-- 'docs'
 - 'Gemfile'
 - 'Gemfile.lock'
 - 'Gruntfile.js'
@@ -16,7 +14,6 @@ exclude:
 - 'README.md'
 - 'sass'
 - 'spec'
-- 'templates'
 - 'Procfile'
 - 'Guardfile'
 - '.sass-cache'
