@@ -6,9 +6,9 @@ Home
 ==================== */
 
 #home {
-  background: url("/images/bg-home.jpg") center no-repeat;
-  background-color: $grey4;
-  padding: 175px 0 60px 0;
+  background-position: 0 80px;
+  background-color: #660000;
+  padding: 125px 0 30px 0;
   text-align: center;
 
   h2 {
@@ -16,13 +16,13 @@ Home
     text-transform: uppercase;
     font-weight: bold;
     line-height: 80px;
-    font-size: 82px;
+    font-size: 62px;
     color: #fff;
   }
 
   h3 {
     margin: 25px 0 5px 0;
-    font-size: $font-big;
+    font-size: 24px;
   }
 }
 
@@ -30,7 +30,7 @@ Home
 .logo-tip-trigger {
   font-weight: 300;
   text-transform: uppercase;
-  color: #6d7171;
+  color: #ffffff;
 }
 
 .logo-tip-trigger {
@@ -107,7 +107,7 @@ Home
   }
 
   a img {
-    width: 70px;
+    width: 50px;
     display: inline-block;
     text-align: center;
     opacity: .8;
@@ -185,16 +185,16 @@ Home
     text-transform: uppercase;
     font-size: 22px;
     line-height: 22px;
-    font-weight: 300;
-    color: $he_red;
-    margin: 0 0 5px 0;
+    color: $grey4;
+    margin: 0 0 15px 0;
     padding-top: 0;
   }
 
   p {
     font-family: 'lato';
-    font-size: $font-medium2;
-    line-height: 24px;
+    font-size: $font-medium;
+    line-height: 20px;
+    font-weight: 400; 
     margin: 0 !important;
   }
 }
