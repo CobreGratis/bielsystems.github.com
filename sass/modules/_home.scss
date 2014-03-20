@@ -238,50 +238,69 @@ Home
 
 /* nossos clientes */
 
-section#our-clients {
-  margin: 20px 0 0 0;
-  padding: 20px 0 60px 0;
-  background-color: #f4f4f4;
-  text-align: center;
+section.our-clients {
+  padding: 60px 0;
+  background-color: $light-grey1;
+  border-top: 4px solid $light-grey2;
+  border-bottom: 4px solid $light-grey2;
 
-  h2{
-    font-size: 50px;
+  h2 {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
+    text-align: center;
     color: $grey3;
-    margin: 40px;
   }
-  ul.box-clients{
+
+  ul {
     width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+
     li{
-      width: 20%;
-      height: auto;
-      display: inline-block;
+      width: 23%;
+      height: 220px;
+      float: left;
       background-color: #fff;
-      box-shadow: 0 0 1px #ccc;
-      border-radius: 5px;
-      margin: 5px;
-      padding: 10px;
-      vertical-align: top;
-      hr{
-        border: 1px solid #f4f4f4;
-        border-bottom: 0;
-        border-left: 0;
-        border-right:0;
+      border-radius: 3px;
+      margin: 0 25px 30px 0;
+      box-shadow: 0 4px 8px -3px #d8d8d8;
+
+      a:before {
+        content: '';
+        display: block;
+        background: url('/images/home/clients_logos.png');
+        height: 100px;
+        width: 220px;
+        margin: 20px auto;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $light-grey2;
+      }
+
+      a {
+        text-align: center;
         width: 100%;
-      }
-      img, a{
-        margin: 0 auto 0 auto;
-        display:block;
-      }
-      img{
-        width:auto;
-        height: auto;
-        margin-bottom: 10px;
-      }
-      a{
+        display: block;
         text-decoration: none;
-        font-weight: lighter;
+
+        span {
+          display: block;
+          color: $grey3;
+          margin-top: 5px;
+        }
       }
+
+      &:nth-child(4n+4) { margin-right: 0; }
+
+      &:nth-of-type(1) { a:before { background-position: 0 -100px; } }
+      &:nth-of-type(2) { a:before { background-position: 0 -600px; } }
+      &:nth-of-type(3) { a:before { background-position: 0 -400px; } }
+      &:nth-of-type(4) { a:before { background-position: 0 0; } }
+      &:nth-of-type(5) { a:before { background-position: 0 -500px; } }
+      &:nth-of-type(6) { a:before { background-position: 0 -300px; } }
+      &:nth-of-type(7) { a:before { background-position: 0 -200px; } }
+      &:nth-of-type(8) { a:before { background-position: 0 -700px; } }
     }
   }
 }
