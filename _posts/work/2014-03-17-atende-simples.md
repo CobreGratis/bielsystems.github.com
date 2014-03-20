@@ -2,8 +2,8 @@
 layout: case
 category: case
 
-permalink: '/trabalhos/atende-simples'
-en: '/en/works/atende-simples'
+permalink: '/trabalhos/atende-simples/'
+en: '/en/works/atende-simples/'
 
 name: Atende Simples
 project_kind: Plataforma para facilitar o atendimento ao cliente.

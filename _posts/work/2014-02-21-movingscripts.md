@@ -2,8 +2,8 @@
 layout: case
 category: case
 
-permalink: '/trabalhos/movingscripts'
-en: '/en/works/movingscripts'
+permalink: '/trabalhos/movingscripts/'
+en: '/en/works/movingscripts/'
 
 name: Moving Scripts
 project_kind: Comunidade criativa para publicação de roteiros.

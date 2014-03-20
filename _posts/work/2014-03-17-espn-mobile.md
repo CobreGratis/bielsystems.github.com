@@ -2,8 +2,8 @@
 layout: case
 category: case
 
-permalink: '/trabalhos/espn-mobile'
-en: '/en/works/espn-mobile'
+permalink: '/trabalhos/espn-mobile/'
+en: '/en/works/espn-mobile/'
 
 name: ESPN Mobile
 project_kind: Versão mobile do ESPN.com.br
