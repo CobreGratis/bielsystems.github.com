@@ -48,36 +48,11 @@ Media Queries for Tablets
     padding-top: 150px;
   }
 
-  section#our-clients {
-
-    ul.box-clients{
-      width: 100%;
-      li{
-        width: auto;
-      }
-    }
-  }
-
-  ul.more-about-us {
-    li{
-      width: auto;
-      display: block;
-      margin: 5% auto 5% auto;
-      p{
-        max-width: 300px;
-      }
-    }
-  }
-
-  section#home_more{
-    ul.services-home{
-      li{
-        width: 60%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    }
+  .services-home li {
+    width: 90%;
+    min-height: 100px !important;
+    padding: 25px 5% 30px 5% !important;
+    margin: 1px 0 0 0 !important;
   }
 
   .services-home li:first-child { margin-top: 0 !important; }
@@ -1575,15 +1550,6 @@ Media Queries with adjustments for Smartphones
   ul.downloads li{
     width: 300px;
   }
-
-  section#home_more{
-    ul.services-home{
-      li{
-        width: 80%;
-      }
-    }
-  }
-
 }
 
 

@@ -8,9 +8,9 @@ Home
 
 
 #home {
-  background-position: 0 80px;
-  background-color: #000;
-  padding: 160px 0 100px 0;
+  background: url("/images/bg-home.jpg") center no-repeat;
+  background-color: $grey4;
+  padding: 175px 0 60px 0;
   text-align: center;
 
   h2 {
@@ -18,16 +18,13 @@ Home
     text-transform: uppercase;
     font-weight: bold;
     line-height: 80px;
-    font-size: 52px;
-    letter-spacing: 1px;
+    font-size: 82px;
     color: #fff;
   }
 
   h3 {
     margin: 25px 0 5px 0;
-    font-size: 24px;
-    font-weight: lighter;
-    letter-spacing: 1px;
+    font-size: $font-big;
   }
 }
 
@@ -35,7 +32,7 @@ Home
 .logo-tip-trigger {
   font-weight: 300;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #6d7171;
 }
 
 .logo-tip-trigger {
@@ -97,22 +94,21 @@ Home
   }
 }
 
-
 /* Social Icons */
 
 .icons {
   width: 100%;
   text-align: center;
-  margin: 30px 0 20px 0;
+  margin: 30px 0 0 0;
 
   li {
     text-align: center;
     display: inline-block;
-    margin: 0 5px 0 5px;
+    margin: 0 10px 0 10px;
   }
 
   a img {
-    width: 40px;
+    width: 70px;
     display: inline-block;
     text-align: center;
     opacity: .8;
@@ -169,67 +165,76 @@ Home
 }
 
 
+
 /* Services Home */
 
+.services-home {
+  margin-top: 50px;
+  margin-bottom: 35px;
+  text-align: center;
+  @include clearfix;
 
+  li {
+    width: 26%;
+    background-color: #fff;
+    display: inline-block;
+    line-height: 20px;
+    padding: 30px 3% 0 3%;
+    min-height: 225px;
+  }
 
-section#home_more{
-  .services-home {
-    margin-top: 20px;
-    margin-bottom: 35px;
-    text-align: center;
-    @include clearfix;
+  h4 {
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 300;
+    color: $he_red;
+    margin: 0 0 5px 0;
+    padding-top: 0;
+  }
 
-      .videothumbs2 {
-        overflow: hidden;
-        box-shadow: 0 4px 8px -3px #d8d8d8;
-        width: 100%;
-        background: #fff url("/images/play.jpg") no-repeat;
-        background-size: 100%;
-        margin: 0 35px 20px 0;
-        padding: 0;
-        float: left;
-
-        &:last-child {
-          margin-right: 0;
-        }
-        img {
-          width: 100%;
-          display: block;
-          opacity: .7;
-
-          &:hover { opacity: 1; }
-        }
-      }
-
-    li {
-      width: 29%;
-      background-color: #fff;
-      display: inline-block;
-      line-height: 20px;
-      padding: 30px 2% 0 2%;
-      min-height: 225px;
-      vertical-align: top;
-    }
-
-    h4 {
-      text-transform: uppercase;
-      font-size: 20px;
-      line-height: 22px;
-      color: $grey4;
-      margin: 0 0 15px 0;
-      padding-top: 0;
-    }
-
-    p {
-      font-family: 'lato';
-      font-size: $font-medium;
-      line-height: 20px;
-      font-weight: 400;
-      margin: 0 !important;
-    }
+  p {
+    font-family: 'lato';
+    font-size: $font-medium2;
+    line-height: 24px;
+    margin: 0 !important;
   }
 }
+
+
+
+/* Red Button */
+
+.red-button,
+.white-button {
+  width: 437px;
+  height: 60px;
+  background: url("/images/red-button.png") center no-repeat;
+  text-decoration: none;
+  font: 22px 'lato';
+  text-transform: uppercase;
+  padding-top: 35px;
+  padding-left: 70px;
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+  z-index: 9999;
+  color: #fff;
+
+  &:hover { opacity: .8; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* nossos clientes */
 
@@ -314,23 +319,4 @@ ul.more-about-us {
   }
 }
 
-/* Red Button */
 
-.red-button,
-.white-button {
-  width: 437px;
-  height: 60px;
-  background: url("/images/red-button.png") center no-repeat;
-  text-decoration: none;
-  font: 22px 'lato';
-  text-transform: uppercase;
-  padding-top: 35px;
-  padding-left: 70px;
-  text-align: left;
-  display: block;
-  margin: 0 auto;
-  z-index: 9999;
-  color: #fff;
-
-  &:hover { opacity: .8; }
-}
