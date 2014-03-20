@@ -10,15 +10,17 @@ Home
 #home {
   background: url("/images/bg-home.jpg") center no-repeat;
   background-color: $grey4;
-  padding: 175px 0 60px 0;
+  padding: 160px 0 60px 0;
   text-align: center;
 
   h2 {
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
     text-transform: uppercase;
     font-weight: bold;
-    line-height: 80px;
+    line-height: 100px;
     font-size: 82px;
+    word-spacing: 0.06em;
+    letter-spacing: 0.04em;
     color: #fff;
   }
 
