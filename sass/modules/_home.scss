@@ -279,15 +279,20 @@ section.our-clients {
       }
 
       a {
-        text-align: center;
+
         width: 100%;
         display: block;
+        text-align: center;
         text-decoration: none;
+        font-weight: 600;
+        letter-spacing: 0.03em;
 
         span {
           display: block;
           color: $grey3;
           margin-top: 5px;
+          font-weight: normal;
+          font-size: 0.9em;
         }
       }
 
