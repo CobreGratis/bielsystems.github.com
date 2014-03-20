@@ -10,7 +10,7 @@ module NewProfileTask
   class << self
     def run
       # Required fields
-      while (name = ask('Your first and last names:')).nil?; end
+      while (name = ask('Your full name:')).nil?; end
       while (image = ask('URL to an image of you (tip: type in your email to get your gravatar image)')).nil?; end
       while (job_title = ask('Your job title:')).nil?; end
 
@@ -38,7 +38,7 @@ module NewProfileTask
         }
       }
 
-      new_profile   = ERB.new(File.read('templates/new_profile.yml.erb'))
+      new_profile   = ERB.new(File.read('lib/templates/new_profile.yml.erb'))
       template_vars = OpenStruct.new(vars)
 
       post_file_name = Time.now.strftime('%Y-%m-%d')

@@ -2,6 +2,7 @@
 layout: default
 title: Primeiro passo para o desenvolvimento do seu sistema web.
 description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web, aplicativos web, SaaS e Cloud Computing.
+redirect_from: /servicos/mvp/
 ---
 
 <section id="cover-mvp">
@@ -328,7 +329,7 @@ description: HE:labs é uma empresa pioneira em desenvolvimento de sistemas web,
 
     <h3>Depoimentos de nossos clientes</h3>
     <ul>
-      {% for testimonial in site.mvp.testimonials %}
+      {% for testimonial in site.data.mvp.testimonials %}
       <li>
         <p>"{{ testimonial.description }}"</p>
         <span class="client-name">{{ testimonial.name }} - {{ testimonial.company }}</span>
