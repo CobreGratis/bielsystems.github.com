@@ -5,18 +5,22 @@
 Home
 ==================== */
 
+
+
 #home {
   background: url("/images/bg-home.jpg") center no-repeat;
   background-color: $grey4;
-  padding: 175px 0 60px 0;
+  padding: 160px 0 60px 0;
   text-align: center;
 
   h2 {
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
     text-transform: uppercase;
     font-weight: bold;
-    line-height: 80px;
+    line-height: 100px;
     font-size: 82px;
+    word-spacing: 0.06em;
+    letter-spacing: 0.04em;
     color: #fff;
   }
 
@@ -92,7 +96,6 @@ Home
   }
 }
 
-
 /* Social Icons */
 
 .icons {
@@ -164,6 +167,7 @@ Home
 }
 
 
+
 /* Services Home */
 
 .services-home {
@@ -200,6 +204,7 @@ Home
 }
 
 
+
 /* Red Button */
 
 .red-button,
@@ -220,3 +225,128 @@ Home
 
   &:hover { opacity: .8; }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nossos clientes */
+
+section.our-clients {
+  padding: 40px 0;
+  background-color: $light-grey1;
+  border-top: 4px solid $light-grey2;
+  border-bottom: 4px solid $light-grey2;
+
+  h2 {
+    font-size: 42px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: $grey3;
+  }
+
+  ul {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+
+    li{
+      width: 23%;
+      height: 220px;
+      float: left;
+      background-color: #fff;
+      border-radius: 3px;
+      margin: 0 25px 30px 0;
+      box-shadow: 0 4px 8px -3px #d8d8d8;
+
+      a:before {
+        content: '';
+        display: block;
+        background: url('/images/home/clients_logos.png');
+        height: 100px;
+        width: 220px;
+        margin: 20px auto;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $light-grey2;
+      }
+
+      a {
+        width: 100%;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 600;
+        letter-spacing: 0.03em;
+
+        span {
+          display: block;
+          color: $grey3;
+          margin-top: 5px;
+          font-weight: normal;
+          font-size: 0.9em;
+        }
+      }
+
+      &:nth-child(4n+4) { margin-right: 0; }
+
+      &:nth-of-type(1) { a:before { background-position: 0 -100px; } }
+      &:nth-of-type(2) { a:before { background-position: 0 -600px; } }
+      &:nth-of-type(3) { a:before { background-position: 0 -400px; } }
+      &:nth-of-type(4) { a:before { background-position: 0 0; } }
+      &:nth-of-type(5) { a:before { background-position: 0 -500px; } }
+      &:nth-of-type(6) { a:before { background-position: 0 -300px; } }
+      &:nth-of-type(7) { a:before { background-position: 0 -200px; } }
+      &:nth-of-type(8) { a:before { background-position: 0 -700px; } }
+    }
+  }
+}
+
+/* more about us */
+
+aside.other-topics {
+  padding: 80px 0;
+
+  section {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 80px;
+
+    display: none;
+
+    article {
+      width: 31%;
+      float: left;
+      text-align: center;
+      vertical-align: top;
+      margin: 0 1% 0 1%;
+
+      img{
+        margin: 0 auto;
+      }
+
+      a {
+        font-size: 20px;
+        line-height: 22px;
+        padding-top: 0;
+        text-align: center;
+        display: block;
+        margin-top: 20px;
+        text-decoration: none;
+      }
+
+      &:last-child {margin-right: 0;}
+    }
+  }
+}
+
+
