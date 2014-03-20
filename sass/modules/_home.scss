@@ -5,10 +5,15 @@
 Home
 ==================== */
 
+
+
 #home {
   background-position: 0 80px;
-  background-color: #660000;
-  padding: 125px 0 40px 0;
+  background-color: #000;
+  background: url("/images/bg-home-temp.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 160px 0 100px 0;
   text-align: center;
 
   h2 {
@@ -187,9 +192,9 @@ section#home_more{
         margin: 0 35px 20px 0;
         padding: 0;
         float: left;
-        
-        &:last-child { 
-          margin-right: 0; 
+
+        &:last-child {
+          margin-right: 0;
         }
         img {
           width: 100%;
@@ -223,7 +228,7 @@ section#home_more{
       font-family: 'lato';
       font-size: $font-medium;
       line-height: 20px;
-      font-weight: 400; 
+      font-weight: 400;
       margin: 0 !important;
     }
   }
