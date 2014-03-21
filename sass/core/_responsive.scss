@@ -65,28 +65,9 @@ Media Queries for Tablets
   section.our-clients ul li {
     width: 31%;
     margin: 0 20px 20px 0;
-    height: 180px;
 
     &:nth-child(4n+4) { margin-right: 20px; }
     &:nth-child(3n+3) { margin-right: 0; }
-
-    a:before {
-      height: 80px;
-      display: block;
-      width: 180px;
-      margin: 10px auto;
-      padding-bottom: 10px;
-      background-size: 180px;
-    }
-
-    &:nth-of-type(1) { a:before { background-position: 0 -80px; } }
-    &:nth-of-type(2) { a:before { background-position: 0 -490px; } }
-    &:nth-of-type(3) { a:before { background-position: 0 495px; } }
-    &:nth-of-type(4) { a:before { background-position: 0 0; } }
-    &:nth-of-type(5) { a:before { background-position: 0 -410px; } }
-    &:nth-of-type(6) { a:before { background-position: 0 -240px; } }
-    &:nth-of-type(7) { a:before { background-position: 0 -160px; } }
-    &:nth-of-type(8) { a:before { background-position: 0 -570px; } }
   }
 
   /* Cover Banner */
@@ -668,13 +649,10 @@ Media Queries for Smartphones
     }
 
     ul li {
-      width: 49%;
-      margin: 0 5px 10px 0;
-      height: 180px;
+      height: 200px;
+      margin: 0 15px 10px 0;
 
-      &:nth-child(4n+4) { margin-right: 0; }
-      &:nth-child(3n+3) { margin-right: 5px; }
-      &:nth-child(2n+2) { margin-right: 0; }
+      &:nth-child(4n+4) { margin-right: 15px; }
     }
   }
 
@@ -1215,13 +1193,13 @@ Media Queries for Smartphones
 
     article p {
       font-size: $font-medium2;
-      line-height: 26px; 
+      line-height: 26px;
     }
 
     article:nth-child(2),
     article:nth-child(3),
-    article:nth-child(4), 
-    article:nth-child(5), 
+    article:nth-child(4),
+    article:nth-child(5),
     article:nth-child(6),
     article:nth-child(7) {
       section:after,
@@ -1474,12 +1452,15 @@ Media Queries with adjustments for Smartphones
 
 
   section.our-clients ul li {
-    width: 100%;
-    margin: 10px 0;
+    width: 48%;
+    margin: 0 10px 20px 0;
 
-    &:nth-child(4n+4) { margin-right: 0; }
-    &:nth-child(3n+3) { margin-right: 0; }
+    &:nth-child(3n+3) { margin-right: 10px; }
     &:nth-child(2n+2) { margin-right: 0; }
+
+    img {
+      margin: 0 auto;
+    }
   }
 
 
