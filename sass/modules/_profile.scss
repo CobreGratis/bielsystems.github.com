@@ -13,9 +13,8 @@ User Profile
   background: -ms-linear-gradient(top, #fff 0%, #f9f9f9 100%); /* IE10+ */
   background: linear-gradient(top bottom, #fff 0%, #f9f9f9 100%); /* W3C */
   border-bottom: 1px solid #fff;
-  padding: 135px 0 35px 0;
+  padding: 120px 0 40px 0;
   @include clearfix;
-
 
   h2 {
     font-weight: 900;
@@ -36,14 +35,21 @@ User Profile
 
   h3 {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: $font-large;
+    font-weight: 300;
     color: #8e8c8e;
-    margin: 0 0 20px;
+    margin: 5px 0 20px 0;
+  }
+  
+  h4 {
+    text-transform: uppercase;
+    font-size: $font-medium;
+    font-weight: bold;
+    color: #8e8c8e;
+    margin: 0 0 10px 0;
   }
 
-  .skill-list {
-    margin: 0 0 20px 0;
-  }
+  .skill-list { margin: 0 0 20px 0; }
 
   .skill-tag {
     margin: 0 5px 5px 0;
@@ -56,6 +62,7 @@ User Profile
 
 .photo-bio {
   width: 30%;
+  margin-top: 10px;
   float: right;
 }
 

@@ -20,11 +20,17 @@ layout: default
       {% endfor %}
 
       {% if page.skills %}
-      <h3>Skills</h3>
-      <div class="skill-list">{% for skill in page.skills %}<span class="skill-tag">{{ skill }}</span>{% endfor %}</div>
+        <h4>Skills</h4>
+        <div class="skill-list">
+          {% for skill in page.skills %}
+            <span class="skill-tag">
+              {{ skill }}
+            </span>
+          {% endfor %}
+        </div>
       {% endif %}
 
-      <h3>Social</h3>
+      <h4>Social</h4>
       <ul class="social-links">
         {% if page.twitter %}<li><a href="https://twitter.com/{{ page.twitter }}" class="profile-twitter">@{{ page.twitter }}</a></li>{% endif %}
         {% if page.dribbble %}<li><a href="http://dribbble.com/{{ page.dribbble }}" class="profile-dribbble">{{ page.dribbble }}</a></li>{% endif %}
