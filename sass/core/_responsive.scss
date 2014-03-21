@@ -680,20 +680,26 @@ Media Queries for Smartphones
   }
 
   #time .red-button { margin-bottom: 40px; }
+  
+  
+  /* Services  */
+
+  #services,
+  .services-text { width: 100%; }
 
 
   /* Video Gallery */
-
-  .videothumbs li {
-    width: 80%;
-
-    &:hover {
-      background: url("/images/play.jpg") no-repeat white;
-      background-size: 100%;
-    }
-  }
   
-  .our-team-videos li {width: 60%; }
+  .videothumbs {
+    width: 100% !important;
+    text-align: center;
+
+    li {
+      width: 60% !important;
+      background-size: 50%;
+      background-position: center center;
+    }  
+  }
 
 
   /* Sobre Nós */
@@ -791,17 +797,6 @@ Media Queries for Smartphones
         }
       }
     }
-  }
-
-
-  /* Services Page */
-
-  .services-text { width: 100%; }
-
-  .services .videothumbs {
-    width: 80%;
-    padding: 0 10% 0 10%;
-    margin-top: 20px;
   }
 
 
