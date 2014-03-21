@@ -269,24 +269,21 @@ section.our-clients {
       margin: 0 25px 30px 0;
       box-shadow: 0 4px 8px -3px #d8d8d8;
 
-      a:before {
-        content: '';
+      img {
+        width: 100%;
+        margin: 10px auto;
         display: block;
-        background: url('/images/home/clients_logos.png');
-        height: 100px;
-        width: 220px;
-        margin: 20px auto;
-        padding-bottom: 10px;
-        border-bottom: 1px solid $light-grey2;
       }
 
-      a {
+      h3 {
         width: 100%;
         display: block;
         text-align: center;
         text-decoration: none;
         font-weight: 600;
         letter-spacing: 0.03em;
+        border-top: 1px solid $light-grey2;
+        padding-top: 20px;
 
         span {
           display: block;
@@ -298,15 +295,6 @@ section.our-clients {
       }
 
       &:nth-child(4n+4) { margin-right: 0; }
-
-      &:nth-of-type(1) { a:before { background-position: 0 -100px; } }
-      &:nth-of-type(2) { a:before { background-position: 0 -600px; } }
-      &:nth-of-type(3) { a:before { background-position: 0 -400px; } }
-      &:nth-of-type(4) { a:before { background-position: 0 0; } }
-      &:nth-of-type(5) { a:before { background-position: 0 -500px; } }
-      &:nth-of-type(6) { a:before { background-position: 0 -300px; } }
-      &:nth-of-type(7) { a:before { background-position: 0 -200px; } }
-      &:nth-of-type(8) { a:before { background-position: 0 -700px; } }
     }
   }
 }
