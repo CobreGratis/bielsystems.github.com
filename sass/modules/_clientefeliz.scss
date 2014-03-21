@@ -68,7 +68,7 @@ Cliente Feliz
     line-height: 27px;
     margin: 0 0 15px 0;
   }
-  
+
   p {
     &:before,
     &:after {
@@ -91,17 +91,17 @@ Cliente Feliz
     }
 
   } // p
-  
+
   span {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
   }
-  
+
   > div {
     border-top: 1px solid $grey1;
     padding-top: 20px;
     margin-top: 20px;
-    
+
     a {
       margin-right: 20px;
 
@@ -111,7 +111,7 @@ Cliente Feliz
       }
     }
   }
-    
+
 } // .client-info
 
 .more-videos {
