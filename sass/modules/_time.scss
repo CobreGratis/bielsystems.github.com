@@ -125,24 +125,6 @@ Team
   padding: 30px 0 0 0;
   text-align: center;
   margin-bottom: 0;
-    .videothumbs {
-      width: 20%;
-      margin-top: 40px;
-      overflow: hidden;
-
-      li {
-        box-shadow: 0 4px 8px -3px #d8d8d8;
-        width: 20%;
-        background: #fff url("/images/play.jpg") no-repeat;
-        background-size: 100%;
-        margin: 0 35px 0 0;
-        padding: 10px;
-        float: left;
-
-        &:last-child { margin-right: 0; }
-      }
-
-    }
   
   li {
     display: inline-block;
