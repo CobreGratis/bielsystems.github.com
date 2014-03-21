@@ -5,6 +5,36 @@
 Services
 ==================== */
 
+.videothumbs {
+
+  li {
+    box-shadow: 0 4px 8px -3px #d8d8d8;
+    width: 42%;
+    background: #fff url("/images/play.jpg") no-repeat;
+    background-size: 100%;
+    margin: 0 3% 30px 3%;
+    padding: 10px;
+    display: inline-block;
+    font-size: $font-medium;
+    opacity: 1;
+
+    p {
+      margin-bottom: 15px;
+      color: #333;
+      font-size: $font-medium;
+      line-height: 22px;
+    }
+
+    img {
+      width: 100%;
+      display: block;
+      opacity: .7;
+
+      &:hover { opacity: 1; }
+    }
+  }
+}
+
 .services {
   background: #fafafa;
   padding-bottom: 40px;

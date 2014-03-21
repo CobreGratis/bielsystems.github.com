@@ -1,3 +1,4 @@
+
 @charset "utf-8";
 
 
@@ -5,130 +6,113 @@
 Cliente Feliz
 ==================== */
 
-#cliente-feliz,
-#happy-costumer {
-  background: #efefef url("/images/bg-time.png") top center no-repeat;
-  text-align: center;
-  padding: 60px 0 1px 0;
-  @include clearfix;
-}
-
-.videothumbs {
+#cliente-feliz {
 
   li {
-    box-shadow: 0 4px 8px -3px #d8d8d8;
-    width: 42%;
-    background: #fff url("/images/play.jpg") no-repeat;
+    width: 100%;
+    padding: 50px 0 50px 0;
     background-size: 100%;
-    margin: 0 3% 30px 3%;
-    padding: 10px;
-    display: inline-block;
-    font-size: $font-medium;
-    opacity: 1;
-    p{
-      margin-bottom: 15px;
-      color: #333;
-      font-size: 16px;
-      line-height: 24px;
-    }
+    @include clearfix;
+  }
+
+  li:nth-child(odd) { background: $light-grey1; }
+  li:nth-child(even) { background: #fff; }
+
+  .client-thumb {
+    @include round_borders (4px);
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0 0 7px #e2e2e2;
+    width: 400px;
+    background-color: $light-grey2;
+    border: 1px solid $grey2;
+    padding: 5px;
 
     img {
-      width: 100%;
-      display: block;
-      opacity: .7;
-
-      &:hover { opacity: 1; }
+      @include round_borders (2px);
+      width: 99.6%;
+      border: 1px solid $grey2;
+      border-bottom: none;
+      float: left;
     }
   }
-  .quote {
-    text-align: left;
-    box-shadow: none;
-    width: 40%;
-    background: transparent;
-    margin: 0 3% 30px 3%;
-    padding: 10px;
-    display: inline-block;
-    font-size: $font-medium;
-    opacity: 1;
-    vertical-align: top;
-    
-    p.testimonial{
-      &:before, &:after {
-        width: 25px;
-        height: 20px;
-        content: "";
-        display: inline-block;
-      }
 
-      &:before {
-        background: url('/images/cliente-feliz/aspa1-black.png') no-repeat scroll top left;
-        opacity: 0.2;
-        margin-right: 5px;
-      }
+}
 
-      &:after {
-        background: url('/images/cliente-feliz/aspa2-black.png') no-repeat scroll top left;
-        opacity: 0.2;
-        margin-left: 5px;
-      }
-    }
-    .project_case{
-      margin: 30px 20px 0 0;
-      text-decoration: none;
-      font-size: 14px;
-      display: inline-block;
-      a{
-        display: inline-block;
-      }
-      img{
-        height: 23px;
-        width: 20px;
-        display: inline-block;
-        vertical-align: middle;
-        margin-right: 5px;
-      }
-    }
+.odd-client .client-thumb { float: left; }
+.even-client .client-thumb { float: right; }
 
-    h3{
-      font-weight: 300;
-      text-transform: uppercase;
-      font-size: 30px;
-      color: #B80606;
-      margin:0 0 20px 0;
-      padding:0;
-    }
-    span{
-      font-weight: bold;
-      margin: 20px 0 40px 0;
-      font-size:  14px;
-      line-height: 16px;
-      a{
-        display: block;
-        text-decoration: none;
-      }
-    }
-  }
-  
-  .more-videos {
-    background-image: none;
+.odd-client .client-info { margin-left: 450px; }
+.even-client .client-info { margin-right: 450px; }
 
-    img {
-      opacity: 1;
-
-      &:hover { opacity: .7; }
-    }
-  }
+.client-info {
 
   h3 {
-    margin: 10px 0 0 0;
-    font-size: $font-medium;
-    color: $he_red;
+    font-size: $font-big;
+    font-weight: 900;
+    color: #000;
+    margin: 0 0 15px 0;
   }
 
   p {
-    font-size: $font-small;
-    margin: 2px 0 0 0;
-    color: #8c8c8c;
-    display: block;
+    font: normal $font-medium2 $sans_serif;
+    line-height: 27px;
+    margin: 0 0 15px 0;
+  }
+  
+  p {
+    &:before,
+    &:after {
+      width: 25px;
+      height: 20px;
+      content: "";
+      display: inline-block;
+    }
+
+    &:before {
+      background: url('/images/cliente-feliz/aspa1-black.png') no-repeat scroll top left;
+      opacity: .2;
+      margin-right: 10px;
+    }
+
+    &:after {
+      background: url('/images/cliente-feliz/aspa2-black.png') no-repeat scroll top left;
+      opacity: .2;
+      margin-left: 10px;
+    }
+
+  } // p
+  
+  span {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+  
+  > div {
+    border-top: 1px solid $grey1;
+    padding-top: 20px;
+    margin-top: 20px;
+    
+    a {
+      margin-right: 20px;
+
+      img {
+        width: 25px;
+        margin-right: 10px;
+      }
+    }
+  }
+    
+} // .client-info
+
+.more-videos {
+  text-align: center;
+  padding: 30px 0 20px 0 !important;
+
+  img {
+    opacity: 1;
+
+    &:hover { opacity: .7; }
   }
 }
