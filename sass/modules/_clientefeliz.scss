@@ -11,12 +11,11 @@ Cliente Feliz
   li {
     width: 100%;
     padding: 50px 0 50px 0;
-    background-size: 100%;
     @include clearfix;
   }
 
-  li:nth-child(odd) { background: $light-grey1; }
-  li:nth-child(even) { background: #fff; }
+  li:nth-child(odd) { background-color: $light-grey1; }
+  li:nth-child(even) { background-color: #fff; }
 
   .client-thumb {
     @include round_borders (4px);
@@ -28,6 +27,12 @@ Cliente Feliz
     background-color: $light-grey2;
     border: 1px solid $grey2;
     padding: 5px;
+    
+    background-image: url("/images/play.jpg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 1;
 
     img {
       @include round_borders (2px);
@@ -35,6 +40,9 @@ Cliente Feliz
       border: 1px solid $grey2;
       border-bottom: none;
       float: left;
+      opacity: .7;
+      
+      &:hover { opacity: 1; }
     }
   }
 
