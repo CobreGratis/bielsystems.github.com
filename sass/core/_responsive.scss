@@ -599,9 +599,7 @@ Media Queries for Smartphones
   }
 
   section.our-clients {
-    h2 {
-      font-size: $font-big;
-    }
+    h2 { font-size: $font-big; }
 
     ul li {
       height: 200px;
@@ -684,10 +682,9 @@ Media Queries for Smartphones
   #time .red-button { margin-bottom: 40px; }
 
 
-  /* Cliente Feliz */
+  /* Services */
 
-  .videothumbs li,
-  .videothumbs2 li {
+  .videothumbs li {
     width: 80%;
 
     &:hover {
@@ -696,23 +693,6 @@ Media Queries for Smartphones
     }
   }
 
-  section#cliente-feliz{
-    .videothumbs li.quote{
-      width: 80%;
-
-      &:hover { background: transparent; }
-    }
-
-    .videothumbs li,
-    .videothumbs2 li {
-      width: 80%;
-
-      &:hover {
-        background: url("/images/play.jpg") no-repeat white;
-        background-size: 100%;
-      }
-    }
-  }
 
   /* Sobre Nós */
 
@@ -772,7 +752,7 @@ Media Queries for Smartphones
           margin-top: 0px;
           border-top: 2px solid $he_red;
         }
-      }
+      } // artcile
     }
 
     section:last-child {
@@ -931,21 +911,24 @@ Media Queries for Smartphones
 
   .browser-nav { height: 20px; }
 
-  #work {
+  #work,
+  #cliente-feliz {
     text-align: center;
 
-    .work-thumb,
-    .work-thumb-mobile {
-      width: 60%;
-      margin-bottom: 25px;
-      display: inline-block;
-      float: none;
-    }
-
-    .work-info {
+    .work-info,
+    .client-info {
       text-align: left;
       margin: 0;
     }
+  }
+  
+  #work .work-thumb,
+  #cliente-feliz .client-thumb,
+  #work .work-thumb-mobile {
+    width: 60%;
+    margin-bottom: 25px;
+    display: inline-block;
+    float: none;
   }
 
 
@@ -1449,6 +1432,7 @@ Media Queries with adjustments for Smartphones
   /* works */
 
   #work .work-thumb,
+  #cliente-feliz .client-thumb,
   #work .work-thumb-mobile { width: 96%; }
 
   .work-info h3 {
