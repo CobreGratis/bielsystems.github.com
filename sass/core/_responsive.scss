@@ -980,12 +980,7 @@ Media Queries for Smartphones
   .mini-bio {
     width: 100%;
 
-    p {
-      font-size: $font-medium;
-      line-height: 23px;
-    }
-
-    .job-title { font-size: $font-medium; }
+    .job-title { font-size: $font-medium2; }
   }
 
   .profile-picture img { display: none; }
