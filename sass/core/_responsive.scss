@@ -753,7 +753,8 @@ Media Queries for Smartphones
 
   /* Cliente Feliz */
 
-  .videothumbs li, .videothumbs2 li {
+  .videothumbs li,
+  .videothumbs2 li {
     width: 80%;
 
     &:hover {
@@ -761,14 +762,16 @@ Media Queries for Smartphones
       background-size: 100%;
     }
   }
+
   section#cliente-feliz{
     .videothumbs li.quote{
       width: 80%;
-      &:hover{
-        background: transparent;
-      }
+
+      &:hover { background: transparent; }
     }
-    .videothumbs li, .videothumbs2 li {
+
+    .videothumbs li,
+    .videothumbs2 li {
       width: 80%;
 
       &:hover {
@@ -1141,9 +1144,8 @@ Media Queries for Smartphones
 
   .mvp-projects li {
     width: 100%;
-    .about{
-      width:85%;
-    }
+
+    .about{ width: 85%; }
   }
 
   .value-column{
@@ -1220,22 +1222,29 @@ Media Queries for Smartphones
 
   section#atendesimples-steps  {
 
-    article h2, h3 { text-align: left; }
+    article h2,
+    h3 { text-align: left; }
 
     article h2 { font-size: 26px; }
 
-    article p { font-size: 16px; line-height: 26px; }
+    article p {
+      font-size: $font-medium2;
+      line-height: 26px; 
+    }
 
-    article:nth-child(2), article:nth-child(3), article:nth-child(4), article:nth-child(5), article:nth-child(6), article:nth-child(7) {
-
-      section:after, section:before { display: none; }
+    article:nth-child(2),
+    article:nth-child(3),
+    article:nth-child(4), 
+    article:nth-child(5), 
+    article:nth-child(6),
+    article:nth-child(7) {
+      section:after,
+      section:before { display: none; }
     }
   }
 
   section.testimonials {
-    h2 {
-      margin: 30px 0;
-    }
+    h2 { margin: 30px 0; }
 
     blockquote {
       padding: 30px 0;
@@ -1245,9 +1254,8 @@ Media Queries for Smartphones
         line-height: 28px;
         text-align: left;
 
-        &:before, &:after {
-          display: none;
-        }
+        &:before,
+        &:after { display: none; }
       }
 
       em {
@@ -1289,6 +1297,7 @@ Media Queries for Smartphones
 
     article {
       width: 100%;
+
       a.btn-mobile {
         display: inline-block;
         padding: 10px 40px;
@@ -1419,14 +1428,10 @@ Media Queries for Smartphones
 
   .midiakit_wrap {
 
-    p{
-    max-width: 80%;
-    }
+    p{ max-width: 80%; }
 
     ul.downloads {
-      li{
-      width: 300px;
-      }
+      li{ width: 300px; }
     }
 
   }
