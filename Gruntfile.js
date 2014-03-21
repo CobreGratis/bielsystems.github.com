@@ -13,9 +13,21 @@ module.exports = function(grunt) {
     },
     uglify: {
       my_target: {
+        // as execution order matters for JS. script.js has to be last
         files: {
           'javascripts/application.min.js': [
-            'javascripts/source/*.js'
+            'javascripts/source/instantclick.min.js',
+            'javascripts/source/jquery.localScroll.js',
+            'javascripts/source/jquery.maskedinput.js',
+            'javascripts/source/jquery.prettyPhoto.js',
+            'javascripts/source/jquery.scrollTo.js',
+            'javascripts/source/jquery.tipTip.js',
+            'javascripts/source/jquery.validate.js',
+            'javascripts/source/jquery.touchSwipe.min.js',
+            'javascripts/source/jquery.liquid-slider.min.js',
+            'javascripts/source/jquery.easing.1.3.js',
+            'javascripts/source/testimonials.js',
+            'javascripts/source/scripts.js'
           ]
         }
       }
