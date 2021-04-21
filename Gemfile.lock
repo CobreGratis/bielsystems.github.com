@@ -7,7 +7,9 @@ GEM
       fast-stemmer (>= 1.0.0)
     directory_watcher (1.4.1)
     fast-stemmer (1.0.1)
-    haml (3.1.4)
+    haml (5.0.0)
+      temple (>= 0.8.0)
+      tilt
     jekyll (0.11.2)
       albino (~> 1.3)
       classifier (~> 1.3)
@@ -23,12 +25,14 @@ GEM
     posix-spawn (0.3.6)
     sass (3.1.15)
     syntax (1.0.0)
+    temple (0.8.2)
+    tilt (2.0.10)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  haml (= 3.1.4)
+  haml (= 5.0.0)
   jekyll (= 0.11.2)
   jekyll_ext (= 0.1.4)
   sass (= 3.1.15)
